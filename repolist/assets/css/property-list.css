@@ -1,0 +1,119 @@
+/* property list */
+.properties {
+  margin-bottom: 20px;
+}
+.property .property-image {
+  float: left;
+  background: #ecebeb;
+  max-width: 222px;
+  position: relative;
+  width: 100%;
+}
+.property .property-image .property-image-holder {
+  display: block;
+  height: 169px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  width: 222px;
+}
+.property .property-image img {
+  margin: 0;
+  max-height: 159px;
+  max-width: 212px;
+  vertical-align: top;
+  width: 100%;
+}
+.property .property-image .property-image-actions {
+  background: none repeat scroll 0 0 #ecebeb;
+  display: block;
+  height: 20px;
+  padding: 0 10px;
+}
+.property .property-image .property-image-actions a {
+  font-weight: bold;
+  line-height: 20px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.property .property-image .property-image-actions span {
+  vertical-align: top;
+  margin-top: 5px;
+}
+.property .property-info {
+  margin-left: 240px;
+}
+.property .property-info .property-price a {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.property .property-info .property-price span {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+}
+.property .property-info .property-short {
+  font-size: 18px;
+}
+.property .property-info .property-address {
+  font-weight: bold;
+  display: block;
+}
+.property .property-info .property-long {
+  /*height: 32px;*/
+  margin-top: 10px;
+  overflow: hidden;
+  line-height: 16px;
+  font-size: 12px;
+}
+.property .property-info .property-more {
+  font-weight: bold;
+}
+.property .property-info .property-actions {
+  margin-top: 10px;
+}
+.property .property-info .property-actions .btn-property {
+  border: 1px solid #c4c4c4;
+  background: #e2e2e2;
+  background: -moz-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e2e2e2));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #e2e2e2 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #e2e2e2 100%);
+  color: #000000;
+  font-weight: normal;
+  text-shadow: 0 -1px 0px #FFF;
+}
+.property + .property {
+  margin-top: 20px;
+  border-top: 1px solid #bfbfbf;
+  padding-top: 20px;
+}
+@media (max-width: 600px) {
+  .property .property-image {
+    float: none;
+    margin: 0 auto;
+  }
+  .property .property-info {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  .property .property-info .property-price span,
+  .property .property-info .property-image-actions,
+  .property .property-info .property-long,
+  .property .property-info .property-more,
+  .property .property-info .property-actions {
+    display: none;
+  }
+}
+.save-links {
+  font-size: 16px;
+}
+.pagination-count {
+  margin: 10px 0;
+  font-size: 16px;
+}
+/* END property list */

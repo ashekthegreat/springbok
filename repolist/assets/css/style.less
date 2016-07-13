@@ -1,0 +1,256 @@
+/* Mozilla based browsers */
+::-moz-selection {
+    background-color: #FFFFA4;
+    color: #444;
+}
+
+/* Works in Safari */
+::selection {
+    background-color: #FFFFA4;
+    color: #444;
+}
+
+.print-only {
+    display: none !important;
+}
+
+@media print {
+    .print-only {
+        display: block !important;
+    }
+
+    .print-full-width {
+        width: 100%;
+        float: none;
+    }
+}
+
+body {
+    font-size: 13px;
+    font-family: Arial, sans-serif, "Helvetica Neue", Helvetica;
+}
+
+a {
+    color: #647d3c;
+}
+
+a:hover, a:focus {
+    color: #465d20;
+}
+
+h1.page-header {
+    margin-top: 0;
+}
+
+.inb {
+    display: inline-block;
+}
+
+.text-red {
+    color: #d20014;
+}
+
+.text-green {
+    color: #007500;
+}
+
+.img-stretch {
+    width: 100%;
+}
+
+.list-gap li {
+    margin-bottom: 10px;
+}
+
+.main-header {
+    background: #7f7f7f;
+}
+
+.main-nav {
+    .navbar {
+        background: none;
+        border: 0 none;
+        margin: 0;
+        min-height: 30px;
+    }
+    .navbar-toggle {
+        color: #FFF;
+        font-weight: bold;
+        padding: 6px 10px;
+
+        &:hover, &:focus {
+            background-color: #ddd;
+            color: #000;
+        }
+    }
+    .navbar-nav > li > a {
+        color: #fff;
+        padding: 5px 20px;
+        text-transform: uppercase;
+    }
+}
+
+#site-navigation .caret {
+    display: none;
+}
+
+.touch #site-navigation .caret {
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    #site-navigation .dropdown-menu {
+        border-radius: 0;
+    }
+
+    #site-navigation .caret {
+        display: inline-block;
+    }
+
+    #site-navigation a {
+        border-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+.main-section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.main-footer {
+    background: #efefef;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1030px;
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+.site-breadcrumb {
+    padding: 0 15px;
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.header-top {
+    min-height: 20px;
+    text-align: right;
+    margin-bottom: 15px;
+
+    a {
+        padding: 7px 10px;
+        color: #fff;
+        text-transform: uppercase;
+        line-height: 30px;
+    }
+}
+
+.search-page {
+    background: url("../img/search-bg.jpg") center no-repeat #d6f5a4;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #434343;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #647d3c;
+    font-weight: bold;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    border-radius: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7f7f7f;
+    border-color: #7f7f7f;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #5f5f5f;
+    border-color: #5f5f5f;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.input-group-addon {
+    border-radius: 0;
+}
+
+.well {
+    border: 2px solid #e0e0e0;
+    border-radius: 0;
+    background: #fff;
+    box-shadow: none;
+
+    &.well-filled {
+        background: #f3f3f3;
+    }
+}
+
+.property-page-header {
+    position: relative;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bold;
+    background: #d6f5a4;
+    color: #647d3c;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 57px;
+
+    i {
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        min-width: 43px;
+        display: inline-block;
+        text-align: center;
+        background: #647d3c;
+        line-height: 43px;
+    }
+    span {
+        font-weight: normal;
+    }
+}
+
+.search-box-header {
+    color: #647d3c;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+@import "property-list";
+@import "property-details";
