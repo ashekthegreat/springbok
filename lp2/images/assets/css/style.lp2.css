@@ -20,6 +20,12 @@
 .sprite-tw_icon{ background-position: 0 -1046px; width: 36px; height: 37px; }
 .sprite-ys-bg{ background-position: 0 -1113px; width: 241px; height: 39px; }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+    line-height: 1.1;
+    color: #333;
+}
+
 .main-container {
     background: #efefef;
     color: #818181;
@@ -206,7 +212,6 @@ img {
 
 .site-header {
     font-size: 22px;
-    text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
     font-weight: bold;
@@ -480,4 +485,14 @@ img {
     color: #F1F1F1;
     background-color: #000;
     border-color: #000;
+}
+
+.navbar {
+    min-height: 40px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    font-weight: bold;
+    color: #EEE;
+    font-size: 12px;
+    padding: 10px 25px;
 }

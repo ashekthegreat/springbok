@@ -78,4 +78,19 @@ $(function(){
     } else{
         $(".sprite-floating_PPC").fadeIn("fast");
     }
-})
+    
+    // fix active of URL
+    var url = window.location.href;
+    var end = url.substr(url.lastIndexOf('/') + 1);
+    var isFound = false;
+    $("#main-navbar li").each(function () {
+        $(this).removeClass("active");
+        if($(this).find("a").attr("href")==end){
+            $(this).addClass("active");
+            isFound = true;
+        }
+    });
+    if(!isFound){
+        $("#main-navbar li:first").addClass("active");
+    }
+});
