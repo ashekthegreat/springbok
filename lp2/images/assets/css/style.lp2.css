@@ -496,3 +496,65 @@ img {
     font-size: 12px;
     padding: 10px 25px;
 }
+
+.testimonial{
+    background: url("../img/right_quote-256.png") no-repeat center right -175px #fcfcfc;
+    border:1px solid #ddd;
+    padding: 5px 15px;
+    max-width: 100%;
+    width: 550px;
+    margin-bottom: 30px;
+    clear: both;
+    margin-left: 20px;
+    position: relative;
+}
+
+.testimonial:before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    border-top: 19px solid #ddd;
+    border-right: 0px solid transparent;
+    border-left: 13px solid transparent;
+}
+
+.testimonial:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 0;
+    height: 0;
+    border-top: 17px solid #fcfcfc;
+    border-right: 0px solid transparent;
+    border-left: 12px solid transparent;
+}
+
+.testimonial:nth-child(2n){
+    float: right;
+}
+
+.testimonial .testimonial-title {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    line-height: 18px;
+}
+
+.testimonial .testimonial-title img {
+    vertical-align: top;
+    float: left;
+}
+
+.testimonial .testimonial-title span {
+    margin-left: 10px;
+}
+
+.testimonial .testimonial-content {
+    padding: 10px 5px 10px 80px;
+    background: url("../img/left_quote-64.png") no-repeat top 13px left;
+    line-height: 18px;
+    min-height: 75px;
+}
