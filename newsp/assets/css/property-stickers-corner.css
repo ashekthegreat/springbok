@@ -1,0 +1,20 @@
+.corner {
+    background: url(../img/corner-sticker.png) no-repeat top left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.corner-commercial{ background-position: 0 0; width: 83px; height: 19px; top: 0; left: -5px; bottom: auto; right: auto; }
+.corner-letagreed{ background-position: 0 -39px; width: 58px; height: 58px; }
+.corner-newhome{ background-position: 0 -117px; width: 71px; height: 19px; top: 0; left: -5px; bottom: auto; right: auto; }
+.corner-previouslymarketed{ background-position: 0 -156px; width: 58px; height: 58px; }
+.corner-reserved{ background-position: 0 -234px; width: 58px; height: 58px; }
+.corner-sold{ background-position: 0 -312px; width: 58px; height: 58px; }
+.corner-soldstc{ background-position: 0 -390px; width: 58px; height: 58px; }
+.corner-soldstcm{ background-position: 0 -468px; width: 58px; height: 58px; }
+.corner-underoffer{ background-position: 0 -546px; width: 58px; height: 58px; }
+
+

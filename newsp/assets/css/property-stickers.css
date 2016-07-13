@@ -1,0 +1,454 @@
+.sticker {
+    position: absolute;
+    right: -9px;
+    top: -9px;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background: url(../img/sprite-sticker.png) 0 0 no-repeat;
+    display: inline-block;
+}
+
+.sticker-attninvestors, .sticker-attninvestorsnh {
+    background-position: 0 -492px;
+}
+
+.sticker-auction {
+    background-position: 0 -562px;
+}
+
+.sticker-availablesoon {
+    background-position: 0 -632px;
+}
+
+.sticker-fixedprice {
+    background-position: 0 -1192px;
+}
+
+.sticker-furnished {
+    background-position: 0 -1262px;
+}
+
+.sticker-homereport {
+    background-position: 0 -1612px;
+}
+
+.sticker-incentive {
+    background-position: 0 -1752px;
+}
+
+.sticker-longlet {
+    background-position: 0 -2242px;
+}
+
+.sticker-newlisting {
+    background-position: 0 -2522px;
+}
+
+.sticker-newprice {
+    background-position: 0 -2662px;
+}
+
+.sticker-nochain {
+    background-position: 0 -2732px;
+}
+
+.sticker-nostampduty {
+    background-position: 0 -2802px;
+}
+
+.sticker-openhouse {
+    background-position: 0 -2942px;
+}
+
+.sticker-opentooffers {
+    background-position: 0 -3012px;
+}
+
+.sticker-partexchange {
+    background-position: 0 -3152px;
+}
+
+.sticker-premiumdisplay {
+    background-position: 0 -3362px;
+}
+
+.sticker-premiumdisplayos {
+    background-position: 0 -3432px;
+}
+
+.sticker-publicnotice {
+    background-position: 0 -3502px;
+}
+
+.sticker-recentlyrenovated {
+    background-position: 0 -3572px;
+}
+
+.sticker-reduced {
+    background-position: 0 -3642px;
+}
+
+.sticker-seaview {
+    background-position: 0 -3852px;
+}
+
+.sticker-shortlet {
+    background-position: 0 -3992px;
+}
+
+.sticker-stampdutypaid {
+    background-position: 0 -4132px;
+}
+
+.sticker-starbuy {
+    background-position: 0 -4202px;
+}
+
+.sticker-unfurnished {
+    background-position: 0 -4412px;
+}
+
+.sticker-viewingadvised {
+    background-position: 0 -4482px;
+}
+
+.sticker-withland {
+    background-position: 0 -4692px;
+}
+
+.sticker-premiumdisplaynh {
+    background-position: 0 -5603px;
+}
+
+.sticker-waterside {
+    background-position: 0 -4832px;
+}
+
+.sticker-generousgarden {
+    background-position: 0 -4902px;
+}
+
+.sticker-stunningviews {
+    background-position: 0 -5042px;
+}
+
+.sticker-smallholding {
+    background-position: 0 -5112px;
+}
+
+.sticker-openday {
+    background-position: 0 -5182px;
+}
+
+.sticker-doublegarage {
+    background-position: 0 -5252px;
+}
+
+.sticker-annexe {
+    background-position: 0 -5322px;
+}
+
+.sticker-mediatour {
+    background-position: 0 -5392px;
+}
+
+.sticker-bestbid {
+    background-position: 0 -5462px;
+}
+
+.sticker-informaltender {
+    background-position: 0 -5532px;
+}
+
+.sticker-servicedoffice {
+    background-position: 0 -7980px;
+}
+
+.sticker-tenyearwarranty {
+    background-position: 0 -2px;
+}
+
+.sticker-first {
+    background-position: 0 -72px;
+}
+
+.sticker-seventyshare {
+    background-position: 0 -142px;
+}
+
+.sticker-sevetyfiveshare {
+    background-position: 0 -212px;
+}
+
+.sticker-aipp {
+    background-position: 0 -282px;
+}
+
+.sticker-arrangevisit {
+    background-position: 0 -352px;
+}
+
+.sticker-ask {
+    background-position: 0 -422px;
+}
+
+.sticker-buildcomplete {
+    background-position: 0 -702px;
+}
+
+.sticker-character {
+    background-position: 0 -772px;
+}
+
+.sticker-coastal {
+    background-position: 0 -842px;
+}
+
+.sticker-soon {
+    background-position: 0 -912px;
+}
+
+.sticker-dealrunsout {
+    background-position: 0 -982px;
+}
+
+.sticker-deals {
+    background-position: 0 -1052px;
+}
+
+.sticker-deposit {
+    background-position: 0 -1122px;
+}
+
+.sticker-greatinvest {
+    background-position: 0 -1332px;
+}
+
+.sticker-greatlocate {
+    background-position: 0 -1402px;
+}
+
+.sticker-green {
+    background-position: 0 -1472px;
+}
+
+.sticker-homebuydirect {
+    background-position: 0 -1542px;
+}
+
+.sticker-retirement {
+    background-position: 0 -1822px;
+}
+
+.sticker-launched {
+    background-position: 0 -1892px;
+}
+
+.sticker-lastone {
+    background-position: 0 -1962px;
+}
+
+.sticker-lastfew {
+    background-position: 0 -2032px;
+}
+
+.sticker-launchweek {
+    background-position: 0 -2102px;
+}
+
+.sticker-limitedoffer {
+    background-position: 0 -2172px;
+}
+
+.sticker-makeoffer {
+    background-position: 0 -2312px;
+}
+
+.sticker-movebyxmas {
+    background-position: 0 -2382px;
+}
+
+.sticker-movenow {
+    background-position: 0 -2452px;
+}
+
+.sticker-newphase {
+    background-position: 0 -2592px;
+}
+
+.sticker-offersticker {
+    background-position: 0 -2872px;
+}
+
+.sticker-openweek {
+    background-position: 0 -3082px;
+}
+
+.sticker-plotofweek {
+    background-position: 0 -3222px;
+}
+
+.sticker-prempartner {
+    background-position: 0 -3292px;
+}
+
+.sticker-rmexclusive {
+    background-position: 0 -3712px;
+}
+
+.sticker-rural {
+    background-position: 0 -3782px;
+}
+
+.sticker-sharedeq {
+    background-position: 0 -3922px;
+}
+
+.sticker-showhome {
+    background-position: 0 -4062px;
+}
+
+.sticker-stunning {
+    background-position: 0 -4272px;
+}
+
+.sticker-trythenbuy {
+    background-position: 0 -4342px;
+}
+
+.sticker-viewessential {
+    background-position: 0 -4552px;
+}
+
+.sticker-village {
+    background-position: 0 -4622px;
+}
+
+.sticker-leaseback {
+    background-position: 0 -4762px;
+}
+
+.sticker-firstbuy {
+    background-position: 0 -5673px;
+}
+
+.sticker-januarysale {
+    background-position: 0 -5743px;
+}
+
+.sticker-newbuy {
+    background-position: 0 -5812px;
+}
+
+.sticker-forstudents {
+    background-position: 0 -5882px;
+}
+
+.sticker-petsconsidered {
+    background-position: 0 -5953px;
+}
+
+.sticker-availablenow {
+    background-position: 0 -6022px;
+}
+
+.sticker-nodeposit {
+    background-position: 0 -6093px;
+}
+
+.sticker-minewhome {
+    background-position: 0 -6162px;
+}
+
+.sticker-safemoveproperty {
+    background-position: 0 -6302px;
+}
+
+.sticker-audiotour, .sticker-audiotournh {
+    background-position: 0 -6372px;
+}
+
+.sticker-videotour, .sticker-videotournh {
+    background-position: 0 -6442px;
+}
+
+.sticker-helptobuy {
+    background-position: 0 -6582px;
+}
+
+.sticker-listedbuilding {
+    background-position: 0 -6652px;
+}
+
+.sticker-periodproperty {
+    background-position: 0 -6720px;
+}
+
+.sticker-retirement {
+    background-position: 0 -6791px;
+}
+
+.sticker-equestrian {
+    background-position: 0 -6861px;
+}
+
+.sticker-conversion, .sticker-conversionnh {
+    background-position: 0 -6930px;
+}
+
+.sticker-extended {
+    background-position: 0 -7000px;
+}
+
+.sticker-parking {
+    background-position: 0 -7070px;
+}
+
+.sticker-confidentialregister {
+    background-position: 0 -7140px;
+}
+
+.sticker-buytolet, .sticker-buytoletnh {
+    background-position: 0 -7211px;
+}
+
+.sticker-outbuildings {
+    background-position: 0 -7280px;
+}
+
+.sticker-only5deposit {
+    background-position: 0 -7350px;
+}
+
+.sticker-garage {
+    background-position: 0 -7420px;
+}
+
+.sticker-offstreetparking {
+    background-position: 0 -7490px;
+}
+
+.sticker-stampdutypaid {
+    background-position: 0 -7561px;
+}
+
+.sticker-over55s {
+    background-position: 0 -7631px;
+}
+
+.sticker-penthouse {
+    background-position: 0 -7700px;
+}
+
+.sticker-southfacinggardens {
+    background-position: 0 -7771px;
+}
+
+.sticker-tenyearwarrantynh {
+    background-position: 0 -7842px;
+}
+
+.sticker-communalgardens {
+    background-position: 0 -7911px;
+}

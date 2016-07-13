@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="css/jquery.dockmodal.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/demo.css" media="screen"/>
+    <link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+    <!-- <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> -->
+    <script type="text/javascript">
+        $("#button9").click(function () {
+            if ($("#my-data1011").length) {
+                // already exists in the page
+                $("#my-data1011").dockmodal();
+            } else {
+                $.get("ajax-data.txt", function (data) {
+                    $('<div id ="my-data1011" />').html(data).dockmodal({
+                        initialState: "docked",
+                        title: "Ajax latin content",
+                        width: 500,
+                        showClose: true,
+                        showPopout: false,
+                        showMinimize: true
+                    });
+                });
+            }
+            return false;
+        });
+
+
+    </script>
+<body>
+    <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal" id="button9">Cancel</button>
+    <button type="button" class="btn btn-default btn-embossed" data-dismiss="modal" id="button8">bttn8
+        <div id="dialog11" title="Minimized">
+            <h2>Lorem ipsum dolor</h2>
+            <input type="text" id="inp"/>
+
+            <p>Lorem ipsum dolor sit amet, ut pri voluptua forensibus, usu alii intellegam scribentur an, phaedrum adipiscing nec an. Nec id sonet eloquentiam, ei postea percipit cum. Velit rationibus ex sit, in has possim disputationi concludaturque, mea at vitae noluisse. Amet reformidans an per, alterum albucius pri cu. Ut his amet quas audire. Per quando tation ei.</p>
+            <h4>Sit ei illum errem</h4>
+
+            <p>Sit ei illum errem maiorum. Eu latine mandamus sea. Te eam dolore partem. Tincidunt democritum appellantur quo te. Eum no veri detracto, ne wisi nemore forensibus est. Te utroque deserunt principes est, id utinam tractatos vim, summo primis discere ei has.</p>
+            <h4>Sea wisi postulant scripserit</h4>
+
+            <p>Sea wisi postulant scripserit in, invidunt mandamus mea in. Mea evertitur mnesarchum ex. Ne movet mnesarchum his. In vix porro quaestio, sit viderer diceret quaestio no.</p>
+
+            <p>Eirmod conclusionemque ex pri. Cum cu integre mandamus, quo wisi phaedrum consetetur cu. In scaevola deseruisse mel, esse placerat erroribus vel no, illud postulant conceptam sea an. Omnes corpora democritum mei ea, quo quando lobortis ut. Eam no idque tempor nominati. Vel habemus argumentum ei. Ipsum scribentur in nam, volutpat mnesarchum no quo.</p>
+
+        </div>
+    </button>
+
+    <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
+    <script src="js/jquery.dockmodal.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.1.1.min.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script src="assets/js/jquery.dockmodal.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script type="text/javascript">
+        $("#button8").click(function () {
+
+            $("#dialog11").dockmodal({
+                initialState: "docked",
+                title: "A content",
+                width: 300
+
+                //     buttons: [
+                // {
+                //     html: 'Cancel',
+                //     buttonClass: 'btn btn-primary',
+                //     click: function (e, dialog) {
+                //         // do something when the button is clicked
+                //         dialog.dockmodal("close");
+                //     }
+                // }, {
+                //     html: 'Ok',
+                //     buttonClass: 'btn btn-primary',
+                //     click: function (e, dialog) {
+                //         // do something when the button is clicked
+                //         dialog.dockmodal("close");
+                //     }
+                // } ]
+            });
+
+        });
+
+    </script>
+</body>
+</html>
