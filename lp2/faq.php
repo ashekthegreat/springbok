@@ -33,7 +33,7 @@
                             <div class="col-sm-8">
                                 <h1 class="site-header">Frequently Asked Questions</h1>
 
-                                <img src="images/assets/img/lp2-faq.png" class="img-responsive" alt="">
+                                <img src="images/assets/img/lp2-faq.png" class="img-responsive banner" alt="" width="633" height="290">
                             </div>
                             <div class="col-sm-4">
                                 <div class="offer-form">

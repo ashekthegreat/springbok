@@ -33,7 +33,7 @@
                             <div class="col-sm-8">
                                 <h1 class="site-header">How It Works</h1>
 
-                                <img src="images/assets/img/3-simple-steps.png" class="img-responsive" alt="">
+                                <img src="images/assets/img/3-simple-steps.png" class="img-responsive banner" alt="" width="633" height="290">
                             </div>
                             <div class="col-sm-4">
                                 <div class="offer-form">
@@ -69,26 +69,27 @@
                         <p class="lead">
                             Our 3-step process is simple and hassle-free
                         </p>
-                        <p>&nbsp;</p>
+                        <blockquote>
+                            <h4>Step 1 - Call us now or submit the quick offer form</h4>
+                            <p>Call us now on 0800 068 7935 or start the fast sale process by entering your address,
+                                postcode and contact details on the quick offer form, and one of our friendly staff
+                                members will be in touch with you to arrange a free no-obligation property valuation.
+                                All your details are secure and treated as 100% confidential.</p>
+                        </blockquote>
 
-                        <h4>Step 1 - Call us now or submit the quick offer form</h4>
-                        <p>Call us now on 0800 068 7935 or start the fast sale process by entering your address,
-                            postcode and contact details on the quick offer form, and one of our friendly staff
-                            members will be in touch with you to arrange a free no-obligation property valuation.
-                            All your details are secure and treated as 100% confidential.</p>
-                        <p>&nbsp;</p>
+                        <blockquote>
+                            <h4>Step 2 - Property assessment and free no-obligation offer</h4>
+                            <p>We value your property free of charge and discuss the options available for a quick
+                                sale whilst achieving maximum market value for your property. Our experienced property
+                                valuer will address any questions you may have.</p>
+                        </blockquote>
 
-                        <h4>Step 2 - Property assessment and free no-obligation offer</h4>
-                        <p>We value your property free of charge and discuss the options available for a quick
-                            sale whilst achieving maximum market value for your property. Our experienced property
-                            valuer will address any questions you may have.</p>
-                        <p>&nbsp;</p>
-
-                        <h4>Step 3 - Cash for your house - hassle-free!</h4>
-                        <p>When the sale is agreed, completion occurs on the day you choose. We ensure that this
-                            process is hassle-free and that the completion occurs speedily and efficiently, meaning
-                            you are free to start your onward move with no stress.</p>
-                        <p>&nbsp;</p>
+                        <blockquote>
+                            <h4>Step 3 - Cash for your house - hassle-free!</h4>
+                            <p>When the sale is agreed, completion occurs on the day you choose. We ensure that this
+                                process is hassle-free and that the completion occurs speedily and efficiently, meaning
+                                you are free to start your onward move with no stress.</p>
+                        </blockquote>
 
                         <h5>Get an instant no-obligation cash offer for your home now. Call us today on 0800 068 7935. (Lines are open 24/7.)</h5>
                     </div>
