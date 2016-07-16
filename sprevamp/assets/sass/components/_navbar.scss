@@ -51,6 +51,10 @@ nav {
     padding: 0;
     white-space: nowrap;
 
+    img{
+      vertical-align: middle;
+    }
+
     &.center {
       left: 50%;
       transform: translateX(-50%);

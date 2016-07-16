@@ -57,6 +57,7 @@
   @extend .z-depth-1;
   transition: .2s ease-out;
   cursor: pointer;
+  font-weight: 500;
 
   &:hover {
     background-color: $button-raised-background-hover;
@@ -193,5 +194,6 @@ button.btn-floating {
 
 // Block button
 .btn-block {
-  display: block;
+  display: block!important;
+  width: 100%;
 }

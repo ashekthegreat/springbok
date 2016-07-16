@@ -1,0 +1,63 @@
+
+main > section{
+    padding: 40px 0;
+}
+h1, h2{
+    text-transform: uppercase;
+}
+.no-padding{
+    padding: 0!important;
+}
+.padding-bottom-5{
+    padding-bottom: 5px;
+}
+.padding-top-5{
+    padding-top: 5px;
+}
+.footer-links {
+    background: url("../images/footer-bg.png") center bottom repeat-x transparent;
+    padding-bottom: 135px;
+}
+.sell-fast{
+    background: url("../images/fast-sold.png") no-repeat center bottom transparent;
+    padding-bottom: 100px;
+    background-size: cover;
+
+}
+.home-how-it-works{
+    > div{
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+}
+
+.home-why{
+    .point{
+        position: relative;
+        min-height: 124px;
+        padding-left: 160px;
+
+        .point-icon{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 150px;
+            text-align: center;
+        }
+        p{
+
+        }
+    }
+}
+
+.classic-form{
+    padding: 30px;
+    input{
+        background: #fff;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+}
