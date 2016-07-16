@@ -6640,7 +6640,7 @@ h1, h2 {
 
 /* line 54, ../sass/_application.scss */
 .classic-form {
-  padding: 30px;
+  padding: 40px 10%;
 }
 /* line 56, ../sass/_application.scss */
 .classic-form input {

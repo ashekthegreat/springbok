@@ -186,9 +186,61 @@
         </section>
 
         <section class="home-video sp-primary sp-secondary-text">
-            <h2 class="center-align">100's OF CUSTOMER VIDEO REVIEWS & VIDEO MESSAGES</h2>
-            <p>We would not have said it better</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l8 offset-l2 center-align">
+                        <h2>100's OF CUSTOMER VIDEO REVIEWS & VIDEO MESSAGES</h2>
+                        <p>We would not have said it better</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/Ag5sJFE6vQM/mqdefault.jpg" width="320" height="180">
+                                <!--<div class="video-container">
+                                    <iframe class="responsive-img" width="560" height="315" src="https://www.youtube.com/embed/Ag5sJFE6vQM?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                                </div>-->
+                            </div>
+                            <div class="card-content center-align">
+                                <p>"They did everything they said they would."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/F0WdUkXvBiQ/mqdefault.jpg" width="320" height="180">
+                                <!--<div class="video-container">
+                                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/F0WdUkXvBiQ?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                                </div>-->
+                            </div>
+                            <div class="card-content center-align">
+                                <p>"I'm very grateful and I would really recommend Springbok."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m4">
+                        <div class="card hoverable">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/BYKz90GY5EM/mqdefault.jpg" width="320" height="180">
+                                <!--<div class="video-container">
+                                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/BYKz90GY5EM?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+                                </div>-->
+                            </div>
+                            <div class="card-content center-align">
+                                <p>"Went above anything that I ever expected."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-videos">
 
+                </div>
+                <div class="center-align">
+                    <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See more reviews</a>
+                </div>
+            </div>
         </section>
 
     </main>
