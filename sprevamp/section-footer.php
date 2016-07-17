@@ -1,4 +1,4 @@
-<footer class="page-footer sp-primary">
+<footer class="page-footer white">
     <div class="footer-links">
         <div class="container">
             <div class="row">
@@ -35,10 +35,11 @@
         </div>
     </div>
     <div class="footer-copyright">
-        <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        <div class="container center-align sp-secondary-text lighten-3">
+            &copy; 2015 Springbok Properties | Privacy Policy | Terms & Conditions | Springbok Properties Reviews | Complaints Procedure | Sitemap
+            <br><br><br>a
         </div>
+
     </div>
 </footer>
 
@@ -46,4 +47,5 @@
 <script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-migrate-3.0.0.min.js"></script>
 <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+<script type="text/javascript" src="assets/js/unslider-min.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>

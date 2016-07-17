@@ -22,22 +22,49 @@
     <main>
 
         <section class="home-banner">
-            Banner
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m8">
+                        <h1>Sell fast and don't leave money on table</h1>
+                        <ul>
+                            <li>Get 100% value for your house</li>
+                            <li>Over 2400 sales agreed in last 12 months.</li>
+                            <li>Won Best Selling Branch in UK 2 years running</li>
+
+                        </ul>
+                    </div>
+                    <div class="col s12 m4 hide-on-small-only">
+                        <form class="white">
+                            <div class="form-title sp-primary sp-secondary-text center-align">
+                                Get Free Valuation
+                            </div>
+                            <div class="classic-form sp-secondary lighten-5">
+                                <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
+                                <input placeholder="Phone Number" id="phone" name="phone" type="text" class="z-depth-1">
+                                <input placeholder="Email" id="email" type="email" class="z-depth-1">
+                                <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
+
+                                <button type="submit" class="waves-effect waves-light btn-large btn-block sp-primary sp-secondary-text">Get Started</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="home-fast">
             <div class="container">
                 <div class="row">
                     <div class="col m6 s12">
-                        <p>
+                        <p class="flow-text">
                             Springbok Properties are revolutionary property
                             selling specialists that sell your property fast and
                             gets you the best possible price.
                         </p>
                         <p>
-                            Contact us today and your property could be:
-                            - Sold for 99% of your agreed asking price
-                            - One of the 230 sales we agree every month
+                            Contact us today and your property could be:<br>
+                            - Sold for 99% of your agreed asking price<br>
+                            - One of the 230 sales we agree every month<br>
                             - One of the 63% of sales we complete in 30 days or less
                         </p>
                     </div>
@@ -169,10 +196,10 @@
                 <div class="row">
                     <form class="sp-primary sp-primary-text text-lighten-5 col s12 m8 offset-m2 l6 offset-l3">
                         <div class="classic-form">
-                            <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
                             <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
-                            <input placeholder="Phone" id="phone" name="phone" type="text" class="z-depth-1">
+                            <input placeholder="Phone Number" id="phone" name="phone" type="text" class="z-depth-1">
                             <input placeholder="Email" id="email" type="email" class="z-depth-1">
+                            <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
 
                             <button type="submit" class="waves-effect waves-light btn-large btn-block sp-secondary sp-primary-text text-lighten-5">Get Started</button>
                         </div>
@@ -243,6 +270,192 @@
             </div>
         </section>
 
+        <section class="home-success white sp-secondary-text">
+            <div class="container">
+                <h2 class="center-align">Get maximum value Fast!<br>That is success for us</h2>
+                <p class="center-align">
+                    We only succeed when you get the maximum value - fast - for your house.
+                    Here are a few examples from thousands of successes!
+                </p>
+                <div class="success-slider">
+                    <ul>
+                        <li>
+                            <div class="card card-horizontal sp-secondary-text clearfix">
+                                <div class="card-image">
+                                    <img src="assets/images/success/audon_avenue.png">
+                                </div>
+                                <div class="card-content">
+                                    <div class="center-align">
+                                        <h3 class="margin-top-0">Mount view</h3>
+                                        <a href="#" class="btn sp-secondary sp-primary-text">More Success Stories</a>
+                                        <div class="row margin-bottom-0">
+                                            <div class="col s5">
+                                                <h5>149 days</h5>
+                                                <p>Not sold with previews estate agents</p>
+                                            </div>
+                                            <div class="col s4">
+                                                <h5>8 days</h5>
+                                                <p>Sale Agreed with Springbok</p>
+                                            </div>
+                                            <div class="col s3">
+                                                <h5>100%</h5>
+                                                <p>Asking Price</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card card-horizontal sp-secondary-text clearfix">
+                                <div class="card-image">
+                                    <img src="assets/images/success/audon_avenue.png">
+                                </div>
+                                <div class="card-content">
+                                    <div class="center-align">
+                                        <h3 class="margin-top-0">Mount view</h3>
+                                        <a href="#" class="btn sp-secondary sp-primary-text">More Success Stories</a>
+                                        <div class="row margin-bottom-0">
+                                            <div class="col s5">
+                                                <h5>149 days</h5>
+                                                <p>Not sold with previews estate agents</p>
+                                            </div>
+                                            <div class="col s4">
+                                                <h5>8 days</h5>
+                                                <p>Sale Agreed with Springbok</p>
+                                            </div>
+                                            <div class="col s3">
+                                                <h5>100%</h5>
+                                                <p>Asking Price</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card card-horizontal sp-secondary-text clearfix">
+                                <div class="card-image">
+                                    <img src="assets/images/success/audon_avenue.png">
+                                </div>
+                                <div class="card-content">
+                                    <div class="center-align">
+                                        <h3 class="margin-top-0">Mount view</h3>
+                                        <a href="#" class="btn sp-secondary sp-primary-text">More Success Stories</a>
+                                        <div class="row margin-bottom-0">
+                                            <div class="col s5">
+                                                <h5>149 days</h5>
+                                                <p>Not sold with previews estate agents</p>
+                                            </div>
+                                            <div class="col s4">
+                                                <h5>8 days</h5>
+                                                <p>Sale Agreed with Springbok</p>
+                                            </div>
+                                            <div class="col s3">
+                                                <h5>100%</h5>
+                                                <p>Asking Price</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-customer-service white-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 center-align">
+                        <h3>No. 1 FOR CUSTOMER SERVICE</h3>
+                        <p>7 Gold Awards with over 1152 Reviews third party collected reviews<br>
+                            96% of our customers recommend selling with us
+                        </p>
+                        <p>All agents review image</p>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="review-slider">
+                            <ul>
+                                <li>
+                                    <p>We only had lone viewing and the house sold. I already recomened Sprinbook to a friend</p>
+                                    <p>- Jennifer Anderson -</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="center-align">
+                            <br>
+                            <a class="waves-effect waves-light btn-large sp-primary sp-secondary-text">Read more reviews</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-recent-sale sp-primary sp-secondary-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h3>We've sold over 5,500 homes all over the UK</h3>
+                        <p>More than 63% of these sold in less than 30 days</p>
+                        <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See Our Recent Sales</a>
+                    </div>
+                    <div class="col s12 m6 hide-on-small-only">
+                        [ map image ]
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-success-numbers white sp-secondary-text center-align">
+            <div class="container">
+                <h2>Success in Numbers</h2>
+                <div class="masonry"></div>
+            </div>
+        </section>
+
+        <section class="home-call-center sp-primary sp-secondary-text center-align">
+            <div class="container">
+                <h2 class="white-text">CALL US NOW FOR A FREE VALUATION</h2>
+                <p>Remember, our valuation offer is completely free, and doesn't commit you to anything at all. Take action now.</p>
+                <h1 class="white-text">0333 200 7322</h1>
+                <p>We're open 24/7</p>
+                <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>
+            </div>
+        </section>
+
+        <section class="home-chat sp-secondary lighten-5 sp-secondary-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m4">
+                        <h3>Want to Chat?</h3>
+                        <p>
+                            Talk to our friendly experts who
+                            can help you make a better decision.
+                        </p>
+                    </div>
+                    <div class="col s12 m5">
+                        <h3>We can call you back</h3>
+                        <form class="">
+                            <div class="classic-form no-padding">
+                                <div class="row margin-bottom-0">
+                                    <div class="col s6">
+                                        <input placeholder="Name" id="chat-name" name="chat-name" type="text">
+                                    </div>
+                                    <div class="col s6">
+                                        <input placeholder="Name" id="chat-phone" name="chat-phone" type="text">
+                                    </div>
+                                </div>
+                                <div class="right-align">
+                                    <button type="submit" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Call Me Back</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <?php include("section-footer.php"); ?>
