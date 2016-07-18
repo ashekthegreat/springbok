@@ -6669,200 +6669,214 @@ input[type=range]:focus::-ms-fill-upper {
 .social-fb-32 {
   width: 32px;
   height: 32px;
-  background-position: -20px -20px;
+  background-position: -5px -5px;
 }
 
 /* line 14, ../sass/_sprite.scss */
 .social-instagram-32 {
   width: 32px;
   height: 32px;
-  background-position: -92px -20px;
+  background-position: -47px -5px;
 }
 
 /* line 20, ../sass/_sprite.scss */
 .social-pinterest-32 {
   width: 32px;
   height: 32px;
-  background-position: -20px -92px;
+  background-position: -5px -47px;
 }
 
 /* line 26, ../sass/_sprite.scss */
 .social-twitter-32 {
   width: 32px;
   height: 32px;
-  background-position: -92px -92px;
+  background-position: -47px -47px;
+}
+
+/* line 32, ../sass/_sprite.scss */
+.social-youtube-32 {
+  width: 32px;
+  height: 32px;
+  background-position: -89px -5px;
+}
+
+/* line 38, ../sass/_sprite.scss */
+.social-youtube-64 {
+  width: 64px;
+  height: 64px;
+  background-position: -89px -47px;
 }
 
 /* Other site icons */
-/* line 33, ../sass/_sprite.scss */
+/* line 47, ../sass/_sprite.scss */
 .sprite {
   background-image: url(../images/sprite.png);
   background-repeat: no-repeat;
   display: inline-block;
 }
 
-/* line 39, ../sass/_sprite.scss */
+/* line 53, ../sass/_sprite.scss */
 .social-247 {
   width: 112px;
   height: 91px;
   background-position: -20px -20px;
 }
 
-/* line 45, ../sass/_sprite.scss */
+/* line 59, ../sass/_sprite.scss */
 .sprite-247 {
   width: 112px;
   height: 91px;
   background-position: -20px -20px;
 }
 
-/* line 51, ../sass/_sprite.scss */
+/* line 65, ../sass/_sprite.scss */
 .sprite-9000 {
   width: 364px;
   height: 154px;
   background-position: -172px -20px;
 }
 
-/* line 57, ../sass/_sprite.scss */
+/* line 71, ../sass/_sprite.scss */
 .sprite-all-agents-star {
   width: 208px;
   height: 111px;
   background-position: -20px -214px;
 }
 
-/* line 63, ../sass/_sprite.scss */
+/* line 77, ../sass/_sprite.scss */
 .sprite-arrow-left {
   width: 24px;
   height: 44px;
   background-position: -576px -20px;
 }
 
-/* line 69, ../sass/_sprite.scss */
+/* line 83, ../sass/_sprite.scss */
 .sprite-arrow-right {
   width: 24px;
   height: 44px;
   background-position: -576px -104px;
 }
 
-/* line 75, ../sass/_sprite.scss */
+/* line 89, ../sass/_sprite.scss */
 .sprite-badge {
   width: 60px;
   height: 88px;
   background-position: -268px -214px;
 }
 
-/* line 81, ../sass/_sprite.scss */
+/* line 95, ../sass/_sprite.scss */
 .sprite-badge-first {
   width: 71px;
   height: 108px;
   background-position: -368px -214px;
 }
 
-/* line 87, ../sass/_sprite.scss */
+/* line 101, ../sass/_sprite.scss */
 .sprite-best {
   width: 95px;
   height: 124px;
   background-position: -479px -214px;
 }
 
-/* line 93, ../sass/_sprite.scss */
+/* line 107, ../sass/_sprite.scss */
 .sprite-calendar {
   width: 49px;
   height: 56px;
   background-position: -20px -378px;
 }
 
-/* line 99, ../sass/_sprite.scss */
+/* line 113, ../sass/_sprite.scss */
 .sprite-call-center {
   width: 124px;
   height: 112px;
   background-position: -109px -378px;
 }
 
-/* line 105, ../sass/_sprite.scss */
+/* line 119, ../sass/_sprite.scss */
 .sprite-computer {
   width: 83px;
   height: 74px;
   background-position: -273px -378px;
 }
 
-/* line 111, ../sass/_sprite.scss */
+/* line 125, ../sass/_sprite.scss */
 .sprite-house {
   width: 65px;
   height: 65px;
   background-position: -396px -378px;
 }
 
-/* line 117, ../sass/_sprite.scss */
+/* line 131, ../sass/_sprite.scss */
 .sprite-left-arrow-round {
   width: 42px;
   height: 41px;
   background-position: -501px -378px;
 }
 
-/* line 123, ../sass/_sprite.scss */
+/* line 137, ../sass/_sprite.scss */
 .sprite-menu {
   width: 30px;
   height: 20px;
   background-position: -583px -378px;
 }
 
-/* line 129, ../sass/_sprite.scss */
+/* line 143, ../sass/_sprite.scss */
 .sprite-no-sale {
   width: 110px;
   height: 109px;
   background-position: -501px -459px;
 }
 
-/* line 135, ../sass/_sprite.scss */
+/* line 149, ../sass/_sprite.scss */
 .sprite-no-upfront {
   width: 151px;
   height: 152px;
   background-position: -640px -20px;
 }
 
-/* line 141, ../sass/_sprite.scss */
+/* line 155, ../sass/_sprite.scss */
 .sprite-people {
   width: 78px;
   height: 38px;
   background-position: -614px -212px;
 }
 
-/* line 147, ../sass/_sprite.scss */
+/* line 161, ../sass/_sprite.scss */
 .sprite-people-large {
   width: 103px;
   height: 68px;
   background-position: -653px -290px;
 }
 
-/* line 153, ../sass/_sprite.scss */
+/* line 167, ../sass/_sprite.scss */
 .sprite-reviews {
   width: 115px;
   height: 114px;
   background-position: -653px -398px;
 }
 
-/* line 159, ../sass/_sprite.scss */
+/* line 173, ../sass/_sprite.scss */
 .sprite-right-arrow-round {
   width: 42px;
   height: 41px;
   background-position: -20px -552px;
 }
 
-/* line 165, ../sass/_sprite.scss */
+/* line 179, ../sass/_sprite.scss */
 .sprite-sp-logo {
   width: 146px;
   height: 110px;
   background-position: -102px -552px;
 }
 
-/* line 171, ../sass/_sprite.scss */
+/* line 185, ../sass/_sprite.scss */
 .sprite-thumb {
   width: 69px;
   height: 66px;
   background-position: -288px -552px;
 }
 
-/* line 177, ../sass/_sprite.scss */
+/* line 191, ../sass/_sprite.scss */
 .sprite-tick-yellow {
   width: 35px;
   height: 29px;
@@ -7161,60 +7175,200 @@ h1, h2 {
     display: none;
   }
 }
-/* line 153, ../sass/_application.scss */
+/* line 152, ../sass/_application.scss */
+.home-video .card {
+  cursor: pointer;
+}
+/* line 155, ../sass/_application.scss */
+.home-video .card .card-image {
+  position: relative;
+}
+/* line 159, ../sass/_application.scss */
+.home-video .card .play-button {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+/* line 167, ../sass/_application.scss */
+.home-video .card .play-button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* line 176, ../sass/_application.scss */
+.home-video .card:hover .play-button {
+  display: block;
+}
+
+/* line 185, ../sass/_application.scss */
 .home-success .card {
   margin: 5px;
 }
 
-/* line 158, ../sass/_application.scss */
+/* line 190, ../sass/_application.scss */
 .home-customer-service {
   background: url("../images/service-bg.png") no-repeat center transparent;
   background-size: cover;
 }
-/* line 162, ../sass/_application.scss */
+/* line 194, ../sass/_application.scss */
 .home-customer-service .review-slider li {
   padding: 5px;
 }
-/* line 165, ../sass/_application.scss */
+/* line 197, ../sass/_application.scss */
 .home-customer-service .unslider-arrow i {
   top: 30%;
 }
 
-/* line 170, ../sass/_application.scss */
+/* line 202, ../sass/_application.scss */
 .home-recent-sale {
   background: url("../images/pattern.png") no-repeat center transparent;
   background-size: cover;
 }
-/* line 174, ../sass/_application.scss */
+/* line 206, ../sass/_application.scss */
 .home-recent-sale .row {
   margin: 0;
 }
-/* line 177, ../sass/_application.scss */
+/* line 209, ../sass/_application.scss */
 .home-recent-sale img {
   vertical-align: top;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 182, ../sass/_application.scss */
+  /* line 214, ../sass/_application.scss */
   .home-recent-sale {
     padding-top: 0;
     padding-bottom: 0;
   }
 }
-/* line 188, ../sass/_application.scss */
+@media only screen and (min-width: 993px) {
+  /* line 226, ../sass/_application.scss */
+  .home-success-numbers .masonry > div {
+    float: left;
+    margin: 0.5%;
+  }
+  /* line 230, ../sass/_application.scss */
+  .home-success-numbers .masonry > div .card-panel {
+    margin: 0;
+  }
+  /* line 234, ../sass/_application.scss */
+  .home-success-numbers .masonry .card-panel {
+    min-width: 200px;
+  }
+  /* line 237, ../sass/_application.scss */
+  .home-success-numbers .masonry .w-small {
+    width: 24%;
+    min-width: 200px;
+  }
+  /* line 241, ../sass/_application.scss */
+  .home-success-numbers .masonry .h-small {
+    height: 250px;
+  }
+  /* line 244, ../sass/_application.scss */
+  .home-success-numbers .masonry .w-large {
+    width: 49%;
+    min-width: 400px;
+  }
+  /* line 248, ../sass/_application.scss */
+  .home-success-numbers .masonry .h-large {
+    height: 510px;
+  }
+  /* line 251, ../sass/_application.scss */
+  .home-success-numbers .masonry .margin-top-10 {
+    margin-top: 4% !important;
+  }
+  /* line 254, ../sass/_application.scss */
+  .home-success-numbers .masonry .big {
+    font-size: 76px;
+    font-weight: 700;
+  }
+  /* line 258, ../sass/_application.scss */
+  .home-success-numbers .masonry .medium {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  /* line 262, ../sass/_application.scss */
+  .home-success-numbers .masonry .valign {
+    width: 100%;
+  }
+  /* line 265, ../sass/_application.scss */
+  .home-success-numbers .masonry span, .home-success-numbers .masonry i {
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 274, ../sass/_application.scss */
+  .home-success-numbers .masonry > div {
+    float: left;
+    margin: 0.5%;
+  }
+  /* line 278, ../sass/_application.scss */
+  .home-success-numbers .masonry > div .card-panel {
+    margin: 0;
+  }
+  /* line 282, ../sass/_application.scss */
+  .home-success-numbers .masonry .card-panel {
+    min-width: 200px;
+  }
+  /* line 285, ../sass/_application.scss */
+  .home-success-numbers .masonry .w-small {
+    width: 49%;
+    min-width: 200px;
+  }
+  /* line 289, ../sass/_application.scss */
+  .home-success-numbers .masonry .h-small {
+    height: 250px;
+  }
+  /* line 292, ../sass/_application.scss */
+  .home-success-numbers .masonry .w-large {
+    width: 99%;
+    min-width: 400px;
+  }
+  /* line 296, ../sass/_application.scss */
+  .home-success-numbers .masonry .h-large {
+    height: 510px;
+  }
+  /* line 299, ../sass/_application.scss */
+  .home-success-numbers .masonry .margin-top-10 {
+    margin-top: 10px !important;
+  }
+  /* line 302, ../sass/_application.scss */
+  .home-success-numbers .masonry .big {
+    font-size: 76px;
+    font-weight: 700;
+  }
+  /* line 306, ../sass/_application.scss */
+  .home-success-numbers .masonry .medium {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  /* line 310, ../sass/_application.scss */
+  .home-success-numbers .masonry .valign {
+    width: 100%;
+  }
+  /* line 313, ../sass/_application.scss */
+  .home-success-numbers .masonry span, .home-success-numbers .masonry i {
+    vertical-align: middle;
+  }
+}
+/* line 320, ../sass/_application.scss */
 .home-call-center {
   background: url("../images/call-center-bg.png") no-repeat center transparent;
   background-size: cover;
 }
 
-/* line 194, ../sass/_application.scss */
+/* line 326, ../sass/_application.scss */
 .home-chat .container {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 201, ../sass/_application.scss */
+  /* line 333, ../sass/_application.scss */
   .home-chat .container {
     background: url("../images/chat-person.png") no-repeat bottom right transparent;
     padding-top: 40px;
@@ -7222,18 +7376,18 @@ h1, h2 {
     min-height: 320px;
   }
 }
-/* line 210, ../sass/_application.scss */
+/* line 342, ../sass/_application.scss */
 .form-title {
   padding: 30px 15px;
   font-size: 30px;
   font-weight: bold;
 }
 
-/* line 215, ../sass/_application.scss */
+/* line 347, ../sass/_application.scss */
 .classic-form {
   padding: 40px 10%;
 }
-/* line 217, ../sass/_application.scss */
+/* line 349, ../sass/_application.scss */
 .classic-form input {
   background: #fff;
   margin-bottom: 15px;
@@ -7243,17 +7397,17 @@ h1, h2 {
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 227, ../sass/_application.scss */
+  /* line 359, ../sass/_application.scss */
   .card-horizontal {
     display: flex;
     align-items: center;
   }
-  /* line 231, ../sass/_application.scss */
+  /* line 363, ../sass/_application.scss */
   .card-horizontal .card-image {
     float: left;
     width: 40%;
   }
-  /* line 235, ../sass/_application.scss */
+  /* line 367, ../sass/_application.scss */
   .card-horizontal .card-content {
     float: left;
     width: 60%;

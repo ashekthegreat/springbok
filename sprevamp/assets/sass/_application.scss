@@ -148,6 +148,38 @@ h1, h2{
     }
 }
 
+.home-video{
+    .card{
+        cursor: pointer;
+
+        .card-image{
+            position: relative;
+
+        }
+        .play-button{
+            background: rgba(0,0,0,.25);
+            position: absolute;
+            top:0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: none;
+            i{
+                position: absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+            }
+
+        }
+        &:hover{
+            .play-button{
+                display: block;
+            }
+        }
+    }
+}
+
 .home-success{
 
     .card{
@@ -182,6 +214,106 @@ h1, h2{
     .home-recent-sale{
         padding-top: 0;
         padding-bottom: 0;
+    }
+}
+
+.home-success-numbers{
+
+}
+@media only screen and (min-width: 993px) {
+    .home-success-numbers{
+        .masonry{
+            > div{
+                float: left;
+                margin: 0.5%;
+
+                .card-panel{
+                    margin: 0;
+                }
+            }
+            .card-panel{
+                min-width: 200px;
+            }
+            .w-small{
+                width: 24%;
+                min-width: 200px;
+            }
+            .h-small{
+                height: 250px;
+            }
+            .w-large{
+                width: 49%;
+                min-width: 400px;
+            }
+            .h-large{
+                height: 510px;
+            }
+            .margin-top-10{
+                margin-top: 4%!important;
+            }
+            .big{
+                font-size: 76px;
+                font-weight: 700;
+            }
+            .medium{
+                font-size: 60px;
+                font-weight: 700;
+            }
+            .valign{
+                width: 100%;
+            }
+            span, i{
+                vertical-align: middle;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .home-success-numbers{
+        .masonry{
+            > div{
+                float: left;
+                margin: 0.5%;
+
+                .card-panel{
+                    margin: 0;
+                }
+            }
+            .card-panel{
+                min-width: 200px;
+            }
+            .w-small{
+                width: 49%;
+                min-width: 200px;
+            }
+            .h-small{
+                height: 250px;
+            }
+            .w-large{
+                width: 99%;
+                min-width: 400px;
+            }
+            .h-large{
+                height: 510px;
+            }
+            .margin-top-10{
+                margin-top: 10px!important;
+            }
+            .big{
+                font-size: 76px;
+                font-weight: 700;
+            }
+            .medium{
+                font-size: 60px;
+                font-weight: 700;
+            }
+            .valign{
+                width: 100%;
+            }
+            span, i{
+                vertical-align: middle;
+            }
+        }
     }
 }
 

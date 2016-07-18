@@ -2,7 +2,7 @@
     <nav>
         <div class="nav-wrapper container">
             <a href="#" class="brand-logo"><img src="assets/images/logo.png" width="152" height="45"></a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><b class="sprite sprite-menu"></b></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">Sell</a></li>
                 <li><a href="#">Free Valuation</a></li>

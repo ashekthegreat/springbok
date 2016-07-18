@@ -7,8 +7,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <title>Springbok Properties - Get Up To 100% Value For Your House Quickly</title>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
 
@@ -206,12 +204,16 @@
                 </div>
                 <div class="row">
                     <div class="col s12 m4">
-                        <div class="card hoverable">
+                        <div class="card hoverable" data-id="Ag5sJFE6vQM">
                             <div class="card-image">
                                 <img class="responsive-img" src="http://img.youtube.com/vi/Ag5sJFE6vQM/mqdefault.jpg" width="320" height="180">
+                                <div class="play-button">
+                                    <i class="social social-youtube-64"></i>
+                                </div>
                                 <!--<div class="video-container">
                                     <iframe class="responsive-img" width="560" height="315" src="https://www.youtube.com/embed/Ag5sJFE6vQM?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
                                 </div>-->
+
                             </div>
                             <div class="card-content center-align">
                                 <p>"They did everything they said they would."</p>
@@ -219,9 +221,12 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card hoverable">
+                        <div class="card hoverable" data-id="F0WdUkXvBiQ">
                             <div class="card-image">
                                 <img class="responsive-img" src="http://img.youtube.com/vi/F0WdUkXvBiQ/mqdefault.jpg" width="320" height="180">
+                                <div class="play-button">
+                                    <i class="social social-youtube-64"></i>
+                                </div>
                                 <!--<div class="video-container">
                                     <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/F0WdUkXvBiQ?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
                                 </div>-->
@@ -232,9 +237,12 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card hoverable">
+                        <div class="card hoverable" data-id="BYKz90GY5EM">
                             <div class="card-image">
                                 <img class="responsive-img" src="http://img.youtube.com/vi/BYKz90GY5EM/mqdefault.jpg" width="320" height="180">
+                                <div class="play-button">
+                                    <i class="social social-youtube-64"></i>
+                                </div>
                                 <!--<div class="video-container">
                                     <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/BYKz90GY5EM?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
                                 </div>-->
@@ -266,22 +274,22 @@
                         <li>
                             <div class="card card-horizontal sp-secondary-text clearfix">
                                 <div class="card-image">
-                                    <img src="assets/images/success/halfpenny_lane.jpg" width="490" height="366">
+                                    <img class="responsive-img" src="assets/images/success/halfpenny_lane.jpg" width="490" height="366">
                                 </div>
                                 <div class="card-content">
                                     <div class="center-align">
                                         <h3 class="margin-top-0">Halfpenny Lane, Wakefield</h3>
                                         <a href="#" class="btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
-                                            <div class="col s5">
+                                            <div class="col s12 m5">
                                                 <h4>1,070 Days</h4>
                                                 <p>Not sold with previews estate agents</p>
                                             </div>
-                                            <div class="col s4">
+                                            <div class="col s12 m4">
                                                 <h4>17 days</h4>
                                                 <p>Sale Agreed with Springbok</p>
                                             </div>
-                                            <div class="col s3">
+                                            <div class="col s12 m3">
                                                 <h4>100%</h4>
                                                 <p>Asking Price</p>
                                             </div>
@@ -293,7 +301,7 @@
                         <li>
                             <div class="card card-horizontal sp-secondary-text clearfix">
                                 <div class="card-image">
-                                    <img src="assets/images/success/briar_close.jpg" width="496" height="376">
+                                    <img class="responsive-img" src="assets/images/success/briar_close.jpg" width="496" height="376">
                                 </div>
                                 <div class="card-content">
                                     <div class="center-align">
@@ -320,7 +328,7 @@
                         <li>
                             <div class="card card-horizontal sp-secondary-text clearfix">
                                 <div class="card-image">
-                                    <img src="assets/images/success/audon_avenue.jpg" width="497" height="372">
+                                    <img class="responsive-img" src="assets/images/success/audon_avenue.jpg" width="497" height="372">
                                 </div>
                                 <div class="card-content">
                                     <div class="center-align">
@@ -431,7 +439,82 @@
         <section class="home-success-numbers white sp-secondary-text center-align">
             <div class="container">
                 <h2>Success in Numbers</h2>
-                <div class="masonry"></div>
+                <div class="masonry clearfix center-align">
+                    <div class="card-panel sp-primary sp-secondary-text valign-wrapper w-small h-small">
+                        <div class="valign">
+                            <div>
+                                <i class="sprite sprite-calendar"></i> &nbsp; <span class="big">63%</span>
+                            </div>
+                            <div>of sales agreed <br> in less than 30 days</div>
+                        </div>
+                    </div>
+                    <div class="card-panel white sp-secondary-text valign-wrapper w-small h-small">
+                        <div class="valign">
+                            <div>
+                                <span class="big sp-primary-text">7</span> &nbsp; <i class="sprite sprite-badge"></i>
+                            </div>
+                            <div>Gold awards in <br> customer service</div>
+                        </div>
+                    </div>
+                    <div class="card-panel sp-primary sp-secondary-text valign-wrapper w-large h-small">
+                        <div class="valign">
+                            <div>
+                                <span class="big">96%</span> &nbsp; <i class="sprite sprite-people-large"></i>
+                            </div>
+                            <div>Of our customers <br> recommend us</div>
+                        </div>
+                    </div>
+                    <div class="card-panel white sp-secondary-text valign-wrapper w-small h-large">
+                        <div class="valign">
+                            <div>From over</div>
+                            <div>
+                                <span class="medium sp-primary-text">14655</span>
+                            </div>
+                            <div>
+                                Firms Across the UK<br>
+                                We are voted No. 1<br>
+                                In Customer Service<br><br>
+                            </div>
+                            <div><i class="sprite sprite-badge-first"></i></div>
+                        </div>
+                    </div>
+                    <div class="card-panel sp-primary sp-secondary-text valign-wrapper w-small h-large">
+                        <div class="valign">
+                            <div>
+                                <span class="big">3</span> out of <span class="big">4</span>
+                            </div>
+                            <div><i class="sprite sprite-house"></i><br><br></div>
+                            <div>Sales agreed in less <br>than 8 weeks</div>
+                        </div>
+                    </div>
+                    <div class="w-small h-large">
+                        <div class="card-panel white sp-secondary-text valign-wrapper h-small">
+                            <div class="valign">
+                                <div>
+                                    <i class="sprite sprite-thumb"></i> &nbsp; <span class="medium sp-primary-text">1152</span>
+                                </div>
+                                <div>Independent customer <br> reviews & counting</div>
+                            </div>
+                        </div>
+                        <div class="card-panel sp-primary sp-secondary-text valign-wrapper h-small margin-top-10">
+                            <div class="valign">
+                                <div>
+                                    <span class="big">80+</span> &nbsp; <i class="sprite sprite-people"></i>
+                                </div>
+                                <div>Property experts working <br> at Springbok</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-panel sp-primary sp-secondary-text valign-wrapper w-small h-large">
+                        <div class="valign">
+                            <div>
+                                <span class="big">3</span>
+                            </div>
+                            <div>Times we have <br> featured on TV<br><br></div>
+                            <div><i class="sprite sprite-computer"></i></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
