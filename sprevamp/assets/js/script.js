@@ -3,40 +3,42 @@
         $(".button-collapse").sideNav();
     });
 
-    // home slider
-    /*$(function(){
-        function initSlider(){
-            var h = $('.home-success .slider').find(".card").height();
-            $('.home-success .slider').slider({
-                interval: 300000,
-                indicators: false,
-                height: h
-            });
+    // map section
+    $(function(){
+        function resizeMapText(){
+            var h = $('.home-recent-sale img').height();
+            if(h){
+                $('.home-recent-sale .valign-wrapper').height(h);
+            } else{
+                $('.home-recent-sale .valign-wrapper').css("height", "auto");
+            }
         }
-        initSlider();
+        resizeMapText();
 
         $(window).resize(function(){
-            initSlider();
+            resizeMapText();
         })
-    });*/
+    });
 
     $(function($) {
         $('.success-slider').unslider({
             arrows: {
                 //  Unslider default behaviour
-                prev: '<a class="unslider-arrow prev"><i class="material-icons">keyboard_arrow_left</i></a>',
-                next: '<a class="unslider-arrow next"><i class="material-icons">keyboard_arrow_right</i></a>'
+                prev: '<a class="unslider-arrow prev"><i class="sprite sprite-arrow-left"></i></a>',
+                next: '<a class="unslider-arrow next"><i class="sprite sprite-arrow-right"></i></a>'
             },
-            nav: false
+            nav: false,
+            infinite: true
         });
 
         $('.review-slider').unslider({
             arrows: {
                 //  Unslider default behaviour
-                prev: '<a class="unslider-arrow prev"><i class="material-icons">keyboard_arrow_left</i></a>',
-                next: '<a class="unslider-arrow next"><i class="material-icons">keyboard_arrow_right</i></a>'
+                prev: '<a class="unslider-arrow prev"><i class="sprite sprite-left-arrow-round"></i></a>',
+                next: '<a class="unslider-arrow next"><i class="sprite sprite-right-arrow-round"></i></a>'
             },
-            nav: false
+            nav: false,
+            infinite: true
         });
     });
 }());

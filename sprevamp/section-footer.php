@@ -1,8 +1,20 @@
-<footer class="page-footer white">
+<footer class="page-footer white sp-secondary-text">
     <div class="footer-links">
         <div class="container">
             <div class="row">
-                <div class="col l4 s12">
+                <div class="col s12 m4 push-m4">
+                    <h5>Connect with us</h5>
+                    <p>
+                        <a href="#"><i class="social social-fb-32"></i></a> &nbsp;
+                        <a href="#"><i class="social social-twitter-32"></i></a> &nbsp;
+                        <a href="#"><i class="social social-pinterest-32"></i></a> &nbsp;
+                        <a href="#"><i class="social social-instagram-32"></i></a>
+                    </p>
+                    <p>
+                        <img src="assets/images/award-icons.png" width="253" height="58" class="responsive-img">
+                    </p>
+                </div>
+                <div class="col s12 m4 pull-m4">
                     <h5>Useful links</h5>
                     <ul>
                         <li><a href="#">Get Free Valuation</a></li>
@@ -15,11 +27,7 @@
                         <li><a href="#">Report Maintenance</a></li>
                     </ul>
                 </div>
-                <div class="col l4 s12">
-                    <h5>Connect with us</h5>
-                    <p>connect</p>
-                </div>
-                <div class="col l4 s12">
+                <div class="col s12 m4">
                     <h5>About us</h5>
                     <ul>
                         <li><a href="#">About Springbok</a></li>
@@ -35,9 +43,14 @@
         </div>
     </div>
     <div class="footer-copyright">
-        <div class="container center-align sp-secondary-text lighten-3">
-            &copy; 2015 Springbok Properties | Privacy Policy | Terms & Conditions | Springbok Properties Reviews | Complaints Procedure | Sitemap
-            <br><br><br>a
+        <div class="container center-align sp-secondary-text lighten-3 big">
+            <strong>&copy; 2015 Springbok Properties</strong> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms & Conditions</a> |
+            <a href="#">Springbok Properties Reviews</a> |
+            <a href="#">Complaints Procedure</a> |
+            <a href="#">Sitemap</a>
+            <br><br><br>
         </div>
 
     </div>
