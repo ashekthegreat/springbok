@@ -1,8 +1,9 @@
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper container">
-            <a href="#" class="brand-logo"><img src="assets/images/logo.png" width="152" height="45"></a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><b class="sprite sprite-menu"></b></a>
+            <a href="#" class="brand-logo left"><img src="assets/images/logo.png" width="152" height="45"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse menu-button right"><strong>MENU</strong></a>
+            <a href="tel:03332007322" class="button-collapse call-button right"><b class="sprite sprite-call"></b></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">Sell</a></li>
                 <li><a href="#">Free Valuation</a></li>
@@ -13,7 +14,7 @@
                 <li><a href="#">Reviews</a></li>
                 <li><a href="#">Property Advice</a></li>
             </ul>
-            <ul class="side-nav" id="mobile-demo">
+            <ul class="side-nav sp-secondary lighten-5" id="mobile-demo">
                 <li><a href="#">Sell</a></li>
                 <li><a href="#">Free Valuation</a></li>
                 <li><a href="#">Properties for Sale</a></li>

@@ -11,7 +11,7 @@
                         <a href="#"><i class="social social-instagram-32"></i></a>
                     </p>
                     <p>
-                        <img src="assets/images/award-icons.png" width="253" height="58" class="responsive-img">
+                        <img src="assets/images/award-icons.png" width="273" height="71" class="responsive-img">
                     </p>
                 </div>
                 <div class="col s12 m4 pull-m4">
@@ -57,7 +57,7 @@
     </div>
 </footer>
 
-<a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text fixed-free-val">FREE Validation</a>
+<a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text fixed-free-val hide-on-med-and-down">FREE Valuation</a>
 
 <div id="modal-video" class="modal">
     <div class="modal-content"></div>

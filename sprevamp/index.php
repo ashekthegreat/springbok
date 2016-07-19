@@ -30,9 +30,12 @@
                                     <ul>
                                         <li><i class="sprite sprite-tick-yellow"></i> Get 100% value for your house</li>
                                         <li><i class="sprite sprite-tick-yellow"></i> Over 2400 sales agreed in last 12 months.</li>
-                                        <li><i class="sprite sprite-tick-yellow"></i> Won Best Selling Branch in UK 2 years running</li>
+                                        <li>
+                                            <i class="no-upfront sprite sprite-no-upfront hide-on-med-and-down"></i>
+                                            <i class="no-upfront sprite sprite-no-upfront-small hide-on-large-only"></i>
+                                            <i class="sprite sprite-tick-yellow"></i> Won Best Selling Branch in UK 2 years running
+                                        </li>
                                     </ul>
-                                    <i class="sprite sprite-no-upfront"></i>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +76,7 @@
                         </p>
                     </div>
                     <div class="col m6 s12 l5 offset-l1">
-                        <div class="card-panel sp-secondary sp-secondary-text lighten-5 sell-fast z-depth-2">
+                        <div class="card-panel sp-secondary-text sell-fast z-depth-2">
                             <h4>HOW FAST IS <strong>"FAST"?</strong></h4>
                             <div class="variation"><strong>63%</strong> <small>of our property sales are in</small> less than 30 days</div>
                             <div class="variation"><strong>77%</strong> <small>of our property sales are in</small> less than 30 weeks</div>
