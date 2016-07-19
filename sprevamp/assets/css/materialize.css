@@ -3494,80 +3494,82 @@ nav ul li.active {
 /* line 99, ../sass/components/_navbar.scss */
 nav ul a {
   transition: background-color .3s;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: #6b6770;
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 10px;
   cursor: pointer;
+  vertical-align: top;
+  font-weight: 500;
 }
-/* line 107, ../sass/components/_navbar.scss */
+/* line 109, ../sass/components/_navbar.scss */
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
   margin-top: -2px;
   margin-left: 15px;
   margin-right: 15px;
 }
-/* line 113, ../sass/components/_navbar.scss */
+/* line 115, ../sass/components/_navbar.scss */
 nav ul a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 118, ../sass/components/_navbar.scss */
+/* line 120, ../sass/components/_navbar.scss */
 nav ul.left {
   float: left;
 }
-/* line 124, ../sass/components/_navbar.scss */
+/* line 126, ../sass/components/_navbar.scss */
 nav .input-field {
   margin: 0;
 }
-/* line 127, ../sass/components/_navbar.scss */
+/* line 129, ../sass/components/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
 }
-/* line 133, ../sass/components/_navbar.scss */
+/* line 135, ../sass/components/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
   border: none;
   box-shadow: none;
 }
-/* line 139, ../sass/components/_navbar.scss */
+/* line 141, ../sass/components/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
-/* line 143, ../sass/components/_navbar.scss */
+/* line 145, ../sass/components/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   transition: color .3s;
 }
-/* line 147, ../sass/components/_navbar.scss */
+/* line 149, ../sass/components/_navbar.scss */
 nav .input-field label.active i {
   color: #6b6770;
 }
-/* line 148, ../sass/components/_navbar.scss */
+/* line 150, ../sass/components/_navbar.scss */
 nav .input-field label.active {
   transform: translateY(0);
 }
 
-/* line 158, ../sass/components/_navbar.scss */
+/* line 160, ../sass/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 56px;
   z-index: 998;
 }
-/* line 163, ../sass/components/_navbar.scss */
+/* line 165, ../sass/components/_navbar.scss */
 .navbar-fixed nav {
   position: fixed;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 168, ../sass/components/_navbar.scss */
+  /* line 170, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
     line-height: 64px;
   }
 
-  /* line 172, ../sass/components/_navbar.scss */
+  /* line 174, ../sass/components/_navbar.scss */
   .navbar-fixed {
     height: 64px;
   }
@@ -6669,214 +6671,214 @@ input[type=range]:focus::-ms-fill-upper {
 .social-fb-32 {
   width: 32px;
   height: 32px;
-  background-position: -5px -5px;
+  background-position: -20px -20px;
 }
 
 /* line 14, ../sass/_sprite.scss */
 .social-instagram-32 {
   width: 32px;
   height: 32px;
-  background-position: -47px -5px;
+  background-position: -92px -20px;
 }
 
 /* line 20, ../sass/_sprite.scss */
 .social-pinterest-32 {
   width: 32px;
   height: 32px;
-  background-position: -5px -47px;
+  background-position: -20px -92px;
 }
 
 /* line 26, ../sass/_sprite.scss */
 .social-twitter-32 {
   width: 32px;
   height: 32px;
-  background-position: -47px -47px;
+  background-position: -92px -92px;
 }
 
 /* line 32, ../sass/_sprite.scss */
-.social-youtube-32 {
-  width: 32px;
-  height: 32px;
-  background-position: -89px -5px;
+.social-youtube-play-large {
+  width: 64px;
+  height: 64px;
+  background-position: -164px -20px;
 }
 
 /* line 38, ../sass/_sprite.scss */
-.social-youtube-64 {
-  width: 64px;
-  height: 64px;
-  background-position: -89px -47px;
+.social-youtube-play-small {
+  width: 32px;
+  height: 32px;
+  background-position: -164px -124px;
 }
 
 /* Other site icons */
-/* line 47, ../sass/_sprite.scss */
+/* line 48, ../sass/_sprite.scss */
 .sprite {
   background-image: url(../images/sprite.png);
   background-repeat: no-repeat;
   display: inline-block;
 }
 
-/* line 53, ../sass/_sprite.scss */
+/* line 54, ../sass/_sprite.scss */
 .social-247 {
   width: 112px;
   height: 91px;
   background-position: -20px -20px;
 }
 
-/* line 59, ../sass/_sprite.scss */
+/* line 60, ../sass/_sprite.scss */
 .sprite-247 {
   width: 112px;
   height: 91px;
   background-position: -20px -20px;
 }
 
-/* line 65, ../sass/_sprite.scss */
+/* line 66, ../sass/_sprite.scss */
 .sprite-9000 {
   width: 364px;
   height: 154px;
   background-position: -172px -20px;
 }
 
-/* line 71, ../sass/_sprite.scss */
+/* line 72, ../sass/_sprite.scss */
 .sprite-all-agents-star {
   width: 208px;
   height: 111px;
   background-position: -20px -214px;
 }
 
-/* line 77, ../sass/_sprite.scss */
+/* line 78, ../sass/_sprite.scss */
 .sprite-arrow-left {
   width: 24px;
   height: 44px;
   background-position: -576px -20px;
 }
 
-/* line 83, ../sass/_sprite.scss */
+/* line 84, ../sass/_sprite.scss */
 .sprite-arrow-right {
   width: 24px;
   height: 44px;
   background-position: -576px -104px;
 }
 
-/* line 89, ../sass/_sprite.scss */
+/* line 90, ../sass/_sprite.scss */
 .sprite-badge {
   width: 60px;
   height: 88px;
   background-position: -268px -214px;
 }
 
-/* line 95, ../sass/_sprite.scss */
+/* line 96, ../sass/_sprite.scss */
 .sprite-badge-first {
   width: 71px;
   height: 108px;
   background-position: -368px -214px;
 }
 
-/* line 101, ../sass/_sprite.scss */
+/* line 102, ../sass/_sprite.scss */
 .sprite-best {
   width: 95px;
   height: 124px;
   background-position: -479px -214px;
 }
 
-/* line 107, ../sass/_sprite.scss */
+/* line 108, ../sass/_sprite.scss */
 .sprite-calendar {
   width: 49px;
   height: 56px;
   background-position: -20px -378px;
 }
 
-/* line 113, ../sass/_sprite.scss */
+/* line 114, ../sass/_sprite.scss */
 .sprite-call-center {
   width: 124px;
   height: 112px;
   background-position: -109px -378px;
 }
 
-/* line 119, ../sass/_sprite.scss */
+/* line 120, ../sass/_sprite.scss */
 .sprite-computer {
   width: 83px;
   height: 74px;
   background-position: -273px -378px;
 }
 
-/* line 125, ../sass/_sprite.scss */
+/* line 126, ../sass/_sprite.scss */
 .sprite-house {
   width: 65px;
   height: 65px;
   background-position: -396px -378px;
 }
 
-/* line 131, ../sass/_sprite.scss */
+/* line 132, ../sass/_sprite.scss */
 .sprite-left-arrow-round {
   width: 42px;
   height: 41px;
   background-position: -501px -378px;
 }
 
-/* line 137, ../sass/_sprite.scss */
+/* line 138, ../sass/_sprite.scss */
 .sprite-menu {
   width: 30px;
   height: 20px;
   background-position: -583px -378px;
 }
 
-/* line 143, ../sass/_sprite.scss */
+/* line 144, ../sass/_sprite.scss */
 .sprite-no-sale {
   width: 110px;
   height: 109px;
   background-position: -501px -459px;
 }
 
-/* line 149, ../sass/_sprite.scss */
+/* line 150, ../sass/_sprite.scss */
 .sprite-no-upfront {
   width: 151px;
   height: 152px;
   background-position: -640px -20px;
 }
 
-/* line 155, ../sass/_sprite.scss */
+/* line 156, ../sass/_sprite.scss */
 .sprite-people {
   width: 78px;
   height: 38px;
   background-position: -614px -212px;
 }
 
-/* line 161, ../sass/_sprite.scss */
+/* line 162, ../sass/_sprite.scss */
 .sprite-people-large {
   width: 103px;
   height: 68px;
   background-position: -653px -290px;
 }
 
-/* line 167, ../sass/_sprite.scss */
+/* line 168, ../sass/_sprite.scss */
 .sprite-reviews {
   width: 115px;
   height: 114px;
   background-position: -653px -398px;
 }
 
-/* line 173, ../sass/_sprite.scss */
+/* line 174, ../sass/_sprite.scss */
 .sprite-right-arrow-round {
   width: 42px;
   height: 41px;
   background-position: -20px -552px;
 }
 
-/* line 179, ../sass/_sprite.scss */
+/* line 180, ../sass/_sprite.scss */
 .sprite-sp-logo {
   width: 146px;
   height: 110px;
   background-position: -102px -552px;
 }
 
-/* line 185, ../sass/_sprite.scss */
+/* line 186, ../sass/_sprite.scss */
 .sprite-thumb {
   width: 69px;
   height: 66px;
   background-position: -288px -552px;
 }
 
-/* line 191, ../sass/_sprite.scss */
+/* line 192, ../sass/_sprite.scss */
 .sprite-tick-yellow {
   width: 35px;
   height: 29px;
@@ -7055,32 +7057,68 @@ h1, h2 {
   padding-top: 5px;
 }
 
-/* line 29, ../sass/_application.scss */
-.footer-links {
-  background: url("../images/footer-bg.png") center bottom repeat-x transparent;
-  padding-bottom: 135px;
+/* line 30, ../sass/_application.scss */
+.strong {
+  font-weight: 500 !important;
 }
 
-/* line 33, ../sass/_application.scss */
+/* nav section */
+/* line 35, ../sass/_application.scss */
+.navbar-fixed {
+  height: 112px;
+}
+
+/* line 38, ../sass/_application.scss */
+.sub-nav {
+  height: 48px;
+  padding: 6px 0;
+  background: #f6f6f6;
+  overflow: hidden;
+}
+/* line 44, ../sass/_application.scss */
+.sub-nav a {
+  vertical-align: top;
+  font-size: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media only screen and (min-width: 601px) {
+  /* line 52, ../sass/_application.scss */
+  nav {
+    height: 112px;
+  }
+  /* line 54, ../sass/_application.scss */
+  nav .nav-wrapper {
+    height: 64px;
+  }
+}
+/* line 62, ../sass/_application.scss */
+.footer-links {
+  /*background: url("../images/footer-bg.png") center bottom repeat-x transparent;*/
+  padding-bottom: 40px;
+}
+
+/* line 66, ../sass/_application.scss */
 .sell-fast {
   background: url("../images/fast-sold.png") no-repeat left bottom transparent;
   padding-bottom: 120px;
   background-size: cover;
 }
 
-/* line 39, ../sass/_application.scss */
+/* line 72, ../sass/_application.scss */
 .home-banner {
   background: url("../images/banner-bg.jpg") no-repeat center transparent;
   background-size: cover;
   overflow: hidden;
 }
-/* line 44, ../sass/_application.scss */
+/* line 77, ../sass/_application.scss */
 .home-banner .banner-text {
   /*background: rgba(107,103,112,.6);*/
   position: relative;
   border-top: 1px solid transparent;
 }
-/* line 49, ../sass/_application.scss */
+/* line 82, ../sass/_application.scss */
 .home-banner .banner-text:before {
   position: absolute;
   content: "";
@@ -7090,65 +7128,65 @@ h1, h2 {
   right: -1.5rem;
   background: rgba(107, 103, 112, 0.6);
 }
-/* line 58, ../sass/_application.scss */
+/* line 91, ../sass/_application.scss */
 .home-banner .banner-text .banner-text-content {
   position: relative;
   font-size: 20px;
   font-weight: 500;
   padding-bottom: 20px;
 }
-/* line 64, ../sass/_application.scss */
+/* line 97, ../sass/_application.scss */
 .home-banner .banner-text .banner-text-content li {
   margin-bottom: 10px;
 }
-/* line 68, ../sass/_application.scss */
+/* line 101, ../sass/_application.scss */
 .home-banner .banner-text .banner-text-content i {
   vertical-align: top;
 }
-/* line 71, ../sass/_application.scss */
+/* line 104, ../sass/_application.scss */
 .home-banner .banner-text .banner-text-content .text-ticks {
   padding-right: 160px;
   position: relative;
 }
-/* line 74, ../sass/_application.scss */
+/* line 107, ../sass/_application.scss */
 .home-banner .banner-text .banner-text-content .text-ticks > i {
   position: absolute;
   right: 0;
   top: 30px;
 }
 
-/* line 86, ../sass/_application.scss */
+/* line 119, ../sass/_application.scss */
 .home-fast .card-panel .variation {
   font-size: 18px;
   font-weight: 500;
 }
-/* line 90, ../sass/_application.scss */
+/* line 123, ../sass/_application.scss */
 .home-fast .card-panel .variation strong {
   font-size: 24px;
   font-weight: 700;
 }
-/* line 95, ../sass/_application.scss */
+/* line 128, ../sass/_application.scss */
 .home-fast .card-panel .variation small {
   font-size: 12px;
 }
-/* line 100, ../sass/_application.scss */
+/* line 133, ../sass/_application.scss */
 .home-fast .row {
   margin-bottom: 0;
 }
 
-/* line 105, ../sass/_application.scss */
+/* line 138, ../sass/_application.scss */
 .home-how-it-works > div {
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
 
-/* line 112, ../sass/_application.scss */
+/* line 145, ../sass/_application.scss */
 .home-why .point {
   position: relative;
   min-height: 124px;
   padding-left: 160px;
 }
-/* line 117, ../sass/_application.scss */
+/* line 150, ../sass/_application.scss */
 .home-why .point .point-icon {
   position: absolute;
   top: 0;
@@ -7158,11 +7196,11 @@ h1, h2 {
   text-align: center;
 }
 
-/* line 131, ../sass/_application.scss */
+/* line 164, ../sass/_application.scss */
 .home-estimator form {
   position: relative;
 }
-/* line 134, ../sass/_application.scss */
+/* line 167, ../sass/_application.scss */
 .home-estimator form i {
   position: absolute;
   bottom: 50px;
@@ -7170,205 +7208,231 @@ h1, h2 {
 }
 
 @media only screen and (max-width: 1260px) {
-  /* line 144, ../sass/_application.scss */
+  /* line 177, ../sass/_application.scss */
   .home-estimator form i {
     display: none;
   }
 }
-/* line 152, ../sass/_application.scss */
+/* line 185, ../sass/_application.scss */
 .home-video .card {
   cursor: pointer;
 }
-/* line 155, ../sass/_application.scss */
+/* line 188, ../sass/_application.scss */
 .home-video .card .card-image {
   position: relative;
 }
-/* line 159, ../sass/_application.scss */
+/* line 192, ../sass/_application.scss */
+.home-video .card .card-content {
+  min-height: 84px;
+  font-weight: 500;
+}
+/* line 196, ../sass/_application.scss */
 .home-video .card .play-button {
-  background: rgba(0, 0, 0, 0.25);
+  background: transparent;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  display: none;
+  transition: all .3s;
 }
-/* line 167, ../sass/_application.scss */
+/* line 204, ../sass/_application.scss */
 .home-video .card .play-button i {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* line 176, ../sass/_application.scss */
+/* line 212, ../sass/_application.scss */
 .home-video .card:hover .play-button {
-  display: block;
+  background: rgba(0, 0, 0, 0.25);
+}
+/* line 217, ../sass/_application.scss */
+.home-video .small-videos {
+  text-align: center;
+  height: 135px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+/* line 223, ../sass/_application.scss */
+.home-video .small-videos .card {
+  display: inline-block;
+  margin: 0 5px 25px;
+  width: 100px;
+  vertical-align: top;
+}
+/* line 229, ../sass/_application.scss */
+.home-video .small-videos .card .card-content {
+  padding: 4px;
+  font-size: 12px;
+  line-height: 15px;
+  min-height: 38px;
+  font-weight: 500;
+}
+/* line 237, ../sass/_application.scss */
+.home-video .small-videos .card .play-button i {
+  transform: none;
+  top: auto;
+  left: 0;
+  bottom: 0;
 }
 
-/* line 185, ../sass/_application.scss */
+/* line 250, ../sass/_application.scss */
 .home-success .card {
   margin: 5px;
 }
 
-/* line 190, ../sass/_application.scss */
+/* line 255, ../sass/_application.scss */
 .home-customer-service {
   background: url("../images/service-bg.png") no-repeat center transparent;
   background-size: cover;
 }
-/* line 194, ../sass/_application.scss */
+/* line 259, ../sass/_application.scss */
 .home-customer-service .review-slider li {
   padding: 5px;
 }
-/* line 197, ../sass/_application.scss */
+/* line 262, ../sass/_application.scss */
 .home-customer-service .unslider-arrow i {
   top: 30%;
 }
 
-/* line 202, ../sass/_application.scss */
+/* line 267, ../sass/_application.scss */
 .home-recent-sale {
   background: url("../images/pattern.png") no-repeat center transparent;
   background-size: cover;
 }
-/* line 206, ../sass/_application.scss */
+/* line 271, ../sass/_application.scss */
 .home-recent-sale .row {
   margin: 0;
 }
-/* line 209, ../sass/_application.scss */
+/* line 274, ../sass/_application.scss */
 .home-recent-sale img {
   vertical-align: top;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 214, ../sass/_application.scss */
+  /* line 279, ../sass/_application.scss */
   .home-recent-sale {
     padding-top: 0;
     padding-bottom: 0;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 226, ../sass/_application.scss */
+  /* line 291, ../sass/_application.scss */
   .home-success-numbers .masonry > div {
     float: left;
     margin: 0.5%;
   }
-  /* line 230, ../sass/_application.scss */
-  .home-success-numbers .masonry > div .card-panel {
-    margin: 0;
-  }
-  /* line 234, ../sass/_application.scss */
+  /* line 295, ../sass/_application.scss */
   .home-success-numbers .masonry .card-panel {
     min-width: 200px;
   }
-  /* line 237, ../sass/_application.scss */
+  /* line 298, ../sass/_application.scss */
   .home-success-numbers .masonry .w-small {
     width: 24%;
     min-width: 200px;
   }
-  /* line 241, ../sass/_application.scss */
+  /* line 302, ../sass/_application.scss */
   .home-success-numbers .masonry .h-small {
-    height: 250px;
+    height: 200px;
   }
-  /* line 244, ../sass/_application.scss */
+  /* line 305, ../sass/_application.scss */
   .home-success-numbers .masonry .w-large {
     width: 49%;
     min-width: 400px;
   }
-  /* line 248, ../sass/_application.scss */
+  /* line 309, ../sass/_application.scss */
   .home-success-numbers .masonry .h-large {
-    height: 510px;
+    height: 350px;
   }
-  /* line 251, ../sass/_application.scss */
+  /* line 312, ../sass/_application.scss */
   .home-success-numbers .masonry .margin-top-10 {
     margin-top: 4% !important;
   }
-  /* line 254, ../sass/_application.scss */
+  /* line 315, ../sass/_application.scss */
   .home-success-numbers .masonry .big {
     font-size: 76px;
     font-weight: 700;
   }
-  /* line 258, ../sass/_application.scss */
+  /* line 319, ../sass/_application.scss */
   .home-success-numbers .masonry .medium {
     font-size: 60px;
     font-weight: 700;
   }
-  /* line 262, ../sass/_application.scss */
+  /* line 323, ../sass/_application.scss */
   .home-success-numbers .masonry .valign {
     width: 100%;
   }
-  /* line 265, ../sass/_application.scss */
+  /* line 326, ../sass/_application.scss */
   .home-success-numbers .masonry span, .home-success-numbers .masonry i {
     vertical-align: middle;
   }
 }
 @media only screen and (max-width: 992px) {
-  /* line 274, ../sass/_application.scss */
+  /* line 335, ../sass/_application.scss */
   .home-success-numbers .masonry > div {
     float: left;
     margin: 0.5%;
   }
-  /* line 278, ../sass/_application.scss */
-  .home-success-numbers .masonry > div .card-panel {
-    margin: 0;
-  }
-  /* line 282, ../sass/_application.scss */
+  /* line 339, ../sass/_application.scss */
   .home-success-numbers .masonry .card-panel {
     min-width: 200px;
   }
-  /* line 285, ../sass/_application.scss */
+  /* line 342, ../sass/_application.scss */
   .home-success-numbers .masonry .w-small {
     width: 49%;
     min-width: 200px;
   }
-  /* line 289, ../sass/_application.scss */
+  /* line 346, ../sass/_application.scss */
   .home-success-numbers .masonry .h-small {
-    height: 250px;
+    height: 200px;
   }
-  /* line 292, ../sass/_application.scss */
+  /* line 349, ../sass/_application.scss */
   .home-success-numbers .masonry .w-large {
     width: 99%;
     min-width: 400px;
   }
-  /* line 296, ../sass/_application.scss */
+  /* line 353, ../sass/_application.scss */
   .home-success-numbers .masonry .h-large {
-    height: 510px;
+    height: 350px;
   }
-  /* line 299, ../sass/_application.scss */
+  /* line 356, ../sass/_application.scss */
   .home-success-numbers .masonry .margin-top-10 {
     margin-top: 10px !important;
   }
-  /* line 302, ../sass/_application.scss */
+  /* line 359, ../sass/_application.scss */
   .home-success-numbers .masonry .big {
-    font-size: 76px;
+    font-size: 64px;
     font-weight: 700;
   }
-  /* line 306, ../sass/_application.scss */
+  /* line 363, ../sass/_application.scss */
   .home-success-numbers .masonry .medium {
-    font-size: 60px;
+    font-size: 54px;
     font-weight: 700;
   }
-  /* line 310, ../sass/_application.scss */
+  /* line 367, ../sass/_application.scss */
   .home-success-numbers .masonry .valign {
     width: 100%;
   }
-  /* line 313, ../sass/_application.scss */
+  /* line 370, ../sass/_application.scss */
   .home-success-numbers .masonry span, .home-success-numbers .masonry i {
     vertical-align: middle;
   }
 }
-/* line 320, ../sass/_application.scss */
+/* line 377, ../sass/_application.scss */
 .home-call-center {
-  background: url("../images/call-center-bg.png") no-repeat center transparent;
+  background: url("../images/call-center-bg.jpg") no-repeat center transparent;
   background-size: cover;
 }
 
-/* line 326, ../sass/_application.scss */
+/* line 383, ../sass/_application.scss */
 .home-chat .container {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 333, ../sass/_application.scss */
+  /* line 390, ../sass/_application.scss */
   .home-chat .container {
     background: url("../images/chat-person.png") no-repeat bottom right transparent;
     padding-top: 40px;
@@ -7376,18 +7440,18 @@ h1, h2 {
     min-height: 320px;
   }
 }
-/* line 342, ../sass/_application.scss */
+/* line 399, ../sass/_application.scss */
 .form-title {
   padding: 30px 15px;
   font-size: 30px;
   font-weight: bold;
 }
 
-/* line 347, ../sass/_application.scss */
+/* line 404, ../sass/_application.scss */
 .classic-form {
   padding: 40px 10%;
 }
-/* line 349, ../sass/_application.scss */
+/* line 406, ../sass/_application.scss */
 .classic-form input {
   background: #fff;
   margin-bottom: 15px;
@@ -7396,18 +7460,27 @@ h1, h2 {
   box-sizing: border-box;
 }
 
+/* line 415, ../sass/_application.scss */
+.fixed-free-val {
+  transform: rotate(90deg);
+  position: fixed;
+  bottom: 20%;
+  right: 0;
+  transform-origin: top right;
+}
+
 @media only screen and (min-width: 601px) {
-  /* line 359, ../sass/_application.scss */
+  /* line 423, ../sass/_application.scss */
   .card-horizontal {
     display: flex;
     align-items: center;
   }
-  /* line 363, ../sass/_application.scss */
+  /* line 427, ../sass/_application.scss */
   .card-horizontal .card-image {
     float: left;
     width: 40%;
   }
-  /* line 367, ../sass/_application.scss */
+  /* line 431, ../sass/_application.scss */
   .card-horizontal .card-content {
     float: left;
     width: 60%;

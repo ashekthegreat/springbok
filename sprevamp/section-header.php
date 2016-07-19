@@ -24,5 +24,12 @@
                 <li><a href="#">Property Advice</a></li>
             </ul>
         </div>
+        <div class="sub-nav">
+            <div class="container right-align">
+                <a href="#" class="waves-effect waves-light btn white sp-secondary-text">Get Free Valuation</a>
+                <a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text">What's My Home Worth</a>
+                <a href="#" class="waves-effect waves-light btn sp-secondary white-text">Contact Us</a>
+            </div>
+        </div>
     </nav>
 </div>

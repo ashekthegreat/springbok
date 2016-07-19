@@ -26,9 +26,42 @@ h1, h2{
 .padding-top-5{
     padding-top: 5px;
 }
+
+.strong{
+    font-weight: 500!important;
+}
+
+/* nav section */
+.navbar-fixed{
+    height: 112px;
+}
+.sub-nav{
+    height: 48px;
+    padding: 6px 0;
+    background: #f6f6f6;
+    overflow: hidden;
+
+    a{
+        vertical-align: top;
+        font-size: 11px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media only screen and (min-width: 601px) {
+    nav {
+        height: 112px;
+        .nav-wrapper{
+            height: 64px;
+        }
+    }
+
+}
+
+
 .footer-links {
-    background: url("../images/footer-bg.png") center bottom repeat-x transparent;
-    padding-bottom: 135px;
+    /*background: url("../images/footer-bg.png") center bottom repeat-x transparent;*/
+    padding-bottom: 40px;
 }
 .sell-fast{
     background: url("../images/fast-sold.png") no-repeat left bottom transparent;
@@ -103,8 +136,8 @@ h1, h2{
 }
 .home-how-it-works{
     > div{
-        padding-bottom: 5px;
-        padding-top: 5px;
+        padding-bottom: 8px;
+        padding-top: 8px;
     }
 }
 
@@ -156,25 +189,57 @@ h1, h2{
             position: relative;
 
         }
+        .card-content{
+            min-height: 84px;
+            font-weight: 500;
+        }
         .play-button{
-            background: rgba(0,0,0,.25);
+            background: rgba(0,0,0,0);
             position: absolute;
             top:0;
             left: 0;
             right: 0;
             bottom: 0;
-            display: none;
+            transition: all .3s;
             i{
                 position: absolute;
                 top: 50%;
                 left:50%;
                 transform: translate(-50%, -50%);
             }
-
         }
         &:hover{
             .play-button{
-                display: block;
+                background: rgba(0,0,0,.25);
+            }
+        }
+    }
+    .small-videos{
+        text-align: center;
+        height: 135px;
+        overflow: hidden;
+        margin-bottom: 20px;
+
+        .card{
+            display: inline-block;
+            margin: 0 5px 25px;
+            width: 100px;
+            vertical-align: top;
+
+            .card-content{
+                padding: 4px;
+                font-size: 12px;
+                line-height: 15px;
+                min-height: 38px;
+                font-weight: 500;
+            }
+            .play-button{
+                i{
+                    transform: none;
+                    top: auto;
+                    left: 0;
+                    bottom: 0;
+                }
             }
         }
     }
@@ -226,10 +291,6 @@ h1, h2{
             > div{
                 float: left;
                 margin: 0.5%;
-
-                .card-panel{
-                    margin: 0;
-                }
             }
             .card-panel{
                 min-width: 200px;
@@ -239,14 +300,14 @@ h1, h2{
                 min-width: 200px;
             }
             .h-small{
-                height: 250px;
+                height: 200px;
             }
             .w-large{
                 width: 49%;
                 min-width: 400px;
             }
             .h-large{
-                height: 510px;
+                height: 350px;
             }
             .margin-top-10{
                 margin-top: 4%!important;
@@ -274,10 +335,6 @@ h1, h2{
             > div{
                 float: left;
                 margin: 0.5%;
-
-                .card-panel{
-                    margin: 0;
-                }
             }
             .card-panel{
                 min-width: 200px;
@@ -287,24 +344,24 @@ h1, h2{
                 min-width: 200px;
             }
             .h-small{
-                height: 250px;
+                height: 200px;
             }
             .w-large{
                 width: 99%;
                 min-width: 400px;
             }
             .h-large{
-                height: 510px;
+                height: 350px;
             }
             .margin-top-10{
                 margin-top: 10px!important;
             }
             .big{
-                font-size: 76px;
+                font-size: 64px;
                 font-weight: 700;
             }
             .medium{
-                font-size: 60px;
+                font-size: 54px;
                 font-weight: 700;
             }
             .valign{
@@ -318,7 +375,7 @@ h1, h2{
 }
 
 .home-call-center{
-    background: url("../images/call-center-bg.png") no-repeat center transparent;
+    background: url("../images/call-center-bg.jpg") no-repeat center transparent;
     background-size: cover;
 }
 
@@ -355,6 +412,13 @@ h1, h2{
     }
 }
 
+.fixed-free-val{
+    transform: rotate(90deg);
+    position: fixed;
+    bottom: 20%;
+    right: 0;
+    transform-origin: top right;
+}
 @media only screen and (min-width: 601px) {
     .card-horizontal{
         display: flex;

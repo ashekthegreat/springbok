@@ -25,7 +25,7 @@
                     <div class="col s12 m8">
                         <div class="banner-text white-text">
                             <div class="banner-text-content">
-                                <h1>Sell fast and don't leave money on table</h1>
+                                <h1 class="big z-depth-1-text">Sell fast with best possible price</h1>
                                 <div class="text-ticks">
                                     <ul>
                                         <li><i class="sprite sprite-tick-yellow"></i> Get 100% value for your house</li>
@@ -65,11 +65,11 @@
                             selling specialists that sell your property fast and
                             gets you the best possible price.
                         </p><p>&nbsp;</p>
-                        <p>
+                        <p class="big flow-text">
                             <strong>Contact us today and your property could be:</strong><br>
-                            - Sold for 99% of your agreed asking price<br>
-                            - One of the 230 sales we agree every month<br>
-                            - One of the 63% of sales we complete in 30 days or less
+                            &ndash; Sold for 99% of your agreed asking price<br>
+                            &ndash; One of the 230 sales we agree every month<br>
+                            &ndash; One of the 63% of sales we complete in 30 days or less
                         </p>
                     </div>
                     <div class="col m6 s12 l5 offset-l1">
@@ -92,12 +92,12 @@
             </div>
             <div class="sp-primary sp-secondary-text lighten-5">
                 <div class="container center-align">
-                    Mrs. Helen contacted us after being frustrated & stuck on the market for 432 days with two different estate agents
+                    <p class="big strong margin-top-0 margin-bottom-0">Mrs. Helen contacted us after being frustrated & stuck on the market for 432 days with two different estate agents</p>
                 </div>
             </div>
             <div class="sp-primary sp-secondary-text lighten-4">
                 <div class="container center-align">
-                    We sold Mrs. Helen's house within 8 days & most importantly achieved their asking price. Here's how
+                    <p class="big strong margin-top-0 margin-bottom-0">We sold Mrs. Helen's house within 8 days & most importantly achieved their asking price. Here's how</p>
                 </div>
             </div>
             <div class="sp-secondary sp-primary-text text-lighten-5">
@@ -207,54 +207,101 @@
                         <div class="card hoverable" data-id="Ag5sJFE6vQM">
                             <div class="card-image">
                                 <img class="responsive-img" src="http://img.youtube.com/vi/Ag5sJFE6vQM/mqdefault.jpg" width="320" height="180">
-                                <div class="play-button">
-                                    <i class="social social-youtube-64"></i>
-                                </div>
-                                <!--<div class="video-container">
-                                    <iframe class="responsive-img" width="560" height="315" src="https://www.youtube.com/embed/Ag5sJFE6vQM?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
-                                </div>-->
-
+                                <div class="play-button"><i class="social social-youtube-play-large"></i></div>
                             </div>
-                            <div class="card-content center-align">
-                                <p>"They did everything they said they would."</p>
-                            </div>
+                            <div class="card-content center-align">"They did everything they said they would."</div>
                         </div>
                     </div>
-                    <div class="col s12 m4">
+                    <div class="col s12 m4 hide-on-small-only">
                         <div class="card hoverable" data-id="F0WdUkXvBiQ">
                             <div class="card-image">
                                 <img class="responsive-img" src="http://img.youtube.com/vi/F0WdUkXvBiQ/mqdefault.jpg" width="320" height="180">
-                                <div class="play-button">
-                                    <i class="social social-youtube-64"></i>
-                                </div>
-                                <!--<div class="video-container">
-                                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/F0WdUkXvBiQ?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
-                                </div>-->
+                                <div class="play-button"><i class="social social-youtube-play-large"></i></div>
                             </div>
-                            <div class="card-content center-align">
-                                <p>"I'm very grateful and I would really recommend Springbok."</p>
-                            </div>
+                            <div class="card-content center-align">"I'm very grateful and I would really recommend Springbok."</div>
                         </div>
                     </div>
-                    <div class="col s12 m4">
+                    <div class="col s12 m4 hide-on-small-only">
                         <div class="card hoverable" data-id="BYKz90GY5EM">
                             <div class="card-image">
                                 <img class="responsive-img" src="http://img.youtube.com/vi/BYKz90GY5EM/mqdefault.jpg" width="320" height="180">
-                                <div class="play-button">
-                                    <i class="social social-youtube-64"></i>
-                                </div>
-                                <!--<div class="video-container">
-                                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/BYKz90GY5EM?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
-                                </div>-->
+                                <div class="play-button"><i class="social social-youtube-play-large"></i></div>
                             </div>
-                            <div class="card-content center-align">
-                                <p>"Went above anything that I ever expected."</p>
-                            </div>
+                            <div class="card-content center-align">"Went above anything that I ever expected."</div>
                         </div>
                     </div>
                 </div>
-                <div class="small-videos">
-
+                <div class="small-videos ">
+                    <div class="card hoverable" data-id="0PK0_RMxgLs">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/0PK0_RMxgLs/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Keighley <br>Richardson</div>
+                    </div>
+                    <div class="card hoverable" data-id="P8TOSyLkWlo">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/P8TOSyLkWlo/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Julie <br>Price</div>
+                    </div>
+                    <div class="card hoverable" data-id="mxbvoMspw0k">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/mxbvoMspw0k/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Ian <br>Wynn</div>
+                    </div>
+                    <div class="card hoverable" data-id="mvsbbI3tXA4">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/mvsbbI3tXA4/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Dianne <br>Sass</div>
+                    </div>
+                    <div class="card hoverable" data-id="QedLPJ3dYXU">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/QedLPJ3dYXU/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Samantha <br>Lad</div>
+                    </div>
+                    <div class="card hoverable" data-id="PPJv9AY77KU">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/PPJv9AY77KU/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Warren <br>Terry</div>
+                    </div>
+                    <div class="card hoverable" data-id="EfgAXRE6Ybk">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/EfgAXRE6Ybk/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Mohammed <br>Ashraf</div>
+                    </div>
+                    <div class="card hoverable" data-id="iY38J2sNq-U">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/iY38J2sNq-U/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Mike <br>Gaughan</div>
+                    </div>
+                    <div class="card hoverable" data-id="AL18YfGfBQ8">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/AL18YfGfBQ8/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Julian <br>Roberts</div>
+                    </div>
+                    <div class="card hoverable" data-id="0Irq3ggPT4Y">
+                        <div class="card-image">
+                            <img class="responsive-img" src="http://img.youtube.com/vi/0Irq3ggPT4Y/default.jpg" width="120" height="90">
+                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                        </div>
+                        <div class="card-content center-align">Gary <br>Morrish</div>
+                    </div>
                 </div>
                 <div class="center-align">
                     <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See more reviews</a>
@@ -279,7 +326,7 @@
                                 <div class="card-content">
                                     <div class="center-align">
                                         <h3 class="margin-top-0">Halfpenny Lane, Wakefield</h3>
-                                        <a href="#" class="btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                        <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
                                             <div class="col s12 m5">
                                                 <h4>1,070 Days</h4>
@@ -306,7 +353,7 @@
                                 <div class="card-content">
                                     <div class="center-align">
                                         <h3 class="margin-top-0">Briar Close, Peterborough</h3>
-                                        <a href="#" class="btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                        <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
                                             <div class="col s5">
                                                 <h4>305 days</h4>
@@ -333,7 +380,7 @@
                                 <div class="card-content">
                                     <div class="center-align">
                                         <h3 class="margin-top-0">Audon Avenue, Nottingham</h3>
-                                        <a href="#" class="btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                        <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
                                             <div class="col s5">
                                                 <h4>173 days</h4>
@@ -487,31 +534,21 @@
                             <div>Sales agreed in less <br>than 8 weeks</div>
                         </div>
                     </div>
-                    <div class="w-small h-large">
-                        <div class="card-panel white sp-secondary-text valign-wrapper h-small">
-                            <div class="valign">
-                                <div>
-                                    <i class="sprite sprite-thumb"></i> &nbsp; <span class="medium sp-primary-text">1152</span>
-                                </div>
-                                <div>Independent customer <br> reviews & counting</div>
+                    <div class="card-panel white sp-secondary-text valign-wrapper w-small h-large">
+                        <div class="valign">
+                            <div>
+                                <i class="sprite sprite-thumb"></i> &nbsp; <span class="medium sp-primary-text">1152</span>
                             </div>
-                        </div>
-                        <div class="card-panel sp-primary sp-secondary-text valign-wrapper h-small margin-top-10">
-                            <div class="valign">
-                                <div>
-                                    <span class="big">80+</span> &nbsp; <i class="sprite sprite-people"></i>
-                                </div>
-                                <div>Property experts working <br> at Springbok</div>
-                            </div>
+                            <div>Independent customer <br> reviews & counting</div>
                         </div>
                     </div>
                     <div class="card-panel sp-primary sp-secondary-text valign-wrapper w-small h-large">
                         <div class="valign">
                             <div>
-                                <span class="big">3</span>
+                                <span class="big">80+</span>
                             </div>
-                            <div>Times we have <br> featured on TV<br><br></div>
-                            <div><i class="sprite sprite-computer"></i></div>
+                            <div><i class="sprite sprite-people"></i><br><br></div>
+                            <div>Property experts working <br> at Springbok</div>
                         </div>
                     </div>
                 </div>

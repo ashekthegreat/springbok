@@ -42,6 +42,7 @@
             </div>
         </div>
     </div>
+    
     <div class="footer-copyright">
         <div class="container center-align sp-secondary-text lighten-3 big">
             <strong>&copy; 2015 Springbok Properties</strong> |
@@ -55,6 +56,8 @@
 
     </div>
 </footer>
+
+<a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text fixed-free-val">FREE Validation</a>
 
 <div id="modal-video" class="modal">
     <div class="modal-content"></div>
