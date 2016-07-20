@@ -13,6 +13,9 @@
                     <p>
                         <img src="assets/images/award-icons.png" width="253" height="58" class="responsive-img">
                     </p>
+                    <p>
+                        <i class="sprite sprite-as-seen-on-tv"></i>
+                    </p>
                 </div>
                 <div class="col s12 m4 pull-m4">
                     <h5>Useful links</h5>
