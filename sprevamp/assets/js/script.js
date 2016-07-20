@@ -1,6 +1,10 @@
 (function(){
     $(function(){
-        $(".button-collapse").sideNav();
+        $(".menu-button").sideNav({
+            menuWidth: 240,
+            edge: 'right',
+            closeOnClick: false
+        });
     });
 
     // map section
