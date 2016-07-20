@@ -46,6 +46,15 @@ h1, h2{
         font-size: 11px;
         padding-left: 15px;
         padding-right: 15px;
+
+        i{
+            vertical-align: middle;
+        }
+    }
+    .call-button{
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: none;
     }
 }
 @media only screen and (min-width: 601px) {
@@ -465,7 +474,6 @@ h1, h2{
             background: url("../images/chat-person.png") no-repeat bottom right transparent;
             padding-top: 40px;
             padding-bottom: 40px;
-            min-height: 320px;
         }
     }
 }
