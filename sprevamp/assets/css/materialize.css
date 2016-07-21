@@ -7675,4 +7675,11 @@ h1, h2 {
   padding-right: 30px;*/
 }
 
+@media only screen and (max-width: 600px) {
+  /* line 23, ../sass/_inner.scss */
+  .house-worth-estimate .col {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=materialize.css.map */
