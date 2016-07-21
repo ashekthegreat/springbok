@@ -7599,9 +7599,11 @@ h1, h2 {
   padding-left: 15px;
   padding-right: 15px;
   box-sizing: border-box;
+  height: 3.5rem;
+  font-size: 1.25rem;
 }
 
-/* line 497, ../sass/_application.scss */
+/* line 499, ../sass/_application.scss */
 .fixed-free-val {
   transform: rotate(90deg);
   position: fixed;
@@ -7611,17 +7613,17 @@ h1, h2 {
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 505, ../sass/_application.scss */
+  /* line 507, ../sass/_application.scss */
   .card-horizontal {
     display: flex;
     align-items: center;
   }
-  /* line 509, ../sass/_application.scss */
+  /* line 511, ../sass/_application.scss */
   .card-horizontal .card-image {
     float: left;
     width: 40%;
   }
-  /* line 513, ../sass/_application.scss */
+  /* line 515, ../sass/_application.scss */
   .card-horizontal .card-content {
     float: left;
     width: 60%;
@@ -7640,13 +7642,37 @@ h1, h2 {
         }
     }
 }*/
-/* line 532, ../sass/_application.scss */
+/* line 534, ../sass/_application.scss */
 #modal-video {
   background-color: #000;
 }
-/* line 534, ../sass/_application.scss */
+/* line 536, ../sass/_application.scss */
 #modal-video .modal-content {
   padding: 0;
+}
+
+/* line 1, ../sass/_inner.scss */
+.house-worth-banner {
+  background: url("../images/house-worth-bg.jpg") no-repeat center transparent;
+  background-size: cover;
+}
+/* line 5, ../sass/_inner.scss */
+.house-worth-banner form {
+  border: 5px solid #ffef00;
+}
+/* line 8, ../sass/_inner.scss */
+.house-worth-banner form input {
+  border: 3px solid #e4e4e4;
+}
+
+/* line 14, ../sass/_inner.scss */
+.house-worth-estimate {
+  padding-bottom: 100px;
+}
+/* line 16, ../sass/_inner.scss */
+.house-worth-estimate .col {
+  /*padding-left: 30px;
+  padding-right: 30px;*/
 }
 
 /*# sourceMappingURL=materialize.css.map */

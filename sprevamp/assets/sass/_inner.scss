@@ -1,0 +1,20 @@
+.house-worth-banner {
+  background: url("../images/house-worth-bg.jpg") no-repeat center transparent;
+  background-size: cover;
+
+  form{
+    border: 5px solid $primary-color;
+
+    input{
+      border: 3px solid #e4e4e4;
+    }
+  }
+}
+
+.house-worth-estimate{
+  padding-bottom: 100px;
+  .col{
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+  }
+}
