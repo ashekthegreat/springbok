@@ -19,7 +19,11 @@ main {
 
 ul {
   &.browser-default {
+    padding-left: 35px;
     list-style-type: initial;
+    li{
+      list-style-type: initial;
+    }
   }
 
   list-style-type: none;
