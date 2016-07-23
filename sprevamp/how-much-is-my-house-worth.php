@@ -67,7 +67,7 @@
                         <div class="row">
                             <div class="col s12 m11">
                                 <p class="center-align"><img src="assets/images/pin/calculator.png" width="64" height="93"></p>
-                                <h4>How do you calculate it?</h4>
+                                <h4>What is Springbok's House Price Estimate</h4>
                                 <p class="big">
                                     Your house value estimate is powered by real-time property prices and details so you can find out what your house is worth easily. Check your house value to get the latest pricing based on property sale activity in your neighborhood.
                                 </p>
@@ -78,7 +78,7 @@
                         <div class="row">
                             <div class="col s12 m11">
                                 <p class="center-align"><img src="assets/images/pin/bulls-eye.png" width="64" height="93"></p>
-                                <h4>How do you calculate it?</h4>
+                                <h4>What is Expert Valuation?</h4>
                                 <p class="big">
                                     When you’re ready for professional house valuation, an experienced regional valuer can carry out a full property valuation at your house in person and give you price recommendations based on its unique characteristics and details. Talk to our experts that specialise in your area for a free consultation.
                                 </p>

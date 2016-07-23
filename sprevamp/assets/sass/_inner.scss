@@ -25,3 +25,12 @@
     }
   }
 }
+
+@media only screen and (min-width: 601px) {
+  .success-stories{
+    .card-panel{
+      background: url("../images/chat-person.png") no-repeat bottom right transparent;
+
+    }
+  }
+}
