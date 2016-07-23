@@ -30,7 +30,7 @@
             </div>
         </section>
 
-        <section class="why-buy-odd sp-secondary lighten-5 sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </section>
-        <section class="why-buy-even white sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -68,7 +68,7 @@
             </div>
         </section>
 
-        <section class="why-buy-odd sp-secondary lighten-5 sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </section>
-        <section class="why-buy-even white sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -99,7 +99,7 @@
             </div>
         </section>
 
-        <section class="why-buy-odd sp-secondary lighten-5 sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -114,7 +114,7 @@
                 </div>
             </div>
         </section>
-        <section class="why-buy-even white sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -130,7 +130,7 @@
             </div>
         </section>
 
-        <section class="why-buy-odd sp-secondary lighten-5 sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -145,7 +145,7 @@
                 </div>
             </div>
         </section>
-        <section class="why-buy-even white sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -161,7 +161,7 @@
             </div>
         </section>
 
-        <section class="why-buy-odd sp-secondary lighten-5 sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
@@ -176,7 +176,7 @@
                 </div>
             </div>
         </section>
-        <section class="why-buy-even white sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">

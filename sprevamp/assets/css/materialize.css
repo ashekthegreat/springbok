@@ -3934,9 +3934,15 @@ small {
 }
 
 /* line 87, ../sass/components/_typography.scss */
-p.big {
+.big {
   font-size: 1.3rem;
   font-weight: 400;
+}
+
+/* line 91, ../sass/components/_typography.scss */
+.bigger {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 /* line 3, ../sass/components/_cards.scss */
@@ -7663,38 +7669,40 @@ h1, h2 {
   padding: 0;
 }
 
-/* line 1, ../sass/_inner.scss */
+/* how-much-is-my-house-worth.php */
+/* line 2, ../sass/_inner.scss */
 .house-worth-banner {
   background: url("../images/house-worth-bg.jpg") no-repeat center transparent;
   background-size: cover;
 }
-/* line 5, ../sass/_inner.scss */
+/* line 6, ../sass/_inner.scss */
 .house-worth-banner form {
   border: 5px solid #ffef00;
 }
-/* line 8, ../sass/_inner.scss */
+/* line 9, ../sass/_inner.scss */
 .house-worth-banner form input {
   border: 3px solid #e4e4e4;
 }
 
-/* line 14, ../sass/_inner.scss */
+/* line 15, ../sass/_inner.scss */
 .house-worth-estimate {
   padding-bottom: 100px;
 }
-/* line 16, ../sass/_inner.scss */
+/* line 17, ../sass/_inner.scss */
 .house-worth-estimate .col {
   /*padding-left: 30px;
   padding-right: 30px;*/
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 24, ../sass/_inner.scss */
+  /* line 25, ../sass/_inner.scss */
   .house-worth-estimate .col {
     text-align: center;
   }
 }
+/* success-stories.php */
 @media only screen and (min-width: 601px) {
-  /* line 32, ../sass/_inner.scss */
+  /* line 35, ../sass/_inner.scss */
   .success-stories .card-panel {
     background: url("../images/chat-person.png") no-repeat bottom right transparent;
   }
