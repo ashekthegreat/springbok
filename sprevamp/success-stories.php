@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 l7">
-                        <h1 class="big">
+                        <h1>
                             We Measure Success by Your Satisfaction
                         </h1>
                         <p class="big">Over 1800 (& counting) of our clients sold their properties in less than 10 days!</p>
@@ -32,16 +32,15 @@
                         <p>Book a free, no-obligation valuation with one of our Local Property Experts for more examples of how quickly we can sell your property.</p>
 
                     </div>
-                    <div class="col s12 l5">
+                    <div class="col s12 m8 offset-m2 l5">
                         <div class="card-panel sp-secondary lighten-5 sp-secondary-text">
                             <h4>Book a Free, No-obligation Valuation</h4>
                             <p>Speak to one of our friendly property specialists for a free, no-obligation valuation and a free consultation on how to sell your house faster whilst achieving the best possible price.</p>
                             <div class="row">
                                 <div class="col s12 m7">
-
                                     <br>
                                     <form class="">
-                                        <div class="classic-form no-padding">
+                                        <div class="classic-form medium no-padding">
                                             <input placeholder="Your Name" id="chat-name" name="chat-name" type="text">
                                             <input placeholder="Your Email" id="chat-email" name="chat-email" type="text">
                                             <input placeholder="Your Number" id="chat-phone" name="chat-phone" type="text">

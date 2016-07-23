@@ -1,36 +1,37 @@
 .house-worth-banner {
-  background: url("../images/house-worth-bg.jpg") no-repeat center transparent;
-  background-size: cover;
+    background: url("../images/house-worth-bg.jpg") no-repeat center transparent;
+    background-size: cover;
 
-  form{
-    border: 5px solid $primary-color;
+    form {
+        border: 5px solid $primary-color;
 
-    input{
-      border: 3px solid #e4e4e4;
+        input {
+            border: 3px solid #e4e4e4;
+        }
     }
-  }
 }
 
-.house-worth-estimate{
-  padding-bottom: 100px;
-  .col{
-    /*padding-left: 30px;
-    padding-right: 30px;*/
-  }
+.house-worth-estimate {
+    padding-bottom: 100px;
+    .col {
+        /*padding-left: 30px;
+        padding-right: 30px;*/
+    }
 }
+
 @media only screen and (max-width: 600px) {
-  .house-worth-estimate {
-    .col{
-      text-align: center;
+    .house-worth-estimate {
+        .col {
+            text-align: center;
+        }
     }
-  }
 }
 
 @media only screen and (min-width: 601px) {
-  .success-stories{
-    .card-panel{
-      background: url("../images/chat-person.png") no-repeat bottom right transparent;
+    .success-stories {
+        .card-panel {
+            background: url("../images/chat-person.png") no-repeat bottom right transparent;
 
+        }
     }
-  }
 }

@@ -1,81 +1,92 @@
 
-main > section{
+main > section {
     padding: 40px 0;
 }
-h1, h2{
+
+h1, h2 {
     text-transform: uppercase;
 }
-.no-padding{
-    padding: 0!important;
+
+.no-padding {
+    padding: 0 !important;
 }
-.margin-top-0{
-    margin-top: 0!important;
+
+.margin-top-0 {
+    margin-top: 0 !important;
 }
-.margin-bottom-0{
-    margin-bottom: 0!important;
+
+.margin-bottom-0 {
+    margin-bottom: 0 !important;
 }
-.margin-top-15{
-    margin-top: 15px!important;
+
+.margin-top-15 {
+    margin-top: 15px !important;
 }
-.margin-bottom-15{
-    margin-bottom: 15px!important;
+
+.margin-bottom-15 {
+    margin-bottom: 15px !important;
 }
-.padding-bottom-5{
+
+.padding-bottom-5 {
     padding-bottom: 5px;
 }
-.padding-top-5{
+
+.padding-top-5 {
     padding-top: 5px;
 }
 
-.strong{
-    font-weight: 500!important;
+.strong {
+    font-weight: 500 !important;
 }
 
 /* nav section */
-.navbar-fixed{
+.navbar-fixed {
     height: 112px;
 }
-.sub-nav{
+
+.sub-nav {
     height: 48px;
     padding: 6px 0;
     background: #f6f6f6;
     overflow: hidden;
 
-    a{
+    a {
         vertical-align: top;
         font-size: 11px;
         padding-left: 15px;
         padding-right: 15px;
 
-        i{
+        i {
             vertical-align: middle;
         }
     }
-    .call-button{
+    .call-button {
         font-size: 14px;
         font-weight: 500;
         text-transform: none;
     }
 }
+
 @media only screen and (min-width: 601px) {
     nav {
         height: 112px;
-        .nav-wrapper{
+        .nav-wrapper {
             height: 64px;
         }
     }
 
 }
 
-.menu-button{
+.menu-button {
     font-size: 18px;
     font-weight: 700;
 }
-.call-button{
+
+.call-button {
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 10px;
-    b{
+    b {
         vertical-align: middle;
     }
 }
@@ -84,45 +95,46 @@ h1, h2{
     /*background: url("../images/footer-bg.png") center bottom repeat-x transparent;*/
     padding-bottom: 40px;
 }
-.sell-fast{
+
+.sell-fast {
     background: url("../images/fast-sold.png") no-repeat left bottom #f9f9f9;
     padding-bottom: 120px;
     background-size: 475px auto;
 }
 
-.home-banner{
+.home-banner {
     background: url("../images/banner-bg.jpg") no-repeat center transparent;
     background-size: cover;
     overflow: hidden;
 
-    .banner-text{
+    .banner-text {
         /*background: rgba(107,103,112,.6);*/
         position: relative;
         border-top: 1px solid transparent;
 
-        &:before{
+        &:before {
             position: absolute;
             content: "";
             top: 0;
             bottom: 0;
             left: -2000px;
             right: -1.5rem;
-            background: rgba(107,103,112,.6);
+            background: rgba(107, 103, 112, .6);
         }
-        .banner-text-content{
+        .banner-text-content {
             position: relative;
             font-size: 20px;
             font-weight: 500;
             padding-bottom: 20px;
 
-            li{
+            li {
                 margin-bottom: 10px;
             }
 
-            i{
+            i {
                 vertical-align: top;
             }
-            .no-upfront{
+            .no-upfront {
                 float: right;
                 margin-top: 5%;
             }
@@ -139,40 +151,41 @@ h1, h2{
     }
 }
 
-.home-fast{
-    .card-panel{
-        .variation{
+.home-fast {
+    .card-panel {
+        .variation {
             font-size: 18px;
             font-weight: 500;
 
-            strong{
+            strong {
                 font-size: 24px;
                 font-weight: 700;
             }
 
-            small{
+            small {
                 font-size: 12px;
             }
         }
     }
-    .row{
+    .row {
         margin-bottom: 0;
     }
 }
-.home-how-it-works{
-    > div{
+
+.home-how-it-works {
+    > div {
         padding-bottom: 8px;
         padding-top: 8px;
     }
 }
 
-.home-why{
-    .point{
+.home-why {
+    .point {
         position: relative;
         min-height: 124px;
         padding-left: 160px;
 
-        .point-icon{
+        .point-icon {
             position: absolute;
             top: 0;
             bottom: 0;
@@ -180,102 +193,104 @@ h1, h2{
             width: 150px;
             text-align: center;
         }
-        p{
+        p {
 
         }
     }
 }
+
 @media only screen and (max-width: 600px) {
-    .home-why{
-        .point{
+    .home-why {
+        .point {
             min-height: 0;
             padding-left: 0;
 
-            .point-icon{
+            .point-icon {
                 display: none;
             }
         }
-        .row{
+        .row {
             margin-bottom: 0;
         }
     }
 }
 
-.home-estimator{
-    form{
+.home-estimator {
+    form {
         position: relative;
 
-        i{
+        i {
             position: absolute;
             bottom: 50px;
             left: 92%;
         }
     }
 }
+
 @media only screen and (max-width: 1260px) {
-    .home-estimator{
-        form{
-            i{
+    .home-estimator {
+        form {
+            i {
                 display: none;
             }
         }
     }
 }
 
-.home-video{
-    .card{
+.home-video {
+    .card {
         cursor: pointer;
 
-        .card-image{
+        .card-image {
             position: relative;
 
         }
-        .card-content{
+        .card-content {
             min-height: 84px;
             font-weight: 500;
         }
-        .play-button{
-            background: rgba(0,0,0,0);
+        .play-button {
+            background: rgba(0, 0, 0, 0);
             position: absolute;
-            top:0;
+            top: 0;
             left: 0;
             right: 0;
             bottom: 0;
             transition: all .3s;
-            i{
+            i {
                 position: absolute;
                 top: 50%;
-                left:50%;
+                left: 50%;
                 transform: translate(-50%, -50%);
             }
         }
-        &:hover{
-            .play-button{
-                background: rgba(0,0,0,.25);
+        &:hover {
+            .play-button {
+                background: rgba(0, 0, 0, .25);
             }
         }
     }
-    .small-videos{
+    .small-videos {
         text-align: center;
         height: 135px;
         overflow: hidden;
         margin-bottom: 20px;
 
-        .card{
+        .card {
             display: inline-block;
             margin: 0 5px 25px;
             width: 100px;
             vertical-align: top;
 
-            .card-content{
+            .card-content {
                 padding: 4px;
                 font-size: 12px;
                 line-height: 15px;
                 min-height: 38px;
                 font-weight: 500;
             }
-            .play-button{
-                i{
+            .play-button {
+                i {
                     transform: none;
                     top: auto;
                     left: 0;
@@ -286,20 +301,21 @@ h1, h2{
     }
 }
 
-.home-success{
+.home-success {
 
-    .card{
+    .card {
         margin: 5px;
     }
 }
-@media only screen and (max-width: 460px) {
-    .home-success{
 
-        .success-slider{
+@media only screen and (max-width: 460px) {
+    .home-success {
+
+        .success-slider {
             margin-right: 0;
             margin-left: 0;
         }
-        .unslider-arrow i{
+        .unslider-arrow i {
             top: 54%;
             left: 10px;
         }
@@ -314,11 +330,11 @@ h1, h2{
     }
 }
 
-.home-customer-service{
+.home-customer-service {
     background: url("../images/service-bg.png") no-repeat center transparent;
     background-size: cover;
 
-    .review-slider li{
+    .review-slider li {
         padding: 5px;
     }
     .unslider-arrow i {
@@ -326,151 +342,156 @@ h1, h2{
     }
 }
 
-.home-recent-sale{
+.home-recent-sale {
     background: url("../images/pattern.png") no-repeat center transparent;
     background-size: cover;
 
-    .row{
+    .row {
         margin: 0;
     }
-    img{
+    img {
         vertical-align: top;
     }
 }
+
 @media only screen and (min-width: 601px) {
-    .home-recent-sale{
+    .home-recent-sale {
         padding-top: 0;
         padding-bottom: 0;
     }
 }
 
-.home-success-numbers{
+.home-success-numbers {
 
 }
+
 @media only screen and (min-width: 993px) {
-    .home-success-numbers{
-        .masonry{
-            > div{
+    .home-success-numbers {
+        .masonry {
+            > div {
                 float: left;
                 margin: 0.5%;
             }
-            .card-panel{
+            .card-panel {
                 min-width: 200px;
             }
-            .w-small{
+            .w-small {
                 width: 24%;
                 min-width: 200px;
             }
-            .h-small{
+            .h-small {
                 height: 200px;
             }
-            .w-large{
+            .w-large {
                 width: 49%;
                 min-width: 400px;
             }
-            .h-large{
+            .h-large {
                 height: 350px;
             }
-            .margin-top-10{
-                margin-top: 4%!important;
+            .margin-top-10 {
+                margin-top: 4% !important;
             }
-            .big{
+            .big {
                 font-size: 76px;
                 font-weight: 700;
             }
-            .medium{
+            .medium {
                 font-size: 60px;
                 font-weight: 700;
             }
-            .valign{
+            .valign {
                 width: 100%;
             }
-            span, i{
+            span, i {
                 vertical-align: middle;
             }
         }
     }
 }
+
 @media only screen and (max-width: 992px) {
-    .home-success-numbers{
-        .masonry{
-            > div{
+    .home-success-numbers {
+        .masonry {
+            > div {
                 float: left;
                 margin: 0.5%;
             }
-            .card-panel{
+            .card-panel {
                 min-width: 150px;
             }
-            .w-small{
+            .w-small {
                 width: 49%;
                 min-width: 150px;
             }
-            .h-small{
+            .h-small {
                 height: 200px;
             }
-            .w-large{
+            .w-large {
                 width: 99%;
                 min-width: 300px;
             }
-            .h-large{
+            .h-large {
                 height: 350px;
             }
-            .margin-top-10{
-                margin-top: 10px!important;
+            .margin-top-10 {
+                margin-top: 10px !important;
             }
-            .big{
+            .big {
                 font-size: 64px;
                 font-weight: 700;
             }
-            .medium{
+            .medium {
                 font-size: 54px;
                 font-weight: 700;
             }
-            .valign{
+            .valign {
                 width: 100%;
             }
-            span, i{
+            span, i {
                 vertical-align: middle;
             }
         }
     }
 }
+
 @media only screen and (max-width: 460px) {
-    .home-success-numbers{
-        .masonry{
-            .card-panel{
+    .home-success-numbers {
+        .masonry {
+            .card-panel {
                 padding: 10px 5px;
             }
-            .big{
+            .big {
                 font-size: 40px;
             }
-            .medium{
+            .medium {
                 font-size: 36px;
             }
-            .w-small{
+            .w-small {
                 min-width: 140px;
             }
-            .w-large{
+            .w-large {
                 min-width: 280px;
             }
         }
     }
 }
 
-.home-call-center{
+.home-call-center {
     background: url("../images/call-center-bg.jpg") no-repeat center transparent;
     background-size: cover;
 }
 
-.home-chat{
-    .container{
+.home-chat {
+    .container {
         padding-top: 40px;
         padding-bottom: 40px;
     }
 }
+
 @media only screen and (min-width: 601px) {
-    .home-chat{
-        .container{
+    .home-chat {
+        .container {
             background: url("../images/chat-person.png") no-repeat bottom right transparent;
             padding-top: 40px;
             padding-bottom: 40px;
@@ -478,47 +499,65 @@ h1, h2{
     }
 }
 
-.form-title{
+.form-title {
     padding: 30px 15px;
     font-size: 30px;
     font-weight: bold;
 }
-.classic-form{
+
+.classic-form {
     padding: 40px 10%;
-    input{
+    input {
         background: #fff;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         padding-left: 15px;
         padding-right: 15px;
         box-sizing: border-box;
         height: 3.5rem;
         font-size: 1.25rem;
+        border: 1px solid #ccc
+    }
+
+    &.medium {
+        input {
+            height: 3rem;
+            margin-bottom: 8px;
+        }
+    }
+    &.small {
+        input {
+            height: 2.5rem;
+            font-size: 1rem;
+            margin-bottom: 6px;
+        }
     }
 }
 
-.fixed-free-val{
+.fixed-free-val {
     transform: rotate(90deg);
     position: fixed;
     bottom: 20%;
     right: 0;
     transform-origin: top right;
 }
+
 @media only screen and (min-width: 601px) {
-    .card-horizontal{
+    .card-horizontal {
         display: flex;
         align-items: center;
 
-        .card-image{
+        .card-image {
             float: left;
             width: 40%;
         }
-        .card-content{
-            float:left;
-            width:60%;
+        .card-content {
+            float: left;
+            width: 60%;
             display: block;
         }
     }
 }
+
 /*
 @media only screen and (min-width: 993px) {
     .card-horizontal{
@@ -531,9 +570,9 @@ h1, h2{
         }
     }
 }*/
-#modal-video{
+#modal-video {
     background-color: #000;
-    .modal-content{
+    .modal-content {
         padding: 0;
     }
 }
