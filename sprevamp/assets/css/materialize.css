@@ -7783,4 +7783,27 @@ h1, h2 {
   }
 }
 
+/* mortgage.php */
+/* line 60, ../sass/_inner.scss */
+.mortgage-banner {
+  background: url("../images/mortgage-bg.jpg") no-repeat center transparent;
+  background-size: auto 100%;
+}
+/* line 64, ../sass/_inner.scss */
+.mortgage-banner .container {
+  overflow: hidden;
+}
+/* line 67, ../sass/_inner.scss */
+.mortgage-banner .row {
+  margin-bottom: 0;
+}
+/* line 70, ../sass/_inner.scss */
+.mortgage-banner .shaded-form {
+  box-shadow: -50px 0 125px 87px #fff;
+}
+/* line 73, ../sass/_inner.scss */
+.mortgage-banner .classic-form {
+  padding: 0 0 20px 0;
+}
+
 /*# sourceMappingURL=materialize.css.map */
