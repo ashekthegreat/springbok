@@ -46,7 +46,7 @@
 /* mission-vision.php */
 .mission-yellow {
     padding: 15px 0;
-    .row{
+    .row {
         margin-bottom: 0;
     }
     @media #{$medium-and-up} {
@@ -61,16 +61,168 @@
     background: url("../images/mortgage-bg.jpg") no-repeat center transparent;
     background-size: auto 100%;
 
-    .container{
+    .container {
         overflow: hidden;
     }
-    .row{
+    .row {
         margin-bottom: 0;
     }
-    .shaded-form{
+    .shaded-form {
         box-shadow: -50px 0 125px 87px #fff;
     }
-    .classic-form{
+    .classic-form {
         padding: 0 0 20px 0;
+    }
+}
+
+/* how-we-compare.php */
+@media #{$large-and-up} {
+    .compare-main{
+        h1, h3{
+            margin-left: 20%;
+        }
+    }
+    .table-compare {
+        margin-bottom: 70px;
+        border-spacing: 15px;
+        border-collapse: separate;
+        table-layout: fixed;
+
+        thead {
+            td {
+                padding: 10px 20px;
+                text-align: center;
+                font-size: 30px;
+                text-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+            }
+            td:nth-of-type(1) {
+                width: 20%;
+            }
+            td:nth-of-type(2) {
+                width: 40%;
+            }
+            td:nth-of-type(3) {
+                width: 40%;
+            }
+            .vs{
+                vertical-align: middle;
+                margin-left: -50px;
+                float: left;
+            }
+        }
+        tbody {
+            td {
+                vertical-align: middle;
+                height: 175px;
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 10px 20px;
+            }
+            td:nth-of-type(1) {
+                text-align: right;
+                font-size: 1.75rem;
+                text-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+                font-weight: bold;
+            }
+            td:nth-of-type(2) {
+                background: #feffef;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            }
+            td:nth-of-type(3) {
+                background: #f6f6f6;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            }
+        }
+    }
+}
+
+@media #{$medium-and-down} {
+
+    /* Force table to not be like tables anymore */
+    .table-compare,
+    .table-compare tbody,
+    .table-compare td,
+    .table-compare tr {
+        display: block;
+        float: left;
+        clear: both;
+        width: 100%
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .table-compare {
+        margin-bottom: 50px;
+        thead {
+            display: none;
+        }
+        tr {
+            border: 1px solid #ccc;
+            margin-top: 8px;
+        }
+        td {
+            /* Behave  like a "row" */
+            border: none;
+            border-bottom: 1px solid #eee;
+            position: relative;
+            padding: 8px 15px;
+        }
+        td:before {
+            top: 6px;
+            left: 6px;
+            width: 100%;
+            padding-right: 10px;
+            white-space: nowrap;
+            display: block;
+            font-weight: bold;
+        }
+        td:nth-of-type(1) {
+            font-weight: bold;
+            font-size: 16px;
+            background: #fffaa3;
+        }
+        td:nth-of-type(2) {
+        }
+        td:nth-of-type(3) {
+        }
+    }
+
+    /*
+    Label the data
+    */
+    .table-compare-agents {
+        td:nth-of-type(1):before {
+            content: "";
+        }
+        td:nth-of-type(2):before {
+            content: "Springbok Properties: ";
+        }
+        td:nth-of-type(3):before {
+            content: "Traditional Estate Agent: ";
+        }
+    }
+
+    .table-compare-buyers {
+        td:nth-of-type(1):before {
+            content: "";
+        }
+        td:nth-of-type(2):before {
+            content: "Springbok Properties: ";
+        }
+
+        td:nth-of-type(3):before {
+            content: "Cash Buyer: ";
+        }
+    }
+
+    .table-compare-online {
+        td:nth-of-type(1):before {
+            content: "";
+        }
+        td:nth-of-type(2):before {
+            content: "Springbok Properties: ";
+        }
+        td:nth-of-type(3):before {
+            content: "Online Estate Agents: ";
+        }
     }
 }

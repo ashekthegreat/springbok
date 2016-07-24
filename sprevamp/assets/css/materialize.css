@@ -7806,4 +7806,164 @@ h1, h2 {
   padding: 0 0 20px 0;
 }
 
+/* how-we-compare.php */
+@media only screen and (min-width: 993px) {
+  /* line 81, ../sass/_inner.scss */
+  .compare-main h1, .compare-main h3 {
+    margin-left: 20%;
+  }
+
+  /* line 85, ../sass/_inner.scss */
+  .table-compare {
+    margin-bottom: 70px;
+    border-spacing: 15px;
+    border-collapse: separate;
+    table-layout: fixed;
+  }
+  /* line 92, ../sass/_inner.scss */
+  .table-compare thead td {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+  }
+  /* line 98, ../sass/_inner.scss */
+  .table-compare thead td:nth-of-type(1) {
+    width: 20%;
+  }
+  /* line 101, ../sass/_inner.scss */
+  .table-compare thead td:nth-of-type(2) {
+    width: 40%;
+  }
+  /* line 104, ../sass/_inner.scss */
+  .table-compare thead td:nth-of-type(3) {
+    width: 40%;
+  }
+  /* line 107, ../sass/_inner.scss */
+  .table-compare thead .vs {
+    vertical-align: middle;
+    margin-left: -50px;
+    float: left;
+  }
+  /* line 114, ../sass/_inner.scss */
+  .table-compare tbody td {
+    vertical-align: middle;
+    height: 175px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+  /* line 121, ../sass/_inner.scss */
+  .table-compare tbody td:nth-of-type(1) {
+    text-align: right;
+    font-size: 1.75rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
+    font-weight: bold;
+  }
+  /* line 127, ../sass/_inner.scss */
+  .table-compare tbody td:nth-of-type(2) {
+    background: #feffef;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  /* line 131, ../sass/_inner.scss */
+  .table-compare tbody td:nth-of-type(3) {
+    background: #f6f6f6;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* Force table to not be like tables anymore */
+  /* line 142, ../sass/_inner.scss */
+  .table-compare,
+  .table-compare tbody,
+  .table-compare td,
+  .table-compare tr {
+    display: block;
+    float: left;
+    clear: both;
+    width: 100%;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  /* line 153, ../sass/_inner.scss */
+  .table-compare {
+    margin-bottom: 50px;
+  }
+  /* line 155, ../sass/_inner.scss */
+  .table-compare thead {
+    display: none;
+  }
+  /* line 158, ../sass/_inner.scss */
+  .table-compare tr {
+    border: 1px solid #ccc;
+    margin-top: 8px;
+  }
+  /* line 162, ../sass/_inner.scss */
+  .table-compare td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding: 8px 15px;
+  }
+  /* line 169, ../sass/_inner.scss */
+  .table-compare td:before {
+    top: 6px;
+    left: 6px;
+    width: 100%;
+    padding-right: 10px;
+    white-space: nowrap;
+    display: block;
+    font-weight: bold;
+  }
+  /* line 178, ../sass/_inner.scss */
+  .table-compare td:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 16px;
+    background: #fffaa3;
+  }
+
+  /*
+  Label the data
+  */
+  /* line 193, ../sass/_inner.scss */
+  .table-compare-agents td:nth-of-type(1):before {
+    content: "";
+  }
+  /* line 196, ../sass/_inner.scss */
+  .table-compare-agents td:nth-of-type(2):before {
+    content: "Springbok Properties: ";
+  }
+  /* line 199, ../sass/_inner.scss */
+  .table-compare-agents td:nth-of-type(3):before {
+    content: "Traditional Estate Agent: ";
+  }
+
+  /* line 205, ../sass/_inner.scss */
+  .table-compare-buyers td:nth-of-type(1):before {
+    content: "";
+  }
+  /* line 208, ../sass/_inner.scss */
+  .table-compare-buyers td:nth-of-type(2):before {
+    content: "Springbok Properties: ";
+  }
+  /* line 212, ../sass/_inner.scss */
+  .table-compare-buyers td:nth-of-type(3):before {
+    content: "Cash Buyer: ";
+  }
+
+  /* line 218, ../sass/_inner.scss */
+  .table-compare-online td:nth-of-type(1):before {
+    content: "";
+  }
+  /* line 221, ../sass/_inner.scss */
+  .table-compare-online td:nth-of-type(2):before {
+    content: "Springbok Properties: ";
+  }
+  /* line 224, ../sass/_inner.scss */
+  .table-compare-online td:nth-of-type(3):before {
+    content: "Online Estate Agents: ";
+  }
+}
+
 /*# sourceMappingURL=materialize.css.map */
