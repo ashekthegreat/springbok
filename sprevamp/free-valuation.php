@@ -103,9 +103,6 @@
             </div>
         </section>
 
-
-
-
     </main>
 
     <?php include("section-footer.php"); ?>

@@ -20,7 +20,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media #{$small-and-down} {
     .house-worth-estimate {
         .col {
             text-align: center;
@@ -28,9 +28,8 @@
     }
 }
 
-
 /* success-stories.php */
-@media only screen and (min-width: 601px) {
+@media #{$medium-and-up} {
     .success-stories {
         .card-panel {
             background: url("../images/chat-person.png") no-repeat bottom right transparent;
@@ -39,8 +38,20 @@
     }
 }
 
-
 /* free-valuation.php */
-.free-valuation-banner{
+.free-valuation-banner {
     background: url("../images/free-valuation-banner-bg.png") repeat-x left bottom transparent;
+}
+
+/* mission-vision.php */
+.mission-yellow {
+    padding: 15px 0;
+    .row{
+        margin-bottom: 0;
+    }
+    @media #{$medium-and-up} {
+        .border-right {
+            border-right: 1px solid $secondary-color;
+        }
+    }
 }

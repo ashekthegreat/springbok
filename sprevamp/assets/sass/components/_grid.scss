@@ -145,3 +145,27 @@
     }
   }
 }
+
+.flexbox {
+  display: block;
+
+  .col {
+
+  }
+}
+@media #{$medium-and-up} {
+  .flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+
+    .col {
+      flex: 1;
+      align-items: center;
+      padding: 0 $gutter-width / 2;
+    }
+  }
+}
