@@ -20,7 +20,7 @@
                 <div class="col s12 m4 pull-m4">
                     <h5>Useful links</h5>
                     <ul>
-                        <li><a href="#">Get Free Valuation</a></li>
+                        <li><a href="free-valuation.php">Get Free Valuation</a></li>
                         <li><a href="#">Properties For Sale</a></li>
                         <li><a href="#">Properties To Let</a></li>
                         <li><a href="#">Contact Us</a></li>
@@ -36,10 +36,12 @@
                         <li><a href="#">About Springbok</a></li>
                         <li><a href="#">Team Springbok</a></li>
                         <li><a href="#">Customer Reviews</a></li>
-                        <li><a href="#">Springbok Mission, values & culture</a></li>
+                        <li><a href="mission-vision.php">Springbok Mission, values & culture</a></li>
                         <li><a href="#">The Springbok Story</a></li>
                         <li><a href="#">Our selected charities</a></li>
                         <li><a href="#">Refer A Friend</a></li>
+                        <li><a href="how-we-compare.php">How we compare</a></li>
+                        <li><a href="">Where we advertise</a></li>
                     </ul>
                 </div>
             </div>
@@ -68,8 +70,8 @@
 
 
 <!--Import jQuery before materialize.js-->
-<script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
-<script type="text/javascript" src="assets/js/jquery-migrate-3.0.0.min.js"></script>
-<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="assets/js/materialize.js"></script>
 <script type="text/javascript" src="assets/js/unslider-min.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>

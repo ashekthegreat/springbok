@@ -5,6 +5,11 @@
             edge: 'right',
             closeOnClick: false
         });
+        $(".dropdown-main-nav").dropdown({
+            hover: true,
+            constrain_width: false,
+            belowOrigin: true
+        });
     });
 
     // map section
