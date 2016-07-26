@@ -576,3 +576,16 @@ h1, h2 {
         padding: 0;
     }
 }
+
+main{
+    a {
+        color: #6b6770;
+        text-decoration: underline;
+        font-weight: 500;
+    }
+
+    a:active,
+    a:hover {
+        color: #7a7680;
+    }
+}

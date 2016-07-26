@@ -68,7 +68,7 @@
                                     <div class="card-content">
                                         <div class="center-align">
                                             <h3 class="margin-top-0">Halfpenny Lane, Wakefield</h3>
-                                            <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                            <!--<a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>-->
                                             <div class="row margin-bottom-0">
                                                 <div class="col s12 m5">
                                                     <h4>1,070 Days</h4>
@@ -95,7 +95,7 @@
                                     <div class="card-content">
                                         <div class="center-align">
                                             <h3 class="margin-top-0">Briar Close, Peterborough</h3>
-                                            <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                            <!--<a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>-->
                                             <div class="row margin-bottom-0">
                                                 <div class="col s5">
                                                     <h4>305 days</h4>
@@ -122,7 +122,7 @@
                                     <div class="card-content">
                                         <div class="center-align">
                                             <h3 class="margin-top-0">Audon Avenue, Nottingham</h3>
-                                            <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                            <!--<a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>-->
                                             <div class="row margin-bottom-0">
                                                 <div class="col s5">
                                                     <h4>173 days</h4>
@@ -130,6 +130,60 @@
                                                 </div>
                                                 <div class="col s4">
                                                     <h4>22 days</h4>
+                                                    <p>Sale Agreed with Springbok</p>
+                                                </div>
+                                                <div class="col s3">
+                                                    <h4>100%</h4>
+                                                    <p>Asking Price</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card card-horizontal sp-secondary-text clearfix">
+                                    <div class="card-image">
+                                        <img class="responsive-img" src="assets/images/success/ormesby_bank.jpg" width="558" height="369">
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="center-align">
+                                            <h3 class="margin-top-0">Ormesby Bank, Teeside</h3>
+                                            <!--<a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>-->
+                                            <div class="row margin-bottom-0">
+                                                <div class="col s5">
+                                                    <h4>149 days</h4>
+                                                    <p>Not sold with previews estate agents</p>
+                                                </div>
+                                                <div class="col s4">
+                                                    <h4>13 days</h4>
+                                                    <p>Sale Agreed with Springbok</p>
+                                                </div>
+                                                <div class="col s3">
+                                                    <h4>100%</h4>
+                                                    <p>Asking Price</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card card-horizontal sp-secondary-text clearfix">
+                                    <div class="card-image">
+                                        <img class="responsive-img" src="assets/images/success/gladstone_street.jpg" width="495" height="370">
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="center-align">
+                                            <h3 class="margin-top-0">Gladstone Street, Darlington</h3>
+                                            <!--<a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>-->
+                                            <div class="row margin-bottom-0">
+                                                <div class="col s5">
+                                                    <h4>172 days</h4>
+                                                    <p>Not sold with previews estate agents</p>
+                                                </div>
+                                                <div class="col s4">
+                                                    <h4>20 days</h4>
                                                     <p>Sale Agreed with Springbok</p>
                                                 </div>
                                                 <div class="col s3">

@@ -47,7 +47,7 @@
     </div>
     
     <div class="footer-copyright">
-        <div class="container center-align sp-secondary-text lighten-3 big">
+        <div class="container center-align sp-secondary-text lighten-3">
             <strong>&copy; 2015 Springbok Properties</strong> |
             <a href="#">Privacy Policy</a> |
             <a href="#">Terms & Conditions</a> |

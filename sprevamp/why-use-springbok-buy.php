@@ -19,7 +19,7 @@
 
     <main>
 
-        <section class="why-buy-reasons sp-primary sp-secondary-text">
+        <section class="why-buy-reasons white sp-secondary-text">
             <div class="container center-align">
                 <h1 class="big">
                     10 reasons to choose Springbok
