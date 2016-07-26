@@ -7801,8 +7801,8 @@ main a:hover {
 /* mortgage.php */
 /* line 60, ../sass/_inner.scss */
 .mortgage-banner {
-  background: url("../images/mortgage-bg.jpg") no-repeat center transparent;
-  background-size: auto 100%;
+  background: url("../images/mortgage-bg.jpg") no-repeat top center transparent;
+  background-size: cover;
 }
 /* line 64, ../sass/_inner.scss */
 .mortgage-banner .container {
