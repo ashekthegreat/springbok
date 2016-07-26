@@ -53,7 +53,7 @@
 
     $(function(){
         var $modal = $("#modal-video");
-        $(".home-video .card").click(function(){
+        $(".home-video .card, .big-play .play, .reviews-video .card").click(function(){
             var id = $(this).data("id");
 
             $modal.find(".modal-content").empty().append('<div class="video-container"><iframe class="responsive-img" width="560" height="315" src="https://www.youtube.com/embed/' + id +'?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe></div>')

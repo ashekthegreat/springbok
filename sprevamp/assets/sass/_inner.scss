@@ -75,6 +75,23 @@
     }
 }
 
+/* reviews.php */
+.reviews-banner {
+    background: url("../images/reviews-bg.jpg") no-repeat top center #fff;
+    background-size: cover;
+
+    .big-play{
+        padding: 40px 30px;
+    }
+
+}
+.reviews-video .card .card-content{
+    min-height: 64px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 /* how-we-compare.php */
 @media #{$large-and-up} {
     .compare-main{
