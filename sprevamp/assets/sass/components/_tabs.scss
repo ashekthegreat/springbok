@@ -36,8 +36,14 @@
       text-overflow: ellipsis;
       overflow: hidden;
       transition: color .28s ease;
+      text-decoration: none;
+      border-right: 1px solid #ccc;
       &:hover {
         color: lighten($tabs-text-color, 20%);
+      }
+      &.active{
+        font-weight: bold;
+        background: #eee;
       }
     }
 
@@ -49,7 +55,7 @@
   .indicator {
     position: absolute;
     bottom: 0;
-    height: 2px;
+    height: 5px;
     background-color: $tabs-underline-color;
     will-change: left, right;
   }

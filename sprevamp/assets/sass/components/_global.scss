@@ -214,15 +214,16 @@ video.responsive-video {
 
   li {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 10px;
     line-height: 30px;
     border-radius: 2px;
     text-align: center;
+    background: #333;
 
-    a { color: #444; }
+    a { color: #eee; text-decoration: none; }
 
-    &.active a { color: #fff; }
+    &.active a { color: $secondary-color; }
 
     &.active { background-color: $primary-color; }
 

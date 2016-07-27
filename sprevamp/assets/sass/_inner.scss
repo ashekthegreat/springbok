@@ -76,6 +76,20 @@
 }
 
 /* reviews.php */
+.reviews-review{
+    .tab-content{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .review-title{
+        line-height: 30px;
+        vertical-align: middle;
+
+        img{
+            vertical-align: middle;
+        }
+    }
+}
 .reviews-banner {
     background: url("../images/reviews-bg.jpg") no-repeat top center #fff;
     background-size: cover;
@@ -83,13 +97,65 @@
     .big-play{
         padding: 40px 30px;
     }
-
 }
-.reviews-video .card .card-content{
-    min-height: 64px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.reviews-video {
+    .card .card-content {
+        min-height: 64px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+.reviews-chat {
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .reviews-chat {
+        .container {
+            background: url("../images/chat-person.png") no-repeat bottom left transparent;
+            padding-top: 100px;
+            padding-bottom: 40px;
+        }
+    }
+}
+@media #{$small-and-down} {
+    .reviews-review{
+        .tabs{
+            height: auto;
+            display: block;
+
+            li{
+                display: block;
+                width: 100%;
+                a{
+                    border-left: 5px solid transparent;
+                    &.active{
+                        border-left: 5px solid $tabs-underline-color;
+                    }
+                }
+            }
+            .indicator{
+                display: none;
+            }
+        }
+    }
+}
+
+/* refer-a-friend */
+.refer-comments{
+    .comments{
+        display: block;
+        text-align: center;
+        li{
+            margin: 5px 2px;
+            display: inline-block;
+            max-width: 40%;
+        }
+    }
 }
 
 /* how-we-compare.php */
