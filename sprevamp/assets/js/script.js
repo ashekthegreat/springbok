@@ -6,7 +6,7 @@
             closeOnClick: false
         });
         $(".dropdown-main-nav").dropdown({
-            /*hover: true,*/
+            hover: true,
             constrain_width: false,
             belowOrigin: true
         });
