@@ -158,6 +158,21 @@
     }
 }
 
+/* recent-sales */
+.sales-list{
+    .card-image{
+        display: flex;
+        justify-content: center;
+        height: 150px; /* or other desired height */
+        overflow: hidden;
+        align-items: center;
+
+        img{
+            flex: none; /* keep aspect ratio */
+        }
+    }
+}
+
 /* how-we-compare.php */
 @media #{$large-and-up} {
     .compare-main{
