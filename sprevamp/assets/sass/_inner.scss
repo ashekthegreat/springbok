@@ -162,6 +162,10 @@
 .sales-banner{
     background: url("../images/map-grey.png") no-repeat center transparent;
     background-size: auto 100%;
+
+    .form-title{
+        padding: 20px 15px;
+    }
 }
 .sales-list{
     /*.card-image{
@@ -178,8 +182,12 @@
         }
     }*/
     .card .card-content {
+        padding: 20px 10px;
         font-size: 20px;
         font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 

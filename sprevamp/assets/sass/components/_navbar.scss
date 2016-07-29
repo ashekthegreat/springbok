@@ -159,7 +159,7 @@ nav {
 // Fixed Navbar
 .navbar-fixed {
   position: relative;
-  height: $navbar-height-mobile;
+  height: 104px;
   z-index: 998;
 
   nav {
@@ -172,6 +172,6 @@ nav {
     line-height: $navbar-height;
   }
   .navbar-fixed {
-    height: $navbar-height;
+    height: 112px;
   }
 }
