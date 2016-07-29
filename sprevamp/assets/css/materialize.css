@@ -7779,13 +7779,20 @@ h1, h2 {
   padding: 30px 15px;
   font-size: 30px;
   font-weight: bold;
+  line-height: 1.2;
+}
+/* line 542, ../sass/_application.scss */
+.form-title small {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
 }
 
-/* line 542, ../sass/_application.scss */
+/* line 549, ../sass/_application.scss */
 .classic-form {
   padding: 40px 10%;
 }
-/* line 544, ../sass/_application.scss */
+/* line 551, ../sass/_application.scss */
 .classic-form input {
   background: #fff;
   margin-bottom: 10px;
@@ -7796,19 +7803,19 @@ h1, h2 {
   font-size: 1.25rem;
   border: 1px solid #ccc;
 }
-/* line 556, ../sass/_application.scss */
+/* line 563, ../sass/_application.scss */
 .classic-form.medium input {
   height: 3rem;
   margin-bottom: 8px;
 }
-/* line 562, ../sass/_application.scss */
+/* line 569, ../sass/_application.scss */
 .classic-form.small input {
   height: 2.5rem;
   font-size: 1rem;
   margin-bottom: 6px;
 }
 
-/* line 570, ../sass/_application.scss */
+/* line 577, ../sass/_application.scss */
 .fixed-free-val {
   transform: rotate(90deg);
   position: fixed;
@@ -7818,17 +7825,17 @@ h1, h2 {
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 579, ../sass/_application.scss */
+  /* line 586, ../sass/_application.scss */
   .card-horizontal {
     display: flex;
     align-items: center;
   }
-  /* line 583, ../sass/_application.scss */
+  /* line 590, ../sass/_application.scss */
   .card-horizontal .card-image {
     float: left;
     width: 40%;
   }
-  /* line 587, ../sass/_application.scss */
+  /* line 594, ../sass/_application.scss */
   .card-horizontal .card-content {
     float: left;
     width: 60%;
@@ -7847,22 +7854,22 @@ h1, h2 {
         }
     }
 }*/
-/* line 607, ../sass/_application.scss */
+/* line 614, ../sass/_application.scss */
 #modal-video {
   background-color: #000;
 }
-/* line 609, ../sass/_application.scss */
+/* line 616, ../sass/_application.scss */
 #modal-video .modal-content {
   padding: 0;
 }
 
-/* line 615, ../sass/_application.scss */
+/* line 622, ../sass/_application.scss */
 main a {
   color: #6b6770;
   text-decoration: underline;
   font-weight: 500;
 }
-/* line 621, ../sass/_application.scss */
+/* line 628, ../sass/_application.scss */
 main a:active,
 main a:hover {
   color: #7a7680;
@@ -8037,61 +8044,74 @@ main a:hover {
 }
 
 /* recent-sales */
-/* line 163, ../sass/_inner.scss */
-.sales-list .card-image {
-  display: flex;
-  justify-content: center;
-  height: 150px;
-  /* or other desired height */
-  overflow: hidden;
-  align-items: center;
+/* line 162, ../sass/_inner.scss */
+.sales-banner {
+  background: url("../images/map-grey.png") no-repeat center transparent;
+  background-size: auto 100%;
 }
-/* line 170, ../sass/_inner.scss */
-.sales-list .card-image img {
-  flex: none;
-  /* keep aspect ratio */
+
+/* line 166, ../sass/_inner.scss */
+.sales-list {
+    /*.card-image{
+
+        height: 350px; !* or other desired height *!
+        overflow: hidden;
+        align-items: center;
+
+        img{
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+        }
+    }*/
+}
+/* line 180, ../sass/_inner.scss */
+.sales-list .card .card-content {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* how-we-compare.php */
 @media only screen and (min-width: 993px) {
-  /* line 179, ../sass/_inner.scss */
+  /* line 189, ../sass/_inner.scss */
   .compare-main h1, .compare-main h3 {
     margin-left: 20%;
   }
 
-  /* line 183, ../sass/_inner.scss */
+  /* line 193, ../sass/_inner.scss */
   .table-compare {
     margin-bottom: 70px;
     border-spacing: 15px;
     border-collapse: separate;
     table-layout: fixed;
   }
-  /* line 190, ../sass/_inner.scss */
+  /* line 200, ../sass/_inner.scss */
   .table-compare thead td {
     padding: 10px 20px;
     text-align: center;
     font-size: 30px;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
   }
-  /* line 196, ../sass/_inner.scss */
+  /* line 206, ../sass/_inner.scss */
   .table-compare thead td:nth-of-type(1) {
     width: 20%;
   }
-  /* line 199, ../sass/_inner.scss */
+  /* line 209, ../sass/_inner.scss */
   .table-compare thead td:nth-of-type(2) {
     width: 40%;
   }
-  /* line 202, ../sass/_inner.scss */
+  /* line 212, ../sass/_inner.scss */
   .table-compare thead td:nth-of-type(3) {
     width: 40%;
   }
-  /* line 205, ../sass/_inner.scss */
+  /* line 215, ../sass/_inner.scss */
   .table-compare thead .vs {
     vertical-align: middle;
     margin-left: -50px;
     float: left;
   }
-  /* line 212, ../sass/_inner.scss */
+  /* line 222, ../sass/_inner.scss */
   .table-compare tbody td {
     vertical-align: middle;
     height: 175px;
@@ -8099,19 +8119,19 @@ main a:hover {
     font-size: 1.05rem;
     padding: 10px 20px;
   }
-  /* line 219, ../sass/_inner.scss */
+  /* line 229, ../sass/_inner.scss */
   .table-compare tbody td:nth-of-type(1) {
     text-align: right;
     font-size: 1.35rem;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 0 2px 10px rgba(0, 0, 0, 0.12);
     font-weight: bold;
   }
-  /* line 225, ../sass/_inner.scss */
+  /* line 235, ../sass/_inner.scss */
   .table-compare tbody td:nth-of-type(2) {
     background: #feffef;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
-  /* line 229, ../sass/_inner.scss */
+  /* line 239, ../sass/_inner.scss */
   .table-compare tbody td:nth-of-type(3) {
     background: #f6f6f6;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -8119,7 +8139,7 @@ main a:hover {
 }
 @media only screen and (max-width: 992px) {
   /* Force table to not be like tables anymore */
-  /* line 240, ../sass/_inner.scss */
+  /* line 250, ../sass/_inner.scss */
   .table-compare,
   .table-compare tbody,
   .table-compare td,
@@ -8131,20 +8151,20 @@ main a:hover {
   }
 
   /* Hide table headers (but not display: none;, for accessibility) */
-  /* line 251, ../sass/_inner.scss */
+  /* line 261, ../sass/_inner.scss */
   .table-compare {
     margin-bottom: 50px;
   }
-  /* line 253, ../sass/_inner.scss */
+  /* line 263, ../sass/_inner.scss */
   .table-compare thead {
     display: none;
   }
-  /* line 256, ../sass/_inner.scss */
+  /* line 266, ../sass/_inner.scss */
   .table-compare tr {
     border: 1px solid #ccc;
     margin-top: 8px;
   }
-  /* line 260, ../sass/_inner.scss */
+  /* line 270, ../sass/_inner.scss */
   .table-compare td {
     /* Behave  like a "row" */
     border: none;
@@ -8152,7 +8172,7 @@ main a:hover {
     position: relative;
     padding: 8px 15px;
   }
-  /* line 267, ../sass/_inner.scss */
+  /* line 277, ../sass/_inner.scss */
   .table-compare td:before {
     top: 6px;
     left: 6px;
@@ -8162,7 +8182,7 @@ main a:hover {
     display: block;
     font-weight: bold;
   }
-  /* line 276, ../sass/_inner.scss */
+  /* line 286, ../sass/_inner.scss */
   .table-compare td:nth-of-type(1) {
     font-weight: bold;
     font-size: 16px;
@@ -8172,41 +8192,41 @@ main a:hover {
   /*
   Label the data
   */
-  /* line 291, ../sass/_inner.scss */
+  /* line 301, ../sass/_inner.scss */
   .table-compare-agents td:nth-of-type(1):before {
     content: "";
   }
-  /* line 294, ../sass/_inner.scss */
+  /* line 304, ../sass/_inner.scss */
   .table-compare-agents td:nth-of-type(2):before {
     content: "Springbok Properties: ";
   }
-  /* line 297, ../sass/_inner.scss */
+  /* line 307, ../sass/_inner.scss */
   .table-compare-agents td:nth-of-type(3):before {
     content: "Traditional Estate Agent: ";
   }
 
-  /* line 303, ../sass/_inner.scss */
+  /* line 313, ../sass/_inner.scss */
   .table-compare-buyers td:nth-of-type(1):before {
     content: "";
   }
-  /* line 306, ../sass/_inner.scss */
+  /* line 316, ../sass/_inner.scss */
   .table-compare-buyers td:nth-of-type(2):before {
     content: "Springbok Properties: ";
   }
-  /* line 310, ../sass/_inner.scss */
+  /* line 320, ../sass/_inner.scss */
   .table-compare-buyers td:nth-of-type(3):before {
     content: "Cash Buyer: ";
   }
 
-  /* line 316, ../sass/_inner.scss */
+  /* line 326, ../sass/_inner.scss */
   .table-compare-online td:nth-of-type(1):before {
     content: "";
   }
-  /* line 319, ../sass/_inner.scss */
+  /* line 329, ../sass/_inner.scss */
   .table-compare-online td:nth-of-type(2):before {
     content: "Springbok Properties: ";
   }
-  /* line 322, ../sass/_inner.scss */
+  /* line 332, ../sass/_inner.scss */
   .table-compare-online td:nth-of-type(3):before {
     content: "Online Estate Agents: ";
   }

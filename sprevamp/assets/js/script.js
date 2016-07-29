@@ -14,6 +14,7 @@
 
     // map section
     $(function(){
+        // home page > recent sales
         function resizeMapText(){
             var h = $('.home-recent-sale img').height();
             if(h){
@@ -24,8 +25,20 @@
         }
         resizeMapText();
 
+        // recent-sales > banner
+        function resizeSalesBannerHeight(){
+            var h = $('.sales-banner form').height();
+            if(h && $(window).width()>600){
+                $('.sales-banner .valign-wrapper').height(h);
+            } else{
+                $('.sales-banner .valign-wrapper').css("height", "auto");
+            }
+        }
+        resizeSalesBannerHeight();
+
         $(window).resize(function(){
             resizeMapText();
+            resizeSalesBannerHeight();
         })
     });
 

@@ -537,6 +537,13 @@ h1, h2 {
     padding: 30px 15px;
     font-size: 30px;
     font-weight: bold;
+    line-height: 1.2;
+
+    small{
+        display: block;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
 }
 
 .classic-form {

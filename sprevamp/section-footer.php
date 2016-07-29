@@ -35,11 +35,11 @@
                     <ul>
                         <li><a href="#">About Springbok</a></li>
                         <li><a href="#">Team Springbok</a></li>
-                        <li><a href="#">Customer Reviews</a></li>
+                        <li><a href="reviews.php">Customer Reviews</a></li>
                         <li><a href="mission-vision.php">Springbok Mission, values & culture</a></li>
                         <li><a href="#">The Springbok Story</a></li>
                         <li><a href="#">Our selected charities</a></li>
-                        <li><a href="#">Refer A Friend</a></li>
+                        <li><a href="refer-a-friend.php">Refer A Friend</a></li>
                         <li><a href="how-we-compare.php">How we compare</a></li>
                         <li><a href="">Where we advertise</a></li>
                     </ul>
@@ -53,7 +53,7 @@
             <strong>&copy; 2015 Springbok Properties</strong> |
             <a href="#">Privacy Policy</a> |
             <a href="#">Terms & Conditions</a> |
-            <a href="#">Springbok Properties Reviews</a> |
+            <a href="reviews.php">Springbok Properties Reviews</a> |
             <a href="#">Complaints Procedure</a> |
             <a href="#">Sitemap</a>
             <br><br><br>

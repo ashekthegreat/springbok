@@ -1,7 +1,7 @@
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper container">
-            <a href="#" class="brand-logo left"><img src="assets/images/logo.png" width="152" height="45"></a>
+            <a href="index.php" class="brand-logo left"><img src="assets/images/logo.png" width="152" height="45"></a>
             <a href="#" data-activates="main-sidenav" class="button-collapse menu-button right"><strong>MENU</strong></a>
             <a href="tel:03332007322" class="button-collapse call-button right"><b class="sprite sprite-call"></b></a>
             <ul id="main-nav" class="right hide-on-med-and-down">
@@ -11,7 +11,7 @@
                 <li><a href="#">Properties to Let</a></li>
                 <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-landlords">Landlords</a></li>
                 <li><a href="#">Investments</a></li>
-                <li><a href="#">Reviews</a></li>
+                <li><a href="reviews.php">Reviews</a></li>
                 <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-advice">Property Advice</a></li>
             </ul>
             <ul class="side-nav sp-secondary lighten-5" id="main-sidenav">
@@ -22,10 +22,10 @@
                             <div class="collapsible-body">
                                 <ul>
                                     <li><a href="success-stories.php">Success Stories</a></li>
-                                    <li><a href="how-much-is-my-house-worth.php">How It Works</a></li>
-                                    <li><a href="#">Free Offer Estimator</a></li>
+                                    <li><a href="#">How It Works</a></li>
+                                    <li><a href="how-much-is-my-house-worth.php">Free Offer Estimator</a></li>
                                     <li><a href="#">Video Reviews</a></li>
-                                    <li><a href="#">Our Recent Sales</a></li>
+                                    <li><a href="recent-sales.php">Our Recent Sales</a></li>
                                     <li><a href="#">Customer Service</a></li>
                                     <li><a href="#">Success In Numbers</a></li>
                                 </ul>
@@ -54,7 +54,7 @@
                     </ul>
                 </li>
                 <li><a href="#">Investments</a></li>
-                <li><a href="#">Reviews</a></li>
+                <li><a href="reviews.php">Reviews</a></li>
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
                         <li>
@@ -78,8 +78,8 @@
         <div class="sub-nav">
             <div class="container right-align">
                 <a href="#" class="waves-effect waves-light btn-flat call-button"><i class="sprite sprite-call-20"></i> &nbsp; 0800 068 4015 or 0333 200 7322</a>
-                <a href="#" class="waves-effect waves-light btn white sp-secondary-text">Get Free Valuation</a>
-                <a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text">What's My Home Worth</a>
+                <a href="free-valuation.php" class="waves-effect waves-light btn white sp-secondary-text">Get Free Valuation</a>
+                <a href="how-much-is-my-house-worth.php" class="waves-effect waves-light btn sp-primary sp-secondary-text">What's My Home Worth</a>
                 <a href="#" class="waves-effect waves-light btn sp-secondary white-text">Contact Us</a>
             </div>
         </div>
@@ -87,10 +87,10 @@
 
     <ul id="dropdown-sell" class="dropdown-content">
         <li><a href="success-stories.php">Success Stories</a></li>
-        <li><a href="how-much-is-my-house-worth.php">How It Works</a></li>
-        <li><a href="#">Free Offer Estimator</a></li>
+        <li><a href="#">How It Works</a></li>
+        <li><a href="how-much-is-my-house-worth.php">Free Offer Estimator</a></li>
         <li><a href="#">Video Reviews</a></li>
-        <li><a href="#">Our Recent Sales</a></li>
+        <li><a href="recent-sales.php">Our Recent Sales</a></li>
         <li><a href="#">Customer Service</a></li>
         <li><a href="#">Success In Numbers</a></li>
     </ul>

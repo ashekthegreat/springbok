@@ -159,17 +159,27 @@
 }
 
 /* recent-sales */
+.sales-banner{
+    background: url("../images/map-grey.png") no-repeat center transparent;
+    background-size: auto 100%;
+}
 .sales-list{
-    .card-image{
-        display: flex;
-        justify-content: center;
-        height: 150px; /* or other desired height */
+    /*.card-image{
+
+        height: 350px; !* or other desired height *!
         overflow: hidden;
         align-items: center;
 
         img{
-            flex: none; /* keep aspect ratio */
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
         }
+    }*/
+    .card .card-content {
+        font-size: 20px;
+        font-weight: bold;
     }
 }
 
