@@ -58,7 +58,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Dagenham.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Dagenham.jpg">
                             </div>
                             <div class="card-content center-align">Dagenham</div>
                         </div>
@@ -66,7 +66,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Fareham.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Fareham.jpg">
                             </div>
                             <div class="card-content center-align">Fareham</div>
                         </div>
@@ -74,7 +74,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Felpham.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Felpham.jpg">
                             </div>
                             <div class="card-content center-align">Felpham</div>
                         </div>
@@ -82,7 +82,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Gosport.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Gosport.jpg">
                             </div>
                             <div class="card-content center-align">Gosport</div>
                         </div>
@@ -90,7 +90,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Ilford.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Ilford.jpg">
                             </div>
                             <div class="card-content center-align">Ilford</div>
                         </div>
@@ -98,7 +98,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Poplar.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Poplar.jpg">
                             </div>
                             <div class="card-content center-align">Poplar</div>
                         </div>
@@ -106,7 +106,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Southend-on-sea.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Southend-on-sea.jpg">
                             </div>
                             <div class="card-content center-align">Southend-on-sea</div>
                         </div>
@@ -114,7 +114,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Thamesmead.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Thamesmead.jpg">
                             </div>
                             <div class="card-content center-align">Thamesmead</div>
                         </div>
@@ -122,7 +122,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Upminster.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/London%20&%20South%20East%20England/Upminster.jpg">
                             </div>
                             <div class="card-content center-align">Upminster</div>
                         </div>
@@ -138,7 +138,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Birmingham.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Birmingham.jpg">
                             </div>
                             <div class="card-content center-align">Birmingham</div>
                         </div>
@@ -146,7 +146,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Calverton.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Calverton.jpg">
                             </div>
                             <div class="card-content center-align">Calverton</div>
                         </div>
@@ -154,7 +154,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Halesowen.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Halesowen.jpg">
                             </div>
                             <div class="card-content center-align">Halesowen</div>
                         </div>
@@ -162,7 +162,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Kidderminster.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Kidderminster.jpg">
                             </div>
                             <div class="card-content center-align">Kidderminster</div>
                         </div>
@@ -170,7 +170,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Mansfield.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Mansfield.jpg">
                             </div>
                             <div class="card-content center-align">Mansfield</div>
                         </div>
@@ -178,7 +178,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Market_Rasen.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Market_Rasen.jpg">
                             </div>
                             <div class="card-content center-align">Market Rasen</div>
                         </div>
@@ -186,7 +186,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Nottingham.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Nottingham.jpg">
                             </div>
                             <div class="card-content center-align">Nottingham</div>
                         </div>
@@ -194,7 +194,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Skegness.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Skegness.jpg">
                             </div>
                             <div class="card-content center-align">Skegness</div>
                         </div>
@@ -202,7 +202,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Tipton.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Midlands/Tipton.jpg">
                             </div>
                             <div class="card-content center-align">Tipton</div>
                         </div>
@@ -218,7 +218,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Durham.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Durham.jpg">
                             </div>
                             <div class="card-content center-align">Durham</div>
                         </div>
@@ -226,7 +226,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Durham_2.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Durham_2.jpg">
                             </div>
                             <div class="card-content center-align">Durham</div>
                         </div>
@@ -234,7 +234,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Hexham.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Hexham.jpg">
                             </div>
                             <div class="card-content center-align">Hexham</div>
                         </div>
@@ -242,7 +242,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Houghton_Le_Spring.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Houghton_Le_Spring.jpg">
                             </div>
                             <div class="card-content center-align">Houghton Le Spring</div>
                         </div>
@@ -250,7 +250,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Middlesbrough.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Middlesbrough.jpg">
                             </div>
                             <div class="card-content center-align">Middlesbrough</div>
                         </div>
@@ -258,7 +258,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Middlesbrough_2.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Middlesbrough_2.jpg">
                             </div>
                             <div class="card-content center-align">Middlesbrough</div>
                         </div>
@@ -266,7 +266,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Peterlee.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Peterlee.jpg">
                             </div>
                             <div class="card-content center-align">Peterlee</div>
                         </div>
@@ -274,7 +274,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Stockton-on-tees.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Stockton-on-tees.jpg">
                             </div>
                             <div class="card-content center-align">Stockton-on-tees</div>
                         </div>
@@ -282,7 +282,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Whitley_Bay.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20East/Whitley_Bay.jpg">
                             </div>
                             <div class="card-content center-align">Whitley Bay</div>
                         </div>
@@ -298,7 +298,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Blackpool.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Blackpool.jpg">
                             </div>
                             <div class="card-content center-align">Blackpool</div>
                         </div>
@@ -306,7 +306,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Bradford.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Bradford.jpg">
                             </div>
                             <div class="card-content center-align">Bradford</div>
                         </div>
@@ -314,7 +314,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Fleetwood.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Fleetwood.jpg">
                             </div>
                             <div class="card-content center-align">Fleetwood</div>
                         </div>
@@ -322,7 +322,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Hyde.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Hyde.jpg">
                             </div>
                             <div class="card-content center-align">Hyde</div>
                         </div>
@@ -330,7 +330,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Keighley.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Keighley.jpg">
                             </div>
                             <div class="card-content center-align">Keighley</div>
                         </div>
@@ -338,7 +338,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Leeds.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Leeds.jpg">
                             </div>
                             <div class="card-content center-align">Leeds</div>
                         </div>
@@ -346,7 +346,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Liverpool.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Liverpool.jpg">
                             </div>
                             <div class="card-content center-align">Liverpool</div>
                         </div>
@@ -354,7 +354,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Manchester.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Manchester.jpg">
                             </div>
                             <div class="card-content center-align">Manchester</div>
                         </div>
@@ -362,7 +362,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Nelson.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/North%20West/Nelson.jpg">
                             </div>
                             <div class="card-content center-align">Nelson</div>
                         </div>
@@ -378,7 +378,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Broxburn.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Broxburn.jpg">
                             </div>
                             <div class="card-content center-align">Broxburn</div>
                         </div>
@@ -386,7 +386,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Clydebank.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Clydebank.jpg">
                             </div>
                             <div class="card-content center-align">Clydebank</div>
                         </div>
@@ -394,7 +394,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Dunfermline.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Dunfermline.jpg">
                             </div>
                             <div class="card-content center-align">Dunfermline</div>
                         </div>
@@ -402,7 +402,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Falkirk.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Falkirk.jpg">
                             </div>
                             <div class="card-content center-align">Falkirk</div>
                         </div>
@@ -410,7 +410,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Glasgow.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Glasgow.jpg">
                             </div>
                             <div class="card-content center-align">Glasgow</div>
                         </div>
@@ -418,7 +418,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Glasgow_2.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Glasgow_2.jpg">
                             </div>
                             <div class="card-content center-align">Glasgow</div>
                         </div>
@@ -426,7 +426,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Larkhall.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Larkhall.jpg">
                             </div>
                             <div class="card-content center-align">Larkhall</div>
                         </div>
@@ -434,7 +434,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Leven.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Leven.jpg">
                             </div>
                             <div class="card-content center-align">Leven</div>
                         </div>
@@ -442,7 +442,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Musselburgh.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Scotland/Musselburgh.jpg">
                             </div>
                             <div class="card-content center-align">Musselburgh</div>
                         </div>
@@ -458,7 +458,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Abertillery.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Abertillery.jpg">
                             </div>
                             <div class="card-content center-align">Abertillery</div>
                         </div>
@@ -466,7 +466,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Barry.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Barry.jpg">
                             </div>
                             <div class="card-content center-align">Barry</div>
                         </div>
@@ -474,7 +474,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Bristol.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Bristol.jpg">
                             </div>
                             <div class="card-content center-align">Bristol</div>
                         </div>
@@ -482,7 +482,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Cwmcarn.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Cwmcarn.jpg">
                             </div>
                             <div class="card-content center-align">Cwmcarn</div>
                         </div>
@@ -490,7 +490,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Llanelli.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Llanelli.jpg">
                             </div>
                             <div class="card-content center-align">Llanelli</div>
                         </div>
@@ -498,7 +498,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Monmouth.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Monmouth.jpg">
                             </div>
                             <div class="card-content center-align">Monmouth</div>
                         </div>
@@ -506,7 +506,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Swansea.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/South%20West%20England/Swansea.jpg">
                             </div>
                             <div class="card-content center-align">Swansea</div>
                         </div>
@@ -522,7 +522,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Brough.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Brough.jpg">
                             </div>
                             <div class="card-content center-align">Brough</div>
                         </div>
@@ -530,7 +530,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Castleford.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Castleford.jpg">
                             </div>
                             <div class="card-content center-align">Castleford</div>
                         </div>
@@ -538,7 +538,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Doncaster.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Doncaster.jpg">
                             </div>
                             <div class="card-content center-align">Doncaster</div>
                         </div>
@@ -546,7 +546,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Doncaster-1.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Doncaster-1.jpg">
                             </div>
                             <div class="card-content center-align">Doncaster</div>
                         </div>
@@ -554,7 +554,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Hull.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Hull.jpg">
                             </div>
                             <div class="card-content center-align">Hull</div>
                         </div>
@@ -562,7 +562,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Rotherham.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Rotherham.jpg">
                             </div>
                             <div class="card-content center-align">Rotherham</div>
                         </div>
@@ -570,7 +570,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Selby.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Selby.jpg">
                             </div>
                             <div class="card-content center-align">Selby</div>
                         </div>
@@ -578,7 +578,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Sheffield.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Sheffield.jpg">
                             </div>
                             <div class="card-content center-align">Sheffield</div>
                         </div>
@@ -586,7 +586,7 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image video-container">
-                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Sheffield-2.png">
+                                <img class="responsive-img materialboxed" src="assets/images/recent-sales/Yorkshire/Sheffield-2.jpg">
                             </div>
                             <div class="card-content center-align">Sheffield</div>
                         </div>
