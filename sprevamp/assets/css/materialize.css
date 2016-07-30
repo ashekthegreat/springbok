@@ -8260,5 +8260,258 @@ main a:hover {
     content: "Online Estate Agents: ";
   }
 }
+/* story */
+/* line 368, ../sass/_inner.scss */
+.story-timeline {
+  background: url("../images/story/timeline-bg.png") no-repeat center transparent;
+}
+/* line 370, ../sass/_inner.scss */
+.story-timeline .pull-left {
+  float: left;
+}
+/* line 373, ../sass/_inner.scss */
+.story-timeline .pull-right {
+  float: right;
+}
+/* line 377, ../sass/_inner.scss */
+.story-timeline .timeline {
+  position: relative;
+  list-style-type: none;
+  padding-left: 0;
+  max-width: 730px;
+  margin: 0 auto 120px auto;
+}
+/* line 384, ../sass/_inner.scss */
+.story-timeline .timeline a {
+  color: #fff;
+  text-decoration: underline;
+}
+/* line 388, ../sass/_inner.scss */
+.story-timeline .timeline p {
+  margin-top: 0;
+}
+/* line 391, ../sass/_inner.scss */
+.story-timeline .timeline .spine {
+  display: none;
+}
+/* line 394, ../sass/_inner.scss */
+.story-timeline .timeline time {
+  font-size: 17px;
+  font-weight: bold;
+}
+/* line 399, ../sass/_inner.scss */
+.story-timeline .timeline .pull-right {
+  float: left !important;
+}
+/* line 403, ../sass/_inner.scss */
+.story-timeline .timeline .image {
+  width: 100px;
+}
+/* line 407, ../sass/_inner.scss */
+.story-timeline .timeline .year {
+  display: none;
+}
+/* line 411, ../sass/_inner.scss */
+.story-timeline .timeline .desc {
+  /*margin-top: 25px;*/
+  margin-left: 110px;
+}
+/* line 416, ../sass/_inner.scss */
+.story-timeline .timeline-today {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 426, ../sass/_inner.scss */
+  .story-timeline .timeline-today {
+    display: block;
+  }
+  /* line 430, ../sass/_inner.scss */
+  .story-timeline .timeline .pull-right {
+    float: right !important;
+  }
+  /* line 434, ../sass/_inner.scss */
+  .story-timeline .timeline .spine {
+    display: block;
+    height: 100%;
+    right: 50%;
+    margin-right: -20px;
+    outline: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+    background: #2680a9 url("../images/story/timeline-spine.png") repeat-y 0 0 scroll;
+    z-index: 1;
+  }
+  /* line 447, ../sass/_inner.scss */
+  .story-timeline .timeline .spine:before {
+    content: ' ';
+    background: transparent url("../images/story/today-shadow.png") no-repeat 0 50% scroll;
+    position: absolute;
+    width: 160px;
+    height: 21px;
+    top: 0;
+    margin-left: -60px;
+  }
+  /* line 457, ../sass/_inner.scss */
+  .story-timeline .timeline .spine:after {
+    content: ' ';
+    background: transparent url("../images/story/timeline-beginning.png") no-repeat 0 50% scroll;
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    bottom: -70px;
+    margin-left: -25px;
+  }
+  /* line 467, ../sass/_inner.scss */
+  .story-timeline .timeline .year {
+    background-color: #808080;
+    font-size: 10px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    width: 28px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: -14px;
+    z-index: 2;
+    color: #FFF;
+    font-weight: bold;
+    display: block;
+  }
+  /* line 482, ../sass/_inner.scss */
+  .story-timeline .timeline .item-left .year {
+    left: auto;
+    right: -14px;
+  }
+  /* line 487, ../sass/_inner.scss */
+  .story-timeline .timeline .item {
+    position: relative;
+    margin: 5px 0;
+    width: 50%;
+  }
+  /* line 493, ../sass/_inner.scss */
+  .story-timeline .timeline .item:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 15px;
+    top: 50%;
+    z-index: 1;
+    background-color: #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  /* line 509, ../sass/_inner.scss */
+  .story-timeline .timeline .item-left {
+    clear: left;
+    float: left;
+    padding-right: 35px;
+  }
+  /* line 515, ../sass/_inner.scss */
+  .story-timeline .timeline .item-left:after {
+    left: auto;
+    right: 15px;
+  }
+  /* line 520, ../sass/_inner.scss */
+  .story-timeline .timeline .item-right {
+    clear: right;
+    float: right;
+    padding-left: 35px;
+  }
+  /* line 526, ../sass/_inner.scss */
+  .story-timeline .timeline .item-empty {
+    position: relative;
+    width: 50%;
+    margin-top: 40px;
+  }
+  /* line 532, ../sass/_inner.scss */
+  .story-timeline .timeline .desc {
+    margin-top: 30px;
+    margin-left: 0;
+  }
+  /* line 537, ../sass/_inner.scss */
+  .story-timeline .timeline .image {
+    position: relative;
+    z-index: 1;
+    max-width: 50%;
+    width: auto;
+  }
+  /* line 544, ../sass/_inner.scss */
+  .story-timeline .timeline .image.pull-left {
+    margin-right: 10px;
+  }
+  /* line 548, ../sass/_inner.scss */
+  .story-timeline .timeline .image.pull-right {
+    margin-left: 10px;
+  }
+  /* line 552, ../sass/_inner.scss */
+  .story-timeline .timeline .item-2 {
+    margin-top: 125px;
+  }
+  /* line 556, ../sass/_inner.scss */
+  .story-timeline .timeline .item-3 .desc {
+    margin-top: 30px;
+  }
+  /* line 560, ../sass/_inner.scss */
+  .story-timeline .timeline .item-4 .desc {
+    margin-top: 45px;
+  }
+  /* line 565, ../sass/_inner.scss */
+  .story-timeline .timeline .item-5 {
+    margin-top: 40px;
+  }
+  /* line 567, ../sass/_inner.scss */
+  .story-timeline .timeline .item-5 .desc {
+    margin-top: 45px;
+  }
+  /* line 572, ../sass/_inner.scss */
+  .story-timeline .timeline .item-6 {
+    margin-top: 0;
+  }
+  /* line 574, ../sass/_inner.scss */
+  .story-timeline .timeline .item-6 .desc {
+    margin-top: 45px;
+  }
+  /* line 579, ../sass/_inner.scss */
+  .story-timeline .timeline .item-7 {
+    margin-top: 20px;
+  }
+  /* line 581, ../sass/_inner.scss */
+  .story-timeline .timeline .item-7 .desc {
+    margin-top: 25px;
+  }
+  /* line 586, ../sass/_inner.scss */
+  .story-timeline .timeline .item-8 .desc {
+    margin-top: 55px;
+  }
+  /* line 591, ../sass/_inner.scss */
+  .story-timeline .timeline .item-9 {
+    margin-top: 40px;
+  }
+  /* line 593, ../sass/_inner.scss */
+  .story-timeline .timeline .item-9 .desc {
+    margin-top: 10px;
+  }
+  /* line 598, ../sass/_inner.scss */
+  .story-timeline .timeline .item-10 {
+    margin-top: 40px;
+  }
+  /* line 600, ../sass/_inner.scss */
+  .story-timeline .timeline .item-10 .desc {
+    margin-top: 30px;
+  }
+  /* line 605, ../sass/_inner.scss */
+  .story-timeline .timeline .item-11 {
+    margin-top: 0;
+  }
+  /* line 607, ../sass/_inner.scss */
+  .story-timeline .timeline .item-11 .desc {
+    margin-top: 40px;
+  }
+}
 
 /*# sourceMappingURL=materialize.css.map */
