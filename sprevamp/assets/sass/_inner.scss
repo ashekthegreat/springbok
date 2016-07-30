@@ -75,6 +75,27 @@
     }
 }
 
+/* conveyance.php */
+.conveyance-banner {
+    background: url("../images/conveyance-bg.jpg") no-repeat top center #e7e7e7;
+    background-size: cover;
+
+    .container {
+        overflow: hidden;
+    }
+    .row {
+        margin-bottom: 0;
+    }
+    .shaded-form {
+        /*box-shadow: -50px 0 125px 0 #e7e7e7;
+        background: #e7e7e7;*/
+    }
+    .classic-form {
+        padding: 0 0 20px 0;
+    }
+}
+
+
 /* reviews.php */
 .reviews-review{
     .tab-content{

@@ -167,7 +167,10 @@ h1, h2 {
             .no-upfront {
                 float: right;
                 margin-top: 5%;
+                box-shadow: 0 0 49px rgba(100,100,100,.3);
+                border-radius: 50%;
             }
+
             /*.text-ticks{
                 padding-right: 160px;
                 position: relative;
