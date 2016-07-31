@@ -37,7 +37,7 @@
                         <li><a href="#">Team Springbok</a></li>
                         <li><a href="reviews.php">Customer Reviews</a></li>
                         <li><a href="mission-vision.php">Springbok Mission, values & culture</a></li>
-                        <li><a href="#">The Springbok Story</a></li>
+                        <li><a href="springbok-story.php">The Springbok Story</a></li>
                         <li><a href="#">Our selected charities</a></li>
                         <li><a href="refer-a-friend.php">Refer A Friend</a></li>
                         <li><a href="how-we-compare.php">How we compare</a></li>

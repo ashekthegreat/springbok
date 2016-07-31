@@ -67,7 +67,7 @@
                                     <li><a href="#">Latest News & Updates</a></li>
                                     <li><a href="#">Guide to investment</a></li>
                                     <li><a href="mortgage.php">Mortgages</a></li>
-                                    <li><a href="#">Conveyance</a></li>
+                                    <li><a href="conveyance.php">Conveyance</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -109,6 +109,6 @@
         <li><a href="#">Latest News & Updates</a></li>
         <li><a href="#">Guide to investment</a></li>
         <li><a href="mortgage.php">Mortgages</a></li>
-        <li><a href="#">Conveyance</a></li>
+        <li><a href="conveyance.php">Conveyance</a></li>
     </ul>
 </div>
