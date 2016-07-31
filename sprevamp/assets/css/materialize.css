@@ -8513,5 +8513,10 @@ main a:hover {
     margin-top: 40px;
   }
 }
+/* property-list.php */
+/* line 619, ../sass/_inner.scss */
+.properties-cards .card {
+  margin-top: 0;
+}
 
 /*# sourceMappingURL=materialize.css.map */
