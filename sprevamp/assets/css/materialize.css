@@ -2656,6 +2656,16 @@ input[type=range] + .thumb {
   padding: 0 !important;
 }
 
+/* line 839, ../sass/components/_global.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* line 842, ../sass/components/_global.scss */
+.inb {
+  display: inline-block;
+}
+
 /* This is needed for some mobile phones to display the Google Icon font properly */
 /* line 2, ../sass/components/_icons-material-design.scss */
 .material-icons {
@@ -8737,6 +8747,28 @@ main a:hover {
   .card.property-card .card-stacked {
     display: block;
   }
+}
+/* contact-us.php */
+/* line 790, ../sass/_inner.scss */
+.contact-list .card {
+  border-left: 3px solid #e0d200;
+}
+/* line 792, ../sass/_inner.scss */
+.contact-list .card .card-title {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/* line 796, ../sass/_inner.scss */
+.contact-list .card .card-body {
+  height: 100px;
+}
+/* line 799, ../sass/_inner.scss */
+.contact-list .card .card-body a {
+  text-decoration: none;
+}
+/* line 804, ../sass/_inner.scss */
+.contact-list i {
+  vertical-align: middle;
 }
 
 /*# sourceMappingURL=materialize.css.map */

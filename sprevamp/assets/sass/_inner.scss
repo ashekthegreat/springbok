@@ -783,3 +783,26 @@
     }
 }
 
+
+/* contact-us.php */
+
+.contact-list{
+    .card{
+        border-left: 3px solid color("sp-primary", 'darken-1');
+        .card-title{
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .card-body{
+            height: 100px;
+
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    i{
+        vertical-align: middle;
+    }
+
+}
