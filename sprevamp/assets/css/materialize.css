@@ -4043,34 +4043,81 @@ small {
   overflow: hidden;
 }
 /* line 37, ../sass/components/_cards.scss */
-.card.small .card-content, .card.medium .card-content, .card.large .card-content {
+.card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
   max-height: 40%;
+}
+/* line 40, ../sass/components/_cards.scss */
+.card.small .card-content, .card.medium .card-content, .card.large .card-content {
+  max-height: 100%;
   overflow: hidden;
 }
-/* line 41, ../sass/components/_cards.scss */
+/* line 44, ../sass/components/_cards.scss */
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
-/* line 49, ../sass/components/_cards.scss */
+/* line 52, ../sass/components/_cards.scss */
 .card.small {
   height: 300px;
 }
-/* line 53, ../sass/components/_cards.scss */
+/* line 56, ../sass/components/_cards.scss */
 .card.medium {
   height: 400px;
 }
-/* line 57, ../sass/components/_cards.scss */
+/* line 60, ../sass/components/_cards.scss */
 .card.large {
   height: 500px;
 }
-/* line 62, ../sass/components/_cards.scss */
+/* line 65, ../sass/components/_cards.scss */
+.card.horizontal {
+  display: flex;
+}
+/* line 67, ../sass/components/_cards.scss */
+.card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
+  height: 100%;
+  max-height: none;
+  overflow: visible;
+}
+/* line 72, ../sass/components/_cards.scss */
+.card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img {
+  height: 100%;
+}
+/* line 80, ../sass/components/_cards.scss */
+.card.horizontal .card-image {
+  max-width: 50%;
+}
+/* line 82, ../sass/components/_cards.scss */
+.card.horizontal .card-image img {
+  max-width: 100%;
+  width: auto;
+}
+/* line 88, ../sass/components/_cards.scss */
+.card.horizontal .card-stacked {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+}
+/* line 94, ../sass/components/_cards.scss */
+.card.horizontal .card-stacked .card-content {
+  flex-grow: 1;
+}
+/* line 102, ../sass/components/_cards.scss */
+.card.sticky-action .card-action {
+  z-index: 2;
+}
+/* line 106, ../sass/components/_cards.scss */
+.card.sticky-action .card-reveal {
+  z-index: 1;
+  padding-bottom: 64px;
+}
+/* line 115, ../sass/components/_cards.scss */
 .card .card-image {
   position: relative;
 }
-/* line 66, ../sass/components/_cards.scss */
+/* line 119, ../sass/components/_cards.scss */
 .card .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
@@ -4081,7 +4128,7 @@ small {
   bottom: 0;
   width: 100%;
 }
-/* line 77, ../sass/components/_cards.scss */
+/* line 130, ../sass/components/_cards.scss */
 .card .card-image .card-title {
   color: #fff;
   position: absolute;
@@ -4089,45 +4136,39 @@ small {
   left: 0;
   padding: 20px;
 }
-/* line 87, ../sass/components/_cards.scss */
+/* line 140, ../sass/components/_cards.scss */
 .card .card-content {
   padding: 20px;
   border-radius: 0 0 2px 2px;
 }
-/* line 91, ../sass/components/_cards.scss */
+/* line 144, ../sass/components/_cards.scss */
 .card .card-content p {
   margin: 0;
   color: inherit;
 }
-/* line 95, ../sass/components/_cards.scss */
+/* line 148, ../sass/components/_cards.scss */
 .card .card-content .card-title {
   line-height: 48px;
 }
-/* line 100, ../sass/components/_cards.scss */
+/* line 153, ../sass/components/_cards.scss */
 .card .card-action {
   position: relative;
   background-color: inherit;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 20px;
-  z-index: 2;
 }
-/* line 107, ../sass/components/_cards.scss */
+/* line 159, ../sass/components/_cards.scss */
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #ffab40;
   margin-right: 20px;
   transition: color .3s ease;
   text-transform: uppercase;
 }
-/* line 113, ../sass/components/_cards.scss */
+/* line 165, ../sass/components/_cards.scss */
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
   color: #ffd8a6;
 }
-/* line 116, ../sass/components/_cards.scss */
-.card .card-action + .card-reveal {
-  z-index: 1;
-  padding-bottom: 64px;
-}
-/* line 122, ../sass/components/_cards.scss */
+/* line 169, ../sass/components/_cards.scss */
 .card .card-reveal {
   padding: 20px;
   position: absolute;
@@ -4139,7 +4180,7 @@ small {
   z-index: 3;
   display: none;
 }
-/* line 133, ../sass/components/_cards.scss */
+/* line 180, ../sass/components/_cards.scss */
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block;
@@ -8515,8 +8556,187 @@ main a:hover {
 }
 /* property-list.php */
 /* line 619, ../sass/_inner.scss */
-.properties-cards .card {
+.properties-search .field {
+  display: inline-block;
+  margin-right: 40px;
+}
+/* line 624, ../sass/_inner.scss */
+.properties-search .white {
+  border-radius: 4px;
+  width: 345px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* line 630, ../sass/_inner.scss */
+.properties-search .white .search {
+  width: 250px;
+}
+/* line 633, ../sass/_inner.scss */
+.properties-search .white .search input {
+  margin: 0;
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+  width: 225px;
+}
+/* line 639, ../sass/_inner.scss */
+.properties-search .white .search .material-icons {
+  top: 12px;
+  font-style: normal;
+}
+/* line 644, ../sass/_inner.scss */
+.properties-search .white .radius {
+  width: 80px;
+}
+/* line 647, ../sass/_inner.scss */
+.properties-search .white .radius .caret {
+  color: #6b6770;
+}
+/* line 652, ../sass/_inner.scss */
+.properties-search .input-field {
+  display: inline-block;
+  width: 100px;
   margin-top: 0;
+  /*.dropdown-content{
+      background: color('sp-secondary', 'darken-3');
+      color: #fff;
+  }*/
+}
+/* line 657, ../sass/_inner.scss */
+.properties-search .input-field .caret {
+  color: #ffef00;
+}
+/* line 660, ../sass/_inner.scss */
+.properties-search .input-field input {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 664, ../sass/_inner.scss */
+.properties-search .input-field .material-icons {
+  font-size: 1rem !important;
+}
+/* line 672, ../sass/_inner.scss */
+.properties-search .min-price, .properties-search .max-price, .properties-search .min-bed, .properties-search .max-bed {
+  width: 80px;
+}
+/* line 675, ../sass/_inner.scss */
+.properties-search .property-type {
+  width: 110px;
+}
+/* line 678, ../sass/_inner.scss */
+.properties-search .filters {
+  width: 80px;
+}
+/* line 681, ../sass/_inner.scss */
+.properties-search .search {
+  width: 200px;
+}
+/* line 685, ../sass/_inner.scss */
+.properties-search .to {
+  margin: 0 10px;
+  color: #bbb;
+  font-weight: 500;
+}
+
+/* line 693, ../sass/_inner.scss */
+.card.property-card {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* line 697, ../sass/_inner.scss */
+.card.property-card .card-image {
+  width: 45%;
+  max-width: none;
+}
+/* line 701, ../sass/_inner.scss */
+.card.property-card .card-image-footer {
+  background: #f0eff1;
+  padding: 9px 20px 8px;
+  position: relative;
+}
+/* line 705, ../sass/_inner.scss */
+.card.property-card .card-image-footer .camera {
+  float: right;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  font-weight: 500;
+  vertical-align: middle;
+  text-decoration: none;
+  margin-top: 10px;
+}
+/* line 714, ../sass/_inner.scss */
+.card.property-card .card-image-footer .camera img {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 719, ../sass/_inner.scss */
+.card.property-card .card-image-footer strong {
+  display: block;
+  font-size: 28px;
+  line-height: 1;
+}
+/* line 726, ../sass/_inner.scss */
+.card.property-card .card-content a {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 731, ../sass/_inner.scss */
+.card.property-card .card-content h4 {
+  /*height: 56px;
+  overflow: hidden;*/
+  font-weight: 400;
+}
+/* line 736, ../sass/_inner.scss */
+.card.property-card .card-content p {
+  /*height: 110px;*/
+  min-height: 88px;
+  overflow: hidden;
+}
+/* line 742, ../sass/_inner.scss */
+.card.property-card .card-action {
+  padding: 15px 20px;
+}
+/* line 745, ../sass/_inner.scss */
+.card.property-card .card-action .call-now {
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 755, ../sass/_inner.scss */
+  .card.property-card .card-image {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    max-width: 40%;
+  }
+  /* line 762, ../sass/_inner.scss */
+  .card.property-card .card-image .responsive-img {
+    flex-grow: 1;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 769, ../sass/_inner.scss */
+  .card.property-card {
+    display: block;
+  }
+  /* line 771, ../sass/_inner.scss */
+  .card.property-card .card-image {
+    width: 100%;
+    display: block;
+  }
+  /* line 775, ../sass/_inner.scss */
+  .card.property-card .card-image .responsive-img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 780, ../sass/_inner.scss */
+  .card.property-card .card-stacked {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=materialize.css.map */

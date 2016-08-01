@@ -10,6 +10,9 @@
             constrain_width: false,
             belowOrigin: true
         });
+
+        // select items
+        $('select').material_select();
     });
 
     // map section

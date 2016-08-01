@@ -358,15 +358,15 @@
                                         <h3 class="margin-top-0">Briar Close, Peterborough</h3>
                                         <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
-                                            <div class="col s5">
+                                            <div class="col s12 m5">
                                                 <h4>305 days</h4>
                                                 <p>Not sold with previews estate agents</p>
                                             </div>
-                                            <div class="col s4">
+                                            <div class="col s12 m4">
                                                 <h4>1 day</h4>
                                                 <p>Sale Agreed with Springbok</p>
                                             </div>
-                                            <div class="col s3">
+                                            <div class="col s12 m3">
                                                 <h4>100%</h4>
                                                 <p>Asking Price</p>
                                             </div>
@@ -385,15 +385,15 @@
                                         <h3 class="margin-top-0">Audon Avenue, Nottingham</h3>
                                         <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
-                                            <div class="col s5">
+                                            <div class="col s12 m5">
                                                 <h4>173 days</h4>
                                                 <p>Not sold with previews estate agents</p>
                                             </div>
-                                            <div class="col s4">
+                                            <div class="col s12 m4">
                                                 <h4>22 days</h4>
                                                 <p>Sale Agreed with Springbok</p>
                                             </div>
-                                            <div class="col s3">
+                                            <div class="col s12 m3">
                                                 <h4>100%</h4>
                                                 <p>Asking Price</p>
                                             </div>
