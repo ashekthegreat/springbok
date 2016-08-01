@@ -21,7 +21,7 @@
                     <h5>Useful links</h5>
                     <ul>
                         <li><a href="free-valuation.php">Get Free Valuation</a></li>
-                        <li><a href="#">Properties For Sale</a></li>
+                        <li><a href="property-list.php">Properties For Sale</a></li>
                         <li><a href="#">Properties To Let</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Careers</a></li>

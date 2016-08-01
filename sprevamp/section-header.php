@@ -7,7 +7,7 @@
             <ul id="main-nav" class="right hide-on-med-and-down">
                 <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-sell">Sell</a></li>
                 <li><a href="free-valuation.php">Free Valuation</a></li>
-                <li><a href="#">Properties for Sale</a></li>
+                <li><a href="property-list.php">Properties for Sale</a></li>
                 <li><a href="#">Properties to Let</a></li>
                 <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-landlords">Landlords</a></li>
                 <li><a href="#">Investments</a></li>
@@ -34,7 +34,7 @@
                     </ul>
                 </li>
                 <li><a href="free-valuation.php">Free Valuation</a></li>
-                <li><a href="#">Properties for Sale</a></li>
+                <li><a href="property-list.php">Properties for Sale</a></li>
                 <li><a href="#">Properties to Let</a></li>
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
