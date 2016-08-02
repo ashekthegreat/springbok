@@ -135,15 +135,15 @@
                         <img src="assets/images/buyers-guide/6.jpg" width="335" height="264" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
-                        <h3>5. Instruct a solicitor</h3>
+                        <h3>6. Exchange and completion</h3>
                         <p class="bigger">
-                            Once your offer is accepted, the conveyancing process starts. You'll need to instruct a solicitor to do the paperwork.
+                            When the paperwork is done and everyone agrees, the sale can complete.
                         </p>
                         <p>
-                            Once your offer is accepted by the seller, conveyancing starts. There's an enormous amount of paperwork involved in this process, from completing the mortgage survey and local searches to advising on possible dates of exchange.
+                            When both solicitors (yours and the seller's) have completed all their paperwork, all enquiries have been answered and everyone is in agreement, the exchange of contracts can go ahead. You and the seller both sign the documents that confirm the sale and set a completion date set by mutual agreement.
                         </p>
                         <p>
-                            Although you can use your own solicitor, we recommend working with one of our independent specialists. These solicitors are not a part of Springbok Properties, but they work closely with us and finish the job a lot quicker than traditional family solicitors. Whichever you choose, we will take control of the conveyancing process for you, staying in constant contact and working with the solicitor to complete everything as quickly as possible. We'll keep you updated every step of the way.
+                            As always, the Springbok team is on hand to help you through the process, maintaining contact with both solicitors and all involved parties to ensure a smooth completion. Once your money has been successfully transferred to the seller, you'll get your keys and become the proud owner of your new home - congratulations!
                         </p>
                     </div>
                 </div>

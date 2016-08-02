@@ -23,14 +23,13 @@
             <div class="container full-width">
                 <h3>Our customers simply love us! Don't just take our word for it</h3>
                 <ul class="comments list-unstyled">
-                    <li><img src="assets/images/comments/1.png" alt="" class="responsive-img"/></li>
-                    <li><img src="assets/images/comments/2.png" alt="" class="responsive-img"/></li>
-                    <li><img src="assets/images/comments/3.png" alt="" class="responsive-img"/></li>
-                    <li><a href="#refer-form"><img src="assets/images/comments/4.png" alt="" class="img-responsive"/></a></li>
-                    <li><img src="assets/images/comments/5.png" alt="" class="responsive-img"/></li>
-                    <li><img src="assets/images/comments/6.png" alt="" class="responsive-img"/></li>
-                    <li><img src="assets/images/comments/7.png" alt="" class="responsive-img"/></li>
-                    <li><img src="assets/images/comments/8.png" alt="" class="responsive-img"/></li>
+                    <li><img src="assets/images/comments/1.png" alt="" class="responsive-img materialboxed"/></li>
+                    <li><img src="assets/images/comments/2.png" alt="" class="responsive-img materialboxed"/></li>
+                    <li><img src="assets/images/comments/3.png" alt="" class="responsive-img materialboxed"/></li>
+                    <li><a href="#refer-form"><img src="assets/images/comments/4.png" alt="" class="responsive-img materialboxed"/></a></li>
+                    <li><img src="assets/images/comments/5.png" alt="" class="responsive-img materialboxed"/></li>
+                    <li><img src="assets/images/comments/6.png" alt="" class="responsive-img materialboxed"/></li>
+                    <li><img src="assets/images/comments/7.png" alt="" class="responsive-img materialboxed"/></li>
                 </ul>
                 <p class="big">
                     9 out of 10 of our customers are happy to refer us to their family & friends.

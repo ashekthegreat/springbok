@@ -7,9 +7,7 @@
             <ul id="main-nav" class="right hide-on-med-and-down">
                 <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-sell">Sell</a></li>
                 <li><a href="free-valuation.php">Free Valuation</a></li>
-                <li><a href="property-list.php">Properties for Sale</a></li>
-                <li><a href="#">Properties to Let</a></li>
-                <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-landlords">Landlords</a></li>
+                <li><a href="property-list.php">Search Properties</a></li>
                 <li><a href="#">Investments</a></li>
                 <li><a href="reviews.php">Reviews</a></li>
                 <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-advice">Property Advice</a></li>
@@ -34,25 +32,7 @@
                     </ul>
                 </li>
                 <li><a href="free-valuation.php">Free Valuation</a></li>
-                <li><a href="property-list.php">Properties for Sale</a></li>
-                <li><a href="#">Properties to Let</a></li>
-                <li class="no-padding">
-                    <ul class="collapsible collapsible-accordion">
-                        <li>
-                            <a class="collapsible-header">Landlords</a>
-                            <div class="collapsible-body">
-                                <ul>
-                                    <li><a href="#">Free Rental Valuation</a></li>
-                                    <li><a href="#">Portfolio Landlords</a></li>
-                                    <li><a href="#">12 Reasons to Let with Springbok</a></li>
-                                    <li><a href="#">Landlord Services</a></li>
-                                    <li><a href="#">Landlord Fees</a></li>
-                                    <li><a href="#">Tenant Fees</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
+                <li><a href="property-list.php">Search Properties</a></li>
                 <li><a href="#">Investments</a></li>
                 <li><a href="reviews.php">Reviews</a></li>
                 <li class="no-padding">
@@ -93,14 +73,6 @@
         <li><a href="recent-sales.php">Our Recent Sales</a></li>
         <li><a href="#">Customer Service</a></li>
         <li><a href="#">Success In Numbers</a></li>
-    </ul>
-    <ul id="dropdown-landlords" class="dropdown-content">
-        <li><a href="#">Free Rental Valuation</a></li>
-        <li><a href="#">Portfolio Landlords</a></li>
-        <li><a href="#">12 Reasons to Let with Springbok</a></li>
-        <li><a href="#">Landlord Services</a></li>
-        <li><a href="#">Landlord Fees</a></li>
-        <li><a href="#">Tenant Fees</a></li>
     </ul>
     <ul id="dropdown-advice" class="dropdown-content">
         <li><a href="#">Landlord Resources</a></li>

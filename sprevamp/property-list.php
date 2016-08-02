@@ -128,7 +128,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on<br>0161 000 0000</div>
                                     </div>
                                 </div>
@@ -153,7 +153,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on<br>0161 000 0000</div>
                                     </div>
                                 </div>
@@ -178,7 +178,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on<br>0161 000 0000</div>
                                     </div>
                                 </div>
@@ -207,7 +207,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on<br>0161 000 0000</div>
                                     </div>
                                 </div>

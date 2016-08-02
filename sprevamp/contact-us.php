@@ -72,28 +72,6 @@
                     <div class="col s12 m6 l4">
                         <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
                             <div class="card-content center-align">
-                                <div class="card-title">Landlords</div>
-                                <div class="card-body big">
-                                    <i class="sprite sprite-call"></i> Call<br>
-                                    <a href="tel:08000484816" class="nowrap">0800 048 4816</a><br>
-                                    Or <a href="#">See Landlord Services</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6 l4">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
-                            <div class="card-content center-align">
-                                <div class="card-title">Need to rent?</div>
-                                <div class="card-body big">
-                                    <a href="#">See Properties To Rent</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6 l4">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
-                            <div class="card-content center-align">
                                 <div class="card-title">Sale progression</div>
                                 <div class="card-body big">
                                     <i class="sprite sprite-call"></i> Call <a href="tel:08000687935" class="nowrap">0800 068 7935</a><br>

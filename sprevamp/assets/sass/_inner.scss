@@ -137,6 +137,22 @@
             vertical-align: middle;
         }
     }
+    /*.indicator{
+        &:after{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+
+
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px 15px 0 15px;
+            border-color: rgb(107, 103, 112) transparent transparent transparent;
+        }
+    }*/
 }
 .reviews-banner {
     background: url("../images/reviews-bg.jpg") no-repeat top center #fff;
@@ -165,8 +181,8 @@
     .reviews-chat {
         .container {
             background: url("../images/chat-person.png") no-repeat bottom left transparent;
-            padding-top: 100px;
-            padding-bottom: 40px;
+            /*padding-top: 100px;
+            padding-bottom: 40px;*/
         }
     }
 }
@@ -201,7 +217,14 @@
         li{
             margin: 5px 2px;
             display: inline-block;
-            max-width: 40%;
+            max-width: 80%;
+            width: 161px;
+
+            a{
+                display: block;
+                width: 100%;
+                vertical-align: top;
+            }
         }
     }
 }

@@ -39,7 +39,7 @@
             </div>
         </section>
 
-        <section class="reviews-review sp-secondary lighten-5 sp-secondary-text">
+        <section class="reviews-review white sp-secondary-text">
             <div class="container">
                 <div class="reviews-tab row">
                     <div class="col s12">
@@ -293,17 +293,11 @@
             </div>
         </section>
 
-        <section class="white sp-secondary-text center-align">
-            <div class="container">
-                <h2>Thinking of selling?</h2>
-            </div>
-        </section>
-
         <section class="reviews-chat no-padding sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m8 offset-m4 l8 offset-l4">
-                        <!--<h2>We can call you back</h2>-->
+                        <h2 class="center-align">Thinking of selling?</h2>
                         <form class="">
                             <div class="classic-form no-padding">
                                 <div class="row margin-bottom-0">
