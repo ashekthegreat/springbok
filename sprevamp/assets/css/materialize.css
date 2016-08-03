@@ -6904,221 +6904,473 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /* line 32, ../sass/_sprite.scss */
-.social-youtube-play-large {
-  width: 64px;
-  height: 64px;
+.social-youtube-32 {
+  width: 32px;
+  height: 32px;
   background-position: -164px -20px;
 }
 
 /* line 38, ../sass/_sprite.scss */
+.social-youtube-play-large {
+  width: 64px;
+  height: 64px;
+  background-position: -164px -92px;
+}
+
+/* line 44, ../sass/_sprite.scss */
 .social-youtube-play-small {
   width: 32px;
   height: 32px;
-  background-position: -164px -124px;
+  background-position: -20px -196px;
 }
 
 /* Other site icons */
-/* line 48, ../sass/_sprite.scss */
+/* line 55, ../sass/_sprite.scss */
 .sprite {
   background-image: url(../images/sprite.png);
   background-repeat: no-repeat;
   display: inline-block;
 }
 
-/* line 54, ../sass/_sprite.scss */
+/* line 61, ../sass/_sprite.scss */
 .sprite-247 {
   width: 112px;
   height: 91px;
   background-position: -20px -20px;
 }
 
-/* line 60, ../sass/_sprite.scss */
+/* line 67, ../sass/_sprite.scss */
 .sprite-9000 {
   width: 364px;
   height: 154px;
   background-position: -172px -20px;
 }
 
-/* line 66, ../sass/_sprite.scss */
+/* line 73, ../sass/_sprite.scss */
 .sprite-all-agents-star {
   width: 208px;
   height: 111px;
   background-position: -20px -214px;
 }
 
-/* line 72, ../sass/_sprite.scss */
+/* line 79, ../sass/_sprite.scss */
 .sprite-arrow-left {
   width: 24px;
   height: 44px;
   background-position: -576px -20px;
 }
 
-/* line 78, ../sass/_sprite.scss */
+/* line 85, ../sass/_sprite.scss */
 .sprite-arrow-right {
   width: 24px;
   height: 44px;
   background-position: -640px -20px;
 }
 
-/* line 84, ../sass/_sprite.scss */
+/* line 91, ../sass/_sprite.scss */
 .sprite-as-seen-on-tv {
-  width: 100px;
-  height: 78px;
+  width: 50px;
+  height: 39px;
   background-position: -576px -104px;
 }
 
-/* line 90, ../sass/_sprite.scss */
+/* line 97, ../sass/_sprite.scss */
 .sprite-badge {
   width: 60px;
   height: 88px;
-  background-position: -268px -222px;
+  background-position: -576px -183px;
 }
 
-/* line 96, ../sass/_sprite.scss */
+/* line 103, ../sass/_sprite.scss */
 .sprite-badge-first {
   width: 71px;
   height: 108px;
-  background-position: -368px -222px;
+  background-position: -268px -311px;
 }
 
-/* line 102, ../sass/_sprite.scss */
+/* line 109, ../sass/_sprite.scss */
 .sprite-best {
   width: 95px;
   height: 124px;
-  background-position: -479px -222px;
+  background-position: -379px -311px;
 }
 
-/* line 108, ../sass/_sprite.scss */
+/* line 115, ../sass/_sprite.scss */
 .sprite-calendar {
   width: 49px;
   height: 56px;
-  background-position: -614px -222px;
+  background-position: -514px -311px;
 }
 
-/* line 114, ../sass/_sprite.scss */
+/* line 121, ../sass/_sprite.scss */
 .sprite-call {
   width: 32px;
   height: 32px;
-  background-position: -614px -318px;
+  background-position: -603px -311px;
 }
 
-/* line 120, ../sass/_sprite.scss */
+/* line 127, ../sass/_sprite.scss */
 .sprite-call-20 {
   width: 20px;
   height: 20px;
-  background-position: -20px -390px;
+  background-position: -20px -383px;
 }
 
-/* line 126, ../sass/_sprite.scss */
+/* line 133, ../sass/_sprite.scss */
 .sprite-call-center {
   width: 124px;
   height: 112px;
-  background-position: -80px -390px;
+  background-position: -80px -383px;
 }
 
-/* line 132, ../sass/_sprite.scss */
+/* line 139, ../sass/_sprite.scss */
 .sprite-computer {
   width: 83px;
   height: 74px;
-  background-position: -244px -386px;
+  background-position: -514px -407px;
 }
 
-/* line 138, ../sass/_sprite.scss */
+/* line 145, ../sass/_sprite.scss */
 .sprite-house {
   width: 65px;
   height: 65px;
-  background-position: -367px -386px;
+  background-position: -244px -521px;
 }
 
-/* line 144, ../sass/_sprite.scss */
+/* line 151, ../sass/_sprite.scss */
 .sprite-left-arrow-round {
   width: 42px;
   height: 41px;
-  background-position: -472px -390px;
+  background-position: -349px -521px;
 }
 
-/* line 150, ../sass/_sprite.scss */
+/* line 157, ../sass/_sprite.scss */
 .sprite-menu {
   width: 30px;
   height: 20px;
-  background-position: -554px -390px;
+  background-position: -637px -383px;
 }
 
-/* line 156, ../sass/_sprite.scss */
+/* line 163, ../sass/_sprite.scss */
 .sprite-no-sale {
   width: 110px;
   height: 109px;
-  background-position: -554px -450px;
+  background-position: -431px -521px;
 }
 
-/* line 162, ../sass/_sprite.scss */
+/* line 169, ../sass/_sprite.scss */
 .sprite-no-upfront {
   width: 151px;
   height: 152px;
-  background-position: -716px -20px;
+  background-position: -704px -20px;
 }
 
-/* line 168, ../sass/_sprite.scss */
+/* line 175, ../sass/_sprite.scss */
 .sprite-no-upfront-small {
   width: 100px;
   height: 101px;
-  background-position: -716px -212px;
+  background-position: -676px -212px;
 }
 
-/* line 174, ../sass/_sprite.scss */
+/* line 181, ../sass/_sprite.scss */
 .sprite-people {
   width: 78px;
   height: 38px;
-  background-position: -686px -353px;
+  background-position: -707px -353px;
 }
 
-/* line 180, ../sass/_sprite.scss */
+/* line 187, ../sass/_sprite.scss */
 .sprite-people-large {
   width: 103px;
   height: 68px;
-  background-position: -704px -431px;
+  background-position: -707px -431px;
 }
 
-/* line 186, ../sass/_sprite.scss */
+/* line 193, ../sass/_sprite.scss */
 .sprite-reviews {
   width: 115px;
   height: 114px;
-  background-position: -244px -539px;
+  background-position: -20px -539px;
 }
 
-/* line 192, ../sass/_sprite.scss */
+/* line 199, ../sass/_sprite.scss */
 .sprite-right-arrow-round {
   width: 42px;
   height: 41px;
-  background-position: -399px -539px;
+  background-position: -816px -212px;
 }
 
-/* line 198, ../sass/_sprite.scss */
+/* line 205, ../sass/_sprite.scss */
 .sprite-side-val {
   width: 39px;
   height: 146px;
-  background-position: -704px -539px;
+  background-position: -581px -539px;
 }
 
-/* line 204, ../sass/_sprite.scss */
+/* line 211, ../sass/_sprite.scss */
 .sprite-sp-logo {
   width: 146px;
   height: 110px;
-  background-position: -20px -725px;
+  background-position: -660px -539px;
 }
 
-/* line 210, ../sass/_sprite.scss */
+/* line 217, ../sass/_sprite.scss */
 .sprite-thumb {
   width: 69px;
   height: 66px;
-  background-position: -783px -539px;
+  background-position: -175px -689px;
 }
 
-/* line 216, ../sass/_sprite.scss */
+/* line 223, ../sass/_sprite.scss */
 .sprite-tick-yellow {
   width: 35px;
   height: 29px;
-  background-position: -804px -353px;
+  background-position: -825px -293px;
+}
+
+/* line 1, ../sass/_adv-logo.scss */
+.adv-logo {
+  background-image: url(../images/adv-logo.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* line 7, ../sass/_adv-logo.scss */
+.adv-logo-m1 {
+  width: 78px;
+  height: 63px;
+  background-position: -20px -20px;
+}
+
+/* line 13, ../sass/_adv-logo.scss */
+.adv-logo-m10 {
+  width: 112px;
+  height: 37px;
+  background-position: -138px -20px;
+}
+
+/* line 19, ../sass/_adv-logo.scss */
+.adv-logo-m11 {
+  width: 143px;
+  height: 36px;
+  background-position: -290px -20px;
+}
+
+/* line 25, ../sass/_adv-logo.scss */
+.adv-logo-m12 {
+  width: 101px;
+  height: 51px;
+  background-position: -473px -20px;
+}
+
+/* line 31, ../sass/_adv-logo.scss */
+.adv-logo-m2 {
+  width: 66px;
+  height: 55px;
+  background-position: -614px -20px;
+}
+
+/* line 37, ../sass/_adv-logo.scss */
+.adv-logo-m3 {
+  width: 91px;
+  height: 56px;
+  background-position: -138px -111px;
+}
+
+/* line 43, ../sass/_adv-logo.scss */
+.adv-logo-m4 {
+  width: 104px;
+  height: 58px;
+  background-position: -269px -115px;
+}
+
+/* line 49, ../sass/_adv-logo.scss */
+.adv-logo-m5 {
+  width: 99px;
+  height: 50px;
+  background-position: -413px -111px;
+}
+
+/* line 55, ../sass/_adv-logo.scss */
+.adv-logo-m6 {
+  width: 140px;
+  height: 28px;
+  background-position: -552px -115px;
+}
+
+/* line 61, ../sass/_adv-logo.scss */
+.adv-logo-m7 {
+  width: 107px;
+  height: 52px;
+  background-position: -552px -183px;
+}
+
+/* line 67, ../sass/_adv-logo.scss */
+.adv-logo-m8 {
+  width: 85px;
+  height: 61px;
+  background-position: -20px -275px;
+}
+
+/* line 73, ../sass/_adv-logo.scss */
+.adv-logo-m9 {
+  width: 110px;
+  height: 47px;
+  background-position: -145px -275px;
+}
+
+/* line 79, ../sass/_adv-logo.scss */
+.adv-logo-p1 {
+  width: 146px;
+  height: 54px;
+  background-position: -295px -275px;
+}
+
+/* line 85, ../sass/_adv-logo.scss */
+.adv-logo-p10 {
+  width: 151px;
+  height: 57px;
+  background-position: -481px -275px;
+}
+
+/* line 91, ../sass/_adv-logo.scss */
+.adv-logo-p11 {
+  width: 170px;
+  height: 29px;
+  background-position: -145px -372px;
+}
+
+/* line 97, ../sass/_adv-logo.scss */
+.adv-logo-p12 {
+  width: 131px;
+  height: 36px;
+  background-position: -355px -372px;
+}
+
+/* line 103, ../sass/_adv-logo.scss */
+.adv-logo-p13 {
+  width: 159px;
+  height: 48px;
+  background-position: -526px -372px;
+}
+
+/* line 109, ../sass/_adv-logo.scss */
+.adv-logo-p14 {
+  width: 162px;
+  height: 38px;
+  background-position: -20px -460px;
+}
+
+/* line 115, ../sass/_adv-logo.scss */
+.adv-logo-p15 {
+  width: 176px;
+  height: 54px;
+  background-position: -222px -448px;
+}
+
+/* line 121, ../sass/_adv-logo.scss */
+.adv-logo-p16 {
+  width: 80px;
+  height: 53px;
+  background-position: -438px -460px;
+}
+
+/* line 127, ../sass/_adv-logo.scss */
+.adv-logo-p17 {
+  width: 165px;
+  height: 28px;
+  background-position: -20px -553px;
+}
+
+/* line 133, ../sass/_adv-logo.scss */
+.adv-logo-p18 {
+  width: 162px;
+  height: 38px;
+  background-position: -225px -553px;
+}
+
+/* line 139, ../sass/_adv-logo.scss */
+.adv-logo-p19 {
+  width: 173px;
+  height: 41px;
+  background-position: -427px -553px;
+}
+
+/* line 145, ../sass/_adv-logo.scss */
+.adv-logo-p2 {
+  width: 127px;
+  height: 41px;
+  background-position: -558px -460px;
+}
+
+/* line 151, ../sass/_adv-logo.scss */
+.adv-logo-p20 {
+  width: 159px;
+  height: 50px;
+  background-position: -20px -634px;
+}
+
+/* line 157, ../sass/_adv-logo.scss */
+.adv-logo-p21 {
+  width: 167px;
+  height: 38px;
+  background-position: -219px -634px;
+}
+
+/* line 163, ../sass/_adv-logo.scss */
+.adv-logo-p22 {
+  width: 156px;
+  height: 39px;
+  background-position: -426px -634px;
+}
+
+/* line 169, ../sass/_adv-logo.scss */
+.adv-logo-p3 {
+  width: 175px;
+  height: 40px;
+  background-position: -720px -20px;
+}
+
+/* line 175, ../sass/_adv-logo.scss */
+.adv-logo-p4 {
+  width: 149px;
+  height: 41px;
+  background-position: -732px -100px;
+}
+
+/* line 181, ../sass/_adv-logo.scss */
+.adv-logo-p5 {
+  width: 144px;
+  height: 55px;
+  background-position: -732px -181px;
+}
+
+/* line 187, ../sass/_adv-logo.scss */
+.adv-logo-p6 {
+  width: 171px;
+  height: 53px;
+  background-position: -672px -276px;
+}
+
+/* line 193, ../sass/_adv-logo.scss */
+.adv-logo-p7 {
+  width: 156px;
+  height: 31px;
+  background-position: -725px -369px;
+}
+
+/* line 199, ../sass/_adv-logo.scss */
+.adv-logo-p8 {
+  width: 168px;
+  height: 52px;
+  background-position: -725px -440px;
+}
+
+/* line 205, ../sass/_adv-logo.scss */
+.adv-logo-p9 {
+  width: 150px;
+  height: 55px;
+  background-position: -725px -532px;
 }
 
 /* line 1, ../sass/_unslider.scss */
@@ -8804,25 +9056,54 @@ main a:hover {
   }
 }
 /* contact-us.php */
-/* line 840, ../sass/_inner.scss */
+/* line 839, ../sass/_inner.scss */
 .contact-list .card {
   border-left: 3px solid #e0d200;
 }
-/* line 842, ../sass/_inner.scss */
+/* line 841, ../sass/_inner.scss */
 .contact-list .card .card-title {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 846, ../sass/_inner.scss */
+/* line 845, ../sass/_inner.scss */
 .contact-list .card .card-body {
   height: 100px;
 }
-/* line 849, ../sass/_inner.scss */
+/* line 848, ../sass/_inner.scss */
 .contact-list .card .card-body a {
   text-decoration: none;
 }
-/* line 854, ../sass/_inner.scss */
+/* line 853, ../sass/_inner.scss */
 .contact-list i {
+  vertical-align: middle;
+}
+
+/* contact-us.php */
+/* line 860, ../sass/_inner.scss */
+.advertise-main .card-panel {
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 0;
+  height: 65px;
+  line-height: 65px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  width: 190px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+/* line 874, ../sass/_inner.scss */
+.advertise-main .card-panel.card-many {
+  width: 330px;
+  text-align: right;
+  font-size: 40px;
+  vertical-align: bottom;
+  font-weight: 500;
+}
+/* line 882, ../sass/_inner.scss */
+.advertise-main .adv-logo {
   vertical-align: middle;
 }
 

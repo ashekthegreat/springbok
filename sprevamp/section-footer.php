@@ -5,10 +5,10 @@
                 <div class="col s12 m4 push-m4">
                     <h5>Connect with us</h5>
                     <p>
-                        <a href="#"><i class="social social-fb-32"></i></a> &nbsp;
-                        <a href="#"><i class="social social-twitter-32"></i></a> &nbsp;
-                        <a href="#"><i class="social social-pinterest-32"></i></a> &nbsp;
-                        <a href="#"><i class="social social-instagram-32"></i></a>
+                        <a href="https://www.facebook.com/SpringbokProperties"><i class="social social-fb-32"></i></a> &nbsp;
+                        <a href="https://twitter.com/springbokprop"><i class="social social-twitter-32"></i></a> &nbsp;
+                        <a href="https://uk.pinterest.com/springbokproper/pins/"><i class="social social-pinterest-32"></i></a> &nbsp;
+                        <a href="https://www.youtube.com/channel/UCoX4BOtThDYw0p1MEd_y4Nw"><i class="social social-youtube-32"></i></a>
                     </p>
                     <p>
                         <img src="assets/images/award-icons.png" width="273" height="71" class="responsive-img">
@@ -33,14 +33,14 @@
                     <h5>About us</h5>
                     <ul>
                         <li><a href="#">About Springbok</a></li>
-                        <li><a href="#">Team Springbok</a></li>
+                        <li><a href="springbok-team.php">Team Springbok</a></li>
                         <li><a href="reviews.php">Customer Reviews</a></li>
                         <li><a href="mission-vision.php">Springbok Mission, values & culture</a></li>
                         <li><a href="springbok-story.php">The Springbok Story</a></li>
                         <li><a href="#">Our selected charities</a></li>
                         <li><a href="refer-a-friend.php">Refer A Friend</a></li>
                         <li><a href="how-we-compare.php">How we compare</a></li>
-                        <li><a href="">Where we advertise</a></li>
+                        <li><a href="advertise.php">Where we advertise</a></li>
                     </ul>
                 </div>
             </div>

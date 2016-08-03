@@ -835,7 +835,6 @@
 
 
 /* contact-us.php */
-
 .contact-list{
     .card{
         border-left: 3px solid color("sp-primary", 'darken-1');
@@ -854,5 +853,33 @@
     i{
         vertical-align: middle;
     }
+}
 
+/* contact-us.php */
+.advertise-main{
+    .card-panel{
+        border-radius: 2px;
+        background-color: #fff;
+        padding: 0;
+        height: 65px;
+        line-height: 65px;
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+        width: 190px;
+        margin-right: 25px;
+        margin-bottom: 15px;
+        margin-top: 0;
+
+        &.card-many{
+            width: 330px;
+            text-align: right;
+            font-size: 40px;
+            vertical-align: bottom;
+            font-weight: 500;
+        }
+    }
+    .adv-logo{
+        vertical-align: middle;
+    }
 }

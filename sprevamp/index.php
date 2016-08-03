@@ -22,7 +22,22 @@
         <section class="home-banner">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m8">
+                    <div class="col s12 m4 push-m8">
+                        <form class="white">
+                            <div class="form-title sp-primary sp-secondary-text center-align">
+                                Get Free Valuation
+                            </div>
+                            <div class="classic-form sp-secondary lighten-5">
+                                <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
+                                <input placeholder="Phone Number" id="phone" name="phone" type="text" class="z-depth-1">
+                                <input placeholder="Email" id="email" type="email" class="z-depth-1">
+                                <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
+
+                                <button type="submit" class="waves-effect waves-light btn-large btn-block sp-primary sp-secondary-text">Get Started</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col s12 m8 pull-m4">
                         <div class="banner-text white-text">
                             <div class="banner-text-content">
                                 <h1 class="big z-depth-1-text">Sell fast with best possible price</h1>
@@ -39,21 +54,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col s12 m4 hide-on-small-only">
-                        <form class="white">
-                            <div class="form-title sp-primary sp-secondary-text center-align">
-                                Get Free Valuation
-                            </div>
-                            <div class="classic-form sp-secondary lighten-5">
-                                <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
-                                <input placeholder="Phone Number" id="phone" name="phone" type="text" class="z-depth-1">
-                                <input placeholder="Email" id="email" type="email" class="z-depth-1">
-                                <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
-
-                                <button type="submit" class="waves-effect waves-light btn-large btn-block sp-primary sp-secondary-text">Get Started</button>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@
             </div>
         </section>
 
-        <section class="home-video sp-primary sp-secondary-text">
+        <section class="home-video white sp-secondary-text">
             <div class="container">
                 <div class="row">
                     <div class="col s12 l8 offset-l2 center-align">
@@ -312,7 +312,7 @@
             </div>
         </section>
 
-        <section class="home-success white sp-secondary-text">
+        <section class="home-success sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <h2 class="center-align big">Get maximum value Fast!<br>That is success for us</h2>
                 <p class="center-align big">

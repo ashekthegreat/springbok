@@ -22,7 +22,22 @@
         <section class="free-valuation-banner sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m8">
+                    <div class="col s12 m4 push-m8 margin-bottom-20">
+                        <form class="white z-depth-2">
+                            <div class="form-title sp-primary sp-secondary-text center-align">
+                                Get Free Valuation
+                            </div>
+                            <div class="classic-form sp-secondary lighten-5">
+                                <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
+                                <input placeholder="Phone Number" id="phone" name="phone" type="text" class="z-depth-1">
+                                <input placeholder="Email" id="email" type="email" class="z-depth-1">
+                                <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
+
+                                <button type="submit" class="waves-effect waves-light btn-large btn-block sp-primary sp-secondary-text">Get Started</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col s12 m8 pull-m4">
                         <h1 class="z-depth-1-text">Get Your Free Valuation</h1>
                         <p class="bigger">
                             We give away over 1,900 property valuations every month, completely free!
@@ -45,21 +60,6 @@
                             Or simply fill in our online form.
                         </p>
                         <br>
-                    </div>
-                    <div class="col s12 m4">
-                        <form class="white z-depth-2">
-                            <div class="form-title sp-primary sp-secondary-text center-align">
-                                Get Free Valuation
-                            </div>
-                            <div class="classic-form sp-secondary lighten-5">
-                                <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
-                                <input placeholder="Phone Number" id="phone" name="phone" type="text" class="z-depth-1">
-                                <input placeholder="Email" id="email" type="email" class="z-depth-1">
-                                <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
-
-                                <button type="submit" class="waves-effect waves-light btn-large btn-block sp-primary sp-secondary-text">Get Started</button>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>

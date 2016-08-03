@@ -19,7 +19,7 @@
 
     <main>
 
-        <section class="why-buy-reasons white sp-secondary-text">
+        <section class="why-buy-reasons sp-secondary lighten-5 sp-secondary-text">
             <div class="container center-align">
                 <h1 class="big">
                     10 reasons to choose Springbok
@@ -30,11 +30,11 @@
             </div>
         </section>
 
-        <section class="sp-secondary lighten-5 sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/1.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/1.jpg" width="395" height="233" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>1. Hundreds of properties</h3>
@@ -48,11 +48,11 @@
                 </div>
             </div>
         </section>
-        <section class="white sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/2.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/2.jpg" width="395" height="263" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>2. We're open 24/7</h3>
@@ -68,11 +68,11 @@
             </div>
         </section>
 
-        <section class="sp-secondary lighten-5 sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/3.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/3.jpg" width="395" height="263" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>3. Expert help to find the right properties</h3>
@@ -83,11 +83,11 @@
                 </div>
             </div>
         </section>
-        <section class="white sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/4.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/4.jpg" width="395" height="198" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>4. Expert local searches</h3>
@@ -99,11 +99,11 @@
             </div>
         </section>
 
-        <section class="sp-secondary lighten-5 sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/5.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/5.jpg" width="395" height="395" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>5. SMS and email alerts</h3>
@@ -114,11 +114,11 @@
                 </div>
             </div>
         </section>
-        <section class="white sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/6.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/6.jpg" width="395" height="283" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>6. Industry accreditation you can trust</h3>
@@ -130,11 +130,11 @@
             </div>
         </section>
 
-        <section class="sp-secondary lighten-5 sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/7.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/7.jpg" width="395" height="263" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>7. Keeping in touch</h3>
@@ -145,11 +145,11 @@
                 </div>
             </div>
         </section>
-        <section class="white sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/8.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/8.jpg" width="395" height="263" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>8. Property for dummies</h3>
@@ -161,11 +161,11 @@
             </div>
         </section>
 
-        <section class="sp-secondary lighten-5 sp-secondary-text">
+        <section class="white sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/9.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/9.jpg" width="395" height="408" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>9. Springbok expert conveyancing</h3>
@@ -176,11 +176,11 @@
                 </div>
             </div>
         </section>
-        <section class="white sp-secondary-text">
+        <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/why-buy/10.png" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/why-buy/10.jpg" width="395" height="263" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>
