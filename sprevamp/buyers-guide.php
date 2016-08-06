@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/buyers-guide/1.jpg" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/buyers-guide/1.jpg" width="395" height="296" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>1. Sort out your financing</h3>
@@ -49,7 +49,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/buyers-guide/2.jpg" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/buyers-guide/2.jpg" width="395" height="296" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>2. Start your property search</h3>
@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/buyers-guide/3.jpg" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/buyers-guide/3.jpg" width="395" height="263" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>3. Get more info and book a viewing</h3>
@@ -89,7 +89,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/buyers-guide/4.jpg" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/buyers-guide/4.jpg" width="395" height="263" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>4. Make an offer</h3>
@@ -111,7 +111,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/buyers-guide/5.jpg" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/buyers-guide/5.jpg" width="395" height="408" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>5. Instruct a solicitor</h3>
@@ -132,7 +132,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m4 push-m8 center-align">
-                        <img src="assets/images/buyers-guide/6.jpg" width="335" height="264" class="responsive-img z-depth-1"/>
+                        <img src="assets/images/buyers-guide/6.jpg" width="395" height="263" class="responsive-img z-depth-1"/>
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>6. Exchange and completion</h3>
