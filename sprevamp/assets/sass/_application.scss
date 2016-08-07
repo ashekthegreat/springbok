@@ -630,3 +630,164 @@ main{
         color: #7a7680;
     }
 }
+
+/* property-details.php */
+
+.property-details{
+    .property-head{
+        padding: 20px;
+    }
+    .property-head-right {
+        float: right;
+        text-align: right;
+    }
+
+    .property-head-offer {
+        color: #3f893f;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .property-head-price {
+        color: #006200;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 24px;
+    }
+
+    .property-header {
+        font-size: 22px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    .property-location {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #property-carousel{
+        background: #ddd;
+        margin: 0;
+        ul{
+
+        }
+        li{
+            overflow: hidden;
+            position: relative;
+
+            img{
+                width: 100%;
+                height: auto;
+                vertical-align: top;
+            }
+            .carousel-caption{
+                position: absolute;
+                bottom: 0;
+                left:0;
+                right: 0;
+                background: rgba(0,0,0,.7);
+                text-align: center;
+                color: #fff;
+                padding: 2px;
+            }
+        }
+    }
+    .unslider-arrow{
+        width: 40px;
+    }
+    .slideshow-control{
+        position: absolute;
+        bottom: 2px;
+        left: 10px;
+        cursor: pointer;
+        color: #fff;
+    }
+    .unslider-nav{
+        height: auto;
+        background: #ddd;
+        margin-top: 2px;
+        ol{
+            display: flex;
+            flex-flow: row nowrap;
+
+            li{
+                flex-grow: 1;
+                flex-shrink: 1;
+                height: auto;
+                line-height: 1;
+                max-height: 64px;
+                overflow: hidden;
+                cursor: pointer;
+
+                &+li{
+                    margin-left: 1px;
+                }
+
+                &.unslider-active{
+                    border-radius: 6px;
+                }
+
+                img{
+                    width: 100%;
+                    height: auto;
+                    vertical-align: top;
+
+                }
+
+            }
+        }
+    }
+
+
+    .property-interest {
+        background: none repeat scroll 0 0 #ececec;
+        padding: 10px;
+        color: #333;
+    }
+
+    .property-interest h3 {
+        font-size: 28px;
+        line-height: 36px;
+        margin: 0 0 15px;
+        text-align: center;
+    }
+
+    .property-interest-details {
+        text-align: center;
+        vertical-align: top;
+    }
+
+    .property-interest-details > * {
+        vertical-align: top;
+    }
+
+    .property-interest-details .sprite {
+        margin-top: 10px;
+    }
+
+    .property-call {
+        font-size: 14px;
+        text-align: left;
+        line-height: 18px;
+        margin: 0 10px 0 10px;
+        display: inline-block;
+    }
+
+    .property-call a {
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .property-call-help-text {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .property-details {
+        margin-top: 15px;
+    }
+    #mapid{
+        display: block;
+    }
+}

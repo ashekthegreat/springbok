@@ -86,5 +86,88 @@
                 console.log("closed")
             }
         });*/
-    })
+    });
+
+    $(function($) {
+        var $slider = $('#property-carousel');
+
+        function resizeSlider(){
+            var ratio = 2/3;
+            var w = $slider.width();
+            $slider.height(w*ratio);
+        }
+
+        if ($slider.length) {
+            resizeSlider();
+            $(window).on("resize", function(){
+                resizeSlider();
+            });
+
+
+            var image = new Image();
+            image.onload = function () {
+                $("img[xsrc]").each(function () {
+                    $(this).attr("src", $(this).attr("xsrc"));
+                    $(this).removeAttr("xsrc");
+                })
+            };
+            image.src = $slider.find("img:first").attr("src");
+
+            /*$(window).on("resize.carousel", function(){
+                resizeCarouselItems();
+            })*/
+
+            var propertySlider = $slider.unslider({
+                arrows: {
+                    //  Unslider default behaviour
+                    prev: '<a class="unslider-arrow prev"><i class="sprite sprite-arrow-left"></i></a>',
+                    next: '<a class="unslider-arrow next"><i class="sprite sprite-arrow-right"></i></a>'
+                },
+                nav: function(index, label) {
+
+                    return $(this).find("img").get(0).outerHTML;
+                },
+                autoplay: true,
+                infinite: true
+            });
+            setTimeout(function(){
+                propertySlider.unslider('stop');
+                $(".unslider-arrow").css("bottom", ($(".unslider-nav").height() -20) + "px");
+            },1000);
+
+            propertySlider.on('unslider.change', function() {
+                if(!isSlideshow) {
+                    propertySlider.unslider('stop');
+                }
+            });
+
+            var isSlideshow = false;
+            $(".slideshow-control").click(function(){
+                if(!isSlideshow){
+                    /*propertySlider.data('unslider').init({
+                        autoplay: true
+                    });*/
+                    propertySlider.unslider('start');
+                    $(this).text("Stop Slideshow");
+                } else{
+                    /*propertySlider.data('unslider').init({
+                        autoplay: false
+                    });*/
+                    propertySlider.unslider('stop');
+                    $(this).text("Start Slideshow");
+                }
+                isSlideshow = !isSlideshow;
+            });
+            
+            
+            // tabs select
+            $("#mapid").click(function(){
+                $('ul.tabs').tabs('select_tab', 'property-tab-map');
+            })
+        }
+
+
+
+    });
+
 }());
