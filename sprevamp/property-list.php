@@ -103,7 +103,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m12 l9 margin-bottom-40">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text margin-top-0">
+                        <div class="card white sp-secondary-text margin-top-0">
                             <div class="card-content">
                                 <p class="big">Properties For Sale in Manchester, Greater Manchester</p>
                                 <p><strong class="bigger">4,241</strong> Results</p>

@@ -88,7 +88,17 @@
         });*/
     });
 
-    $(function($) {
+    /* property-list */
+    $(function(){
+        var $propertySearch = $(".properties-search");
+        if($propertySearch.length){
+            $(".navbar-fixed").removeClass("navbar-fixed").addClass("navbar");
+            $propertySearch.pushpin({ top: $propertySearch.offset().top });
+        }
+
+    });
+
+    $(function() {
         var $slider = $('#property-carousel');
 
         function resizeSlider(){

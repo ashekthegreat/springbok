@@ -123,9 +123,9 @@ $datepicker-selected-outfocus: desaturate(lighten($secondary-color, 35%), 15%) !
 /* 8. Dropdown
    ========================================================================== */
 
-$dropdown-bg-color: $primary-color !default;
-$dropdown-hover-bg-color: color("sp-primary", "darken-1") !default;
-$dropdown-color: $secondary-color !default;
+$dropdown-bg-color: $secondary-color !default;
+$dropdown-hover-bg-color: color("sp-secondary", "darken-1") !default;
+$dropdown-color: #fff !default;
 $dropdown-item-height: 40px !default;
 
 
@@ -173,7 +173,7 @@ $select-background: rgba(255, 255, 255, 0.90) !default;
 $select-focus: 1px solid lighten($secondary-color, 47%) !default;
 $select-padding: 5px !default;
 $select-radius: 2px !default;
-$select-disabled-color: rgba(0,0,0,.3) !default;
+$select-disabled-color: rgba(255,255,255,.7) !default;
 
 // Switches
 $switch-bg-color: $secondary-color !default;

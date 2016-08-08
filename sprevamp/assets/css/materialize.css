@@ -3563,7 +3563,7 @@ nav ul a {
   font-size: 0.95rem;
   color: #6b6770;
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 15px;
   cursor: pointer;
   vertical-align: top;
   font-weight: 500;
@@ -3576,66 +3576,68 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 /* line 115, ../sass/components/_navbar.scss */
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  /*background-color: rgba(0,0,0,.1);*/
+  background-color: #6b6770;
+  color: #ffef00;
 }
-/* line 120, ../sass/components/_navbar.scss */
+/* line 122, ../sass/components/_navbar.scss */
 nav ul.left {
   float: left;
 }
-/* line 126, ../sass/components/_navbar.scss */
+/* line 128, ../sass/components/_navbar.scss */
 nav .input-field {
   margin: 0;
 }
-/* line 129, ../sass/components/_navbar.scss */
+/* line 131, ../sass/components/_navbar.scss */
 nav .input-field input {
   height: 100%;
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
 }
-/* line 135, ../sass/components/_navbar.scss */
+/* line 137, ../sass/components/_navbar.scss */
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
   border: none;
   box-shadow: none;
 }
-/* line 141, ../sass/components/_navbar.scss */
+/* line 143, ../sass/components/_navbar.scss */
 nav .input-field label {
   top: 0;
   left: 0;
 }
-/* line 145, ../sass/components/_navbar.scss */
+/* line 147, ../sass/components/_navbar.scss */
 nav .input-field label i {
   color: rgba(255, 255, 255, 0.7);
   transition: color .3s;
 }
-/* line 149, ../sass/components/_navbar.scss */
+/* line 151, ../sass/components/_navbar.scss */
 nav .input-field label.active i {
   color: #6b6770;
 }
-/* line 150, ../sass/components/_navbar.scss */
+/* line 152, ../sass/components/_navbar.scss */
 nav .input-field label.active {
   transform: translateY(0);
 }
 
-/* line 160, ../sass/components/_navbar.scss */
+/* line 162, ../sass/components/_navbar.scss */
 .navbar-fixed {
   position: relative;
   height: 104px;
   z-index: 998;
 }
-/* line 165, ../sass/components/_navbar.scss */
+/* line 167, ../sass/components/_navbar.scss */
 .navbar-fixed nav {
   position: fixed;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 170, ../sass/components/_navbar.scss */
+  /* line 172, ../sass/components/_navbar.scss */
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: 64px;
     line-height: 64px;
   }
 
-  /* line 174, ../sass/components/_navbar.scss */
+  /* line 176, ../sass/components/_navbar.scss */
   .navbar-fixed {
     height: 112px;
   }
@@ -4485,7 +4487,7 @@ button.btn-floating {
 /* line 1, ../sass/components/_dropdown.scss */
 .dropdown-content {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 6px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: #ffef00;
+  background-color: #6b6770;
   margin: 0;
   display: none;
   min-width: 100px;
@@ -4510,11 +4512,11 @@ button.btn-floating {
 }
 /* line 25, ../sass/components/_dropdown.scss */
 .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
-  background-color: #e0d200;
+  background-color: #5c5860;
 }
 /* line 29, ../sass/components/_dropdown.scss */
 .dropdown-content li.active.selected {
-  background-color: #c7ba00;
+  background-color: #4f4c53;
 }
 /* line 33, ../sass/components/_dropdown.scss */
 .dropdown-content li.divider {
@@ -4524,7 +4526,7 @@ button.btn-floating {
 /* line 38, ../sass/components/_dropdown.scss */
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 0.9rem;
-  color: #6b6770;
+  color: #fff;
   display: block;
   font-weight: 400;
   padding: 9px 16px;
@@ -5860,14 +5862,14 @@ select:disabled {
 
 /* line 71, ../sass/components/forms/_select.scss */
 .select-wrapper i {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* line 75, ../sass/components/forms/_select.scss */
 .select-dropdown li.disabled,
 .select-dropdown li.disabled > span,
 .select-dropdown li.optgroup {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.7);
   background-color: transparent;
 }
 
@@ -5893,7 +5895,7 @@ select:disabled {
 
 /* line 102, ../sass/components/forms/_select.scss */
 .select-dropdown li.optgroup {
-  border-top: 1px solid #e0d200;
+  border-top: 1px solid #5c5860;
 }
 /* line 105, ../sass/components/forms/_select.scss */
 .select-dropdown li.optgroup.selected > span {
@@ -9170,43 +9172,53 @@ main a:hover {
   }
 }
 /* property-list.php */
-/* line 669, ../sass/_inner.scss */
+/* line 668, ../sass/_inner.scss */
+.properties-search {
+  z-index: 2;
+}
+/* line 671, ../sass/_inner.scss */
+.properties-search.pinned {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+/* line 676, ../sass/_inner.scss */
 .properties-search .field {
   display: inline-block;
   margin-right: 40px;
 }
-/* line 674, ../sass/_inner.scss */
+/* line 681, ../sass/_inner.scss */
 .properties-search .white {
   border-radius: 4px;
   width: 345px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
-/* line 680, ../sass/_inner.scss */
+/* line 687, ../sass/_inner.scss */
 .properties-search .white .search {
   width: 250px;
 }
-/* line 683, ../sass/_inner.scss */
+/* line 690, ../sass/_inner.scss */
 .properties-search .white .search input {
   margin: 0;
   padding: 0 10px;
   border-right: 1px solid #ccc;
   width: 225px;
 }
-/* line 689, ../sass/_inner.scss */
+/* line 696, ../sass/_inner.scss */
 .properties-search .white .search .material-icons {
   top: 12px;
   font-style: normal;
 }
-/* line 694, ../sass/_inner.scss */
+/* line 701, ../sass/_inner.scss */
 .properties-search .white .radius {
   width: 80px;
 }
-/* line 697, ../sass/_inner.scss */
+/* line 704, ../sass/_inner.scss */
 .properties-search .white .radius .caret {
   color: #6b6770;
 }
-/* line 702, ../sass/_inner.scss */
+/* line 709, ../sass/_inner.scss */
 .properties-search .input-field {
   display: inline-block;
   width: 100px;
@@ -9216,59 +9228,59 @@ main a:hover {
       color: #fff;
   }*/
 }
-/* line 707, ../sass/_inner.scss */
+/* line 714, ../sass/_inner.scss */
 .properties-search .input-field .caret {
   color: #ffef00;
 }
-/* line 710, ../sass/_inner.scss */
+/* line 717, ../sass/_inner.scss */
 .properties-search .input-field input {
   border-bottom: 0;
   margin-bottom: 0;
 }
-/* line 714, ../sass/_inner.scss */
+/* line 721, ../sass/_inner.scss */
 .properties-search .input-field .material-icons {
   font-size: 1rem !important;
 }
-/* line 722, ../sass/_inner.scss */
+/* line 729, ../sass/_inner.scss */
 .properties-search .min-price, .properties-search .max-price, .properties-search .min-bed, .properties-search .max-bed {
   width: 80px;
 }
-/* line 725, ../sass/_inner.scss */
+/* line 732, ../sass/_inner.scss */
 .properties-search .property-type {
   width: 110px;
 }
-/* line 728, ../sass/_inner.scss */
+/* line 735, ../sass/_inner.scss */
 .properties-search .filters {
   width: 80px;
 }
-/* line 731, ../sass/_inner.scss */
+/* line 738, ../sass/_inner.scss */
 .properties-search .search {
   width: 200px;
 }
-/* line 735, ../sass/_inner.scss */
+/* line 742, ../sass/_inner.scss */
 .properties-search .to {
   margin: 0 10px;
   color: #bbb;
   font-weight: 500;
 }
 
-/* line 743, ../sass/_inner.scss */
+/* line 750, ../sass/_inner.scss */
 .card.property-card {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 747, ../sass/_inner.scss */
+/* line 754, ../sass/_inner.scss */
 .card.property-card .card-image {
   width: 45%;
   max-width: none;
 }
-/* line 751, ../sass/_inner.scss */
+/* line 758, ../sass/_inner.scss */
 .card.property-card .card-image-footer {
   background: #f0eff1;
   padding: 9px 20px 8px;
   position: relative;
 }
-/* line 755, ../sass/_inner.scss */
+/* line 762, ../sass/_inner.scss */
 .card.property-card .card-image-footer .camera {
   float: right;
   white-space: nowrap;
@@ -9278,40 +9290,40 @@ main a:hover {
   text-decoration: none;
   margin-top: 10px;
 }
-/* line 764, ../sass/_inner.scss */
+/* line 771, ../sass/_inner.scss */
 .card.property-card .card-image-footer .camera img {
   display: inline-block;
   vertical-align: top;
 }
-/* line 769, ../sass/_inner.scss */
+/* line 776, ../sass/_inner.scss */
 .card.property-card .card-image-footer strong {
   display: block;
   font-size: 28px;
   line-height: 1;
 }
-/* line 776, ../sass/_inner.scss */
+/* line 783, ../sass/_inner.scss */
 .card.property-card .card-content a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 781, ../sass/_inner.scss */
+/* line 788, ../sass/_inner.scss */
 .card.property-card .card-content h4 {
   /*height: 56px;
   overflow: hidden;*/
   font-weight: 400;
 }
-/* line 786, ../sass/_inner.scss */
+/* line 793, ../sass/_inner.scss */
 .card.property-card .card-content p {
   /*height: 110px;*/
   min-height: 88px;
   overflow: hidden;
 }
-/* line 792, ../sass/_inner.scss */
+/* line 799, ../sass/_inner.scss */
 .card.property-card .card-action {
   padding: 15px 20px;
 }
-/* line 795, ../sass/_inner.scss */
+/* line 802, ../sass/_inner.scss */
 .card.property-card .card-action .call-now {
   font-size: 18px;
   line-height: 1;
@@ -9320,7 +9332,7 @@ main a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 805, ../sass/_inner.scss */
+  /* line 812, ../sass/_inner.scss */
   .card.property-card .card-image {
     display: flex;
     flex-direction: column;
@@ -9328,66 +9340,66 @@ main a:hover {
     position: relative;
     max-width: 40%;
   }
-  /* line 812, ../sass/_inner.scss */
+  /* line 819, ../sass/_inner.scss */
   .card.property-card .card-image .responsive-img {
     flex-grow: 1;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 819, ../sass/_inner.scss */
+  /* line 826, ../sass/_inner.scss */
   .card.property-card {
     display: block;
   }
-  /* line 821, ../sass/_inner.scss */
+  /* line 828, ../sass/_inner.scss */
   .card.property-card .card-image {
     width: 100%;
     display: block;
   }
-  /* line 825, ../sass/_inner.scss */
+  /* line 832, ../sass/_inner.scss */
   .card.property-card .card-image .responsive-img {
     width: 100%;
     height: auto;
   }
-  /* line 830, ../sass/_inner.scss */
+  /* line 837, ../sass/_inner.scss */
   .card.property-card .card-stacked {
     display: block;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 838, ../sass/_inner.scss */
+  /* line 845, ../sass/_inner.scss */
   .card.property-card .card-action .call-now {
     margin-top: 15px;
   }
-  /* line 840, ../sass/_inner.scss */
+  /* line 847, ../sass/_inner.scss */
   .card.property-card .card-action .call-now br {
     display: none;
   }
 }
 /* contact-us.php */
-/* line 851, ../sass/_inner.scss */
+/* line 858, ../sass/_inner.scss */
 .contact-list .card {
   border-left: 3px solid #e0d200;
 }
-/* line 853, ../sass/_inner.scss */
+/* line 860, ../sass/_inner.scss */
 .contact-list .card .card-title {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 857, ../sass/_inner.scss */
+/* line 864, ../sass/_inner.scss */
 .contact-list .card .card-body {
   height: 100px;
 }
-/* line 860, ../sass/_inner.scss */
+/* line 867, ../sass/_inner.scss */
 .contact-list .card .card-body a {
   text-decoration: none;
 }
-/* line 865, ../sass/_inner.scss */
+/* line 872, ../sass/_inner.scss */
 .contact-list i {
   vertical-align: middle;
 }
 
 /* contact-us.php */
-/* line 872, ../sass/_inner.scss */
+/* line 879, ../sass/_inner.scss */
 .advertise-main .card-panel {
   border-radius: 2px;
   background-color: #fff;
@@ -9402,7 +9414,7 @@ main a:hover {
   margin-bottom: 15px;
   margin-top: 0;
 }
-/* line 886, ../sass/_inner.scss */
+/* line 893, ../sass/_inner.scss */
 .advertise-main .card-panel.card-many {
   width: 330px;
   text-align: right;
@@ -9410,7 +9422,7 @@ main a:hover {
   vertical-align: bottom;
   font-weight: 500;
 }
-/* line 894, ../sass/_inner.scss */
+/* line 901, ../sass/_inner.scss */
 .advertise-main .adv-logo {
   vertical-align: middle;
 }

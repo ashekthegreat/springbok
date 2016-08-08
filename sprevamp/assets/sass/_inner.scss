@@ -666,6 +666,13 @@
 
 /* property-list.php */
 .properties-search{
+    z-index: 2;
+
+    &.pinned{
+        position: fixed;
+        left: 0;
+        right: 0;
+    }
     .field{
         display: inline-block;
         margin-right: 40px;
