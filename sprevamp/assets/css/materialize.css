@@ -4238,7 +4238,7 @@ small {
   overflow: hidden;
   transition: color .28s ease;
   text-decoration: none;
-  border-right: 1px solid #ccc;
+  /*border-right: 1px solid #ccc;*/
 }
 /* line 41, ../sass/components/_tabs.scss */
 .tabs .tab a:hover {
@@ -4247,7 +4247,7 @@ small {
 /* line 44, ../sass/components/_tabs.scss */
 .tabs .tab a.active {
   font-weight: bold;
-  background: #eee;
+  /*background: #eee;*/
 }
 /* line 50, ../sass/components/_tabs.scss */
 .tabs .tab.disabled a {
@@ -6961,171 +6961,241 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /* line 85, ../sass/_sprite.scss */
-.sprite-arrow-right {
-  width: 24px;
-  height: 44px;
+.sprite-arrow-left-rounded {
+  width: 34px;
+  height: 47px;
   background-position: -640px -20px;
 }
 
 /* line 91, ../sass/_sprite.scss */
-.sprite-as-seen-on-tv {
-  width: 50px;
-  height: 39px;
-  background-position: -576px -104px;
+.sprite-arrow-right {
+  width: 24px;
+  height: 44px;
+  background-position: -576px -107px;
 }
 
 /* line 97, ../sass/_sprite.scss */
-.sprite-badge {
-  width: 60px;
-  height: 88px;
-  background-position: -576px -183px;
+.sprite-arrow-right-rounded {
+  width: 34px;
+  height: 47px;
+  background-position: -640px -107px;
 }
 
 /* line 103, ../sass/_sprite.scss */
-.sprite-badge-first {
-  width: 71px;
-  height: 108px;
-  background-position: -268px -311px;
+.sprite-as-seen-on-tv {
+  width: 50px;
+  height: 39px;
+  background-position: -576px -194px;
 }
 
 /* line 109, ../sass/_sprite.scss */
-.sprite-best {
-  width: 95px;
-  height: 124px;
-  background-position: -379px -311px;
+.sprite-badge {
+  width: 60px;
+  height: 88px;
+  background-position: -268px -273px;
 }
 
 /* line 115, ../sass/_sprite.scss */
-.sprite-calendar {
-  width: 49px;
-  height: 56px;
-  background-position: -514px -311px;
+.sprite-badge-first {
+  width: 71px;
+  height: 108px;
+  background-position: -368px -273px;
 }
 
 /* line 121, ../sass/_sprite.scss */
-.sprite-call {
-  width: 32px;
-  height: 32px;
-  background-position: -603px -311px;
+.sprite-best {
+  width: 95px;
+  height: 124px;
+  background-position: -479px -273px;
 }
 
 /* line 127, ../sass/_sprite.scss */
-.sprite-call-20 {
-  width: 20px;
-  height: 20px;
-  background-position: -20px -383px;
+.sprite-calendar {
+  width: 49px;
+  height: 56px;
+  background-position: -614px -273px;
 }
 
 /* line 133, ../sass/_sprite.scss */
-.sprite-call-center {
-  width: 124px;
-  height: 112px;
-  background-position: -80px -383px;
+.sprite-call {
+  width: 32px;
+  height: 32px;
+  background-position: -666px -194px;
 }
 
 /* line 139, ../sass/_sprite.scss */
-.sprite-computer {
-  width: 83px;
-  height: 74px;
-  background-position: -514px -407px;
+.sprite-call-20 {
+  width: 20px;
+  height: 20px;
+  background-position: -20px -369px;
 }
 
 /* line 145, ../sass/_sprite.scss */
-.sprite-house {
-  width: 65px;
-  height: 65px;
-  background-position: -244px -521px;
+.sprite-call-center {
+  width: 124px;
+  height: 112px;
+  background-position: -80px -369px;
 }
 
 /* line 151, ../sass/_sprite.scss */
-.sprite-left-arrow-round {
-  width: 42px;
-  height: 41px;
-  background-position: -349px -521px;
+.sprite-call-large {
+  width: 54px;
+  height: 70px;
+  background-position: -614px -369px;
 }
 
 /* line 157, ../sass/_sprite.scss */
-.sprite-menu {
-  width: 30px;
-  height: 20px;
-  background-position: -637px -383px;
+.sprite-call-medium {
+  width: 36px;
+  height: 47px;
+  background-position: -244px -479px;
 }
 
 /* line 163, ../sass/_sprite.scss */
-.sprite-no-sale {
-  width: 110px;
-  height: 109px;
-  background-position: -431px -521px;
+.sprite-computer {
+  width: 83px;
+  height: 74px;
+  background-position: -320px -479px;
 }
 
 /* line 169, ../sass/_sprite.scss */
-.sprite-no-upfront {
-  width: 151px;
-  height: 152px;
-  background-position: -704px -20px;
+.sprite-house {
+  width: 65px;
+  height: 65px;
+  background-position: -443px -479px;
 }
 
 /* line 175, ../sass/_sprite.scss */
-.sprite-no-upfront-small {
-  width: 100px;
-  height: 101px;
-  background-position: -676px -212px;
+.sprite-left-arrow-round {
+  width: 42px;
+  height: 41px;
+  background-position: -548px -479px;
 }
 
 /* line 181, ../sass/_sprite.scss */
-.sprite-people {
-  width: 78px;
-  height: 38px;
-  background-position: -707px -353px;
+.sprite-menu {
+  width: 30px;
+  height: 20px;
+  background-position: -630px -479px;
 }
 
 /* line 187, ../sass/_sprite.scss */
-.sprite-people-large {
-  width: 103px;
-  height: 68px;
-  background-position: -707px -431px;
-}
-
-/* line 193, ../sass/_sprite.scss */
-.sprite-reviews {
-  width: 115px;
-  height: 114px;
+.sprite-message-24 {
+  width: 24px;
+  height: 24px;
   background-position: -20px -539px;
 }
 
+/* line 193, ../sass/_sprite.scss */
+.sprite-no-sale {
+  width: 110px;
+  height: 109px;
+  background-position: -84px -560px;
+}
+
 /* line 199, ../sass/_sprite.scss */
-.sprite-right-arrow-round {
-  width: 42px;
-  height: 41px;
-  background-position: -816px -212px;
+.sprite-no-upfront {
+  width: 151px;
+  height: 152px;
+  background-position: -738px -20px;
 }
 
 /* line 205, ../sass/_sprite.scss */
-.sprite-side-val {
-  width: 39px;
-  height: 146px;
-  background-position: -581px -539px;
+.sprite-no-upfront-small {
+  width: 100px;
+  height: 101px;
+  background-position: -738px -212px;
 }
 
 /* line 211, ../sass/_sprite.scss */
-.sprite-sp-logo {
-  width: 146px;
-  height: 110px;
-  background-position: -660px -539px;
+.sprite-note-24 {
+  width: 24px;
+  height: 24px;
+  background-position: -708px -353px;
 }
 
 /* line 217, ../sass/_sprite.scss */
-.sprite-thumb {
-  width: 69px;
-  height: 66px;
-  background-position: -175px -689px;
+.sprite-people {
+  width: 78px;
+  height: 38px;
+  background-position: -772px -353px;
 }
 
 /* line 223, ../sass/_sprite.scss */
+.sprite-people-large {
+  width: 103px;
+  height: 68px;
+  background-position: -708px -431px;
+}
+
+/* line 229, ../sass/_sprite.scss */
+.sprite-printer-24 {
+  width: 24px;
+  height: 24px;
+  background-position: -851px -431px;
+}
+
+/* line 235, ../sass/_sprite.scss */
+.sprite-reviews {
+  width: 115px;
+  height: 114px;
+  background-position: -630px -539px;
+}
+
+/* line 241, ../sass/_sprite.scss */
+.sprite-right-arrow-round {
+  width: 42px;
+  height: 41px;
+  background-position: -851px -495px;
+}
+
+/* line 247, ../sass/_sprite.scss */
+.sprite-side-val {
+  width: 39px;
+  height: 146px;
+  background-position: -234px -576px;
+}
+
+/* line 253, ../sass/_sprite.scss */
+.sprite-slideshow {
+  width: 13px;
+  height: 12px;
+  background-position: -878px -212px;
+}
+
+/* line 259, ../sass/_sprite.scss */
+.sprite-slideshow-small {
+  width: 16px;
+  height: 16px;
+  background-position: -878px -264px;
+}
+
+/* line 265, ../sass/_sprite.scss */
+.sprite-sp-logo {
+  width: 146px;
+  height: 110px;
+  background-position: -313px -693px;
+}
+
+/* line 271, ../sass/_sprite.scss */
+.sprite-star-24 {
+  width: 24px;
+  height: 24px;
+  background-position: -548px -576px;
+}
+
+/* line 277, ../sass/_sprite.scss */
+.sprite-thumb {
+  width: 69px;
+  height: 66px;
+  background-position: -785px -576px;
+}
+
+/* line 283, ../sass/_sprite.scss */
 .sprite-tick-yellow {
   width: 35px;
   height: 29px;
-  background-position: -825px -293px;
+  background-position: -499px -682px;
 }
 
 /* line 1, ../sass/_adv-logo.scss */
@@ -8220,8 +8290,9 @@ main a:hover {
 .property-details .unslider-nav ol {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: center;
 }
-/* line 713, ../sass/_application.scss */
+/* line 714, ../sass/_application.scss */
 .property-details .unslider-nav ol li {
   flex-grow: 1;
   flex-shrink: 1;
@@ -8230,73 +8301,166 @@ main a:hover {
   max-height: 64px;
   overflow: hidden;
   cursor: pointer;
+  max-width: 100px;
 }
-/* line 722, ../sass/_application.scss */
+/* line 724, ../sass/_application.scss */
 .property-details .unslider-nav ol li + li {
   margin-left: 1px;
 }
-/* line 726, ../sass/_application.scss */
+/* line 728, ../sass/_application.scss */
 .property-details .unslider-nav ol li.unslider-active {
   border-radius: 6px;
 }
-/* line 730, ../sass/_application.scss */
+/* line 732, ../sass/_application.scss */
 .property-details .unslider-nav ol li img {
   width: 100%;
   height: auto;
   vertical-align: top;
 }
-/* line 742, ../sass/_application.scss */
+/* line 744, ../sass/_application.scss */
 .property-details .property-interest {
   background: none repeat scroll 0 0 #ececec;
   padding: 10px;
   color: #333;
 }
-/* line 748, ../sass/_application.scss */
+/* line 750, ../sass/_application.scss */
 .property-details .property-interest h3 {
   font-size: 28px;
   line-height: 36px;
   margin: 0 0 15px;
   text-align: center;
 }
-/* line 755, ../sass/_application.scss */
+/* line 757, ../sass/_application.scss */
 .property-details .property-interest-details {
   text-align: center;
   vertical-align: top;
 }
-/* line 760, ../sass/_application.scss */
+/* line 762, ../sass/_application.scss */
 .property-details .property-interest-details > * {
   vertical-align: top;
 }
-/* line 764, ../sass/_application.scss */
+/* line 766, ../sass/_application.scss */
 .property-details .property-interest-details .sprite {
   margin-top: 10px;
 }
-/* line 768, ../sass/_application.scss */
+/* line 770, ../sass/_application.scss */
 .property-details .property-call {
-  font-size: 14px;
   text-align: left;
-  line-height: 18px;
   margin: 0 10px 0 10px;
   display: inline-block;
 }
 /* line 776, ../sass/_application.scss */
 .property-details .property-call a {
   color: #333;
-  font-size: 18px;
   font-weight: bold;
 }
-/* line 782, ../sass/_application.scss */
+/* line 781, ../sass/_application.scss */
 .property-details .property-call-help-text {
   font-size: 11px;
   line-height: 14px;
 }
-/* line 787, ../sass/_application.scss */
+/* line 786, ../sass/_application.scss */
 .property-details .property-details {
   margin-top: 15px;
 }
-/* line 790, ../sass/_application.scss */
+/* line 789, ../sass/_application.scss */
 .property-details #mapid {
   display: block;
+}
+/* line 793, ../sass/_application.scss */
+.property-details .property-contact-methods .item {
+  line-height: 24px;
+}
+/* line 797, ../sass/_application.scss */
+.property-details .property-contact-methods .item + .item {
+  border-top: 1px solid #fff;
+  box-shadow: 0 -1px 0 0 #ccc;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+/* line 805, ../sass/_application.scss */
+.property-details .property-back-too-list a {
+  display: block;
+  text-decoration: none;
+}
+/* line 811, ../sass/_application.scss */
+.property-details .property-sidebar-action a {
+  display: block;
+  text-decoration: none;
+  line-height: 24px;
+  vertical-align: middle;
+}
+/* line 817, ../sass/_application.scss */
+.property-details .property-sidebar-action a .sprite {
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 8px;
+}
+/* line 825, ../sass/_application.scss */
+.property-details .tabs {
+  overflow: visible;
+}
+/* line 828, ../sass/_application.scss */
+.property-details .tabs .tab a {
+  background: #eee;
+  border-bottom: 2px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+/* line 832, ../sass/_application.scss */
+.property-details .tabs .tab a.active {
+  background: #fff;
+}
+/* line 837, ../sass/_application.scss */
+.property-details .tabs .indicator {
+  bottom: -3px;
+  background: #fff;
+}
+/* line 843, ../sass/_application.scss */
+.property-details .list-style-square, .property-details .list-style-square li {
+  padding-left: 2rem;
+  position: relative;
+  line-height: inherit;
+}
+/* line 849, ../sass/_application.scss */
+.property-details .list-style-square {
+  padding-bottom: 16px;
+}
+/* line 853, ../sass/_application.scss */
+.property-details .list-style-square li {
+  padding: 8px 8px 8px 24px;
+  list-style-type: none;
+}
+/* line 858, ../sass/_application.scss */
+.property-details ul.list-style-square {
+  padding-left: 0;
+}
+/* line 862, ../sass/_application.scss */
+.property-details .list-style-square:before, .property-details .list-style-square li:before {
+  border-top: 8px solid #ffef00;
+  border-top-width: .8rem;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 11px;
+}
+/* line 871, ../sass/_application.scss */
+.property-details .list-style-square li:before {
+  top: 13px;
+  left: 4px;
+}
+/* line 876, ../sass/_application.scss */
+.property-details .list-style-square:before {
+  display: none;
+}
+/* line 880, ../sass/_application.scss */
+.property-details .list-two-col li {
+  float: left;
+  width: 50%;
+  border-bottom: 1px solid #ececec;
+}
+/* line 885, ../sass/_application.scss */
+.property-details h3 {
+  font-size: 1.5rem;
 }
 
 /* how-much-is-my-house-worth.php */

@@ -120,8 +120,8 @@
             var propertySlider = $slider.unslider({
                 arrows: {
                     //  Unslider default behaviour
-                    prev: '<a class="unslider-arrow prev"><i class="sprite sprite-arrow-left"></i></a>',
-                    next: '<a class="unslider-arrow next"><i class="sprite sprite-arrow-right"></i></a>'
+                    prev: '<a class="unslider-arrow prev"><i class="sprite sprite-arrow-left-rounded"></i></a>',
+                    next: '<a class="unslider-arrow next"><i class="sprite sprite-arrow-right-rounded"></i></a>'
                 },
                 nav: function(index, label) {
 

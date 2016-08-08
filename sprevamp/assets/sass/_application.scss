@@ -709,6 +709,7 @@ main{
         ol{
             display: flex;
             flex-flow: row nowrap;
+            justify-content: center;
 
             li{
                 flex-grow: 1;
@@ -718,6 +719,7 @@ main{
                 max-height: 64px;
                 overflow: hidden;
                 cursor: pointer;
+                max-width: 100px;
 
                 &+li{
                     margin-left: 1px;
@@ -766,16 +768,13 @@ main{
     }
 
     .property-call {
-        font-size: 14px;
         text-align: left;
-        line-height: 18px;
         margin: 0 10px 0 10px;
         display: inline-block;
     }
 
     .property-call a {
         color: #333;
-        font-size: 18px;
         font-weight: bold;
     }
 
@@ -789,5 +788,101 @@ main{
     }
     #mapid{
         display: block;
+    }
+
+    .property-contact-methods .item {
+        line-height: 24px;
+    }
+
+    .property-contact-methods .item + .item {
+        border-top: 1px solid #fff;
+        box-shadow: 0 -1px 0 0 #ccc;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .property-back-too-list{
+        a{
+            display: block;
+            text-decoration: none;
+        }
+    }
+    .property-sidebar-action{
+        a{
+            display: block;
+            text-decoration: none;
+            line-height: 24px;
+            vertical-align: middle;
+
+            .sprite{
+                vertical-align: middle;
+                margin-top: -4px;
+                margin-right: 8px;
+            }
+        }
+    }
+
+    .tabs{
+        overflow: visible;
+        .tab{
+            a{
+                background: #eee;
+                border-bottom: 2px solid #ccc;
+                border-right: 1px solid #ccc;
+                &.active{
+                    background: #fff;
+                }
+            }
+        }
+        .indicator{
+            bottom: -3px;
+            background: #fff;
+        }
+    }
+
+    .list-style-square, .list-style-square li {
+        padding-left: 2rem;
+        position: relative;
+        line-height: inherit;
+    }
+
+    .list-style-square {
+        padding-bottom: 16px;
+    }
+
+    .list-style-square li {
+        padding: 8px 8px 8px 24px;
+        list-style-type: none;
+    }
+
+    ul.list-style-square {
+        padding-left: 0;
+    }
+
+    .list-style-square:before, .list-style-square li:before {
+        border-top: 8px solid $primary-color;
+        border-top-width: .8rem;
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 11px;
+    }
+
+    .list-style-square li:before {
+        top: 13px;
+        left: 4px;
+    }
+
+    .list-style-square:before {
+        display: none;
+    }
+
+    .list-two-col li {
+        float: left;
+        width: 50%;
+        border-bottom: 1px solid #ececec;
+    }
+    h3{
+        font-size: 1.5rem;
     }
 }

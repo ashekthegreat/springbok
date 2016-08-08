@@ -37,13 +37,13 @@
       overflow: hidden;
       transition: color .28s ease;
       text-decoration: none;
-      border-right: 1px solid #ccc;
+      /*border-right: 1px solid #ccc;*/
       &:hover {
         color: lighten($tabs-text-color, 20%);
       }
       &.active{
         font-weight: bold;
-        background: #eee;
+        /*background: #eee;*/
       }
     }
 
