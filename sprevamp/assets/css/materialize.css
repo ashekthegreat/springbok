@@ -4017,6 +4017,16 @@ small {
   font-weight: 500;
 }
 
+/* line 103, ../sass/components/_typography.scss */
+.text-underline {
+  text-decoration: underline;
+}
+
+/* line 107, ../sass/components/_typography.scss */
+.text-italic {
+  font-style: italic;
+}
+
 /* line 3, ../sass/components/_cards.scss */
 .card-panel {
   transition: box-shadow .25s;

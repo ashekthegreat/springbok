@@ -87,28 +87,14 @@
             </div>
         </section>
 
-        <section class="home-how-it-works no-padding">
-            <div class="sp-secondary sp-primary-text text-lighten-5">
-                <div class="container center-align">
-                    <h2 class="big">A REAL LIFE EXAMPLE OF HOW IT WORKS FROM OUR THOUSANDS OF SUCCESS STORIES</h2>
-                </div>
-            </div>
-            <div class="sp-primary sp-secondary-text lighten-5">
-                <div class="container center-align">
-                    <p class="big strong margin-top-0 margin-bottom-0">Mrs. Helen contacted us after being frustrated & stuck on the market for 432 days with two different estate agents</p>
-                </div>
-            </div>
-            <div class="sp-primary sp-secondary-text lighten-4">
-                <div class="container center-align">
-                    <p class="big strong margin-top-0 margin-bottom-0">We sold Mrs. Helen's house within 8 days & most importantly achieved their asking price. Here's how</p>
-                </div>
-            </div>
-            <div class="sp-secondary sp-primary-text text-lighten-5">
-                <div class="container center-align">
-                    <p class="big">West View, Newcastle - Sold in 8 days</p>
-                    <img class="responsive-img" src="assets/images/how-works.png" width="808" height="301"/>
-                    <h4 class="sp-primary-text big">1800 vendors and counting with a sale agreed in less than 10 days</h4>
-                </div>
+        <section class="home-how-it-works no-padding sp-secondary sp-primary-text text-lighten-5">
+            <div class="container center-align">
+                <h2 class="big margin-bottom-30">A REAL LIFE EXAMPLE OF HOW IT WORKS FROM OUR THOUSANDS OF SUCCESS STORIES</h2>
+                <p class="big strong margin-top-0 margin-bottom-0">Mrs. Helen contacted us after being frustrated & stuck on the market for <span class="text-underline">432 days</span> with two different estate agents</p>
+                <p class="big strong margin-top-0 margin-bottom-40">We sold Mrs. Helen's house within <span class="text-underline">8 days</span> & most importantly achieved their <span class="text-underline">asking price</span>. Here's how</p>
+                <p class="big">West View, Newcastle - Sold in 8 days</p>
+                <img class="responsive-img" src="assets/images/how-works.png" width="902" height="333"/>
+                <h4 class="sp-primary-text big">1800 vendors and counting with a sale agreed in less than 10 days</h4>
             </div>
         </section>
 
