@@ -40,38 +40,48 @@
                     <div class="field">
                         <div class="input-field min-price">
                             <select>
-                                <option value="" disabled selected>Min Price</option>
-                                <option value="1">&pound; 10,000</option>
-                                <option value="2">&pound; 20,000</option>
-                                <option value="3">&pound; 30,000</option>
+                                <option value="0" disabled selected>Min Price</option>
+                                <option value="50000">50,000</option>
+                                <option value="60000">60,000</option>
+                                <option value="70000">70,000</option>
+                                <option value="80000">80,000</option>
+                                <option value="90000">90,000</option>
+                                <option value="100000">100,000</option>
                             </select>
                         </div>
                         <span class="to">to</span>
                         <div class="input-field max-price">
                             <select>
-                                <option value="" disabled selected>Max Price</option>
-                                <option value="1">&pound; 100,000</option>
-                                <option value="2">&pound; 200,000</option>
-                                <option value="3">&pound; 300,000</option>
+                                <option value="0" disabled selected>Max Price</option>
+                                <option value="50000">50,000</option>
+                                <option value="60000">60,000</option>
+                                <option value="70000">70,000</option>
+                                <option value="80000">80,000</option>
+                                <option value="90000">90,000</option>
+                                <option value="100000">100,000</option>
                             </select>
                         </div>
                     </div>
                     <div class="field">
                         <div class="input-field min-bed">
                             <select>
-                                <option value="" disabled selected>Min Beds</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
+                                <option value="0" disabled selected>Min Beds</option>
+                                <option value="1">1 bed</option>
+                                <option value="2">2 beds</option>
+                                <option value="3">3 beds</option>
+                                <option value="4">4 beds</option>
+                                <option value="5">5 beds</option>
                             </select>
                         </div>
                         <span class="to">to</span>
                         <div class="input-field max-bed">
                             <select>
-                                <option value="" disabled selected>Max Beds</option>
-                                <option value="1">4</option>
-                                <option value="2">5</option>
-                                <option value="3">6</option>
+                                <option value="0" disabled selected>Max Beds</option>
+                                <option value="1">1 bed</option>
+                                <option value="2">2 beds</option>
+                                <option value="3">3 beds</option>
+                                <option value="4">4 beds</option>
+                                <option value="5">5 beds</option>
                             </select>
                         </div>
                     </div>
@@ -128,7 +138,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="nowrap">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -153,7 +163,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="nowrap">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -178,7 +188,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="nowrap">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -207,7 +217,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="nowrap">0161 000 0000</span></div>
                                     </div>
                                 </div>

@@ -93,7 +93,7 @@
                                         <div class="bigger">Or: <a href="tel:03332007322">0333 200 7322</a></div>
                                         <div class="property-call-help-text">(mobile friendly line, free for <br>mobile inclusive minutes)</div>
                                     </div>
-                                    <a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text margin-bottom-15" data-toggle="modal" data-target="#request-detail-modal" data-keyboard="false" data-backdrop="static">Request Details</a>
+                                    <a class="waves-effect waves-light btn sp-primary sp-secondary-text margin-bottom-15 modal-trigger" href="#property-book">Book Viewing</a>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +163,8 @@
 
                             <div class="card-panel margin-top-0 sp-secondary lighten-5 property-contact-methods">
                                 <div class="item center-align">
-                                    <a class="waves-effect waves-light btn sp-primary sp-secondary-text margin-bottom-15">Request Details</a>
+                                    <a class="waves-effect waves-light btn sp-primary sp-secondary-text margin-bottom-15 modal-trigger" href="#property-book">Book Viewing</a>
+                                    <a class="waves-effect waves-light btn sp-secondary sp-primary-text margin-bottom-15 modal-trigger" href="#property-book">Request Details</a>
                                     <!--<a href="#" class="btn btn-block btn-primary btn-request-details" data-toggle="modal" data-target="#request-detail-modal" data-keyboard="false" data-backdrop="static">Request Details</a>-->
                                     <div class="text-center call-us">
                                         or call us <a href="tel:08000684015">0800 068 4015</a>

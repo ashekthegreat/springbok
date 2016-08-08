@@ -96,6 +96,11 @@
             $propertySearch.pushpin({ top: $propertySearch.offset().top });
         }
 
+        // request details modal
+        $('.modal-trigger').leanModal();
+        $('.modal-trigger').click(function(e){
+            e.preventDefault();
+        });
     });
 
     $(function() {
