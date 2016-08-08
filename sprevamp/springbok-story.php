@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="desc">
                                     <time>December 2014</time>
-                                    <p>Sold our 2700th property</p>
+                                    <p>Reached our 2700th happy customer</p>
                                 </div>
                             </li>
                             <li class="item item-right item-6 clearfix">

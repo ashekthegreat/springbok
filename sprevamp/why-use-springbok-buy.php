@@ -39,7 +39,7 @@
                     <div class="col s12 m8 pull-m4">
                         <h3>1. Hundreds of properties</h3>
                         <p class="big">
-                            We have hundreds of properties available. We list all sorts of homes for all sizes of mortgage,
+                            We have hundreds of properties for sale all over the UK. We list all sorts of homes for all sizes of mortgage,
                             from efficient studio flats to massive five-bed family homes. Whatever your budget, Springbok
                             has properties all over the UK for you to view. If you are an investor,
                             <a href="#">click here</a> to get access to our exclusive investment deals

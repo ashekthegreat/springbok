@@ -9343,31 +9343,41 @@ main a:hover {
     display: block;
   }
 }
+@media only screen and (max-width: 600px) {
+  /* line 838, ../sass/_inner.scss */
+  .card.property-card .card-action .call-now {
+    margin-top: 15px;
+  }
+  /* line 840, ../sass/_inner.scss */
+  .card.property-card .card-action .call-now br {
+    display: none;
+  }
+}
 /* contact-us.php */
-/* line 839, ../sass/_inner.scss */
+/* line 851, ../sass/_inner.scss */
 .contact-list .card {
   border-left: 3px solid #e0d200;
 }
-/* line 841, ../sass/_inner.scss */
+/* line 853, ../sass/_inner.scss */
 .contact-list .card .card-title {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 845, ../sass/_inner.scss */
+/* line 857, ../sass/_inner.scss */
 .contact-list .card .card-body {
   height: 100px;
 }
-/* line 848, ../sass/_inner.scss */
+/* line 860, ../sass/_inner.scss */
 .contact-list .card .card-body a {
   text-decoration: none;
 }
-/* line 853, ../sass/_inner.scss */
+/* line 865, ../sass/_inner.scss */
 .contact-list i {
   vertical-align: middle;
 }
 
 /* contact-us.php */
-/* line 860, ../sass/_inner.scss */
+/* line 872, ../sass/_inner.scss */
 .advertise-main .card-panel {
   border-radius: 2px;
   background-color: #fff;
@@ -9382,7 +9392,7 @@ main a:hover {
   margin-bottom: 15px;
   margin-top: 0;
 }
-/* line 874, ../sass/_inner.scss */
+/* line 886, ../sass/_inner.scss */
 .advertise-main .card-panel.card-many {
   width: 330px;
   text-align: right;
@@ -9390,7 +9400,7 @@ main a:hover {
   vertical-align: bottom;
   font-weight: 500;
 }
-/* line 882, ../sass/_inner.scss */
+/* line 894, ../sass/_inner.scss */
 .advertise-main .adv-logo {
   vertical-align: middle;
 }

@@ -129,7 +129,7 @@
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
                                         <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
-                                        <div class="col s12 m6 call-now">Or Call Now on<br>0161 000 0000</div>
+                                        <div class="col s12 m6 call-now">Or Call Now on <br> <span class="nowrap">0161 000 0000</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
                                         <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
-                                        <div class="col s12 m6 call-now">Or Call Now on<br>0161 000 0000</div>
+                                        <div class="col s12 m6 call-now">Or Call Now on <br> <span class="nowrap">0161 000 0000</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -179,7 +179,7 @@
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
                                         <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
-                                        <div class="col s12 m6 call-now">Or Call Now on<br>0161 000 0000</div>
+                                        <div class="col s12 m6 call-now">Or Call Now on <br> <span class="nowrap">0161 000 0000</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
                                         <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text">Book Viewing</a></div>
-                                        <div class="col s12 m6 call-now">Or Call Now on<br>0161 000 0000</div>
+                                        <div class="col s12 m6 call-now">Or Call Now on <br> <span class="nowrap">0161 000 0000</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -227,19 +227,19 @@
                         </div>
                     </div>
 
-                    <div class="col s12 m12 l3">
+                    <div class="col s12 m12 l3 center-align">
                         <div class="row">
-                            <div class="col s4 m4 l12 margin-bottom-15">
+                            <div class="col s12 m4 l12 margin-bottom-15">
                                 <a href="#" class="center-block">
                                     <img src="assets/images/advertise/adv-1.jpg" width="300" height="260" class="responsive-img hoverable"/>
                                 </a>
                             </div>
-                            <div class="col s4 m4 l12 margin-bottom-15">
+                            <div class="col s12 m4 l12 margin-bottom-15">
                                 <a href="#">
                                     <img src="assets/images/advertise/adv-2.jpg" width="300" height="260" class="responsive-img hoverable"/>
                                 </a>
                             </div>
-                            <div class="col s4 m4 l12 margin-bottom-15">
+                            <div class="col s12 m4 l12 margin-bottom-15">
                                 <a href="#">
                                     <img src="assets/images/advertise/adv-3.jpg" width="300" height="260" class="responsive-img hoverable"/>
                                 </a>

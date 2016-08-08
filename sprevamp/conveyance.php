@@ -66,7 +66,7 @@
                             Our main goal is to achieve a quick sale and complete the conveyancing  process within a timeframe to suit you and your buyer. Most importantly, we want to provide you with an excellent & seamless customer service experience. Solicitors are a significant part of this process. To avoid any hassle, we select from among hundreds the best of the best professionals to include on our recommended panel of solicitors.
                         </p>
                         <p class="bigger">
-                            <a href="contact-us.php">Contact us now to get started.</a>
+                            Fill in the quick form above to contact us &amp; get started now.
                         </p>
                     </div>
                 </div>

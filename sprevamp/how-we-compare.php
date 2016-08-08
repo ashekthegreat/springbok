@@ -68,12 +68,12 @@
                         <tr>
                             <td>True cost</td>
                             <td>We ensure you get the best price by giving you a qualified, experienced valuer, a qualified negotiator who contacts sellers and negotiates thousands extra.<br><br>
-                                We may cost a bit more, but we work hard to get you a lot more on your selling price!
+                                We work hard to get you a lot more on your selling price!
                             </td>
                             <td>Cheaper for a reason: you end up paying more, just like when you buy a cheap car, a cheap holiday or a cheap meal.</td>
                         </tr>
                         <tr>
-                            <td>Additional Estate agent Fee</td>
+                            <td>Additional Fee</td>
                             <td>One transparent fee, paid on success.</td>
                             <td>Repeat fees if your property is not sold in a set period. They fail, you pay more</td>
                         </tr>

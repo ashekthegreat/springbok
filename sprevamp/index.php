@@ -167,9 +167,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="center-align">
-                    <a class="waves-effect waves-light btn-large sp-primary sp-secondary-text">How it works</a>
-                </div>
             </div>
         </section>
 
@@ -192,7 +189,7 @@
                 </div>
                 <p class="center-align">
                     We can help you estimate how quickly you can sell & work towards your target asking price.<br>
-                    An open mind & 2 minutes to fill in our online offer estimator. You have nothing to lose - its on us!
+                    It takes 2 minutes to fill in our online offer estimator. You have nothing to lose - its on us!
                 </p>
             </div>
         </section>
@@ -307,7 +304,7 @@
                     </div>
                 </div>
                 <div class="center-align">
-                    <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See more reviews</a>
+                    <a href="reviews.php" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See more reviews</a>
                 </div>
             </div>
         </section>

@@ -170,7 +170,9 @@
                                     <div class="card-content center-align">Gary Morrish</div>
                                 </div>
                             </div>
-
+                        </div>
+                        <div class="center-align">
+                            <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See more reviews</a>
                         </div>
                     </div>
                     <div id="tab-review-text" class="tab-content col s12">

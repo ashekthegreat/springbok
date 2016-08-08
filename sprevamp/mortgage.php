@@ -60,7 +60,7 @@
                     <div class="col s12 m10 offset-m1 l8 offset-l2">
                         <h2>How Springbok's Recommended Financial Advisors Can Help</h2>
                         <p class="big">
-                            Our recommended financial advisors are all independent experts who are FSA regulated. They do not charge fees for this free, no-obligation consultation. They are whole-market brokers with access to private and public banks and all mortgage lenders, so they can help you find a new mortgage or reduce your monthly payments and total mortgage debt. Connect with us and ask for more information.
+                            Our recommended financial advisors are all independent experts who are FSA (Financial Services Authority) regulated. They do not charge fees for this free, no-obligation consultation. They are whole-market brokers with access to private and public banks and all mortgage lenders, so they can help you find a new mortgage or reduce your monthly payments and total mortgage debt. Fill in the quick form above to contact us for more information.
                         </p>
                     </div>
                 </div>
