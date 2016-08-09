@@ -5,7 +5,7 @@
             <a href="#" data-activates="main-sidenav" class="button-collapse menu-button right"><strong>MENU</strong></a>
             <a href="tel:03332007322" class="button-collapse call-button right"><b class="sprite sprite-call"></b></a>
             <ul id="main-nav" class="right hide-on-med-and-down">
-                <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-sell">Sell</a></li>
+                <li><a href="javascript:;" class="dropdown-main-nav" data-activates="dropdown-sell">Sell</a></li>
                 <li><a href="free-valuation.php">Free Valuation</a></li>
                 <li><a href="property-list.php">Search Properties</a></li>
                 <li><a href="#">Investments</a></li>
@@ -19,13 +19,13 @@
                             <a class="collapsible-header">Sell</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="success-stories.php">Success Stories</a></li>
-                                    <li><a href="#">How It Works</a></li>
-                                    <li><a href="how-much-is-my-house-worth.php">Free Offer Estimator</a></li>
-                                    <li><a href="#">Video Reviews</a></li>
-                                    <li><a href="recent-sales.php">Our Recent Sales</a></li>
-                                    <li><a href="#">Customer Service</a></li>
-                                    <li><a href="#">Success In Numbers</a></li>
+                                    <li><a href="#home-success">Success Stories</a></li>
+                                    <li><a href="#home-how-it-works">How It Works</a></li>
+                                    <li><a href="#home-estimator">Free Offer Estimator</a></li>
+                                    <li><a href="#home-video">Video Reviews</a></li>
+                                    <li><a href="#home-recent-sale">Our Recent Sales</a></li>
+                                    <li><a href="#home-customer-service">Customer Service</a></li>
+                                    <li><a href="#home-success-numbers">Success In Numbers</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -66,13 +66,13 @@
     </nav>
 
     <ul id="dropdown-sell" class="dropdown-content">
-        <li><a href="success-stories.php">Success Stories</a></li>
-        <li><a href="#">How It Works</a></li>
-        <li><a href="how-much-is-my-house-worth.php">Free Offer Estimator</a></li>
-        <li><a href="#">Video Reviews</a></li>
-        <li><a href="recent-sales.php">Our Recent Sales</a></li>
-        <li><a href="#">Customer Service</a></li>
-        <li><a href="#">Success In Numbers</a></li>
+        <li><a href="#home-success">Success Stories</a></li>
+        <li><a href="#home-how-it-works">How It Works</a></li>
+        <li><a href="#home-estimator">Free Offer Estimator</a></li>
+        <li><a href="#home-video">Video Reviews</a></li>
+        <li><a href="#home-recent-sale">Our Recent Sales</a></li>
+        <li><a href="#home-customer-service">Customer Service</a></li>
+        <li><a href="#home-success-numbers">Success In Numbers</a></li>
     </ul>
     <ul id="dropdown-advice" class="dropdown-content">
         <li><a href="#">Landlord Resources</a></li>

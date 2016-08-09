@@ -3459,8 +3459,8 @@ nav {
   color: #6b6770;
   background-color: #ffef00;
   width: 100%;
-  height: 56px;
-  line-height: 56px;
+  height: 64px;
+  line-height: 64px;
 }
 /* line 9, ../sass/components/_navbar.scss */
 nav a {
@@ -3472,8 +3472,8 @@ nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
   font-size: 2rem;
-  height: 56px;
-  line-height: 56px;
+  height: 64px;
+  line-height: 64px;
 }
 /* line 20, ../sass/components/_navbar.scss */
 nav .nav-wrapper {
@@ -3491,13 +3491,13 @@ nav .button-collapse {
   float: left;
   position: relative;
   z-index: 1;
-  height: 56px;
+  height: 64px;
 }
 /* line 37, ../sass/components/_navbar.scss */
 nav .button-collapse i {
   font-size: 2.7rem;
-  height: 56px;
-  line-height: 56px;
+  height: 64px;
+  line-height: 64px;
 }
 /* line 46, ../sass/components/_navbar.scss */
 nav .brand-logo {

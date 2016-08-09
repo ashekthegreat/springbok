@@ -87,7 +87,7 @@
             </div>
         </section>
 
-        <section class="home-how-it-works no-padding sp-secondary sp-primary-text text-lighten-5">
+        <section id="home-how-it-works" class="home-how-it-works no-padding sp-secondary sp-primary-text text-lighten-5 scrollspy">
             <div class="container center-align">
                 <h2 class="big margin-bottom-30">A REAL LIFE EXAMPLE OF HOW IT WORKS FROM OUR THOUSANDS OF SUCCESS STORIES</h2>
                 <p class="big strong margin-top-0 margin-bottom-0">Mrs. Helen contacted us after being frustrated & stuck on the market for <span class="text-underline">432 days</span> with two different estate agents</p>
@@ -156,7 +156,7 @@
             </div>
         </section>
 
-        <section class="home-estimator sp-secondary lighten-5 sp-secondary-text">
+        <section id="home-estimator" class="home-estimator sp-secondary lighten-5 sp-secondary-text scrollspy">
             <div class="container">
                 <h2 class="center-align big">TRY OUR FREE OFFER ESTIMATOR</h2>
                 <p class="center-align big">See what is possible with yor property in 2 minutes online</p>
@@ -180,7 +180,7 @@
             </div>
         </section>
 
-        <section class="home-video white sp-secondary-text">
+        <section id="home-video" class="home-video white sp-secondary-text scrollspy">
             <div class="container">
                 <div class="row">
                     <div class="col s12 l8 offset-l2 center-align">
@@ -295,7 +295,7 @@
             </div>
         </section>
 
-        <section class="home-success sp-secondary lighten-5 sp-secondary-text">
+        <section id="home-success" class="home-success sp-secondary lighten-5 sp-secondary-text scrollspy">
             <div class="container">
                 <h2 class="center-align big">Get maximum value Fast!<br>That is success for us</h2>
                 <p class="center-align big">
@@ -390,7 +390,7 @@
             </div>
         </section>
 
-        <section class="home-customer-service white-text">
+        <section id="home-customer-service" class="home-customer-service white-text scrollspy">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m6 center-align">
@@ -452,7 +452,7 @@
             </div>
         </section>
 
-        <section class="home-recent-sale sp-primary sp-secondary-text">
+        <section id="home-recent-sale" class="home-recent-sale sp-primary sp-secondary-text scrollspy">
             <div class="container">
                 <div class="row">
                     <div class="col s12 m6 valign-wrapper">
@@ -469,7 +469,7 @@
             </div>
         </section>
 
-        <section class="home-success-numbers white sp-secondary-text center-align">
+        <section id="home-success-numbers" class="home-success-numbers white sp-secondary-text center-align scrollspy">
             <div class="container">
                 <h2>Success in Numbers</h2>
                 <div class="masonry clearfix center-align">

@@ -1,5 +1,15 @@
 var supportsTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
 
+var target = window.location.hash,
+    target = target.replace('#', '');
+
+if (location.hash) {
+    setTimeout(function() {
+
+        window.scrollTo(0, 0);
+    }, 1);
+}
+
 (function () {
     $(function () {
         /*
@@ -42,6 +52,19 @@ var supportsTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints >
         }
 
         prepareClickToCallButtons();
+
+        // scrollspy for homepage
+        $('.scrollspy').scrollSpy({scrollOffset: 112});
+        if(!$("#home-estimator").length){
+            $('a[href^="#home-"]').each(function () {
+                $(this).attr("href", "index.php"+$(this).attr("href"));
+            });
+        }
+    });
+    $(window).load(function() {
+        if (target) {
+            $('a[href^="#'+ target +'"]').click();
+        }
     });
 
     // map section
