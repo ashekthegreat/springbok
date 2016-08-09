@@ -668,8 +668,8 @@
 .properties-search{
     z-index: 2;
 
-    &.pinned{
-        position: fixed;
+    .property-search-bar{
+        z-index: 2;
         left: 0;
         right: 0;
     }
@@ -746,7 +746,26 @@
     }
 
 }
+.properties-list{
+    .property-list-adv{
+        &.pinned{
+            margin-top: 95px;
+        }
+        &.pin-bottom{
+            margin-top: 95px;
+        }
+    }
+}
+.adv-horizontal{
+    text-align: center;
+    a{
+        display: inline-block;
 
+        img{
+            vertical-align: top;
+        }
+    }
+}
 .card.property-card{
     margin-top: 0;
     margin-bottom: 20px;
@@ -804,6 +823,10 @@
             line-height: 1;
             text-align: center;
             font-weight: 500;
+        }
+        .click-to-call a{
+            color: inherit!important;
+            margin: 0!important;
         }
     }
 }

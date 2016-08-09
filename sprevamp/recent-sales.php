@@ -26,7 +26,7 @@
                         <div class="valign">
                             <h1 class="z-depth-1-text">We've sold over 5,500 homes all over the UK</h1>
                             <p>
-                                More than 56% of these have been sold in less than 30 days<br><br>
+                                More than 63% of these have been sold in less than 30 days<br><br>
                             </p>
                         </div>
                     </div>

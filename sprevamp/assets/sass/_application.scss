@@ -66,6 +66,13 @@ h1, h2 {
 .strong {
     font-weight: 500 !important;
 }
+.click-to-call{
+    white-space: nowrap;
+
+    a{
+        color: inherit;
+    }
+}
 
 /* nav section */
 .sub-nav {
@@ -74,7 +81,7 @@ h1, h2 {
     background: #f6f6f6;
     overflow: hidden;
 
-    a {
+    .btn {
         vertical-align: top;
         font-size: 11px;
         padding-left: 15px;
@@ -88,6 +95,12 @@ h1, h2 {
         font-size: 14px;
         font-weight: 500;
         text-transform: none;
+        vertical-align: top;
+        cursor: default;
+
+        i{
+            vertical-align: middle;
+        }
     }
 }
 
@@ -790,15 +803,35 @@ main{
         display: block;
     }
 
-    .property-contact-methods .item {
-        line-height: 24px;
+    .property-contact-methods {
+        .item {
+            line-height: 24px;
+
+            & + .item {
+                border-top: 1px solid #fff;
+                box-shadow: 0 -1px 0 0 #ccc;
+                margin-top: 10px;
+                padding-top: 10px;
+            }
+        }
     }
 
-    .property-contact-methods .item + .item {
-        border-top: 1px solid #fff;
-        box-shadow: 0 -1px 0 0 #ccc;
-        margin-top: 10px;
-        padding-top: 10px;
+    .property-investment-detail {
+        .item {
+            line-height: 18px;
+
+            & + .item {
+                border-top: 1px solid #fff;
+                box-shadow: 0 -1px 0 0 #ccc;
+                margin-top: 10px;
+                padding-top: 10px;
+            }
+
+            .question{
+                font-size: 18px;
+                font-weight: 900;
+            }
+        }
     }
 
     .property-back-too-list{

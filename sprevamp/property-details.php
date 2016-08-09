@@ -148,7 +148,7 @@
 
                         <div class="card-panel sp-secondary lighten-5 sp-secondary-text big">
                             To view this property, <a id="contactfrm2" href="#" data-toggle="modal" data-target="#request-detail-modal" data-keyboard="false" data-backdrop="static">click here</a>
-                            or call us on <strong class="nowrap">0800 068 4015</strong> or <strong class="nowrap">0333 200 7322</strong>
+                            or call us on <strong class="click-to-call">0800 068 4015</strong> or <strong class="click-to-call">0333 200 7322</strong>
                             (mobile friendly line, free for mobile inclusive minutes)
                         </div>
 
@@ -194,6 +194,36 @@
                                 </div>
                                 <div class="item property-sidebar-action">
                                     <a href="#"><span class="sprite sprite-message-24"></span> Send to Friend</a>
+                                </div>
+                            </div>
+
+                            <div class="card-panel margin-top-0 sp-secondary lighten-5 property-investment-detail">
+
+                                <h4 class="margin-top-0">Investment Details</h4>
+
+                                <div class="item">
+
+                                </div>
+                                <div class="item">
+                                    <strong>Deposit:</strong> &pound;49,988 (25%)
+                                </div>
+                                <div class="item">
+                                    <strong>Average Rental Figure:</strong> <strong class="question">?</strong> <small>Log in to unlock details</small>
+                                </div>
+                                <div class="item">
+                                    <strong>Mortgage Figure:</strong> &pound;437
+                                </div>
+                                <div class="item">
+                                    <strong>Mortgage Rate:</strong> 3.5%
+                                </div>
+                                <div class="item">
+                                    <strong>Gross Yield:</strong> <strong class="question">?</strong> <small>Log in to unlock details</small>
+                                </div>
+                                <div class="item">
+                                    <strong>Return on Investment:</strong> <strong class="question">?</strong> <small>Log in to unlock details</small>
+                                </div>
+                                <div class="item">
+                                    <strong>Property Growth:</strong> <strong class="question">?</strong> <small>Log in to unlock details</small>
                                 </div>
                             </div>
 

@@ -72,7 +72,7 @@
                             <strong>Contact us today and your property could be:</strong><br>
                             &ndash; Sold for 99% of your agreed asking price<br>
                             &ndash; One of the 230 sales we agree every month<br>
-                            &ndash; One of the 63% of sales we complete in 30 days or less
+                            &ndash; One of the 63% of sales we agree in 30 days or less
                         </p>
                     </div>
                     <div class="col m6 s12 l5 offset-l1">
@@ -545,9 +545,9 @@
             <div class="container">
                 <h2 class="white-text big z-depth-1-text">CALL US NOW FOR A FREE VALUATION</h2>
                 <p class="big">Remember, our valuation offer is completely free, and doesn't commit you to anything at all. Take action now.</p>
-                <h2 class="white-text ultra-big z-depth-1-text">0333 200 7322</h2>
+                <h2 class="white-text ultra-big z-depth-1-text"><span class="click-to-call">0333 200 7322</span></h2>
                 <p>We're open 24/7</p>
-                <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>
+                <a href="contact-us.php" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>
             </div>
         </section>
 
