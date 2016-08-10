@@ -119,6 +119,15 @@ if (location.hash) {
             nav: false,
             infinite: true
         });
+
+        // for LP3 page
+        $('.testimonial-slider').unslider({
+            arrows: false,
+            nav: false,
+            infinite: true,
+            autoplay: true,
+            delay: 2500
+        });
     });
 
     $(function () {

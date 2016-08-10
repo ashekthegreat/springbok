@@ -11,56 +11,20 @@ h1, h2 {
     padding: 0 !important;
 }
 
-.margin-top-0 {
-    margin-top: 0 !important;
-}
-.margin-top-5 {
-    margin-top: 5px !important;
-}
-.margin-top-10 {
-    margin-top: 10px !important;
-}
-.margin-top-15 {
-    margin-top: 15px !important;
-}
-.margin-top-20 {
-    margin-top: 20px !important;
-}
-.margin-top-30 {
-    margin-top: 30px !important;
-}
-.margin-top-40 {
-    margin-top: 40px !important;
-}
+$measurements: 0, 5, 10, 15, 20, 25, 30, 40, 50, 80, 100;
+@each $m in $measurements {
+    .margin-top-#{$m} { margin-top: $m + px!important }
+    .margin-right-#{$m} { margin-right: $m + px!important }
+    .margin-bottom-#{$m} { margin-bottom: $m + px!important }
+    .margin-left-#{$m} { margin-left: $m + px!important }
 
-.margin-bottom-0 {
-    margin-bottom: 0 !important;
-}
-.margin-bottom-5 {
-    margin-bottom: 5px !important;
-}
-.margin-bottom-10 {
-    margin-bottom: 10px !important;
-}
-.margin-bottom-15 {
-    margin-bottom: 15px !important;
-}
-.margin-bottom-20 {
-    margin-bottom: 20px !important;
-}
-.margin-bottom-30 {
-    margin-bottom: 30px !important;
-}
-.margin-bottom-40 {
-    margin-bottom: 40px !important;
-}
+    .padding-top-#{$m} { padding-top: $m + px!important }
+    .padding-right-#{$m} { padding-right: $m + px!important }
+    .padding-bottom-#{$m} { padding-bottom: $m + px!important }
+    .padding-left-#{$m} { padding-left: $m + px!important }
 
-.padding-bottom-5 {
-    padding-bottom: 5px;
-}
-
-.padding-top-5 {
-    padding-top: 5px;
+    .margin-#{$m} { margin: $m + px!important }
+    .padding-#{$m} { padding: $m + px!important }
 }
 
 .strong {
@@ -71,6 +35,16 @@ h1, h2 {
 
     a{
         color: inherit;
+    }
+}
+
+.text-ticks{
+    li {
+        margin-bottom: 10px;
+    }
+
+    i {
+        vertical-align: top;
     }
 }
 
@@ -552,6 +526,14 @@ h1, h2 {
     font-weight: bold;
     line-height: 1.2;
 
+    &.medium{
+        padding: 30px 15px;
+        font-size: 24px;
+    }
+    &.small{
+        padding: 20px 15px;
+        font-size: 18px;
+    }
     small{
         display: block;
         font-size: 1.1rem;

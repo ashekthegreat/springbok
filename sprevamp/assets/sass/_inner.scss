@@ -924,4 +924,33 @@
     .adv-logo{
         vertical-align: middle;
     }
+    .collapsible-header{
+        .sprite{
+            vertical-align: middle;
+            margin-right: 5px;
+            margin-top: -3px;
+            transform: rotate(0deg);
+            transition: transform .3s;
+        }
+
+        &.active{
+            .sprite {
+                transform: rotate(90deg);
+            }
+        }
+    }
+    .collapsible-body{
+        padding: 20px;
+    }
+    .columns-2{
+        column-count: 2;
+        column-gap: 20px;
+    }
+}
+@media #{$small-and-down} {
+    .advertise-main{
+        .columns-2{
+            column-count: 1;
+        }
+    }
 }

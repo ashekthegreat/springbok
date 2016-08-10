@@ -1,0 +1,162 @@
+.lp3-sprite {
+    background: url(../images/lp3-sprite.png) no-repeat top left transparent;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle;
+}
+.lp3-sprite-3-logos{ background-position: 0 0; width: 192px; height: 43px; }
+.lp3-sprite-call-small{ background-position: 0 -73px; width: 56px; height: 56px; }
+.lp3-sprite-card_badge{ background-position: 0 -137px; width: 111px; height: 67px; }
+.lp3-sprite-fb_icon{ background-position: 0 -234px; width: 37px; height: 38px; }
+.lp3-sprite-floating_PPC{ background-position: 0 -302px; width: 153px; height: 167px; }
+.lp3-sprite-green-check{ background-position: 0 -499px; width: 23px; height: 20px; }
+.lp3-sprite-left-quote{ background-position: 0 -549px; width: 28px; height: 21px; }
+.lp3-sprite-number2{ background-position: 0 -600px; width: 253px; height: 85px; }
+.lp3-sprite-phone-icon{ background-position: 0 -715px; width: 55px; height: 49px; }
+.lp3-sprite-social-icon{ background-position: 0 -794px; width: 82px; height: 51px; }
+.lp3-sprite-springbok-logo{ background-position: 0 -875px; width: 153px; height: 76px; }
+.lp3-sprite-testi-icon{ background-position: 0 -981px; width: 38px; height: 35px; }
+.lp3-sprite-tw_icon{ background-position: 0 -1046px; width: 36px; height: 37px; }
+.lp3-sprite-ys-bg{ background-position: 0 -1113px; width: 241px; height: 39px; }
+
+
+
+.card-testimonial{
+    background: url(../images/ribbon-verified.png) no-repeat top right transparent;
+}
+
+
+
+/* footer */
+.footer {
+    padding: 40px 0 10px 0;
+    color: #d8d8d8;
+}
+
+.footer-contact {
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+    padding: 15px 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-card {
+    text-align: center;
+    color: #d8d8d8;
+}
+
+.footer-card-sep {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 50%;
+    width: 1px;
+    border-left: 1px solid #666;
+}
+
+.footer-card .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.footer-card .card-connect {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer-card .card-connect a, .footer-card .card-connect a:visited, .footer-card .card-connect a:hover {
+    color: #d8d8d8;
+    font-weight: 700;
+    width: 210px;
+    display: inline-block;
+    text-align: left;
+}
+
+.footer-card .lp3-sprite-tw_icon, .footer-card .lp3-sprite-fb_icon {
+    margin-right: 15px;
+}
+
+.footer-card p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.footer-card .card-phone {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.footer-registration {
+    color: #b2b2b2;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-notes {
+    font-size: 11px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.footer-copyright {
+    margin-top: 30px;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.footer-form {
+    background: #252525;
+    border: 2px solid #595959;
+    padding: 5px 20px 30px;
+}
+
+.footer-form h3 {
+    color: #bfbfbf;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.footer-form .footer-input {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #fff;
+    color: #333;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    outline: 0 none;
+    padding: 6px 13px;
+    width: 100%;
+    display: block;
+}
+
+.footer-nav {
+    color: #000;
+    font-size: 11px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-nav a, .footer-nav a:hover, .footer-nav a:visited {
+    color: #FFF;
+
+}
+
+.lp3-sprite-floating_PPC, .floating-call{
+    position: fixed;
+    bottom: 10%;
+    left: 0;
+    display: none;
+}
+.floating-call{
+    background-color: transparent;
+}
+
+/* END footer */
