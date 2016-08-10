@@ -1,86 +1,20 @@
-<div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper container">
-            <a href="index.php" class="brand-logo left"><img src="assets/images/logo.png" width="152" height="45"></a>
-            <a href="#" data-activates="main-sidenav" class="button-collapse menu-button right"><strong>MENU</strong></a>
-            <a href="tel:03332007322" class="button-collapse call-button right"><b class="sprite sprite-call"></b></a>
-            <ul id="main-nav" class="right hide-on-med-and-down">
-                <li><a href="javascript:;" class="dropdown-main-nav" data-activates="dropdown-sell">Sell</a></li>
-                <li><a href="free-valuation.php">Free Valuation</a></li>
-                <li><a href="property-list.php">Search Properties</a></li>
-                <li><a href="#">Investments</a></li>
-                <li><a href="reviews.php">Reviews</a></li>
-                <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-advice">Property Advice</a></li>
-            </ul>
-            <ul class="side-nav sp-secondary lighten-5" id="main-sidenav">
-                <li class="no-padding">
-                    <ul class="collapsible collapsible-accordion">
-                        <li>
-                            <a class="collapsible-header">Sell</a>
-                            <div class="collapsible-body">
-                                <ul>
-                                    <li><a href="#home-success">Success Stories</a></li>
-                                    <li><a href="#home-how-it-works">How It Works</a></li>
-                                    <li><a href="#home-estimator">Free Offer Estimator</a></li>
-                                    <li><a href="#home-video">Video Reviews</a></li>
-                                    <li><a href="#home-recent-sale">Our Recent Sales</a></li>
-                                    <li><a href="#home-customer-service">Customer Service</a></li>
-                                    <li><a href="#home-success-numbers">Success In Numbers</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="free-valuation.php">Free Valuation</a></li>
-                <li><a href="property-list.php">Search Properties</a></li>
-                <li><a href="#">Investments</a></li>
-                <li><a href="reviews.php">Reviews</a></li>
-                <li class="no-padding">
-                    <ul class="collapsible collapsible-accordion">
-                        <li>
-                            <a class="collapsible-header">Property Advice</a>
-                            <div class="collapsible-body">
-                                <ul>
-                                    <li><a href="#">Landlord Resources</a></li>
-                                    <li><a href="why-use-springbok-buy.php">Why Buy With Springbok</a></li>
-                                    <li><a href="buyers-guide.php">Buyers Guide</a></li>
-                                    <li><a href="#">Latest News & Updates</a></li>
-                                    <li><a href="#">Guide to investment</a></li>
-                                    <li><a href="mortgage.php">Mortgages</a></li>
-                                    <li><a href="conveyance.php">Conveyance</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="sub-nav">
-            <div class="container right-align">
-                <span href="#" class="waves-effect waves-light btn-flat call-button"><i class="sprite sprite-call-20"></i> &nbsp; <span class="click-to-call">0800 068 4015</span> or <span class="click-to-call">0333 200 7322</span></span>
-                <a href="free-valuation.php" class="waves-effect waves-light btn sp-primary sp-secondary-text">Get Free Valuation</a>
-                <a href="how-much-is-my-house-worth.php" class="waves-effect waves-light btn white sp-secondary-text">What's My Home Worth</a>
-                <a href="contact-us.php" class="waves-effect waves-light btn sp-secondary white-text">Contact Us</a>
+<header class="sp-primary sp-secondary-text">
+    <div class="container center-align">
+        <div class="clearfix">
+            <div class="header-item header-button right hide-on-med-and-down">
+                <a href="tel:01614527543" class="lp3-sprite lp3-sprite-number2"></a>
+            </div>
+            <div class="header-item left">
+                <!--<div class="sprite sprite-springbok-logo"></div>-->
+                <a class="" href="lp3.php"><img src="assets/images/logo-large.png"></a>
+            </div>
+            <div class="header-item other-logo">
+                <img alt="3-logos.png" src="assets/images/3-logos.png" width="192" height="43">
+                <img class="badgenopopup" src="http://yoshki.com/TSI/validation/130/0/logo.png" width="130" height="97">
+                <!--<img class="badgenopopup visible-xs-inline-block visible-sm-inline-block hidden-md hidden-lg" src="http://yoshki.com/TSI/validation/130/0/logo.png" width="100" height="74">-->
             </div>
         </div>
-    </nav>
+        <div class="call-banner hide-on-large-only">Call <a href="tel:01614527543">01614527543</a></div>
+    </div>
 
-    <ul id="dropdown-sell" class="dropdown-content">
-        <li><a href="#home-success">Success Stories</a></li>
-        <li><a href="#home-how-it-works">How It Works</a></li>
-        <li><a href="#home-estimator">Free Offer Estimator</a></li>
-        <li><a href="#home-video">Video Reviews</a></li>
-        <li><a href="#home-recent-sale">Our Recent Sales</a></li>
-        <li><a href="#home-customer-service">Customer Service</a></li>
-        <li><a href="#home-success-numbers">Success In Numbers</a></li>
-    </ul>
-    <ul id="dropdown-advice" class="dropdown-content">
-        <li><a href="#">Landlord Resources</a></li>
-        <li><a href="why-use-springbok-buy.php">Why Buy With Springbok</a></li>
-        <li><a href="buyers-guide.php">Buyers Guide</a></li>
-        <li><a href="#">Latest News & Updates</a></li>
-        <li><a href="#">Guide to investment</a></li>
-        <li><a href="mortgage.php">Mortgages</a></li>
-        <li><a href="conveyance.php">Conveyance</a></li>
-    </ul>
-</div>
+</header>

@@ -10134,14 +10134,84 @@ main a:hover {
   background: url(../images/ribbon-verified.png) no-repeat top right transparent;
 }
 
+/* header */
+/* line 31, ../sass/_lp3.scss */
+header {
+  padding: 10px 0;
+}
+
+/* line 35, ../sass/_lp3.scss */
+.header-item {
+  vertical-align: middle;
+  line-height: 97px;
+}
+
+/* line 40, ../sass/_lp3.scss */
+.header-item img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+/* line 44, ../sass/_lp3.scss */
+.call-banner {
+  background: none repeat scroll 0 0 #ddd;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 7px;
+  padding: 5px;
+  text-align: center;
+  display: none;
+}
+
+@media (max-width: 479px) {
+  /*.other-logo{
+      text-align: right;
+  }*/
+  /* line 58, ../sass/_lp3.scss */
+  .header-item {
+    max-width: 40%;
+    float: left;
+    line-height: normal;
+  }
+
+  /* line 63, ../sass/_lp3.scss */
+  .other-logo {
+    max-width: 50%;
+    float: right;
+  }
+
+  /* line 67, ../sass/_lp3.scss */
+  .other-logo img {
+    height: auto;
+    max-width: 100%;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 75, ../sass/_lp3.scss */
+  .other-logo {
+    text-align: right;
+  }
+
+  /* line 78, ../sass/_lp3.scss */
+  .yoshkidiv {
+    display: none !important;
+  }
+
+  /* line 81, ../sass/_lp3.scss */
+  .badgenopopup {
+    display: none;
+  }
+}
 /* footer */
-/* line 32, ../sass/_lp3.scss */
+/* line 88, ../sass/_lp3.scss */
 .footer {
   padding: 40px 0 10px 0;
   color: #d8d8d8;
 }
 
-/* line 37, ../sass/_lp3.scss */
+/* line 93, ../sass/_lp3.scss */
 .footer-contact {
   border-top: 2px solid #666;
   border-bottom: 2px solid #666;
@@ -10151,13 +10221,13 @@ main a:hover {
   position: relative;
 }
 
-/* line 46, ../sass/_lp3.scss */
+/* line 102, ../sass/_lp3.scss */
 .footer-card {
   text-align: center;
   color: #d8d8d8;
 }
 
-/* line 51, ../sass/_lp3.scss */
+/* line 107, ../sass/_lp3.scss */
 .footer-card-sep {
   position: absolute;
   top: 15px;
@@ -10167,20 +10237,20 @@ main a:hover {
   border-left: 1px solid #666;
 }
 
-/* line 60, ../sass/_lp3.scss */
+/* line 116, ../sass/_lp3.scss */
 .footer-card .card-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 40px;
 }
 
-/* line 66, ../sass/_lp3.scss */
+/* line 122, ../sass/_lp3.scss */
 .footer-card .card-connect {
   text-align: center;
   margin-bottom: 5px;
 }
 
-/* line 71, ../sass/_lp3.scss */
+/* line 127, ../sass/_lp3.scss */
 .footer-card .card-connect a, .footer-card .card-connect a:visited, .footer-card .card-connect a:hover {
   color: #d8d8d8;
   font-weight: 700;
@@ -10189,26 +10259,26 @@ main a:hover {
   text-align: left;
 }
 
-/* line 79, ../sass/_lp3.scss */
+/* line 135, ../sass/_lp3.scss */
 .footer-card .lp3-sprite-tw_icon, .footer-card .lp3-sprite-fb_icon {
   margin-right: 15px;
 }
 
-/* line 83, ../sass/_lp3.scss */
+/* line 139, ../sass/_lp3.scss */
 .footer-card p {
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
 }
 
-/* line 89, ../sass/_lp3.scss */
+/* line 145, ../sass/_lp3.scss */
 .footer-card .card-phone {
   font-size: 28px;
   font-weight: 700;
   line-height: 40px;
 }
 
-/* line 95, ../sass/_lp3.scss */
+/* line 151, ../sass/_lp3.scss */
 .footer-registration {
   color: #b2b2b2;
   font-size: 10px;
@@ -10216,28 +10286,28 @@ main a:hover {
   margin-bottom: 20px;
 }
 
-/* line 102, ../sass/_lp3.scss */
+/* line 158, ../sass/_lp3.scss */
 .footer-notes {
   font-size: 11px;
   text-align: justify;
   font-weight: 300;
 }
 
-/* line 108, ../sass/_lp3.scss */
+/* line 164, ../sass/_lp3.scss */
 .footer-copyright {
   margin-top: 30px;
   font-size: 10px;
   text-align: justify;
 }
 
-/* line 114, ../sass/_lp3.scss */
+/* line 170, ../sass/_lp3.scss */
 .footer-form {
   background: #252525;
   border: 2px solid #595959;
   padding: 5px 20px 30px;
 }
 
-/* line 120, ../sass/_lp3.scss */
+/* line 176, ../sass/_lp3.scss */
 .footer-form h3 {
   color: #bfbfbf;
   font-size: 28px;
@@ -10246,7 +10316,7 @@ main a:hover {
   margin-top: 5px;
 }
 
-/* line 128, ../sass/_lp3.scss */
+/* line 184, ../sass/_lp3.scss */
 .footer-form .footer-input {
   background: none repeat scroll 0 0 #fff;
   border: 1px solid #fff;
@@ -10259,7 +10329,7 @@ main a:hover {
   display: block;
 }
 
-/* line 140, ../sass/_lp3.scss */
+/* line 196, ../sass/_lp3.scss */
 .footer-nav {
   color: #000;
   font-size: 11px;
@@ -10267,12 +10337,12 @@ main a:hover {
   text-align: center;
 }
 
-/* line 147, ../sass/_lp3.scss */
+/* line 203, ../sass/_lp3.scss */
 .footer-nav a, .footer-nav a:hover, .footer-nav a:visited {
   color: #FFF;
 }
 
-/* line 152, ../sass/_lp3.scss */
+/* line 208, ../sass/_lp3.scss */
 .lp3-sprite-floating_PPC, .floating-call {
   position: fixed;
   bottom: 10%;
@@ -10280,7 +10350,7 @@ main a:hover {
   display: none;
 }
 
-/* line 158, ../sass/_lp3.scss */
+/* line 214, ../sass/_lp3.scss */
 .floating-call {
   background-color: transparent;
 }

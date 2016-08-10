@@ -27,6 +27,62 @@
 }
 
 
+/* header */
+header {
+    padding: 10px 0;
+}
+
+.header-item {
+    vertical-align: middle;
+    line-height: 97px;
+}
+
+.header-item img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+.call-banner {
+    background: none repeat scroll 0 0 #ddd;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+    padding: 5px;
+    text-align: center;
+    display: none;
+}
+@media (max-width: 479px) {
+    /*.other-logo{
+        text-align: right;
+    }*/
+    .header-item{
+        max-width: 40%;
+        float: left;
+        line-height: normal;
+    }
+    .other-logo{
+        max-width: 50%;
+        float: right;
+    }
+    .other-logo img{
+        height: auto;
+        max-width: 100%;
+        margin-top: 10%;
+
+    }
+}
+@media (max-width: 767px) {
+    .other-logo{
+        text-align: right;
+    }
+    .yoshkidiv{
+        display: none!important;
+    }
+    .badgenopopup{
+        display: none;
+    }
+}
+
 
 /* footer */
 .footer {
