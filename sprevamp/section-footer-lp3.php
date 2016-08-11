@@ -54,8 +54,7 @@
 </footer>
 
 
-<div class="lp3-sprite lp3-sprite-floating_PPC hidden-xs hidden-sm hidden-md"></div>
-<div class="floating-call" style="bottom:20%;"><a href="tel:01614527543" class="lp3-sprite lp3-sprite-call-small"></a></div>
+<div class="lp3-sprite lp3-sprite-floating_PPC show-on-large"></div>
 
 
 <!--Import jQuery before materialize.js-->
