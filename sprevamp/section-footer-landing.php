@@ -1,6 +1,6 @@
-<footer class="page-footer white sp-secondary-text">
-    <div class="footer-copyright">
-        <div class="container center-align sp-secondary-text lighten-3">
+<footer class="page-footer white sp-secondary-text padding-top-0" style="border-top: 1px solid #eee;">
+    <div class="footer-copyright white margin-top-0">
+        <div class="container center-align sp-secondary-text white">
             <strong>&copy; 2015 Springbok Properties</strong> |
             <a href="#">Privacy Policy</a> |
             <a href="#">Terms & Conditions</a> |
@@ -11,8 +11,6 @@
         </div>
     </div>
 </footer>
-
-<a href="free-valuation.php" class="waves-effect waves-light btn sp-primary sp-secondary-text fixed-free-val hide-on-med-and-down">FREE Valuation</a>
 
 <div id="modal-video" class="modal">
     <div class="modal-content"></div>

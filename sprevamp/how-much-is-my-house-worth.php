@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php include("section-header.php"); ?>
+    <?php include("section-header-landing.php"); ?>
 
     <main>
 
@@ -92,6 +92,6 @@
 
     </main>
 
-    <?php include("section-footer.php"); ?>
+    <?php include("section-footer-landing.php"); ?>
 </body>
 </html>

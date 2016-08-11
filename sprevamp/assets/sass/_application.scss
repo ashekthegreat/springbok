@@ -82,14 +82,18 @@ a[href^=tel]{
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media #{$medium-and-up} {
     nav {
         height: 112px;
         .nav-wrapper {
             height: 64px;
         }
     }
-
+}
+@media #{$small-and-down} {
+    .navbar-fixed.lp3  {
+        height: 64px;
+    }
 }
 
 .menu-button {
@@ -104,6 +108,10 @@ a[href^=tel]{
     b {
         vertical-align: middle;
     }
+}
+.helpline-label{
+    line-height: 40px;
+    padding-top: 24px;
 }
 
 .footer-links {

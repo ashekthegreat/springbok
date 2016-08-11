@@ -209,6 +209,36 @@
             </div>
         </section>
 
+        <section class="reviews-chat no-padding sp-secondary lighten-5 sp-secondary-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m8 offset-m4 l8 offset-l4">
+                        <h2 class="center-align">Thinking of selling?</h2>
+                        <form class="">
+                            <div class="classic-form no-padding">
+                                <div class="row margin-bottom-0">
+                                    <div class="col s6">
+                                        <input placeholder="Your Name" id="chat-name" name="chat-name" type="text">
+                                    </div>
+                                    <div class="col s6">
+                                        <input placeholder="Your Number" id="chat-phone" name="chat-phone" type="text">
+                                    </div>
+                                </div>
+                                <div class="row margin-bottom-0">
+                                    <div class="col s6">
+                                        <input placeholder="Your Email" id="chat-email" name="chat-email" type="text">
+                                    </div>
+                                    <div class="col s6 right-align">
+                                        <button type="submit" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Call Me Back</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <?php include("section-footer.php"); ?>

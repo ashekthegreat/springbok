@@ -290,7 +290,7 @@
                     </div>
                 </div>
                 <div class="center-align">
-                    <a href="reviews.php" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See more reviews</a>
+                    <a href="reviews.php" target="_blank" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See more reviews</a>
                 </div>
             </div>
         </section>
@@ -312,7 +312,7 @@
                                 <div class="card-content">
                                     <div class="center-align">
                                         <h3 class="margin-top-0">Halfpenny Lane, Wakefield</h3>
-                                        <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                        <a href="success-stories.php" target="_blank" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
                                             <div class="col s12 m5">
                                                 <h4>1,070 Days</h4>
@@ -339,7 +339,7 @@
                                 <div class="card-content">
                                     <div class="center-align">
                                         <h3 class="margin-top-0">Briar Close, Peterborough</h3>
-                                        <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                        <a href="success-stories.php" target="_blank" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
                                             <div class="col s12 m5">
                                                 <h4>305 days</h4>
@@ -366,7 +366,7 @@
                                 <div class="card-content">
                                     <div class="center-align">
                                         <h3 class="margin-top-0">Audon Avenue, Nottingham</h3>
-                                        <a href="#" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
+                                        <a href="success-stories.php" target="_blank" class="waves-effect waves-light btn sp-secondary sp-primary-text margin-top-15 margin-bottom-15">More Success Stories</a>
                                         <div class="row margin-bottom-0">
                                             <div class="col s12 m5">
                                                 <h4>173 days</h4>
@@ -459,7 +459,7 @@
                         <div class="map-text valign">
                             <h2>We've sold over 5,500 homes all over the UK</h2>
                             <p class="big">More than 63% of these sold in less than 30 days</p>
-                            <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See Our Recent Sales</a>
+                            <a href="recent-sales.php" target="_blank" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See Our Recent Sales</a>
                         </div>
                     </div>
                     <div class="col s12 m6 hide-on-small-only right-align">

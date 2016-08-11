@@ -56,8 +56,8 @@
         <div class="sub-nav">
             <div class="container right-align">
                 <span href="#" class="waves-effect waves-light btn-flat call-button"><i class="sprite sprite-call-20"></i> &nbsp; <span class="click-to-call">0800 068 4015</span> or <span class="click-to-call">0333 200 7322</span></span>
-                <a href="free-valuation.php" class="waves-effect waves-light btn sp-primary sp-secondary-text">Get Free Valuation</a>
-                <a href="how-much-is-my-house-worth.php" class="waves-effect waves-light btn white sp-secondary-text">What's My Home Worth</a>
+                <a href="free-valuation.php" target="_blank" class="waves-effect waves-light btn sp-primary sp-secondary-text">Get Free Valuation</a>
+                <a href="how-much-is-my-house-worth.php" target="_blank" class="waves-effect waves-light btn white sp-secondary-text">What's My Home Worth</a>
                 <a href="contact-us.php" class="waves-effect waves-light btn sp-secondary white-text">Contact Us</a>
             </div>
         </div>
