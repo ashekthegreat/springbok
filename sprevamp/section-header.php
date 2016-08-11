@@ -41,11 +41,9 @@
                             <a class="collapsible-header">Property Advice</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="#">Landlord Resources</a></li>
                                     <li><a href="why-use-springbok-buy.php">Why Buy With Springbok</a></li>
                                     <li><a href="buyers-guide.php">Buyers Guide</a></li>
                                     <li><a href="#">Latest News & Updates</a></li>
-                                    <li><a href="#">Guide to investment</a></li>
                                     <li><a href="mortgage.php">Mortgages</a></li>
                                     <li><a href="conveyance.php">Conveyance</a></li>
                                 </ul>
@@ -75,11 +73,9 @@
         <li><a href="#home-success-numbers">Success In Numbers</a></li>
     </ul>
     <ul id="dropdown-advice" class="dropdown-content">
-        <li><a href="#">Landlord Resources</a></li>
         <li><a href="why-use-springbok-buy.php">Why Buy With Springbok</a></li>
         <li><a href="buyers-guide.php">Buyers Guide</a></li>
         <li><a href="#">Latest News & Updates</a></li>
-        <li><a href="#">Guide to investment</a></li>
         <li><a href="mortgage.php">Mortgages</a></li>
         <li><a href="conveyance.php">Conveyance</a></li>
     </ul>

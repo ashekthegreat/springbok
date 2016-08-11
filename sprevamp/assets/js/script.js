@@ -1,5 +1,5 @@
 var supportsTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
-
+supportsTouch=true;
 var target = window.location.hash,
     target = target.replace('#', '');
 

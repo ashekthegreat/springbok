@@ -93,7 +93,7 @@
                 <p class="big strong margin-top-0 margin-bottom-0">Mrs. Helen contacted us after being frustrated & stuck on the market for <span class="text-underline">432 days</span> with two different estate agents</p>
                 <p class="big strong margin-top-0 margin-bottom-40">We sold Mrs. Helen's house within <span class="text-underline">8 days</span> & most importantly achieved their <span class="text-underline">asking price</span>. Here's how</p>
                 <p class="big">West View, Newcastle - Sold in 8 days</p>
-                <img class="responsive-img" src="assets/images/how-works.png" width="902" height="333"/>
+                <img class="responsive-img" src="assets/images/how-works.png" width="871" height="333"/>
                 <h4 class="sp-primary-text big">1800 vendors and counting with a sale agreed in less than 10 days</h4>
             </div>
         </section>
@@ -545,7 +545,7 @@
             <div class="container">
                 <h2 class="white-text big z-depth-1-text">CALL US NOW FOR A FREE VALUATION</h2>
                 <p class="big">Remember, our valuation offer is completely free, and doesn't commit you to anything at all. Take action now.</p>
-                <h2 class="white-text ultra-big z-depth-1-text"><span class="click-to-call">0333 200 7322</span></h2>
+                <h2 class="white-text ultra-big z-depth-1-text"><span class="click-to-call">0800 068 7935</span></h2>
                 <p>We're open 24/7</p>
                 <a href="contact-us.php" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>
             </div>

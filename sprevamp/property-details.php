@@ -89,8 +89,8 @@
                                 <div class="text-center property-interest-details">
                                     <span class="sprite sprite-call-large"></span>
                                     <div class="property-call">
-                                        <div class="bigger">Call: <a href="tel:08000684015">0800 068 4015</a></div>
-                                        <div class="bigger">Or: <a href="tel:03332007322">0333 200 7322</a></div>
+                                        <div class="bigger">Call <a href="tel:08000684015">0800 068 4015</a></div>
+                                        <div class="bigger">Or <a href="tel:03332007322">0333 200 7322</a></div>
                                         <div class="property-call-help-text">(mobile friendly line, free for <br>mobile inclusive minutes)</div>
                                     </div>
                                     <a class="waves-effect waves-light btn sp-primary sp-secondary-text margin-bottom-15 modal-trigger" href="#property-book">Book Viewing</a>

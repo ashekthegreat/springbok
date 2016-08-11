@@ -21,10 +21,10 @@
 
         <section class="home-banner">
             <div class="container">
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8">
                         <form class="white">
-                            <div class="form-title medium sp-primary sp-secondary-text center-align">
+                            <div class="form-title medium sp-primary sp-secondary-text center-align padding-top-25 padding-bottom-25">
                                 Get a No-Obligation Offer Now
                             </div>
                             <div class="classic-form medium sp-secondary lighten-5">
@@ -145,7 +145,7 @@
         <section class="white sp-secondary-text">
             <div class="container">
                 <h3>Sell House Fast - Get a no-obligation cash offer by completing the form, or call us now</h3>
-                <img src="assets/images/100.png" width="170" height="170" style="max-width: 30%" class="right">
+                <img src="assets/images/100.png" width="170" height="170" style="max-width: 30%" class="responsive-img right margin-left-20 margin-bottom-20">
                 <p class="big">
                     We understand that selling a house can be a difficult decision, especially if you need a quick sale. That's why the Yellow Springbok is adamant that your peace of mind is just as important as our continued operation.
                 </p>
