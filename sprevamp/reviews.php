@@ -256,6 +256,54 @@
                         </div>
                     </div>
                     <div id="tab-review-text" class="tab-content col s12">
+                        <div class="row">
+                            <div class="col s12 m12 l10 offset-l1">
+
+                                <div class="right-align margin-bottom-15 big">
+                                    <img src="assets/images/smiley.png" width="22" height="22" style="vertical-align: top;">
+                                    <strong>463</strong>
+                                    recommend
+                                </div>
+
+                                <div class="center-align margin-bottom-15 big">
+                                    Live customer review statistics based on independent customer reviews - www.allagents.co.uk
+                                </div>
+
+                                <div class="row">
+                                    <div class="col s12 m4">
+                                        <div class="card center-align">
+                                            <div class="card-content sp-secondary lighten-5 big text-bold padding-15">Seller Reviews</div>
+                                            <div class="card-content sp-primary lighten-4 massive text-bold padding-15">415</div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m4">
+                                        <div class="card center-align">
+                                            <div class="card-content sp-secondary lighten-5 big text-bold padding-15">Buyer Reviews</div>
+                                            <div class="card-content sp-primary lighten-4 massive text-bold padding-15">338</div>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m4">
+                                        <div class="card center-align">
+                                            <div class="card-content sp-secondary lighten-5 big text-bold padding-15">Overall Customer Rating</div>
+                                            <div class="card-content sp-primary lighten-4 no-padding padding-bottom-5">
+                                                <div class=" massive text-bold">
+                                                    <span>4.6</span> <span class="bigger"><strong>out of</strong> 5</span>
+                                                </div>
+                                                <div>
+                                                    <img src="assets/images/stars/star-review.png" width="105" height="19">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
                         <div class="reviews-texts">
                             <div class="review-item margin-bottom-40">
                                 <div class="row margin-bottom-5 review-title">
