@@ -161,7 +161,7 @@
                 <h2 class="center-align big">TRY OUR FREE OFFER ESTIMATOR</h2>
                 <p class="center-align big">See what is possible with yor property in 2 minutes online</p>
                 <div class="row">
-                    <form class="sp-primary sp-primary-text text-lighten-5 col s12 m8 offset-m2 l6 offset-l3">
+                    <form class="sp-primary sp-secondary-text col s12 m8 offset-m2 l6 offset-l3">
                         <div class="classic-form">
                             <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
                             <input placeholder="Phone Number" id="phone" name="phone" type="text" class="z-depth-1">
