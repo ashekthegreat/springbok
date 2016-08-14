@@ -24,10 +24,10 @@
                 <div class="row margin-bottom-0">
                     <div class="col s12 m4 push-m8">
                         <form class="white">
-                            <div class="form-title medium sp-primary sp-secondary-text center-align padding-top-25 padding-bottom-25">
+                            <div class="form-title responsive sp-primary sp-secondary-text center-align padding-top-25 padding-bottom-25">
                                 Get a No-Obligation Offer Now
                             </div>
-                            <div class="classic-form medium sp-secondary lighten-5">
+                            <div class="classic-form responsive sp-secondary lighten-5">
                                 <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
                                 <input placeholder="Phone Number" id="phone" name="phone" type="text" class="z-depth-1">
                                 <input placeholder="Email" id="email" type="email" class="z-depth-1">
@@ -35,7 +35,7 @@
                                 <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
 
                                 <button type="submit" class="waves-effect waves-light btn-large btn-block sp-primary sp-secondary-text">Get Cash Offer</button>
-                                <div class="margin-top-5"><small>Secure and Confidential. Data Registration No. ZA152369</small></div>
+                                <div class="margin-top-5 center-align"><small>Secure and Confidential. Data Registration No. ZA152369</small></div>
                             </div>
                         </form>
                     </div>

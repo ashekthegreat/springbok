@@ -546,6 +546,10 @@ a[href^=tel]{
         padding: 20px 15px;
         font-size: 18px;
     }
+    &.responsive{
+        font-size: 1.5vw;
+        padding: 1.5vw 1vw;
+    }
     small{
         display: block;
         font-size: 1.1rem;
@@ -579,6 +583,15 @@ a[href^=tel]{
             height: 2.5rem;
             font-size: 1rem;
             margin-bottom: 6px;
+        }
+    }
+    &.responsive {
+        padding: 2vw 2vw;
+        input {
+            font-size: 2.5vh;
+            height: 6vh;
+            margin-bottom: .7vh;
+            min-height: 25px;
         }
     }
 }
