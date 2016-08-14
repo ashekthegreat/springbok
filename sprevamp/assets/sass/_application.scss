@@ -543,12 +543,8 @@ a[href^=tel]{
         font-size: 24px;
     }
     &.small{
-        padding: 20px 15px;
+        padding: 25px 15px;
         font-size: 18px;
-    }
-    &.responsive{
-        font-size: 1.5vw;
-        padding: 1.5vw 1vw;
     }
     small{
         display: block;
@@ -585,13 +581,35 @@ a[href^=tel]{
             margin-bottom: 6px;
         }
     }
-    &.responsive {
-        padding: 2vw 2vw;
-        input {
-            font-size: 2.5vh;
-            height: 6vh;
-            margin-bottom: .7vh;
-            min-height: 25px;
+}
+@media only screen and (max-height: 601px) {
+    .classic-form {
+
+        &.medium {
+            input {
+                height: 2.5rem;
+                font-size: 1.2rem;
+                margin-bottom: 6px;
+            }
+        }
+        &.small {
+            input {
+                height: 2rem;
+                font-size: 1rem;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+@media only screen and (max-height: 401px) {
+    .classic-form {
+
+        &.medium, &.small {
+            input {
+                height: 2rem;
+                font-size: 1rem;
+                margin-bottom: 5px;
+            }
         }
     }
 }
