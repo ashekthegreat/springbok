@@ -787,6 +787,9 @@ nav ul a span.badge {
 .hide {
   display: none !important;
 }
+.opacity-0{
+  opacity: 0;
+}
 
 // Text Align
 .left-align {
@@ -833,12 +836,54 @@ nav ul a span.badge {
   text-overflow: ellipsis;
 }
 
-.no-padding {
-  padding: 0 !important;
-}
 .nowrap{
   white-space: nowrap;
 }
 .inb{
   display: inline-block;
+}
+
+// padding and margin
+.no-padding {
+  padding: 0 !important;
+}
+
+$measurements: 0, 5, 10, 15, 20, 25, 30, 40, 50, 80, 100;
+@each $m in $measurements {
+  .margin-top-#{$m} {
+    margin-top: $m + px !important
+  }
+  .margin-right-#{$m} {
+    margin-right: $m + px !important
+  }
+  .margin-bottom-#{$m} {
+    margin-bottom: $m + px !important
+  }
+  .margin-left-#{$m} {
+    margin-left: $m + px !important
+  }
+
+  .padding-top-#{$m} {
+    padding-top: $m + px !important
+  }
+  .padding-right-#{$m} {
+    padding-right: $m + px !important
+  }
+  .padding-bottom-#{$m} {
+    padding-bottom: $m + px !important
+  }
+  .padding-left-#{$m} {
+    padding-left: $m + px !important
+  }
+
+  .margin-#{$m} {
+    margin: $m + px !important
+  }
+  .padding-#{$m} {
+    padding: $m + px !important
+  }
+}
+
+.strong {
+  font-weight: 500 !important;
 }

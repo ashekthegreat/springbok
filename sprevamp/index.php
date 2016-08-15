@@ -76,7 +76,7 @@
                         </p>
                     </div>
                     <div class="col m6 s12 l5 offset-l1">
-                        <div class="card-panel sp-secondary-text sell-fast z-depth-2">
+                        <div class="card-panel sp-secondary-text sell-fast z-depth-0">
                             <h4>HOW FAST IS <strong>"FAST"?</strong></h4>
                             <div class="variation"><strong>63%</strong> <small>of our property sales are in</small> less than 30 days</div>
                             <div class="variation"><strong>77%</strong> <small>of our property sales are in</small> less than 30 weeks</div>

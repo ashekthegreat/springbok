@@ -1,10 +1,10 @@
 var supportsTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
-supportsTouch=true;
+supportsTouch = true;
 var target = window.location.hash,
     target = target.replace('#', '');
 
 if (location.hash) {
-    setTimeout(function() {
+    setTimeout(function () {
 
         window.scrollTo(0, 0);
     }, 1);
@@ -55,15 +55,15 @@ if (location.hash) {
 
         // scrollspy for homepage
         $('.scrollspy').scrollSpy({scrollOffset: 112});
-        if(!$("#home-estimator").length){
+        if (!$("#home-estimator").length) {
             $('a[href^="#home-"]').each(function () {
-                $(this).attr("href", "index.php"+$(this).attr("href"));
+                $(this).attr("href", "index.php" + $(this).attr("href"));
             });
         }
     });
-    $(window).load(function() {
+    $(window).load(function () {
         if (target) {
-            $('a[href^="#'+ target +'"]').click();
+            $('a[href^="#' + target + '"]').click();
         }
     });
 
@@ -278,5 +278,41 @@ if (location.hash) {
             })
         }
     });
+
+    $(function () {
+        if ($(".home-banner").length) {
+            // its home page. lets do some animation here
+            var windowHeight = $(window).height();
+            function p2h(percentage){
+                return (windowHeight * percentage) / 100;
+            }
+
+            var options = [
+                {
+                    selector: '.home-fast .card-panel',
+                    offset: p2h(10),
+                    callback: function (el) {
+                        $(el).addClass('z-depth-2').removeClass("z-depth-0");
+                    }
+                },
+                {
+                    selector: '.home-why',
+                    offset: p2h(50),
+                    callback: function (el) {
+                        Materialize.fadeInImage($(el).find(".point"));
+                    }
+                },
+                {
+                    selector: '.home-estimator',
+                    offset: p2h(80),
+                    callback: function (el) {
+                        Materialize.fadeInImage($(el).find(".sprite-9000"));
+                    }
+                }
+            ];
+
+            Materialize.scrollFire(options);
+        }
+    })
 
 }());
