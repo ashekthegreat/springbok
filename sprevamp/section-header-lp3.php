@@ -3,7 +3,7 @@
         <div class="nav-wrapper container">
             <a href="index.php" class="brand-logo left"><img src="assets/images/ys-logo.png" width="126" height="62" style="vertical-align: top;"></a>
             <a class="brand-logo center hide-on-med-and-down"><img src="assets/images/3-logos.png" width="192" height="43" class="center"></a>
-            <a class="brand-logo right hide-on-large-only"><img src="assets/images/3-logos.png" width="192" height="43" class="center responsive-img"></a>
+            <a class="brand-logo right hide-on-large-only" style="max-width: 50%"><img src="assets/images/3-logos.png" width="192" height="43" class="center responsive-img"></a>
             <!--<a href="tel:01614527543" class="hide-on-med-and-up call-button right"><b class="sprite sprite-call"></b></a>-->
             <strong class="right big text padding-right-50 helpline-label hide-on-med-and-down">Call us now 24/7 Helpline</strong>
         </div>
