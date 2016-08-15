@@ -5,7 +5,7 @@
             <a class="brand-logo center hide-on-med-and-down"><img src="assets/images/3-logos.png" width="192" height="43" class="center"></a>
             <a class="brand-logo right hide-on-large-only"><img src="assets/images/3-logos.png" width="192" height="43" class="center responsive-img"></a>
             <!--<a href="tel:01614527543" class="hide-on-med-and-up call-button right"><b class="sprite sprite-call"></b></a>-->
-            <strong class="right bigger text padding-right-10 helpline-label hide-on-med-and-down">Call us now 24/7 Helpline</strong>
+            <strong class="right big text padding-right-50 helpline-label hide-on-med-and-down">Call us now 24/7 Helpline</strong>
         </div>
         <div class="sub-nav">
             <div class="container right-align">
@@ -13,7 +13,7 @@
                     <i class="sprite sprite-call-20 margin-right-10"></i>
                     <span class="click-to-call">0800 068 7935</span>
                     <span class="nowrap">
-                        <span class="text-italic text-small"> or </span>
+                        <small class="margin-right-5 margin-left-5">or</small>
                         <span class="click-to-call">0161 452 7543</span>
                     </span>
                 </span>

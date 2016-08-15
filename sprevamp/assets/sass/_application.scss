@@ -48,8 +48,7 @@ a[href^=tel] {
         }
     }
     .call-button {
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 22px;
         text-transform: none;
         vertical-align: top;
         cursor: default;
@@ -76,6 +75,11 @@ a[href^=tel] {
     .navbar-fixed.lp3 {
         height: 64px;
     }
+    .sub-nav {
+        .call-button {
+            font-size: 17px;
+        }
+    }
 }
 
 .menu-button {
@@ -83,14 +87,14 @@ a[href^=tel] {
     font-weight: 700;
 }
 
-/*.call-button {
+.nav-wrapper .call-button {
     padding-left: 20px;
     padding-right: 20px;
     margin-right: 10px;
     b {
         vertical-align: middle;
     }
-}*/
+}
 
 .helpline-label {
     line-height: 40px;
