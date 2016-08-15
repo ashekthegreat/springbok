@@ -54,7 +54,7 @@
 </footer>
 
 
-<div class="lp3-sprite lp3-sprite-floating_PPC show-on-large"></div>
+<div class="lp3-sprite lp3-sprite-floating_PPC"></div>
 
 
 <!--Import jQuery before materialize.js-->

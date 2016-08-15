@@ -213,5 +213,9 @@ header {
 .floating-call{
     background-color: transparent;
 }
-
+@media (min-width: 1540px) {
+    .lp3-sprite-floating_PPC, .floating-call{
+        display: block;
+    }
+}
 /* END footer */

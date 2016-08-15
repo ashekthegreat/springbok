@@ -10425,6 +10425,12 @@ header {
   background-color: transparent;
 }
 
+@media (min-width: 1540px) {
+  /* line 217, ../sass/_lp3.scss */
+  .lp3-sprite-floating_PPC, .floating-call {
+    display: block;
+  }
+}
 /* END footer */
 
 /*# sourceMappingURL=materialize.css.map */
