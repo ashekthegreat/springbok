@@ -72,9 +72,6 @@ a[href^=tel] {
 }
 
 @media #{$small-and-down} {
-    .navbar-fixed.lp3 {
-        height: 64px;
-    }
     .sub-nav {
         .call-button {
             font-size: 17px;
