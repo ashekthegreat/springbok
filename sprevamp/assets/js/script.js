@@ -280,7 +280,7 @@ if (location.hash) {
     });
 
     $(function () {
-        if ($(".home-banner").length) {
+        if ($("#home-recent-sale").length) {
             // its home page. lets do some animation here
             var windowHeight = $(window).height();
             function p2h(percentage){

@@ -1,14 +1,22 @@
-<div class="navbar-fixed lp3">
+<div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper container">
             <a href="index.php" class="brand-logo left"><img src="assets/images/ys-logo.png" width="126" height="62" style="vertical-align: top;"></a>
             <a class="brand-logo center hide-on-med-and-down"><img src="assets/images/3-logos.png" width="192" height="43" class="center"></a>
-            <a href="tel:01614527543" class="hide-on-med-and-up call-button right"><b class="sprite sprite-call"></b></a>
-            <strong class="right bigger text padding-right-10 helpline-label hide-on-small-and-down">Call us now 24/7 Helpline</strong>
+            <a class="brand-logo right hide-on-large-only"><img src="assets/images/3-logos.png" width="192" height="43" class="center responsive-img"></a>
+            <!--<a href="tel:01614527543" class="hide-on-med-and-up call-button right"><b class="sprite sprite-call"></b></a>-->
+            <strong class="right bigger text padding-right-10 helpline-label hide-on-med-and-down">Call us now 24/7 Helpline</strong>
         </div>
-        <div class="sub-nav hide-on-small-and-down">
+        <div class="sub-nav">
             <div class="container right-align">
-                <span href="#" class="waves-effect waves-light btn-flat call-button"><i class="sprite sprite-call-20"></i> &nbsp; <span class="click-to-call">0800 068 7935</span> or <span class="click-to-call">0161 452 7543</span></span>
+                <span href="#" class="call-button sp-secondary-text">
+                    <i class="sprite sprite-call-20 margin-right-10"></i>
+                    <span class="click-to-call">0800 068 7935</span>
+                    <span class="nowrap">
+                        <span class="text-italic text-small"> or </span>
+                        <span class="click-to-call">0161 452 7543</span>
+                    </span>
+                </span>
             </div>
         </div>
     </nav>
