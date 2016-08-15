@@ -8690,8 +8690,8 @@ a[href^=tel] {
 }
 /* line 534, ../sass/_application.scss */
 .form-title.small {
-  padding: 25px 15px;
-  font-size: 18px;
+  padding: 20px 15px 15px;
+  font-size: 20px;
 }
 /* line 538, ../sass/_application.scss */
 .form-title small {

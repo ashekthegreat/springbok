@@ -22,10 +22,10 @@
         <section class="home-banner">
             <div class="container">
                 <div class="row margin-bottom-0">
-                    <div class="col s12 m4 push-m8">
+                    <div class="col s12 m5 push-m7 l4 push-l8">
                         <form class="white">
                             <div class="form-title small sp-primary sp-secondary-text center-align">
-                                Get a No-Obligation Offer Now
+                                Free Offer - Get no obligation Free Offer now!
                             </div>
                             <div class="classic-form medium sp-secondary lighten-5">
                                 <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
@@ -34,12 +34,12 @@
                                 <input placeholder="Address" id="address" type="text" class="z-depth-1">
                                 <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
 
-                                <button type="submit" class="waves-effect waves-light btn-large btn-block sp-primary sp-secondary-text">Get Cash Offer</button>
+                                <button type="submit" class="waves-effect waves-light btn-large btn-block green big white-text padding-0">Get Cash Offer</button>
                                 <div class="margin-top-5 center-align"><small>Secure and Confidential. Data Registration No. ZA152369</small></div>
                             </div>
                         </form>
                     </div>
-                    <div class="col s12 m8 pull-m4">
+                    <div class="col s12 m7 pull-m5 l8 pull-l4">
                         <div class="banner-text white-text">
                             <div class="banner-text-content">
                                 <h1 class="z-depth-1-text">Sell House Fast - Guaranteed Offer in 24 Hours</h1>
