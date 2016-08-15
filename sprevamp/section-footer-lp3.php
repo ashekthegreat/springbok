@@ -6,9 +6,9 @@
                     <span class="lp3-sprite lp3-sprite-ys-bg"></span>
                 </div>
                 <div class="footer-contact">
-                    <div class="row">
-                        <div class="col m6">
-                            <div class="footer-card">
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m6">
+                            <div class="footer-card margin-bottom-20">
                                 <div class="card-img"><span class="lp3-sprite lp3-sprite-social-icon"></span></div>
                                 <div class="card-title">Connect With Us</div>
                                 <div>&nbsp;</div>
@@ -16,7 +16,7 @@
                                 <div class="card-connect"><a title="Follow us on Twitter" target="_blank" href="https://twitter.com/#!/yspringbok"><span class="lp3-sprite lp3-sprite-tw_icon"></span>Follow us on Twitter</a></div>
                             </div>
                         </div>
-                        <div class="col m6">
+                        <div class="col s12 m6">
                             <div class="footer-card">
                                 <div class="card-img"><span class="lp3-sprite lp3-sprite-phone-icon"></span></div>
                                 <div class="card-title">Call Springbok</div>
