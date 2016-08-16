@@ -75,6 +75,24 @@
     }
 }
 
+/* investments.php */
+.investments-banner {
+    background: url("../images/investments-bg.jpg") no-repeat center transparent;
+    background-size: cover;
+
+    .container {
+        overflow: hidden;
+    }
+    .row {
+        margin-bottom: 0;
+    }
+    .shaded-form {
+        box-shadow: -50px 0 125px 87px #fff;
+    }
+    .classic-form {
+        padding: 0 0 20px 0;
+    }
+}
 /* springbok-team.php */
 .team-banner {
     background: url("../images/team-bg.jpg") no-repeat center transparent;

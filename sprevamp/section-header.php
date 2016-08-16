@@ -8,7 +8,7 @@
                 <li><a href="javascript:;" class="dropdown-main-nav" data-activates="dropdown-sell">Sell</a></li>
                 <li><a href="free-valuation.php">Free Valuation</a></li>
                 <li><a href="property-list.php">Search Properties</a></li>
-                <li><a href="#">Investments</a></li>
+                <li><a href="investments.php">Investments</a></li>
                 <li><a href="reviews.php">Reviews</a></li>
                 <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-advice">Property Advice</a></li>
             </ul>
@@ -33,7 +33,7 @@
                 </li>
                 <li><a href="free-valuation.php">Free Valuation</a></li>
                 <li><a href="property-list.php">Search Properties</a></li>
-                <li><a href="#">Investments</a></li>
+                <li><a href="investments.php">Investments</a></li>
                 <li><a href="reviews.php">Reviews</a></li>
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
