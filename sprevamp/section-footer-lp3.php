@@ -60,6 +60,6 @@
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
-<script type="text/javascript" src="assets/js/materialize.js"></script>
+<script type="text/javascript" src="assets/js/materialize.min.js"></script>
 <script type="text/javascript" src="assets/js/unslider-min.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript" src="assets/js/script.min.js"></script>

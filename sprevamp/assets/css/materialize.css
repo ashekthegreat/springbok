@@ -7464,294 +7464,294 @@ input[type=range]:focus::-ms-fill-upper {
 
 /* own */
 /* Other site icons */
-/* line 2, ../sass/_sprite.scss */
+/* line 2, ../sass/sprites/_sprite.scss */
 .sprite {
   background-image: url(../images/sprite.png);
   background-repeat: no-repeat;
   display: inline-block;
 }
 
-/* line 8, ../sass/_sprite.scss */
+/* line 8, ../sass/sprites/_sprite.scss */
 .sprite-247 {
   width: 112px;
   height: 91px;
   background-position: -20px -20px;
 }
 
-/* line 14, ../sass/_sprite.scss */
+/* line 14, ../sass/sprites/_sprite.scss */
 .sprite-9000 {
   width: 364px;
   height: 154px;
   background-position: -172px -20px;
 }
 
-/* line 20, ../sass/_sprite.scss */
+/* line 20, ../sass/sprites/_sprite.scss */
 .sprite-all-agents-star {
   width: 208px;
   height: 111px;
   background-position: -20px -214px;
 }
 
-/* line 26, ../sass/_sprite.scss */
+/* line 26, ../sass/sprites/_sprite.scss */
 .sprite-arrow-left {
   width: 24px;
   height: 44px;
   background-position: -576px -20px;
 }
 
-/* line 32, ../sass/_sprite.scss */
+/* line 32, ../sass/sprites/_sprite.scss */
 .sprite-arrow-left-rounded {
   width: 34px;
   height: 47px;
   background-position: -640px -20px;
 }
 
-/* line 38, ../sass/_sprite.scss */
+/* line 38, ../sass/sprites/_sprite.scss */
 .sprite-arrow-right {
   width: 24px;
   height: 44px;
   background-position: -576px -107px;
 }
 
-/* line 44, ../sass/_sprite.scss */
+/* line 44, ../sass/sprites/_sprite.scss */
 .sprite-arrow-right-rounded {
   width: 34px;
   height: 47px;
   background-position: -640px -107px;
 }
 
-/* line 50, ../sass/_sprite.scss */
+/* line 50, ../sass/sprites/_sprite.scss */
 .sprite-as-seen-on-tv {
   width: 50px;
   height: 39px;
   background-position: -576px -194px;
 }
 
-/* line 56, ../sass/_sprite.scss */
+/* line 56, ../sass/sprites/_sprite.scss */
 .sprite-badge {
   width: 60px;
   height: 88px;
   background-position: -268px -273px;
 }
 
-/* line 62, ../sass/_sprite.scss */
+/* line 62, ../sass/sprites/_sprite.scss */
 .sprite-badge-first {
   width: 71px;
   height: 108px;
   background-position: -368px -273px;
 }
 
-/* line 68, ../sass/_sprite.scss */
+/* line 68, ../sass/sprites/_sprite.scss */
 .sprite-best {
   width: 95px;
   height: 124px;
   background-position: -479px -273px;
 }
 
-/* line 74, ../sass/_sprite.scss */
+/* line 74, ../sass/sprites/_sprite.scss */
 .sprite-calendar {
   width: 49px;
   height: 56px;
   background-position: -666px -194px;
 }
 
-/* line 80, ../sass/_sprite.scss */
+/* line 80, ../sass/sprites/_sprite.scss */
 .sprite-call {
   width: 32px;
   height: 32px;
   background-position: -614px -290px;
 }
 
-/* line 86, ../sass/_sprite.scss */
+/* line 86, ../sass/sprites/_sprite.scss */
 .sprite-call-20 {
   width: 20px;
   height: 20px;
   background-position: -686px -290px;
 }
 
-/* line 92, ../sass/_sprite.scss */
+/* line 92, ../sass/sprites/_sprite.scss */
 .sprite-call-center {
   width: 124px;
   height: 112px;
   background-position: -20px -437px;
 }
 
-/* line 98, ../sass/_sprite.scss */
+/* line 98, ../sass/sprites/_sprite.scss */
 .sprite-call-large {
   width: 54px;
   height: 70px;
   background-position: -614px -362px;
 }
 
-/* line 104, ../sass/_sprite.scss */
+/* line 104, ../sass/sprites/_sprite.scss */
 .sprite-call-medium {
   width: 36px;
   height: 47px;
   background-position: -184px -472px;
 }
 
-/* line 110, ../sass/_sprite.scss */
+/* line 110, ../sass/sprites/_sprite.scss */
 .sprite-computer {
   width: 83px;
   height: 74px;
   background-position: -260px -472px;
 }
 
-/* line 116, ../sass/_sprite.scss */
+/* line 116, ../sass/sprites/_sprite.scss */
 .sprite-down-16 {
   width: 16px;
   height: 16px;
   background-position: -383px -472px;
 }
 
-/* line 122, ../sass/_sprite.scss */
+/* line 122, ../sass/sprites/_sprite.scss */
 .sprite-house {
   width: 65px;
   height: 65px;
   background-position: -439px -472px;
 }
 
-/* line 128, ../sass/_sprite.scss */
+/* line 128, ../sass/sprites/_sprite.scss */
 .sprite-left-arrow-round {
   width: 42px;
   height: 41px;
   background-position: -544px -472px;
 }
 
-/* line 134, ../sass/_sprite.scss */
+/* line 134, ../sass/sprites/_sprite.scss */
 .sprite-menu {
   width: 30px;
   height: 20px;
   background-position: -626px -472px;
 }
 
-/* line 140, ../sass/_sprite.scss */
+/* line 140, ../sass/sprites/_sprite.scss */
 .sprite-message-24 {
   width: 24px;
   height: 24px;
   background-position: -626px -532px;
 }
 
-/* line 146, ../sass/_sprite.scss */
+/* line 146, ../sass/sprites/_sprite.scss */
 .sprite-no-sale {
   width: 110px;
   height: 109px;
   background-position: -20px -596px;
 }
 
-/* line 152, ../sass/_sprite.scss */
+/* line 152, ../sass/sprites/_sprite.scss */
 .sprite-no-upfront {
   width: 151px;
   height: 152px;
   background-position: -755px -20px;
 }
 
-/* line 158, ../sass/_sprite.scss */
+/* line 158, ../sass/sprites/_sprite.scss */
 .sprite-no-upfront-small {
   width: 100px;
   height: 101px;
   background-position: -755px -212px;
 }
 
-/* line 164, ../sass/_sprite.scss */
+/* line 164, ../sass/sprites/_sprite.scss */
 .sprite-note-24 {
   width: 24px;
   height: 24px;
   background-position: -708px -353px;
 }
 
-/* line 170, ../sass/_sprite.scss */
+/* line 170, ../sass/sprites/_sprite.scss */
 .sprite-people {
   width: 78px;
   height: 38px;
   background-position: -772px -353px;
 }
 
-/* line 176, ../sass/_sprite.scss */
+/* line 176, ../sass/sprites/_sprite.scss */
 .sprite-people-large {
   width: 103px;
   height: 68px;
   background-position: -708px -431px;
 }
 
-/* line 182, ../sass/_sprite.scss */
+/* line 182, ../sass/sprites/_sprite.scss */
 .sprite-printer-24 {
   width: 24px;
   height: 24px;
   background-position: -851px -431px;
 }
 
-/* line 188, ../sass/_sprite.scss */
+/* line 188, ../sass/sprites/_sprite.scss */
 .sprite-reviews {
   width: 115px;
   height: 114px;
   background-position: -690px -539px;
 }
 
-/* line 194, ../sass/_sprite.scss */
+/* line 194, ../sass/sprites/_sprite.scss */
 .sprite-right-16 {
   width: 16px;
   height: 16px;
   background-position: -890px -353px;
 }
 
-/* line 200, ../sass/_sprite.scss */
+/* line 200, ../sass/sprites/_sprite.scss */
 .sprite-right-arrow-round {
   width: 42px;
   height: 41px;
   background-position: -851px -495px;
 }
 
-/* line 206, ../sass/_sprite.scss */
+/* line 206, ../sass/sprites/_sprite.scss */
 .sprite-side-val {
   width: 39px;
   height: 146px;
   background-position: -544px -576px;
 }
 
-/* line 212, ../sass/_sprite.scss */
+/* line 212, ../sass/sprites/_sprite.scss */
 .sprite-slideshow {
   width: 13px;
   height: 12px;
   background-position: -184px -409px;
 }
 
-/* line 218, ../sass/_sprite.scss */
+/* line 218, ../sass/sprites/_sprite.scss */
 .sprite-slideshow-small {
   width: 16px;
   height: 16px;
   background-position: -237px -409px;
 }
 
-/* line 224, ../sass/_sprite.scss */
+/* line 224, ../sass/sprites/_sprite.scss */
 .sprite-sp-logo {
   width: 146px;
   height: 110px;
   background-position: -170px -693px;
 }
 
-/* line 230, ../sass/_sprite.scss */
+/* line 230, ../sass/sprites/_sprite.scss */
 .sprite-star-24 {
   width: 24px;
   height: 24px;
   background-position: -184px -576px;
 }
 
-/* line 236, ../sass/_sprite.scss */
+/* line 236, ../sass/sprites/_sprite.scss */
 .sprite-thumb {
   width: 69px;
   height: 66px;
   background-position: -356px -693px;
 }
 
-/* line 242, ../sass/_sprite.scss */
+/* line 242, ../sass/sprites/_sprite.scss */
 .sprite-tick-dark {
   width: 35px;
   height: 29px;
   background-position: -845px -576px;
 }
 
-/* line 248, ../sass/_sprite.scss */
+/* line 248, ../sass/sprites/_sprite.scss */
 .sprite-tick-yellow {
   width: 35px;
   height: 29px;
@@ -7759,307 +7759,475 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /* Social icons */
-/* line 2, ../sass/_social.scss */
+/* line 2, ../sass/sprites/_social.scss */
 .social {
   background-image: url(../images/social.png);
   background-repeat: no-repeat;
   display: inline-block;
 }
 
-/* line 8, ../sass/_social.scss */
+/* line 8, ../sass/sprites/_social.scss */
 .social-fb-32 {
   width: 32px;
   height: 32px;
   background-position: -20px -20px;
 }
 
-/* line 14, ../sass/_social.scss */
+/* line 14, ../sass/sprites/_social.scss */
 .social-instagram-32 {
   width: 32px;
   height: 32px;
   background-position: -92px -20px;
 }
 
-/* line 20, ../sass/_social.scss */
+/* line 20, ../sass/sprites/_social.scss */
 .social-pinterest-32 {
   width: 32px;
   height: 32px;
   background-position: -20px -92px;
 }
 
-/* line 26, ../sass/_social.scss */
+/* line 26, ../sass/sprites/_social.scss */
 .social-twitter-32 {
   width: 32px;
   height: 32px;
   background-position: -92px -92px;
 }
 
-/* line 32, ../sass/_social.scss */
+/* line 32, ../sass/sprites/_social.scss */
 .social-youtube-32 {
   width: 32px;
   height: 32px;
   background-position: -164px -20px;
 }
 
-/* line 38, ../sass/_social.scss */
+/* line 38, ../sass/sprites/_social.scss */
 .social-youtube-play-large {
   width: 64px;
   height: 64px;
   background-position: -164px -92px;
 }
 
-/* line 44, ../sass/_social.scss */
+/* line 44, ../sass/sprites/_social.scss */
 .social-youtube-play-small {
   width: 32px;
   height: 32px;
   background-position: -20px -196px;
 }
 
-/* line 1, ../sass/_adv-logo.scss */
+/* line 1, ../sass/sprites/_adv-logo.scss */
 .adv-logo {
   background-image: url(../images/adv-logo.png);
   background-repeat: no-repeat;
   display: inline-block;
 }
 
-/* line 7, ../sass/_adv-logo.scss */
+/* line 7, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m1 {
   width: 78px;
   height: 63px;
   background-position: -20px -20px;
 }
 
-/* line 13, ../sass/_adv-logo.scss */
+/* line 13, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m10 {
   width: 112px;
   height: 37px;
   background-position: -138px -20px;
 }
 
-/* line 19, ../sass/_adv-logo.scss */
+/* line 19, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m11 {
   width: 143px;
   height: 36px;
   background-position: -290px -20px;
 }
 
-/* line 25, ../sass/_adv-logo.scss */
+/* line 25, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m12 {
   width: 101px;
   height: 51px;
   background-position: -473px -20px;
 }
 
-/* line 31, ../sass/_adv-logo.scss */
+/* line 31, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m2 {
   width: 66px;
   height: 55px;
   background-position: -614px -20px;
 }
 
-/* line 37, ../sass/_adv-logo.scss */
+/* line 37, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m3 {
   width: 91px;
   height: 56px;
   background-position: -138px -111px;
 }
 
-/* line 43, ../sass/_adv-logo.scss */
+/* line 43, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m4 {
   width: 104px;
   height: 58px;
   background-position: -269px -115px;
 }
 
-/* line 49, ../sass/_adv-logo.scss */
+/* line 49, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m5 {
   width: 99px;
   height: 50px;
   background-position: -413px -111px;
 }
 
-/* line 55, ../sass/_adv-logo.scss */
+/* line 55, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m6 {
   width: 140px;
   height: 28px;
   background-position: -552px -115px;
 }
 
-/* line 61, ../sass/_adv-logo.scss */
+/* line 61, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m7 {
   width: 107px;
   height: 52px;
   background-position: -552px -183px;
 }
 
-/* line 67, ../sass/_adv-logo.scss */
+/* line 67, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m8 {
   width: 85px;
   height: 61px;
   background-position: -20px -275px;
 }
 
-/* line 73, ../sass/_adv-logo.scss */
+/* line 73, ../sass/sprites/_adv-logo.scss */
 .adv-logo-m9 {
   width: 110px;
   height: 47px;
   background-position: -145px -275px;
 }
 
-/* line 79, ../sass/_adv-logo.scss */
+/* line 79, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p1 {
   width: 146px;
   height: 54px;
   background-position: -295px -275px;
 }
 
-/* line 85, ../sass/_adv-logo.scss */
+/* line 85, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p10 {
   width: 151px;
   height: 57px;
   background-position: -481px -275px;
 }
 
-/* line 91, ../sass/_adv-logo.scss */
+/* line 91, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p11 {
   width: 170px;
   height: 29px;
   background-position: -145px -372px;
 }
 
-/* line 97, ../sass/_adv-logo.scss */
+/* line 97, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p12 {
   width: 131px;
   height: 36px;
   background-position: -355px -372px;
 }
 
-/* line 103, ../sass/_adv-logo.scss */
+/* line 103, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p13 {
   width: 159px;
   height: 48px;
   background-position: -526px -372px;
 }
 
-/* line 109, ../sass/_adv-logo.scss */
+/* line 109, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p14 {
   width: 162px;
   height: 38px;
   background-position: -20px -460px;
 }
 
-/* line 115, ../sass/_adv-logo.scss */
+/* line 115, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p15 {
   width: 176px;
   height: 54px;
   background-position: -222px -448px;
 }
 
-/* line 121, ../sass/_adv-logo.scss */
+/* line 121, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p16 {
   width: 80px;
   height: 53px;
   background-position: -438px -460px;
 }
 
-/* line 127, ../sass/_adv-logo.scss */
+/* line 127, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p17 {
   width: 165px;
   height: 28px;
   background-position: -20px -553px;
 }
 
-/* line 133, ../sass/_adv-logo.scss */
+/* line 133, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p18 {
   width: 162px;
   height: 38px;
   background-position: -225px -553px;
 }
 
-/* line 139, ../sass/_adv-logo.scss */
+/* line 139, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p19 {
   width: 173px;
   height: 41px;
   background-position: -427px -553px;
 }
 
-/* line 145, ../sass/_adv-logo.scss */
+/* line 145, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p2 {
   width: 127px;
   height: 41px;
   background-position: -558px -460px;
 }
 
-/* line 151, ../sass/_adv-logo.scss */
+/* line 151, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p20 {
   width: 159px;
   height: 50px;
   background-position: -20px -634px;
 }
 
-/* line 157, ../sass/_adv-logo.scss */
+/* line 157, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p21 {
   width: 167px;
   height: 38px;
   background-position: -219px -634px;
 }
 
-/* line 163, ../sass/_adv-logo.scss */
+/* line 163, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p22 {
   width: 156px;
   height: 39px;
   background-position: -426px -634px;
 }
 
-/* line 169, ../sass/_adv-logo.scss */
+/* line 169, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p3 {
   width: 175px;
   height: 40px;
   background-position: -720px -20px;
 }
 
-/* line 175, ../sass/_adv-logo.scss */
+/* line 175, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p4 {
   width: 149px;
   height: 41px;
   background-position: -732px -100px;
 }
 
-/* line 181, ../sass/_adv-logo.scss */
+/* line 181, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p5 {
   width: 144px;
   height: 55px;
   background-position: -732px -181px;
 }
 
-/* line 187, ../sass/_adv-logo.scss */
+/* line 187, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p6 {
   width: 171px;
   height: 53px;
   background-position: -672px -276px;
 }
 
-/* line 193, ../sass/_adv-logo.scss */
+/* line 193, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p7 {
   width: 156px;
   height: 31px;
   background-position: -725px -369px;
 }
 
-/* line 199, ../sass/_adv-logo.scss */
+/* line 199, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p8 {
   width: 168px;
   height: 52px;
   background-position: -725px -440px;
 }
 
-/* line 205, ../sass/_adv-logo.scss */
+/* line 205, ../sass/sprites/_adv-logo.scss */
 .adv-logo-p9 {
   width: 150px;
   height: 55px;
   background-position: -725px -532px;
 }
 
+/* line 1, ../sass/sprites/_lp3.scss */
+.lp3-sprite {
+  background: url(../images/lp3-sprite.png) no-repeat top left transparent;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle;
+}
+
+/* line 8, ../sass/sprites/_lp3.scss */
+.lp3-sprite-3-logos {
+  background-position: 0 0;
+  width: 192px;
+  height: 43px;
+}
+
+/* line 9, ../sass/sprites/_lp3.scss */
+.lp3-sprite-call-small {
+  background-position: 0 -73px;
+  width: 56px;
+  height: 56px;
+}
+
+/* line 10, ../sass/sprites/_lp3.scss */
+.lp3-sprite-card_badge {
+  background-position: 0 -137px;
+  width: 111px;
+  height: 67px;
+}
+
+/* line 11, ../sass/sprites/_lp3.scss */
+.lp3-sprite-fb_icon {
+  background-position: 0 -234px;
+  width: 37px;
+  height: 38px;
+}
+
+/* line 12, ../sass/sprites/_lp3.scss */
+.lp3-sprite-floating_PPC {
+  background-position: 0 -302px;
+  width: 153px;
+  height: 167px;
+}
+
+/* line 13, ../sass/sprites/_lp3.scss */
+.lp3-sprite-green-check {
+  background-position: 0 -499px;
+  width: 23px;
+  height: 20px;
+}
+
+/* line 14, ../sass/sprites/_lp3.scss */
+.lp3-sprite-left-quote {
+  background-position: 0 -549px;
+  width: 28px;
+  height: 21px;
+}
+
+/* line 15, ../sass/sprites/_lp3.scss */
+.lp3-sprite-number2 {
+  background-position: 0 -600px;
+  width: 253px;
+  height: 85px;
+}
+
+/* line 16, ../sass/sprites/_lp3.scss */
+.lp3-sprite-phone-icon {
+  background-position: 0 -715px;
+  width: 55px;
+  height: 49px;
+}
+
+/* line 17, ../sass/sprites/_lp3.scss */
+.lp3-sprite-social-icon {
+  background-position: 0 -794px;
+  width: 82px;
+  height: 51px;
+}
+
+/* line 18, ../sass/sprites/_lp3.scss */
+.lp3-sprite-springbok-logo {
+  background-position: 0 -875px;
+  width: 153px;
+  height: 76px;
+}
+
+/* line 19, ../sass/sprites/_lp3.scss */
+.lp3-sprite-testi-icon {
+  background-position: 0 -981px;
+  width: 38px;
+  height: 35px;
+}
+
+/* line 20, ../sass/sprites/_lp3.scss */
+.lp3-sprite-tw_icon {
+  background-position: 0 -1046px;
+  width: 36px;
+  height: 37px;
+}
+
+/* line 21, ../sass/sprites/_lp3.scss */
+.lp3-sprite-ys-bg {
+  background-position: 0 -1113px;
+  width: 241px;
+  height: 39px;
+}
+
+/* line 1, ../sass/sprites/_steps.scss */
+.steps {
+  background-image: url(../images/steps.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 8, ../sass/sprites/_steps.scss */
+.steps-equal {
+  width: 54px;
+  height: 33px;
+  background-position: -20px -20px;
+}
+
+/* line 14, ../sass/sprites/_steps.scss */
+.steps-plus {
+  width: 56px;
+  height: 56px;
+  background-position: -114px -20px;
+}
+
+/* line 20, ../sass/sprites/_steps.scss */
+.steps-step1 {
+  width: 227px;
+  height: 241px;
+  background-position: -210px -20px;
+}
+
+/* line 26, ../sass/sprites/_steps.scss */
+.steps-step2 {
+  width: 228px;
+  height: 241px;
+  background-position: -477px -20px;
+}
+
+/* line 32, ../sass/sprites/_steps.scss */
+.steps-step3 {
+  width: 228px;
+  height: 240px;
+  background-position: -20px -301px;
+}
+
+/* styling */
+/* line 40, ../sass/sprites/_steps.scss */
+.steps-plus, .steps-equal {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 45, ../sass/sprites/_steps.scss */
+  .steps {
+    display: block;
+    margin: 20px auto;
+  }
+
+  /* line 49, ../sass/sprites/_steps.scss */
+  .steps-plus, .steps-equal {
+    margin: 40px auto;
+  }
+}
 /* line 1, ../sass/_unslider.scss */
 .unslider {
   overflow: auto;
@@ -10096,137 +10264,25 @@ main a:hover {
     column-count: 1;
   }
 }
-/* line 1, ../sass/_lp3.scss */
-.lp3-sprite {
-  background: url(../images/lp3-sprite.png) no-repeat top left transparent;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  vertical-align: middle;
-}
-
-/* line 8, ../sass/_lp3.scss */
-.lp3-sprite-3-logos {
-  background-position: 0 0;
-  width: 192px;
-  height: 43px;
-}
-
-/* line 9, ../sass/_lp3.scss */
-.lp3-sprite-call-small {
-  background-position: 0 -73px;
-  width: 56px;
-  height: 56px;
-}
-
-/* line 10, ../sass/_lp3.scss */
-.lp3-sprite-card_badge {
-  background-position: 0 -137px;
-  width: 111px;
-  height: 67px;
-}
-
-/* line 11, ../sass/_lp3.scss */
-.lp3-sprite-fb_icon {
-  background-position: 0 -234px;
-  width: 37px;
-  height: 38px;
-}
-
-/* line 12, ../sass/_lp3.scss */
-.lp3-sprite-floating_PPC {
-  background-position: 0 -302px;
-  width: 153px;
-  height: 167px;
-}
-
-/* line 13, ../sass/_lp3.scss */
-.lp3-sprite-green-check {
-  background-position: 0 -499px;
-  width: 23px;
-  height: 20px;
-}
-
-/* line 14, ../sass/_lp3.scss */
-.lp3-sprite-left-quote {
-  background-position: 0 -549px;
-  width: 28px;
-  height: 21px;
-}
-
-/* line 15, ../sass/_lp3.scss */
-.lp3-sprite-number2 {
-  background-position: 0 -600px;
-  width: 253px;
-  height: 85px;
-}
-
-/* line 16, ../sass/_lp3.scss */
-.lp3-sprite-phone-icon {
-  background-position: 0 -715px;
-  width: 55px;
-  height: 49px;
-}
-
-/* line 17, ../sass/_lp3.scss */
-.lp3-sprite-social-icon {
-  background-position: 0 -794px;
-  width: 82px;
-  height: 51px;
-}
-
-/* line 18, ../sass/_lp3.scss */
-.lp3-sprite-springbok-logo {
-  background-position: 0 -875px;
-  width: 153px;
-  height: 76px;
-}
-
-/* line 19, ../sass/_lp3.scss */
-.lp3-sprite-testi-icon {
-  background-position: 0 -981px;
-  width: 38px;
-  height: 35px;
-}
-
-/* line 20, ../sass/_lp3.scss */
-.lp3-sprite-tw_icon {
-  background-position: 0 -1046px;
-  width: 36px;
-  height: 37px;
-}
-
-/* line 21, ../sass/_lp3.scss */
-.lp3-sprite-ys-bg {
-  background-position: 0 -1113px;
-  width: 241px;
-  height: 39px;
-}
-
-/* line 25, ../sass/_lp3.scss */
-.card-testimonial {
-  background: url(../images/ribbon-verified.png) no-repeat top right transparent;
-}
-
 /* header */
-/* line 31, ../sass/_lp3.scss */
+/* line 2, ../sass/_lp3.scss */
 header {
   padding: 10px 0;
 }
 
-/* line 35, ../sass/_lp3.scss */
+/* line 6, ../sass/_lp3.scss */
 .header-item {
   vertical-align: middle;
   line-height: 97px;
 }
 
-/* line 40, ../sass/_lp3.scss */
+/* line 11, ../sass/_lp3.scss */
 .header-item img {
   vertical-align: middle;
   max-width: 100%;
 }
 
-/* line 44, ../sass/_lp3.scss */
+/* line 15, ../sass/_lp3.scss */
 .call-banner {
   background: none repeat scroll 0 0 #ddd;
   color: #000;
@@ -10241,20 +10297,20 @@ header {
   /*.other-logo{
       text-align: right;
   }*/
-  /* line 57, ../sass/_lp3.scss */
+  /* line 28, ../sass/_lp3.scss */
   .header-item {
     max-width: 40%;
     float: left;
     line-height: normal;
   }
 
-  /* line 62, ../sass/_lp3.scss */
+  /* line 33, ../sass/_lp3.scss */
   .other-logo {
     max-width: 50%;
     float: right;
   }
 
-  /* line 66, ../sass/_lp3.scss */
+  /* line 37, ../sass/_lp3.scss */
   .other-logo img {
     height: auto;
     max-width: 100%;
@@ -10262,29 +10318,29 @@ header {
   }
 }
 @media (max-width: 767px) {
-  /* line 74, ../sass/_lp3.scss */
+  /* line 45, ../sass/_lp3.scss */
   .other-logo {
     text-align: right;
   }
 
-  /* line 77, ../sass/_lp3.scss */
+  /* line 48, ../sass/_lp3.scss */
   .yoshkidiv {
     display: none !important;
   }
 
-  /* line 80, ../sass/_lp3.scss */
+  /* line 51, ../sass/_lp3.scss */
   .badgenopopup {
     display: none;
   }
 }
 /* footer */
-/* line 87, ../sass/_lp3.scss */
+/* line 58, ../sass/_lp3.scss */
 .footer {
   padding: 40px 0 10px 0;
   color: #d8d8d8;
 }
 
-/* line 92, ../sass/_lp3.scss */
+/* line 63, ../sass/_lp3.scss */
 .footer-contact {
   border-top: 2px solid #666;
   border-bottom: 2px solid #666;
@@ -10294,13 +10350,13 @@ header {
   position: relative;
 }
 
-/* line 101, ../sass/_lp3.scss */
+/* line 72, ../sass/_lp3.scss */
 .footer-card {
   text-align: center;
   color: #d8d8d8;
 }
 
-/* line 106, ../sass/_lp3.scss */
+/* line 77, ../sass/_lp3.scss */
 .footer-card-sep {
   position: absolute;
   top: 15px;
@@ -10310,20 +10366,20 @@ header {
   border-left: 1px solid #666;
 }
 
-/* line 115, ../sass/_lp3.scss */
+/* line 86, ../sass/_lp3.scss */
 .footer-card .card-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 40px;
 }
 
-/* line 121, ../sass/_lp3.scss */
+/* line 92, ../sass/_lp3.scss */
 .footer-card .card-connect {
   text-align: center;
   margin-bottom: 5px;
 }
 
-/* line 126, ../sass/_lp3.scss */
+/* line 97, ../sass/_lp3.scss */
 .footer-card .card-connect a, .footer-card .card-connect a:visited, .footer-card .card-connect a:hover {
   color: #d8d8d8;
   font-weight: 700;
@@ -10332,26 +10388,26 @@ header {
   text-align: left;
 }
 
-/* line 134, ../sass/_lp3.scss */
+/* line 105, ../sass/_lp3.scss */
 .footer-card .lp3-sprite-tw_icon, .footer-card .lp3-sprite-fb_icon {
   margin-right: 15px;
 }
 
-/* line 138, ../sass/_lp3.scss */
+/* line 109, ../sass/_lp3.scss */
 .footer-card p {
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
 }
 
-/* line 144, ../sass/_lp3.scss */
+/* line 115, ../sass/_lp3.scss */
 .footer-card .card-phone {
   font-size: 28px;
   font-weight: 700;
   line-height: 40px;
 }
 
-/* line 150, ../sass/_lp3.scss */
+/* line 121, ../sass/_lp3.scss */
 .footer-registration {
   color: #b2b2b2;
   font-size: 10px;
@@ -10359,28 +10415,28 @@ header {
   margin-bottom: 20px;
 }
 
-/* line 157, ../sass/_lp3.scss */
+/* line 128, ../sass/_lp3.scss */
 .footer-notes {
   font-size: 11px;
   text-align: justify;
   font-weight: 300;
 }
 
-/* line 163, ../sass/_lp3.scss */
+/* line 134, ../sass/_lp3.scss */
 .footer-copyright {
   margin-top: 30px;
   font-size: 10px;
   text-align: justify;
 }
 
-/* line 169, ../sass/_lp3.scss */
+/* line 140, ../sass/_lp3.scss */
 .footer-form {
   background: #252525;
   border: 2px solid #595959;
   padding: 5px 20px 30px;
 }
 
-/* line 175, ../sass/_lp3.scss */
+/* line 146, ../sass/_lp3.scss */
 .footer-form h3 {
   color: #bfbfbf;
   font-size: 28px;
@@ -10389,7 +10445,7 @@ header {
   margin-top: 5px;
 }
 
-/* line 183, ../sass/_lp3.scss */
+/* line 154, ../sass/_lp3.scss */
 .footer-form .footer-input {
   background: none repeat scroll 0 0 #fff;
   border: 1px solid #fff;
@@ -10402,7 +10458,7 @@ header {
   display: block;
 }
 
-/* line 195, ../sass/_lp3.scss */
+/* line 166, ../sass/_lp3.scss */
 .footer-nav {
   color: #000;
   font-size: 11px;
@@ -10410,12 +10466,12 @@ header {
   text-align: center;
 }
 
-/* line 202, ../sass/_lp3.scss */
+/* line 173, ../sass/_lp3.scss */
 .footer-nav a, .footer-nav a:hover, .footer-nav a:visited {
   color: #FFF;
 }
 
-/* line 207, ../sass/_lp3.scss */
+/* line 178, ../sass/_lp3.scss */
 .lp3-sprite-floating_PPC, .floating-call {
   position: fixed;
   bottom: 10%;
@@ -10423,13 +10479,13 @@ header {
   display: none;
 }
 
-/* line 213, ../sass/_lp3.scss */
+/* line 184, ../sass/_lp3.scss */
 .floating-call {
   background-color: transparent;
 }
 
 @media (min-width: 1540px) {
-  /* line 217, ../sass/_lp3.scss */
+  /* line 188, ../sass/_lp3.scss */
   .lp3-sprite-floating_PPC, .floating-call {
     display: block;
   }

@@ -8,7 +8,7 @@
 
     <title>Springbok Properties - Get Up To 100% Value For Your House Quickly</title>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -34,7 +34,7 @@
                                 <input placeholder="Address" id="address" type="text" class="z-depth-1">
                                 <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
 
-                                <button type="submit" class="waves-effect waves-light btn-large btn-block green big white-text padding-0">Get Cash Offer</button>
+                                <button type="submit" class="waves-effect waves-light btn-large btn-block green darken-2 big white-text padding-0">Get Cash Offer</button>
                                 <div class="margin-top-5 center-align"><small>Secure and Confidential. Data Registration No. ZA152369</small></div>
                             </div>
                         </form>
@@ -82,31 +82,38 @@
                             <div class="testimonial-slider margin-left-0 margin-right-0">
                                 <ul>
                                     <li>
-                                        <p>I had a really good experience with Springbok, from start to finish they kept me informed every step of the way, their advice was invaluable.</p>
+                                        <div><img src="assets/images/stars/star-review.png" width="105" height="19"></div>
+                                        <p class="margin-top-0">I had a really good experience with Springbok, from start to finish they kept me informed every step of the way, their advice was invaluable.</p>
                                         <p class="big">&mdash; Cathy Manning</p>
                                     </li>
                                     <li>
-                                        <p>Springbok dealt with myself and my family as we had to sell an inherited property. They were very sensitive towards us during this time and the support we received during the selling process was good and efficient!</p>
+                                        <div><img src="assets/images/stars/star-review.png" width="105" height="19"></div>
+                                        <p class="margin-top-0">Springbok dealt with myself and my family as we had to sell an inherited property. They were very sensitive towards us during this time and the support we received during the selling process was good and efficient!</p>
                                         <p class="big">&mdash; A James</p>
                                     </li>
                                     <li>
-                                        <p>I hadn't heard of this firm before, but I really must say that they handled the sale of my old house in a very professional, efficient and pleasant manner at all times. Normally, I don't leave remarks regarding business but felt I just had to in this particular instance as they are that good.</p>
+                                        <div><img src="assets/images/stars/star-review.png" width="105" height="19"></div>
+                                        <p class="margin-top-0">I hadn't heard of this firm before, but I really must say that they handled the sale of my old house in a very professional, efficient and pleasant manner at all times. Normally, I don't leave remarks regarding business but felt I just had to in this particular instance as they are that good.</p>
                                         <p class="big">&mdash; David Brock</p>
                                     </li>
                                     <li>
-                                        <p>After trying to sell my property with other firms I came across Springbok and I'm so glad I did. They were very helpful and always kept me up to date with everything that went on.</p>
+                                        <div><img src="assets/images/stars/star-review.png" width="105" height="19"></div>
+                                        <p class="margin-top-0">After trying to sell my property with other firms I came across Springbok and I'm so glad I did. They were very helpful and always kept me up to date with everything that went on.</p>
                                         <p class="big">&mdash; Dean Hankin</p>
                                     </li>
                                     <li>
-                                        <p>Springbok have been great with my sale. Offering good advice and excellent customer service throughout the whole process. </p>
+                                        <div><img src="assets/images/stars/star-review.png" width="105" height="19"></div>
+                                        <p class="margin-top-0">Springbok have been great with my sale. Offering good advice and excellent customer service throughout the whole process. </p>
                                         <p class="big">&mdash; L Hankin</p>
                                     </li>
                                     <li>
-                                        <p>I like their fast &amp; friendly service, and will not hesitate in recommending Springbok to anyone</p>
+                                        <div><img src="assets/images/stars/star-review.png" width="105" height="19"></div>
+                                        <p class="margin-top-0">I like their fast &amp; friendly service, and will not hesitate in recommending Springbok to anyone</p>
                                         <p class="big">&mdash; Steve Boylan</p>
                                     </li>
                                     <li>
-                                        <p>I found Springbok very helpful, very co-operative with every question I asked, was pleased with their overall sale of the property, I would recommend them to anyone who is thinking of selling their property, very pleased.</p>
+                                        <div><img src="assets/images/stars/star-review.png" width="105" height="19"></div>
+                                        <p class="margin-top-0">I found Springbok very helpful, very co-operative with every question I asked, was pleased with their overall sale of the property, I would recommend them to anyone who is thinking of selling their property, very pleased.</p>
                                         <p class="big">&mdash; Mr. G Grimes</p>
                                     </li>
                                 </ul>
@@ -119,7 +126,11 @@
 
         <section class="white sp-secondary-text">
             <div class="container center-align">
-                <img class="responsive-img" src="assets/images/steps.png" width="854" height="242"/>
+                <span class="steps steps-step1"></span>
+                <span class="steps steps-plus"></span>
+                <span class="steps steps-step2"></span>
+                <span class="steps steps-equal"></span>
+                <span class="steps steps-step3"></span>
             </div>
         </section>
 
