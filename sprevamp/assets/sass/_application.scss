@@ -62,16 +62,16 @@ a[href^=tel] {
     }
 }
 
-@media #{$medium-and-up} {
+//@media #{$medium-and-up} {
     nav {
         height: 112px;
         .nav-wrapper {
             height: 64px;
         }
     }
-}
+//}
 
-@media #{$small-and-down} {
+@media only screen and (max-width: 460px) {
     .sub-nav {
         .call-button {
             font-size: 17px;
@@ -79,6 +79,13 @@ a[href^=tel] {
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .sub-nav {
+        .call-button {
+            font-size: 14px;
+        }
+    }
+}
 .menu-button {
     font-size: 18px;
     font-weight: 700;
