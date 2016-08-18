@@ -10237,9 +10237,13 @@ main a:hover {
 .contact-list i {
   vertical-align: middle;
 }
+/* line 916, ../sass/_inner.scss */
+.contact-list .video-container {
+  border-top: 1px solid #ddd;
+}
 
 /* contact-us.php */
-/* line 920, ../sass/_inner.scss */
+/* line 923, ../sass/_inner.scss */
 .advertise-main .card-panel {
   border-radius: 2px;
   background-color: #fff;
@@ -10254,7 +10258,7 @@ main a:hover {
   margin-bottom: 15px;
   margin-top: 0;
 }
-/* line 934, ../sass/_inner.scss */
+/* line 937, ../sass/_inner.scss */
 .advertise-main .card-panel.card-many {
   width: 330px;
   text-align: right;
@@ -10262,11 +10266,11 @@ main a:hover {
   vertical-align: bottom;
   font-weight: 500;
 }
-/* line 942, ../sass/_inner.scss */
+/* line 945, ../sass/_inner.scss */
 .advertise-main .adv-logo {
   vertical-align: middle;
 }
-/* line 946, ../sass/_inner.scss */
+/* line 949, ../sass/_inner.scss */
 .advertise-main .collapsible-header .sprite {
   vertical-align: middle;
   margin-right: 5px;
@@ -10274,22 +10278,22 @@ main a:hover {
   transform: rotate(0deg);
   transition: transform .3s;
 }
-/* line 955, ../sass/_inner.scss */
+/* line 958, ../sass/_inner.scss */
 .advertise-main .collapsible-header.active .sprite {
   transform: rotate(90deg);
 }
-/* line 960, ../sass/_inner.scss */
+/* line 963, ../sass/_inner.scss */
 .advertise-main .collapsible-body {
   padding: 20px;
 }
-/* line 963, ../sass/_inner.scss */
+/* line 966, ../sass/_inner.scss */
 .advertise-main .columns-2 {
   column-count: 2;
   column-gap: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 970, ../sass/_inner.scss */
+  /* line 973, ../sass/_inner.scss */
   .advertise-main .columns-2 {
     column-count: 1;
   }

@@ -19,7 +19,7 @@
 
     <main>
 
-        <section class="contact-list white sp-secondary-text">
+        <section class="contact-list sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <h2 class="margin-bottom-40 center-align">
                     CONTACT US BY CALLING ON &nbsp;
@@ -32,9 +32,9 @@
                     </small>
                 </h2>
 
-                <div class="row">
+                <div class="row margin-bottom-0">
                     <div class="col s12 m6 l4">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
                             <div class="card-content center-align">
                                 <div class="card-title">Sell a House</div>
                                 <div class="card-body big">
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
                             <div class="card-content center-align">
                                 <div class="card-title">Book a viewing</div>
                                 <div class="card-body big">
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
                             <div class="card-content center-align">
                                 <div class="card-title">Investors</div>
                                 <div class="card-body big">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
                             <div class="card-content center-align">
                                 <div class="card-title">Sale progression</div>
                                 <div class="card-body big">
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
                             <div class="card-content center-align">
                                 <div class="card-title">Media / General</div>
                                 <div class="card-body big">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
-                        <div class="card sp-secondary lighten-5 sp-secondary-text hoverable">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
                             <div class="card-content center-align">
                                 <div class="card-title">Complaints</div>
                                 <div class="card-body big">
@@ -104,6 +104,66 @@
                         </div>
                     </div>
 
+                </div>
+
+                <div class="row margin-bottom-0">
+                    <div class="col s12">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
+                            <div class="card-content">
+                                <div class="card-title">Head Office Address</div>
+                                <div>
+                                    <div class="big margin-bottom-10"><strong>Springbok Properties</strong></div>
+                                    <div>
+                                        Universal Square<br>
+                                        Devonshire Street North<br>
+                                        Manchester<br>
+                                        M12 6JH
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
+                            <div class="card-content">
+                                <div class="card-title">London Office</div>
+                                <div class="margin-bottom-0">
+                                    <div class="big margin-bottom-10"><strong>Springbok Properties</strong></div>
+                                    <div>
+                                        Dalton House<br>
+                                        60 Windsor Avenue<br>
+                                        London<br>
+                                        SW19 2RR
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-container">
+                                <iframe width="625" class="google-maps" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1244.2692108426695!2d-0.18775742403780893!3d51.41153536783404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876061fc2c0f7c7%3A0xdc0cdfd2caab07ff!2sDalton+House%2C+60+Windsor+Ave%2C+London+SW19+2RR!5e0!3m2!1sen!2suk!4v1445235777997&ll=53.47073,-2.214272&spn=0.003551,0.010042&t=m&z=14&iwloc=A&output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m12 l6">
+                        <div class="card grey lighten-5 sp-secondary-text hoverable">
+                            <div class="card-content">
+                                <div class="card-title">Glasgow Office</div>
+                                <div class="margin-bottom-0">
+                                    <div class="big margin-bottom-10"><strong>Springbok Properties</strong></div>
+                                    <div>
+                                        272, Bath Street<br>
+                                        Glasgow<br>
+                                        G2 4JR<br>
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="video-container">
+                                <iframe width="625" class="google-maps" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.837940485643!2d-4.270934148865302!3d55.86547809066877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888442892a4cb03%3A0x7c848589b88bf99e!2s272+Bath+St%2C+Glasgow%2C+Lanarkshire+G2+4JR!5e0!3m2!1sen!2suk!4v1445235919916&ll=53.47073,-2.214272&spn=0.003551,0.010042&t=m&z=14&iwloc=A&output=embed"></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
