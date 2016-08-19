@@ -79,7 +79,7 @@
                         <div class="card-panel sp-secondary-text sell-fast z-depth-0">
                             <h4>HOW FAST IS <strong>"FAST"?</strong></h4>
                             <div class="variation"><strong>63%</strong> <small>of our property sales are in</small> less than 30 days</div>
-                            <div class="variation"><strong>77%</strong> <small>of our property sales are in</small> less than 30 weeks</div>
+                            <div class="variation"><strong>77%</strong> <small>of our property sales are in</small> less than 8 weeks</div>
                             <div class="variation"><strong>Over 1800</strong> <small>selles sold in less than</small> 10 days!</div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-call-center"></i></div>
                             <h4>Voted Best Branch for customer service</h4>
-                            <p>Independently voted the Best Branch Branch in the UK, with 7 Gold Awards for Customer Service</p>
+                            <p>Independently voted the Best Branch in the UK, 2 years running, with 7 Gold Awards for Customer Service</p>
                         </div>
                     </div>
                 </div>
@@ -471,7 +471,7 @@
 
         <section id="home-success-numbers" class="home-success-numbers white sp-secondary-text center-align scrollspy">
             <div class="container">
-                <h2>Success in Numbers</h2>
+                <h2>Springbok Success in Numbers</h2>
                 <div class="masonry clearfix center-align">
                     <div class="card-panel sp-primary sp-secondary-text valign-wrapper w-small h-small">
                         <div class="valign">
@@ -546,7 +546,7 @@
                 <h2 class="white-text big z-depth-1-text">CALL US NOW FOR A FREE VALUATION</h2>
                 <p class="big">Remember, our valuation offer is completely free, and doesn't commit you to anything at all. Take action now.</p>
                 <h2 class="white-text ultra-big z-depth-1-text"><span class="click-to-call">0800 068 7935</span></h2>
-                <p>We're open 24/7</p>
+                <p>Freephone - we're open 24/7</p>
                 <a href="contact-us.php" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>
             </div>
         </section>

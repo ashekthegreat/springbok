@@ -27,8 +27,7 @@
                     </div>
                     <div class="col s12 m6">
                         <div class="big-play center-align">
-                            <h1>12 Success stories
-                                in under 3 minutes</h1>
+                            <h1>12 Success stories in 2 minutes</h1>
                             <a href="#" class="play" data-id="QedLPJ3dYXU">
                                 <img src="assets/images/play-yellow.png" width="88" height="88">
                             </a>

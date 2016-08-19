@@ -75,7 +75,7 @@
                     <div class="col s12 m6">
                         <div class="row">
                             <div class="col s12 m12 l11">
-                                <h4>Customer Reviews</h4>
+                                <h4>Customer Service</h4>
                                 <div class="reviews">
                                     <blockquote class="sp-secondary lighten-5">
                                         <p>

@@ -797,10 +797,9 @@
     }
     .card-image-footer{
         background: color("sp-secondary", "lighten-5");
-        padding: 9px 20px 8px;
+        padding: 12px 20px;
         position: relative;
         .camera{
-            float: right;
             white-space: nowrap;
             font-size: 1.5rem;
             font-weight: 500;
@@ -837,7 +836,7 @@
         }
     }
     .card-action{
-        padding: 15px 20px;
+        padding: 10px 20px;
 
         .call-now{
             font-size: 18px;

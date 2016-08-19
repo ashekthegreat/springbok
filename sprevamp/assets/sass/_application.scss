@@ -71,10 +71,17 @@ a[href^=tel] {
     }
 //}
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 480px) {
     .sub-nav {
         .call-button {
             font-size: 17px;
+        }
+    }
+}
+@media only screen and (max-width: 400px) {
+    .sub-nav {
+        .call-button {
+            font-size: 14px;
         }
     }
 }
@@ -82,7 +89,7 @@ a[href^=tel] {
 @media only screen and (max-width: 360px) {
     .sub-nav {
         .call-button {
-            font-size: 14px;
+            font-size: 12px;
         }
     }
 }

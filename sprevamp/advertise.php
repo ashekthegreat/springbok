@@ -26,14 +26,14 @@
                         <img src="assets/images/db.png" width="558" height="302" class="responsive-img margin-bottom-40"/>
                         <h3 class="margin-bottom-30">Advertising on Major Property Portals</h3>
                         <div class="adv-logos margin-bottom-40">
-                            <div class="card-panel"><i class="adv-logo adv-logo-p1"></i></div>
+                            <div class="card-panel"><i class="adv-logo adv-logo-p8"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p2"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p3"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p4"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p5"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p6"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p7"></i></div>
-                            <div class="card-panel"><i class="adv-logo adv-logo-p8"></i></div>
+                            <div class="card-panel"><i class="adv-logo adv-logo-p1"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p9"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p10"></i></div>
                             <div class="card-panel"><i class="adv-logo adv-logo-p11"></i></div>
@@ -613,15 +613,16 @@
                         <div class="row">
                             <div class="col s12 m11 offset-m1 l11 offset-l1">
                                 <div class="margin-bottom-40">
-                                    <h1>DATABASE OF BUYERS & INVESTORS</h1>
-                                    <p class="big">In addition for the right properties We are always creating a database of investors and other buyers to try and create demand to spark bidding wars and getting sales in record times.</p>
-                                    <p class="big">Here are some few of our portal partnership network. Please note Springbok properties partnership does some times change as we thrive to get the best exposure possible.</p>
+                                    <h1>Our Investors Database & 500+ Websites</h1>
+                                    <p class="big">With our database of investors and other buyers, and you have the perfect formula to create demand, spark bidding wars and sell your house in record times.</p>
+                                    <p class="big">More than 1800 (and counting) sellers have sold their house in less than 10 days! Depending upon how quickly you want to sell, we put your property in front of the right buyers.</p>
                                 </div>
                                 <div class="margin-top-40">
                                     <h2 class="margin-bottom-30">We don't just advertise your property...<br><br>we SELL it!</h2>
-                                    <p class="big">We pride our self in exposing your property more than a local estate agent would as our focus is national and local meaning we target local and buyers outside your local area.</p>
-                                    <p class="big">Around 98% of movers now use the Internet to find their next property, with a large proportion of the remainder locating their new home via distinctive 'For Sale' boards. Our unrivalled, enormous online advertising (both local and national) means we have a presence that can't be ignored and our signs stick out a mile!</p>
-                                    <p class="big">Our portal network achieves over 180 million searches a month. Our local experts help you get the best price as fast as possible. Our screening process makes sure you don't waste time with window-shoppers.</p>
+                                    <p class="big">We pride ourselves on having a wider reach than any local estate agent, because our focus is national and local -- we target buyers across the country as well as in your immediate area.</p>
+                                    <p class="big">Around 98% of movers now use the Internet to find their next property, with a large proportion of the offline 2% locating their new home via distinctive 'For Sale' boards. Our unrivaled online advertising (both local and national) means we have a presence that can't be ignored and our signs stick out a mile!</p>
+                                    <p class="big">Our online portal network achieves over 180 million searches a month. Our local experts help you get the best price as fast as possible. Our screening process makes sure you don't waste time with window-shoppers.</p>
+                                    <p class="big">Here are a few of the sites in our portal network. Please note that Springbok Properties partnerships can change as we continually push for the best possible exposure.</p>
                                 </div>
                             </div>
                         </div>

@@ -9,8 +9,8 @@
         </div>
         <div class="sub-nav">
             <div class="container right-align">
-                <span href="#" class="call-button sp-secondary-text">
-                    <i class="sprite sprite-call-20 margin-right-10"></i>
+                <span class="call-button sp-secondary-text">
+                    <i class="sprite sprite-call-247 margin-right-10"></i>
                     <span class="click-to-call">0800 068 7935</span>
                     <span class="nowrap">
                         <small class="margin-right-5 margin-left-5">or</small>

@@ -53,12 +53,14 @@
                                 We pride ourselves on providing a premier service across the country, with mobile-friendly local phone numbers, so <br>
                                 buyers can call us immediately. <br><br>
                                 Enough staff to make sure someone picks up the phone and handles calls
-                                about your property.<br><br>
-                                Website designed to make finding more information and contacting us easier.
+                                about your property.
                             </td>
-                            <td>Rarely more than a phone number on the board. Many boards have no contact information.<br><br>
-                                Website designed to reduce staff costs and push clients to use the big online portals, rather than make contact easier.
-                            </td>
+                            <td>Rarely more than a phone number on the board. Many boards have no contact information.</td>
+                        </tr>
+                        <tr>
+                            <td>Website</td>
+                            <td>Website designed to make finding more information and contacting us easier.</td>
+                            <td>Website designed to reduce staff costs and push clients to use the big online portals, rather than make contact easier.</td>
                         </tr>
                         <tr>
                             <td>Extra Costs</td>
@@ -133,7 +135,7 @@
                         <tr>
                             <td>Pricing</td>
                             <td>Realistic market prices to sell the property fast.</td>
-                            <td>Overvalued to convince you they can get more.</td>
+                            <td>Overvalued to win the instruction.</td>
                         </tr>
                         <tr>
                             <td>Availability</td>

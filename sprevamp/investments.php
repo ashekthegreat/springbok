@@ -41,10 +41,7 @@
                         </div>
                     </div>
                     <div class="col s12 m6 pull-m6">
-                        <h3 class="z-depth-1-text margin-top-0">Financial Freedom with Property Investments</h3>
-                        <p class="bigger z-depth-1-text">
-                            Are you an Investor? Register now for
-                        </p>
+                        <h3 class="z-depth-1-text margin-top-0">Are You a Property Investor? Register Now</h3>
                         <ul class="browser-default bigger z-depth-1-text text-bold margin-0">
                             <li>For deal alerts</li>
                             <li>Buy to sell (FLIP)</li>
@@ -104,7 +101,7 @@
                 <h2 class="big z-depth-1-text">CALL US NOW FOR A FREE VALUATION</h2>
                 <p class="big">Remember, our valuation offer is completely free, and doesn't commit you to anything at all. Take action now.</p>
                 <h2 class="ultra-big z-depth-1-text">0800 068 7935</h2>
-                <p>We're open 24/7</p>
+                <p>Freephone - we're open 24/7</p>
                 <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>
             </div>
         </section>

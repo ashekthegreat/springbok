@@ -25,8 +25,6 @@
                         <li><a href="contact-us.php">Contact Us</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Buyer Sign in / Register</a></li>
-                        <li><a href="#">Landlords Sign  In / Register</a></li>
-                        <li><a href="#">Report Maintenance</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4">

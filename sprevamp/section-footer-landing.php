@@ -79,4 +79,5 @@
 <script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
 <script type="text/javascript" src="assets/js/materialize.js"></script>
 <script type="text/javascript" src="assets/js/unslider-min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.dotdotdot.min.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>

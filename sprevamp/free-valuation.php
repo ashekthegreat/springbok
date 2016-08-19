@@ -56,7 +56,7 @@
                             <li>Price comparables for properties selling and sold, in and around your area</li>
                         </ul>
                         <p class="strong">
-                            Call us now on 0800 068 7935 or 0161 452 7543 to arrange a visit from one of our expert valuers<br>
+                            Call us now on 0800 068 7935 to arrange a visit from one of our expert valuers<br>
                             Or simply fill in our online form.
                         </p>
                         <br>
@@ -70,7 +70,7 @@
                 <h2 class="big z-depth-1-text">CALL US NOW FOR A FREE VALUATION</h2>
                 <p class="big">Remember, our valuation offer is completely free, and doesn't commit you to anything at all. Take action now.</p>
                 <h2 class="ultra-big z-depth-1-text">0800 068 7935</h2>
-                <p>We're open 24/7</p>
+                <p>Freephone - we're open 24/7</p>
                 <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>
             </div>
         </section>
