@@ -198,6 +198,10 @@ if (location.hash) {
             }, 100);
         }
 
+        $(".property-card .card-content p").dotdotdot({
+            //	configuration goes here
+        });
+
     });
 
     $(function () {

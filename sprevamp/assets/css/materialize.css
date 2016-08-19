@@ -5077,7 +5077,7 @@ button.btn-floating {
   margin: 0;
   display: none;
   min-width: 100px;
-  max-height: 650px;
+  max-height: 350px;
   overflow-y: auto;
   opacity: 0;
   position: absolute;
@@ -5090,7 +5090,7 @@ button.btn-floating {
   clear: both;
   color: rgba(0, 0, 0, 0.87);
   cursor: pointer;
-  min-height: 40px;
+  min-height: 36px;
   line-height: 1.5rem;
   width: 100%;
   text-align: left;
@@ -5115,7 +5115,7 @@ button.btn-floating {
   color: #fff;
   display: block;
   font-weight: 400;
-  padding: 9px 16px;
+  padding: 7px 16px;
 }
 /* line 47, ../sass/components/_dropdown.scss */
 .dropdown-content li > span > label {
@@ -6473,8 +6473,8 @@ select:disabled {
 
 /* line 93, ../sass/components/forms/_select.scss */
 .select-dropdown li img {
-  height: 30px;
-  width: 30px;
+  height: 26px;
+  width: 26px;
   margin: 5px 15px;
   float: right;
 }
@@ -10062,60 +10062,64 @@ main a:hover {
 .properties-search .property-type {
   width: 110px;
 }
-/* line 753, ../sass/_inner.scss */
+/* line 752, ../sass/_inner.scss */
+.properties-search .property-type .dropdown-content {
+  min-width: 200px;
+}
+/* line 756, ../sass/_inner.scss */
 .properties-search .filters {
   width: 80px;
 }
-/* line 756, ../sass/_inner.scss */
+/* line 759, ../sass/_inner.scss */
 .properties-search .search {
   width: 200px;
 }
-/* line 760, ../sass/_inner.scss */
+/* line 763, ../sass/_inner.scss */
 .properties-search .to {
   margin: 0 10px;
   color: #bbb;
   font-weight: 500;
 }
 
-/* line 769, ../sass/_inner.scss */
+/* line 772, ../sass/_inner.scss */
 .properties-list .property-list-adv.pinned {
   margin-top: 95px;
 }
-/* line 772, ../sass/_inner.scss */
+/* line 775, ../sass/_inner.scss */
 .properties-list .property-list-adv.pin-bottom {
   margin-top: 95px;
 }
 
-/* line 777, ../sass/_inner.scss */
+/* line 780, ../sass/_inner.scss */
 .adv-horizontal {
   text-align: center;
 }
-/* line 779, ../sass/_inner.scss */
+/* line 782, ../sass/_inner.scss */
 .adv-horizontal a {
   display: inline-block;
 }
-/* line 782, ../sass/_inner.scss */
+/* line 785, ../sass/_inner.scss */
 .adv-horizontal a img {
   vertical-align: top;
 }
 
-/* line 787, ../sass/_inner.scss */
+/* line 790, ../sass/_inner.scss */
 .card.property-card {
   margin-top: 0;
   margin-bottom: 20px;
 }
-/* line 791, ../sass/_inner.scss */
+/* line 794, ../sass/_inner.scss */
 .card.property-card .card-image {
   width: 45%;
   max-width: none;
 }
-/* line 795, ../sass/_inner.scss */
+/* line 798, ../sass/_inner.scss */
 .card.property-card .card-image-footer {
   background: #f0eff1;
   padding: 9px 20px 8px;
   position: relative;
 }
-/* line 799, ../sass/_inner.scss */
+/* line 802, ../sass/_inner.scss */
 .card.property-card .card-image-footer .camera {
   float: right;
   white-space: nowrap;
@@ -10125,54 +10129,54 @@ main a:hover {
   text-decoration: none;
   margin-top: 10px;
 }
-/* line 808, ../sass/_inner.scss */
+/* line 811, ../sass/_inner.scss */
 .card.property-card .card-image-footer .camera img {
   display: inline-block;
   vertical-align: top;
 }
-/* line 813, ../sass/_inner.scss */
+/* line 816, ../sass/_inner.scss */
 .card.property-card .card-image-footer strong {
   display: block;
   font-size: 28px;
   line-height: 1;
 }
-/* line 820, ../sass/_inner.scss */
+/* line 823, ../sass/_inner.scss */
 .card.property-card .card-content a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 825, ../sass/_inner.scss */
+/* line 828, ../sass/_inner.scss */
 .card.property-card .card-content h4 {
   /*height: 56px;
   overflow: hidden;*/
   font-weight: 400;
 }
-/* line 830, ../sass/_inner.scss */
+/* line 833, ../sass/_inner.scss */
 .card.property-card .card-content p {
-  /*height: 110px;*/
+  height: 110px;
   min-height: 88px;
   overflow: hidden;
 }
-/* line 836, ../sass/_inner.scss */
+/* line 839, ../sass/_inner.scss */
 .card.property-card .card-action {
   padding: 15px 20px;
 }
-/* line 839, ../sass/_inner.scss */
+/* line 842, ../sass/_inner.scss */
 .card.property-card .card-action .call-now {
   font-size: 18px;
   line-height: 1;
   text-align: center;
   font-weight: 500;
 }
-/* line 845, ../sass/_inner.scss */
+/* line 848, ../sass/_inner.scss */
 .card.property-card .card-action .click-to-call a {
   color: inherit !important;
   margin: 0 !important;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 853, ../sass/_inner.scss */
+  /* line 856, ../sass/_inner.scss */
   .card.property-card .card-image {
     display: flex;
     flex-direction: column;
@@ -10180,70 +10184,70 @@ main a:hover {
     position: relative;
     max-width: 40%;
   }
-  /* line 860, ../sass/_inner.scss */
+  /* line 863, ../sass/_inner.scss */
   .card.property-card .card-image .responsive-img {
     flex-grow: 1;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 867, ../sass/_inner.scss */
+  /* line 870, ../sass/_inner.scss */
   .card.property-card {
     display: block;
   }
-  /* line 869, ../sass/_inner.scss */
+  /* line 872, ../sass/_inner.scss */
   .card.property-card .card-image {
     width: 100%;
     display: block;
   }
-  /* line 873, ../sass/_inner.scss */
+  /* line 876, ../sass/_inner.scss */
   .card.property-card .card-image .responsive-img {
     width: 100%;
     height: auto;
   }
-  /* line 878, ../sass/_inner.scss */
+  /* line 881, ../sass/_inner.scss */
   .card.property-card .card-stacked {
     display: block;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 886, ../sass/_inner.scss */
+  /* line 889, ../sass/_inner.scss */
   .card.property-card .card-action .call-now {
     margin-top: 15px;
   }
-  /* line 888, ../sass/_inner.scss */
+  /* line 891, ../sass/_inner.scss */
   .card.property-card .card-action .call-now br {
     display: none;
   }
 }
 /* contact-us.php */
-/* line 899, ../sass/_inner.scss */
+/* line 902, ../sass/_inner.scss */
 .contact-list .card {
   border-left: 3px solid #e0d200;
 }
-/* line 901, ../sass/_inner.scss */
+/* line 904, ../sass/_inner.scss */
 .contact-list .card .card-title {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 905, ../sass/_inner.scss */
+/* line 908, ../sass/_inner.scss */
 .contact-list .card .card-body {
   height: 100px;
 }
-/* line 908, ../sass/_inner.scss */
+/* line 911, ../sass/_inner.scss */
 .contact-list .card .card-body a {
   text-decoration: none;
 }
-/* line 913, ../sass/_inner.scss */
+/* line 916, ../sass/_inner.scss */
 .contact-list i {
   vertical-align: middle;
 }
-/* line 916, ../sass/_inner.scss */
+/* line 919, ../sass/_inner.scss */
 .contact-list .video-container {
   border-top: 1px solid #ddd;
 }
 
 /* contact-us.php */
-/* line 923, ../sass/_inner.scss */
+/* line 926, ../sass/_inner.scss */
 .advertise-main .card-panel {
   border-radius: 2px;
   background-color: #fff;
@@ -10258,7 +10262,7 @@ main a:hover {
   margin-bottom: 15px;
   margin-top: 0;
 }
-/* line 937, ../sass/_inner.scss */
+/* line 940, ../sass/_inner.scss */
 .advertise-main .card-panel.card-many {
   width: 330px;
   text-align: right;
@@ -10266,11 +10270,11 @@ main a:hover {
   vertical-align: bottom;
   font-weight: 500;
 }
-/* line 945, ../sass/_inner.scss */
+/* line 948, ../sass/_inner.scss */
 .advertise-main .adv-logo {
   vertical-align: middle;
 }
-/* line 949, ../sass/_inner.scss */
+/* line 952, ../sass/_inner.scss */
 .advertise-main .collapsible-header .sprite {
   vertical-align: middle;
   margin-right: 5px;
@@ -10278,22 +10282,22 @@ main a:hover {
   transform: rotate(0deg);
   transition: transform .3s;
 }
-/* line 958, ../sass/_inner.scss */
+/* line 961, ../sass/_inner.scss */
 .advertise-main .collapsible-header.active .sprite {
   transform: rotate(90deg);
 }
-/* line 963, ../sass/_inner.scss */
+/* line 966, ../sass/_inner.scss */
 .advertise-main .collapsible-body {
   padding: 20px;
 }
-/* line 966, ../sass/_inner.scss */
+/* line 969, ../sass/_inner.scss */
 .advertise-main .columns-2 {
   column-count: 2;
   column-gap: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 973, ../sass/_inner.scss */
+  /* line 976, ../sass/_inner.scss */
   .advertise-main .columns-2 {
     column-count: 1;
   }

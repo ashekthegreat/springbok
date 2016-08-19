@@ -749,6 +749,9 @@
     }
     .property-type{
         width: 110px;
+        .dropdown-content{
+            min-width: 200px;
+        }
     }
     .filters{
         width: 80px;
@@ -828,7 +831,7 @@
             font-weight: 400;
         }
         p{
-            /*height: 110px;*/
+            height: 110px;
             min-height: 88px;
             overflow: hidden;
         }

@@ -90,9 +90,14 @@
                             <div class="input-field property-type">
                                 <select>
                                     <option value="" disabled selected>Property Type</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
+                                    <option value="flat">Flat</option>
+                                    <option value="detached">Detached</option>
+                                    <option value="semi-detached">Semi-Detached</option>
+                                    <option value="Semi-Detached Bungalow">Semi-Detached Bungalow</option>
+                                    <option value="terraced">Terraced</option>
+                                    <option value="bungalow">Bungalow</option>
+                                    <option value="apartment">Apartment</option>
+                                    <option value="cottage">Cottage</option>
                                 </select>
                             </div>
                         </div>
@@ -129,13 +134,13 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
@@ -154,13 +159,38 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus.  Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
+                                </div>
+                                <div class="card-action">
+                                    <div class="row margin-bottom-0">
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card horizontal hoverable property-card">
+                            <div class="card-image">
+                                <img class="responsive-img" src="assets/images/success/halfpenny_lane.jpg" width="490" height="366">
+                                <div class="card-image-footer">
+                                    <a href="property-details.php" class="camera">
+                                        14 <img src="assets/images/camera-32.png" width="32" height="32"/>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
+                                    <a href="property-details.php" class="big">2 Bedroom house for sale</a>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
@@ -179,38 +209,13 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
-                                </div>
-                                <div class="card-action">
-                                    <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
-                                        <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card horizontal hoverable property-card">
-                            <div class="card-image">
-                                <img class="responsive-img" src="assets/images/success/halfpenny_lane.jpg" width="490" height="366">
-                                <div class="card-image-footer">
-                                    <a href="property-details.php" class="camera">
-                                        14 <img src="assets/images/camera-32.png" width="32" height="32"/>
-                                    </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
-                                </div>
-                            </div>
-                            <div class="card-stacked">
-                                <div class="card-content">
-                                    <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
@@ -235,13 +240,13 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
@@ -260,13 +265,13 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
@@ -285,13 +290,13 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
@@ -310,13 +315,13 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
@@ -341,13 +346,13 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
@@ -366,13 +371,13 @@
                                     <a href="property-details.php" class="camera">
                                         14 <img src="assets/images/camera-32.png" width="32" height="32"/>
                                     </a>
-                                    Offers in excess of <strong>&pound; 105,000</strong>
                                 </div>
                             </div>
                             <div class="card-stacked">
                                 <div class="card-content">
+                                    <h4>Offers in excess of <strong>&pound;105,000</strong></h4>
                                     <a href="property-details.php" class="big">2 Bedroom house for sale</a>
-                                    <h4>Buchanan Street, Pendlebury, Swinton, Manchester</h4>
+                                    <h5>Buchanan Street, Pendlebury, Swinton, Manchester</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. </p>
                                 </div>
                                 <div class="card-action">
