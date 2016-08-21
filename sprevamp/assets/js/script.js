@@ -149,6 +149,7 @@ if (location.hash) {
         var $propertySearch = $(".properties-search");
         var $searchBar = $propertySearch.find(".property-search-bar");
         var $adv = $('.property-list-adv');
+        var $search = $('#search');
 
         function pushpinPropertySearch() {
             $propertySearch.height($searchBar.height());
@@ -196,11 +197,77 @@ if (location.hash) {
                 pushpinPropertySearch();
                 pushpinAdvertisements();
             }, 100);
+
+            $(".property-card .card-content p").dotdotdot({
+                //	configuration goes here
+            });
+
+            $search.typeahead({
+                minLength: 1,
+                maxItem: 10,
+                order: "asc",
+                source: {
+                    area: {
+                        ajax: {
+                            url: "json-locations.php"
+                        }
+                    }
+                },
+                callback: {
+                    onInit: function () {  }
+                }
+            });
+
+            // price slider
+            var priceSlider = $(".price-slider").get(0);
+            noUiSlider.create(priceSlider, {
+                start: [0, 80],
+                connect: true,
+                step: 1,
+                range: {
+                    'min': 0,
+                    'max': 100
+                },
+                format: wNumb({
+                    decimals: 0
+                })
+            });
+            priceSlider.noUiSlider.on('update', function( values, handle ) {
+                $("#filter-price-min").val(values[0]);
+                $("#filter-price-max").val(values[1]);
+                var text = "&pound;"+values[0];
+                if(values[0] < values[1]){
+                    text += " to " + "&pound;"+values[1];
+                }
+                $(priceSlider).closest(".filter").find(".filter-value").empty().append(text);
+            });
+
+            // bed slider
+            var bedSlider = $(".bed-slider").get(0);
+            noUiSlider.create(bedSlider, {
+                start: [1, 6],
+                connect: true,
+                step: 1,
+                range: {
+                    'min': 1,
+                    'max': 6
+                },
+                format: wNumb({
+                    decimals: 0
+                })
+            });
+            bedSlider.noUiSlider.on('update', function( values, handle ) {
+                $("#filter-bed-min").val(values[0]);
+                $("#filter-bed-max").val(values[1]);
+                var text = values[0] + (values[0]==1?" bed":" beds");
+                if(values[0] < values[1]){
+                    text += " to " + values[1] + (values[1]==1?" bed":" beds");
+                }
+                $(bedSlider).closest(".filter").find(".filter-value").empty().append(text);
+            });
         }
 
-        $(".property-card .card-content p").dotdotdot({
-            //	configuration goes here
-        });
+
 
     });
 

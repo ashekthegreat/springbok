@@ -13,7 +13,7 @@
 
 // components
 @import "components/global";
-@import "components/icons-material-design";
+//@import "components/icons-material-design";
 @import "components/grid";
 @import "components/navbar";
 @import "components/roboto";
@@ -45,8 +45,10 @@
 @import "sprites/adv-logo";
 @import "sprites/lp3";
 @import "sprites/steps";
-@import "unslider";
+@import "lib/unslider";
 //@import "unslider-dots";
+@import "lib/jquery.typeahead";
+@import "lib/nouislider";
 @import "application";
 @import "inner";
 @import "lp3";
