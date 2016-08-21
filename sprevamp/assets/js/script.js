@@ -218,15 +218,73 @@ if (location.hash) {
                 }
             });
 
+            $(".property-search-extra").click(function(e){
+                e.stopPropagation();
+            });
+            $(window).click(function(e){
+                $(".property-search-bar .field.active").removeClass("active");
+                $(".property-search-extra").slideUp("fast");
+            });
+            // toggle property search extra
+            $(".property-search-bar .field").not(".field-search").click(function(e){
+                e.stopPropagation();
+                var $this = $(this);
+
+                function showFilters($this){
+                    $this.addClass("active");
+
+                    if($this.hasClass("field-price")){
+                        $(".property-search-extra .filter").hide();
+                        $(".property-search-extra .filter-price").show();
+                    } else if($this.hasClass("field-beds")){
+                        $(".property-search-extra .filter").hide();
+                        $(".property-search-extra .filter-bed").show();
+                    } else if($this.hasClass("field-property-type")){
+                        $(".property-search-extra .filter").hide();
+                        $(".property-search-extra .filter-property-type").show();
+                    } else if($this.hasClass("field-filters")){
+                        $(".property-search-extra .filter").show();
+                        if($(".property-search-bar .field-price").is(":visible")){
+                            $(".property-search-extra .filter-price").hide();
+                        }
+                        if($(".property-search-bar .field-beds").is(":visible")){
+                            $(".property-search-extra .filter-bed").hide();
+                        }
+                        if($(".property-search-bar .field-property-type").is(":visible")){
+                            $(".property-search-extra .filter-property-type").hide();
+                        }
+                    }
+
+                    $(".property-search-extra").slideDown("fast");
+                }
+                if($this.hasClass("active")){
+                    $this.removeClass("active");
+                    $(".property-search-extra").slideUp("fast");
+                } else{
+                    if($(".property-search-bar .field.active").length){
+                        // some other filter is showing
+                        $(".property-search-bar .field.active").removeClass("active");
+                        $(".property-search-extra").slideUp("fast", function(){
+                            showFilters($this);
+                        });
+                    } else{
+                        showFilters($this);
+                    }
+                }
+
+            });
             // price slider
             var priceSlider = $(".price-slider").get(0);
             noUiSlider.create(priceSlider, {
-                start: [0, 80],
+                start: [50000, 3000000],
                 connect: true,
-                step: 1,
                 range: {
-                    'min': 0,
-                    'max': 100
+                    'min': [ 50000, 10000 ],
+                    '62%': [ 300000, 25000 ],
+                    '78%': [ 500000, 50000 ],
+                    '86%': [ 700000, 100000 ],
+                    '92%': [ 1000000, 500000 ],
+                    'max': [ 3000000 ]
                 },
                 format: wNumb({
                     decimals: 0
@@ -235,11 +293,13 @@ if (location.hash) {
             priceSlider.noUiSlider.on('update', function( values, handle ) {
                 $("#filter-price-min").val(values[0]);
                 $("#filter-price-max").val(values[1]);
+                console.log(values);
                 var text = "&pound;"+values[0];
-                if(values[0] < values[1]){
+                if(values[0] != values[1]){
                     text += " to " + "&pound;"+values[1];
                 }
                 $(priceSlider).closest(".filter").find(".filter-value").empty().append(text);
+                $(".field-price .value").empty().append(text);
             });
 
             // bed slider
@@ -260,10 +320,11 @@ if (location.hash) {
                 $("#filter-bed-min").val(values[0]);
                 $("#filter-bed-max").val(values[1]);
                 var text = values[0] + (values[0]==1?" bed":" beds");
-                if(values[0] < values[1]){
+                if(values[0] != values[1]){
                     text += " to " + values[1] + (values[1]==1?" bed":" beds");
                 }
                 $(bedSlider).closest(".filter").find(".filter-value").empty().append(text);
+                $(".field-beds .value").empty().append(text);
             });
         }
 
