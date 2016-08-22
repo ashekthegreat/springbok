@@ -56,6 +56,7 @@
         <div class="sub-nav">
             <div class="container right-align">
                 <span class="call-button sp-secondary-text">
+                    <span>24/7</span>
                     <i class="sprite sprite-call-247 margin-right-10"></i>
                     <span class="click-to-call">0800 068 4015</span>
                     <span class="nowrap">
