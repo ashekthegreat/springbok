@@ -32,7 +32,7 @@
                     <li><img src="assets/images/comments/7.png" alt="" class="responsive-img materialboxed"/></li>
                 </ul>
                 <p class="big">
-                    9 out of 10 of our customers are happy to refer us to their family & friends.
+                    9 out of 10 Springbok customers are happy to refer us to their family and friends.
                     Who do you know that can benefit from our expert fast sale service?
                 </p>
             </div>
@@ -42,12 +42,12 @@
             <div class="container">
                 <div class="row margin-bottom-0">
                     <div class="col s12 m7 l5 offset-l1">
-                        <h4>Refer Springbok Properties to a friend & earn &pound;150 Voucher!</h4>
-                        <p>Its easy. Refer a friend who is looking to sell their house fast & win &pound;150 voucher</p>
+                        <h4>Refer a friend to Springbok Properties and earn &pound;150!</h4>
+                        <p>It's easy: tell a friend who wants to sell their house fast about us and we'll give you a &pound;150 thank-you voucher!</p>
                         <ol>
-                            <li>Fill out the form below</li>
-                            <li>Springbok Properties will contact your friend and arrange a free no-obligation consultation & free valuation</li>
-                            <li>If your referred friend instructs Springbok Properties to sell their property, you will receive a &pound;150 Love2Shop Voucher. Easy!</li>
+                            <li>Fill in the form below</li>
+                            <li>We'll contact your friend and arrange a free, no-obligation consultation and a free valuation</li>
+                            <li>If your friend instructs Springbok Properties to sell their property, we'll give you a &pound;150 Love2Shop voucher. Easy!</li>
                         </ol>
                         <p>There is no limit to the number of friends you can refer.</p>
                     </div>
@@ -60,11 +60,11 @@
 
         <section class="refer-form">
             <div class="container">
-                <h2 class="center-align">Earn £150 Voucher For Each Referral!</h2>
+                <h2 class="center-align">Earn £150 For Each Referral!</h2>
                 <form id="refer-form" class="form-horizontal referFriendForm" id="referFriendForm" action="http://simbacloud.co.uk/Users/forms/processForm.php" method="post">
                     <div class="row">
                         <div class="col s12 m6 l5 offset-l1">
-                            <h4 class="page-header margin-bottom-20">Your Friend's details</h4>
+                            <h4 class="page-header margin-bottom-20">Your friend's details</h4>
                             <div class=" input-field col s12">
                                 <input type="text" id="name" name="name">
                                 <label for="name">Full Name&nbsp;<strong class="text-danger lead">*</strong></label>
@@ -118,7 +118,7 @@
 
                 <div class="center-align margin-bottom-40">
                     <p class="big">
-                        Alternatively, call us now on 0161 452 7554 or 0800 161 3221 to refer a friend &amp; enjoy &pound;150 to spend.
+                        Alternatively, call us now on 0161 452 7554 or 0800 161 3221 to refer a friend and enjoy &pound;150 to spend.
                     </p>
                 </div>
             </div>

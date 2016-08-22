@@ -24,7 +24,7 @@
                         <li><a href="property-list.php">Search Properties</a></li>
                         <li><a href="contact-us.php">Contact Us</a></li>
                         <li><a href="#">Careers</a></li>
-                        <li><a href="#">Buyer Sign in / Register</a></li>
+                        <li><a href="#">Buyer Sign-in / Register</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4">
@@ -33,12 +33,12 @@
                         <li><a href="#">About Springbok</a></li>
                         <li><a href="springbok-team.php">Team Springbok</a></li>
                         <li><a href="reviews.php">Customer Reviews</a></li>
-                        <li><a href="mission-vision.php">Springbok Mission, values & culture</a></li>
+                        <li><a href="mission-vision.php">Springbok Mission, Values & Culture</a></li>
                         <li><a href="springbok-story.php">The Springbok Story</a></li>
-                        <li><a href="springbok-charities.php">Our selected charities</a></li>
+                        <li><a href="springbok-charities.php">Our Selected Charities</a></li>
                         <li><a href="refer-a-friend.php">Refer A Friend</a></li>
-                        <li><a href="how-we-compare.php">How we compare</a></li>
-                        <li><a href="advertise.php">Where we advertise</a></li>
+                        <li><a href="how-we-compare.php">How We Compare</a></li>
+                        <li><a href="advertise.php">Where We Advertise</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,7 +59,7 @@
     </div>
 </footer>
 
-<a href="free-valuation.php" class="waves-effect waves-light btn sp-primary sp-secondary-text fixed-free-val hide-on-med-and-down">FREE Valuation</a>
+<a href="free-valuation.php" class="waves-effect waves-light btn sp-primary sp-secondary-text fixed-free-val">FREE Valuation</a>
 
 <div id="modal-video" class="modal">
     <div class="modal-content"></div>

@@ -28,9 +28,8 @@
                     </div>
                     <div class="col s12 m6 center-align shaded">
                         <div class="margin-bottom-40 margin-top-40">
-                            <h1 class="margin-bottom-0">We are springbook</h1>
+                            <h1 class="margin-bottom-0">We are Springbok</h1>
                             <p class="biggest margin-bottom-40 margin-top-0">Nice to meet you!</p>
-                            <p class="big">Here's how one of our clients describes us:</p>
                             <p>
                                 "Actually the most amazing experience we have ever had, these guys are not
                                 'estate agents' in the true sense of the word - they are totally on your side,
@@ -47,7 +46,7 @@
         <section class="white sp-secondary-text center-align">
             <div class="container">
                 <p class="big">Springbok Properties offers a market-beating alternative to the traditional way of selling property.</p>
-                <p class="big">Our entire organisation revolves around our dedication to a single mission - to meet our customer's primary need.</p>
+                <p class="big">Our entire organisation is dedicated to a single mission - meeting our customer's needs.</p>
                 <p class="big">We provide the best customer service humanly possible, and sell your property on your timescale, with the best possible price.</p>
                 <p class="big">At Springbok, customer service isn't a department: it's a job requirement for every single employee.</p>
             </div>
@@ -58,7 +57,7 @@
                 <div class="row">
                     <div class="col s12 m12 l10 offset-l1">
                         <h1 class="margin-bottom-0">Our customers love us</h1>
-                        <p class="biggest margin-bottom-40 margin-top-0">But you don't have to take our word for it...</p>
+                        <p class="biggest margin-bottom-40 margin-top-0">But don't take our word for it... take theirs!</p>
                         <p class="big">
                             "<strong>Does what it says on the tin</strong> - excellent communications throughout - always willing to answer the most simple of questions without patronising my ignorance."
                             <strong><em>- Dave Sutheran, TS24</em></strong>

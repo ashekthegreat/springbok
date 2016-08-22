@@ -25,7 +25,7 @@
                     10 reasons to choose Springbok
                 </h1>
                 <p class="big">
-                    Since launching fast sale in 2012, Springbok have changed the UK housing market for good and have now become the number one property sales specialist in just few years.
+                    Launched in 2012 as a fast sale specialist, Springbok has caused a revolution in the UK housing market, becoming the go-to property sales specialist for thousands of homeowners.
                 </p>
             </div>
         </section>
@@ -40,9 +40,9 @@
                         <h3>1. Hundreds of properties</h3>
                         <p class="big">
                             We have hundreds of properties for sale all over the UK. We list all sorts of homes for all sizes of mortgage,
-                            from efficient studio flats to massive five-bed family homes. Whatever your budget, Springbok
-                            has properties all over the UK for you to view. If you are an investor,
-                            <a href="#">click here</a> to get access to our exclusive investment deals
+                            from efficient studio flats to massive five-bed family homes. Whatever your budget is, Springbok
+                            has properties for you to view. If you are an investor,
+                            <a href="#">click here</a> to get access to our exclusive investment deals.
                         </p>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                     <div class="col s12 m8 pull-m4">
                         <h3>3. Expert help to find the right properties</h3>
                         <p class="big">
-                            Tired of looking through all those hundreds of properties? Contact us and tell us your preferred areas. We'll take up the search and assist you in finding suitable properties in your desired location. Not only that, but we'll do some expert instant buyer-to-property matching to highlight your best options.
+                            Tired of looking through all those hundreds of properties? Contact us and tell us your preferred areas. We'll take up the search and help you find suitable properties in your desired location. Not only that, but we'll do some expert instant buyer-to-property matching to highlight your best options.
                         </p>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                     <div class="col s12 m8 pull-m4">
                         <h3>4. Expert local searches</h3>
                         <p class="big">
-                            Far too many online agents don't have a clue about the areas they sell in. Springbok does: our experienced sales team can give you hands-on assistance if you are unfamiliar with your target area. Looking for a property surrounded by the best transport links, schools or restaurants? Tell us what you want, and we'll pinpoint the ideal home!
+                            Far too many online agents have no clue about the areas they sell in. Springbok does: our experienced sales team can give you hands-on assistance if you are unfamiliar with your target area. Looking for a property surrounded by the best transport links, schools or restaurants? Tell us what you want, and we'll pinpoint the ideal home!
                         </p>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                     <div class="col s12 m8 pull-m4">
                         <h3>6. Industry accreditation you can trust</h3>
                         <p class="big">
-                            Springbok Properties is a proud member of The Property Ombudsman, the Trading Standards Institute and the Federation of Small Businesses. These memberships ensure that you will receive the highest level of customer service when you buy with us.
+                            Springbok Properties is a proud member of The Property Ombudsman, the Trading Standards Institute and the Federation of Small Businesses. These memberships ensure you receive the highest level of customer service when you buy with us.
                         </p>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                     <div class="col s12 m8 pull-m4">
                         <h3>7. Keeping in touch</h3>
                         <p class="big">
-                            At Springbok, we don't believe there can ever be too much useful communication. Our expert sales team ensures you are kept updated whether you're house-hunting or completing a purchase. We'll track your viewings, offers made, offer acceptance and the status of the conveyancing process, and make sure you know exactly where you stand at any given moment.
+                            At Springbok, we believe there can never be too much useful communication. Our expert sales team ensures you are kept updated whether you're house-hunting or completing a purchase. We'll track your viewings, offers made, offer acceptance and the status of the conveyancing process, and make sure you know exactly where you stand at any given moment.
                         </p>
                     </div>
                 </div>
@@ -184,10 +184,12 @@
                     </div>
                     <div class="col s12 m8 pull-m4">
                         <h3>
-                            10. Innovative Part Exchange Program
+                            10. Innovative part exchange program
                         </h3>
                         <p class="big">
-                            Springbok is one of the only companies in the country to operate a part exchange program. With the help of our sister company, we organise a guaranteed sale for your home. That means you can make an offer on your dream house without all the hassle and worry of finding buyers for your current property!
+                            Springbok is one of the only companies in the country to operate a part exchange program.
+                            We can organise a guaranteed sale for your home, so you can make an offer on your dream
+                            house without worrying about finding buyers for your current property!
                         </p>
                     </div>
                 </div>

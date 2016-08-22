@@ -40,20 +40,17 @@
                         <tr>
                             <td>Success</td>
                             <td>Paid after you complete and you have the money from your sale.</td>
-                            <td>Paid upfront and the million dollar question is why will they fight tooth and nail to get a better price for you when they already been paid in full.</td>
+                            <td>Paid upfront. No incentive to fight for a better price for your property because they've already got your money!</td>
                         </tr>
                         <tr>
                             <td>Fees</td>
-                            <td>No sale, no fees, and free valuation. No upfront estate agency fees.</td>
+                            <td>No fees until you sell, and a free valuation. No upfront estate agency fees.</td>
                             <td>Listing fees and upfront agency fees to be paid even if the property never sells.</td>
                         </tr>
                         <tr>
-                            <td>For Sale boards</td>
-                            <td>Full contact details. <br><br>
-                                We pride ourselves on providing a premier service across the country, with mobile-friendly local phone numbers, so <br>
-                                buyers can call us immediately. <br><br>
-                                Enough staff to make sure someone picks up the phone and handles calls
-                                about your property.
+                            <td>For Sale Boards</td>
+                            <td>Full contact details, including mobile-friendly local numbers, so buyers can call immediately.<br><br>
+                                Enough staff to make sure someone handles calls about your property.
                             </td>
                             <td>Rarely more than a phone number on the board. Many boards have no contact information.</td>
                         </tr>
@@ -65,11 +62,11 @@
                         <tr>
                             <td>Extra Costs</td>
                             <td>No extra costs or fees for selling your property.</td>
-                            <td>Most add on fees, increasing their headline-grabbing rates significantly.</td>
+                            <td>Most add fees, increasing their headline-grabbing rates significantly.</td>
                         </tr>
                         <tr>
-                            <td>True cost</td>
-                            <td>We ensure you get the best price by giving you a qualified, experienced valuer, a qualified negotiator who contacts sellers and negotiates thousands extra.<br><br>
+                            <td>True Cost</td>
+                            <td>We ensure you get the best price by giving you a qualified, experienced valuer and a qualified negotiator who contacts sellers and negotiates thousands extra.<br><br>
                                 We work hard to get you a lot more on your selling price!
                             </td>
                             <td>Cheaper for a reason: you end up paying more, just like when you buy a cheap car, a cheap holiday or a cheap meal.</td>
@@ -77,15 +74,15 @@
                         <tr>
                             <td>Additional Fee</td>
                             <td>One transparent fee, paid on success.</td>
-                            <td>Repeat fees if your property is not sold in a set period. They fail, you pay more</td>
+                            <td>Repeat fees if your property is not sold in a set period. They fail, you pay more.</td>
                         </tr>
                         <tr>
                             <td>Pricing</td>
-                            <td>Realistic market prices to sell the property fast</td>
+                            <td>Realistic market prices to sell the property fast.</td>
                             <td>Little or no help with pricing. First objective is the upfront fees, leaving you to guess and potentially under-sell.</td>
                         </tr>
                         <tr>
-                            <td>Practising what they preach</td>
+                            <td>Practising What They Preach</td>
                             <td>Superstar negotiators who deliver excellent results. We will fight tooth and claw to get the best deal for you on the timescale you specify.</td>
                             <td>Typically survive on investments, so your sale is more an annoyance than anything else. Rarely any real interest in helping you sell.</td>
                         </tr>
@@ -129,13 +126,13 @@
                         </tr>
                         <tr>
                             <td>Fees</td>
-                            <td>No sale, no fees, and free valuation.</td>
+                            <td>No fees until you sell, and a free valuation. No upfront estate agency fees.</td>
                             <td>Listing fees, withdrawal fees, viewing fees, marketing fees and any other fees they can think of.</td>
                         </tr>
                         <tr>
                             <td>Pricing</td>
                             <td>Realistic market prices to sell the property fast.</td>
-                            <td>Overvalued to win the instruction.</td>
+                            <td>Overvalued to win customers.</td>
                         </tr>
                         <tr>
                             <td>Availability</td>

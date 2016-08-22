@@ -26,10 +26,10 @@
                     <div class="col s12 m12 l5 margin-top-30 margin-bottom-30">
                         <img src="assets/images/cancer-research-logo.png" height="154" width="400" class="responsive-img"/>
                         <br>
-                        Our selected charity for 2015 – Cancer Research Fund UK
+                        Our selected charity for 2016 – Cancer Research UK
                     </div>
                     <div class="col s12 m12 l7">
-                        <h3>About Cancer Research fund UK</h3>
+                        <h3>About Cancer Research UK</h3>
 
                         <p>Cancer Research UK is the world's leading charity dedicated to beating cancer through research. Cancer Research UK pioneers life-saving cancer research to help beat cancer sooner. It is determined to fighting cancer on all fronts, finding new ways to prevent, diagnose and treat it to save more lives. With public funding initiatives we can ensure more people beat cancer.</p>
 
@@ -37,7 +37,6 @@
 
                         <p>If you wish to make a private donation please visit:<br>
                         <a href="www.cancerresearchuk.org" target="_blank">www.cancerresearchuk.org</a><br>
-                        <a href="mailto:customer.services@cancer.org.uk">customer.services@cancer.org.uk</a>
                     </div>
                 </div>
             </div>

@@ -22,10 +22,10 @@
         <section class="house-worth-banner sp-secondary-text">
             <div class="container">
                 <form class="estimate-form center-align classic-form white">
-                    <h3>How much is my house worth?</h3>
+                    <h3>How much is your house worth?</h3>
                     <p class="center-align big">
-                        Find out for free<br>
-                        Springbok Properties determines your home's estimated value based on recent home sales in your area.
+                        Find out for free!<br>
+                        Springbok Properties determines your home's estimated value based on recent sales in your area.
                     </p>
                     <div class="row">
                         <div class="col s12 m4">
@@ -58,7 +58,9 @@
                                 <p class="center-align"><img src="assets/images/pin/graph.png" width="64" height="93"></p>
                                 <h4>How do we calculate it?</h4>
                                 <p class="big">
-                                    We use current & recent data of similar properties in your area that have sold or are currently on the market. Using price & sale comparables, helps you instantly estimate your property’s current market value — so you get an accurate online estimate, instantly.
+                                    We use current and recent sales and market price data of similar properties in your area.
+                                    Using these comparables helps us instantly estimate your property's current market
+                                    value - no waiting, no fuss, just an instant online estimate.
                                 </p>
                             </div>
                         </div>
@@ -69,7 +71,9 @@
                                 <p class="center-align"><img src="assets/images/pin/calculator.png" width="64" height="93"></p>
                                 <h4>Has your property's value increased?</h4>
                                 <p class="big">
-                                    Your house value estimate is powered by real-time property prices and details so you can find out what your house is worth easily. Check your house value to get the latest pricing based on property sale activity in your neighborhood.
+                                    Your estimate is powered by real-time property prices and details so you can find
+                                    out what your house is currently worth. Get the latest pricing estimate and see
+                                    how much more your home is worth, based on property sales in your neighborhood.
                                 </p>
                             </div>
                         </div>
@@ -80,7 +84,10 @@
                                 <p class="center-align"><img src="assets/images/pin/bulls-eye.png" width="64" height="93"></p>
                                 <h4>What is Expert Valuation?</h4>
                                 <p class="big">
-                                    When you’re ready for professional house valuation, an experienced regional valuer can carry out a full property valuation at your house in person and give you price recommendations based on its unique characteristics and details. Talk to our experts that specialise in your area for a free consultation.
+                                    Our experienced regional valuer can perform a full, professional valuation of your
+                                    house in person. You'll get price recommendations based on the property's unique
+                                    characteristics and details. Contact us for a free consultation with our experts
+                                    who specialise in your area.
                                 </p>
                             </div>
                         </div>

@@ -41,14 +41,15 @@
                         </div>
                     </div>
                     <div class="col s12 m6 pull-m6">
-                        <h3 class="z-depth-1-text margin-top-0">Are You a Property Investor? Register Now</h3>
+                        <h3 class="z-depth-1-text margin-top-0">Are You a Property Investor?</h3>
+                        <h4>Register Now For:</h4>
                         <ul class="browser-default bigger z-depth-1-text text-bold margin-0">
-                            <li>For deal alerts</li>
-                            <li>Buy to sell (FLIP)</li>
+                            <li>Deal alerts</li>
+                            <li>Buy to sell (flip)</li>
                             <li>HMO's</li>
                             <li>Refurbishment opportunities</li>
                             <li>Repossessed properties</li>
-                            <li>High Yields</li>
+                            <li>High yields</li>
                             <li>Buy to let</li>
                             <li>Plus special property guides</li>
                         </ul>
@@ -62,9 +63,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m12">
-                        <h3>Investor? Be the first to access our off-market property deals</h3>
+                        <h3>Be the first to access our off-market property deals</h3>
                         <p class="big">
-                            Springbok Properties runs realistic pricing policy and deals with clients who want a fast sale - and that means attractively-priced properties at your fingertips!
+                            Springbok Properties runs a realistic pricing policy for clients who want a fast sale - and that means attractively-priced properties at your fingertips!
                         </p>
                         <p class="text-bold big">
                             You must be registered to access our exclusive investment opportunities and receive first option on our off-market deals. Registration is absolutely free and comes with no obligations.
@@ -73,7 +74,7 @@
                             Our ethical, transparent cash-buying business turns up some phenomenal opportunities for property investors.
                         </p>
                         <p class="big">
-                            We find real gems with amazing potential, so make sure you register with us and keep your eyes open. We'll have to ask you some questions about your investment plans if you're interested in becoming one of our investment clients.
+                            We find real gems with amazing potential, so make sure you register and keep your eyes open. We'll have to ask you some questions about your investment plans if you're interested in becoming one of our investment clients.
                         </p>
                     </div>
                 </div>
@@ -86,7 +87,7 @@
                     <div class="col s12 m12">
                         <h3>Superb investment opportunities</h3>
                         <p class="big">
-                            If you want to buy investment property, Springbok gives you access to the biggest range of investment deals throughout the UK.
+                            If you want to buy investment property, Springbok offers the biggest range of investment deals throughout the UK.
                         </p>
                         <p class="big">
                             Fill in the form or call us now on 0800 068 4015: the sooner you contact us, the sooner you can access some of the best property deals in the country!
@@ -99,7 +100,7 @@
         <section class="free-valuation-call-center white sp-secondary-text center-align">
             <div class="container">
                 <h2 class="big z-depth-1-text">CALL US NOW FOR A FREE VALUATION</h2>
-                <p class="big">Remember, our valuation offer is completely free, and doesn't commit you to anything at all. Take action now.</p>
+                <p class="big">Remember, our valuation offer is completely free and doesn't commit you to anything at all. Take action now!</p>
                 <h2 class="ultra-big z-depth-1-text">0800 068 7935</h2>
                 <p>Freephone - we're open 24/7</p>
                 <a class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>

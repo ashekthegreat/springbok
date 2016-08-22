@@ -271,7 +271,8 @@ $typeahead-item-hover-background: #f5f5f5 !default;
             padding: $typeahead-padding;
             background: #fff;
             border: 1px solid $typeahead-border-color;
-            border-radius: $typeahead-radius 0 0 $typeahead-radius;
+            //border-radius: $typeahead-radius 0 0 $typeahead-radius;
+            border-radius: $typeahead-radius;
             transition: all ease-in-out .15s;
             appearance: none;
             box-sizing: border-box; // Bootstrap 4 override

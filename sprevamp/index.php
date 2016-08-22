@@ -44,11 +44,11 @@
                                 <div class="text-ticks">
                                     <ul>
                                         <li><i class="sprite sprite-tick-yellow"></i> Get 100% value for your house</li>
-                                        <li><i class="sprite sprite-tick-yellow"></i> Over 2400 sales agreed in last 12 months.</li>
+                                        <li><i class="sprite sprite-tick-yellow"></i> Over 2400 sales agreed in last 12 months</li>
                                         <li>
                                             <i class="no-upfront sprite sprite-no-upfront hide-on-med-and-down"></i>
                                             <i class="no-upfront sprite sprite-no-upfront-small hide-on-large-only"></i>
-                                            <i class="sprite sprite-tick-yellow"></i> Won Best Selling Branch in UK 2 years running
+                                            <i class="sprite sprite-tick-yellow"></i> Awarded Best Sales Branch in UK, 2 years running
                                         </li>
                                     </ul>
                                 </div>
@@ -65,8 +65,8 @@
                     <div class="col m6 s12">
                         <p class="big flow-text">
                             Springbok Properties are revolutionary property
-                            selling specialists that sell your property fast and
-                            gets you the best possible price.
+                            selling specialists who sell your property fast and
+                            get you the best possible price.
                         </p><p>&nbsp;</p>
                         <p class="big flow-text">
                             <strong>Contact us today and your property could be:</strong><br>
@@ -78,9 +78,9 @@
                     <div class="col m6 s12 l5 offset-l1">
                         <div class="card-panel sp-secondary-text sell-fast z-depth-0">
                             <h4>HOW FAST IS <strong>"FAST"?</strong></h4>
-                            <div class="variation"><strong>63%</strong> <small>of our property sales are in</small> less than 30 days</div>
-                            <div class="variation"><strong>77%</strong> <small>of our property sales are in</small> less than 8 weeks</div>
-                            <div class="variation"><strong>Over 1800</strong> <small>selles sold in less than</small> 10 days!</div>
+                            <div class="variation"><strong>63%</strong> <small>of our property sales take</small> less than 30 days</div>
+                            <div class="variation"><strong>77%</strong> <small>of our property sales take</small> less than 8 weeks</div>
+                            <div class="variation"><strong>Over 1800</strong> <small>properties sold in less than</small> 10 days!</div>
                         </div>
                     </div>
                 </div>
@@ -90,20 +90,20 @@
         <section id="home-how-it-works" class="home-how-it-works no-padding sp-secondary sp-primary-text text-lighten-5 scrollspy">
             <div class="container center-align">
                 <h2 class="big margin-bottom-30">A REAL LIFE EXAMPLE OF HOW IT WORKS FROM OUR THOUSANDS OF SUCCESS STORIES</h2>
-                <p class="big strong margin-top-0 margin-bottom-0">Mrs. Helen contacted us after being frustrated & stuck on the market for <span class="text-underline">432 days</span> with two different estate agents</p>
-                <p class="big strong margin-top-0 margin-bottom-40">We sold Mrs. Helen's house within <span class="text-underline">8 days</span> & most importantly achieved their <span class="text-underline">asking price</span>. Here's how</p>
+                <p class="big strong margin-top-0 margin-bottom-0">Mrs. Helen contacted us after being stuck on the market for <span class="text-underline">432 days</span> with two different estate agents.</p>
+                <p class="big strong margin-top-0 margin-bottom-40">We sold Mrs. Helen's house within <span class="text-underline">8 days</span> & most importantly achieved her <span class="text-underline">asking price</span>.</p>
                 <p class="big">West View, Newcastle - Sold in 8 days</p>
                 <img class="responsive-img" src="assets/images/how-works.png" width="871" height="333"/>
-                <h4 class="sp-primary-text big">1800 vendors and counting with a sale agreed in less than 10 days</h4>
+                <h4 class="sp-primary-text big">Over 1,800 vendors with a sale agreed in less than 10 days</h4>
             </div>
         </section>
 
         <section class="home-why sp-primary lighten-5 sp-secondary-text">
             <div class="container">
-                <h2 class="center-align big">WHY IT WILL WORK FOR YOU?</h2>
+                <h2 class="center-align big">WHY IT WILL WORK FOR YOU</h2>
                 <p class="center-align big">
-                    We eliminated the clutter and focused on what is important to you!<br>
-                    Speed. Communication. Getting more people through the door. Getting you the best price.
+                    We eliminated the clutter and focused on what matters to you!<br>
+                    Speed. Communication. Getting more people through your door. Getting you the best price.
                 </p>
                 <div class="row">
                     <div class="col s12 m6">
@@ -133,7 +133,7 @@
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-sp-logo"></i></div>
                             <h4>Springbok expert progression</h4>
-                            <p>Springbok has one of the finest, most experienced sales progression teams in the UK, dedicated to fully managing the property conveyancing.</p>
+                            <p>Springbok has one of the finest, most experienced sales progression teams in the UK, dedicated to fully managing the whole process.</p>
                         </div>
                     </div>
                 </div>
@@ -142,14 +142,14 @@
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-reviews"></i></div>
                             <h4>Hundreds of positive reviews and happy customers</h4>
-                            <p>We regularly exceed expectations, and 98% of our clients are happy to recommend us.</p>
+                            <p>We regularly exceed expectations, and 96% of our clients are happy to recommend us.</p>
                         </div>
                     </div>
                     <div class="col s12 m6">
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-247"></i></div>
                             <h4>At Your Service 24/7</h4>
-                            <p>Whether you need a valuation for your house, or have a question we are with you every step of the way. </p>
+                            <p>Whether you need a valuation for your house or have a question, we are with you every step of the way. </p>
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@
         <section id="home-estimator" class="home-estimator sp-secondary lighten-5 sp-secondary-text scrollspy">
             <div class="container">
                 <h2 class="center-align big">TRY OUR FREE OFFER ESTIMATOR</h2>
-                <p class="center-align big">See what is possible with yor property in 2 minutes online</p>
+                <p class="center-align big">See what's possible with your property in 2 minutes online</p>
                 <div class="row">
                     <form class="sp-primary sp-secondary-text col s12 m8 offset-m2 l6 offset-l3">
                         <div class="classic-form">
@@ -185,7 +185,7 @@
                 <div class="row">
                     <div class="col s12 l8 offset-l2 center-align">
                         <h2 class="big">100's OF CUSTOMER VIDEO REVIEWS & VIDEO MESSAGES</h2>
-                        <p class="big">We would not have said it better</p>
+                        <p class="big">We could not have said it better</p>
                     </div>
                 </div>
                 <div class="row">
@@ -297,7 +297,7 @@
 
         <section id="home-success" class="home-success sp-secondary lighten-5 sp-secondary-text scrollspy">
             <div class="container">
-                <h2 class="center-align big">Get maximum value Fast!<br>That is success for us</h2>
+                <h2 class="center-align big">Get maximum value Fast!</h2>
                 <p class="center-align big">
                     We only succeed when you get the maximum value - fast - for your house.
                     Here are a few examples from thousands of successes!
@@ -316,15 +316,15 @@
                                         <div class="row margin-bottom-0">
                                             <div class="col s12 m5">
                                                 <h4>1,070 Days</h4>
-                                                <p>Not sold with previews estate agents</p>
+                                                <p>Not sold with previous estate agents</p>
                                             </div>
                                             <div class="col s12 m4">
                                                 <h4>17 days</h4>
-                                                <p>Sale Agreed with Springbok</p>
+                                                <p>Sale agreed with Springbok</p>
                                             </div>
                                             <div class="col s12 m3">
                                                 <h4>100%</h4>
-                                                <p>Asking Price</p>
+                                                <p>Asking price</p>
                                             </div>
                                         </div>
                                     </div>
@@ -343,15 +343,15 @@
                                         <div class="row margin-bottom-0">
                                             <div class="col s12 m5">
                                                 <h4>305 days</h4>
-                                                <p>Not sold with previews estate agents</p>
+                                                <p>Not sold with previous estate agents</p>
                                             </div>
                                             <div class="col s12 m4">
                                                 <h4>1 day</h4>
-                                                <p>Sale Agreed with Springbok</p>
+                                                <p>Sale agreed with Springbok</p>
                                             </div>
                                             <div class="col s12 m3">
                                                 <h4>100%</h4>
-                                                <p>Asking Price</p>
+                                                <p>Asking price</p>
                                             </div>
                                         </div>
                                     </div>
@@ -370,15 +370,15 @@
                                         <div class="row margin-bottom-0">
                                             <div class="col s12 m5">
                                                 <h4>173 days</h4>
-                                                <p>Not sold with previews estate agents</p>
+                                                <p>Not sold with previous estate agents</p>
                                             </div>
                                             <div class="col s12 m4">
                                                 <h4>22 days</h4>
-                                                <p>Sale Agreed with Springbok</p>
+                                                <p>Sale agreed with Springbok</p>
                                             </div>
                                             <div class="col s12 m3">
                                                 <h4>100%</h4>
-                                                <p>Asking Price</p>
+                                                <p>Asking price</p>
                                             </div>
                                         </div>
                                     </div>
@@ -395,7 +395,7 @@
                 <div class="row">
                     <div class="col s12 m6 center-align">
                         <h3>No. 1 FOR CUSTOMER SERVICE</h3>
-                        <p>7 Gold Awards with over 1152 Reviews third party collected reviews<br>
+                        <p>7 Gold Awards with over 1,152 independent third party reviews<br>
                             96% of our customers recommend selling with us
                         </p>
                         <p>
@@ -486,7 +486,7 @@
                             <div>
                                 <span class="big sp-primary-text">7</span> &nbsp; <i class="sprite sprite-badge"></i>
                             </div>
-                            <div>Gold awards in <br> customer service</div>
+                            <div>Gold awards for <br> customer service</div>
                         </div>
                     </div>
                     <div class="card-panel sp-primary sp-secondary-text valign-wrapper w-large h-small">
@@ -504,9 +504,9 @@
                                 <span class="medium sp-primary-text">14655</span>
                             </div>
                             <div>
-                                Firms Across the UK<br>
-                                We are voted No. 1<br>
-                                In Customer Service<br><br>
+                                firms Across the UK,<br>
+                                we are voted no. 1<br>
+                                in customer service<br><br>
                             </div>
                             <div><i class="sprite sprite-badge-first"></i></div>
                         </div>
@@ -543,8 +543,8 @@
 
         <section class="home-call-center sp-primary sp-secondary-text center-align">
             <div class="container">
-                <h2 class="white-text big z-depth-1-text">CALL US NOW FOR A FREE VALUATION</h2>
-                <p class="big">Remember, our valuation offer is completely free, and doesn't commit you to anything at all. Take action now.</p>
+                <h2 class="sp-secondary-text text-lighten-1 big z-depth-1-text">CALL US NOW FOR A FREE VALUATION</h2>
+                <p class="big">Remember, our valuation offer is completely free and doesn't commit you to anything at all. Take action now!</p>
                 <h2 class="white-text ultra-big z-depth-1-text"><span class="click-to-call">0800 068 7935</span></h2>
                 <p>Freephone - we're open 24/7</p>
                 <a href="contact-us.php" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Contact Us</a>

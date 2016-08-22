@@ -622,6 +622,10 @@ a[href^=tel] {
     bottom: 20%;
     right: 0;
     transform-origin: top right;
+
+    @media only screen and (max-width: 1300px) {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 601px) {

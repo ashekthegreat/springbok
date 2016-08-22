@@ -71,7 +71,7 @@
                         <h3 class="margin-bottom-30">Local Websites...</h3>
                         <ul class="collapsible" data-collapsible="accordion">
                             <li>
-                                <div class="collapsible-header"><span class="sprite sprite-right-16"></span> 230+ 'Local Press' Websites</div>
+                                <div class="collapsible-header"><span class="sprite sprite-right-16"></span> 230+ 'Local Press' websites</div>
                                 <div class="collapsible-body">
                                     <ul class="columns-2">
                                         <li>Alfreton Chad</li>
@@ -574,7 +574,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="collapsible-header"><span class="sprite sprite-right-16"></span> 25+ Other website</div>
+                                <div class="collapsible-header"><span class="sprite sprite-right-16"></span> 25+ Other websites</div>
                                 <div class="collapsible-body">
                                     <ul class="columns-2">
                                         <li>Arkadia</li>
@@ -614,15 +614,15 @@
                             <div class="col s12 m11 offset-m1 l11 offset-l1">
                                 <div class="margin-bottom-40">
                                     <h1>Our Investors Database & 500+ Websites</h1>
-                                    <p class="big">With our database of investors and other buyers, and you have the perfect formula to create demand, spark bidding wars and sell your house in record times.</p>
-                                    <p class="big">More than 1800 (and counting) sellers have sold their house in less than 10 days! Depending upon how quickly you want to sell, we put your property in front of the right buyers.</p>
+                                    <p class="big">With our database of investors and other buyers, you have the perfect formula to create demand, spark bidding wars and sell your house in record times.</p>
+                                    <p class="big">More than 1,800 sellers have sold their house in less than 10 days! We put your property in front of the right buyers for your selling timeline.</p>
                                 </div>
                                 <div class="margin-top-40">
                                     <h2 class="margin-bottom-30">We don't just advertise your property...<br><br>we SELL it!</h2>
                                     <p class="big">We pride ourselves on having a wider reach than any local estate agent, because our focus is national and local -- we target buyers across the country as well as in your immediate area.</p>
                                     <p class="big">Around 98% of movers now use the Internet to find their next property, with a large proportion of the offline 2% locating their new home via distinctive 'For Sale' boards. Our unrivaled online advertising (both local and national) means we have a presence that can't be ignored and our signs stick out a mile!</p>
                                     <p class="big">Our online portal network achieves over 180 million searches a month. Our local experts help you get the best price as fast as possible. Our screening process makes sure you don't waste time with window-shoppers.</p>
-                                    <p class="big">Here are a few of the sites in our portal network. Please note that Springbok Properties partnerships can change as we continually push for the best possible exposure.</p>
+                                    <p class="big">The sites shown on this page are only a small part of our massive portal network. Please note that Springbok Properties partnerships can change as we continually push for the best possible exposure.</p>
                                 </div>
                             </div>
                         </div>

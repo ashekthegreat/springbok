@@ -22,7 +22,7 @@
         <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container center-align">
                 <h1>The Springbok Story</h1>
-                <p class="big">From a small team of 5 property experts in March 2012, we have seen outstanding growth through excellent customer service and word of mouth, expanding to 50 property experts by March 2014. Our plans for growth continue – we expect to grow to 150 staff members by early 2016.</p>
+                <p class="big">From a small team of 5 property experts in March 2012, we have seen outstanding growth through excellent customer service and word of mouth, expanding to 50 property experts by March 2014. Our plans for growth continue – we expect to reach 150 staff members by early 2018.</p>
                 <p class="big">But one thing hasn't changed: we have always stayed true to our core belief of achieving a quick sale for the best possible price, while giving the best service humanly possible.</p>
             </div>
         </section>
@@ -41,7 +41,7 @@
                                 </div>
                                 <div class="desc">
                                     <time>July 2016</time>
-                                    <p>Sold our 6200th property (and counting)</p>
+                                    <p>Sold our 6,200th property (and counting)</p>
                                 </div>
                             </li>
                             <li class="item item-right item-2 clearfix">
@@ -50,7 +50,7 @@
                                 </div>
                                 <div class="desc">
                                     <time>April 2016</time>
-                                    <p>Got over 5,000 likes on Facebook</p>
+                                    <p>Over 5,000 likes on Facebook</p>
                                 </div>
                             </li>
 
@@ -61,7 +61,7 @@
                                 <div class="desc">
                                     <time>January 2016</time>
                                     <p>Launched Springbok Lettings & Management</p>
-                                    <p>Grown to a team of 80</p>
+                                    <p>Team reached 80 members</p>
                                 </div>
                                 <div class="year">2016</div>
                             </li>
@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="desc">
                                     <time>December 2014</time>
-                                    <p>Reached our 2700th happy customer</p>
+                                    <p>Served our 2,700th happy customer</p>
                                 </div>
                             </li>
                             <li class="item item-right item-6 clearfix">
@@ -92,7 +92,7 @@
                                 </div>
                                 <div class="desc">
                                     <time>November 2014</time>
-                                    <p>Had our 500th Independent Customer Review *</p>
+                                    <p>Received our 500th Independent Customer Review *</p>
                                 </div>
                             </li>
 
@@ -111,7 +111,7 @@
                                 </div>
                                 <div class="desc">
                                     <time>September 2014</time>
-                                    <p>Grown to a team of 60</p>
+                                    <p>Team reached 60 members</p>
                                 </div>
                                 <div class="year">2014</div>
                             </li>
@@ -124,7 +124,7 @@
                                 </div>
                                 <div class="desc">
                                     <time>November 2013</time>
-                                    <p>Ranked as No.1 firm for customer service amongst more than 12,500 firms in the UK *</p>
+                                    <p>Ranked as No.1 for customer service amongst more than 12,500 firms in the UK *</p>
                                 </div>
                                 <div class="year">2013</div>
                             </li>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="desc">
                                     <time>March 2012</time>
-                                    <p>Launched Innovative Fast sale with 5 Employees</p>
+                                    <p>Launched Innovative Fast Sale with 5 employees</p>
                                 </div>
                             </li>
 

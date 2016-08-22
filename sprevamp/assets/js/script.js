@@ -184,6 +184,56 @@ if (location.hash) {
             }
         }
 
+        function buildPagination(total, itemsPerPage){
+            $("#page").empty();
+            var pageNeeded = Math.ceil( total/itemsPerPage);
+            for(var i=1; i<=pageNeeded; i++){
+                $("#page").append('<option value="'+ i +'">'+ i +'</option>');
+            }
+            $("#page").material_select();
+            $(".total-page-count").text(pageNeeded.toLocaleString());
+        }
+
+        function loadPropertyList(isClearPagination){
+            if(isClearPagination){
+                $("#current-page").val(1);
+            }
+            var data = $('.property-search-bar form').serializeArray();
+            //data.push({name: 'page', value: 1});
+            //data.push({name: 'limit', value: 10});
+
+            var searchCriteria = 'Properties For Sale in ';
+            searchCriteria += $("#search").val()?$("#search").val():"all area";
+            searchCriteria += " with a price range of " + $(".field-price .value").text();
+
+            $(".search-criteria").text(searchCriteria);
+
+            var $cards = $(".property-card");
+            $cards.addClass("busy");
+            $.post('json-properties.php', data, function(result){
+                $(".total").text(result.total.toLocaleString());
+                $.each($cards, function(i, card){
+                    var $card = $(card);
+                    if(i < result.items.length){
+                        var item = result.items[i];
+                        $card.find(".property-title").attr("href",item.url).html(item.title);
+                        $card.find(".property-price").html("Offers in excess of <strong>&pound;"+ (+(item.price)).toLocaleString() +"</strong>");
+                        $card.find(".property-address").html(item.address);
+                        $card.find(".property-description").html(item.description);
+
+                        $card.find(".property-image").attr("src", item.image_url);
+                        $card.find(".property-image-count").html(item.image_count);
+                        $card.show().removeClass("busy");
+                    } else{
+                        $card.hide();
+                    }
+                });
+                if(isClearPagination){
+                    buildPagination(result.total, $("#limit").val());
+                }
+            })
+        }
+
         if ($propertySearch.length) {
             $(".navbar-fixed nav").css("position", "relative");
 
@@ -214,7 +264,12 @@ if (location.hash) {
                     }
                 },
                 callback: {
-                    onInit: function () {  }
+                    onHideLayout: function (node, query) {
+                        loadPropertyList(true);
+                    },
+                    onCancel: function (node, event) {
+                        loadPropertyList(true);
+                    }
                 }
             });
 
@@ -226,40 +281,43 @@ if (location.hash) {
                 $(".property-search-extra").slideUp("fast");
             });
             // toggle property search extra
+            function showFilters($this){
+                $this.addClass("active");
+
+                if($this.hasClass("field-price")){
+                    $(".property-search-extra .filter").hide();
+                    $(".property-search-extra .filter-price").show();
+                } else if($this.hasClass("field-beds")){
+                    $(".property-search-extra .filter").hide();
+                    $(".property-search-extra .filter-bed").show();
+                } else if($this.hasClass("field-property-type")){
+                    $(".property-search-extra .filter").hide();
+                    $(".property-search-extra .filter-property-type").show();
+                } else if($this.hasClass("field-filters")){
+                    $(".property-search-extra .filter").show();
+                    if($(".property-search-bar .field-price").is(":visible")){
+                        $(".property-search-extra .filter-price").hide();
+                    }
+                    if($(".property-search-bar .field-beds").is(":visible")){
+                        $(".property-search-extra .filter-bed").hide();
+                    }
+                    if($(".property-search-bar .field-property-type").is(":visible")){
+                        $(".property-search-extra .filter-property-type").hide();
+                    }
+                }
+
+                $(".property-search-extra").slideDown("fast");
+            }
+            function closeFilters(){
+                $(".property-search-bar .field.active").removeClass("active");
+                $(".property-search-extra").slideUp("fast");
+            }
             $(".property-search-bar .field").not(".field-search").click(function(e){
                 e.stopPropagation();
                 var $this = $(this);
 
-                function showFilters($this){
-                    $this.addClass("active");
-
-                    if($this.hasClass("field-price")){
-                        $(".property-search-extra .filter").hide();
-                        $(".property-search-extra .filter-price").show();
-                    } else if($this.hasClass("field-beds")){
-                        $(".property-search-extra .filter").hide();
-                        $(".property-search-extra .filter-bed").show();
-                    } else if($this.hasClass("field-property-type")){
-                        $(".property-search-extra .filter").hide();
-                        $(".property-search-extra .filter-property-type").show();
-                    } else if($this.hasClass("field-filters")){
-                        $(".property-search-extra .filter").show();
-                        if($(".property-search-bar .field-price").is(":visible")){
-                            $(".property-search-extra .filter-price").hide();
-                        }
-                        if($(".property-search-bar .field-beds").is(":visible")){
-                            $(".property-search-extra .filter-bed").hide();
-                        }
-                        if($(".property-search-bar .field-property-type").is(":visible")){
-                            $(".property-search-extra .filter-property-type").hide();
-                        }
-                    }
-
-                    $(".property-search-extra").slideDown("fast");
-                }
                 if($this.hasClass("active")){
-                    $this.removeClass("active");
-                    $(".property-search-extra").slideUp("fast");
+                    closeFilters();
                 } else{
                     if($(".property-search-bar .field.active").length){
                         // some other filter is showing
@@ -293,13 +351,15 @@ if (location.hash) {
             priceSlider.noUiSlider.on('update', function( values, handle ) {
                 $("#filter-price-min").val(values[0]);
                 $("#filter-price-max").val(values[1]);
-                console.log(values);
-                var text = "&pound;"+values[0];
+                var text = "&pound;" + (+values[0]).toLocaleString();
                 if(values[0] != values[1]){
-                    text += " to " + "&pound;"+values[1];
+                    text += " to " + "&pound;" + (+values[1]).toLocaleString();
                 }
                 $(priceSlider).closest(".filter").find(".filter-value").empty().append(text);
                 $(".field-price .value").empty().append(text);
+            });
+            priceSlider.noUiSlider.on('change', function(){
+                loadPropertyList(true);
             });
 
             // bed slider
@@ -326,9 +386,46 @@ if (location.hash) {
                 $(bedSlider).closest(".filter").find(".filter-value").empty().append(text);
                 $(".field-beds .value").empty().append(text);
             });
+            bedSlider.noUiSlider.on('change', function(){
+                loadPropertyList(true);
+            });
+
+
+            // property types
+            $(".filter-property-type input").click(function(){
+                var checked = $(".filter-property-type input:checked").length;
+                if(checked){
+                    $(".property-type-count").empty().append("(" + checked + ")");
+                } else{
+                    $(".property-type-count").empty();
+                }
+                loadPropertyList(true);
+            });
+
+            // added to site
+            $("#added-to-site").change(function(){
+                loadPropertyList(true);
+            });
+
+            // property-stc
+            $("#property-stc").click(function(){
+                loadPropertyList(true);
+            });
+
+            // done action
+            $(".filter-action-done").click(function(){
+                closeFilters();
+            });
+
+            // pagination change
+            $("#page").change(function(){
+                $("#current-page").val($("#page").val());
+                loadPropertyList(false);
+            });
+
+            // load initial data
+            loadPropertyList(true);
         }
-
-
 
     });
 

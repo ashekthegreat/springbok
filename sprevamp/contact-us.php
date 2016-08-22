@@ -40,7 +40,7 @@
                                 <div class="card-body big">
                                     <i class="sprite sprite-call"></i> Call (open 24/7)<br>
                                     <a href="tel:08000687935" class="nowrap">0800 068 7935</a><br>
-                                    Or <a href="#">Book A Valuation</a>
+                                    Or <a href="free-valuation.php">Book A Valuation</a>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                                 <div class="card-body big">
                                     <i class="sprite sprite-call"></i> Call (open 24/7)<br>
                                     <a href="tel:08000684015" class="nowrap">0800 068 4015</a><br>
-                                    Or <a href="#">See Investment Properties</a>
+                                    Or <a href="investments.php">See Investment Properties</a>
                                 </div>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                                 <div class="card-title">Sale progression</div>
                                 <div class="card-body big">
                                     <i class="sprite sprite-call"></i> Call <a href="tel:08000687935" class="nowrap">0800 068 7935</a><br>
-                                    Or Email us on<br>
+                                    Or Email us at<br>
                                     <a href="mailto:progression@springbokgroup.co.uk" class="small nowrap"><small>progression@springbokgroup.co.uk</small></a>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                             <div class="card-content center-align">
                                 <div class="card-title">Media / General</div>
                                 <div class="card-body big">
-                                    Email us on<br>
+                                    Email us at<br>
                                     <a href="mailto:admin@springbokgroup.co.uk" class="small nowrap"><small>admin@springbokgroup.co.uk</small></a>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@
                             <div class="card-content center-align">
                                 <div class="card-title">Complaints</div>
                                 <div class="card-body big">
-                                    Email us on<br>
+                                    Email us at<br>
                                     <a href="mailto:customer.service@springbokgroup.co.uk" class="small nowrap"><small>customer.service@springbokgroup.co.uk</small></a>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                                 <div class="margin-bottom-0">
                                     <div class="big margin-bottom-10"><strong>Springbok Properties</strong></div>
                                     <div>
-                                        272, Bath Street<br>
+                                        272 Bath Street<br>
                                         Glasgow<br>
                                         G2 4JR<br>
                                         &nbsp;

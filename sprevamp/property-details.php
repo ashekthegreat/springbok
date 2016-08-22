@@ -149,7 +149,7 @@
                         <div class="card-panel sp-secondary lighten-5 sp-secondary-text big">
                             To view this property, <a id="contactfrm2" href="#" data-toggle="modal" data-target="#request-detail-modal" data-keyboard="false" data-backdrop="static">click here</a>
                             or call us on <strong class="click-to-call">0800 068 4015</strong> or <strong class="click-to-call">0333 200 7322</strong>
-                            (mobile friendly line, free for mobile inclusive minutes)
+                            (free for mobile inclusive minutes)
                         </div>
 
                     </div>
@@ -158,7 +158,7 @@
                         <aside class="main-sidebar hidden-print">
 
                             <div class="card-panel margin-top-0 sp-secondary lighten-5 property-back-too-list">
-                                <a href="properties-for-sale.php">&Lt; Back to property listings</a>
+                                <a href="property-list.php">&Lt; Back to property listings</a>
                             </div>
 
                             <div class="card-panel margin-top-0 sp-secondary lighten-5 property-contact-methods">

@@ -265,7 +265,7 @@
                                 </div>
 
                                 <div class="center-align margin-bottom-15 big">
-                                    Live customer review statistics based on independent customer reviews - www.allagents.co.uk
+                                    Live statistics based on independent customer reviews - www.allagents.co.uk
                                 </div>
 
                                 <div class="row">

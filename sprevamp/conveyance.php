@@ -58,15 +58,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m10 offset-m1 l10 offset-l1">
-                        <h2>How Springbok's Solicitors Can Help?</h2>
+                        <h2>How Springbok's Solicitors Can Help</h2>
                         <p class="bigger">
-                            Our recommended panel of solicitors are experts in property conveyancing.
+                            Our recommended solicitors are experts in property conveyancing.
                         </p>
                         <p>
-                            Our main goal is to achieve a quick sale and complete the conveyancing  process within a timeframe to suit you and your buyer. Most importantly, we want to provide you with an excellent & seamless customer service experience. Solicitors are a significant part of this process. To avoid any hassle, we select from among hundreds the best of the best professionals to include on our recommended panel of solicitors.
+                            Our main goal is to achieve a quick sale and complete the conveyancing  process within a timeframe to suit you and your buyer. Most importantly, we want to provide you with a seamless customer service experience. Solicitors are a significant part of this process. To avoid any hassle, we select the best of the best to include on our recommended panel of solicitors.
                         </p>
                         <p class="bigger">
-                            Fill in the quick form above to contact us &amp; get started now.
+                            Fill in the quick form above to contact us and get started now.
                         </p>
                     </div>
                 </div>
