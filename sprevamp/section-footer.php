@@ -137,5 +137,4 @@
 <script type="text/javascript" src="assets/js/unslider-min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.dotdotdot.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.typeahead.min.js"></script>
-<script type="text/javascript" src="assets/js/nouislider.min.js"></script>
 <script type="text/javascript" src="assets/js/script.js"></script>

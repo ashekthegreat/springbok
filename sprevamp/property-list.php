@@ -48,20 +48,20 @@
 
                                 <div class="field field-price">
                                     <div class="input-field min-price">
-                                        <select>
+                                        <select id="field-dropdown-price-min">
                                             <option value="">Min Price</option><option value="50000">&pound;50,000</option><option value="60000">&pound;60,000</option><option value="70000">&pound;70,000</option><option value="80000">&pound;80,000</option><option value="90000">&pound;90,000</option><option value="100000">&pound;100,000</option><option value="110000">&pound;110,000</option><option value="120000">&pound;120,000</option><option value="125000">&pound;125,000</option><option value="130000">&pound;130,000</option><option value="140000">&pound;140,000</option><option value="150000">&pound;150,000</option><option value="160000">&pound;160,000</option><option value="170000">&pound;170,000</option><option value="175000">&pound;175,000</option><option value="180000">&pound;180,000</option><option value="190000">&pound;190,000</option><option value="200000">&pound;200,000</option><option value="210000">&pound;210,000</option><option value="220000">&pound;220,000</option><option value="230000">&pound;230,000</option><option value="240000">&pound;240,000</option><option value="250000">&pound;250,000</option><option value="260000">&pound;260,000</option><option value="270000">&pound;270,000</option><option value="280000">&pound;280,000</option><option value="290000">&pound;290,000</option><option value="300000">&pound;300,000</option><option value="325000">&pound;325,000</option><option value="350000">&pound;350,000</option><option value="375000">&pound;375,000</option><option value="400000">&pound;400,000</option><option value="425000">&pound;425,000</option><option value="450000">&pound;450,000</option><option value="475000">&pound;475,000</option><option value="500000">&pound;500,000</option><option value="550000">&pound;550,000</option><option value="600000">&pound;600,000</option><option value="650000">&pound;650,000</option><option value="700000">&pound;700,000</option><option value="800000">&pound;800,000</option><option value="900000">&pound;900,000</option><option value="1000000">&pound;1,000,000</option><option value="1250000">&pound;1,250,000</option><option value="1500000">&pound;1,500,000</option><option value="1750000">&pound;1,750,000</option><option value="2000000">&pound;2,000,000</option><option value="2500000">&pound;2,500,000</option><option value="3000000">&pound;3,000,000</option><option value="4000000">&pound;4,000,000</option><option value="5000000">&pound;5,000,000</option><option value="7500000">&pound;7,500,000</option><option value="10000000">&pound;10,000,000</option><option value="15000000">&pound;15,000,000</option><option value="20000000">&pound;20,000,000</option><option value="">Min Price</option>
                                         </select>
                                     </div>
                                     <span class="to">to</span>
                                     <div class="input-field max-price">
-                                        <select>
+                                        <select id="field-dropdown-price-max">
                                             <option value="">Max Price</option><option value="50000">&pound;50,000</option><option value="60000">&pound;60,000</option><option value="70000">&pound;70,000</option><option value="80000">&pound;80,000</option><option value="90000">&pound;90,000</option><option value="100000">&pound;100,000</option><option value="110000">&pound;110,000</option><option value="120000">&pound;120,000</option><option value="125000">&pound;125,000</option><option value="130000">&pound;130,000</option><option value="140000">&pound;140,000</option><option value="150000">&pound;150,000</option><option value="160000">&pound;160,000</option><option value="170000">&pound;170,000</option><option value="175000">&pound;175,000</option><option value="180000">&pound;180,000</option><option value="190000">&pound;190,000</option><option value="200000">&pound;200,000</option><option value="210000">&pound;210,000</option><option value="220000">&pound;220,000</option><option value="230000">&pound;230,000</option><option value="240000">&pound;240,000</option><option value="250000">&pound;250,000</option><option value="260000">&pound;260,000</option><option value="270000">&pound;270,000</option><option value="280000">&pound;280,000</option><option value="290000">&pound;290,000</option><option value="300000">&pound;300,000</option><option value="325000">&pound;325,000</option><option value="350000">&pound;350,000</option><option value="375000">&pound;375,000</option><option value="400000">&pound;400,000</option><option value="425000">&pound;425,000</option><option value="450000">&pound;450,000</option><option value="475000">&pound;475,000</option><option value="500000">&pound;500,000</option><option value="550000">&pound;550,000</option><option value="600000">&pound;600,000</option><option value="650000">&pound;650,000</option><option value="700000">&pound;700,000</option><option value="800000">&pound;800,000</option><option value="900000">&pound;900,000</option><option value="1000000">&pound;1,000,000</option><option value="1250000">&pound;1,250,000</option><option value="1500000">&pound;1,500,000</option><option value="1750000">&pound;1,750,000</option><option value="2000000">&pound;2,000,000</option><option value="2500000">&pound;2,500,000</option><option value="3000000">&pound;3,000,000</option><option value="4000000">&pound;4,000,000</option><option value="5000000">&pound;5,000,000</option><option value="7500000">&pound;7,500,000</option><option value="10000000">&pound;10,000,000</option><option value="15000000">&pound;15,000,000</option><option value="20000000">&pound;20,000,000</option><option value="">Max Price</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="field field-beds">
                                     <div class="input-field min-bed">
-                                        <select>
+                                        <select id="field-dropdown-bed-min">
                                             <option value="" selected>Min Beds</option>
                                             <option value="1">1 bed</option>
                                             <option value="2">2 beds</option>
@@ -73,7 +73,7 @@
                                     </div>
                                     <span class="to">to</span>
                                     <div class="input-field max-bed">
-                                        <select>
+                                        <select id="field-dropdown-bed-max">
                                             <option value="" selected>Max Beds</option>
                                             <option value="1">1 bed</option>
                                             <option value="2">2 beds</option>
@@ -98,83 +98,119 @@
                     <div class="sp-secondary-text sp-secondary lighten-5 z-depth-2 property-search-extra">
                         <div class="container">
                             <div class="filter filter-price">
-                                <h4>Price Range (<small class="filter-value"></small>)</h4>
-                                <div class="price-slider"></div>
-                                <input type="hidden" id="filter-price-min" name="filter-price-min"/>
-                                <input type="hidden" id="filter-price-max" name="filter-price-max"/>
-                                <div>&nbsp;</div>
+                                <div class="label">Price:</div>
+                                <div class="filter-fields">
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <select id="filter-dropdown-price-min" name="filter-price-min">
+                                                <option value="">Min Price</option><option value="50000">&pound;50,000</option><option value="60000">&pound;60,000</option><option value="70000">&pound;70,000</option><option value="80000">&pound;80,000</option><option value="90000">&pound;90,000</option><option value="100000">&pound;100,000</option><option value="110000">&pound;110,000</option><option value="120000">&pound;120,000</option><option value="125000">&pound;125,000</option><option value="130000">&pound;130,000</option><option value="140000">&pound;140,000</option><option value="150000">&pound;150,000</option><option value="160000">&pound;160,000</option><option value="170000">&pound;170,000</option><option value="175000">&pound;175,000</option><option value="180000">&pound;180,000</option><option value="190000">&pound;190,000</option><option value="200000">&pound;200,000</option><option value="210000">&pound;210,000</option><option value="220000">&pound;220,000</option><option value="230000">&pound;230,000</option><option value="240000">&pound;240,000</option><option value="250000">&pound;250,000</option><option value="260000">&pound;260,000</option><option value="270000">&pound;270,000</option><option value="280000">&pound;280,000</option><option value="290000">&pound;290,000</option><option value="300000">&pound;300,000</option><option value="325000">&pound;325,000</option><option value="350000">&pound;350,000</option><option value="375000">&pound;375,000</option><option value="400000">&pound;400,000</option><option value="425000">&pound;425,000</option><option value="450000">&pound;450,000</option><option value="475000">&pound;475,000</option><option value="500000">&pound;500,000</option><option value="550000">&pound;550,000</option><option value="600000">&pound;600,000</option><option value="650000">&pound;650,000</option><option value="700000">&pound;700,000</option><option value="800000">&pound;800,000</option><option value="900000">&pound;900,000</option><option value="1000000">&pound;1,000,000</option><option value="1250000">&pound;1,250,000</option><option value="1500000">&pound;1,500,000</option><option value="1750000">&pound;1,750,000</option><option value="2000000">&pound;2,000,000</option><option value="2500000">&pound;2,500,000</option><option value="3000000">&pound;3,000,000</option><option value="4000000">&pound;4,000,000</option><option value="5000000">&pound;5,000,000</option><option value="7500000">&pound;7,500,000</option><option value="10000000">&pound;10,000,000</option><option value="15000000">&pound;15,000,000</option><option value="20000000">&pound;20,000,000</option><option value="">Min Price</option>
+                                            </select>
+                                        </div>
+                                        <div class="col s6">
+                                            <select id="filter-dropdown-price-max" name="filter-price-max">
+                                                <option value="">Max Price</option><option value="50000">&pound;50,000</option><option value="60000">&pound;60,000</option><option value="70000">&pound;70,000</option><option value="80000">&pound;80,000</option><option value="90000">&pound;90,000</option><option value="100000">&pound;100,000</option><option value="110000">&pound;110,000</option><option value="120000">&pound;120,000</option><option value="125000">&pound;125,000</option><option value="130000">&pound;130,000</option><option value="140000">&pound;140,000</option><option value="150000">&pound;150,000</option><option value="160000">&pound;160,000</option><option value="170000">&pound;170,000</option><option value="175000">&pound;175,000</option><option value="180000">&pound;180,000</option><option value="190000">&pound;190,000</option><option value="200000">&pound;200,000</option><option value="210000">&pound;210,000</option><option value="220000">&pound;220,000</option><option value="230000">&pound;230,000</option><option value="240000">&pound;240,000</option><option value="250000">&pound;250,000</option><option value="260000">&pound;260,000</option><option value="270000">&pound;270,000</option><option value="280000">&pound;280,000</option><option value="290000">&pound;290,000</option><option value="300000">&pound;300,000</option><option value="325000">&pound;325,000</option><option value="350000">&pound;350,000</option><option value="375000">&pound;375,000</option><option value="400000">&pound;400,000</option><option value="425000">&pound;425,000</option><option value="450000">&pound;450,000</option><option value="475000">&pound;475,000</option><option value="500000">&pound;500,000</option><option value="550000">&pound;550,000</option><option value="600000">&pound;600,000</option><option value="650000">&pound;650,000</option><option value="700000">&pound;700,000</option><option value="800000">&pound;800,000</option><option value="900000">&pound;900,000</option><option value="1000000">&pound;1,000,000</option><option value="1250000">&pound;1,250,000</option><option value="1500000">&pound;1,500,000</option><option value="1750000">&pound;1,750,000</option><option value="2000000">&pound;2,000,000</option><option value="2500000">&pound;2,500,000</option><option value="3000000">&pound;3,000,000</option><option value="4000000">&pound;4,000,000</option><option value="5000000">&pound;5,000,000</option><option value="7500000">&pound;7,500,000</option><option value="10000000">&pound;10,000,000</option><option value="15000000">&pound;15,000,000</option><option value="20000000">&pound;20,000,000</option><option value="">Max Price</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="filter filter-bed">
-                                <h4>Bedrooms (<small class="filter-value"></small>)</h4>
-                                <div class="bed-slider"></div>
-                                <input type="hidden" id="filter-bed-min" name="filter-bed-min"/>
-                                <input type="hidden" id="filter-bed-max" name="filter-bed-max"/>
-                                <div>&nbsp;</div>
+                                <div class="label">Bedrooms:</div>
+                                <div class="filter-fields">
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <select id="filter-dropdown-bed-min" name="filter-bed-min">
+                                                <option value="" selected>Min Beds</option>
+                                                <option value="1">1 bed</option>
+                                                <option value="2">2 beds</option>
+                                                <option value="3">3 beds</option>
+                                                <option value="4">4 beds</option>
+                                                <option value="5">5 beds</option>
+                                                <option value="6">6 beds</option>
+                                            </select>
+                                        </div>
+                                        <div class="col s6">
+                                            <select id="filter-dropdown-bed-max" name="filter-bed-max">
+                                                <option value="" selected>Max Beds</option>
+                                                <option value="1">1 bed</option>
+                                                <option value="2">2 beds</option>
+                                                <option value="3">3 beds</option>
+                                                <option value="4">4 beds</option>
+                                                <option value="5">5 beds</option>
+                                                <option value="6">6 beds</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="filter filter-property-type">
-                                <h4>Property type</h4>
-                                <div class="row margin-bottom-0">
-                                    <div class="col s12 m4 l3">
-                                        <input type="checkbox" id="property-type-1" name="property-type" value="flat"/>
-                                        <label for="property-type-1">Flat</label>
-                                    </div>
-                                    <div class="col s12 m4 l3">
-                                        <input type="checkbox" id="property-type-2" name="property-type" value="detached"/>
-                                        <label for="property-type-2">Detached</label>
-                                    </div>
-                                    <div class="col s12 m4 l3">
-                                        <input type="checkbox" id="property-type-3" name="property-type" value="semi-detached"/>
-                                        <label for="property-type-3">Semi-Detached</label>
-                                    </div>
-                                    <div class="col s12 m4 l3">
-                                        <input type="checkbox" id="property-type-4" name="property-type" value="Semi-Detached Bungalow"/>
-                                        <label for="property-type-4">Semi-Detached Bungalow</label>
-                                    </div>
-                                    <div class="col s12 m4 l3">
-                                        <input type="checkbox" id="property-type-5" name="property-type" value="terraced"/>
-                                        <label for="property-type-5">Terraced</label>
-                                    </div>
-                                    <div class="col s12 m4 l3">
-                                        <input type="checkbox" id="property-type-6" name="property-type" value="bungalow"/>
-                                        <label for="property-type-6">Bungalow</label>
-                                    </div>
-                                    <div class="col s12 m4 l3">
-                                        <input type="checkbox" id="property-type-7" name="property-type" value="apartment"/>
-                                        <label for="property-type-7">Apartment</label>
-                                    </div>
-                                    <div class="col s12 m4 l3">
-                                        <input type="checkbox" id="property-type-8" name="property-type" value="cottage"/>
-                                        <label for="property-type-8">Cottage</label>
+                                <div class="label">Property Type:</div>
+                                <div class="filter-fields">
+                                    <div class="row">
+                                        <div class="col s12 m4 l3">
+                                            <input type="checkbox" id="property-type-1" name="property-type" value="flat"/>
+                                            <label for="property-type-1">Flat</label>
+                                        </div>
+                                        <div class="col s12 m4 l3">
+                                            <input type="checkbox" id="property-type-2" name="property-type" value="detached"/>
+                                            <label for="property-type-2">Detached</label>
+                                        </div>
+                                        <div class="col s12 m4 l3">
+                                            <input type="checkbox" id="property-type-3" name="property-type" value="semi-detached"/>
+                                            <label for="property-type-3">Semi-Detached</label>
+                                        </div>
+                                        <div class="col s12 m4 l3">
+                                            <input type="checkbox" id="property-type-4" name="property-type" value="Semi-Detached Bungalow"/>
+                                            <label for="property-type-4">Semi-Detached Bungalow</label>
+                                        </div>
+                                        <div class="col s12 m4 l3">
+                                            <input type="checkbox" id="property-type-5" name="property-type" value="terraced"/>
+                                            <label for="property-type-5">Terraced</label>
+                                        </div>
+                                        <div class="col s12 m4 l3">
+                                            <input type="checkbox" id="property-type-6" name="property-type" value="bungalow"/>
+                                            <label for="property-type-6">Bungalow</label>
+                                        </div>
+                                        <div class="col s12 m4 l3">
+                                            <input type="checkbox" id="property-type-7" name="property-type" value="apartment"/>
+                                            <label for="property-type-7">Apartment</label>
+                                        </div>
+                                        <div class="col s12 m4 l3">
+                                            <input type="checkbox" id="property-type-8" name="property-type" value="cottage"/>
+                                            <label for="property-type-8">Cottage</label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="filter filter-property-added">
-                                <div class="row margin-bottom-0">
-                                    <div class="col s12 m6">
-                                        <h4>Added to site</h4>
-                                        <select id="added-to-site" name="added-to-site">
-                                            <option value="">Anytime</option>
-                                            <option value="1">Last 24 hours</option>
-                                            <option value="3">Last 3 days</option>
-                                            <option value="7">Last 7 days</option>
-                                            <option value="14">Last 14 days</option>
-                                        </select>
-                                    </div>
-                                    <div class="col s12 m6">
-                                        <h4 class="hide-on-small-and-down">&nbsp;</h4>
-                                        <div class="margin-top-25 center-align">
-                                            <input type="checkbox" id="property-stc" name="property-stc" value="1"/>
-                                            <label for="property-stc">Include Sold STC</label>
+                                <div class="label">Added to Site:</div>
+                                <div class="filter-fields">
+                                    <div class="row">
+                                        <div class="col s12 m6">
+                                            <select id="added-to-site" name="added-to-site">
+                                                <option value="">Anytime</option>
+                                                <option value="1">Last 24 hours</option>
+                                                <option value="3">Last 3 days</option>
+                                                <option value="7">Last 7 days</option>
+                                                <option value="14">Last 14 days</option>
+                                            </select>
                                         </div>
+                                        <div class="col s12 m6">
+                                            <div class="margin-top-5 center-align">
+                                                <input type="checkbox" id="property-stc" name="property-stc" value="1"/>
+                                                <label for="property-stc">Include Sold STC</label>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <div class="filter filter-action clearfix">
                                 <button type="button" class="waves-effect waves-light btn sp-secondary sp-primary-text right filter-action-done">Done</button>
-                                <button type="button" class="waves-effect waves-light btn white sp-secondary-text filter-action-clear">Clear</button>
+                                <!--<button type="reset" id="reset" class="waves-effect waves-light btn white sp-secondary-text filter-action-clear">Clear</button>-->
                             </div>
                         </div>
 
@@ -458,8 +494,9 @@
                         </div>
 
                         <div class="center-align margin-top-40 pagination-holder sp-secondary lighten-4">
-                            <div class="next inb right"><a href="#">Next &Gt;</a></div>
-                            <div class="prev inb left"><a href="#">&Lt; Previous</a></div>
+
+                            <div class="next inb right">Next &Gt;</div>
+                            <div class="prev inb left">&Lt; Previous</div>
                             <div class="inb">
                                 <div class="inb">Page</div>
                                 <div class="inb select">
@@ -469,7 +506,6 @@
                                     of <span class="total-page-count">1</span>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 

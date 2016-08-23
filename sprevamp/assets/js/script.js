@@ -192,6 +192,25 @@ if (location.hash) {
             }
             $("#page").material_select();
             $(".total-page-count").text(pageNeeded.toLocaleString());
+            $(".pagination-holder .prev").addClass("disabled");
+            $(".pagination-holder .next").removeClass("disabled");
+        }
+        function goToPage(direction){
+            var targetPage = +($("#page").val()) + (+direction);
+            var totalPageCount =$(".total-page-count").text();
+            if(targetPage==1){
+                $(".pagination-holder .prev").addClass("disabled");
+                $(".pagination-holder .next").removeClass("disabled");
+            }
+            if(targetPage==totalPageCount){
+                $(".pagination-holder .prev").removeClass("disabled");
+                $(".pagination-holder .next").addClass("disabled");
+            }
+            if(targetPage>=1 && targetPage <= totalPageCount){
+                $("#page").val(targetPage).material_select();
+                $("#current-page").val(targetPage);
+                loadPropertyList(false);
+            }
         }
 
         function loadPropertyList(isClearPagination){
@@ -284,13 +303,7 @@ if (location.hash) {
             function showFilters($this){
                 $this.addClass("active");
 
-                if($this.hasClass("field-price")){
-                    $(".property-search-extra .filter").hide();
-                    $(".property-search-extra .filter-price").show();
-                } else if($this.hasClass("field-beds")){
-                    $(".property-search-extra .filter").hide();
-                    $(".property-search-extra .filter-bed").show();
-                } else if($this.hasClass("field-property-type")){
+                if($this.hasClass("field-property-type")){
                     $(".property-search-extra .filter").hide();
                     $(".property-search-extra .filter-property-type").show();
                 } else if($this.hasClass("field-filters")){
@@ -312,7 +325,7 @@ if (location.hash) {
                 $(".property-search-bar .field.active").removeClass("active");
                 $(".property-search-extra").slideUp("fast");
             }
-            $(".property-search-bar .field").not(".field-search").click(function(e){
+            $(".field-property-type, .field-filters").click(function(e){
                 e.stopPropagation();
                 var $this = $(this);
 
@@ -331,65 +344,41 @@ if (location.hash) {
                 }
 
             });
-            // price slider
-            var priceSlider = $(".price-slider").get(0);
-            noUiSlider.create(priceSlider, {
-                start: [50000, 3000000],
-                connect: true,
-                range: {
-                    'min': [ 50000, 10000 ],
-                    '62%': [ 300000, 25000 ],
-                    '78%': [ 500000, 50000 ],
-                    '86%': [ 700000, 100000 ],
-                    '92%': [ 1000000, 500000 ],
-                    'max': [ 3000000 ]
-                },
-                format: wNumb({
-                    decimals: 0
-                })
+            // price dropdowns
+            $("#field-dropdown-price-min").change(function(){
+                $("#filter-dropdown-price-min").val($(this).val()).material_select();
+                loadPropertyList(true);
             });
-            priceSlider.noUiSlider.on('update', function( values, handle ) {
-                $("#filter-price-min").val(values[0]);
-                $("#filter-price-max").val(values[1]);
-                var text = "&pound;" + (+values[0]).toLocaleString();
-                if(values[0] != values[1]){
-                    text += " to " + "&pound;" + (+values[1]).toLocaleString();
-                }
-                $(priceSlider).closest(".filter").find(".filter-value").empty().append(text);
-                $(".field-price .value").empty().append(text);
+            $("#field-dropdown-price-max").change(function(){
+                $("#filter-dropdown-price-max").val($(this).val()).material_select();
+                loadPropertyList(true);
             });
-            priceSlider.noUiSlider.on('change', function(){
+            $("#filter-dropdown-price-min").change(function(){
+                $("#field-dropdown-price-min").val($(this).val()).material_select();
+                loadPropertyList(true);
+            });
+            $("#filter-dropdown-price-max").change(function(){
+                $("#field-dropdown-price-max").val($(this).val()).material_select();
                 loadPropertyList(true);
             });
 
-            // bed slider
-            var bedSlider = $(".bed-slider").get(0);
-            noUiSlider.create(bedSlider, {
-                start: [1, 6],
-                connect: true,
-                step: 1,
-                range: {
-                    'min': 1,
-                    'max': 6
-                },
-                format: wNumb({
-                    decimals: 0
-                })
-            });
-            bedSlider.noUiSlider.on('update', function( values, handle ) {
-                $("#filter-bed-min").val(values[0]);
-                $("#filter-bed-max").val(values[1]);
-                var text = values[0] + (values[0]==1?" bed":" beds");
-                if(values[0] != values[1]){
-                    text += " to " + values[1] + (values[1]==1?" bed":" beds");
-                }
-                $(bedSlider).closest(".filter").find(".filter-value").empty().append(text);
-                $(".field-beds .value").empty().append(text);
-            });
-            bedSlider.noUiSlider.on('change', function(){
+            // bed dropdown
+            $("#field-dropdown-bed-min").change(function(){
+                $("#filter-dropdown-bed-min").val($(this).val()).material_select();
                 loadPropertyList(true);
             });
-
+            $("#field-dropdown-bed-max").change(function(){
+                $("#filter-dropdown-bed-max").val($(this).val()).material_select();
+                loadPropertyList(true);
+            });
+            $("#filter-dropdown-bed-min").change(function(){
+                $("#field-dropdown-bed-min").val($(this).val()).material_select();
+                loadPropertyList(true);
+            });
+            $("#filter-dropdown-bed-max").change(function(){
+                $("#field-dropdown-bed-max").val($(this).val()).material_select();
+                loadPropertyList(true);
+            });
 
             // property types
             $(".filter-property-type input").click(function(){
@@ -421,6 +410,16 @@ if (location.hash) {
             $("#page").change(function(){
                 $("#current-page").val($("#page").val());
                 loadPropertyList(false);
+            });
+            $(".pagination-holder .prev").click(function(){
+                if(!$(this).hasClass("disabled")){
+                    goToPage(-1);
+                }
+            });
+            $(".pagination-holder .next").click(function(){
+                if(!$(this).hasClass("disabled")){
+                    goToPage(+1);
+                }
             });
 
             // load initial data

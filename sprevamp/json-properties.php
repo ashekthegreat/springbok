@@ -20,7 +20,7 @@ echo json_encode(array(
             'url' => 'property-details.php', // should be replaced with proper url
             'address' => 'Buchanan Street, Pendlebury, Swinton, Manchester',
             'price' => 105000,
-            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus.',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus.',
             'image_count' => 1,
             'image_url' => 'assets/images/success/halfpenny_lane.jpg'  // should be replaced with proper url
         ),
