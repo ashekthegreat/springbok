@@ -227,7 +227,7 @@
                         <div class="card white sp-secondary-text margin-top-0">
                             <div class="card-content">
                                 <p class="big search-criteria"></p>
-                                <p><strong class="bigger total">4,241</strong> Results</p>
+                                <p><strong class="bigger total">-</strong> Results</p>
                             </div>
                         </div>
 

@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-sleep(2);
+sleep(1);
 echo json_encode(array(
     "total" => 3123,
     "items" => array(

@@ -228,20 +228,46 @@ if (location.hash) {
                 loadPropertyList(false);
             }
         }
+        function prepareSearchCriteria(){
+            var searchCriteria = 'Properties For Sale in ';
+            searchCriteria += $("#search").val()?$("#search").val():"all area";
+
+            // price
+            if($("#field-dropdown-price-min").val() && $("#field-dropdown-price-max").val()){
+                searchCriteria += ", " + $("#field-dropdown-price-min option:selected").text() + " - " + $("#field-dropdown-price-max option:selected").text();
+            } else if($("#field-dropdown-price-min").val()){
+                searchCriteria += ", at least " + $("#field-dropdown-price-min option:selected").text();
+            } else if($("#field-dropdown-price-max").val()){
+                searchCriteria += ", up to " + $("#field-dropdown-price-max option:selected").text();
+            }
+
+            // bed
+            if($("#field-dropdown-bed-min").val() && $("#field-dropdown-bed-max").val()){
+                searchCriteria += ", " + $("#field-dropdown-bed-min").val() + " - " + $("#field-dropdown-bed-max option:selected").text();
+            } else if($("#field-dropdown-bed-min").val()){
+                searchCriteria += ", at least " + $("#field-dropdown-bed-min option:selected").text();
+            } else if($("#field-dropdown-bed-max").val()){
+                searchCriteria += ", up to " + $("#field-dropdown-bed-max option:selected").text();
+            }
+
+            // added
+            if($("#added-to-site").val()){
+                searchCriteria += ", added in the " + $("#added-to-site option:selected").text();
+            }
+
+            $(".search-criteria").text(searchCriteria);
+
+
+        }
 
         function loadPropertyList(isClearPagination){
             if(isClearPagination){
                 $("#current-page").val(1);
+                prepareSearchCriteria();
             }
             var data = $('.property-search-bar form').serializeArray();
             //data.push({name: 'page', value: 1});
             //data.push({name: 'limit', value: 10});
-
-            var searchCriteria = 'Properties For Sale in ';
-            searchCriteria += $("#search").val()?$("#search").val():"all area";
-            searchCriteria += " with a price range of " + $(".field-price .value").text();
-
-            $(".search-criteria").text(searchCriteria);
 
             var $cards = $(".property-card");
             $cards.addClass("busy");
