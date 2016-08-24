@@ -64,7 +64,7 @@
                                 <div class="card-body big">
                                     <i class="sprite sprite-call"></i> Call (open 24/7)<br>
                                     <a href="tel:08000684015" class="nowrap">0800 068 4015</a><br>
-                                    Or <a href="investments.php">See Investment Properties</a>
+                                    Or <a href="property-list.php">See Investment Properties</a>
                                 </div>
                             </div>
                         </div>

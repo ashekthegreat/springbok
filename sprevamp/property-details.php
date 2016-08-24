@@ -99,7 +99,7 @@
                         </div>
 
                         <div class="property-details z-depth-1">
-                            <ul class="tabs margin-bottom-0">
+                            <ul class="tabs old margin-bottom-0">
                                 <li class="tab col s3"><a class="active" href="#property-tab-description">Description</a></li>
                                 <li class="tab col s3"><a href="#property-tab-map">Map</a></li>
                             </ul>
@@ -174,7 +174,7 @@
                                 </div>
 
                                 <div class="item property-sidebar-action">
-                                    <a class="save-property not-logged-in" href="login.php?signin=true"><span class="sprite sprite-star-24"></span> Save Property</a>
+                                    <a class="save-property not-logged-in" href="register.php#signin"><span class="sprite sprite-star-24"></span> Save Property</a>
                                 </div>
                                 <div class="item property-sidebar-action">
                                     <a class="print-property" href="http://springbokproperties.co.uk/print.php?propertyId=11794"><span class="sprite sprite-printer-24"></span> Print</a>
@@ -201,13 +201,11 @@
 
                                 <h4 class="margin-top-0">Investment Details</h4>
 
-                                <div class="item">
-
-                                </div>
+                                <div class="item"></div>
                                 <div class="item">
                                     <strong>Deposit:</strong> &pound;49,988 (25%)
                                 </div>
-                                <div class="item">
+                                <div class="item not-logged-in">
                                     <strong>Average Rental Figure:</strong> <strong class="question">?</strong> <small>Log in to unlock details</small>
                                 </div>
                                 <div class="item">
@@ -216,13 +214,13 @@
                                 <div class="item">
                                     <strong>Mortgage Rate:</strong> 3.5%
                                 </div>
-                                <div class="item">
+                                <div class="item not-logged-in">
                                     <strong>Gross Yield:</strong> <strong class="question">?</strong> <small>Log in to unlock details</small>
                                 </div>
-                                <div class="item">
+                                <div class="item not-logged-in">
                                     <strong>Return on Investment:</strong> <strong class="question">?</strong> <small>Log in to unlock details</small>
                                 </div>
-                                <div class="item">
+                                <div class="item not-logged-in">
                                     <strong>Property Growth:</strong> <strong class="question">?</strong> <small>Log in to unlock details</small>
                                 </div>
                             </div>

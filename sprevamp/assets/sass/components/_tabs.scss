@@ -60,3 +60,26 @@
     will-change: left, right;
   }
 }
+
+.tabs.old {
+  overflow: visible;
+  .tab {
+    a {
+      background: #eee;
+      border-bottom: 2px solid #ccc;
+
+      &.active {
+        background: #fff;
+      }
+    }
+    & + .tab {
+      a{
+        box-shadow: 1px 0 0px #ccc inset;
+      }
+    }
+  }
+  .indicator {
+    bottom: -3px;
+    background: #fff;
+  }
+}

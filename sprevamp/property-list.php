@@ -332,7 +332,7 @@
                         </div>
 
                         <div class="margin-bottom-40 margin-top-40 adv-horizontal">
-                            <a href="#" class="white z-depth-1">
+                            <a href="free-valuation.php" class="white z-depth-1">
                                 <img src="assets/images/advertise/adv-hor-1.jpg" class="responsive-img" width="803" height="122">
                             </a>
                         </div>
@@ -438,7 +438,7 @@
                         </div>
 
                         <div class="margin-bottom-40 margin-top-40 adv-horizontal">
-                            <a href="#" class="white z-depth-1">
+                            <a href="investments.php" class="white z-depth-1">
                                 <img src="assets/images/advertise/adv-hor-2.jpg" class="responsive-img" width="803" height="122">
                             </a>
                         </div>
@@ -513,12 +513,12 @@
                         <div class="property-list-adv">
                             <div class="row">
                                 <div class="col s12 m4 l12 margin-bottom-15">
-                                    <a href="#" class="center-block">
+                                    <a href="free-valuation.php" class="center-block">
                                         <img src="assets/images/advertise/adv-1.jpg" width="300" height="260" class="responsive-img hoverable"/>
                                     </a>
                                 </div>
                                 <div class="col s12 m4 l12 margin-bottom-15">
-                                    <a href="#">
+                                    <a href="investments.php">
                                         <img src="assets/images/advertise/adv-2.jpg" width="300" height="260" class="responsive-img hoverable"/>
                                     </a>
                                 </div>

@@ -144,6 +144,22 @@ if (location.hash) {
         });
     });
 
+    // login modal
+    $(function () {
+        var $modal = $("#login-modal");
+        $(".not-logged-in").click(function () {
+            var active = "signin";
+            if($(this).hasClass("go-register")){
+                active = "register";
+            }
+
+            $modal.openModal({
+                ready: function() { $modal.find('ul.tabs').tabs('select_tab', active); }
+            });
+            return false;
+        });
+    });
+
     /* property-list */
     $(function () {
         var $propertySearch = $(".properties-search");

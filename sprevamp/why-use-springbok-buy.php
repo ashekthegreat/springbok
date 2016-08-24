@@ -42,7 +42,7 @@
                             We have hundreds of properties for sale all over the UK. We list all sorts of homes for all sizes of mortgage,
                             from efficient studio flats to massive five-bed family homes. Whatever your budget is, Springbok
                             has properties for you to view. If you are an investor,
-                            <a href="#">click here</a> to get access to our exclusive investment deals.
+                            <a href="investments.php">click here</a> to get access to our exclusive investment deals.
                         </p>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                             we're here. Our lines are open 24/7 every single day of the year, so we never miss a call.
                             And if you prefer email contact, we aim to respond to online enquiries within an
                             hour - making sure you register your interest and move a step closer to ownership
-                            as quickly as possible. Go to our <a href="#">properties for sale</a> now.
+                            as quickly as possible. Go to our <a href="property-list.php">properties for sale</a> now.
                         </p>
                     </div>
                 </div>

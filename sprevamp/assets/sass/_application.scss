@@ -885,24 +885,6 @@ main {
         }
     }
 
-    .tabs {
-        overflow: visible;
-        .tab {
-            a {
-                background: #eee;
-                border-bottom: 2px solid #ccc;
-                border-right: 1px solid #ccc;
-                &.active {
-                    background: #fff;
-                }
-            }
-        }
-        .indicator {
-            bottom: -3px;
-            background: #fff;
-        }
-    }
-
     .list-style-square, .list-style-square li {
         padding-left: 2rem;
         position: relative;

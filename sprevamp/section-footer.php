@@ -23,8 +23,8 @@
                         <li><a href="free-valuation.php">Get Free Valuation</a></li>
                         <li><a href="property-list.php">Search Properties</a></li>
                         <li><a href="contact-us.php">Contact Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Buyer Sign-in / Register</a></li>
+                        <li><a href="http://springbokproperties.co.uk/careers/index.html">Careers</a></li>
+                        <li><a href="register.php#signin">Buyer Sign-in / Register</a></li>
                     </ul>
                 </div>
                 <div class="col s12 m4">
@@ -125,6 +125,81 @@
     <div class="modal-footer">
         <div class="container">
             <a href="#" class="cmd-submit modal-action modal-close waves-effect waves-green btn sp-secondary sp-primary-text">Book Viewing</a>
+        </div>
+    </div>
+</div>
+
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <h4 class="margin-top-0 margin-bottom-30">Login required</h4>
+        <ul class="tabs old margin-bottom-0">
+            <li class="tab col s3"><a href="#register">Create Account</a></li>
+            <li class="tab col s3"><a href="#signin">Sign In</a></li>
+        </ul>
+
+        <div class="tab-content margin-0 card-panel z-depth-0">
+            <div role="tabpanel" class="tab-pane" id="register">
+                <form id="web_form" action="" method="post" name="web_form">
+                    <p class="red-text center-align" style="display: none"></p>
+                    <div class="row margin-bottom-0">
+                        <div class="input-field col s3">
+                            <input type="text" maxlength="10" id="title" class="validate[required]" name="title">
+                            <label for="title">Title</label>
+                        </div>
+                        <div class="input-field col s5">
+                            <input type="text" maxlength="30" id="firstname" class="validate[required]" name="firstname">
+                            <label for="firstname">First Name</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input type="text" maxlength="30" id="lastname" class="validate[required]" name="lastname">
+                            <label for="lastname">Last Name</label>
+                        </div>
+                    </div>
+
+                    <div class="row margin-bottom-0">
+                        <div class="input-field col s12">
+                            <input type="text" maxlength="100" id="email" class="validate[required,custom[email]]" name="email">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-0">
+                        <div class="input-field col s12">
+                            <input type="password" maxlength="20" id="password" class="validate[required,minSize[6]]" name="password">
+                            <label for="password">Password (at least 6 characters)</label>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-0">
+                        <div class="input-field col s12">
+                            <input type="password" maxlength="20" id="confpassword" class="validate[required,equals[password]]" name="confpassword">
+                            <label for="confpassword">Password Confirmation</label>
+                        </div>
+                    </div>
+
+                    <input type="submit" name="saveWebForm" id="saveWebForm" class="btn sp-primary sp-secondary-text margin-top-20" value="Create account">
+                </form>
+                <p class="smaller margin-top-30">
+                    By clicking Create Account you confirm that you agree to our website
+                    <a target="_blank" href="http://springbokproperties.co.uk/terms-and-conditions">terms of use</a> and our <a target="_blank" href="http://springbokproperties.co.uk/privacy-policy">privacy policy</a>
+                </p>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="signin">
+                <form id="web_form2" action="" method="post" name="web_form2">
+                    <p class="red-text center-align"style="display: none"></p>
+                    <div class="row margin-bottom-0">
+                        <div class="input-field col s12">
+                            <input type="text" maxlength="100" id="signin-email" class="validate[required,custom[email]]" name="email">
+                            <label for="signin-email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-0">
+                        <div class="input-field col s12">
+                            <input type="password" maxlength="20" id="signin-password" class="form-control validate[required]" name="password">
+                            <label for="signin-password">Password (at least 6 characters)</label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Sign in" id="signin" name="signin" class="btn sp-primary sp-secondary-text margin-top-20">
+                </form>
+            </div>
         </div>
     </div>
 </div>

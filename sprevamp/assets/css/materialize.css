@@ -4589,21 +4589,39 @@ small {
 }
 
 /* line 107, ../sass/components/_typography.scss */
+.small {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/* line 111, ../sass/components/_typography.scss */
+.smaller {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/* line 115, ../sass/components/_typography.scss */
+.smallest {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+/* line 119, ../sass/components/_typography.scss */
 .text-underline {
   text-decoration: underline;
 }
 
-/* line 111, ../sass/components/_typography.scss */
+/* line 123, ../sass/components/_typography.scss */
 .text-italic {
   font-style: italic;
 }
 
-/* line 115, ../sass/components/_typography.scss */
+/* line 127, ../sass/components/_typography.scss */
 .text-strong {
   font-weight: 500;
 }
 
-/* line 119, ../sass/components/_typography.scss */
+/* line 131, ../sass/components/_typography.scss */
 .text-bold {
   font-weight: 700;
 }
@@ -4852,6 +4870,29 @@ small {
   height: 5px;
   background-color: #6b6770;
   will-change: left, right;
+}
+
+/* line 64, ../sass/components/_tabs.scss */
+.tabs.old {
+  overflow: visible;
+}
+/* line 67, ../sass/components/_tabs.scss */
+.tabs.old .tab a {
+  background: #eee;
+  border-bottom: 2px solid #ccc;
+}
+/* line 71, ../sass/components/_tabs.scss */
+.tabs.old .tab a.active {
+  background: #fff;
+}
+/* line 76, ../sass/components/_tabs.scss */
+.tabs.old .tab + .tab a {
+  box-shadow: 1px 0 0px #ccc inset;
+}
+/* line 81, ../sass/components/_tabs.scss */
+.tabs.old .indicator {
+  bottom: -3px;
+  background: #fff;
 }
 
 /* line 2, ../sass/components/_buttons.scss */
@@ -7526,238 +7567,259 @@ input[type=range]:focus::-ms-fill-upper {
 .sprite-badge {
   width: 60px;
   height: 88px;
-  background-position: -268px -273px;
+  background-position: -666px -194px;
 }
 
 /* line 62, ../sass/sprites/_sprite.scss */
 .sprite-badge-first {
   width: 71px;
   height: 108px;
-  background-position: -368px -273px;
+  background-position: -268px -322px;
 }
 
 /* line 68, ../sass/sprites/_sprite.scss */
 .sprite-best {
   width: 95px;
   height: 124px;
-  background-position: -479px -273px;
+  background-position: -379px -322px;
 }
 
 /* line 74, ../sass/sprites/_sprite.scss */
 .sprite-calendar {
   width: 49px;
   height: 56px;
-  background-position: -666px -194px;
+  background-position: -514px -322px;
 }
 
 /* line 80, ../sass/sprites/_sprite.scss */
 .sprite-call {
   width: 32px;
   height: 32px;
-  background-position: -614px -290px;
+  background-position: -603px -322px;
 }
 
 /* line 86, ../sass/sprites/_sprite.scss */
 .sprite-call-20 {
   width: 20px;
   height: 20px;
-  background-position: -686px -290px;
+  background-position: -714px -20px;
 }
 
 /* line 92, ../sass/sprites/_sprite.scss */
 .sprite-call-247 {
   width: 32px;
   height: 32px;
-  background-position: -686px -350px;
+  background-position: -675px -322px;
 }
 
 /* line 98, ../sass/sprites/_sprite.scss */
 .sprite-call-center {
   width: 124px;
   height: 112px;
-  background-position: -20px -437px;
+  background-position: -20px -394px;
 }
 
 /* line 104, ../sass/sprites/_sprite.scss */
 .sprite-call-large {
   width: 54px;
   height: 70px;
-  background-position: -184px -422px;
+  background-position: -603px -394px;
 }
 
 /* line 110, ../sass/sprites/_sprite.scss */
 .sprite-call-medium {
   width: 36px;
   height: 47px;
-  background-position: -278px -422px;
+  background-position: -184px -394px;
 }
 
 /* line 116, ../sass/sprites/_sprite.scss */
 .sprite-computer {
   width: 83px;
   height: 74px;
-  background-position: -354px -422px;
+  background-position: -184px -504px;
 }
 
 /* line 122, ../sass/sprites/_sprite.scss */
 .sprite-down-16 {
   width: 16px;
   height: 16px;
-  background-position: -614px -422px;
+  background-position: -714px -80px;
 }
 
 /* line 128, ../sass/sprites/_sprite.scss */
 .sprite-house {
   width: 65px;
   height: 65px;
-  background-position: -477px -478px;
+  background-position: -307px -504px;
 }
 
 /* line 134, ../sass/sprites/_sprite.scss */
 .sprite-left-arrow-round {
   width: 42px;
   height: 41px;
-  background-position: -670px -422px;
+  background-position: -412px -504px;
 }
 
 /* line 140, ../sass/sprites/_sprite.scss */
-.sprite-menu {
-  width: 30px;
-  height: 20px;
-  background-position: -582px -503px;
+.sprite-mail-big {
+  width: 54px;
+  height: 44px;
+  background-position: -494px -504px;
 }
 
 /* line 146, ../sass/sprites/_sprite.scss */
-.sprite-message-24 {
-  width: 24px;
-  height: 24px;
-  background-position: -652px -503px;
+.sprite-menu {
+  width: 30px;
+  height: 20px;
+  background-position: -697px -394px;
 }
 
 /* line 152, ../sass/sprites/_sprite.scss */
-.sprite-no-sale {
-  width: 110px;
-  height: 109px;
-  background-position: -184px -567px;
+.sprite-message-24 {
+  width: 24px;
+  height: 24px;
+  background-position: -697px -454px;
 }
 
 /* line 158, ../sass/sprites/_sprite.scss */
-.sprite-no-upfront {
-  width: 151px;
-  height: 152px;
-  background-position: -755px -20px;
+.sprite-no-sale {
+  width: 110px;
+  height: 109px;
+  background-position: -588px -518px;
 }
 
 /* line 164, ../sass/sprites/_sprite.scss */
-.sprite-no-upfront-small {
-  width: 100px;
-  height: 101px;
-  background-position: -758px -212px;
+.sprite-no-upfront {
+  width: 151px;
+  height: 152px;
+  background-position: -774px -20px;
 }
 
 /* line 170, ../sass/sprites/_sprite.scss */
-.sprite-note-24 {
-  width: 24px;
-  height: 24px;
-  background-position: -758px -353px;
+.sprite-no-upfront-small {
+  width: 100px;
+  height: 101px;
+  background-position: -766px -212px;
 }
 
 /* line 176, ../sass/sprites/_sprite.scss */
-.sprite-people {
-  width: 78px;
-  height: 38px;
-  background-position: -822px -353px;
+.sprite-note-24 {
+  width: 24px;
+  height: 24px;
+  background-position: -767px -353px;
 }
 
 /* line 182, ../sass/sprites/_sprite.scss */
-.sprite-people-large {
-  width: 103px;
-  height: 68px;
-  background-position: -752px -431px;
+.sprite-people {
+  width: 78px;
+  height: 38px;
+  background-position: -831px -353px;
 }
 
 /* line 188, ../sass/sprites/_sprite.scss */
-.sprite-printer-24 {
-  width: 24px;
-  height: 24px;
-  background-position: -334px -539px;
+.sprite-people-large {
+  width: 103px;
+  height: 68px;
+  background-position: -767px -431px;
 }
 
 /* line 194, ../sass/sprites/_sprite.scss */
-.sprite-reviews {
-  width: 115px;
-  height: 114px;
-  background-position: -716px -539px;
+.sprite-printer-24 {
+  width: 24px;
+  height: 24px;
+  background-position: -514px -431px;
 }
 
 /* line 200, ../sass/sprites/_sprite.scss */
-.sprite-right-16 {
-  width: 16px;
-  height: 16px;
-  background-position: -398px -539px;
+.sprite-reviews {
+  width: 115px;
+  height: 114px;
+  background-position: -738px -539px;
 }
 
 /* line 206, ../sass/sprites/_sprite.scss */
+.sprite-right-16 {
+  width: 16px;
+  height: 16px;
+  background-position: -906px -212px;
+}
+
+/* line 212, ../sass/sprites/_sprite.scss */
 .sprite-right-arrow-round {
   width: 42px;
   height: 41px;
   background-position: -20px -693px;
 }
 
-/* line 212, ../sass/sprites/_sprite.scss */
-.sprite-side-val {
-  width: 39px;
-  height: 146px;
-  background-position: -871px -539px;
-}
-
 /* line 218, ../sass/sprites/_sprite.scss */
-.sprite-slideshow {
-  width: 13px;
-  height: 12px;
-  background-position: -895px -431px;
+.sprite-search-big {
+  width: 54px;
+  height: 52px;
+  background-position: -102px -693px;
 }
 
 /* line 224, ../sass/sprites/_sprite.scss */
-.sprite-slideshow-small {
-  width: 16px;
-  height: 16px;
-  background-position: -102px -725px;
+.sprite-side-val {
+  width: 39px;
+  height: 146px;
+  background-position: -196px -693px;
 }
 
 /* line 230, ../sass/sprites/_sprite.scss */
-.sprite-sp-logo {
-  width: 146px;
-  height: 110px;
-  background-position: -334px -693px;
+.sprite-slideshow {
+  width: 13px;
+  height: 12px;
+  background-position: -268px -268px;
 }
 
 /* line 236, ../sass/sprites/_sprite.scss */
-.sprite-star-24 {
-  width: 24px;
-  height: 24px;
-  background-position: -158px -725px;
+.sprite-slideshow-small {
+  width: 16px;
+  height: 16px;
+  background-position: -906px -268px;
 }
 
 /* line 242, ../sass/sprites/_sprite.scss */
-.sprite-thumb {
-  width: 69px;
-  height: 66px;
-  background-position: -520px -693px;
+.sprite-sp-logo {
+  width: 146px;
+  height: 110px;
+  background-position: -275px -693px;
 }
 
 /* line 248, ../sass/sprites/_sprite.scss */
-.sprite-tick-dark {
-  width: 35px;
-  height: 29px;
-  background-position: -222px -725px;
+.sprite-star-24 {
+  width: 24px;
+  height: 24px;
+  background-position: -893px -539px;
 }
 
 /* line 254, ../sass/sprites/_sprite.scss */
+.sprite-star-big {
+  width: 54px;
+  height: 60px;
+  background-position: -461px -693px;
+}
+
+/* line 260, ../sass/sprites/_sprite.scss */
+.sprite-thumb {
+  width: 69px;
+  height: 66px;
+  background-position: -555px -693px;
+}
+
+/* line 266, ../sass/sprites/_sprite.scss */
+.sprite-tick-dark {
+  width: 35px;
+  height: 29px;
+  background-position: -664px -693px;
+}
+
+/* line 272, ../sass/sprites/_sprite.scss */
 .sprite-tick-yellow {
   width: 35px;
   height: 29px;
-  background-position: -629px -725px;
+  background-position: -739px -693px;
 }
 
 /* Social icons */
@@ -9727,44 +9789,25 @@ main a:hover {
   margin-right: 8px;
 }
 /* line 888, ../sass/_application.scss */
-.property-details .tabs {
-  overflow: visible;
-}
-/* line 891, ../sass/_application.scss */
-.property-details .tabs .tab a {
-  background: #eee;
-  border-bottom: 2px solid #ccc;
-  border-right: 1px solid #ccc;
-}
-/* line 895, ../sass/_application.scss */
-.property-details .tabs .tab a.active {
-  background: #fff;
-}
-/* line 900, ../sass/_application.scss */
-.property-details .tabs .indicator {
-  bottom: -3px;
-  background: #fff;
-}
-/* line 906, ../sass/_application.scss */
 .property-details .list-style-square, .property-details .list-style-square li {
   padding-left: 2rem;
   position: relative;
   line-height: inherit;
 }
-/* line 912, ../sass/_application.scss */
+/* line 894, ../sass/_application.scss */
 .property-details .list-style-square {
   padding-bottom: 16px;
 }
-/* line 916, ../sass/_application.scss */
+/* line 898, ../sass/_application.scss */
 .property-details .list-style-square li {
   padding: 8px 8px 8px 24px;
   list-style-type: none;
 }
-/* line 921, ../sass/_application.scss */
+/* line 903, ../sass/_application.scss */
 .property-details ul.list-style-square {
   padding-left: 0;
 }
-/* line 925, ../sass/_application.scss */
+/* line 907, ../sass/_application.scss */
 .property-details .list-style-square:before, .property-details .list-style-square li:before {
   border-top: 8px solid #ffef00;
   border-top-width: .8rem;
@@ -9773,22 +9816,22 @@ main a:hover {
   left: 0;
   width: 11px;
 }
-/* line 934, ../sass/_application.scss */
+/* line 916, ../sass/_application.scss */
 .property-details .list-style-square li:before {
   top: 13px;
   left: 4px;
 }
-/* line 939, ../sass/_application.scss */
+/* line 921, ../sass/_application.scss */
 .property-details .list-style-square:before {
   display: none;
 }
-/* line 943, ../sass/_application.scss */
+/* line 925, ../sass/_application.scss */
 .property-details .list-two-col li {
   float: left;
   width: 50%;
   border-bottom: 1px solid #ececec;
 }
-/* line 948, ../sass/_application.scss */
+/* line 930, ../sass/_application.scss */
 .property-details h3 {
   font-size: 1.5rem;
 }

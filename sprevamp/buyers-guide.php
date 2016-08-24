@@ -153,7 +153,7 @@
         <section class="sp-secondary lighten-5 sp-secondary-text">
             <div class="container center-align">
                 <h4>
-                    Ready to buy? Start by searching our <a href="#">properties for sale</a>
+                    Ready to buy? Start by searching our <a href="property-list.php">properties for sale</a>
                 </h4>
             </div>
         </section>
