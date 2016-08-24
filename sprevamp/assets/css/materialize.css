@@ -10853,13 +10853,21 @@ main a:hover {
   vertical-align: top;
 }
 
-/* line 949, ../sass/_inner.scss */
+@keyframes busy {
+  0% {
+    background: rgba(255, 255, 255, 0);
+  }
+  100% {
+    background: white;
+  }
+}
+/* line 957, ../sass/_inner.scss */
 .card.property-card {
   margin-top: 0;
   margin-bottom: 20px;
   position: relative;
 }
-/* line 955, ../sass/_inner.scss */
+/* line 963, ../sass/_inner.scss */
 .card.property-card.busy:after {
   position: absolute;
   top: 0;
@@ -10867,21 +10875,22 @@ main a:hover {
   right: 0;
   bottom: 0;
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0);
   z-index: 1;
+  animation: busy 1s;
 }
-/* line 967, ../sass/_inner.scss */
+/* line 976, ../sass/_inner.scss */
 .card.property-card .card-image {
   width: 45%;
   max-width: none;
 }
-/* line 971, ../sass/_inner.scss */
+/* line 980, ../sass/_inner.scss */
 .card.property-card .card-image-footer {
   background: #f0eff1;
   padding: 12px 20px;
   position: relative;
 }
-/* line 975, ../sass/_inner.scss */
+/* line 984, ../sass/_inner.scss */
 .card.property-card .card-image-footer .camera {
   white-space: nowrap;
   font-size: 1.5rem;
@@ -10890,55 +10899,55 @@ main a:hover {
   text-decoration: none;
   margin-top: 10px;
 }
-/* line 983, ../sass/_inner.scss */
+/* line 992, ../sass/_inner.scss */
 .card.property-card .card-image-footer .camera img {
   display: inline-block;
   vertical-align: top;
 }
-/* line 988, ../sass/_inner.scss */
+/* line 997, ../sass/_inner.scss */
 .card.property-card .card-image-footer strong {
   display: block;
   font-size: 28px;
   line-height: 1;
 }
-/* line 995, ../sass/_inner.scss */
+/* line 1004, ../sass/_inner.scss */
 .card.property-card .card-content a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 1000, ../sass/_inner.scss */
+/* line 1009, ../sass/_inner.scss */
 .card.property-card .card-content h4 {
   /*height: 56px;
   overflow: hidden;*/
   font-weight: 400;
   margin-top: 0;
 }
-/* line 1006, ../sass/_inner.scss */
+/* line 1015, ../sass/_inner.scss */
 .card.property-card .card-content p {
   height: 110px;
   min-height: 88px;
   overflow: hidden;
 }
-/* line 1012, ../sass/_inner.scss */
+/* line 1021, ../sass/_inner.scss */
 .card.property-card .card-action {
   padding: 10px 20px;
 }
-/* line 1015, ../sass/_inner.scss */
+/* line 1024, ../sass/_inner.scss */
 .card.property-card .card-action .call-now {
   font-size: 18px;
   line-height: 1;
   text-align: center;
   font-weight: 500;
 }
-/* line 1021, ../sass/_inner.scss */
+/* line 1030, ../sass/_inner.scss */
 .card.property-card .card-action .click-to-call a {
   color: inherit !important;
   margin: 0 !important;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 1029, ../sass/_inner.scss */
+  /* line 1038, ../sass/_inner.scss */
   .card.property-card .card-image {
     display: flex;
     flex-direction: column;
@@ -10946,70 +10955,70 @@ main a:hover {
     position: relative;
     max-width: 40%;
   }
-  /* line 1036, ../sass/_inner.scss */
+  /* line 1045, ../sass/_inner.scss */
   .card.property-card .card-image .responsive-img {
     flex-grow: 1;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 1043, ../sass/_inner.scss */
+  /* line 1052, ../sass/_inner.scss */
   .card.property-card {
     display: block;
   }
-  /* line 1045, ../sass/_inner.scss */
+  /* line 1054, ../sass/_inner.scss */
   .card.property-card .card-image {
     width: 100%;
     display: block;
   }
-  /* line 1049, ../sass/_inner.scss */
+  /* line 1058, ../sass/_inner.scss */
   .card.property-card .card-image .responsive-img {
     width: 100%;
     height: auto;
   }
-  /* line 1054, ../sass/_inner.scss */
+  /* line 1063, ../sass/_inner.scss */
   .card.property-card .card-stacked {
     display: block;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 1062, ../sass/_inner.scss */
+  /* line 1071, ../sass/_inner.scss */
   .card.property-card .card-action .call-now {
     margin-top: 15px;
   }
-  /* line 1064, ../sass/_inner.scss */
+  /* line 1073, ../sass/_inner.scss */
   .card.property-card .card-action .call-now br {
     display: none;
   }
 }
 /* contact-us.php */
-/* line 1075, ../sass/_inner.scss */
+/* line 1084, ../sass/_inner.scss */
 .contact-list .card {
   border-left: 3px solid #e0d200;
 }
-/* line 1077, ../sass/_inner.scss */
+/* line 1086, ../sass/_inner.scss */
 .contact-list .card .card-title {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 1081, ../sass/_inner.scss */
+/* line 1090, ../sass/_inner.scss */
 .contact-list .card .card-body {
   height: 100px;
 }
-/* line 1084, ../sass/_inner.scss */
+/* line 1093, ../sass/_inner.scss */
 .contact-list .card .card-body a {
   text-decoration: none;
 }
-/* line 1089, ../sass/_inner.scss */
+/* line 1098, ../sass/_inner.scss */
 .contact-list i {
   vertical-align: middle;
 }
-/* line 1092, ../sass/_inner.scss */
+/* line 1101, ../sass/_inner.scss */
 .contact-list .video-container {
   border-top: 1px solid #ddd;
 }
 
 /* contact-us.php */
-/* line 1099, ../sass/_inner.scss */
+/* line 1108, ../sass/_inner.scss */
 .advertise-main .card-panel {
   border-radius: 2px;
   background-color: #fff;
@@ -11024,7 +11033,7 @@ main a:hover {
   margin-bottom: 15px;
   margin-top: 0;
 }
-/* line 1113, ../sass/_inner.scss */
+/* line 1122, ../sass/_inner.scss */
 .advertise-main .card-panel.card-many {
   width: 330px;
   text-align: right;
@@ -11032,11 +11041,11 @@ main a:hover {
   vertical-align: bottom;
   font-weight: 500;
 }
-/* line 1121, ../sass/_inner.scss */
+/* line 1130, ../sass/_inner.scss */
 .advertise-main .adv-logo {
   vertical-align: middle;
 }
-/* line 1125, ../sass/_inner.scss */
+/* line 1134, ../sass/_inner.scss */
 .advertise-main .collapsible-header .sprite {
   vertical-align: middle;
   margin-right: 5px;
@@ -11044,22 +11053,22 @@ main a:hover {
   transform: rotate(0deg);
   transition: transform .3s;
 }
-/* line 1134, ../sass/_inner.scss */
+/* line 1143, ../sass/_inner.scss */
 .advertise-main .collapsible-header.active .sprite {
   transform: rotate(90deg);
 }
-/* line 1139, ../sass/_inner.scss */
+/* line 1148, ../sass/_inner.scss */
 .advertise-main .collapsible-body {
   padding: 20px;
 }
-/* line 1142, ../sass/_inner.scss */
+/* line 1151, ../sass/_inner.scss */
 .advertise-main .columns-2 {
   column-count: 2;
   column-gap: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 1149, ../sass/_inner.scss */
+  /* line 1158, ../sass/_inner.scss */
   .advertise-main .columns-2 {
     column-count: 1;
   }

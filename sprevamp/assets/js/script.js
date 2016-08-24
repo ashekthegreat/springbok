@@ -160,6 +160,16 @@ if (location.hash) {
         });
     });
 
+    // book modal
+    $(function () {
+        var $modal = $("#property-book");
+        $(".trigger-book-modal").click(function () {
+            $modal.find(".cmd-submit").text($(this).text());
+            $modal.openModal();
+            return false;
+        });
+    });
+
     /* property-list */
     $(function () {
         var $propertySearch = $(".properties-search");

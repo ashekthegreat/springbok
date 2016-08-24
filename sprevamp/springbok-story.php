@@ -60,7 +60,6 @@
                                 </div>
                                 <div class="desc">
                                     <time>January 2016</time>
-                                    <p>Launched Springbok Lettings & Management</p>
                                     <p>Team reached 80 members</p>
                                 </div>
                                 <div class="year">2016</div>
