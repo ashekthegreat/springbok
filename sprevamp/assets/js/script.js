@@ -128,6 +128,7 @@ if (location.hash) {
             autoplay: true,
             delay: 2500
         });
+        $('.sub-nav').pushpin({ top: 64 });
     });
 
     $(function () {

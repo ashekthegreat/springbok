@@ -1,4 +1,4 @@
-<div class="navbar-fixed">
+<div class="navbar-fixed lp3">
     <nav>
         <div class="nav-wrapper container">
             <a href="index.php" class="brand-logo left"><img src="assets/images/ys-logo.png" width="126" height="62" style="vertical-align: top;"></a>

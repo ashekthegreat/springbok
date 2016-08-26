@@ -544,7 +544,7 @@ a[href^=tel] {
     }
     &.small {
         padding: 20px 15px 15px;
-        font-size: 20px;
+        font-size: 18px;
     }
     small {
         display: block;
@@ -583,7 +583,7 @@ a[href^=tel] {
     }
 }
 
-@media only screen and (max-height: 601px) {
+@media only screen and (max-height: 650px) {
     .classic-form {
 
         &.medium {
@@ -603,7 +603,7 @@ a[href^=tel] {
     }
 }
 
-@media only screen and (max-height: 401px) {
+@media only screen and (max-height: 580px) {
     .classic-form {
 
         &.medium, &.small {

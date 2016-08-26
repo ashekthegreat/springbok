@@ -8,7 +8,7 @@
 
     <title>Springbok Properties - Get Up To 100% Value For Your House Quickly</title>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -19,13 +19,13 @@
 
     <main>
 
-        <section class="home-banner">
+        <section class="home-banner lp3">
             <div class="container">
                 <div class="row margin-bottom-0">
                     <div class="col s12 m5 push-m7 l4 push-l8">
                         <form class="white">
                             <div class="form-title small sp-primary sp-secondary-text center-align">
-                                Free Offer - Get no obligation Free Offer now!
+                                Get No-Obligation Free Offer Now!
                             </div>
                             <div class="classic-form medium sp-secondary lighten-5">
                                 <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
@@ -44,7 +44,7 @@
                             <div class="banner-text-content">
                                 <h1 class="z-depth-1-text">Sell House Fast - Guaranteed Offer in 24 Hours</h1>
                                 <div class="text-ticks">
-                                    <ul class="z-depth-1-text">
+                                    <ul class="z-depth-1-text margin-bottom-0">
                                         <li><i class="sprite sprite-tick-yellow"></i> Get Up to 100% Value <sup>*</sup></li>
                                         <li><i class="sprite sprite-tick-yellow"></i> Quick and Stress-free</li>
                                         <li><i class="sprite sprite-tick-yellow"></i> Any property type, any value, any location</li>
