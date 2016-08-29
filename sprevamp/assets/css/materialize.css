@@ -1819,7 +1819,7 @@ ul li {
 }
 
 /* line 78, ../sass/components/_global.scss */
-.z-depth-1, nav, .card-panel, .card, .btn, .btn-large, .btn-floating, .collapsible, .side-nav {
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .collapsible, .side-nav {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -3224,6 +3224,13 @@ input[type=range] + .thumb {
 /* line 887, ../sass/components/_global.scss */
 .strong {
   font-weight: 500 !important;
+}
+
+/* This is needed for some mobile phones to display the Google Icon font properly */
+/* line 2, ../sass/components/_icons-material-design.scss */
+.material-icons {
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga';
 }
 
 /* line 1, ../sass/components/_grid.scss */
@@ -4803,6 +4810,87 @@ small {
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block;
+}
+
+/* line 1, ../sass/components/_toast.scss */
+#toast-container {
+  display: block;
+  position: fixed;
+  z-index: 10000;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1, ../sass/components/_toast.scss */
+  #toast-container {
+    min-width: 100%;
+    bottom: 0%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /* line 1, ../sass/components/_toast.scss */
+  #toast-container {
+    left: 5%;
+    bottom: 7%;
+    max-width: 90%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 1, ../sass/components/_toast.scss */
+  #toast-container {
+    top: 10%;
+    right: 7%;
+    max-width: 86%;
+  }
+}
+
+/* line 22, ../sass/components/_toast.scss */
+.toast {
+  border-radius: 2px;
+  top: 0;
+  width: auto;
+  clear: both;
+  margin-top: 10px;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  min-height: 48px;
+  line-height: 1.5em;
+  word-break: break-all;
+  background-color: #323232;
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* line 45, ../sass/components/_toast.scss */
+.toast .btn, .toast .btn-large, .toast .btn-flat {
+  margin: 0;
+  margin-left: 3rem;
+}
+/* line 50, ../sass/components/_toast.scss */
+.toast.rounded {
+  border-radius: 24px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 22, ../sass/components/_toast.scss */
+  .toast {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  /* line 22, ../sass/components/_toast.scss */
+  .toast {
+    float: left;
+  }
+}
+@media only screen and (min-width: 993px) {
+  /* line 22, ../sass/components/_toast.scss */
+  .toast {
+    float: right;
+  }
 }
 
 /* line 1, ../sass/components/_tabs.scss */
@@ -6789,29 +6877,30 @@ input[type=range]:focus::-ms-fill-upper {
 /* line 50, ../sass/components/_sideNav.scss */
 .side-nav a:hover {
   background-color: rgba(0, 0, 0, 0.05);
+  color: #000;
 }
-/* line 52, ../sass/components/_sideNav.scss */
+/* line 55, ../sass/components/_sideNav.scss */
 .side-nav a.btn, .side-nav a.btn-large, .side-nav a.btn-large, .side-nav a.btn-flat, .side-nav a.btn-floating {
   margin: 10px 15px;
 }
-/* line 56, ../sass/components/_sideNav.scss */
+/* line 59, ../sass/components/_sideNav.scss */
 .side-nav a.btn, .side-nav a.btn-large, .side-nav a.btn-large, .side-nav a.btn-floating {
   color: #fff;
 }
-/* line 59, ../sass/components/_sideNav.scss */
+/* line 62, ../sass/components/_sideNav.scss */
 .side-nav a.btn-flat {
   color: #343434;
 }
-/* line 61, ../sass/components/_sideNav.scss */
+/* line 64, ../sass/components/_sideNav.scss */
 .side-nav a.btn:hover, .side-nav a.btn-large:hover, .side-nav a.btn-large:hover {
   background-color: #78737d;
 }
-/* line 63, ../sass/components/_sideNav.scss */
+/* line 66, ../sass/components/_sideNav.scss */
 .side-nav a.btn-floating:hover {
   background-color: #6b6770;
 }
 
-/* line 69, ../sass/components/_sideNav.scss */
+/* line 72, ../sass/components/_sideNav.scss */
 .drag-target {
   height: 100%;
   width: 10px;
@@ -6820,47 +6909,47 @@ input[type=range]:focus::-ms-fill-upper {
   z-index: 998;
 }
 
-/* line 80, ../sass/components/_sideNav.scss */
+/* line 83, ../sass/components/_sideNav.scss */
 .side-nav.fixed a {
   display: block;
   padding: 0 30px;
   color: #444;
 }
 
-/* line 89, ../sass/components/_sideNav.scss */
+/* line 92, ../sass/components/_sideNav.scss */
 .side-nav.fixed {
   left: 0;
   transform: translateX(0);
   position: fixed;
 }
-/* line 95, ../sass/components/_sideNav.scss */
+/* line 98, ../sass/components/_sideNav.scss */
 .side-nav.fixed.right-aligned {
   right: 0;
   left: auto;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 103, ../sass/components/_sideNav.scss */
+  /* line 106, ../sass/components/_sideNav.scss */
   .side-nav.fixed {
     transform: translateX(-105%);
   }
-  /* line 106, ../sass/components/_sideNav.scss */
+  /* line 109, ../sass/components/_sideNav.scss */
   .side-nav.fixed.right-aligned {
     transform: translateX(105%);
   }
 }
-/* line 113, ../sass/components/_sideNav.scss */
+/* line 116, ../sass/components/_sideNav.scss */
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
   background-color: #ffef00;
 }
-/* line 116, ../sass/components/_sideNav.scss */
+/* line 119, ../sass/components/_sideNav.scss */
 .side-nav .collapsible-body li.active a,
 .side-nav.fixed .collapsible-body li.active a {
   color: #fff;
 }
 
-/* line 122, ../sass/components/_sideNav.scss */
+/* line 125, ../sass/components/_sideNav.scss */
 #sidenav-overlay {
   position: fixed;
   top: 0;

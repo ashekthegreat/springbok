@@ -7,6 +7,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <title>Springbok Properties - Get Up To 100% Value For Your House Quickly</title>
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
 

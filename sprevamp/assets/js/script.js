@@ -121,14 +121,16 @@ if (location.hash) {
         });
 
         // for LP3 page
-        $('.testimonial-slider').unslider({
-            arrows: false,
-            nav: false,
-            infinite: true,
-            autoplay: true,
-            delay: 2500
-        });
-        $('.sub-nav').pushpin({ top: 64 });
+        if($(".lp3").length){
+            $('.testimonial-slider').unslider({
+                arrows: false,
+                nav: false,
+                infinite: true,
+                autoplay: true,
+                delay: 2500
+            });
+            $('.sub-nav').pushpin({ top: 64 });
+        }
     });
 
     $(function () {
