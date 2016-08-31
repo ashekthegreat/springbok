@@ -12,7 +12,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize<?php echo in_array( $_SERVER['REMOTE_ADDR'], array( '127.0.0.1', '::1' ))?'':'.min' ?>.css" media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -26,11 +26,11 @@
         <section class="white sp-secondary-text center-align">
             <div class="container">
                 <h1>About Springbok</h1>
-                <p class="big">It is not what we say that is important, but what others say about us. We turn clients into fans and grow our business by exceeding all expectations.</p>
+                <p class="bigger">It is not what we say that is important, but what others say about us. We turn clients into fans and grow our business by exceeding all expectations.</p>
             </div>
         </section>
 
-        <section class="sp-secondary lighten-5 sp-secondary-text">
+        <section class="about-quotes sp-secondary big lighten-5 sp-secondary-text">
             <div class="container">
                 <h3>Our Happy Customers</h3>
                 <blockquote>
@@ -146,47 +146,6 @@
                     <p>"I contacted Springbok Properties as I saw the advert in the local paper and decided to use them, as having previous experience with other estate agents told me that they are one of the best. Natalie was kind, courteous, helpful and kept me informed about everything that was required. If anyone that I know was selling their house, would recommend them."</p>
                     <footer>Gillian Gillard</footer>
                 </blockquote>
-            </div>
-        </section>
-        <section class="white sp-secondary-text">
-            <div class="container">
-                <h3></h3>
-                <blockquote>
-
-                </blockquote>
-            </div>
-        </section>
-
-
-        <section class="sp-secondary lighten-5 sp-secondary-text center-align">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m12 l10 offset-l1">
-                        <h1 class="margin-bottom-0">Our customers love us</h1>
-                        <p class="biggest margin-bottom-40 margin-top-0">But don't take our word for it... take theirs!</p>
-                        <p class="big">
-                            "<strong>Does what it says on the tin</strong> - excellent communications throughout - always willing to answer the most simple of questions without patronising my ignorance."
-                            <strong><em>- Dave Sutheran, TS24</em></strong>
-                        </p>
-                        <p class="big">
-                            "Springbok is a <strong>very professional and customer-oriented organisation</strong>. Thank you very much guys - I am really happy with the service I had from you."
-                            <strong><em>- Tosef Akhtar, M18</em></strong>
-                        </p>
-                        <p class="big">
-                            "I have been so impressed with everyone in your business. I cannot speak highly enough of the professional attitude. I have especially valued the "<strong>personal touch</strong>" and the way that I have been kept updated on the proceedings, during what can be such a stressful time."
-                            <strong><em>- Debbie Humphreys</em></strong>
-                        </p>
-                        <p class="big">
-                            "Brilliant service, well done Springbok."
-                            <strong><em>- Nick Dunne, LA9</em></strong>
-                        </p>
-                        <p class="big">
-                            "<strong>Prompt, friendly and always calm and reassuring</strong> - they sorted my sale out and organised all the legal aspects for me. It was one of the easiest sales I've ever had to complete-thanks!"
-                            <strong><em>- David W., KY4</em></strong>
-                        </p>
-
-                    </div>
-                </div>
             </div>
         </section>
 

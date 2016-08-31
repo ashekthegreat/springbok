@@ -8,7 +8,7 @@
 
     <title>Springbok Properties - Get Up To 100% Value For Your House Quickly</title>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize<?php echo in_array( $_SERVER['REMOTE_ADDR'], array( '127.0.0.1', '::1' ))?'':'.min' ?>.css"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -37,7 +37,7 @@
                             <!--1-->
                             <li class="item item-left item-1 clearfix">
                                 <div class="image pull-right">
-                                    <img src="assets/images/story/1.png" class="responsive-img">
+                                    <img src="assets/images/story/1.png" class="responsive-img" width="157" height="157">
                                 </div>
                                 <div class="desc">
                                     <time>July 2016</time>
@@ -46,7 +46,7 @@
                             </li>
                             <li class="item item-right item-2 clearfix">
                                 <div class="image pull-left">
-                                    <img src="assets/images/story/2.png" class="responsive-img">
+                                    <img src="assets/images/story/2.png" class="responsive-img" width="146" height="145">
                                 </div>
                                 <div class="desc">
                                     <time>April 2016</time>
@@ -56,7 +56,7 @@
 
                             <li class="item item-left item-3 clearfix">
                                 <div class="image pull-left">
-                                    <img src="assets/images/story/3.png" class="responsive-img">
+                                    <img src="assets/images/story/3.png" class="responsive-img" width="175" height="174">
                                 </div>
                                 <div class="desc">
                                     <time>January 2016</time>
@@ -66,7 +66,7 @@
                             </li>
                             <li class="item item-right item-4 clearfix">
                                 <div class="image pull-right">
-                                    <img src="assets/images/story/4.png" class="responsive-img">
+                                    <img src="assets/images/story/4.png" class="responsive-img" width="181" height="182">
                                 </div>
                                 <div class="desc">
                                     <time>April 2015</time>
@@ -78,7 +78,7 @@
                             <!--aaaaaa-->
                             <li class="item item-left item-5 clearfix">
                                 <div class="image pull-right">
-                                    <img src="assets/images/story/5.png" class="responsive-img">
+                                    <img src="assets/images/story/5.png" class="responsive-img" width="132" height="132">
                                 </div>
                                 <div class="desc">
                                     <time>December 2014</time>
@@ -87,7 +87,7 @@
                             </li>
                             <li class="item item-right item-6 clearfix">
                                 <div class="image pull-left">
-                                    <img src="assets/images/story/6.png" class="responsive-img">
+                                    <img src="assets/images/story/6.png" class="responsive-img" width="160" height="161">
                                 </div>
                                 <div class="desc">
                                     <time>November 2014</time>
@@ -97,7 +97,7 @@
 
                             <li class="item item-left item-7 clearfix">
                                 <div class="image pull-left">
-                                    <img src="assets/images/story/7.png" class="responsive-img">
+                                    <img src="assets/images/story/7.png" class="responsive-img" width="134" height="134">
                                 </div>
                                 <div class="desc">
                                     <time>October 2014</time>
@@ -106,7 +106,7 @@
                             </li>
                             <li class="item item-right item-8 clearfix">
                                 <div class="image pull-right">
-                                    <img src="assets/images/story/8.png" class="responsive-img">
+                                    <img src="assets/images/story/8.png" class="responsive-img" width="145" height="145">
                                 </div>
                                 <div class="desc">
                                     <time>September 2014</time>
@@ -119,7 +119,7 @@
 
                             <li class="item item-left item-9 clearfix">
                                 <div class="image pull-right">
-                                    <img src="assets/images/story/9.png" class="responsive-img">
+                                    <img src="assets/images/story/9.png" class="responsive-img" width="126" height="125">
                                 </div>
                                 <div class="desc">
                                     <time>November 2013</time>
@@ -129,7 +129,7 @@
                             </li>
                             <li class="item item-right item-10 clearfix">
                                 <div class="image pull-left">
-                                    <img src="assets/images/story/10.png" class="responsive-img">
+                                    <img src="assets/images/story/10.png" class="responsive-img" width="103" height="103">
                                 </div>
                                 <div class="desc">
                                     <time>December 2012</time>
@@ -139,7 +139,7 @@
 
                             <li class="item item-left item-11 clearfix">
                                 <div class="image pull-left">
-                                    <img src="assets/images/story/11.png" class="responsive-img">
+                                    <img src="assets/images/story/11.png" class="responsive-img" width="144" height="145">
                                 </div>
                                 <div class="desc">
                                     <time>March 2012</time>

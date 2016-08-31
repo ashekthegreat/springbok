@@ -1160,3 +1160,14 @@
         }
     }
 }
+
+/* about-us page */
+.about-quotes{
+    blockquote + h3{
+        margin-top: 60px;
+    }
+    blockquote{
+        border-color: color('sp-secondary', 'lighten-3');
+
+    }
+}

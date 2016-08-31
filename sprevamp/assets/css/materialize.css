@@ -11197,6 +11197,16 @@ main a:hover {
     column-count: 1;
   }
 }
+/* about-us page */
+/* line 1166, ../sass/_inner.scss */
+.about-quotes blockquote + h3 {
+  margin-top: 60px;
+}
+/* line 1169, ../sass/_inner.scss */
+.about-quotes blockquote {
+  border-color: #adaab1;
+}
+
 /* header */
 /* line 2, ../sass/_lp3.scss */
 header {

@@ -30,7 +30,7 @@
                 <div class="col s12 m4">
                     <h5>About us</h5>
                     <ul>
-                        <li><a href="#">About Springbok</a></li>
+                        <li><a href="about-us.php">About Springbok</a></li>
                         <li><a href="springbok-team.php">Team Springbok</a></li>
                         <li><a href="reviews.php">Customer Reviews</a></li>
                         <li><a href="mission-vision.php">Springbok Mission, Values & Culture</a></li>
@@ -208,8 +208,8 @@
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
-<script type="text/javascript" src="assets/js/materialize.js"></script>
+<script type="text/javascript" src="assets/js/materialize.min.js"></script>
 <script type="text/javascript" src="assets/js/unslider-min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.dotdotdot.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.typeahead.min.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript" src="assets/js/script<?php echo in_array( $_SERVER['REMOTE_ADDR'], array( '127.0.0.1', '::1' ))?'':'.min' ?>.js"></script>

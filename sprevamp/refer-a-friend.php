@@ -8,7 +8,7 @@
 
     <title>Springbok Properties - Get Up To 100% Value For Your House Quickly</title>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize<?php echo in_array( $_SERVER['REMOTE_ADDR'], array( '127.0.0.1', '::1' ))?'':'.min' ?>.css" media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -23,13 +23,13 @@
             <div class="container full-width">
                 <h3>Our customers simply love us! Don't just take our word for it</h3>
                 <ul class="comments list-unstyled">
-                    <li><img src="assets/images/comments/1.png" alt="" class="responsive-img materialboxed"/></li>
-                    <li><img src="assets/images/comments/2.png" alt="" class="responsive-img materialboxed"/></li>
-                    <li><img src="assets/images/comments/3.png" alt="" class="responsive-img materialboxed"/></li>
-                    <li><a href="#refer-form"><img src="assets/images/comments/4.png" alt="" class="responsive-img materialboxed"/></a></li>
-                    <li><img src="assets/images/comments/5.png" alt="" class="responsive-img materialboxed"/></li>
-                    <li><img src="assets/images/comments/6.png" alt="" class="responsive-img materialboxed"/></li>
-                    <li><img src="assets/images/comments/7.png" alt="" class="responsive-img materialboxed"/></li>
+                    <li><img src="assets/images/comments/1.png" alt="" class="responsive-img materialboxed" width="686" height="1083"/></li>
+                    <li><img src="assets/images/comments/2.png" alt="" class="responsive-img materialboxed" width="686" height="1083"/></li>
+                    <li><img src="assets/images/comments/3.png" alt="" class="responsive-img materialboxed" width="686" height="1083"/></li>
+                    <li><a href="#refer-form"><img src="assets/images/comments/4.png" alt="" class="responsive-img materialboxed" width="161" height="253"/></a></li>
+                    <li><img src="assets/images/comments/5.png" alt="" class="responsive-img materialboxed" width="686" height="1083"/></li>
+                    <li><img src="assets/images/comments/6.png" alt="" class="responsive-img materialboxed" width="686" height="1083"/></li>
+                    <li><img src="assets/images/comments/7.png" alt="" class="responsive-img materialboxed" width="686" height="1083"/></li>
                 </ul>
                 <p class="big">
                     9 out of 10 Springbok customers are happy to refer us to their family and friends.
