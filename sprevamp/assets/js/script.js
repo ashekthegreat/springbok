@@ -10,6 +10,15 @@ if (location.hash) {
     }, 1);
 }
 
+jQuery.extend({
+    getQueryParameters : function(str) {
+        if(str && str.indexOf("?")>-1){
+            str = str.split("?")[1];
+        }
+        return (str || document.location.search).replace(/(^\?)/,'').split("&").map(function(n){return n = n.split("="),this[n[0]] = n[1],this}.bind({}))[0];
+    }
+});
+
 (function () {
     $(function () {
         /*
@@ -269,8 +278,6 @@ if (location.hash) {
             }
 
             $(".search-criteria").text(searchCriteria);
-
-
         }
 
         function loadPropertyList(isClearPagination){
@@ -279,8 +286,8 @@ if (location.hash) {
                 prepareSearchCriteria();
             }
             var data = $('.property-search-bar form').serializeArray();
-            //data.push({name: 'page', value: 1});
-            //data.push({name: 'limit', value: 10});
+            var targetQueryString = "?" + $.param( data );
+            History.pushState(null, null, targetQueryString);
 
             var $cards = $(".property-card");
             $cards.addClass("busy");
@@ -477,8 +484,23 @@ if (location.hash) {
                 }
             });
 
+            function populateFieldsWithStateData(queryParam){
+                var initialData = $.getQueryParameters(queryParam);
+                initialData['current-page'] = initialData['current-page'] || 1;
+                initialData['limit'] = initialData['limit'] || 10;
+                $.each(initialData, function(i, val){
+                    $("#" + i).val(val);
+                });
+            }
             // load initial data
+            populateFieldsWithStateData(document.location.search);
             loadPropertyList(true);
+            // Bind to StateChange Event
+            History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
+                console.log(History.getState().cleanUrl);
+                populateFieldsWithStateData(History.getState().cleanUrl);
+                loadPropertyList(true);
+            });
         }
 
     });
