@@ -11,13 +11,37 @@ if (location.hash) {
 }
 
 jQuery.extend({
-    getQueryParameters : function(str) {
-        if(str && str.indexOf("?")>-1){
+    getQueryParameters: function (str) {
+        if (str && str.indexOf("?") > -1) {
             str = str.split("?")[1];
         }
-        return (str || document.location.search).replace(/(^\?)/,'').split("&").map(function(n){return n = n.split("="),this[n[0]] = n[1],this}.bind({}))[0];
+        return (str || document.location.search).replace(/(^\?)/, '').split("&").map(function (n) {
+            return n = n.split("="), this[n[0]] = n[1], this
+        }.bind({}))[0];
     }
 });
+
+function parseQuery(str) {
+    if (typeof str != "string" || str.length == 0) return {};
+    if (str && str.indexOf("?") > -1) {
+        str = str.split("?")[1];
+    }
+    str = str || document.location.search;
+
+    var s = str.split("&");
+    var s_length = s.length;
+    var bit, query = {}, first, second;
+    for (var i = 0; i < s_length; i++) {
+        bit = s[i].split("=");
+        first = decodeURIComponent(bit[0]);
+        if (first.length == 0) continue;
+        second = decodeURIComponent(bit[1]);
+        if (typeof query[first] == "undefined") query[first] = second;
+        else if (query[first] instanceof Array) query[first].push(second);
+        else query[first] = [query[first], second];
+    }
+    return query;
+}
 
 (function () {
     $(function () {
@@ -130,7 +154,7 @@ jQuery.extend({
         });
 
         // for LP3 page
-        if($(".lp3").length){
+        if ($(".lp3").length) {
             $('.testimonial-slider').unslider({
                 arrows: false,
                 nav: false,
@@ -138,7 +162,7 @@ jQuery.extend({
                 autoplay: true,
                 delay: 2500
             });
-            $('.sub-nav').pushpin({ top: 64 });
+            $('.sub-nav').pushpin({top: 64});
         }
     });
 
@@ -161,12 +185,14 @@ jQuery.extend({
         var $modal = $("#login-modal");
         $(".not-logged-in").click(function () {
             var active = "signin";
-            if($(this).hasClass("go-register")){
+            if ($(this).hasClass("go-register")) {
                 active = "register";
             }
 
             $modal.openModal({
-                ready: function() { $modal.find('ul.tabs').tabs('select_tab', active); }
+                ready: function () {
+                    $modal.find('ul.tabs').tabs('select_tab', active);
+                }
             });
             return false;
         });
@@ -222,94 +248,111 @@ jQuery.extend({
             }
         }
 
-        function buildPagination(total, itemsPerPage){
+        function buildPagination(total, itemsPerPage) {
             $("#page").empty();
-            var pageNeeded = Math.ceil( total/itemsPerPage);
-            for(var i=1; i<=pageNeeded; i++){
-                $("#page").append('<option value="'+ i +'">'+ i +'</option>');
+            var pageNeeded = Math.ceil(total / itemsPerPage);
+            for (var i = 1; i <= pageNeeded; i++) {
+                $("#page").append('<option value="' + i + '">' + i + '</option>');
             }
             $("#page").material_select();
             $(".total-page-count").text(pageNeeded.toLocaleString());
             $(".pagination-holder .prev").addClass("disabled");
             $(".pagination-holder .next").removeClass("disabled");
         }
-        function goToPage(direction){
+
+        function goToPage(direction) {
             var targetPage = +($("#page").val()) + (+direction);
-            var totalPageCount =$(".total-page-count").text();
-            if(targetPage==1){
+            var totalPageCount = $(".total-page-count").text();
+            if (targetPage == 1) {
                 $(".pagination-holder .prev").addClass("disabled");
                 $(".pagination-holder .next").removeClass("disabled");
             }
-            if(targetPage==totalPageCount){
+            if (targetPage == totalPageCount) {
                 $(".pagination-holder .prev").removeClass("disabled");
                 $(".pagination-holder .next").addClass("disabled");
             }
-            if(targetPage>=1 && targetPage <= totalPageCount){
+            if (targetPage >= 1 && targetPage <= totalPageCount) {
                 $("#page").val(targetPage).material_select();
                 $("#current-page").val(targetPage);
-                loadPropertyList(false);
+                changeHistory(false);
             }
         }
-        function prepareSearchCriteria(){
+
+        function prepareSearchCriteria() {
             var searchCriteria = 'Properties For Sale in ';
-            searchCriteria += $("#search").val()?$("#search").val():"all area";
+            searchCriteria += $("#search").val() ? $("#search").val() : "all area";
 
             // price
-            if($("#field-dropdown-price-min").val() && $("#field-dropdown-price-max").val()){
+            if ($("#field-dropdown-price-min").val() && $("#field-dropdown-price-max").val()) {
                 searchCriteria += ", " + $("#field-dropdown-price-min option:selected").text() + " - " + $("#field-dropdown-price-max option:selected").text();
-            } else if($("#field-dropdown-price-min").val()){
+            } else if ($("#field-dropdown-price-min").val()) {
                 searchCriteria += ", at least " + $("#field-dropdown-price-min option:selected").text();
-            } else if($("#field-dropdown-price-max").val()){
+            } else if ($("#field-dropdown-price-max").val()) {
                 searchCriteria += ", up to " + $("#field-dropdown-price-max option:selected").text();
             }
 
             // bed
-            if($("#field-dropdown-bed-min").val() && $("#field-dropdown-bed-max").val()){
+            if ($("#field-dropdown-bed-min").val() && $("#field-dropdown-bed-max").val()) {
                 searchCriteria += ", " + $("#field-dropdown-bed-min").val() + " - " + $("#field-dropdown-bed-max option:selected").text();
-            } else if($("#field-dropdown-bed-min").val()){
+            } else if ($("#field-dropdown-bed-min").val()) {
                 searchCriteria += ", at least " + $("#field-dropdown-bed-min option:selected").text();
-            } else if($("#field-dropdown-bed-max").val()){
+            } else if ($("#field-dropdown-bed-max").val()) {
                 searchCriteria += ", up to " + $("#field-dropdown-bed-max option:selected").text();
             }
 
             // added
-            if($("#added-to-site").val()){
+            if ($("#added-to-site").val()) {
                 searchCriteria += ", added in the " + $("#added-to-site option:selected").text();
             }
 
             $(".search-criteria").text(searchCriteria);
         }
 
-        function loadPropertyList(isClearPagination){
-            if(isClearPagination){
+        function changeHistory(isClearPagination, isReplaceState) {
+            if (isClearPagination) {
                 $("#current-page").val(1);
                 prepareSearchCriteria();
             }
             var data = $('.property-search-bar form').serializeArray();
-            var targetQueryString = "?" + $.param( data );
-            History.pushState(null, null, targetQueryString);
+            var targetQueryString = "?" + $.param(data);
+            if (isReplaceState) {
+                History.replaceState(null, null, targetQueryString);
+            } else {
+                History.pushState(null, null, targetQueryString);
+            }
+
+        }
+
+        function loadPropertyList(isClearPagination) {
+            if (isClearPagination) {
+                $("#current-page").val(1);
+                prepareSearchCriteria();
+            }
+
+            var data = $('.property-search-bar form').serializeArray();
 
             var $cards = $(".property-card");
             $cards.addClass("busy");
-            $.post('json-properties.php', data, function(result){
+            console.log("loading..");
+            $.post('json-properties.php', data, function (result) {
                 $(".total").text(result.total.toLocaleString());
-                $.each($cards, function(i, card){
+                $.each($cards, function (i, card) {
                     var $card = $(card);
-                    if(i < result.items.length){
+                    if (i < result.items.length) {
                         var item = result.items[i];
-                        $card.find(".property-title").attr("href",item.url).html(item.title);
-                        $card.find(".property-price").html("Offers in excess of <strong>&pound;"+ (+(item.price)).toLocaleString() +"</strong>");
+                        $card.find(".property-title").attr("href", item.url).html(item.title);
+                        $card.find(".property-price").html("Offers in excess of <strong>&pound;" + (+(item.price)).toLocaleString() + "</strong>");
                         $card.find(".property-address").html(item.address);
                         $card.find(".property-description").html(item.description);
 
                         $card.find(".property-image").attr("src", item.image_url);
                         $card.find(".property-image-count").html(item.image_count);
                         $card.show().removeClass("busy");
-                    } else{
+                    } else {
                         $card.hide();
                     }
                 });
-                if(isClearPagination){
+                if (isClearPagination) {
                     buildPagination(result.total, $("#limit").val());
                 }
             })
@@ -337,6 +380,7 @@ jQuery.extend({
                 minLength: 1,
                 maxItem: 10,
                 order: "asc",
+                offset: true,
                 source: {
                     area: {
                         ajax: {
@@ -346,161 +390,206 @@ jQuery.extend({
                 },
                 callback: {
                     onHideLayout: function (node, query) {
-                        loadPropertyList(true);
+                        changeHistory(true);
                     },
                     onCancel: function (node, event) {
-                        loadPropertyList(true);
+                        changeHistory(true);
                     }
                 }
             });
+            $search.keypress(function (e) {
+                if (e.which == 13) {
+                    changeHistory(true);
+                }
+            });
 
-            $(".property-search-extra").click(function(e){
+            $(".property-search-extra").click(function (e) {
                 e.stopPropagation();
             });
-            $(window).click(function(e){
+            $(window).click(function (e) {
                 $(".property-search-bar .field.active").removeClass("active");
                 $(".property-search-extra").slideUp("fast");
             });
             // toggle property search extra
-            function showFilters($this){
+            function showFilters($this) {
                 $this.addClass("active");
 
-                if($this.hasClass("field-property-type")){
+                if ($this.hasClass("field-property-type")) {
                     $(".property-search-extra .filter").hide();
                     $(".property-search-extra .filter-property-type").show();
-                } else if($this.hasClass("field-filters")){
+                } else if ($this.hasClass("field-filters")) {
                     $(".property-search-extra .filter").show();
-                    if($(".property-search-bar .field-price").is(":visible")){
+                    if ($(".property-search-bar .field-price").is(":visible")) {
                         $(".property-search-extra .filter-price").hide();
                     }
-                    if($(".property-search-bar .field-beds").is(":visible")){
+                    if ($(".property-search-bar .field-beds").is(":visible")) {
                         $(".property-search-extra .filter-bed").hide();
                     }
-                    if($(".property-search-bar .field-property-type").is(":visible")){
+                    if ($(".property-search-bar .field-property-type").is(":visible")) {
                         $(".property-search-extra .filter-property-type").hide();
                     }
                 }
 
                 $(".property-search-extra").slideDown("fast");
             }
-            function closeFilters(){
+
+            function closeFilters() {
                 $(".property-search-bar .field.active").removeClass("active");
                 $(".property-search-extra").slideUp("fast");
             }
-            $(".field-property-type, .field-filters").click(function(e){
+
+            $(".field-property-type, .field-filters").click(function (e) {
                 e.stopPropagation();
                 var $this = $(this);
 
-                if($this.hasClass("active")){
+                if ($this.hasClass("active")) {
                     closeFilters();
-                } else{
-                    if($(".property-search-bar .field.active").length){
+                } else {
+                    if ($(".property-search-bar .field.active").length) {
                         // some other filter is showing
                         $(".property-search-bar .field.active").removeClass("active");
-                        $(".property-search-extra").slideUp("fast", function(){
+                        $(".property-search-extra").slideUp("fast", function () {
                             showFilters($this);
                         });
-                    } else{
+                    } else {
                         showFilters($this);
                     }
                 }
 
             });
             // price dropdowns
-            $("#field-dropdown-price-min").change(function(){
+            $("#field-dropdown-price-min").change(function () {
                 $("#filter-dropdown-price-min").val($(this).val()).material_select();
-                loadPropertyList(true);
+                changeHistory(true);
             });
-            $("#field-dropdown-price-max").change(function(){
+            $("#field-dropdown-price-max").change(function () {
                 $("#filter-dropdown-price-max").val($(this).val()).material_select();
-                loadPropertyList(true);
+                changeHistory(true);
             });
-            $("#filter-dropdown-price-min").change(function(){
+            $("#filter-dropdown-price-min").change(function () {
                 $("#field-dropdown-price-min").val($(this).val()).material_select();
-                loadPropertyList(true);
+                changeHistory(true);
             });
-            $("#filter-dropdown-price-max").change(function(){
+            $("#filter-dropdown-price-max").change(function () {
                 $("#field-dropdown-price-max").val($(this).val()).material_select();
-                loadPropertyList(true);
+                changeHistory(true);
             });
 
             // bed dropdown
-            $("#field-dropdown-bed-min").change(function(){
+            $("#field-dropdown-bed-min").change(function () {
                 $("#filter-dropdown-bed-min").val($(this).val()).material_select();
-                loadPropertyList(true);
+                changeHistory(true);
             });
-            $("#field-dropdown-bed-max").change(function(){
+            $("#field-dropdown-bed-max").change(function () {
                 $("#filter-dropdown-bed-max").val($(this).val()).material_select();
-                loadPropertyList(true);
+                changeHistory(true);
             });
-            $("#filter-dropdown-bed-min").change(function(){
+            $("#filter-dropdown-bed-min").change(function () {
                 $("#field-dropdown-bed-min").val($(this).val()).material_select();
-                loadPropertyList(true);
+                changeHistory(true);
             });
-            $("#filter-dropdown-bed-max").change(function(){
+            $("#filter-dropdown-bed-max").change(function () {
                 $("#field-dropdown-bed-max").val($(this).val()).material_select();
-                loadPropertyList(true);
+                changeHistory(true);
             });
 
             // property types
-            $(".filter-property-type input").click(function(){
+            $(".filter-property-type input").click(function () {
                 var checked = $(".filter-property-type input:checked").length;
-                if(checked){
-                    $(".property-type-count").empty().append("(" + checked + ")");
-                } else{
-                    $(".property-type-count").empty();
+                $(".property-type-count").empty();
+                if (checked) {
+                    $(".property-type-count").append("(" + checked + ")");
                 }
-                loadPropertyList(true);
+                changeHistory(true);
             });
 
             // added to site
-            $("#added-to-site").change(function(){
-                loadPropertyList(true);
+            $("#added-to-site").change(function () {
+                changeHistory(true);
             });
 
             // property-stc
-            $("#property-stc").click(function(){
-                loadPropertyList(true);
+            $("#property-stc").click(function () {
+                changeHistory(true);
             });
 
             // done action
-            $(".filter-action-done").click(function(){
+            $(".filter-action-done").click(function () {
                 closeFilters();
             });
 
             // pagination change
-            $("#page").change(function(){
+            $("#page").change(function () {
                 $("#current-page").val($("#page").val());
-                loadPropertyList(false);
+                changeHistory(false);
             });
-            $(".pagination-holder .prev").click(function(){
-                if(!$(this).hasClass("disabled")){
+            $(".pagination-holder .prev").click(function () {
+                if (!$(this).hasClass("disabled")) {
                     goToPage(-1);
                 }
             });
-            $(".pagination-holder .next").click(function(){
-                if(!$(this).hasClass("disabled")){
+            $(".pagination-holder .next").click(function () {
+                if (!$(this).hasClass("disabled")) {
                     goToPage(+1);
                 }
             });
 
-            function populateFieldsWithStateData(queryParam){
-                var initialData = $.getQueryParameters(queryParam);
+            function populateFieldsWithStateData(queryParam) {
+                var initialData = parseQuery(queryParam);
                 initialData['current-page'] = initialData['current-page'] || 1;
                 initialData['limit'] = initialData['limit'] || 10;
-                $.each(initialData, function(i, val){
-                    $("#" + i).val(val);
+                console.log(initialData);
+                /*
+                 added-to-site
+                 current-page
+                 filter-bed-max
+                 filter-bed-min
+                 filter-price-max
+                 filter-price-min
+                 limit
+                 search
+                 */
+                $search.val(initialData['search']);
+                $("#field-dropdown-price-min").val(initialData['filter-price-min']).material_select();
+                $("#filter-dropdown-price-min").val(initialData['filter-price-min']).material_select();
+                $("#field-dropdown-price-max").val(initialData['filter-price-max']).material_select();
+                $("#filter-dropdown-price-max").val(initialData['filter-price-max']).material_select();
+
+                $("#field-dropdown-bed-min").val(initialData['filter-bed-min']).material_select();
+                $("#filter-dropdown-bed-min").val(initialData['filter-bed-min']).material_select();
+                $("#field-dropdown-bed-max").val(initialData['filter-bed-max']).material_select();
+                $("#filter-dropdown-bed-max").val(initialData['filter-bed-max']).material_select();
+
+                $("#added-to-site").val(initialData['added-to-site']).material_select();
+
+                $("#property-stc").prop('checked', !!(initialData['property-stc']));
+
+                $(".filter-property-type input").each(function () {
+                    if (typeof initialData['property-type'] == "string") {
+                        $(this).prop('checked', !!(initialData['property-type'] == $(this).val()));
+                    } else {
+                        $(this).prop('checked', !!(initialData['property-type'] && initialData['property-type'].indexOf($(this).val()) > -1));
+                    }
                 });
+                var checked = $(".filter-property-type input:checked").length;
+                $(".property-type-count").empty();
+                if (checked) {
+                    $(".property-type-count").append("(" + checked + ")");
+                }
+
             }
-            // load initial data
-            populateFieldsWithStateData(document.location.search);
-            loadPropertyList(true);
+
             // Bind to StateChange Event
-            History.Adapter.bind(window,'statechange',function(){ // Note: We are using statechange instead of popstate
+            History.Adapter.bind(window, 'statechange', function () { // Note: We are using statechange instead of popstate
                 console.log(History.getState().cleanUrl);
                 populateFieldsWithStateData(History.getState().cleanUrl);
                 loadPropertyList(true);
             });
+            // load initial data
+            populateFieldsWithStateData(document.location.search);
+            //changeHistory(true, false);
+
+            loadPropertyList(true);
         }
 
     });
@@ -588,7 +677,8 @@ jQuery.extend({
         if ($("#home-recent-sale").length) {
             // its home page. lets do some animation here
             var windowHeight = $(window).height();
-            function p2h(percentage){
+
+            function p2h(percentage) {
                 return (windowHeight * percentage) / 100;
             }
 
