@@ -819,7 +819,40 @@
 
             padding-left: 0;
             padding-right: 10px;
-            display: block;
+
+            .typeahead__container{
+                flex-grow: 5;
+            }
+            .typeahead__field input{
+                border-radius: 0;
+                border: 0;
+            }
+            .radius{
+                background: #fff;
+                display: none;
+
+                .caret{
+                    color: #3c3c3c;
+                    line-height: 34px;
+                    right: 6px;
+                }
+                &:before{
+                    content: "";
+                    position: absolute;
+                    top: 5px;
+                    bottom: 5px;
+                    left: 0;
+                    width: 1px;
+                    border-left: 1px solid #ccc;
+                }
+                .select-wrapper{
+                    input{
+                        height: 32px;
+                        font-size: 14px;
+                        padding-right: 20px;
+                    }
+                }
+            }
         }
         .field-price{
             .input-field{
@@ -868,7 +901,7 @@
     }
     .input-field{
         display: inline-block;
-        width: 100px;
+        width: 90px;
         margin-top: 0;
 
         .caret{

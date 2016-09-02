@@ -328,11 +328,6 @@ function parseQuery(str) {
         }
 
         function loadPropertyList(isForceBuildPagination) {
-            /*
-             if (isClearPagination) {
-             $("#current-page").val(1);
-             }
-             */
             prepareSearchCriteria();
 
             var data = $('.property-search-bar form').serializeArray();
@@ -359,6 +354,10 @@ function parseQuery(str) {
                 });
                 if ($("#current-page").val() == 1 || isForceBuildPagination) {
                     buildPagination(result.total, $("#limit").val());
+                }
+                if(result.special_message){
+                    // lets show the message and radius dropdown
+                    $(".radius").show();
                 }
             })
         }

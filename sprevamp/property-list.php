@@ -33,14 +33,14 @@
                                             </span>
                                         </div>
                                     </div>
-                                    <!--<div class="input-field radius sp-secondary-text">
+                                    <div class="input-field radius sp-secondary-text">
                                         <select>
                                             <option value="" disabled selected>+ 0 miles</option>
                                             <option value="1">+ 10 miles</option>
                                             <option value="2">+ 30 miles</option>
                                             <option value="3">+ 50 miles</option>
                                         </select>
-                                    </div>-->
+                                    </div>
 
                                     <input type="hidden" id="current-page" name="current-page" value="1">
                                     <input type="hidden" id="limit" name="limit" value="10">
@@ -231,6 +231,11 @@
                             </div>
                         </div>
 
+                        <div class="card-panel teal hide">
+                            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                            </span>
+                        </div>
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
                                 <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
