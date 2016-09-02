@@ -40,7 +40,7 @@
                                         <div class="carousel-caption">Front Aspect</div>
                                     </li>
                                     <li>
-                                        <img src="assets/images/busy.gif" xsrc="assets/images/property/2.jpg">
+                                        <img src="assets/images/busy.gif" xsrc="assets/images/property/long.png">
                                         <div class="carousel-caption">Hallway</div>
                                     </li>
                                     <li>

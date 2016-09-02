@@ -830,6 +830,7 @@
             .radius{
                 background: #fff;
                 display: none;
+                margin-left: -1px;
 
                 .caret{
                     color: #3c3c3c;
@@ -841,7 +842,7 @@
                     position: absolute;
                     top: 5px;
                     bottom: 5px;
-                    left: 0;
+                    left: 1px;
                     width: 1px;
                     border-left: 1px solid #ccc;
                 }
@@ -929,6 +930,9 @@
 
 
 .properties-list{
+    .special-message{
+        display: none;
+    }
     .property-list-adv{
         &.pinned{
             margin-top: 95px;

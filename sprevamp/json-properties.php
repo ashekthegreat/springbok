@@ -13,7 +13,8 @@ echo json_encode(array(
             'price' => 105000,
             'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus.',
             'image_count' => 14,
-            'image_url' => 'assets/images/property/long.png'  // should be replaced with proper url
+            'image_url' => 'assets/images/property/long.png',  // should be replaced with proper url
+            'special_tag' => array('corner-underoffer')
         ),
         array(
             'id' => '1111',
@@ -23,7 +24,8 @@ echo json_encode(array(
             'price' => 105000,
             'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus.',
             'image_count' => 1,
-            'image_url' => 'assets/images/property/2.jpg'  // should be replaced with proper url
+            'image_url' => 'assets/images/property/2.jpg',  // should be replaced with proper url
+            'special_tag' => array('corner-soldstc')
         ),
         array(
             'id' => '1111',

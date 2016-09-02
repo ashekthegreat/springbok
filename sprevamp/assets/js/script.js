@@ -358,6 +358,9 @@ function parseQuery(str) {
                 if(result.special_message){
                     // lets show the message and radius dropdown
                     $(".radius").show();
+                    $(".special-message").empty().append(result.special_message).show();
+                } else{
+                    $(".special-message").empty().hide();
                 }
             })
         }
@@ -468,6 +471,10 @@ function parseQuery(str) {
                 }
 
             });
+            // radius dropdowns
+            $("#radius").change(function () {
+                changeHistory(true);
+            });
             // price dropdowns
             $("#field-dropdown-price-min").change(function () {
                 $("#filter-dropdown-price-min").val($(this).val()).material_select();
@@ -563,6 +570,9 @@ function parseQuery(str) {
                  search
                  */
                 $search.val(initialData['search']);
+
+                $("#radius").val(initialData['radius']).material_select();
+
                 $("#field-dropdown-price-min").val(initialData['filter-price-min']).material_select();
                 $("#filter-dropdown-price-min").val(initialData['filter-price-min']).material_select();
                 $("#field-dropdown-price-max").val(initialData['filter-price-max']).material_select();
@@ -616,6 +626,10 @@ function parseQuery(str) {
             var ratio = 2 / 3;
             var w = $slider.width();
             $slider.height(w * ratio);
+            $slider.find("li").height(w * ratio);
+
+            // resize nav images
+            $(".unslider-nav li").height($(".unslider-nav li:first").width()*ratio);
         }
 
         if ($slider.length) {
@@ -630,7 +644,11 @@ function parseQuery(str) {
                 $("img[xsrc]").each(function () {
                     $(this).attr("src", $(this).attr("xsrc"));
                     $(this).removeAttr("xsrc");
-                })
+                });
+                setTimeout(function(){
+                    resizeSlider();
+                },100);
+
             };
             image.src = $slider.find("img:first").attr("src");
 
@@ -645,7 +663,6 @@ function parseQuery(str) {
                     next: '<a class="unslider-arrow next"><i class="sprite sprite-arrow-right-rounded"></i></a>'
                 },
                 nav: function (index, label) {
-
                     return $(this).find("img").get(0).outerHTML;
                 },
                 autoplay: true,
@@ -684,7 +701,7 @@ function parseQuery(str) {
             // tabs select
             $("#mapid").click(function () {
                 $('ul.tabs').tabs('select_tab', 'property-tab-map');
-            })
+            });
         }
     });
 
