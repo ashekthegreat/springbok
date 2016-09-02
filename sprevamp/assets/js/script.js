@@ -10,17 +10,6 @@ if (location.hash) {
     }, 1);
 }
 
-jQuery.extend({
-    getQueryParameters: function (str) {
-        if (str && str.indexOf("?") > -1) {
-            str = str.split("?")[1];
-        }
-        return (str || document.location.search).replace(/(^\?)/, '').split("&").map(function (n) {
-            return n = n.split("="), this[n[0]] = n[1], this
-        }.bind({}))[0];
-    }
-});
-
 function parseQuery(str) {
     if (typeof str != "string" || str.length == 0) return {};
     if (str && str.indexOf("?") > -1) {
@@ -35,7 +24,7 @@ function parseQuery(str) {
         bit = s[i].split("=");
         first = decodeURIComponent(bit[0]);
         if (first.length == 0) continue;
-        second = decodeURIComponent(bit[1]);
+        second = decodeURIComponent(bit[1].replace(/\+/g, '%20'));
         if (typeof query[first] == "undefined") query[first] = second;
         else if (query[first] instanceof Array) query[first].push(second);
         else query[first] = [query[first], second];
@@ -66,8 +55,9 @@ function parseQuery(str) {
         $('select').material_select();
 
         // modal
-        $('.modal-trigger').leanModal();
-        $('.modal-trigger').click(function (e) {
+        var $modalTrigger = $('.modal-trigger');
+        $modalTrigger.leanModal();
+        $modalTrigger.click(function (e) {
             e.preventDefault();
         });
 
@@ -171,7 +161,7 @@ function parseQuery(str) {
         $(".home-video .card, .big-play .play, .reviews-video .card").click(function () {
             var id = $(this).data("id");
 
-            $modal.find(".modal-content").empty().append('<div class="video-container"><iframe class="responsive-img" width="560" height="315" src="https://www.youtube.com/embed/' + id + '?showinfo=0&rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe></div>')
+            $modal.find(".modal-content").empty().append('<div class="video-container"><iframe class="responsive-img" width="560" height="315" src="https://www.youtube.com/embed/' + id + '?showinfo=0&rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe></div>');
             $modal.openModal({
                 complete: function () {
                     $modal.find(".modal-content").empty();
@@ -202,7 +192,20 @@ function parseQuery(str) {
     $(function () {
         var $modal = $("#property-book");
         $(".trigger-book-modal").click(function () {
+            // change button text
             $modal.find(".cmd-submit").text($(this).text());
+            // change source and property id
+            $modal.find('input[name="_source"]').val(window.location.href);
+            if ($(this).closest(".properties-list").length) {
+                // its listing page
+                $modal.find('input[name="_page_url"]').val($(this).closest(".property-card").find(".property-title").attr("href"));
+            } else {
+                $modal.find('input[name="_page_url"]').val(window.location.href);
+            }
+            // add property ID
+            $modal.find('input[name="_prop_id"]').val($(this).data("prop"));
+
+
             $modal.openModal();
             return false;
         });
@@ -232,7 +235,8 @@ function parseQuery(str) {
             if ($(window).width() > 1200) {
                 var topOffset = ($adv.length ? $adv.offset().top : 0) - ($searchBar.length ? $searchBar.height() : 0) - 40;
                 var height = $adv.length ? $adv.height() : 0;
-                var footerOffset = $('body > footer').first().length ? $('body > footer').first().offset().top : 0;
+                var $footer = $('body > footer');
+                var footerOffset = $footer.first().length ? $footer.first().offset().top : 0;
                 var bottomOffset = footerOffset - height - ($searchBar.length ? $searchBar.height() : 0) - 95 - 110;
                 $adv.css({"width": $adv.width() + "px"});
 
@@ -249,30 +253,30 @@ function parseQuery(str) {
         }
 
         function buildPagination(total, itemsPerPage) {
-            $("#page").empty();
+            var $page = $("#page");
+            $page.empty();
             var pageNeeded = Math.ceil(total / itemsPerPage);
             for (var i = 1; i <= pageNeeded; i++) {
-                $("#page").append('<option value="' + i + '">' + i + '</option>');
+                $page.append('<option value="' + i + '">' + i + '</option>');
             }
-            $("#page").material_select();
+            var currentPage = $("#current-page").val();
+            $page.val(currentPage).material_select();
+            //$page.material_select();
             $(".total-page-count").text(pageNeeded.toLocaleString());
-            $(".pagination-holder .prev").addClass("disabled");
-            $(".pagination-holder .next").removeClass("disabled");
+            $(".pagination-holder .prev").toggleClass("disabled", currentPage == 1);
+            $(".pagination-holder .next").toggleClass("disabled", currentPage == pageNeeded);
         }
 
         function goToPage(direction) {
-            var targetPage = +($("#page").val()) + (+direction);
+            var $page = $("#page");
+            var targetPage = +($page.val()) + (+direction);
             var totalPageCount = $(".total-page-count").text();
-            if (targetPage == 1) {
-                $(".pagination-holder .prev").addClass("disabled");
-                $(".pagination-holder .next").removeClass("disabled");
-            }
-            if (targetPage == totalPageCount) {
-                $(".pagination-holder .prev").removeClass("disabled");
-                $(".pagination-holder .next").addClass("disabled");
-            }
+
+            $(".pagination-holder .prev").toggleClass("disabled", targetPage == 1);
+            $(".pagination-holder .next").toggleClass("disabled", targetPage == totalPageCount);
+
             if (targetPage >= 1 && targetPage <= totalPageCount) {
-                $("#page").val(targetPage).material_select();
+                $page.val(targetPage).material_select();
                 $("#current-page").val(targetPage);
                 changeHistory(false);
             }
@@ -323,17 +327,18 @@ function parseQuery(str) {
 
         }
 
-        function loadPropertyList(isClearPagination) {
-            if (isClearPagination) {
-                $("#current-page").val(1);
-                prepareSearchCriteria();
-            }
+        function loadPropertyList(isForceBuildPagination) {
+            /*
+             if (isClearPagination) {
+             $("#current-page").val(1);
+             }
+             */
+            prepareSearchCriteria();
 
             var data = $('.property-search-bar form').serializeArray();
 
             var $cards = $(".property-card");
             $cards.addClass("busy");
-            console.log("loading..");
             $.post('json-properties.php', data, function (result) {
                 $(".total").text(result.total.toLocaleString());
                 $.each($cards, function (i, card) {
@@ -352,7 +357,7 @@ function parseQuery(str) {
                         $card.hide();
                     }
                 });
-                if (isClearPagination) {
+                if ($("#current-page").val() == 1 || isForceBuildPagination) {
                     buildPagination(result.total, $("#limit").val());
                 }
             })
@@ -381,10 +386,17 @@ function parseQuery(str) {
                 maxItem: 10,
                 order: "asc",
                 offset: true,
+                dynamic: true,
                 source: {
                     area: {
-                        ajax: {
-                            url: "json-locations.php"
+                        ajax: function (query) {
+                            return {
+                                type: "GET",
+                                url: "json-locations.php",
+                                data: {
+                                    q: query
+                                }
+                            }
                         }
                     }
                 },
@@ -520,7 +532,10 @@ function parseQuery(str) {
 
             // pagination change
             $("#page").change(function () {
-                $("#current-page").val($("#page").val());
+                var targetPage = $("#page").val();
+                $("#current-page").val(targetPage);
+                $(".pagination-holder .prev").toggleClass("disabled", targetPage == 1);
+                $(".pagination-holder .next").toggleClass("disabled", targetPage == +$(".total-page-count").text());
                 changeHistory(false);
             });
             $(".pagination-holder .prev").click(function () {
@@ -538,7 +553,6 @@ function parseQuery(str) {
                 var initialData = parseQuery(queryParam);
                 initialData['current-page'] = initialData['current-page'] || 1;
                 initialData['limit'] = initialData['limit'] || 10;
-                console.log(initialData);
                 /*
                  added-to-site
                  current-page
@@ -577,13 +591,15 @@ function parseQuery(str) {
                     $(".property-type-count").append("(" + checked + ")");
                 }
 
+                var targetPage = initialData['current-page'] || 1;
+                $("#page").val(targetPage).material_select();
+                $("#current-page").val(targetPage);
             }
 
             // Bind to StateChange Event
             History.Adapter.bind(window, 'statechange', function () { // Note: We are using statechange instead of popstate
-                console.log(History.getState().cleanUrl);
                 populateFieldsWithStateData(History.getState().cleanUrl);
-                loadPropertyList(true);
+                loadPropertyList();
             });
             // load initial data
             populateFieldsWithStateData(document.location.search);

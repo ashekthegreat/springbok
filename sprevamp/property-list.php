@@ -249,7 +249,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145666">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145667">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145668">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -324,7 +324,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145669">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -355,7 +355,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145670">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -380,7 +380,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145671">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -405,7 +405,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145672">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -430,7 +430,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145673">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -461,7 +461,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145674">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>
@@ -486,7 +486,7 @@
                                 </div>
                                 <div class="card-action">
                                     <div class="row margin-bottom-0">
-                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text modal-trigger" href="#property-book">Book Viewing</a></div>
+                                        <div class="col s12 m6"><a class="waves-effect waves-light btn btn-block sp-secondary sp-primary-text trigger-book-modal" href="#property-book" data-prop="145675">Book Viewing</a></div>
                                         <div class="col s12 m6 call-now">Or Call Now on <br> <span class="click-to-call">0161 000 0000</span></div>
                                     </div>
                                 </div>

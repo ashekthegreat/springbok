@@ -907,14 +907,14 @@
     .pagination-holder{
         padding: 10px 20px;
         .select{
-            width: 50px;
+            width: 65px;
         }
         input.select-dropdown{
             border: 1px solid #999;
-            padding: 0 10px;
+            padding: 0 15px 0 5px;
             box-sizing: border-box;
             margin: 0;
-
+            text-align: center;
         }
         .next, .prev{
             line-height: 3rem;

@@ -10942,14 +10942,15 @@ main a:hover {
 }
 /* line 909, ../sass/_inner.scss */
 .properties-list .pagination-holder .select {
-  width: 50px;
+  width: 65px;
 }
 /* line 912, ../sass/_inner.scss */
 .properties-list .pagination-holder input.select-dropdown {
   border: 1px solid #999;
-  padding: 0 10px;
+  padding: 0 15px 0 5px;
   box-sizing: border-box;
   margin: 0;
+  text-align: center;
 }
 /* line 919, ../sass/_inner.scss */
 .properties-list .pagination-holder .next, .properties-list .pagination-holder .prev {
