@@ -11139,14 +11139,29 @@ main a:hover {
 .card.property-card .card-image {
   width: 45%;
   max-width: none;
+  overflow: hidden;
 }
-/* line 1017, ../sass/_inner.scss */
+/* line 1018, ../sass/_inner.scss */
+.card.property-card .card-image .card-image-container {
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+}
+/* line 1023, ../sass/_inner.scss */
+.card.property-card .card-image .wh {
+  height: 100% !important;
+}
+/* line 1024, ../sass/_inner.scss */
+.card.property-card .card-image .ww {
+  width: 100% !important;
+}
+/* line 1026, ../sass/_inner.scss */
 .card.property-card .card-image-footer {
   background: #f0eff1;
   padding: 12px 20px;
   position: relative;
 }
-/* line 1021, ../sass/_inner.scss */
+/* line 1030, ../sass/_inner.scss */
 .card.property-card .card-image-footer .camera {
   white-space: nowrap;
   font-size: 1.5rem;
@@ -11155,55 +11170,55 @@ main a:hover {
   text-decoration: none;
   margin-top: 10px;
 }
-/* line 1029, ../sass/_inner.scss */
+/* line 1038, ../sass/_inner.scss */
 .card.property-card .card-image-footer .camera img {
   display: inline-block;
   vertical-align: top;
 }
-/* line 1034, ../sass/_inner.scss */
+/* line 1043, ../sass/_inner.scss */
 .card.property-card .card-image-footer strong {
   display: block;
   font-size: 28px;
   line-height: 1;
 }
-/* line 1041, ../sass/_inner.scss */
+/* line 1050, ../sass/_inner.scss */
 .card.property-card .card-content a {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 1046, ../sass/_inner.scss */
+/* line 1055, ../sass/_inner.scss */
 .card.property-card .card-content h4 {
   /*height: 56px;
   overflow: hidden;*/
   font-weight: 400;
   margin-top: 0;
 }
-/* line 1052, ../sass/_inner.scss */
+/* line 1061, ../sass/_inner.scss */
 .card.property-card .card-content p {
-  height: 110px;
+  height: 7.5rem;
   min-height: 88px;
   overflow: hidden;
 }
-/* line 1058, ../sass/_inner.scss */
+/* line 1067, ../sass/_inner.scss */
 .card.property-card .card-action {
   padding: 10px 20px;
 }
-/* line 1061, ../sass/_inner.scss */
+/* line 1070, ../sass/_inner.scss */
 .card.property-card .card-action .call-now {
   font-size: 18px;
   line-height: 1;
   text-align: center;
   font-weight: 500;
 }
-/* line 1067, ../sass/_inner.scss */
+/* line 1076, ../sass/_inner.scss */
 .card.property-card .card-action .click-to-call a {
   color: inherit !important;
   margin: 0 !important;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 1075, ../sass/_inner.scss */
+  /* line 1084, ../sass/_inner.scss */
   .card.property-card .card-image {
     display: flex;
     flex-direction: column;
@@ -11211,70 +11226,79 @@ main a:hover {
     position: relative;
     max-width: 40%;
   }
-  /* line 1082, ../sass/_inner.scss */
+  /* line 1091, ../sass/_inner.scss */
   .card.property-card .card-image .responsive-img {
     flex-grow: 1;
   }
+  /* line 1096, ../sass/_inner.scss */
+  .card.property-card .card-image .card-image-container img {
+    position: absolute;
+    border-top-right-radius: 0;
+  }
 }
 @media only screen and (max-width: 767px) {
-  /* line 1089, ../sass/_inner.scss */
+  /* line 1105, ../sass/_inner.scss */
   .card.property-card {
     display: block;
   }
-  /* line 1091, ../sass/_inner.scss */
+  /* line 1107, ../sass/_inner.scss */
   .card.property-card .card-image {
     width: 100%;
     display: block;
   }
-  /* line 1095, ../sass/_inner.scss */
+  /* line 1111, ../sass/_inner.scss */
   .card.property-card .card-image .responsive-img {
     width: 100%;
     height: auto;
   }
-  /* line 1100, ../sass/_inner.scss */
+  /* line 1116, ../sass/_inner.scss */
+  .card.property-card .card-image .card-image-container {
+    height: auto !important;
+  }
+  /* line 1120, ../sass/_inner.scss */
   .card.property-card .card-stacked {
     display: block;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 1108, ../sass/_inner.scss */
+  /* line 1128, ../sass/_inner.scss */
   .card.property-card .card-action .call-now {
     margin-top: 15px;
   }
-  /* line 1110, ../sass/_inner.scss */
+  /* line 1130, ../sass/_inner.scss */
   .card.property-card .card-action .call-now br {
     display: none;
   }
 }
 /* contact-us.php */
-/* line 1121, ../sass/_inner.scss */
+/* line 1141, ../sass/_inner.scss */
 .contact-list .card {
   border-left: 3px solid #e0d200;
 }
-/* line 1123, ../sass/_inner.scss */
+/* line 1143, ../sass/_inner.scss */
 .contact-list .card .card-title {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 1127, ../sass/_inner.scss */
+/* line 1147, ../sass/_inner.scss */
 .contact-list .card .card-body {
   height: 100px;
 }
-/* line 1130, ../sass/_inner.scss */
+/* line 1150, ../sass/_inner.scss */
 .contact-list .card .card-body a {
   text-decoration: none;
 }
-/* line 1135, ../sass/_inner.scss */
+/* line 1155, ../sass/_inner.scss */
 .contact-list i {
   vertical-align: middle;
 }
-/* line 1138, ../sass/_inner.scss */
+/* line 1158, ../sass/_inner.scss */
 .contact-list .video-container {
   border-top: 1px solid #ddd;
 }
 
 /* contact-us.php */
-/* line 1145, ../sass/_inner.scss */
+/* line 1165, ../sass/_inner.scss */
 .advertise-main .card-panel {
   border-radius: 2px;
   background-color: #fff;
@@ -11289,7 +11313,7 @@ main a:hover {
   margin-bottom: 15px;
   margin-top: 0;
 }
-/* line 1159, ../sass/_inner.scss */
+/* line 1179, ../sass/_inner.scss */
 .advertise-main .card-panel.card-many {
   width: 330px;
   text-align: right;
@@ -11297,11 +11321,11 @@ main a:hover {
   vertical-align: bottom;
   font-weight: 500;
 }
-/* line 1167, ../sass/_inner.scss */
+/* line 1187, ../sass/_inner.scss */
 .advertise-main .adv-logo {
   vertical-align: middle;
 }
-/* line 1171, ../sass/_inner.scss */
+/* line 1191, ../sass/_inner.scss */
 .advertise-main .collapsible-header .sprite {
   vertical-align: middle;
   margin-right: 5px;
@@ -11309,32 +11333,32 @@ main a:hover {
   transform: rotate(0deg);
   transition: transform .3s;
 }
-/* line 1180, ../sass/_inner.scss */
+/* line 1200, ../sass/_inner.scss */
 .advertise-main .collapsible-header.active .sprite {
   transform: rotate(90deg);
 }
-/* line 1185, ../sass/_inner.scss */
+/* line 1205, ../sass/_inner.scss */
 .advertise-main .collapsible-body {
   padding: 20px;
 }
-/* line 1188, ../sass/_inner.scss */
+/* line 1208, ../sass/_inner.scss */
 .advertise-main .columns-2 {
   column-count: 2;
   column-gap: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 1195, ../sass/_inner.scss */
+  /* line 1215, ../sass/_inner.scss */
   .advertise-main .columns-2 {
     column-count: 1;
   }
 }
 /* about-us page */
-/* line 1203, ../sass/_inner.scss */
+/* line 1223, ../sass/_inner.scss */
 .about-quotes blockquote + h3 {
   margin-top: 60px;
 }
-/* line 1206, ../sass/_inner.scss */
+/* line 1226, ../sass/_inner.scss */
 .about-quotes blockquote {
   border-color: #adaab1;
 }

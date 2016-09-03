@@ -1013,6 +1013,15 @@
     .card-image{
         width: 45%;
         max-width: none;
+        overflow: hidden;
+
+        .card-image-container {
+            overflow:hidden;
+            position: relative;
+            flex-grow: 1;
+        }
+        .wh {height:100%!important}
+        .ww {width:100%!important}
     }
     .card-image-footer{
         background: color("sp-secondary", "lighten-5");
@@ -1050,7 +1059,7 @@
             margin-top: 0;
         }
         p{
-            height: 110px;
+            height: 7.5rem;
             min-height: 88px;
             overflow: hidden;
         }
@@ -1082,6 +1091,13 @@
             .responsive-img{
                 flex-grow: 1;
             }
+            .card-image-container{
+
+                img{
+                    position: absolute;
+                    border-top-right-radius: 0;
+                }
+            }
         }
     }
 }
@@ -1095,6 +1111,10 @@
             .responsive-img{
                 width: 100%;
                 height: auto;
+            }
+
+            .card-image-container{
+                height: auto!important;
             }
         }
         .card-stacked{

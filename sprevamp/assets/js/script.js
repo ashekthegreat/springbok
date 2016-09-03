@@ -324,7 +324,37 @@ function parseQuery(str) {
             } else {
                 History.pushState(null, null, targetQueryString);
             }
+        }
 
+        function resizeImage($imageContainer) {
+            var im = $imageContainer.children('img');
+            im.attr("style", "").removeClass('ww wh');
+            //set size
+            var th = $imageContainer.height(),//box height
+                tw = $imageContainer.width(),//box width
+                ih = im.height(),//inital image height
+                iw = im.width();//initial image width
+            if (ih > iw) {//if portrait
+                im.addClass('ww').removeClass('wh');//set width 100%
+            } else {//if landscape
+                im.addClass('wh').removeClass('ww');//set height 100%
+            }
+            //set offset
+            var nh = im.height(),//new image height
+                nw = im.width(),//new image width
+                hd = (nh - th) / 2,//half dif img/box height
+                wd = (nw - tw) / 2;//half dif img/box width
+            if (nh < nw) {//if portrait
+                im.css({marginLeft: '-' + wd + 'px', marginTop: 0});//offset left
+            } else {//if landscape
+                im.css({marginTop: '-' + hd + 'px', marginLeft: 0});//offset top
+            }
+        }
+
+        function resizeAllImage() {
+            $(".card-image-container").each(function () {
+                resizeImage($(this));
+            })
         }
 
         function loadPropertyList(isForceBuildPagination) {
@@ -334,12 +364,15 @@ function parseQuery(str) {
 
             var $cards = $(".property-card");
             $cards.addClass("busy");
+
             $.post('json-properties.php', data, function (result) {
                 $(".total").text(result.total.toLocaleString());
                 $.each($cards, function (i, card) {
                     var $card = $(card);
                     if (i < result.items.length) {
                         var item = result.items[i];
+                        $card.find(".corner").remove();
+
                         $card.find(".property-title").attr("href", item.url).html(item.title);
                         $card.find(".property-price").html("Offers in excess of <strong>&pound;" + (+(item.price)).toLocaleString() + "</strong>");
                         $card.find(".property-address").html(item.address);
@@ -347,6 +380,15 @@ function parseQuery(str) {
 
                         $card.find(".property-image").attr("src", item.image_url);
                         $card.find(".property-image-count").html(item.image_count);
+
+                        if (typeof item.special_tag == "string") {
+                            $card.find(".card-image-container").append('<span class="corner ' + item.special_tag + '"></span>');
+                        } else {
+                            $.each(item.special_tag, function (i, tag) {
+                                $card.find(".card-image-container").append('<span class="corner ' + tag + '"></span>');
+                            })
+                        }
+
                         $card.show().removeClass("busy");
                     } else {
                         $card.hide();
@@ -355,11 +397,11 @@ function parseQuery(str) {
                 if ($("#current-page").val() == 1 || isForceBuildPagination) {
                     buildPagination(result.total, $("#limit").val());
                 }
-                if(result.special_message){
+                if (result.special_message) {
                     // lets show the message and radius dropdown
                     $(".radius").show();
                     $(".special-message").empty().append(result.special_message).show();
-                } else{
+                } else {
                     $(".special-message").empty().hide();
                 }
             })
@@ -371,6 +413,11 @@ function parseQuery(str) {
             $(window).resize(function () {
                 pushpinPropertySearch();
                 pushpinAdvertisements();
+                resizeAllImage();
+            });
+
+            $(".card-image-container img").load(function () {
+                resizeImage($(this).closest(".card-image-container"));
             });
 
             // Floating-Fixed adv
@@ -629,7 +676,7 @@ function parseQuery(str) {
             $slider.find("li").height(w * ratio);
 
             // resize nav images
-            $(".unslider-nav li").height($(".unslider-nav li:first").width()*ratio);
+            $(".unslider-nav li").height($(".unslider-nav li:first").width() * ratio);
         }
 
         if ($slider.length) {
@@ -645,9 +692,9 @@ function parseQuery(str) {
                     $(this).attr("src", $(this).attr("xsrc"));
                     $(this).removeAttr("xsrc");
                 });
-                setTimeout(function(){
+                setTimeout(function () {
                     resizeSlider();
-                },100);
+                }, 100);
 
             };
             image.src = $slider.find("img:first").attr("src");

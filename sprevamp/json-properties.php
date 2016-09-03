@@ -14,7 +14,7 @@ echo json_encode(array(
             'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse convallis vel metus mattis vestibulum. In hac habitasse platea dictumst. Curabitur nec maximus diam. Quisque congue eros sed ipsum interdum cursus.',
             'image_count' => 14,
             'image_url' => 'assets/images/property/long.png',  // should be replaced with proper url
-            'special_tag' => array('corner-underoffer')
+            'special_tag' => array('corner-underoffer', 'corner-commercial') // corner-commercial, corner-letagreed, corner-newhome, corner-previouslymarketed, corner-reserved, corner-sold, corner-soldstc, corner-soldstcm, corner-underoffer
         ),
         array(
             'id' => '1111',

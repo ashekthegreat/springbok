@@ -80,7 +80,7 @@
                                         <div class="carousel-caption">External</div>
                                     </li>
                                 </ul>
-
+                                <span class="corner corner-commercial"></span>
                                 <div class="slideshow-control">Start Slideshow</div>
                             </div>
 
