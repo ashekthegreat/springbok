@@ -200,7 +200,7 @@
                                         </div>
                                         <div class="col s12 m6">
                                             <div class="margin-top-5 center-align">
-                                                <input type="checkbox" id="property-stc" name="property-stc" value="1"/>
+                                                <input type="checkbox" id="property-stc" name="property-stc" value="1" checked/>
                                                 <label for="property-stc">Include Sold STC</label>
                                             </div>
                                         </div>

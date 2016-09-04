@@ -44,11 +44,11 @@
                                         <div class="carousel-caption">Hallway</div>
                                     </li>
                                     <li>
-                                        <img src="assets/images/busy.gif" xsrc="assets/images/property/3.jpg">
+                                        <img src="assets/images/busy.gif" xsrc="assets/images/property/slong.png">
                                         <div class="carousel-caption">Reception Room</div>
                                     </li>
                                     <li>
-                                        <img src="assets/images/busy.gif" xsrc="assets/images/property/4.jpg">
+                                        <img src="assets/images/busy.gif" xsrc="assets/images/property/shrunk.png">
                                         <div class="carousel-caption">Reception Room</div>
                                     </li>
                                     <li>

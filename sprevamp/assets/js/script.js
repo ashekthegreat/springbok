@@ -374,6 +374,7 @@ function parseQuery(str) {
                         $card.find(".corner").remove();
 
                         $card.find(".property-title").attr("href", item.url).html(item.title);
+                        $card.find(".camera").attr("href", item.url);
                         $card.find(".property-price").html("Offers in excess of <strong>&pound;" + (+(item.price)).toLocaleString() + "</strong>");
                         $card.find(".property-address").html(item.address);
                         $card.find(".property-description").html(item.description);
@@ -604,8 +605,11 @@ function parseQuery(str) {
 
             function populateFieldsWithStateData(queryParam) {
                 var initialData = parseQuery(queryParam);
+                initialData['property-stc'] = initialData['limit']?initialData['property-stc']:1;
+
                 initialData['current-page'] = initialData['current-page'] || 1;
                 initialData['limit'] = initialData['limit'] || 10;
+
                 /*
                  added-to-site
                  current-page
@@ -617,6 +621,8 @@ function parseQuery(str) {
                  search
                  */
                 $search.val(initialData['search']);
+
+                $(".alert-box").toggle(!!initialData['search']);
 
                 $("#radius").val(initialData['radius']).material_select();
 
