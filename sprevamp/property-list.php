@@ -93,7 +93,10 @@
                                     <span class="caret">▼</span>
                                 </div>
                                 <div class="field field-button">
-                                    <button type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text">Search</button>
+                                    <button type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text do-search">
+                                        <span>Search</span>
+                                        <i class="typeahead__search-icon"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -227,6 +230,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m12 l9 margin-bottom-40">
+                        <div class="card-panel green white-text search-alert center-align">
+                            You have changed your search criteria - please click <strong>Search</strong> or
+                            <a href="javascript:;" class="cancel-search">cancel</a>
+                        </div>
+
                         <div class="card white sp-secondary-text margin-top-0">
                             <div class="card-content">
                                 <p class="big search-criteria"></p>

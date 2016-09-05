@@ -313,6 +313,7 @@ function parseQuery(str) {
         }
 
         function changeHistory(isClearPagination, isReplaceState) {
+            $(".search-alert").hide();
             if (isClearPagination) {
                 $("#current-page").val(1);
                 prepareSearchCriteria();
@@ -464,9 +465,17 @@ function parseQuery(str) {
                 }
             });
             $search.keypress(function (e) {
+                $(".search-alert").show();
                 if (e.which == 13) {
                     changeHistory(true);
                 }
+            });
+            $(".do-search").click(function () {
+                changeHistory(true);
+            });
+            $(".cancel-search").click(function () {
+                populateFieldsWithStateData(History.getState().cleanUrl);
+                changeHistory();
             });
 
             $(".property-search-extra").click(function (e) {

@@ -768,15 +768,15 @@
 
             padding: 10px;
             cursor: pointer;
+            font-size: 13px;
 
             .combined{
-                font-size: 16px;
                 line-height: 33px;
             }
 
             .caret{
                 position: absolute;
-                top: 10px;
+                top: 12px;
                 right: 10px;
                 font-size: 9px;
                 line-height: 33px;
@@ -794,7 +794,7 @@
             .select-wrapper input.select-dropdown{
                 line-height: 2rem;
                 height: 2rem;
-                font-size: 16px;
+                font-size: 13px;
                 box-sizing: border-box;
                 text-align: right;
                 padding-right: 25px;
@@ -832,6 +832,10 @@
                 display: none;
                 margin-left: -1px;
 
+                @media only screen and (max-width: 499px) {
+                    display: none!important;
+                }
+
                 .caret{
                     color: #3c3c3c;
                     line-height: 34px;
@@ -857,7 +861,7 @@
         }
         .field-price{
             .input-field{
-                width: 120px;
+                width: 100px;
             }
             @media only screen and (max-width: 767px) {
                 display: none;
@@ -865,21 +869,21 @@
         }
         .field-beds{
             .input-field{
-                width: 100px;
+                width: 85px;
             }
             @media only screen and (max-width: 1048px) {
                 display: none;
             }
         }
         .field-property-type{
-            padding: 0 25px 0 20px;
+            padding: 0 25px 0 15px;
 
             @media only screen and (max-width: 1200px) {
                 display: none;
             }
         }
         .field-filters{
-            padding: 0 20px;
+            padding: 0 25px 0 15px;
             width: 80px;
             -webkit-align-content: center;
             -ms-flex-line-pack: center;
@@ -889,10 +893,32 @@
             align-items: center;
         }
         .field-button{
-            font-size: 13px;
-            padding: 0 15px;
-            height: 32px;
+            padding: 0 0 0 15px;
             font-weight: 500;
+            button{
+                padding: 0;
+
+
+                span{
+                    display: none;
+                }
+                .typeahead__search-icon{
+                    display: block;
+                }
+                @media only screen and (min-width: 500px) {
+                    span{
+                        display: block;
+                    }
+                    .typeahead__search-icon{
+                        display: none;
+                    }
+                }
+            }
+            @media only screen and (min-width: 500px) {
+                button {
+                    padding: 0 15px;
+                }
+            }
         }
     }
 
@@ -940,6 +966,13 @@
 .properties-list{
     .special-message{
         display: none;
+    }
+    .search-alert{
+        display: none;
+
+        a{
+            color: #fff;
+        }
     }
     .property-list-adv{
         &.pinned{
