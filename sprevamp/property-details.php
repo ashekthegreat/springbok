@@ -81,7 +81,7 @@
                                     </li>
                                 </ul>
                                 <span class="corner corner-commercial"></span>
-                                <div class="slideshow-control">Start Slideshow</div>
+                                <div class="slideshow-control"><span class="sprite sprite-slideshow-small"></span> Start Slideshow</div>
                             </div>
 
                             <div class="property-interest clearfix">

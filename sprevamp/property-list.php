@@ -92,6 +92,9 @@
                                     <div class="combined">Filters</div>
                                     <span class="caret">▼</span>
                                 </div>
+                                <div class="field field-button">
+                                    <button type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text">Search</button>
+                                </div>
                             </div>
                         </div>
                     </div>

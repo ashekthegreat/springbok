@@ -456,7 +456,11 @@ function parseQuery(str) {
                     },
                     onCancel: function (node, event) {
                         changeHistory(true);
-                    }
+                    }/*,
+                    onSubmit: function (node, form, item, event) {
+                        changeHistory(true);
+                        event.preventDefault();
+                    }*/
                 }
             });
             $search.keypress(function (e) {
@@ -605,7 +609,7 @@ function parseQuery(str) {
 
             function populateFieldsWithStateData(queryParam) {
                 var initialData = parseQuery(queryParam);
-                initialData['property-stc'] = initialData['limit']?initialData['property-stc']:1;
+                initialData['property-stc'] = initialData['limit'] ? initialData['property-stc'] : 1;
 
                 initialData['current-page'] = initialData['current-page'] || 1;
                 initialData['limit'] = initialData['limit'] || 10;
@@ -691,7 +695,6 @@ function parseQuery(str) {
                 resizeSlider();
             });
 
-
             var image = new Image();
             image.onload = function () {
                 $("img[xsrc]").each(function () {
@@ -708,6 +711,12 @@ function parseQuery(str) {
             /*$(window).on("resize.carousel", function(){
              resizeCarouselItems();
              })*/
+
+            $slider.on('unslider.ready', function () {
+                $(".unslider-nav img").load(function () {
+                    resizeSlider();
+                });
+            });
 
             var propertySlider = $slider.unslider({
                 arrows: {
