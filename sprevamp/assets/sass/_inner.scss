@@ -1060,6 +1060,11 @@
             overflow:hidden;
             position: relative;
             flex-grow: 1;
+            display: block;
+
+            img{
+                max-width: none;
+            }
         }
         .wh {height:100%!important}
         .ww {width:100%!important}

@@ -246,9 +246,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
 
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
@@ -274,9 +274,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>
@@ -301,9 +301,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>
@@ -328,9 +328,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>
@@ -361,9 +361,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>
@@ -388,9 +388,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>
@@ -415,9 +415,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>
@@ -442,9 +442,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>
@@ -475,9 +475,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>
@@ -502,9 +502,9 @@
 
                         <div class="card horizontal hoverable property-card busy">
                             <div class="card-image">
-                                <div class="card-image-container">
-                                    <img class="responsive-img property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
-                                </div>
+                                <a href="property-details.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/camera-placeholder.png" width="490" height="366">
+                                </a>
                                 <div class="card-image-footer">
                                     <a href="property-details.php" class="camera">
                                         <span class="property-image-count"></span> <img src="assets/images/camera-32.png" width="32" height="32"/>

@@ -178,15 +178,19 @@ function parseQuery(str) {
             if ($(this).hasClass("go-register")) {
                 active = "register";
             }
+			var loginAction = $(this).data('action');						// MANISH
 
             $modal.openModal({
                 ready: function () {
+					$modal.find('.loginAction').val(loginAction);			// MANISH
                     $modal.find('ul.tabs').tabs('select_tab', active);
                 }
             });
             return false;
         });
     });
+
+
 
     // book modal
     $(function () {
@@ -195,11 +199,13 @@ function parseQuery(str) {
             // change button text
             $modal.find(".cmd-submit").text($(this).text());
             // change source and property id
-            $modal.find('input[name="_source"]').val(window.location.href);
-            if ($(this).closest(".properties-list").length) {
+            if ($(this).closest(".properties-list").length) {			// MANISH
                 // its listing page
                 $modal.find('input[name="_page_url"]').val($(this).closest(".property-card").find(".property-title").attr("href"));
-            } else {
+				$modal.find('input[name="_source"]').val($(this).closest(".property-card").find(".property-title").attr("href"));
+				$modal.find('.book-title').text($(this).closest(".property-card").find(".property-address").text())
+			} else {
+				$modal.find('input[name="_source"]').val(window.location.href);
                 $modal.find('input[name="_page_url"]').val(window.location.href);
             }
             // add property ID
@@ -283,8 +289,8 @@ function parseQuery(str) {
         }
 
         function prepareSearchCriteria() {
-            var searchCriteria = 'Properties For Sale in ';
-            searchCriteria += $("#search").val() ? $("#search").val() : "all area";
+            var searchCriteria = 'Properties For Sale';
+            searchCriteria += $("#search").val() ? " in "+$("#search").val() : "";
 
             // price
             if ($("#field-dropdown-price-min").val() && $("#field-dropdown-price-max").val()) {
@@ -306,7 +312,7 @@ function parseQuery(str) {
 
             // added
             if ($("#added-to-site").val()) {
-                searchCriteria += ", added in the " + $("#added-to-site option:selected").text();
+                searchCriteria += ", sorted by " + $("#added-to-site option:selected").text();		//MANISH
             }
 
             $(".search-criteria").text(searchCriteria);
@@ -375,14 +381,14 @@ function parseQuery(str) {
                         $card.find(".corner").remove();
 
                         $card.find(".property-title").attr("href", item.url).html(item.title);
-                        $card.find(".camera").attr("href", item.url);
-                        $card.find(".property-price").html("Offers in excess of <strong>&pound;" + (+(item.price)).toLocaleString() + "</strong>");
+                        $card.find(".camera, .prop_img, .property-title").attr("href", item.url);
+                        $card.find(".property-price").html(item.price);									// MANISH
                         $card.find(".property-address").html(item.address);
                         $card.find(".property-description").html(item.description);
 
                         $card.find(".property-image").attr("src", item.image_url);
                         $card.find(".property-image-count").html(item.image_count);
-
+						$card.find(".prop-book").attr('data-prop', item.id);	// Property ID			// MANISH
                         if (typeof item.special_tag == "string") {
                             $card.find(".card-image-container").append('<span class="corner ' + item.special_tag + '"></span>');
                         } else {
