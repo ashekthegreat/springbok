@@ -86,7 +86,7 @@ function parseQuery(str) {
     });
     $(window).load(function () {
         if (target) {
-            $('a[href^="#' + target + '"]').click();
+            $('a[href$="#' + target + '"]').click();
         }
     });
 
@@ -470,7 +470,7 @@ function parseQuery(str) {
                     }*/
                 }
             });
-            $search.keypress(function (e) {
+            $search.keydown(function (e) {
                 $(".search-alert").show();
                 if (e.which == 13) {
                     changeHistory(true);

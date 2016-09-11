@@ -11299,71 +11299,76 @@ main a:hover {
   .card.property-card .card-image .card-image-container img {
     position: absolute;
     border-top-right-radius: 0;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    height: auto;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 1151, ../sass/_inner.scss */
+  /* line 1156, ../sass/_inner.scss */
   .card.property-card {
     display: block;
   }
-  /* line 1153, ../sass/_inner.scss */
+  /* line 1158, ../sass/_inner.scss */
   .card.property-card .card-image {
     width: 100%;
     display: block;
-  }
-  /* line 1157, ../sass/_inner.scss */
-  .card.property-card .card-image .responsive-img {
-    width: 100%;
-    height: auto;
   }
   /* line 1162, ../sass/_inner.scss */
   .card.property-card .card-image .card-image-container {
     height: auto !important;
   }
-  /* line 1166, ../sass/_inner.scss */
+  /* line 1165, ../sass/_inner.scss */
+  .card.property-card .card-image .card-image-container img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 1171, ../sass/_inner.scss */
   .card.property-card .card-stacked {
     display: block;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 1174, ../sass/_inner.scss */
+  /* line 1179, ../sass/_inner.scss */
   .card.property-card .card-action .call-now {
     margin-top: 15px;
   }
-  /* line 1176, ../sass/_inner.scss */
+  /* line 1181, ../sass/_inner.scss */
   .card.property-card .card-action .call-now br {
     display: none;
   }
 }
 /* contact-us.php */
-/* line 1187, ../sass/_inner.scss */
+/* line 1192, ../sass/_inner.scss */
 .contact-list .card {
   border-left: 3px solid #e0d200;
 }
-/* line 1189, ../sass/_inner.scss */
+/* line 1194, ../sass/_inner.scss */
 .contact-list .card .card-title {
   font-weight: 500;
   text-transform: uppercase;
 }
-/* line 1193, ../sass/_inner.scss */
+/* line 1198, ../sass/_inner.scss */
 .contact-list .card .card-body {
   height: 100px;
 }
-/* line 1196, ../sass/_inner.scss */
+/* line 1201, ../sass/_inner.scss */
 .contact-list .card .card-body a {
   text-decoration: none;
 }
-/* line 1201, ../sass/_inner.scss */
+/* line 1206, ../sass/_inner.scss */
 .contact-list i {
   vertical-align: middle;
 }
-/* line 1204, ../sass/_inner.scss */
+/* line 1209, ../sass/_inner.scss */
 .contact-list .video-container {
   border-top: 1px solid #ddd;
 }
 
 /* contact-us.php */
-/* line 1211, ../sass/_inner.scss */
+/* line 1216, ../sass/_inner.scss */
 .advertise-main .card-panel {
   border-radius: 2px;
   background-color: #fff;
@@ -11378,7 +11383,7 @@ main a:hover {
   margin-bottom: 15px;
   margin-top: 0;
 }
-/* line 1225, ../sass/_inner.scss */
+/* line 1230, ../sass/_inner.scss */
 .advertise-main .card-panel.card-many {
   width: 330px;
   text-align: right;
@@ -11386,11 +11391,11 @@ main a:hover {
   vertical-align: bottom;
   font-weight: 500;
 }
-/* line 1233, ../sass/_inner.scss */
+/* line 1238, ../sass/_inner.scss */
 .advertise-main .adv-logo {
   vertical-align: middle;
 }
-/* line 1237, ../sass/_inner.scss */
+/* line 1242, ../sass/_inner.scss */
 .advertise-main .collapsible-header .sprite {
   vertical-align: middle;
   margin-right: 5px;
@@ -11398,32 +11403,32 @@ main a:hover {
   transform: rotate(0deg);
   transition: transform .3s;
 }
-/* line 1246, ../sass/_inner.scss */
+/* line 1251, ../sass/_inner.scss */
 .advertise-main .collapsible-header.active .sprite {
   transform: rotate(90deg);
 }
-/* line 1251, ../sass/_inner.scss */
+/* line 1256, ../sass/_inner.scss */
 .advertise-main .collapsible-body {
   padding: 20px;
 }
-/* line 1254, ../sass/_inner.scss */
+/* line 1259, ../sass/_inner.scss */
 .advertise-main .columns-2 {
   column-count: 2;
   column-gap: 20px;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 1261, ../sass/_inner.scss */
+  /* line 1266, ../sass/_inner.scss */
   .advertise-main .columns-2 {
     column-count: 1;
   }
 }
 /* about-us page */
-/* line 1269, ../sass/_inner.scss */
+/* line 1274, ../sass/_inner.scss */
 .about-quotes blockquote + h3 {
   margin-top: 60px;
 }
-/* line 1272, ../sass/_inner.scss */
+/* line 1277, ../sass/_inner.scss */
 .about-quotes blockquote {
   border-color: #adaab1;
 }
