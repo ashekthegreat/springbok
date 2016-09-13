@@ -326,10 +326,12 @@ function parseQuery(str) {
             }
             var data = $('.property-search-bar form').serializeArray();
             var targetQueryString = "?" + $.param(data);
+            var searchKey = $("#search").val();
+            var pageTitleLocation = (searchKey ? (searchKey[0].toUpperCase() + searchKey.substring(1)) : "The UK");
             if (isReplaceState) {
-                History.replaceState(null, null, targetQueryString);
+                History.replaceState(null, "Find Properties For Sale In "+ pageTitleLocation +" - Springbok Properties", targetQueryString);
             } else {
-                History.pushState(null, null, targetQueryString);
+                History.pushState(null, "Find Properties For Sale In "+ pageTitleLocation +" - Springbok Properties", targetQueryString);
             }
         }
 
