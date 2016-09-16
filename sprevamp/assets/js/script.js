@@ -373,8 +373,10 @@ function parseQuery(str) {
 
             var $cards = $(".property-card");
             $cards.addClass("busy");
+            $(window).scrollTop( 0 );
 
             $.post('json-properties.php', data, function (result) {
+
                 $(".total").text(result.total.toLocaleString());
                 $.each($cards, function (i, card) {
                     var $card = $(card);
@@ -404,6 +406,7 @@ function parseQuery(str) {
                         $card.hide();
                     }
                 });
+
                 if ($("#current-page").val() == 1 || isForceBuildPagination) {
                     buildPagination(result.total, $("#limit").val());
                 }
