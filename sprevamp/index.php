@@ -217,78 +217,78 @@
                         </div>
                     </div>
                 </div>
-                <div class="small-videos ">
-                    <div class="card hoverable" data-id="0PK0_RMxgLs">
+                <ul class="small-videos ">
+                    <li class="card hoverable" data-id="0PK0_RMxgLs">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/0PK0_RMxgLs/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Keighley <br>Richardson</div>
-                    </div>
-                    <div class="card hoverable" data-id="P8TOSyLkWlo">
+                    </li>
+                    <li class="card hoverable" data-id="P8TOSyLkWlo">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/P8TOSyLkWlo/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Julie <br>Price</div>
-                    </div>
-                    <div class="card hoverable" data-id="mxbvoMspw0k">
+                    </li>
+                    <li class="card hoverable" data-id="mxbvoMspw0k">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/mxbvoMspw0k/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Ian <br>Wynn</div>
-                    </div>
-                    <div class="card hoverable" data-id="mvsbbI3tXA4">
+                    </li>
+                    <li class="card hoverable" data-id="mvsbbI3tXA4">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/mvsbbI3tXA4/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Dianne <br>Sass</div>
-                    </div>
-                    <div class="card hoverable" data-id="QedLPJ3dYXU">
+                    </li>
+                    <li class="card hoverable" data-id="QedLPJ3dYXU">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/QedLPJ3dYXU/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Samantha <br>Lad</div>
-                    </div>
-                    <div class="card hoverable" data-id="PPJv9AY77KU">
+                    </li>
+                    <li class="card hoverable" data-id="PPJv9AY77KU">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/PPJv9AY77KU/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Warren <br>Terry</div>
-                    </div>
-                    <div class="card hoverable" data-id="EfgAXRE6Ybk">
+                    </li>
+                    <li class="card hoverable" data-id="EfgAXRE6Ybk">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/EfgAXRE6Ybk/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Mohammed <br>Ashraf</div>
-                    </div>
-                    <div class="card hoverable" data-id="iY38J2sNq-U">
+                    </li>
+                    <li class="card hoverable" data-id="iY38J2sNq-U">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/iY38J2sNq-U/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Mike <br>Gaughan</div>
-                    </div>
-                    <div class="card hoverable" data-id="AL18YfGfBQ8">
+                    </li>
+                    <li class="card hoverable" data-id="AL18YfGfBQ8">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/AL18YfGfBQ8/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Julian <br>Roberts</div>
-                    </div>
-                    <div class="card hoverable" data-id="0Irq3ggPT4Y">
+                    </li>
+                    <li class="card hoverable" data-id="0Irq3ggPT4Y">
                         <div class="card-image">
                             <img class="responsive-img" src="http://img.youtube.com/vi/0Irq3ggPT4Y/default.jpg" width="120" height="90">
                             <div class="play-button"><i class="social social-youtube-play-small"></i></div>
                         </div>
                         <div class="card-content center-align">Gary <br>Morrish</div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
                 <div class="center-align">
                     <a href="reviews.php" target="_blank" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">See more reviews</a>
                 </div>

@@ -795,7 +795,7 @@ function parseQuery(str) {
             function p2h(percentage) {
                 return (windowHeight * percentage) / 100;
             }
-
+            Materialize.showStaggeredList($(".home-banner ul"));
             var options = [
                 {
                     selector: '.home-fast .card-panel',
@@ -816,6 +816,27 @@ function parseQuery(str) {
                     offset: p2h(80),
                     callback: function (el) {
                         Materialize.fadeInImage($(el).find(".sprite-9000"));
+                    }
+                },
+                {
+                    selector: '.home-how-it-works img',
+                    offset: 250,
+                    callback: function (el) {
+                        Materialize.fadeInImage($(el));
+                    }
+                },
+                {
+                    selector: '.home-recent-sale img',
+                    offset: 250,
+                    callback: function (el) {
+                        Materialize.fadeInImage($(el));
+                    }
+                },
+                {
+                    selector: '.small-videos',
+                    offset: 100,
+                    callback: function(el) {
+                        Materialize.showStaggeredList($(el));
                     }
                 }
             ];

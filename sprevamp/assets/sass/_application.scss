@@ -166,6 +166,7 @@ a[href^=tel] {
 
             li {
                 margin-bottom: 10px;
+                opacity: 0;
             }
 
             i {
@@ -216,6 +217,9 @@ a[href^=tel] {
     > div {
         padding-bottom: 8px;
         padding-top: 8px;
+    }
+    img{
+        opacity: 0;
     }
 }
 
@@ -323,6 +327,7 @@ a[href^=tel] {
             margin: 0 5px 25px;
             width: 100px;
             vertical-align: top;
+            opacity: 0;
 
             .card-content {
                 padding: 4px;
@@ -394,6 +399,7 @@ a[href^=tel] {
     }
     img {
         vertical-align: top;
+        opacity: 0;
     }
 }
 
