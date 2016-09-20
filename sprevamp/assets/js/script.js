@@ -805,10 +805,24 @@ function parseQuery(str) {
                     }
                 },
                 {
-                    selector: '.home-why',
-                    offset: p2h(50),
+                    selector: '.home-why ul.row',
+                    offset: 180,
                     callback: function (el) {
-                        Materialize.fadeInImage($(el).find(".point"));
+                        Materialize.showStaggeredList($(el));
+                    }
+                },
+                {
+                    selector: '.home-why ul.row + ul.row',
+                    offset: 180,
+                    callback: function (el) {
+                        Materialize.showStaggeredList($(el));
+                    }
+                },
+                {
+                    selector: '.home-why ul.row + ul.row + ul.row',
+                    offset: 180,
+                    callback: function (el) {
+                        Materialize.showStaggeredList($(el));
                     }
                 },
                 {

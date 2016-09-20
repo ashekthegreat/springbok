@@ -105,54 +105,54 @@
                     We eliminated the clutter and focused on what matters to you!<br>
                     Speed. Communication. Getting more people through your door. Getting you the best price.
                 </p>
-                <div class="row">
-                    <div class="col s12 m6">
+                <ul class="row">
+                    <li class="col s12 m6">
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-best"></i></div>
                             <h4>Best possible price - fast!</h4>
                             <p>We get you the best possible price in the shortest possible time (typically less than 30 days). Simple! </p>
                         </div>
-                    </div>
-                    <div class="col s12 m6">
+                    </li>
+                    <li class="col s12 m6">
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-call-center"></i></div>
                             <h4>Voted Best Branch for customer service</h4>
                             <p>Independently voted the Best Branch in the UK, 2 years running, with 7 Gold Awards for Customer Service</p>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m6">
+                    </li>
+                </ul>
+                <ul class="row">
+                    <li class="col s12 m6">
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-no-sale"></i></div>
                             <h4>No sale, no fee - guaranteed!</h4>
                             <p>Only one fee, agreed up-front, paid only upon success. Simply no other charges whatsoever!</p>
                         </div>
-                    </div>
-                    <div class="col s12 m6">
+                    </li>
+                    <li class="col s12 m6">
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-sp-logo"></i></div>
                             <h4>Springbok expert progression</h4>
                             <p>Springbok has one of the finest, most experienced sales progression teams in the UK, dedicated to fully managing the whole process.</p>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m6">
+                    </li>
+                </ul>
+                <ul class="row">
+                    <li class="col s12 m6">
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-reviews"></i></div>
                             <h4>Hundreds of positive reviews and happy customers</h4>
                             <p>We regularly exceed expectations, and 96% of our clients are happy to recommend us.</p>
                         </div>
-                    </div>
-                    <div class="col s12 m6">
+                    </li>
+                    <li class="col s12 m6">
                         <div class="point">
                             <div class="point-icon"><i class="sprite sprite-247"></i></div>
                             <h4>At Your Service 24/7</h4>
                             <p>Whether you need a valuation for your house or have a question, we are with you every step of the way. </p>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
 

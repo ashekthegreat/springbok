@@ -224,8 +224,10 @@ a[href^=tel] {
 }
 
 .home-why {
-    .point {
+    .row > li{
         opacity: 0;
+    }
+    .point {
         position: relative;
         min-height: 124px;
         padding-left: 160px;
