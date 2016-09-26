@@ -104,6 +104,10 @@ function parseQuery(str) {
 
         resizeMapText();
 
+        $('.home-recent-sale img').load(function(){
+            resizeMapText();
+        });
+
         // recent-sales > banner
         function resizeSalesBannerHeight() {
             var h = $('.sales-banner form').height();
@@ -826,10 +830,10 @@ function parseQuery(str) {
                     }
                 },
                 {
-                    selector: '.home-estimator',
-                    offset: p2h(80),
+                    selector: '.home-estimator .sprite-9000',
+                    offset: 150,
                     callback: function (el) {
-                        Materialize.fadeInImage($(el).find(".sprite-9000"));
+                        Materialize.fadeInImage($(el));
                     }
                 },
                 {
