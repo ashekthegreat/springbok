@@ -333,6 +333,7 @@ function parseQuery(str) {
             var targetQueryString = "?" + $.param(data);
             var searchKey = $("#search").val();
             var pageTitleLocation = (searchKey ? (searchKey[0].toUpperCase() + searchKey.substring(1)) : "The UK");
+            pageTitleLocation = preloadedDocumentTitle ? preloadedDocumentTitle : pageTitleLocation;
             if (isReplaceState) {
                 History.replaceState(null, "Find Properties For Sale In " + pageTitleLocation + " - Springbok Properties", targetQueryString);
             } else {
@@ -378,7 +379,7 @@ function parseQuery(str) {
 
             var $cards = $(".property-card");
             $cards.addClass("busy");
-            $(window).scrollTop(0);																	// MANISH
+            $(window).scrollTop(0);
             $.post(SITE_PATH + 'includes/json-properties.php', data, function (result) {					// MANISH
                 $(".total").text(result.total.toLocaleString());
                 $.each($cards, function (i, card) {
@@ -644,7 +645,7 @@ function parseQuery(str) {
                 ".php",
                 "/"
             ];
-
+            var preloadedDocumentTitle = "";
             function populateFieldsWithStateData(queryParam) {
                 var initialData = parseQuery(queryParam);
                 initialData['property-stc'] = initialData['limit'] ? initialData['property-stc'] : 1;
@@ -660,7 +661,13 @@ function parseQuery(str) {
                     }
                     if (searchTextInUrl && window.location.href.indexOf(searchTextInUrl) > 0) {
                         initialData['search'] = decodeURIComponent(searchTextInUrl);
+                        preloadedDocumentTitle = initialData['search'];
+                        document.title = "Find Properties For Sale In " + preloadedDocumentTitle + " - Springbok Properties";;
+                        $(".location-extra-message").show();
+                        $(".location-extra-message").find(".search-location-special").html(preloadedDocumentTitle);
                     }
+                } else{
+                    $(".location-extra-message").hide();
                 }
 
                 /*

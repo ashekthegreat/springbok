@@ -333,6 +333,7 @@ function parseQuery(str) {
             var targetQueryString = "?" + $.param(data);
             var searchKey = $("#search").val();
             var pageTitleLocation = (searchKey ? (searchKey[0].toUpperCase() + searchKey.substring(1)) : "The UK");
+            pageTitleLocation = preloadedDocumentTitle ? preloadedDocumentTitle : pageTitleLocation;
             if (isReplaceState) {
                 History.replaceState(null, "Find Properties For Sale In " + pageTitleLocation + " - Springbok Properties", targetQueryString);
             } else {
@@ -379,9 +380,7 @@ function parseQuery(str) {
             var $cards = $(".property-card");
             $cards.addClass("busy");
             $(window).scrollTop(0);
-
             $.post('json-properties.php', data, function (result) {
-
                 $(".total").text(result.total.toLocaleString());
                 $.each($cards, function (i, card) {
                     var $card = $(card);
@@ -646,7 +645,7 @@ function parseQuery(str) {
                 ".php",
                 "/"
             ];
-
+            var preloadedDocumentTitle = "";
             function populateFieldsWithStateData(queryParam) {
                 var initialData = parseQuery(queryParam);
                 initialData['property-stc'] = initialData['limit'] ? initialData['property-stc'] : 1;
@@ -662,7 +661,13 @@ function parseQuery(str) {
                     }
                     if (searchTextInUrl && window.location.href.indexOf(searchTextInUrl) > 0) {
                         initialData['search'] = decodeURIComponent(searchTextInUrl);
+                        preloadedDocumentTitle = initialData['search'];
+                        document.title = "Find Properties For Sale In " + preloadedDocumentTitle + " - Springbok Properties";
+                        $(".location-extra-message").show();
+                        $(".location-extra-message").find(".search-location-special").html(preloadedDocumentTitle.charAt(0).toUpperCase() + preloadedDocumentTitle.slice(1));
                     }
+                } else{
+                    //$(".location-extra-message").hide();
                 }
 
                 /*
@@ -891,4 +896,299 @@ function parseQuery(str) {
         }
     })
 
+    //--- Property Details Page Functions														// MANISH MANISH
+    $(function () {
+        $(".save-property").click(function () {
+            if (!$(this).hasClass("not-logged-in")) {
+                var arrData = [];
+                arrData.type = 'save_prop';
+                arrData.propId = $(this).data('prop');
+                var strData = $.extend({}, arrData);
+                $.post(SITE_PATH + 'includes/caseHelper.php', strData, function (result) {
+                    if (result == 'success') {
+                        Materialize.toast("Property Saved Successfully", 3000, "green")
+                    } else {
+                        Materialize.toast("Already Saved.", 3000, "red")
+                    }
+                })
+            }
+        });
+        $(".add-notes").click(function () {
+            if (!$(this).hasClass("not-logged-in")) {
+                $('.add-note-editor').show()
+            }
+        });
+        $(".btn-cancel-note").click(function () {
+            $('.add-note-editor').hide()
+        });
+        $(".btn-save-note").click(function () {
+            var notes = $('#myTextarea').val();
+            if (notes != '') {
+                var arrData = [];
+                arrData.type = 'saveNotes';
+                arrData.id = $(this).data('prop');
+                arrData.notes = $('#myTextarea').val();
+                var strData = $.extend({}, arrData);
+                $.post(SITE_PATH + 'includes/caseHelper.php', strData, function (result) {
+                    if (result == 'Notes Updated' || result == 'Notes Added') {
+                        Materialize.toast("Note added Successfully", 3000, "green");
+                        location.reload()
+                    } else {
+                        Materialize.toast("Failed to save.", 3000, "red")
+                    }
+                })
+            } else {
+                Materialize.toast("Blank note not allowed.", 3000, "red")
+            }
+        });
+        $('#rq-buyingStatus').change(function () {
+            if ($(this).val() == '317' || $(this).val() == '318') {
+                $('.form-group-postcode').show()
+            } else {
+                $('.form-group-postcode').hide()
+            }
+        });
+        $('.form-request-details').submit(function () {
+            if ($('#rq-name').val().trim() == '' || $('#rq-phone').val() == '') {
+                Materialize.toast("Name & Phone are mandatory fields and cannot be left blank.", 3000, "red");
+                return !1
+            } else if ($('#rq-buyingStatus').val() == '0') {
+                Materialize.toast("Please select property to sell.", 3000, "red");
+                $('#rq-buyingStatus').focus();
+                return !1
+            } else if (($('#rq-buyingStatus').val() == '317' || $('#rq-buyingStatus').val() == '318') && $('#rq-postcode').val() == '') {
+                Materialize.toast("Please provide postcode for property in sale.", 3000, "red");
+                $('#rq-postcode').focus();
+                return !1
+            } else {
+                return !0
+            }
+        });
+        $('.alert-box-link').click(function () {
+            if ($(this).hasClass("not-logged-in")) {
+            } else {
+                var saveSearchLink = SITE_PATH + 'save_search.php' + document.location.search;
+                window.location.assign(saveSearchLink)
+            }
+        })
+
+        function isPostcode(s) {
+            var regex = /^(GIR 0AA)|([A-PR-UWYZ]((\d(\d|[A-HJKSTUW])?)|([A-HK-Y]\d(\d|[ABEHMNPRV-Y])?)) \d[ABD-HJLNOP-UW-Z]{2})$/i;
+            return regex.test(s)
+        }
+
+        function isEmail(s) {
+            var regexE = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            return regexE.test(s)
+        }
+
+        function validateForm($frm) {
+            var regPhone = /^[0-9 \-\+]+$/;
+            var regEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var regPostcode = /^(GIR 0AA)|([A-PR-UWYZ]((\d(\d|[A-HJKSTUW])?)|([A-HK-Y]\d(\d|[ABEHMNPRV-Y])?)) \d[ABD-HJLNOP-UW-Z]{2})$/i;
+            var $name = $frm.find('#name');
+            var $phone = $frm.find('#phone');
+            var $postCode = $frm.find('#postcode');
+            var $email = $frm.find('#email');
+            if (!$name.val()) {
+                Materialize.toast("Name cannot be left blank.", 3000, "red");
+                $name.val("").focus();
+                return !1
+            } else if ($phone && (!$phone.val() || !(regPhone.test($phone.val())))) {
+                Materialize.toast("Please provide your valid contact number.", 3000, "red");
+                $phone.val("").focus();
+                return !1
+            } else if ($postCode.length && !($postCode.val())) {
+                Materialize.toast("Please provide valid UK postcode with a space between the two parts. e.g. AB1 1BA; S60 4DT; WA16 7HN", 3000, "red");
+                $postCode.focus();
+                return !1
+            } else {
+                return !0
+            }
+        }
+
+        function validateForm2($frm) {
+            var regPhone = /^[0-9 \-\+]+$/;
+            var regEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var regPostcode = /^(GIR 0AA)|([A-PR-UWYZ]((\d(\d|[A-HJKSTUW])?)|([A-HK-Y]\d(\d|[ABEHMNPRV-Y])?)) \d[ABD-HJLNOP-UW-Z]{2})$/i;
+            var $name = $frm.find('#name');
+            var $phone = $frm.find('#phone');
+            var $postCode = $frm.find('#postcode');
+            var $email = $frm.find('#email');
+            if (!$email.val() || !(regEmail.test($email.val()))) {
+                Materialize.toast("Please provide a valid email address.", 3000, "red");
+                $email.val("").focus();
+                return !1
+            } else if ($phone && (!$phone.val() || !(regPhone.test($phone.val())))) {
+                Materialize.toast("Please provide your valid contact number.", 3000, "red");
+                $phone.val("").focus();
+                return !1
+            } else if ($postCode.length && !($postCode.val())) {
+                Materialize.toast("Please provide valid UK postcode with a space between the two parts. e.g. AB1 1BA; S60 4DT; WA16 7HN", 3000, "red");
+                $postCode.focus();
+                return !1
+            } else {
+                return !0
+            }
+        }
+
+        function validateForm3($frm) {
+            var regPhone = /^[0-9 \-\+]+$/;
+            var regEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var regPostcode = /^(GIR 0AA)|([A-PR-UWYZ]((\d(\d|[A-HJKSTUW])?)|([A-HK-Y]\d(\d|[ABEHMNPRV-Y])?)) \d[ABD-HJLNOP-UW-Z]{2})$/i;
+            var $name = $frm.find('#name');
+            var $phone = $frm.find('#phone');
+            var $postCode = $frm.find('#postcode');
+            var $email = $frm.find('#email');
+            if (!$name.val()) {
+                Materialize.toast("Name cannot be left blank.", 3000, "red");
+                $name.val("").focus();
+                return !1
+            } else if ($phone && (!$phone.val() || !(regPhone.test($phone.val())))) {
+                Materialize.toast("Please provide your valid contact number.", 3000, "red");
+                $phone.val("").focus();
+                return !1
+            } else if (!$email.val() || !(regEmail.test($email.val()))) {
+                Materialize.toast("Please provide a valid email address.", 3000, "red");
+                $email.val("").focus();
+                return !1
+            } else {
+                return !0
+            }
+        }
+
+        function validateFormRefer($frm) {
+            var regPhone = /^[0-9 \-\+]+$/;
+            var regEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var regPostcode = /^(GIR 0AA)|([A-PR-UWYZ]((\d(\d|[A-HJKSTUW])?)|([A-HK-Y]\d(\d|[ABEHMNPRV-Y])?)) \d[ABD-HJLNOP-UW-Z]{2})$/i;
+            var $name = $frm.find('#name');
+            var $phone = $frm.find('#phone');
+            var $postCode = $frm.find('#postcode');
+            var $email = $frm.find('#email');
+            var $name_f = $frm.find('#friend_referrer_name');
+            var $phone_f = $frm.find('#friend_referrer_phone');
+            var $postCode_f = $frm.find('#friend_referrer_postcode');
+            var $email_f = $frm.find('#friend_referrer_email');
+            if (!$name.val() || !$name_f.val()) {
+                Materialize.toast("Both names are required & cannot be left blank.", 3000, "red");
+                $name.val("").focus();
+                return !1
+            } else if ($phone && (!$phone.val() || !(regPhone.test($phone.val()))) && (!$phone_f.val() || !(regPhone.test($phone_f.val())))) {
+                Materialize.toast("Please provide yours & friend's valid contact numbers.", 3000, "red");
+                $phone.val("").focus();
+                return !1
+            } else if ($postCode.length && !($postCode.val() && isPostcode($postCode.val())) && !($postCode_f.val() && isPostcode($postCode_f.val()))) {
+                Materialize.toast("Please provide valid UK postcodes (friends too) with a space between the two parts. e.g. AB1 1BA; S60 4DT; WA16 7HN", 3000, "red");
+                $postCode.focus();
+                return !1
+            } else if (!($email.val() && isEmail($email.val()))) {
+                Materialize.toast("Please provide your valid email address.", 3000, "red");
+                $email.focus();
+                return !1
+            } else {
+                return !0
+            }
+        }
+
+        //--- MAIN TOP HOME PAGE WF | HOME PAGE - OFFER ESTIMATOR | HOME PAGE - WANT TO CHAT
+        $(".wf_1").submit(function () {				// NAME / PHONE / POSTCODE VALIDATOR
+            return validateForm($(this))
+        });
+
+        //--- HOW MUCH MY HOUSE WORTH				// PHONE  | EMAIL  | POSTCODE
+        $(".wf_2").submit(function () {
+            return validateForm2($(this))
+        });
+
+        //--- INVESTMENT FORM						// NAME |  PHONE  | EMAIL
+        $(".wf_3").submit(function () {
+            return validateForm3($(this))
+        });
+
+        //--- INVESTMENT FORM
+        $(".wf_4").submit(function () {
+            return validateForm($(this))
+        });
+
+        //--- MORTGAGE FORM
+        $(".wf_5").submit(function () {
+            return validateForm($(this))
+        });
+
+        //--- REFER A FRIEND
+        $(".wf_refer").submit(function () {
+            return validateFormRefer($(this))
+        });
+
+        $("#removeProp").click(function () {
+            if (!isCheckedById("selectorChk")) {
+                Materialize.toast("Please select properties you would like to remove or send to a friend", 3000, "red");
+                return !1
+            } else {
+                var answer = confirm("Are You Want to delete this property!");
+                if (answer) {
+                    var val = [];
+                    $(':checkbox:checked').each(function (i) {
+                        val[i] = $(this).val()
+                    });
+                    $("#loader").show();
+                    $.post('includes/caseHelper.php', {
+                        id: val,
+                        type: 'delete'
+                    }, function (data) {
+                        $("#loader").hide();
+                        window.location.reload()
+                    })
+                }
+            }
+        });
+        $("#sendToFriend").click(function () {
+            if (!isCheckedById("selectorChk")) {
+                Materialize.toast("Please select properties you would like to remove OR send to a friend", 3000, "red");
+                return !1
+            } else {
+                var val = [];
+                $(':checkbox:checked').each(function (i) {
+                    val[i] = $(this).val()
+                });
+                window.location = "http://springbokproperties.co.uk/sendToFriend.php?propertyId=" + escape(val)
+            }
+        });
+
+        function isCheckedById(id) {
+            var checked = $("." + id + ":checked").length;
+            if (checked == 0) {
+                return !1
+            } else {
+                return !0
+            }
+        }
+    })
+
 }());
+
+
+$(function () {
+    $('#regform').submit(function () {
+        var regEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        var $email = $('#email');
+        var $pass = $('#password');
+        var $cpass = $('#confpassword');
+        if ($('#title').val() == '' || $('#firstname').val == '') {
+            Materialize.toast("Title & first name cannot be left blank", 3000, "red");
+            $('#title').focus();
+            return !1
+        } else if ($email.val() == '' || !(regEmail.test($email.val()))) {
+            Materialize.toast("Please provide your valid email address.", 3000, "red");
+            $email.focus();
+            return !1
+        } else if (($pass.val() == '' || $cpass.val() == '') || ($pass.val() != $cpass.val())) {
+            Materialize.toast("Passwords provided do not match. Please correct ", 3000, "red");
+            $pass.val('').focus();
+            $cpass.val('');
+            return !1
+        } else {
+            return !0
+        }
+    })
+})
