@@ -9906,6 +9906,7 @@ main a:hover {
 }
 /* line 788, ../sass/_application.scss */
 .property-details .unslider-nav ol li {
+  display: flex;
   flex-grow: 1;
   flex-shrink: 1;
   height: auto;
@@ -9915,135 +9916,135 @@ main a:hover {
   cursor: pointer;
   max-width: 100px;
 }
-/* line 798, ../sass/_application.scss */
+/* line 799, ../sass/_application.scss */
 .property-details .unslider-nav ol li + li {
   margin-left: 1px;
 }
-/* line 802, ../sass/_application.scss */
+/* line 803, ../sass/_application.scss */
 .property-details .unslider-nav ol li.unslider-active {
   border-radius: 6px;
 }
-/* line 806, ../sass/_application.scss */
+/* line 807, ../sass/_application.scss */
 .property-details .unslider-nav ol li img {
   width: 100%;
   height: auto;
   vertical-align: top;
 }
-/* line 817, ../sass/_application.scss */
+/* line 818, ../sass/_application.scss */
 .property-details .property-interest {
   background: none repeat scroll 0 0 #ececec;
   padding: 10px;
   color: #333;
 }
-/* line 823, ../sass/_application.scss */
+/* line 824, ../sass/_application.scss */
 .property-details .property-interest h3 {
   font-size: 28px;
   line-height: 36px;
   margin: 0 0 15px;
   text-align: center;
 }
-/* line 830, ../sass/_application.scss */
+/* line 831, ../sass/_application.scss */
 .property-details .property-interest-details {
   text-align: center;
   vertical-align: top;
 }
-/* line 835, ../sass/_application.scss */
+/* line 836, ../sass/_application.scss */
 .property-details .property-interest-details > * {
   vertical-align: top;
 }
-/* line 839, ../sass/_application.scss */
+/* line 840, ../sass/_application.scss */
 .property-details .property-interest-details .sprite {
   margin-top: 10px;
 }
-/* line 843, ../sass/_application.scss */
+/* line 844, ../sass/_application.scss */
 .property-details .property-call {
   text-align: left;
   margin: 0 10px 0 10px;
   display: inline-block;
 }
-/* line 849, ../sass/_application.scss */
+/* line 850, ../sass/_application.scss */
 .property-details .property-call a {
   color: #333;
   font-weight: bold;
 }
-/* line 854, ../sass/_application.scss */
+/* line 855, ../sass/_application.scss */
 .property-details .property-call-help-text {
   font-size: 11px;
   line-height: 14px;
 }
-/* line 859, ../sass/_application.scss */
+/* line 860, ../sass/_application.scss */
 .property-details .property-details {
   margin-top: 15px;
 }
-/* line 862, ../sass/_application.scss */
+/* line 863, ../sass/_application.scss */
 .property-details #mapid {
   display: block;
 }
-/* line 867, ../sass/_application.scss */
+/* line 868, ../sass/_application.scss */
 .property-details .property-contact-methods .item {
   line-height: 24px;
 }
-/* line 870, ../sass/_application.scss */
+/* line 871, ../sass/_application.scss */
 .property-details .property-contact-methods .item + .item {
   border-top: 1px solid #fff;
   box-shadow: 0 -1px 0 0 #ccc;
   margin-top: 10px;
   padding-top: 10px;
 }
-/* line 880, ../sass/_application.scss */
+/* line 881, ../sass/_application.scss */
 .property-details .property-investment-detail .item {
   line-height: 18px;
 }
-/* line 883, ../sass/_application.scss */
+/* line 884, ../sass/_application.scss */
 .property-details .property-investment-detail .item + .item {
   border-top: 1px solid #fff;
   box-shadow: 0 -1px 0 0 #ccc;
   margin-top: 10px;
   padding-top: 10px;
 }
-/* line 890, ../sass/_application.scss */
+/* line 891, ../sass/_application.scss */
 .property-details .property-investment-detail .item .question {
   font-size: 18px;
   font-weight: 900;
 }
-/* line 898, ../sass/_application.scss */
+/* line 899, ../sass/_application.scss */
 .property-details .property-back-too-list a {
   display: block;
   text-decoration: none;
 }
-/* line 904, ../sass/_application.scss */
+/* line 905, ../sass/_application.scss */
 .property-details .property-sidebar-action a {
   display: block;
   text-decoration: none;
   line-height: 24px;
   vertical-align: middle;
 }
-/* line 910, ../sass/_application.scss */
+/* line 911, ../sass/_application.scss */
 .property-details .property-sidebar-action a .sprite {
   vertical-align: middle;
   margin-top: -4px;
   margin-right: 8px;
 }
-/* line 918, ../sass/_application.scss */
+/* line 919, ../sass/_application.scss */
 .property-details .list-style-square, .property-details .list-style-square li {
   padding-left: 2rem;
   position: relative;
   line-height: inherit;
 }
-/* line 924, ../sass/_application.scss */
+/* line 925, ../sass/_application.scss */
 .property-details .list-style-square {
   padding-bottom: 16px;
 }
-/* line 928, ../sass/_application.scss */
+/* line 929, ../sass/_application.scss */
 .property-details .list-style-square li {
   padding: 8px 8px 8px 24px;
   list-style-type: none;
 }
-/* line 933, ../sass/_application.scss */
+/* line 934, ../sass/_application.scss */
 .property-details ul.list-style-square {
   padding-left: 0;
 }
-/* line 937, ../sass/_application.scss */
+/* line 938, ../sass/_application.scss */
 .property-details .list-style-square:before, .property-details .list-style-square li:before {
   border-top: 8px solid #ffef00;
   border-top-width: .8rem;
@@ -10052,22 +10053,22 @@ main a:hover {
   left: 0;
   width: 11px;
 }
-/* line 946, ../sass/_application.scss */
+/* line 947, ../sass/_application.scss */
 .property-details .list-style-square li:before {
   top: 13px;
   left: 4px;
 }
-/* line 951, ../sass/_application.scss */
+/* line 952, ../sass/_application.scss */
 .property-details .list-style-square:before {
   display: none;
 }
-/* line 955, ../sass/_application.scss */
+/* line 956, ../sass/_application.scss */
 .property-details .list-two-col li {
   float: left;
   width: 50%;
   border-bottom: 1px solid #ececec;
 }
-/* line 960, ../sass/_application.scss */
+/* line 961, ../sass/_application.scss */
 .property-details h3 {
   font-size: 1.5rem;
 }

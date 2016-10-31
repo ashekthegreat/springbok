@@ -786,6 +786,7 @@ main {
             justify-content: center;
 
             li {
+                display: flex;
                 flex-grow: 1;
                 flex-shrink: 1;
                 height: auto;
