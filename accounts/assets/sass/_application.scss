@@ -1,0 +1,134 @@
+
+main > section {
+    padding: 40px 0;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+// to hide ga iframe
+iframe[name='google_conversion_frame'] {
+    height: 0 !important;
+    width: 0 !important;
+    line-height: 0 !important;
+    font-size: 0 !important;
+    margin-top: -13px;
+    float: left;
+}
+
+.click-to-call {
+    white-space: nowrap;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+a[href^=tel] {
+    text-decoration: none;
+}
+
+.text-ticks {
+    li {
+        margin-bottom: 10px;
+    }
+
+    i {
+        vertical-align: top;
+    }
+}
+
+/* nav section */
+.sub-nav {
+    height: 48px;
+    padding: 6px 0;
+    background: #6a676e;
+    overflow: hidden;
+
+    .btn {
+        vertical-align: top;
+        font-size: 11px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        i {
+            vertical-align: middle;
+        }
+    }
+    .call-button {
+        font-size: 22px;
+        text-transform: none;
+        vertical-align: top;
+        cursor: default;
+        line-height: 36px;
+        height: 36px;
+        display: inline-block;
+
+        i {
+            vertical-align: middle;
+        }
+    }
+}
+
+//@media #{$medium-and-up} {
+    nav {
+        height: 112px;
+        .nav-wrapper {
+            height: 64px;
+        }
+    }
+//}
+
+@media only screen and (max-width: 480px) {
+    .sub-nav {
+        .call-button {
+            font-size: 17px;
+        }
+    }
+}
+@media only screen and (max-width: 400px) {
+    .sub-nav {
+        .call-button {
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .sub-nav {
+        .call-button {
+            font-size: 12px;
+        }
+    }
+}
+.menu-button {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-wrapper .call-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    b {
+        vertical-align: middle;
+    }
+}
+
+.helpline-label {
+    line-height: 40px;
+    padding-top: 24px;
+}
+
+.footer-links {
+    /*background: url("../images/footer-bg.png") center bottom repeat-x transparent;*/
+    padding-bottom: 40px;
+}
+
+@media #{$small-and-down} {
+    .page-footer {
+        text-align: center;
+    }
+}
