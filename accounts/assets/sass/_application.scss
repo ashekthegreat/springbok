@@ -40,31 +40,30 @@ a[href^=tel] {
     }
 }
 
+.profile-icon{
+    padding: 0;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 42px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16), 0 0 10px 0 rgba(0, 0, 0, 0.12);
+}
+
 /* nav section */
 .sub-nav {
     height: 48px;
     padding: 6px 0;
     background: #6a676e;
     overflow: hidden;
+    line-height: 36px;
 
-    .btn {
+    a {
         vertical-align: top;
-        font-size: 11px;
-        padding-left: 15px;
-        padding-right: 15px;
-
-        i {
-            vertical-align: middle;
-        }
-    }
-    .call-button {
-        font-size: 22px;
-        text-transform: none;
-        vertical-align: top;
-        cursor: default;
-        line-height: 36px;
-        height: 36px;
-        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
 
         i {
             vertical-align: middle;

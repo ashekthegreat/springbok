@@ -4,8 +4,8 @@
             <a href="index.php" class="brand-logo left"><img src="assets/images/logo.png" width="152" height="45"></a>
             <a href="#" data-activates="main-sidenav" class="button-collapse menu-button right"><strong>MENU</strong></a>
             <ul id="main-nav" class="right hide-on-med-and-down">
-                <li><a href="message.php">Messages</a></li>
-                <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-advice">Property Advice</a></li>
+                <li><a href="message.php"><i class="material-icons left">mail</i>Messages</a></li>
+                <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-advice"><span class="profile-icon">V</span></a></li>
             </ul>
             <ul class="side-nav sp-secondary lighten-5" id="main-sidenav">
                 <li><a href="message.php">Messages</a></li>
@@ -24,10 +24,7 @@
     </nav>
 
     <ul id="dropdown-advice" class="dropdown-content">
-        <li><a href="why-use-springbok-buy.php">Why Buy With Springbok</a></li>
-        <li><a href="buyers-guide.php">Buyers Guide</a></li>
-        <li><a href="#">Latest News & Updates</a></li>
-        <li><a href="mortgage.php">Mortgages</a></li>
-        <li><a href="conveyance.php">Conveyance</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
     </ul>
 </div>
