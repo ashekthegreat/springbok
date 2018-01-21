@@ -35,13 +35,65 @@ function parseQuery(str) {
 }
 
 (function () {
+    $.fn.stickyTopBottom = function (options) {
+        var $el, container_top, current_translate, element_top, last_viewport_top, viewport_height;
+        if (options == null) {
+            options = {};
+        }
+        options = $.extend({
+            container: $('body'),
+            top_offset: 0,
+            bottom_offset: 0
+        }, options);
+        $el = $(this);
+        container_top = options.container.offset().top;
+        element_top = $el.offset().top;
+        viewport_height = $(window).height();
+        $(window).on('resize', function () {
+            return viewport_height = $(window).height();
+        });
+        current_translate = 0;
+        last_viewport_top = document.documentElement.scrollTop || document.body.scrollTop;
+        return $(window).scroll(function (event) {
+            var container_bottom, effective_viewport_bottom, effective_viewport_top, element_fits_in_viewport, element_height, is_scrolling_up, new_translation, viewport_bottom, viewport_top;
+            viewport_top = document.documentElement.scrollTop || document.body.scrollTop;
+            viewport_bottom = viewport_top + viewport_height;
+            effective_viewport_top = viewport_top + options.top_offset;
+            effective_viewport_bottom = viewport_bottom - options.bottom_offset;
+            element_height = $el.height();
+            is_scrolling_up = viewport_top < last_viewport_top;
+            element_fits_in_viewport = element_height < viewport_height;
+            new_translation = null;
+            if (is_scrolling_up) {
+                if (effective_viewport_top < container_top) {
+                    new_translation = 0;
+                } else if (effective_viewport_top < element_top + current_translate) {
+                    new_translation = effective_viewport_top - element_top;
+                }
+            } else if (element_fits_in_viewport) {
+                if (effective_viewport_top > element_top + current_translate) {
+                    new_translation = effective_viewport_top - element_top;
+                }
+            } else {
+                container_bottom = container_top + options.container.height();
+                if (effective_viewport_bottom > container_bottom) {
+                    new_translation = container_bottom - (element_top + element_height);
+                } else if (effective_viewport_bottom > element_top + element_height + current_translate) {
+                    new_translation = effective_viewport_bottom - (element_top + element_height);
+                }
+            }
+            if (new_translation !== null) {
+                current_translate = new_translation;
+                $el.css('transform', "translate(0, " + current_translate + "px)");
+            }
+            return last_viewport_top = viewport_top;
+        });
+    };
+}).call(this);
+
+(function () {
     $(function () {
-        /*
-         $("body").click(function(){
-         supportsTouch = !supportsTouch;
-         prepareClickToCallButtons();
-         });
-         */
+
         $(".menu-button").sideNav({
             menuWidth: 240,
             edge: 'right',
@@ -243,24 +295,10 @@ function parseQuery(str) {
         }
 
         function pushpinAdvertisements() {
-            if ($(window).width() > 1200) {
-                var topOffset = ($adv.length ? $adv.offset().top : 0) - ($searchBar.length ? $searchBar.height() : 0) - 40;
-                var height = $adv.length ? $adv.height() : 0;
-                var $footer = $('body > footer');
-                var footerOffset = $footer.first().length ? $footer.first().offset().top : 0;
-                var bottomOffset = footerOffset - height - ($searchBar.length ? $searchBar.height() : 0) - 95 - 110;
-                $adv.css({"width": $adv.width() + "px"});
-
-                if (!$adv.data('pushpin-id')) {
-                    $adv.pushpin({
-                        top: topOffset,
-                        bottom: bottomOffset
-                    });
-                }
-            } else {
-                $adv.css({"width": ""});
-                $adv.pushpin('remove');
-            }
+            $adv.stickyTopBottom({
+                container: $('.properties-list'),
+                top_offset: 92 //$adv.offset().top,
+            });
         }
 
         function buildPagination(total, itemsPerPage) {
@@ -333,6 +371,7 @@ function parseQuery(str) {
             var targetQueryString = "?" + $.param(data);
             var searchKey = $("#search").val();
             var pageTitleLocation = (searchKey ? (searchKey[0].toUpperCase() + searchKey.substring(1)) : "The UK");
+            pageTitleLocation = preloadedDocumentTitle ? preloadedDocumentTitle : pageTitleLocation;
             if (isReplaceState) {
                 History.replaceState(null, "Find Properties For Sale In " + pageTitleLocation + " - Springbok Properties", targetQueryString);
             } else {
@@ -378,8 +417,9 @@ function parseQuery(str) {
 
             var $cards = $(".property-card");
             $cards.addClass("busy");
-            $(window).scrollTop(0);																	// MANISH
-            $.post(SITE_PATH + 'includes/json-properties.php', data, function (result) {					// MANISH
+            $(window).scrollTop(0);
+
+            $.post(SITE_PATH + 'includes/json-properties.php', data, function (result) {
                 $(".total").text(result.total.toLocaleString());
                 $.each($cards, function (i, card) {
                     var $card = $(card);
@@ -428,7 +468,6 @@ function parseQuery(str) {
 
             $(window).resize(function () {
                 pushpinPropertySearch();
-                pushpinAdvertisements();
                 resizeAllImage();
             });
 
@@ -478,12 +517,14 @@ function parseQuery(str) {
                      }*/
                 }
             });
+
             $search.keydown(function (e) {
                 $(".search-alert").show();
                 if (e.which == 13) {
                     changeHistory(true);
                 }
             });
+
             $(".do-search").click(function () {
                 changeHistory(true);
             });
@@ -499,6 +540,7 @@ function parseQuery(str) {
                 $(".property-search-bar .field.active").removeClass("active");
                 $(".property-search-extra").slideUp("fast");
             });
+
             // toggle property search extra
             function showFilters($this) {
                 $this.addClass("active");
@@ -546,6 +588,7 @@ function parseQuery(str) {
                 }
 
             });
+
             // radius dropdowns
             $("#radius").change(function () {
                 changeHistory(true);
@@ -624,6 +667,7 @@ function parseQuery(str) {
                     goToPage(-1);
                 }
             });
+
             $(".pagination-holder .next").click(function () {
                 if (!$(this).hasClass("disabled")) {
                     goToPage(+1);
@@ -635,15 +679,20 @@ function parseQuery(str) {
                 "http://springbokproperties.co.uk/properties-for-sale/",
                 "http://springbokproperties.co.uk/property-list/",
 
-                "http://staging.springbokproperties.co.uk/property-for-sale/",
-                "http://staging.springbokproperties.co.uk/properties-for-sale/",
-                "http://staging.springbokproperties.co.uk/property-list/",
+                "http://www.springbokproperties.co.uk/property-for-sale/",
+                "http://www.springbokproperties.co.uk/properties-for-sale/",
+                "http://www.springbokproperties.co.uk/property-list/",
 
                 //"http://localhost/springbok/sprevamp/property-list.php",
                 ".html",
                 ".php",
                 "/"
             ];
+            var preloadedDocumentTitle = "";
+
+            function capitalizeFirstLetter(string) {
+                return string.charAt(0).toUpperCase() + string.slice(1);
+            }
 
             function populateFieldsWithStateData(queryParam) {
                 var initialData = parseQuery(queryParam);
@@ -653,26 +702,23 @@ function parseQuery(str) {
                 initialData['limit'] = initialData['limit'] || 10;
 
                 // lets see if URL itself contains search text
-                if(!document.location.search){
+                if (!document.location.search) {
                     var searchTextInUrl = queryParam.split("?")[0];
                     for (var i = 0; i < urlExcludeList.length; i++) {
                         searchTextInUrl = searchTextInUrl.replace(urlExcludeList[i], "");
                     }
                     if (searchTextInUrl && window.location.href.indexOf(searchTextInUrl) > 0) {
                         initialData['search'] = decodeURIComponent(searchTextInUrl);
+                        preloadedDocumentTitle = initialData['search'];
+                        document.title = "House For Sale In " + preloadedDocumentTitle + " - Properties For Sale " + preloadedDocumentTitle;
+                        $('meta[name=description]').attr('content', 'Find houses for sale in ' + preloadedDocumentTitle + ' from Springbok Properties Nationwide. Search for houses, flats, bungalows from a wide range of properties for sale in ' + preloadedDocumentTitle);
+                        $(".location-extra-message").show();
+                        $(".location-extra-message").find(".search-location-special").html(preloadedDocumentTitle.charAt(0).toUpperCase() + preloadedDocumentTitle.slice(1));
                     }
+                } else {
+                    $(".location-extra-message").hide();
                 }
 
-                /*
-                 added-to-site
-                 current-page
-                 filter-bed-max
-                 filter-bed-min
-                 filter-price-max
-                 filter-price-min
-                 limit
-                 search
-                 */
                 $search.val(initialData['search']);
 
                 $(".alert-box").toggle(!!initialData['search']);
@@ -716,6 +762,7 @@ function parseQuery(str) {
                 populateFieldsWithStateData(History.getState().cleanUrl);
                 loadPropertyList();
             });
+
             // load initial data
             populateFieldsWithStateData(window.location.href);
             //changeHistory(true, false);
@@ -757,10 +804,6 @@ function parseQuery(str) {
             };
             image.src = $slider.find("img:first").attr("src");
 
-            /*$(window).on("resize.carousel", function(){
-             resizeCarouselItems();
-             })*/
-
             $slider.on('unslider.ready', function () {
                 $(".unslider-nav img").load(function () {
                     resizeSlider();
@@ -793,15 +836,9 @@ function parseQuery(str) {
             var isSlideshow = false;
             $(".slideshow-control").click(function () {
                 if (!isSlideshow) {
-                    /*propertySlider.data('unslider').init({
-                     autoplay: true
-                     });*/
                     propertySlider.unslider('start');
                     $(this).text("Stop Slideshow");
                 } else {
-                    /*propertySlider.data('unslider').init({
-                     autoplay: false
-                     });*/
                     propertySlider.unslider('stop');
                     $(this).text("Start Slideshow");
                 }
@@ -906,14 +943,17 @@ function parseQuery(str) {
                 })
             }
         });
+
         $(".add-notes").click(function () {
             if (!$(this).hasClass("not-logged-in")) {
                 $('.add-note-editor').show()
             }
         });
+
         $(".btn-cancel-note").click(function () {
             $('.add-note-editor').hide()
         });
+
         $(".btn-save-note").click(function () {
             var notes = $('#myTextarea').val();
             if (notes != '') {
@@ -934,6 +974,7 @@ function parseQuery(str) {
                 Materialize.toast("Blank note not allowed.", 3000, "red")
             }
         });
+
         $('#rq-buyingStatus').change(function () {
             if ($(this).val() == '317' || $(this).val() == '318') {
                 $('.form-group-postcode').show()
@@ -941,6 +982,7 @@ function parseQuery(str) {
                 $('.form-group-postcode').hide()
             }
         });
+
         $('.form-request-details').submit(function () {
             if ($('#rq-name').val().trim() == '' || $('#rq-phone').val() == '') {
                 Materialize.toast("Name & Phone are mandatory fields and cannot be left blank.", 3000, "red");
@@ -1083,6 +1125,34 @@ function parseQuery(str) {
             }
         }
 
+        function frmSoldPrices($frm) {
+            var regPhone = /^[0-9 \-\+]+$/;
+            var regEmail = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            var $postCode = $frm.find('#postcode');
+            var $email = $frm.find('#email');
+            var $phone = $frm.find('#phone');
+            if ($postCode.length && !($postCode.val())) {
+                Materialize.toast("Please provide valid UK postcode with a space between the two parts. e.g. AB1 1BA; S60 4DT; WA16 7HN", 3000, "red");
+                $postCode.focus();
+                return !1
+            } else if ($phone.val() != '') {
+                if (!(regPhone.test($phone.val())))	// VALIDATE PHONE NUMBER / ELSE SKIP
+                {
+                    Materialize.toast("Please provide your valid contact number. You can skip this field too.", 3000, "red");
+                    $phone.val("").focus();
+                    return !1
+                }
+            } else if ($email.val() != '') {
+                if (!(regEmail.test($email.val()))) {
+                    Materialize.toast("Please provide a valid email address. You can skip this field too.", 3000, "red");
+                    $email.val("").focus();
+                    return !1
+                }
+            } else {
+                return !0
+            }
+        }
+
         //--- MAIN TOP HOME PAGE WF | HOME PAGE - OFFER ESTIMATOR | HOME PAGE - WANT TO CHAT
         $(".wf_1").submit(function () {				// NAME / PHONE / POSTCODE VALIDATOR
             return validateForm($(this))
@@ -1098,9 +1168,9 @@ function parseQuery(str) {
             return validateForm3($(this))
         });
 
-        //--- INVESTMENT FORM
+        //--- SOLD HOUSE PRICES FORM				// POSTCODE ONLY
         $(".wf_4").submit(function () {
-            return validateForm($(this))
+            return frmSoldPrices($(this))
         });
 
         //--- MORTGAGE FORM
@@ -1135,6 +1205,7 @@ function parseQuery(str) {
                 }
             }
         });
+
         $("#sendToFriend").click(function () {
             if (!isCheckedById("selectorChk")) {
                 Materialize.toast("Please select properties you would like to remove OR send to a friend", 3000, "red");
