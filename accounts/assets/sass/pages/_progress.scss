@@ -1,0 +1,129 @@
+/* progress */
+
+.progress-step {
+    padding: 10px 0;
+    position: relative;
+    color: color('sp-secondary', 'lighten-3');
+
+    &:first-child {
+        .indicator-bar-top {
+            display: none;
+        }
+    }
+    &:last-child {
+        .indicator-bar-bottom {
+            display: none;
+        }
+    }
+
+    .step-indicator {
+
+        .indicator-bar-top, .indicator-bar-bottom {
+            position: absolute;
+            left: 18px;
+            width: 14px;
+            background: color('sp-secondary', 'lighten-3');
+        }
+        .indicator-bar-top {
+            top: 0;
+            bottom: 50%;
+        }
+        .indicator-bar-bottom {
+            top: 50%;
+            bottom: 0;
+        }
+        .indicator-text {
+            background: color('sp-secondary', 'lighten-3');
+            color: color('sp-secondary', 'base');
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 50px;
+            height: 50px;
+            transform: translateY(-50%);
+            border-radius: 50%;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 50px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 40px;
+                transform: translateY(-50%);
+                height: 14px;
+                right: -41px;
+                background: color('sp-secondary', 'lighten-3');
+                display: none;
+            }
+        }
+
+    }
+    .step-item {
+        margin-left: 90px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &.active {
+        color: color('sp-secondary', 'base');
+
+        .indicator-bar-top, .indicator-bar-bottom, .indicator-text, .indicator-text:after {
+            background: color('sp-primary', 'base');
+        }
+        .indicator-text:after {
+            display: block;
+        }
+        &.last-active {
+            .indicator-bar-bottom {
+                background: color('sp-secondary', 'lighten-3');
+            }
+        }
+    }
+
+    .collapsible-header {
+        border-bottom: 0;
+        padding: 0 0 0 2rem;
+
+        h4 {
+            margin-bottom: 0;
+        }
+        i {
+            line-height: inherit;
+            font-size: inherit;
+        }
+        .arrow-down, .arrow-up {
+            font-size: 24px;
+        }
+        .arrow-down {
+            display: block;
+        }
+        .arrow-up {
+            display: none;
+        }
+        &.active {
+            .arrow-down {
+                display: none;
+            }
+            .arrow-up {
+                display: block;
+            }
+        }
+    }
+    .collapsible-body {
+        padding: 0 2rem 1rem;
+    }
+}
+
+@media #{$small-and-down} {
+    .progress-step {
+        .step-indicator {
+            display: none;
+        }
+        .step-item {
+            margin-left: 0;
+        }
+    }
+}

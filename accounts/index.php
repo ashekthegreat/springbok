@@ -21,14 +21,49 @@
 
     <main>
 
-        <section class="home-banner">
+        <section class="properties-list sp-secondary lighten-5 sp-secondary-text">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m4 push-m8">
+                    <div class="col s12 m12 margin-bottom-40">
 
-                    </div>
-                    <div class="col s12 m8 pull-m4">
-                        
+                        <div class="card horizontal hoverable property-card">
+                            <div class="card-image">
+                                <a href="progress.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/property/1.jpg" width="490" height="366">
+                                </a>
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h4 class="property-price">5, Ridgeway Lane, BS14 9PP</h4>
+                                    <p class="property-description">Your Property Is Live On The Market. You can now manage your viewings</p>
+                                </div>
+                                <div class="card-action">
+                                    <div class="row margin-bottom-0">
+                                        <div class="col s12"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text" href="progress.php">Manage My Lists</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card horizontal hoverable property-card">
+                            <div class="card-image">
+                                <a href="progress.php" class="card-image-container">
+                                    <img class="property-image" src="assets/images/property/3.jpg" width="490" height="366">
+                                </a>
+                            </div>
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h4 class="property-price">23, Broadway Street, MS12 5TP</h4>
+                                    <p class="property-description">Your Property Is Live On The Market. You can now manage your viewings</p>
+                                </div>
+                                <div class="card-action">
+                                    <div class="row margin-bottom-0">
+                                        <div class="col s12"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text" href="progress.php">Manage My Lists</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
