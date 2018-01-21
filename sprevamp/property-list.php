@@ -239,6 +239,22 @@
                             <div class="card-content">
                                 <p class="big search-criteria"></p>
                                 <p><strong class="bigger total">-</strong> Results</p>
+
+                                <div class="location-extra-message margin-top-20" style="display: none">
+                                    <h6 class="margin-bottom-15">
+                                        Houses For Sale in <span class="search-location-special"></span>
+                                    </h6>
+                                    <p class="margin-bottom-10">
+                                        If you are looking for a house for sale in <span class="search-location-special"></span>,
+                                        Springbok Properties have one of the largest database of properties for sale in the region.
+                                    </p>
+                                    <p>
+                                        The page deals specifically with houses for sale in <span class="search-location-special"></span>
+                                        - to broaden your search for houses for sale, please use the search box above.
+                                        There you can select a particular area, postcode, price, no. of bedrooms, etc. to narrow
+                                        your search for houses for sale in <span class="search-location-special"></span>.
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
