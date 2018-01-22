@@ -21,7 +21,7 @@
 
     <main>
 
-        <section class="properties-list sp-secondary lighten-5 sp-secondary-text">
+        <section class="properties-list sp-secondary-text">
             <div class="container small">
                 <div class="row">
                     <div class="col s12 m12 margin-bottom-40">

@@ -8205,17 +8205,22 @@ input[type=range]:focus::-ms-fill-upper {
     transform: rotate(360deg);
   }
 }
-/* line 2, ../sass/_application.scss */
+/* line 1, ../sass/_application.scss */
+body {
+  background: #fff;
+}
+
+/* line 4, ../sass/_application.scss */
 main > section {
   padding: 40px 0;
 }
 
-/* line 6, ../sass/_application.scss */
+/* line 8, ../sass/_application.scss */
 h1, h2 {
   text-transform: uppercase;
 }
 
-/* line 11, ../sass/_application.scss */
+/* line 13, ../sass/_application.scss */
 iframe[name='google_conversion_frame'] {
   height: 0 !important;
   width: 0 !important;
@@ -8225,31 +8230,31 @@ iframe[name='google_conversion_frame'] {
   float: left;
 }
 
-/* line 20, ../sass/_application.scss */
+/* line 22, ../sass/_application.scss */
 .click-to-call {
   white-space: nowrap;
 }
-/* line 23, ../sass/_application.scss */
+/* line 25, ../sass/_application.scss */
 .click-to-call a {
   color: inherit;
   text-decoration: none;
 }
 
-/* line 29, ../sass/_application.scss */
+/* line 31, ../sass/_application.scss */
 a[href^=tel] {
   text-decoration: none;
 }
 
-/* line 34, ../sass/_application.scss */
+/* line 36, ../sass/_application.scss */
 .text-ticks li {
   margin-bottom: 10px;
 }
-/* line 38, ../sass/_application.scss */
+/* line 40, ../sass/_application.scss */
 .text-ticks i {
   vertical-align: top;
 }
 
-/* line 43, ../sass/_application.scss */
+/* line 45, ../sass/_application.scss */
 .profile-icon {
   padding: 0;
   background: #fff;
@@ -8263,7 +8268,7 @@ a[href^=tel] {
 }
 
 /* nav section */
-/* line 56, ../sass/_application.scss */
+/* line 58, ../sass/_application.scss */
 .sub-nav {
   height: 48px;
   padding: 6px 0;
@@ -8271,75 +8276,75 @@ a[href^=tel] {
   overflow: hidden;
   line-height: 36px;
 }
-/* line 63, ../sass/_application.scss */
+/* line 65, ../sass/_application.scss */
 .sub-nav a {
   vertical-align: top;
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 68, ../sass/_application.scss */
+/* line 70, ../sass/_application.scss */
 .sub-nav a i {
   vertical-align: middle;
 }
 
-/* line 75, ../sass/_application.scss */
+/* line 77, ../sass/_application.scss */
 nav {
   height: 112px;
 }
-/* line 77, ../sass/_application.scss */
+/* line 79, ../sass/_application.scss */
 nav .nav-wrapper {
   height: 64px;
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 85, ../sass/_application.scss */
+  /* line 87, ../sass/_application.scss */
   .sub-nav .call-button {
     font-size: 17px;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 92, ../sass/_application.scss */
+  /* line 94, ../sass/_application.scss */
   .sub-nav .call-button {
     font-size: 14px;
   }
 }
 @media only screen and (max-width: 360px) {
-  /* line 100, ../sass/_application.scss */
+  /* line 102, ../sass/_application.scss */
   .sub-nav .call-button {
     font-size: 12px;
   }
 }
-/* line 105, ../sass/_application.scss */
+/* line 107, ../sass/_application.scss */
 .menu-button {
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 110, ../sass/_application.scss */
+/* line 112, ../sass/_application.scss */
 .nav-wrapper .call-button {
   padding-left: 20px;
   padding-right: 20px;
   margin-right: 10px;
 }
-/* line 114, ../sass/_application.scss */
+/* line 116, ../sass/_application.scss */
 .nav-wrapper .call-button b {
   vertical-align: middle;
 }
 
-/* line 119, ../sass/_application.scss */
+/* line 121, ../sass/_application.scss */
 .helpline-label {
   line-height: 40px;
   padding-top: 24px;
 }
 
-/* line 124, ../sass/_application.scss */
+/* line 126, ../sass/_application.scss */
 .footer-links {
   /*background: url("../images/footer-bg.png") center bottom repeat-x transparent;*/
   padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 130, ../sass/_application.scss */
+  /* line 132, ../sass/_application.scss */
   .page-footer {
     text-align: center;
   }
