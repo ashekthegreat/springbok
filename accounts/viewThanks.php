@@ -140,6 +140,28 @@
                         </div>
                     </div>
 
+                    <div class="card-panel padding-40">
+                        <h5>What's the status of your mortgage?</h5>
+                        <div class="row">
+                            <div class="col s12 m6">
+                                <p>
+                                    <input type="radio" id="not_arranged" name="mortgage" value="Not yet arranged" class="mortgage">
+                                    <label for="not_arranged">Not yet arranged</label>
+                                </p>
+                            </div>
+                            <div class="col s12 m6">
+                                <p>
+                                    <input type="radio" id="agreed" name="mortgage" value="Agreed in principle" class="mortgage">
+                                    <label for="agreed">Agreed in principle</label>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="center-align margin-top-40">
+                            <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="button">Continue</button>
+                        </div>
+                    </div>
+
                 </form>
 
             </div>
