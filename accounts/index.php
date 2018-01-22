@@ -22,14 +22,14 @@
     <main>
 
         <section class="properties-list sp-secondary lighten-5 sp-secondary-text">
-            <div class="container">
+            <div class="container small">
                 <div class="row">
                     <div class="col s12 m12 margin-bottom-40">
 
                         <div class="card horizontal hoverable property-card">
                             <div class="card-image">
                                 <a href="progress.php" class="card-image-container">
-                                    <img class="property-image" src="assets/images/property/1.jpg" width="490" height="366">
+                                    <img class="property-image" src="assets/images/property/1.jpg" width="620">
                                 </a>
                             </div>
                             <div class="card-stacked">
@@ -48,7 +48,7 @@
                         <div class="card horizontal hoverable property-card">
                             <div class="card-image">
                                 <a href="progress.php" class="card-image-container">
-                                    <img class="property-image" src="assets/images/property/3.jpg" width="490" height="366">
+                                    <img class="property-image" src="assets/images/property/3.jpg" width="620">
                                 </a>
                             </div>
                             <div class="card-stacked">

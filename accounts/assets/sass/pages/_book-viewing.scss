@@ -1,0 +1,38 @@
+.section-book-viewing{
+
+  .viewNext span, .viewPrev span{
+    line-height: 24px;
+    vertical-align: top;
+  }
+
+  .card-date{
+    text-align: center;
+    margin: 0.5%;
+    width: 19%;
+    border: 1px solid color('grey', 'lighten-2');
+    float: left;
+    padding: 20px 2px;
+    cursor: pointer;
+
+    &:hover{
+      border: 1px solid color('sp-primary', 'base');
+    }
+
+    &.selected{
+      border: 1px solid color('sp-primary', 'base');
+      background-color: color('sp-primary', 'base');
+    }
+    .week-day{
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 13px;
+    }
+    .day{
+      font-size: 32px;
+      font-weight: 700;
+    }
+    .slot{
+
+    }
+  }
+}

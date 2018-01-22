@@ -8475,5 +8475,95 @@ nav .nav-wrapper {
     margin-left: 0;
   }
 }
+/* line 3, ../sass/pages/_book-viewing.scss */
+.section-book-viewing .viewNext span, .section-book-viewing .viewPrev span {
+  line-height: 24px;
+  vertical-align: top;
+}
+/* line 8, ../sass/pages/_book-viewing.scss */
+.section-book-viewing .card-date {
+  text-align: center;
+  margin: 0.5%;
+  width: 19%;
+  border: 1px solid #e0e0e0;
+  float: left;
+  padding: 20px 2px;
+  cursor: pointer;
+}
+/* line 17, ../sass/pages/_book-viewing.scss */
+.section-book-viewing .card-date:hover {
+  border: 1px solid #ffef00;
+}
+/* line 21, ../sass/pages/_book-viewing.scss */
+.section-book-viewing .card-date.selected {
+  border: 1px solid #ffef00;
+  background-color: #ffef00;
+}
+/* line 25, ../sass/pages/_book-viewing.scss */
+.section-book-viewing .card-date .week-day {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 13px;
+}
+/* line 30, ../sass/pages/_book-viewing.scss */
+.section-book-viewing .card-date .day {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* line 2, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .profile-pic {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #6a676e;
+  background: #cac8cc;
+  border-radius: 50%;
+  margin-right: 15px;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+/* line 17, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .calendar-table table {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+/* line 21, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .calendar-table td, .section-book-valuation .calendar-table th {
+  border-radius: 0;
+  border: 1px solid #fff;
+  padding: 10px 5px;
+  text-align: center;
+}
+/* line 27, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .calendar-table th {
+  background: #6a676e;
+  color: #f0eff1;
+}
+/* line 32, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .calendar-table td {
+  cursor: pointer;
+  background: #f0eff1;
+}
+/* line 36, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .calendar-table td:hover {
+  background: #ffef00;
+}
+/* line 40, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .calendar-table td.disabled {
+  cursor: default;
+  background: #adaab1;
+  color: #cac8cc;
+}
+/* line 45, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .calendar-table td.disabled:hover {
+  background: #adaab1;
+}
+/* line 49, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .calendar-table td.selected {
+  background: #ffef00;
+}
 
 /*# sourceMappingURL=materialize.css.map */
