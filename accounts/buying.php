@@ -22,7 +22,7 @@
     <main>
 
         <section class="sp-secondary-text">
-            <div class="container small">
+            <div class="container narrow">
                 <h4 class="center-align margin-bottom-40">5, Ridgeway Lane, BS14 9PP, Whitchurch</h4>
                 <div class="progress-steps">
                     <div class="progress-step active">
@@ -38,13 +38,13 @@
                                         <i class="material-icons right">check_circle</i>
                                         Valuation
                                     </h4>
-                                    <div>
+                                    <div class="small">
                                         <i class="material-icons arrow-down right">keyboard_arrow_down</i>
                                         <i class="material-icons arrow-up right">keyboard_arrow_up</i>
                                         Property valuation has been done.
                                     </div>
                                 </div>
-                                <div class="collapsible-body big">Abbi Richards has valued your property.</div>
+                                <div class="collapsible-body">Abbi Richards has valued your property.</div>
                             </li>
                         </ul>
                     </div>
@@ -61,13 +61,13 @@
                                         <i class="material-icons right">check_circle</i>
                                         Instruct to sell
                                     </h4>
-                                    <div>
+                                    <div class="small">
                                         <i class="material-icons arrow-down right">keyboard_arrow_down</i>
                                         <i class="material-icons arrow-up right">keyboard_arrow_up</i>
                                         You've instructed us to market & sell your property.
                                     </div>
                                 </div>
-                                <div class="collapsible-body big">Property is live on market.</div>
+                                <div class="collapsible-body">Property is live on market.</div>
                             </li>
                         </ul>
                     </div>
@@ -84,13 +84,13 @@
                                         <i class="material-icons right">check_circle</i>
                                         Getting to market
                                     </h4>
-                                    <div>
+                                    <div class="small">
                                         <i class="material-icons arrow-down right">keyboard_arrow_down</i>
                                         <i class="material-icons arrow-up right">keyboard_arrow_up</i>
                                         You're ID Check / Fact finding is verified & complete
                                     </div>
                                 </div>
-                                <div class="collapsible-body big">
+                                <div class="collapsible-body">
                                     Your ID check & fact-finding has been done.
                                     <p class="center-align">
                                         <a class="waves-effect waves-light btn sp-primary sp-secondary-text" href="tasks.php">Completed Tasks</a>
@@ -112,13 +112,13 @@
                                         <i class="material-icons right">check_circle</i>
                                         On the market
                                     </h4>
-                                    <div>
+                                    <div class="small">
                                         <i class="material-icons arrow-down right">keyboard_arrow_down</i>
                                         <i class="material-icons arrow-up right">keyboard_arrow_up</i>
                                         Your property is on the market
                                     </div>
                                 </div>
-                                <div class="collapsible-body big center-align">
+                                <div class="collapsible-body center-align">
                                     <h5>Click here to see your property live on the market</h5>
                                     <div>&nbsp;</div>
                                     <div>

@@ -22,7 +22,7 @@
     <main>
 
         <section class="sp-secondary-text section-book-viewing">
-            <div class="container small">
+            <div class="container narrow">
                 <div class="row">
                     <div class="col s12 m5 push-m7">
                         <div class="card">

@@ -22,10 +22,10 @@
     <main>
 
         <section class="sp-secondary-text section-book-valuation">
-            <div class="container small">
+            <div class="container narrow">
                 <h3 class="center-align">Select Date &amp; Time To Book Your Valuation</h3>
 
-                <div class="card-panel">
+                <div class="card-panel margin-top-25">
                     <div class="profile-pic">KA</div>
                     <h6>Kay Atkin</h6>
                     <div>Your Regional Valuer</div>

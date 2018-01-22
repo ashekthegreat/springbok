@@ -26,6 +26,7 @@
             margin: 0;
             padding: 0;
             background: #eaeaea;
+            overflow: hidden;
         }
         iframe{
             padding: 0;
@@ -38,7 +39,7 @@
         }
         a{
             display: block;
-            width: 16vw;
+            width: 18vw;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;

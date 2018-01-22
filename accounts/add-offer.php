@@ -22,7 +22,7 @@
     <main>
 
         <section class="sp-secondary-text section-add-offer">
-            <div class="container small">
+            <div class="container narrow">
                 <div class="card-panel">
                     <form>
                         <div class="card-panel sp-secondary lighten-5 z-depth-0">

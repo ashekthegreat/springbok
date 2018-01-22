@@ -22,7 +22,7 @@
     <main>
 
         <section class="properties-list sp-secondary-text">
-            <div class="container small">
+            <div class="container narrow">
                 <div class="row">
                     <div class="col s12 m12 margin-bottom-40">
 
