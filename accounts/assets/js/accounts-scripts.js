@@ -44,6 +44,14 @@
                 }
             })
         }
+    });
+
+    $(function(){
+        if($(".section-signin").length){
+            var $section = $(".section-signin");
+
+            $('.modal').modal();
+        }
     })
 
 }());
