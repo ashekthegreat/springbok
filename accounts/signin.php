@@ -23,8 +23,9 @@
 
         <section class="sp-secondary-text section-signin">
             <div class="container narrow">
-
-                <div class="z-depth-1">
+                <h3 class="center-align">Selling Or Buying?</h3>
+                <h5 class="center-align">Get Your Free Property Management Account Here</h5>
+                <div class="z-depth-1 margin-top-25">
                     <ul class="tabs old margin-bottom-0">
                         <li class="tab"><a href="#register" >Create Account</a></li>
                         <li class="tab"><a href="#signin"  class="active">Sign In</a></li>
