@@ -8736,4 +8736,32 @@ nav .nav-wrapper {
   background: #ffef00;
 }
 
+/* line 7, ../sass/pages/_diary.scss */
+.section-diary .card .card-action {
+  padding: 10px 20px;
+}
+/* line 10, ../sass/pages/_diary.scss */
+.section-diary .card .card-action .btn, .section-diary .card .card-action .btn-large {
+  height: 32px;
+  line-height: 32px;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding: 0 1rem;
+}
+/* line 19, ../sass/pages/_diary.scss */
+.section-diary .label {
+  display: inline;
+  padding: .2em .6em .2em;
+  font-size: 65%;
+  font-weight: 500;
+  line-height: 1;
+  background: #6a676e;
+  color: #f0eff1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: .25em;
+  margin: 0 2px;
+}
+
 /*# sourceMappingURL=materialize.css.map */
