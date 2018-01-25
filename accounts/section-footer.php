@@ -20,6 +20,10 @@
 <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
 <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+<script type="text/javascript" src="assets/js/date_picker/picker.js"></script>
+<script type="text/javascript" src="assets/js/date_picker/picker.date.js"></script>
+<script type="text/javascript" src="assets/js/date_picker/picker.time.js"></script>
+
 <script type="text/javascript" src="assets/js/unslider-min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.dotdotdot.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.typeahead.min.js"></script>

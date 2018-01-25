@@ -112,12 +112,17 @@ $chip-bg-color: #e4e4e4 !default;
 /* 7. Date Picker
    ========================================================================== */
 
-$datepicker-weekday-bg: darken($secondary_color, 7%) !default;
-$datepicker-date-bg: $secondary_color !default;
-$datepicker-year: rgba(255, 255, 255, .4) !default;
+$datepicker-display-font-size: 2.8rem;
+$datepicker-weekday-color: rgba(0, 0, 0, .87) !default;
+$datepicker-weekday-bg: darken($secondary-color, 7%) !default;
+$datepicker-date-bg: $secondary-color !default;
+$datepicker-year: rgba(255, 255, 255, .7) !default;
 $datepicker-focus: rgba(0,0,0, .05) !default;
 $datepicker-selected: $secondary-color !default;
 $datepicker-selected-outfocus: desaturate(lighten($secondary-color, 35%), 15%) !default;
+
+$timepicker-clock-color: rgba(0, 0, 0, .87) !default;
+$timepicker-clock-plate-bg: #eee;
 
 
 /* 8. Dropdown

@@ -7613,12 +7613,13 @@ input[type=range]:focus::-ms-fill-upper {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  outline: none;
 }
 
 /**
  * The picker input element.
  */
-/* line 22, ../sass/components/date_picker/_default.scss */
+/* line 23, ../sass/components/date_picker/_default.scss */
 .picker__input {
   cursor: default;
 }
@@ -7626,7 +7627,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * When the picker is opened, the input element is "activated".
  */
-/* line 28, ../sass/components/date_picker/_default.scss */
+/* line 29, ../sass/components/date_picker/_default.scss */
 .picker__input.picker__input--active {
   border-color: #0089ec;
 }
@@ -7634,7 +7635,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The holder is the only "scrollable" top-level container element.
  */
-/* line 34, ../sass/components/date_picker/_default.scss */
+/* line 35, ../sass/components/date_picker/_default.scss */
 .picker__holder {
   width: 100%;
   overflow-y: auto;
@@ -7651,7 +7652,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * Make the holder and frame fullscreen.
  */
-/* line 50, ../sass/components/date_picker/_default.scss */
+/* line 51, ../sass/components/date_picker/_default.scss */
 .picker__holder,
 .picker__frame {
   bottom: 0;
@@ -7663,7 +7664,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The holder should overlay the entire screen.
  */
-/* line 60, ../sass/components/date_picker/_default.scss */
+/* line 61, ../sass/components/date_picker/_default.scss */
 .picker__holder {
   position: fixed;
   -webkit-transition: background 0.15s ease-out, top 0s 0.15s;
@@ -7675,7 +7676,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The frame that bounds the box contents of the picker.
  */
-/* line 70, ../sass/components/date_picker/_default.scss */
+/* line 71, ../sass/components/date_picker/_default.scss */
 .picker__frame {
   position: absolute;
   margin: 0 auto;
@@ -7692,7 +7693,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media (min-height: 28.875em) {
-  /* line 88, ../sass/components/date_picker/_default.scss */
+  /* line 89, ../sass/components/date_picker/_default.scss */
   .picker__frame {
     overflow: visible;
     top: auto;
@@ -7701,7 +7702,7 @@ input[type=range]:focus::-ms-fill-upper {
   }
 }
 @media (min-height: 40.125em) {
-  /* line 96, ../sass/components/date_picker/_default.scss */
+  /* line 97, ../sass/components/date_picker/_default.scss */
   .picker__frame {
     margin-bottom: 7.5%;
   }
@@ -7709,7 +7710,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The wrapper sets the stage to vertically align the box contents.
  */
-/* line 103, ../sass/components/date_picker/_default.scss */
+/* line 104, ../sass/components/date_picker/_default.scss */
 .picker__wrap {
   display: table;
   width: 100%;
@@ -7717,7 +7718,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media (min-height: 28.875em) {
-  /* line 109, ../sass/components/date_picker/_default.scss */
+  /* line 110, ../sass/components/date_picker/_default.scss */
   .picker__wrap {
     display: block;
   }
@@ -7725,7 +7726,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The box contains all the picker contents.
  */
-/* line 116, ../sass/components/date_picker/_default.scss */
+/* line 117, ../sass/components/date_picker/_default.scss */
 .picker__box {
   background: #ffffff;
   display: table-cell;
@@ -7733,7 +7734,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media (min-height: 28.875em) {
-  /* line 127, ../sass/components/date_picker/_default.scss */
+  /* line 128, ../sass/components/date_picker/_default.scss */
   .picker__box {
     display: block;
     border: 1px solid #777777;
@@ -7750,7 +7751,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * When the picker opens...
  */
-/* line 156, ../sass/components/date_picker/_default.scss */
+/* line 157, ../sass/components/date_picker/_default.scss */
 .picker--opened .picker__holder {
   top: 0;
   background: transparent;
@@ -7762,7 +7763,7 @@ input[type=range]:focus::-ms-fill-upper {
   transition: background 0.15s ease-out;
 }
 
-/* line 166, ../sass/components/date_picker/_default.scss */
+/* line 167, ../sass/components/date_picker/_default.scss */
 .picker--opened .picker__frame {
   top: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -7772,7 +7773,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media (min-height: 35.875em) {
-  /* line 174, ../sass/components/date_picker/_default.scss */
+  /* line 175, ../sass/components/date_picker/_default.scss */
   .picker--opened .picker__frame {
     top: 10%;
     bottom: auto;
@@ -7784,17 +7785,29 @@ input[type=range]:focus::-ms-fill-upper {
 /* ==========================================================================
    CUSTOM MATERIALIZE STYLES
    ========================================================================== */
-/* line 191, ../sass/components/date_picker/_default.scss */
+/* line 192, ../sass/components/date_picker/_default.scss */
 .picker__frame {
   margin: 0 auto;
   max-width: 325px;
 }
 
 @media (min-height: 38.875em) {
-  /* line 197, ../sass/components/date_picker/_default.scss */
+  /* line 198, ../sass/components/date_picker/_default.scss */
   .picker--opened .picker__frame {
     top: 10%;
     bottom: auto;
+  }
+}
+@media only screen and (min-width: 601px) {
+  /* line 205, ../sass/components/date_picker/_default.scss */
+  .picker__box {
+    display: flex;
+  }
+
+  /* line 208, ../sass/components/date_picker/_default.scss */
+  .picker__frame {
+    width: 80%;
+    max-width: 600px;
   }
 }
 /* ==========================================================================
@@ -7805,13 +7818,15 @@ input[type=range]:focus::-ms-fill-upper {
  */
 /* line 7, ../sass/components/date_picker/_default.date.scss */
 .picker__box {
-  padding: 0 1em;
+  padding: 0;
+  border-radius: 2px;
+  overflow: hidden;
 }
 
 /**
  * The header containing the month and year stuff.
  */
-/* line 13, ../sass/components/date_picker/_default.date.scss */
+/* line 15, ../sass/components/date_picker/_default.date.scss */
 .picker__header {
   text-align: center;
   position: relative;
@@ -7821,7 +7836,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month and year labels.
  */
-/* line 21, ../sass/components/date_picker/_default.date.scss */
+/* line 23, ../sass/components/date_picker/_default.date.scss */
 .picker__month,
 .picker__year {
   display: inline-block;
@@ -7832,7 +7847,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month and year selectors.
  */
-/* line 31, ../sass/components/date_picker/_default.date.scss */
+/* line 33, ../sass/components/date_picker/_default.date.scss */
 .picker__select--month,
 .picker__select--year {
   height: 2em;
@@ -7841,21 +7856,21 @@ input[type=range]:focus::-ms-fill-upper {
   margin-right: .25em;
 }
 
-/* line 41, ../sass/components/date_picker/_default.date.scss */
+/* line 43, ../sass/components/date_picker/_default.date.scss */
 .picker__select--month.browser-default {
   display: inline;
   background-color: #FFFFFF;
   width: 40%;
 }
 
-/* line 46, ../sass/components/date_picker/_default.date.scss */
+/* line 48, ../sass/components/date_picker/_default.date.scss */
 .picker__select--year.browser-default {
   display: inline;
   background-color: #FFFFFF;
   width: 26%;
 }
 
-/* line 51, ../sass/components/date_picker/_default.date.scss */
+/* line 53, ../sass/components/date_picker/_default.date.scss */
 .picker__select--month:focus,
 .picker__select--year:focus {
   border-color: rgba(0, 0, 0, 0.05);
@@ -7864,7 +7879,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month navigation buttons.
  */
-/* line 58, ../sass/components/date_picker/_default.date.scss */
+/* line 60, ../sass/components/date_picker/_default.date.scss */
 .picker__nav--prev,
 .picker__nav--next {
   position: absolute;
@@ -7875,19 +7890,19 @@ input[type=range]:focus::-ms-fill-upper {
   top: -0.25em;
 }
 
-/* line 73, ../sass/components/date_picker/_default.date.scss */
+/* line 75, ../sass/components/date_picker/_default.date.scss */
 .picker__nav--prev {
   left: -1em;
   padding-right: 1.25em;
 }
 
-/* line 82, ../sass/components/date_picker/_default.date.scss */
+/* line 84, ../sass/components/date_picker/_default.date.scss */
 .picker__nav--next {
   right: -1em;
   padding-left: 1.25em;
 }
 
-/* line 92, ../sass/components/date_picker/_default.date.scss */
+/* line 94, ../sass/components/date_picker/_default.date.scss */
 .picker__nav--disabled,
 .picker__nav--disabled:hover,
 .picker__nav--disabled:before,
@@ -7901,7 +7916,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The calendar table of dates
  */
-/* line 104, ../sass/components/date_picker/_default.date.scss */
+/* line 106, ../sass/components/date_picker/_default.date.scss */
 .picker__table {
   text-align: center;
   border-collapse: collapse;
@@ -7913,12 +7928,12 @@ input[type=range]:focus::-ms-fill-upper {
   margin-bottom: .5em;
 }
 
-/* line 117, ../sass/components/date_picker/_default.date.scss */
+/* line 119, ../sass/components/date_picker/_default.date.scss */
 .picker__table th, .picker__table td {
   text-align: center;
 }
 
-/* line 126, ../sass/components/date_picker/_default.date.scss */
+/* line 128, ../sass/components/date_picker/_default.date.scss */
 .picker__table td {
   margin: 0;
   padding: 0;
@@ -7927,7 +7942,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The weekday labels
  */
-/* line 133, ../sass/components/date_picker/_default.date.scss */
+/* line 135, ../sass/components/date_picker/_default.date.scss */
 .picker__weekday {
   width: 14.285714286%;
   font-size: .75em;
@@ -7938,7 +7953,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 @media (min-height: 33.875em) {
-  /* line 142, ../sass/components/date_picker/_default.date.scss */
+  /* line 144, ../sass/components/date_picker/_default.date.scss */
   .picker__weekday {
     padding-bottom: .5em;
   }
@@ -7946,7 +7961,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The days on the calendar
  */
-/* line 150, ../sass/components/date_picker/_default.date.scss */
+/* line 152, ../sass/components/date_picker/_default.date.scss */
 .picker__day--today {
   position: relative;
   color: #595959;
@@ -7956,39 +7971,39 @@ input[type=range]:focus::-ms-fill-upper {
   border: 1px solid transparent;
 }
 
-/* line 170, ../sass/components/date_picker/_default.date.scss */
+/* line 172, ../sass/components/date_picker/_default.date.scss */
 .picker__day--disabled:before {
   border-top-color: #aaaaaa;
 }
 
-/* line 175, ../sass/components/date_picker/_default.date.scss */
+/* line 177, ../sass/components/date_picker/_default.date.scss */
 .picker__day--infocus:hover {
   cursor: pointer;
   color: #000;
   font-weight: 500;
 }
 
-/* line 181, ../sass/components/date_picker/_default.date.scss */
+/* line 183, ../sass/components/date_picker/_default.date.scss */
 .picker__day--outfocus {
   display: none;
   padding: .75rem 0;
   color: #fff;
 }
 
-/* line 187, ../sass/components/date_picker/_default.date.scss */
+/* line 189, ../sass/components/date_picker/_default.date.scss */
 .picker__day--outfocus:hover {
   cursor: pointer;
   color: #dddddd;
   font-weight: 500;
 }
 
-/* line 198, ../sass/components/date_picker/_default.date.scss */
+/* line 200, ../sass/components/date_picker/_default.date.scss */
 .picker__day--highlighted:hover,
 .picker--focused .picker__day--highlighted {
   cursor: pointer;
 }
 
-/* line 205, ../sass/components/date_picker/_default.date.scss */
+/* line 207, ../sass/components/date_picker/_default.date.scss */
 .picker__day--selected,
 .picker__day--selected:hover,
 .picker--focused .picker__day--selected {
@@ -7998,7 +8013,7 @@ input[type=range]:focus::-ms-fill-upper {
   color: #ffffff;
 }
 
-/* line 216, ../sass/components/date_picker/_default.date.scss */
+/* line 218, ../sass/components/date_picker/_default.date.scss */
 .picker__day--disabled,
 .picker__day--disabled:hover,
 .picker--focused .picker__day--disabled {
@@ -8008,7 +8023,7 @@ input[type=range]:focus::-ms-fill-upper {
   cursor: default;
 }
 
-/* line 224, ../sass/components/date_picker/_default.date.scss */
+/* line 226, ../sass/components/date_picker/_default.date.scss */
 .picker__day--highlighted.picker__day--disabled,
 .picker__day--highlighted.picker__day--disabled:hover {
   background: #bbbbbb;
@@ -8017,15 +8032,12 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The footer containing the "today", "clear", and "close" buttons.
  */
-/* line 231, ../sass/components/date_picker/_default.date.scss */
+/* line 233, ../sass/components/date_picker/_default.date.scss */
 .picker__footer {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: right;
 }
 
-/* line 237, ../sass/components/date_picker/_default.date.scss */
+/* line 236, ../sass/components/date_picker/_default.date.scss */
 .picker__button--today,
 .picker__button--clear,
 .picker__button--close {
@@ -8039,7 +8051,7 @@ input[type=range]:focus::-ms-fill-upper {
   vertical-align: bottom;
 }
 
-/* line 249, ../sass/components/date_picker/_default.date.scss */
+/* line 248, ../sass/components/date_picker/_default.date.scss */
 .picker__button--today:hover,
 .picker__button--clear:hover,
 .picker__button--close:hover {
@@ -8049,7 +8061,7 @@ input[type=range]:focus::-ms-fill-upper {
   border-bottom-color: #b1dcfb;
 }
 
-/* line 257, ../sass/components/date_picker/_default.date.scss */
+/* line 256, ../sass/components/date_picker/_default.date.scss */
 .picker__button--today:focus,
 .picker__button--clear:focus,
 .picker__button--close:focus {
@@ -8058,7 +8070,7 @@ input[type=range]:focus::-ms-fill-upper {
   outline: none;
 }
 
-/* line 264, ../sass/components/date_picker/_default.date.scss */
+/* line 263, ../sass/components/date_picker/_default.date.scss */
 .picker__button--today:before,
 .picker__button--clear:before,
 .picker__button--close:before {
@@ -8067,14 +8079,14 @@ input[type=range]:focus::-ms-fill-upper {
   height: 0;
 }
 
-/* line 271, ../sass/components/date_picker/_default.date.scss */
+/* line 270, ../sass/components/date_picker/_default.date.scss */
 .picker__button--today:before,
 .picker__button--clear:before {
   content: " ";
   margin-right: .45em;
 }
 
-/* line 276, ../sass/components/date_picker/_default.date.scss */
+/* line 275, ../sass/components/date_picker/_default.date.scss */
 .picker__button--today:before {
   top: -0.05em;
   width: 0;
@@ -8082,14 +8094,14 @@ input[type=range]:focus::-ms-fill-upper {
   border-left: .66em solid transparent;
 }
 
-/* line 282, ../sass/components/date_picker/_default.date.scss */
+/* line 281, ../sass/components/date_picker/_default.date.scss */
 .picker__button--clear:before {
   top: -0.25em;
   width: .66em;
   border-top: 3px solid #ee2200;
 }
 
-/* line 287, ../sass/components/date_picker/_default.date.scss */
+/* line 286, ../sass/components/date_picker/_default.date.scss */
 .picker__button--close:before {
   content: "\D7";
   top: -0.1em;
@@ -8099,7 +8111,7 @@ input[type=range]:focus::-ms-fill-upper {
   color: #777777;
 }
 
-/* line 295, ../sass/components/date_picker/_default.date.scss */
+/* line 294, ../sass/components/date_picker/_default.date.scss */
 .picker__button--today[disabled],
 .picker__button--today[disabled]:hover {
   background: #f5f5f5;
@@ -8108,7 +8120,7 @@ input[type=range]:focus::-ms-fill-upper {
   cursor: default;
 }
 
-/* line 302, ../sass/components/date_picker/_default.date.scss */
+/* line 301, ../sass/components/date_picker/_default.date.scss */
 .picker__button--today[disabled]:before {
   border-top-color: #aaaaaa;
 }
@@ -8116,22 +8128,36 @@ input[type=range]:focus::-ms-fill-upper {
 /* ==========================================================================
    CUSTOM MATERIALIZE STYLES
    ========================================================================== */
-/* line 309, ../sass/components/date_picker/_default.date.scss */
-.picker__box {
+/*.picker__box {
   border-radius: 2px;
   overflow: hidden;
-}
-
-/* line 314, ../sass/components/date_picker/_default.date.scss */
+}*/
+/* line 313, ../sass/components/date_picker/_default.date.scss */
 .picker__date-display {
-  text-align: center;
+  text-align: left;
   background-color: #6a676e;
   color: #fff;
-  padding-bottom: 15px;
+  padding: 18px;
   font-weight: 300;
 }
 
-/* line 322, ../sass/components/date_picker/_default.date.scss */
+@media only screen and (min-width: 601px) {
+  /* line 322, ../sass/components/date_picker/_default.date.scss */
+  .picker__date-display {
+    flex: 1;
+  }
+
+  /* line 325, ../sass/components/date_picker/_default.date.scss */
+  .picker__weekday-display {
+    display: block;
+  }
+
+  /* line 328, ../sass/components/date_picker/_default.date.scss */
+  .picker__container__wrapper {
+    flex: 2;
+  }
+}
+/* line 333, ../sass/components/date_picker/_default.date.scss */
 .picker__nav--prev:hover,
 .picker__nav--next:hover {
   cursor: pointer;
@@ -8139,79 +8165,83 @@ input[type=range]:focus::-ms-fill-upper {
   background: #c4c4c4;
 }
 
-/* line 329, ../sass/components/date_picker/_default.date.scss */
+/* line 340, ../sass/components/date_picker/_default.date.scss */
 .picker__weekday-display {
-  background-color: #58565c;
-  padding: 10px;
-  font-weight: 200;
-  letter-spacing: .5;
-  font-size: 1rem;
-  margin-bottom: 15px;
-}
-
-/* line 338, ../sass/components/date_picker/_default.date.scss */
-.picker__month-display {
-  text-transform: uppercase;
-  font-size: 2rem;
-}
-
-/* line 342, ../sass/components/date_picker/_default.date.scss */
-.picker__day-display {
-  font-size: 4.5rem;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 2.8rem;
+  margin-right: 5px;
+  margin-top: 4px;
 }
 
 /* line 347, ../sass/components/date_picker/_default.date.scss */
-.picker__year-display {
-  font-size: 1.8rem;
-  color: rgba(255, 255, 255, 0.4);
+.picker__month-display {
+  font-size: 2.8rem;
+  font-weight: 500;
 }
 
 /* line 352, ../sass/components/date_picker/_default.date.scss */
-.picker__box {
-  padding: 0;
+.picker__day-display {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-right: 5px;
 }
 
-/* line 355, ../sass/components/date_picker/_default.date.scss */
+/* line 357, ../sass/components/date_picker/_default.date.scss */
+.picker__year-display {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*.picker__box {
+  padding: 0;
+}*/
+/* line 366, ../sass/components/date_picker/_default.date.scss */
 .picker__calendar-container {
   padding: 0 1rem;
 }
-/* line 358, ../sass/components/date_picker/_default.date.scss */
+/* line 369, ../sass/components/date_picker/_default.date.scss */
 .picker__calendar-container thead {
   border: none;
 }
 
-/* line 364, ../sass/components/date_picker/_default.date.scss */
+/* line 375, ../sass/components/date_picker/_default.date.scss */
 .picker__table {
   margin-top: 0;
   margin-bottom: .5em;
 }
 
-/* line 369, ../sass/components/date_picker/_default.date.scss */
+/* line 380, ../sass/components/date_picker/_default.date.scss */
 .picker__day--infocus {
-  color: #595959;
-  letter-spacing: -.3;
-  padding: .75rem 0;
+  color: rgba(0, 0, 0, 0.87);
+  letter-spacing: -.3px;
+  padding: 0.75rem 0;
   font-weight: 400;
   border: 1px solid transparent;
 }
 
-/* line 378, ../sass/components/date_picker/_default.date.scss */
+@media only screen and (min-width: 601px) {
+  /* line 388, ../sass/components/date_picker/_default.date.scss */
+  .picker__day--infocus {
+    padding: 1.1rem 0;
+  }
+}
+/* line 395, ../sass/components/date_picker/_default.date.scss */
 .picker__day.picker__day--today {
   color: #6a676e;
 }
 
-/* line 382, ../sass/components/date_picker/_default.date.scss */
+/* line 399, ../sass/components/date_picker/_default.date.scss */
 .picker__day.picker__day--today.picker__day--selected {
   color: #fff;
 }
 
-/* line 387, ../sass/components/date_picker/_default.date.scss */
+/* line 404, ../sass/components/date_picker/_default.date.scss */
 .picker__weekday {
   font-size: .9rem;
 }
 
-/* line 392, ../sass/components/date_picker/_default.date.scss */
+/* line 409, ../sass/components/date_picker/_default.date.scss */
 .picker__day--selected,
 .picker__day--selected:hover,
 .picker--focused .picker__day--selected {
@@ -8220,27 +8250,33 @@ input[type=range]:focus::-ms-fill-upper {
   background-color: #6a676e;
   color: #ffffff;
 }
-/* line 399, ../sass/components/date_picker/_default.date.scss */
+/* line 416, ../sass/components/date_picker/_default.date.scss */
 .picker__day--selected.picker__day--outfocus,
 .picker__day--selected:hover.picker__day--outfocus,
 .picker--focused .picker__day--selected.picker__day--outfocus {
   background-color: #c4c4c4;
 }
 
-/* line 405, ../sass/components/date_picker/_default.date.scss */
+/* line 422, ../sass/components/date_picker/_default.date.scss */
 .picker__footer {
   text-align: right;
   padding: 5px 10px;
 }
 
-/* line 411, ../sass/components/date_picker/_default.date.scss */
-.picker__close, .picker__today {
+/* line 428, ../sass/components/date_picker/_default.date.scss */
+.picker__close, .picker__today, .picker__clear {
   font-size: 1.1rem;
   padding: 0 1rem;
   color: #6a676e;
 }
 
-/* line 418, ../sass/components/date_picker/_default.date.scss */
+/* line 433, ../sass/components/date_picker/_default.date.scss */
+.picker__clear {
+  color: #f44336;
+  float: left;
+}
+
+/* line 439, ../sass/components/date_picker/_default.date.scss */
 .picker__nav--prev:before,
 .picker__nav--next:before {
   content: " ";
@@ -8253,13 +8289,13 @@ input[type=range]:focus::-ms-fill-upper {
   margin: 0 auto;
 }
 
-/* line 429, ../sass/components/date_picker/_default.date.scss */
+/* line 450, ../sass/components/date_picker/_default.date.scss */
 .picker__nav--next:before {
   border-right: 0;
   border-left: 0.75em solid #676767;
 }
 
-/* line 433, ../sass/components/date_picker/_default.date.scss */
+/* line 454, ../sass/components/date_picker/_default.date.scss */
 button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
   background-color: #c4c4c4;
 }
@@ -8282,11 +8318,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
  */
 /* line 15, ../sass/components/date_picker/_default.time.scss */
 .picker__list-item {
-  border-bottom: 1px solid #dddddd;
-  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
   margin-bottom: -1px;
   position: relative;
-  background: #ffffff;
+  background: #fff;
   padding: .75em 1.25em;
 }
 
@@ -8300,7 +8336,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /* line 29, ../sass/components/date_picker/_default.time.scss */
 .picker__list-item:hover {
   cursor: pointer;
-  color: #000000;
+  color: #000;
   background: #b1dcfb;
   border-color: #0089ec;
   z-index: 10;
@@ -8317,7 +8353,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .picker__list-item--highlighted:hover,
 .picker--focused .picker__list-item--highlighted {
   cursor: pointer;
-  color: #000000;
+  color: #000;
   background: #b1dcfb;
 }
 
@@ -8327,7 +8363,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .picker__list-item--selected:hover,
 .picker--focused .picker__list-item--selected {
   background: #0089ec;
-  color: #ffffff;
+  color: #fff;
   z-index: 10;
 }
 
@@ -8338,9 +8374,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .picker--focused .picker__list-item--disabled {
   background: #f5f5f5;
   border-color: #f5f5f5;
-  color: #dddddd;
+  color: #ddd;
   cursor: default;
-  border-color: #dddddd;
+  border-color: #ddd;
   z-index: auto;
 }
 
@@ -8359,25 +8395,25 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   font-size: .67em;
   text-align: center;
   text-transform: uppercase;
-  color: #666;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 /* line 82, ../sass/components/date_picker/_default.time.scss */
 .picker--time .picker__button--clear:hover,
 .picker--time .picker__button--clear:focus {
-  color: #000000;
+  color: #000;
   background: #b1dcfb;
   background: #ee2200;
   border-color: #ee2200;
   cursor: pointer;
-  color: #ffffff;
+  color: #fff;
   outline: none;
 }
 
 /* line 92, ../sass/components/date_picker/_default.time.scss */
 .picker--time .picker__button--clear:before {
   top: -0.25em;
-  color: #666;
+  color: rgba(0, 0, 0, 0.87);
   font-size: 1.25em;
   font-weight: bold;
 }
@@ -8385,7 +8421,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /* line 98, ../sass/components/date_picker/_default.time.scss */
 .picker--time .picker__button--clear:hover:before,
 .picker--time .picker__button--clear:focus:before {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* ==========================================================================
@@ -8416,6 +8452,190 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
+/* ==========================================================================
+   $DEFAULT-TIME-PICKER
+   ========================================================================== */
+/* line 130, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-display {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  clear: both;
+  position: relative;
+}
+
+/* line 140, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-span-am-pm {
+  font-size: 1.3rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 0.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 601px) {
+  /* line 149, ../sass/components/date_picker/_default.time.scss */
+  .clockpicker-display {
+    top: 32%;
+  }
+
+  /* line 152, ../sass/components/date_picker/_default.time.scss */
+  .clockpicker-span-am-pm {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    text-align: center;
+    margin-top: 1.2rem;
+  }
+}
+/* line 162, ../sass/components/date_picker/_default.time.scss */
+.text-primary {
+  color: white;
+}
+
+/* line 165, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-span-hours {
+  margin-right: 3px;
+}
+
+/* line 168, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-span-minutes {
+  margin-left: 3px;
+}
+
+/* line 172, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-span-hours,
+.clockpicker-span-minutes,
+.clockpicker-span-am-pm div {
+  cursor: pointer;
+}
+
+/* line 177, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-moving {
+  cursor: move;
+}
+
+/* line 180, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-plate {
+  background-color: #eee;
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  overflow: visible;
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+/* line 192, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas,
+.clockpicker-dial {
+  width: 270px;
+  height: 270px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+
+/* line 200, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-minutes {
+  visibility: hidden;
+}
+
+/* line 203, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-tick {
+  border-radius: 50%;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+}
+
+/* line 213, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-tick.active,
+.clockpicker-tick:hover {
+  background-color: rgba(106, 103, 110, 0.25);
+}
+
+/* line 217, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-dial {
+  -webkit-transition: -webkit-transform 350ms, opacity 350ms;
+  -moz-transition: -moz-transform 350ms, opacity 350ms;
+  -ms-transition: -ms-transform 350ms, opacity 350ms;
+  -o-transition: -o-transform 350ms, opacity 350ms;
+  transition: transform 350ms, opacity 350ms;
+}
+
+/* line 224, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-dial-out {
+  opacity: 0;
+}
+
+/* line 227, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-hours.clockpicker-dial-out {
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+
+/* line 234, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-minutes.clockpicker-dial-out {
+  -webkit-transform: scale(0.8, 0.8);
+  -moz-transform: scale(0.8, 0.8);
+  -ms-transform: scale(0.8, 0.8);
+  -o-transform: scale(0.8, 0.8);
+  transform: scale(0.8, 0.8);
+}
+
+/* line 241, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas {
+  -webkit-transition: opacity 175ms;
+  -moz-transition: opacity 175ms;
+  -ms-transition: opacity 175ms;
+  -o-transition: opacity 175ms;
+  transition: opacity 175ms;
+}
+
+/* line 248, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas-out {
+  opacity: 0.25;
+}
+
+/* line 251, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas-bearing {
+  stroke: none;
+  fill: #6a676e;
+}
+
+/* line 255, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas-bg {
+  stroke: none;
+  fill: #6a676e;
+}
+
+/* line 259, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas-bg-trans {
+  fill: #6a676e;
+}
+
+/* line 262, ../sass/components/date_picker/_default.time.scss */
+.clockpicker-canvas line {
+  stroke: #6a676e;
+  stroke-width: 4;
+  stroke-linecap: round;
+  /*shape-rendering: crispEdges;*/
+}
+
 /* own */
 /* line 1, ../sass/lib/_unslider.scss */
 .unslider {

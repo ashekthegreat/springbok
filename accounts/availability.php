@@ -28,198 +28,184 @@
                     <h4 class="black-text">Manage Viewings Availability</h4>
                     <h5 class="grey-text">This will help buyers book viewings online based on your availability</h5>
                 </div>
-
-                <ul class="tabs" data-customer="459">
-                    <li class="tab col s3"><a href="#setAvail" class="active">Set Availability</a></li>
-                    <li class="tab col s3"><a href="#viewAvail">View</a></li>
-                </ul>
-                <div id="setAvail" class="col s12 white">
-                    <form name="frmAavail" id="frmAvail">
-                        <div class="card">
-                            <div class="card-stacked">
-                                <div class="card-content ">
-                                    <div id="msgAvail"></div>
-                                    <div>
-                                        <div><h5 class="black-text">Select Duration</h5></div>
-                                        <div class="row margin-top-20">
-                                            <div class="col s4">
-                                                <input type="radio" name="duration" id="durOneOff" value="one-off" checked class="durAction">
-                                                <label for="durOneOff" class="radio inline">One-off availability</label>
-                                            </div>
-                                            <div class="col s4">
-                                                <input type="radio" name="duration" id="durRepeat" value="repeat" class="durAction">
-                                                <label for="durRepeat" class="radio inline">Repeat availability</label>
-                                            </div>
+                <div class="z-depth-1 margin-top-25">
+                    <ul class="tabs old margin-bottom-0" data-customer="459">
+                        <li class="tab col s3"><a href="#setAvail" class="active">Set Availability</a></li>
+                        <li class="tab col s3"><a href="#viewAvail">View</a></li>
+                    </ul>
+                    <div class="tab-content margin-top-0 card-panel z-depth-0">
+                        <div id="setAvail" role="tabpanel" class="tab-pane padding-40">
+                            <form name="frmAavail" id="frmAvail">
+                                <div id="msgAvail"></div>
+                                <div>
+                                    <h5>Select Duration</h5>
+                                    <div class="row margin-top-20">
+                                        <div class="col s4">
+                                            <input type="radio" name="duration" id="durOneOff" value="one-off" checked class="durAction">
+                                            <label for="durOneOff" class="radio inline">One-off availability</label>
+                                        </div>
+                                        <div class="col s4">
+                                            <input type="radio" name="duration" id="durRepeat" value="repeat" class="durAction">
+                                            <label for="durRepeat" class="radio inline">Repeat availability</label>
                                         </div>
                                     </div>
-                                    <div class="dur-one-off">
-                                        <div id="datePickSection">
-                                            <input id="timerSlot_0" class="hasDatePicker" type="text" placeholder="Pick Date" size="10"  value="" name="timerSlot_0">
-                                            <input type="hidden" name="totDateSlots" id="totDateSlots" value="1">
-                                        </div>
-                                        <label class="control-label"><a href="javascript:;" id="clickerAddDate"><i class="material-icons" style="vertical-align:-5px" title="Add Time Slots">add_circle</i></a></label>
+                                </div>
+                                <div class="dur-one-off">
+                                    <div id="datePickSection">
+                                        <input id="timerSlot_0" class="hasDatePicker" type="text" placeholder="Pick Date" size="10"  value="" name="timerSlot_0">
+                                        <input type="hidden" name="totDateSlots" id="totDateSlots" value="1">
                                     </div>
-                                    <div class="dur-repeat hide">
-                                        <label><b>Select Day</b> </label>
-                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                    <label class="control-label"><a href="javascript:;" id="clickerAddDate"><i class="material-icons" style="vertical-align:-5px" title="Add Time Slots">add_circle</i></a></label>
+                                </div>
+                                <div class="dur-repeat hide">
+                                    <label><b>Select Day</b> </label>
+                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="m" class="wDays" value="m">
+                                                <label for="m">Monday</label>
+                                            </td>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="t" class="wDays" value="t">
+                                                <label for="t">Tuesday</label>
+                                            </td>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="w" class="wDays" value="w">
+                                                <label for="w">Wednesday</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="th" class="wDays" value="th">
+                                                <label for="th">Thursday</label>
+                                            </td>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="f" class="wDays" value="f">
+                                                <label for="f">Friday</label>
+                                            </td>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="s" class="wDays" value="s">
+                                                <label for="s">Saturday</label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="su" class="wDays" value="su">
+                                                <label for="su">Sunday</label>
+                                            </td>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="wknd" class="wDays" value="wknd">
+                                                <label for="wknd">All Weekend</label>
+                                            </td>
+                                            <td align="left">
+                                                <input type="checkbox" name="days[]" id="wkd" class="wDays" value="wkd">
+                                                <label for="wkd">Every Weekday</label>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <p>&nbsp;</p>
+                                    <div class="controls controls-row">
+                                        <table cellpadding="0" cellspacing="0" width="90%">
                                             <tr>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="m" class="wDays" value="m">
-                                                    <label for="m">Monday</label>
-                                                </td>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="t" class="wDays" value="t">
-                                                    <label for="t">Tuesday</label>
-                                                </td>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="w" class="wDays" value="w">
-                                                    <label for="w">Wednesday</label>
-                                                </td>
+                                                <td width="50%" align="right">From <input id="repeat-from" class="input-small hasDatePicker" type="text" placeholder="Pick Date" size="10" value="2018-01-26"  name="repeat-from"></td>
+                                                <td width="50%" align="right">Until <input id="repeat-until" class="input-small hasDatePicker" type="text" placeholder="Pick Date" size="10" value="2018-02-01"  name="repeat-until"></td>
                                             </tr>
                                             <tr>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="th" class="wDays" value="th">
-                                                    <label for="th">Thursday</label>
-                                                </td>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="f" class="wDays" value="f">
-                                                    <label for="f">Friday</label>
-                                                </td>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="s" class="wDays" value="s">
-                                                    <label for="s">Saturday</label>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="su" class="wDays" value="su">
-                                                    <label for="su">Sunday</label>
-                                                </td>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="wknd" class="wDays" value="wknd">
-                                                    <label for="wknd">All Weekend</label>
-                                                </td>
-                                                <td align="left">
-                                                    <input type="checkbox" name="days[]" id="wkd" class="wDays" value="wkd">
-                                                    <label for="wkd">Every Weekday</label>
-                                                </td>
+                                                <td width="50%" align="right" valign="top"><a href="javascript:;" onClick="$('#repeat-from').val('2018-01-25')">Now</a></td>
+                                                <td width="50%" align="right" valign="top"><input id="chkUntilFurther" type="checkbox" name="chkUntilFurther" /> <label for="chkUntilFurther">Until further notice</label></td>
                                             </tr>
                                         </table>
-                                        <p>&nbsp;</p>
-                                        <div class="controls controls-row">
-                                            <table cellpadding="0" cellspacing="0" width="90%">
-                                                <tr>
-                                                    <td width="50%" align="right">From <input id="repeat-from" class="input-small hasDatePicker" type="text" placeholder="Pick Date" size="10" value="2018-01-26"  name="repeat-from"></td>
-                                                    <td width="50%" align="right">Until <input id="repeat-until" class="input-small hasDatePicker" type="text" placeholder="Pick Date" size="10" value="2018-02-01"  name="repeat-until"></td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="50%" align="right" valign="top"><a href="javascript:;" onClick="$('#repeat-from').val('2018-01-25')">Now</a></td>
-                                                    <td width="50%" align="right" valign="top"><input id="chkUntilFurther" type="checkbox" name="chkUntilFurther" /> <label for="chkUntilFurther">Until further notice</label></td>
-                                                </tr>
-                                            </table>
-                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-stacked">
-                                <div class="card-content ">
-                                    <div><h5 class="black-text">Select Time</h5></div>
-                                    <div class=" margin-top-20">
-                                        <input type="checkbox" class="browser-default chkTimeAllDaye" checked="checked" name="timeAllDay" id="timeAllDay" value="900 - 1930">
-                                        <label for="timeAllDay">Available all day (9:00 to 19:30)</label>
-                                    </div>
-                                    <div class="hide" id="divTimeSelection">
-                                        <div id="timePickSection" class="row">
-                                            <div class="input-field col s5">
-                                                <select class="browser-default" name="selTimePickA_0" id="selTimePickA_0">
-                                                    <option value="800">08:00</option>
-                                                    <option value="830">08:30</option>
-                                                    <option value="900">09:00</option>
-                                                    <option value="930">09:30</option>
-                                                    <option value="1000">10:00</option>
-                                                    <option value="1030">10:30</option>
-                                                    <option value="1100">11:00</option>
-                                                    <option value="1130">11:30</option>
-                                                    <option value="1200">12:00</option>
-                                                    <option value="1230">12:30</option>
-                                                    <option value="1300">13:00</option>
-                                                    <option value="1330">13:30</option>
-                                                    <option value="1400">14:00</option>
-                                                    <option value="1430">14:30</option>
-                                                    <option value="1500">15:00</option>
-                                                    <option value="1530">15:30</option>
-                                                    <option value="1600">16:00</option>
-                                                    <option value="1630">16:30</option>
-                                                    <option value="1700">17:00</option>
-                                                    <option value="1730">17:30</option>
-                                                    <option value="1800">18:00</option>
-                                                    <option value="1830">18:30</option>
-                                                    <option value="1900">19:00</option>
-                                                    <option value="1930">19:30</option>
-                                                </select>
-                                            </div>
-                                            <div class="input-field col s1 center-align"> <h5>To</h5> </div>
-                                            <div class="input-field col s5">
-                                                <select class="browser-default small"  name="selTimePickB_0" id="selTimePickB_0">
-                                                    <option value="800">08:00</option>
-                                                    <option value="830">08:30</option>
-                                                    <option value="900">09:00</option>
-                                                    <option value="930">09:30</option>
-                                                    <option value="1000">10:00</option>
-                                                    <option value="1030">10:30</option>
-                                                    <option value="1100">11:00</option>
-                                                    <option value="1130">11:30</option>
-                                                    <option value="1200">12:00</option>
-                                                    <option value="1230">12:30</option>
-                                                    <option value="1300">13:00</option>
-                                                    <option value="1330">13:30</option>
-                                                    <option value="1400">14:00</option>
-                                                    <option value="1430">14:30</option>
-                                                    <option value="1500">15:00</option>
-                                                    <option value="1530">15:30</option>
-                                                    <option value="1600">16:00</option>
-                                                    <option value="1630">16:30</option>
-                                                    <option value="1700">17:00</option>
-                                                    <option value="1730">17:30</option>
-                                                    <option value="1800">18:00</option>
-                                                    <option value="1830">18:30</option>
-                                                    <option value="1900">19:00</option>
-                                                    <option value="1930">19:30</option>
-                                                </select>
-                                            </div>
-                                            <div class="col s1 center-align"></div>
-                                            <input type="hidden" name="totTimeSlots" id="totTimeSlots" value="1">
-                                        </div>
-                                        <label class="control-label"><a href="javascript:;" id="clickerAddTime"><i class="material-icons" title="Add More Time Slots">add_circle</i></a> &nbsp;<i class="icon-time"></i></label>
-                                    </div>
-                                    <div id="divOpenDay" class="hide right-align">
-                                        <input type="checkbox" onChange="$('#divTimeSelection').toggle();" class="chkOpenDay" id="chkOpenDay" name="chkOpenDay" value="1">
-                                        <label for="chkOpenDay">Make this an open day</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="s12 center-align">
-                            <input type="button" class="btn btn-large btn-primary pull-right btnSaveAvail" data-customer="459" value="Create Availability">
+                                <h5 class="margin-top-40">Select Time</h5>
+                                <div class=" margin-top-20">
+                                    <input type="checkbox" class="browser-default chkTimeAllDaye" checked="checked" name="timeAllDay" id="timeAllDay" value="900 - 1930">
+                                    <label for="timeAllDay">Available all day (9:00 to 19:30)</label>
+                                </div>
+                                <div class="hide" id="divTimeSelection">
+                                    <div id="timePickSection" class="row">
+                                        <div class="input-field col s5">
+                                            <select class="browser-default" name="selTimePickA_0" id="selTimePickA_0">
+                                                <option value="800">08:00</option>
+                                                <option value="830">08:30</option>
+                                                <option value="900">09:00</option>
+                                                <option value="930">09:30</option>
+                                                <option value="1000">10:00</option>
+                                                <option value="1030">10:30</option>
+                                                <option value="1100">11:00</option>
+                                                <option value="1130">11:30</option>
+                                                <option value="1200">12:00</option>
+                                                <option value="1230">12:30</option>
+                                                <option value="1300">13:00</option>
+                                                <option value="1330">13:30</option>
+                                                <option value="1400">14:00</option>
+                                                <option value="1430">14:30</option>
+                                                <option value="1500">15:00</option>
+                                                <option value="1530">15:30</option>
+                                                <option value="1600">16:00</option>
+                                                <option value="1630">16:30</option>
+                                                <option value="1700">17:00</option>
+                                                <option value="1730">17:30</option>
+                                                <option value="1800">18:00</option>
+                                                <option value="1830">18:30</option>
+                                                <option value="1900">19:00</option>
+                                                <option value="1930">19:30</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-field col s1 center-align"> <h5>To</h5> </div>
+                                        <div class="input-field col s5">
+                                            <select class="browser-default small"  name="selTimePickB_0" id="selTimePickB_0">
+                                                <option value="800">08:00</option>
+                                                <option value="830">08:30</option>
+                                                <option value="900">09:00</option>
+                                                <option value="930">09:30</option>
+                                                <option value="1000">10:00</option>
+                                                <option value="1030">10:30</option>
+                                                <option value="1100">11:00</option>
+                                                <option value="1130">11:30</option>
+                                                <option value="1200">12:00</option>
+                                                <option value="1230">12:30</option>
+                                                <option value="1300">13:00</option>
+                                                <option value="1330">13:30</option>
+                                                <option value="1400">14:00</option>
+                                                <option value="1430">14:30</option>
+                                                <option value="1500">15:00</option>
+                                                <option value="1530">15:30</option>
+                                                <option value="1600">16:00</option>
+                                                <option value="1630">16:30</option>
+                                                <option value="1700">17:00</option>
+                                                <option value="1730">17:30</option>
+                                                <option value="1800">18:00</option>
+                                                <option value="1830">18:30</option>
+                                                <option value="1900">19:00</option>
+                                                <option value="1930">19:30</option>
+                                            </select>
+                                        </div>
+                                        <div class="col s1 center-align"></div>
+                                        <input type="hidden" name="totTimeSlots" id="totTimeSlots" value="1">
+                                    </div>
+                                    <label class="control-label"><a href="javascript:;" id="clickerAddTime"><i class="material-icons" title="Add More Time Slots">add_circle</i></a> &nbsp;<i class="icon-time"></i></label>
+                                </div>
+                                <div id="divOpenDay" class="hide right-align">
+                                    <input type="checkbox" onChange="$('#divTimeSelection').toggle();" class="chkOpenDay" id="chkOpenDay" name="chkOpenDay" value="1">
+                                    <label for="chkOpenDay">Make this an open day</label>
+                                </div>
+
+                                <div class="center-align margin-top-40">
+                                    <button class="waves-effect waves-light btn sp-primary sp-secondary-text" data-customer="459">Create Availability</button>
+                                </div>
+
+                                <input type="hidden" name="leads_id" value="110" />
+                                <input type="hidden" name="agencyId" value="" />
+                                <input type="hidden" name="customerId" value="459" />
+                            </form>
                         </div>
-                        <input type="hidden" name="leads_id" value="110" />
-                        <input type="hidden" name="agencyId" value="" />
-                        <input type="hidden" name="customerId" value="459" />
-                    </form>
-                </div>
-                <div id="viewAvail" class="col s12 white">
-                    <div class="card">
-                        <div class="card-stacked">
-                            <div class="card-content ">
-                                <div id="listAvailability"></div>
-                            </div>
+                        <div id="viewAvail" role="tabpanel" class="tab-pane padding-40">
+                            <div id="listAvailability"></div>
                         </div>
                     </div>
                 </div>
-
 
             </div>
         </section>

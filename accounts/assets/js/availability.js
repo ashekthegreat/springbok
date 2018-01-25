@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    return;
     //-- For Avaioability Duration Selection
     $('.durAction').change(function () {
         if ($(this).val() == 'repeat') {
@@ -38,9 +37,27 @@ $(document).ready(function () {
 
         $("#datePickSection").append(fieldWrapper);
         $('#totDateSlots').val(parseInt($('#totDateSlots').val()) + 1);
-        $('.hasDatePicker').datepicker({dateFormat: 'yy-mm-dd'});
+        $('.hasDatePicker').pickadate({
+            format: 'yyyy-mm-dd',
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 15, // Creates a dropdown of 15 years to control year,
+            today: 'Today',
+            clear: 'Clear',
+            close: 'Ok',
+            closeOnSelect: true // Close upon selecting a date,
+        });
     });
-    $('.hasDatePicker').datepicker({dateFormat: 'yy-mm-dd'});
+    //$('.hasDatePicker').datepicker({dateFormat: 'yy-mm-dd'});
+    $('.hasDatePicker').pickadate({
+        format: 'yyyy-mm-dd',
+        selectMonths: true, // Creates a dropdown to control month
+        selectYears: 15, // Creates a dropdown of 15 years to control year,
+        today: 'Today',
+        clear: 'Clear',
+        close: 'Ok',
+        closeOnSelect: true // Close upon selecting a date,
+    });
+
 
     //-- For Timer Selection
     $('#clickerAddTime').click(function () {
@@ -175,7 +192,7 @@ $(document).ready(function () {
                 }, 4000);
             }
         });
-    })
+    });
 
     //AUTO CHECKBOX SELECTION - ALLOW AUTO SELECTING SUN-SAT IF WEEKEND IS CHECKED
     $('#wknd').click(function () {

@@ -127,14 +127,15 @@
         if($(".section-availability").length){
             var $section = $(".section-availability");
 
-            $('#timerSlot_0').pickadate({
+            /*$('#timerSlot_0').pickadate({
+                format: 'yyyy-mm-dd',
                 selectMonths: true, // Creates a dropdown to control month
                 selectYears: 15, // Creates a dropdown of 15 years to control year,
                 today: 'Today',
                 clear: 'Clear',
                 close: 'Ok',
-                closeOnSelect: false // Close upon selecting a date,
-            });
+                closeOnSelect: true // Close upon selecting a date,
+            });*/
         }
     });
 
