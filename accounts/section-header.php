@@ -24,7 +24,7 @@
     </nav>
 
     <ul id="dropdown-advice" class="dropdown-content">
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="profile.php">My Account</a></li>
+        <li><a href="signin.php">Logout</a></li>
     </ul>
 </div>
