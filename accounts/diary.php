@@ -55,6 +55,37 @@
                     </div>
                 </div>
 
+                <div id="my-calendar" class="margin-top-30 z-depth-1"></div>
+
+                <div class="explantion margin-top-30">
+                    <h6>KEY</h6>
+
+                    <div class="key">
+                        <div class="key-legend key-available"></div>
+                        <div class="key-description">
+                            <p class="tiny"><b>Available for viewings</b><br>You are available for viewings. We will automatically book viewings for you.</p>
+                        </div>
+                    </div>
+                    <div class="key">
+                        <div class="key-legend key-not-set"></div>
+                        <div class="key-description">
+                            <p class="tiny"><b>No set availibility for viewings </b><br>You have not specified your availability. We will provisionally book viewings for you to confirm.</p>
+                        </div>
+                    </div>
+                    <div class="key">
+                        <div class="key-legend key-arranged"></div>
+                        <div class="key-description">
+                            <p class="tiny"><b>Viewings arranged</b><br>You have viewing appointments. Please check your availability</p>
+                        </div>
+                    </div>
+                    <div class="key">
+                        <div class="key-legend key-appointment"></div>
+                        <div class="key-description">
+                            <p class="tiny"><b>Property Valuation / Other Appointments</b><br>You have other appointments, such as valuations. Please check your availability.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 

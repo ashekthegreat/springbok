@@ -35,14 +35,15 @@
 @import "components/preloader";
 @import "components/slider";
 @import "components/carousel";
-//@import "components/date_picker/default";
-//@import "components/date_picker/default.date";
-//@import "components/date_picker/default.time";
+@import "components/date_picker/default";
+@import "components/date_picker/default.date";
+@import "components/date_picker/default.time";
 
 /* own */
 @import "lib/unslider";
 //@import "unslider-dots";
 @import "lib/jquery.typeahead";
+@import "lib/zabuto-calendar";
 //@import "lib/nouislider";
 @import "application";
 @import "pages/home";
