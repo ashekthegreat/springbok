@@ -61,7 +61,7 @@
                     </div>
                 </div>
 
-                <div class="margin-top-80 row">
+                <div class="margin-top-40 row">
                     <div class="col s6 right-align">
                         <i class="material-icons large">home</i>
                     </div>
