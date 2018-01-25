@@ -9612,6 +9612,11 @@ nav .nav-wrapper {
   .page-footer {
     text-align: center;
   }
+
+  /* line 135, ../sass/_application.scss */
+  .tab-pane.padding-40 {
+    padding: 0 !important;
+  }
 }
 /* line 1, ../sass/pages/_home.scss */
 .card.property-card {

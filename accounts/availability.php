@@ -39,15 +39,15 @@
                                 <div id="msgAvail"></div>
                                 <div>
                                     <h5>Select Duration</h5>
-                                    <div class="row margin-top-20">
-                                        <div class="col s4">
+                                    <div>
+                                        <p class="inb margin-right-30">
                                             <input type="radio" name="duration" id="durOneOff" value="one-off" checked class="durAction">
                                             <label for="durOneOff" class="radio inline">One-off availability</label>
-                                        </div>
-                                        <div class="col s4">
+                                        </p>
+                                        <p class="inb">
                                             <input type="radio" name="duration" id="durRepeat" value="repeat" class="durAction">
                                             <label for="durRepeat" class="radio inline">Repeat availability</label>
-                                        </div>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="dur-one-off">
@@ -58,63 +58,52 @@
                                     <label class="control-label"><a href="javascript:;" id="clickerAddDate"><i class="material-icons" style="vertical-align:-5px" title="Add Time Slots">add_circle</i></a></label>
                                 </div>
                                 <div class="dur-repeat hide">
-                                    <label><b>Select Day</b> </label>
-                                    <table width="100%" cellpadding="0" cellspacing="0">
-                                        <tr>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="m" class="wDays" value="m">
-                                                <label for="m">Monday</label>
-                                            </td>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="t" class="wDays" value="t">
-                                                <label for="t">Tuesday</label>
-                                            </td>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="w" class="wDays" value="w">
-                                                <label for="w">Wednesday</label>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="th" class="wDays" value="th">
-                                                <label for="th">Thursday</label>
-                                            </td>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="f" class="wDays" value="f">
-                                                <label for="f">Friday</label>
-                                            </td>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="s" class="wDays" value="s">
-                                                <label for="s">Saturday</label>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="su" class="wDays" value="su">
-                                                <label for="su">Sunday</label>
-                                            </td>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="wknd" class="wDays" value="wknd">
-                                                <label for="wknd">All Weekend</label>
-                                            </td>
-                                            <td align="left">
-                                                <input type="checkbox" name="days[]" id="wkd" class="wDays" value="wkd">
-                                                <label for="wkd">Every Weekday</label>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <p>&nbsp;</p>
-                                    <div class="controls controls-row">
-                                        <table cellpadding="0" cellspacing="0" width="90%">
-                                            <tr>
-                                                <td width="50%" align="right">From <input id="repeat-from" class="input-small hasDatePicker" type="text" placeholder="Pick Date" size="10" value="2018-01-26"  name="repeat-from"></td>
-                                                <td width="50%" align="right">Until <input id="repeat-until" class="input-small hasDatePicker" type="text" placeholder="Pick Date" size="10" value="2018-02-01"  name="repeat-until"></td>
-                                            </tr>
-                                            <tr>
-                                                <td width="50%" align="right" valign="top"><a href="javascript:;" onClick="$('#repeat-from').val('2018-01-25')">Now</a></td>
-                                                <td width="50%" align="right" valign="top"><input id="chkUntilFurther" type="checkbox" name="chkUntilFurther" /> <label for="chkUntilFurther">Until further notice</label></td>
-                                            </tr>
-                                        </table>
+                                    <h6 class="margin-top-25">Select Day</h6>
+                                    <div class="row">
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="m" class="wDays" value="m">
+                                            <label for="m">Monday</label>
+                                        </p>
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="t" class="wDays" value="t">
+                                            <label for="t">Tuesday</label>
+                                        </p>
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="w" class="wDays" value="w">
+                                            <label for="w">Wednesday</label>
+                                        </p>
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="th" class="wDays" value="th">
+                                            <label for="th">Thursday</label>
+                                        </p>
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="f" class="wDays" value="f">
+                                            <label for="f">Friday</label>
+                                        </p>
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="s" class="wDays" value="s">
+                                            <label for="s">Saturday</label>
+                                        </p>
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="su" class="wDays" value="su">
+                                            <label for="su">Sunday</label>
+                                        </p>
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="wknd" class="wDays" value="wknd">
+                                            <label for="wknd">All Weekend</label>
+                                        </p>
+                                        <p class="col s6 m4">
+                                            <input type="checkbox" name="days[]" id="wkd" class="wDays" value="wkd">
+                                            <label for="wkd">Every Weekday</label>
+                                        </p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s6">From <input id="repeat-from" class="input-small hasDatePicker" type="text" placeholder="Pick Date" size="10" value="2018-01-26"  name="repeat-from"></div>
+                                        <div class="col s6">Until <input id="repeat-until" class="input-small hasDatePicker" type="text" placeholder="Pick Date" size="10" value="2018-02-01"  name="repeat-until"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s6"><a href="javascript:;" onClick="$('#repeat-from').val('2018-01-25')">Now</a></div>
+                                        <div class="col s6"><input id="chkUntilFurther" type="checkbox" name="chkUntilFurther" /> <label for="chkUntilFurther">Until further notice</label></div>
                                     </div>
                                 </div>
 
