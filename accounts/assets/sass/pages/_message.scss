@@ -1,0 +1,36 @@
+.section-message{
+  .chat-items{
+    min-height: 100px;
+    max-height: 400px;
+    overflow: auto;
+    background: color("sp-secondary", "lighten-5");
+
+    .chat-item{
+      padding: 10px;
+      border-radius: 3px;
+      background: #fff;
+      margin: 20px;
+
+      .name{
+        font-weight: 600;
+        color: color("sp-secondary", "darken-2");
+      }
+
+      &.me{
+        background: color("light-blue", "lighten-4");
+        margin-left: 20%;
+        border-radius: 30px 3px 3px 30px;
+        padding-left: 20px;
+      }
+      &.you{
+        background: color("sp-primary", "lighten-4");
+        margin-right: 20%;
+        border-radius: 3px 30px 30px 3px;
+        padding-right: 20px;
+      }
+    }
+  }
+  .chat-write{
+    border-top: 1px solid #ddd;
+  }
+}

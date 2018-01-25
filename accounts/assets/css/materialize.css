@@ -10033,4 +10033,42 @@ nav .nav-wrapper {
   margin: 0 2px;
 }
 
+/* line 2, ../sass/pages/_message.scss */
+.section-message .chat-items {
+  min-height: 100px;
+  max-height: 400px;
+  overflow: auto;
+  background: #f0eff1;
+}
+/* line 8, ../sass/pages/_message.scss */
+.section-message .chat-items .chat-item {
+  padding: 10px;
+  border-radius: 3px;
+  background: #fff;
+  margin: 20px;
+}
+/* line 14, ../sass/pages/_message.scss */
+.section-message .chat-items .chat-item .name {
+  font-weight: 600;
+  color: #4d4a50;
+}
+/* line 19, ../sass/pages/_message.scss */
+.section-message .chat-items .chat-item.me {
+  background: #b3e5fc;
+  margin-left: 20%;
+  border-radius: 30px 3px 3px 30px;
+  padding-left: 20px;
+}
+/* line 25, ../sass/pages/_message.scss */
+.section-message .chat-items .chat-item.you {
+  background: #fffbbd;
+  margin-right: 20%;
+  border-radius: 3px 30px 30px 3px;
+  padding-right: 20px;
+}
+/* line 33, ../sass/pages/_message.scss */
+.section-message .chat-write {
+  border-top: 1px solid #ddd;
+}
+
 /*# sourceMappingURL=materialize.css.map */
