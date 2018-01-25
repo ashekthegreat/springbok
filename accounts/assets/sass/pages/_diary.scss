@@ -16,18 +16,4 @@
       }
     }
   }
-  .label {
-    display: inline;
-    padding: .2em .6em .2em;
-    font-size: 65%;
-    font-weight: 500;
-    line-height: 1;
-    background: color("sp-secondary", "base");
-    color: color("sp-secondary", "lighten-5");
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    border-radius: .25em;
-    margin: 0 2px;
-  }
 }

@@ -1,14 +1,19 @@
 <footer class="page-footer sp-secondary-text">
 
     <div class="footer-copyright">
-        <div class="container center-align sp-secondary-text lighten-3">
-            <strong>&copy; 2015 Springbok Properties</strong> |
-            <a href="#">Privacy Policy</a> |
-            <a href="#">Terms & Conditions</a> |
-            <a href="reviews.php">Springbok Properties Reviews</a> |
-            <a href="#">Complaints Procedure</a> |
-            <a href="#">Sitemap</a>
-            <br><br><br>
+        <div class="container sp-secondary-text text-lighten-5">
+            <div class="row margin-0">
+                <div class="col s12 m6 push-m6 right-align center-on-small-only">
+                    <a href="#">Need Help?</a>
+                </div>
+                <div class="col s12 m6 pull-m6">
+                    <div class="big margin-0">Speak to a member of our team</div>
+                    <a href="tel:08000684015" class="biggest">0800 068 4015</a>
+                </div>
+            </div>
+            <div class="center-align">
+                <strong>&copy; 2015 Springbok Properties</strong>
+            </div>
         </div>
 
     </div>

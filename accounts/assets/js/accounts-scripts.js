@@ -50,7 +50,7 @@
         if($(".section-signin").length){
             var $section = $(".section-signin");
 
-            $('.modal').modal();
+            /*$('.modal').modal();*/
         }
     });
 
@@ -136,6 +136,21 @@
                 close: 'Ok',
                 closeOnSelect: true // Close upon selecting a date,
             });*/
+        }
+    });
+
+    $(function(){
+        if($(".section-qualification").length){
+            var $section = $(".section-qualification");
+
+            $section.find("#qualification-step-1").click(function(){
+                $(this).closest(".card-panel").addClass("hide").next(".card-panel").removeClass("hide");
+                return false;
+            });
+            $section.find("#qualification-step-2").click(function(){
+                $(this).closest(".card-panel").addClass("hide").next(".card-panel").removeClass("hide");
+                return false;
+            })
         }
     });
 

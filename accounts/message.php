@@ -29,24 +29,27 @@
                         <div class="collapsible-header sp-secondary white-text active">7, Dudley Walk , TS10 2LN, Redcar</div>
                         <div class="collapsible-body">
                             <div class="chat-items">
-                                <div class="chat-item you">
+                                <div class="chat-item z-depth-1 you">
                                     <div class="name">Adam Sandler</div>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Blanditiis consequatur ipsa nihil non officia pariatur quia quis reprehenderit sequi sint!
                                 </div>
-                                <div class="chat-item you">
+                                <div class="chat-item z-depth-1 you">
                                     <div class="name">Adam Sandler</div>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Blanditiis consequatur ipsa nihil non officia pariatur quia quis reprehenderit sequi sint!
                                 </div>
-                                <div class="chat-item me">
+                                <div class="chat-item z-depth-1 me">
                                     <div class="name">Simone Arnison</div>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Blanditiis consequatur ipsa nihil non officia pariatur quia quis reprehenderit sequi sint!
                                 </div>
                             </div>
                             <div class="chat-write">
-
+                                <div class="textarea-container">
+                                    <textarea id="textarea1" rows="3" placeholder="Write here.."></textarea>
+                                </div>
+                                <button class="waves-effect waves-light btn sp-primary sp-secondary-text">Send</button>
                             </div>
                         </div>
                     </li>
@@ -57,29 +60,32 @@
                         <div class="collapsible-header sp-secondary white-text">7, Dudley Walk , TS10 2LN, Redcar</div>
                         <div class="collapsible-body">
                             <div class="chat-items">
-                                <div class="chat-item you">
+                                <div class="chat-item z-depth-1 you">
                                     <div class="name">Adam Sandler</div>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Blanditiis consequatur ipsa nihil non officia pariatur quia quis reprehenderit sequi sint!
                                 </div>
-                                <div class="chat-item you">
+                                <div class="chat-item z-depth-1 you">
                                     <div class="name">Adam Sandler</div>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Blanditiis consequatur ipsa nihil non officia pariatur quia quis reprehenderit sequi sint!
                                 </div>
-                                <div class="chat-item me">
+                                <div class="chat-item z-depth-1 me">
                                     <div class="name">Simone Arnison</div>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Blanditiis consequatur ipsa nihil non officia pariatur quia quis reprehenderit sequi sint!
                                 </div>
-                                <div class="chat-item you">
+                                <div class="chat-item z-depth-1 you">
                                     <div class="name">Adam Sandler</div>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Blanditiis consequatur ipsa nihil non officia pariatur quia quis reprehenderit sequi sint!
                                 </div>
                             </div>
                             <div class="chat-write">
-
+                                <div class="textarea-container">
+                                    <textarea id="textarea2" rows="3" placeholder="Write here.."></textarea>
+                                </div>
+                                <button class="waves-effect waves-light btn sp-primary sp-secondary-text">Send</button>
                             </div>
                         </div>
                     </li>

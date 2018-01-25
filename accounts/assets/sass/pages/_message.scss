@@ -32,5 +32,32 @@
   }
   .chat-write{
     border-top: 1px solid #ddd;
+
+    position: relative;
+
+    .textarea-container{
+      margin-right: 101px;
+
+      textarea{
+        border: 0;
+        vertical-align: top;
+        height: auto;
+        padding: 7px 10px;
+        resize: none;
+
+        &:focus{
+          border: 0;
+          outline: none;
+        }
+      }
+    }
+    .btn{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100px;
+      height: auto;
+    }
   }
 }

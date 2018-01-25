@@ -181,8 +181,8 @@ $select-radius: 2px !default;
 $select-disabled-color: rgba(255,255,255,.7) !default;
 
 // Switches
-$switch-bg-color: $secondary-color !default;
-$switch-checked-lever-bg: desaturate(lighten($secondary-color, 25%), 25%) !default;
+$switch-bg-color: $primary-color !default;
+$switch-checked-lever-bg: desaturate(lighten($primary-color, 25%), 25%) !default;
 $switch-unchecked-bg: #F1F1F1 !default;
 $switch-unchecked-lever-bg: #818181 !default;
 $switch-radius: 15px !default;

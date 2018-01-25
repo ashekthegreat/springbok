@@ -15,10 +15,10 @@
         </div>
         <div class="sub-nav">
             <div class="container center-align">
-                <a href="#" target="_blank" class="sp-secondary-text text-lighten-5">Home</a>
-                <a href="#" target="_blank" class="sp-secondary-text text-lighten-5">Diary</a>
-                <a href="#" target="_blank" class="sp-secondary-text text-lighten-5">Set Availability</a>
-                <a href="#" target="_blank" class="sp-secondary-text text-lighten-5">Offers</a>
+                <a href="index.php" target="_blank" class="sp-secondary-text text-lighten-5">Home</a>
+                <a href="diary.php" target="_blank" class="sp-secondary-text text-lighten-5">Diary</a>
+                <a href="availability.php" target="_blank" class="sp-secondary-text text-lighten-5">Set Availability</a>
+                <a href="offers.php" target="_blank" class="sp-secondary-text text-lighten-5">Offers</a>
             </div>
         </div>
     </nav>
