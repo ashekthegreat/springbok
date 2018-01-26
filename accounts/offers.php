@@ -26,7 +26,7 @@
                 <h5 class="center-align">Offers for</h5>
                 <h3 class="center-align margin-bottom-30 margin-top-0">7, Dudley Walk , TS10 2LN</h3>
 
-                <div class="card">
+                <div class="card card-board">
                     <div class="card-content red lighten-4">
                         <h5>
                             Michael Cairnes placed this offer on Friday, 19th Jan 2018, 11:57am
@@ -57,7 +57,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card card-board">
                     <div class="card-content green lighten-4">
                         <h5>
                             Michael Cairnes placed this offer on Friday, 19th Jan 2018, 11:57am
@@ -88,7 +88,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card card-board">
                     <div class="card-content grey lighten-2">
                         <h5>
                             Michael Cairnes placed this offer on Friday, 19th Jan 2018, 11:57am

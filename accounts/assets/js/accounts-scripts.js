@@ -65,6 +65,11 @@
                 cell_border: true,
                 today: true,
                 weekstartson: 0,
+                action: function () {
+                    console.log($(this).data("date"));
+                    console.log($(this).data("hasEvent"));
+                    console.log($(this).data());
+                },
                 nav_icon: {
                     prev: '<i class="material-icons">chevron_left</i>',
                     next: '<i class="material-icons">chevron_right</i>'
@@ -150,6 +155,42 @@
             $section.find("#qualification-step-2").click(function(){
                 $(this).closest(".card-panel").addClass("hide").next(".card-panel").removeClass("hide");
                 return false;
+            })
+        }
+    });
+
+    $(function(){
+        if($(".section-instruct").length){
+            var $section = $(".section-instruct");
+
+            //-- SELECTABLE - DESELECTABLE OPTION ON INSTRUCT PAGE
+            $('.selectable').click(function(){
+                if($(this).data('opted'))
+                {
+                    $(this).html('INCLUDE');
+                    $(this).data('opted',false);
+                    $(this).removeClass('insOpted');
+                }else{
+                    $(this).html('<i class="material-icons right">check_circle</i>INCLUDED');
+                    $(this).data('opted',true);
+                    $(this).addClass('insOpted');
+                }
+            });
+
+            //--VALIDATE INSTRUCT PAGE
+            $('#insForm').submit(function(){
+                if($('input#accept').is(':checked')==false)
+                {
+                    Materialize.toast("Please agree to our terms & conditions before instructing. Thanks", 3000, "red");
+                    return !1
+                }else{
+                    var optedServs = '';
+                    $('.insOpted').each(function(){
+                        optedServs+=((optedServs=='')?$(this).data('servopted'):(','+$(this).data('servopted')));
+                    })
+                    //alert(optedServs);
+                    $('#optedServsBox').val(optedServs);
+                }
             })
         }
     });

@@ -101,7 +101,7 @@
                                 </div>
 
                                 <div class="center-align margin-top-30">
-                                    <a class="blue-text forgotpass" href="#forget_pass">Forgot Password?</a>
+                                    <a class="blue-text forgotpass modal-trigger" href="#forget_pass">Forgot Password?</a>
                                 </div>
                             </form>
                         </div>
@@ -111,19 +111,21 @@
 
             </div>
             <div id="forget_pass" class="modal">
-                <div class="modal-content ">
-                    <h4>Forget Password</h4>
-                    <form id="forget_pass" action="" method="post" name="forget_pass">
+                <form id="forget_pass" action="" method="post" name="forget_pass">
+                    <div class="modal-content ">
+                        <h4>Forgotten your password?</h4>
+                        <p>To reset your password, enter the email address you use to login. An email will be sent to this address with your new password.</p>
+
                         <p class="red-text center-align" style="display: none"></p>
-                        <div class="row margin-bottom-0">
-                            <div class="input-field col s12">
-                                <input type="text"  id="forget-email" name="email">
-                                <label for="forget-email" class="">Email</label>
-                            </div>
+                        <div class="input-field">
+                            <input type="text"  id="forget-email" name="email">
+                            <label for="forget-email" class="">Email</label>
                         </div>
-                        <button type="submit"  class="waves-effect margin-top-30 margin-bottom-50 right  waves-light btn  sp-primary sp-secondary-text">Submit</button >
-                    </form>
-                </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="waves-effect waves-light btn sp-primary sp-secondary-text">Submit</button >
+                    </div>
+                </form>
             </div>
         </section>
     </main>

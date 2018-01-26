@@ -9629,6 +9629,57 @@ nav .nav-wrapper {
   }
 }
 /* line 1, ../sass/pages/_common.scss */
+.account-popover {
+  min-width: 420px;
+  line-height: 1.5;
+}
+/* line 5, ../sass/pages/_common.scss */
+.account-popover .btn, .account-popover .btn-large {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* line 10, ../sass/pages/_common.scss */
+.account-popover .profile-pic {
+  float: left;
+  width: 100px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/* line 17, ../sass/pages/_common.scss */
+.account-popover .profile-pic img {
+  width: 100%;
+  vertical-align: top;
+}
+/* line 21, ../sass/pages/_common.scss */
+.account-popover .profile-pic a {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 400;
+}
+/* line 35, ../sass/pages/_common.scss */
+.account-popover .profile-info {
+  float: right;
+  width: 260px;
+}
+/* line 40, ../sass/pages/_common.scss */
+.account-popover .card-content {
+  padding: 20px;
+}
+/* line 43, ../sass/pages/_common.scss */
+.account-popover .card-action {
+  padding: 10px 20px;
+}
+
+/* line 48, ../sass/pages/_common.scss */
 .label {
   display: inline;
   padding: .2em .6em .2em;
@@ -9642,6 +9693,20 @@ nav .nav-wrapper {
   vertical-align: middle;
   border-radius: .25em;
   margin: 0 2px;
+}
+
+/* line 64, ../sass/pages/_common.scss */
+.card-board .card-content:first-child {
+  padding: 10px 20px;
+}
+/* line 67, ../sass/pages/_common.scss */
+.card-board .label {
+  padding: 0.4em .6em;
+  font-size: 70%;
+}
+/* line 71, ../sass/pages/_common.scss */
+.card-board .row {
+  margin-bottom: 10px;
 }
 
 /* line 1, ../sass/pages/_home.scss */
@@ -10107,20 +10172,6 @@ nav .nav-wrapper {
   bottom: 0;
   width: 100px;
   height: auto;
-}
-
-/* line 2, ../sass/pages/_offers.scss */
-.section-offers .card-content:first-child {
-  padding: 10px 20px;
-}
-/* line 5, ../sass/pages/_offers.scss */
-.section-offers .label {
-  padding: 0.4em .6em;
-  font-size: 70%;
-}
-/* line 9, ../sass/pages/_offers.scss */
-.section-offers .row {
-  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=materialize.css.map */

@@ -121,6 +121,12 @@
 @media only screen and (max-width: 767px) {
   .card.property-card{
     display: block;
+    .card-content{
+      p{
+        height: auto;
+        min-height: auto;
+      }
+    }
     .card-image{
       width: 100%;
       display: block;

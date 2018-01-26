@@ -21,12 +21,12 @@
 
     <main>
 
-        <section class="sp-secondary-text section-offers">
+        <section class="sp-secondary-text section-tasks">
             <div class="container narrow">
                 <h3 class="center-align margin-top-0">Few tasks before we get your property to the market</h3>
                 <h5 class="center-align margin-bottom-30">Please furnish following tasks.</h5>
 
-                <div class="card">
+                <div class="card card-board">
                     <div class="card-content grey lighten-2">
                         <h5>
                             <i class="material-icons vertical-middle">security</i>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card card-board">
                     <div class="card-content grey lighten-2">
                         <h5>
                             <i class="material-icons vertical-middle">security</i>

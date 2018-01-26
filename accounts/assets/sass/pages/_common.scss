@@ -1,3 +1,50 @@
+.account-popover{
+    min-width: 420px;
+    line-height: 1.5;
+
+    .btn{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .profile-pic{
+        float: left;
+        width: 100px;
+        position: relative;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            vertical-align: top;
+        }
+        a{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0, 0.5);
+            color: #fff;
+            text-decoration: none;
+            font-size: 12px;
+            line-height: 22px;
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+    .profile-info{
+        float: right;
+        width: 260px;
+
+    }
+    .card-content{
+        padding: 20px;
+    }
+    .card-action{
+        padding: 10px 20px;
+    }
+}
+
 .label {
     display: inline;
     padding: .2em .6em .2em;
@@ -11,4 +58,17 @@
     vertical-align: middle;
     border-radius: .25em;
     margin: 0 2px;
+}
+
+.card-board{
+    .card-content:first-child {
+        padding: 10px 20px;
+    }
+    .label{
+        padding: 0.4em .6em;
+        font-size: 70%;
+    }
+    .row{
+        margin-bottom: 10px;
+    }
 }

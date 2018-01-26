@@ -32,8 +32,8 @@
                 </div>
 
                 <h5 class="center-align margin-top-40">When would you like me to visit your place? Please select a suitable date and time</h5>
-                <div class="card-panel no-padding">
-                    <table class="calendar-table margin-top-30">
+                <div class="calendar-table card-panel no-padding margin-top-30">
+                    <table class="">
                         <thead>
                             <tr>
                                 <th>&nbsp;</th>
