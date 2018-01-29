@@ -230,7 +230,7 @@ $navbar-brand-font-size: 2.1rem !default;
 $sidenav-font-color: #444 !default;
 $sidenav-bg-color: #fff !default;
 $sidenav-padding-right: 30px !default;
-$sidenav-item-height: 64px !default;
+$sidenav-item-height: 58px !default;
 
 
 /* 15. Photo Slider
@@ -286,8 +286,8 @@ $h6-fontsize: 1rem !default;
 /* 21. Footer
    ========================================================================== */
 
-$footer-bg-color: color('sp-secondary', 'base') !default;
-$footer-text-color: color('sp-secondary', 'lighten-5') !default;
+$footer-bg-color: color('sp-primary', 'lighten-5') !default;
+$footer-text-color: color('sp-secondary', 'lighten-2') !default;
 
 
 /* 22. Flow Text

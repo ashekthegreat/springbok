@@ -43,8 +43,8 @@ function parseQuery(str) {
          });
          */
         $(".menu-button").sideNav({
-            menuWidth: 240,
-            edge: 'right',
+            menuWidth: 260,
+            edge: 'left',
             closeOnClick: false
         });
         $(".dropdown-main-nav").dropdown({

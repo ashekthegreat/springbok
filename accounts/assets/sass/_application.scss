@@ -1,6 +1,11 @@
 body{
     background: #fff;
 }
+@media #{$large-and-up} {
+    main, footer{
+        padding-left: 260px;
+    }
+}
 main > section {
     padding: 40px 0;
 }
@@ -55,7 +60,7 @@ a[href^=tel] {
 }
 
 /* nav section */
-.sub-nav {
+/*.sub-nav {
     height: 48px;
     padding: 6px 0;
     background: #6a676e;
@@ -71,18 +76,19 @@ a[href^=tel] {
             vertical-align: middle;
         }
     }
-}
+}*/
 
 //@media #{$medium-and-up} {
     nav {
-        height: 112px;
+        height: 64px;
+        z-index: 1000;
         .nav-wrapper {
             height: 64px;
         }
     }
 //}
 
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
     .sub-nav {
         .call-button {
             font-size: 17px;
@@ -103,7 +109,7 @@ a[href^=tel] {
             font-size: 12px;
         }
     }
-}
+}*/
 .menu-button {
     font-size: 18px;
     font-weight: 700;
@@ -134,5 +140,31 @@ a[href^=tel] {
     }
     .tab-pane.padding-40{
         padding: 0!important;
+    }
+}
+
+.help-banner{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #999;
+    left: 0;
+    right: 0;
+    padding: 0 0 10px 0;
+    line-height: 1.2;
+    display: none;
+
+    .help-header, .help-message, .help-phone-number{
+        margin: 0;
+        padding: 0;
+        line-height: 1.4;
+    }
+    .help-phone-number{
+        font-size: 20px;
+    }
+}
+@media #{$large-and-up} {
+    .help-banner{
+        display: block;
     }
 }

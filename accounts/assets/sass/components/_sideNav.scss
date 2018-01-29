@@ -1,14 +1,14 @@
 .side-nav {
   position: fixed;
-  width: 240px;
+  width: 260px;
   left: 0;
-  top: 0;
+  top: 64px;
   margin: 0;
   transform: translateX(-100%);
   height: 100%;
-  height: calc(100% + 60px);
+  height: calc(100% - 64px);
   height: -moz-calc(100%); //Temporary Firefox Fix
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   background-color: $sidenav-bg-color;
   z-index: 999;
   backface-visibility: hidden;
