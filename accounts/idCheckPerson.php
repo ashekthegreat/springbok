@@ -33,98 +33,107 @@
         <section class="sp-secondary-text section-id-check-person">
             <div class="container narrow">
 
-                <h4 class="center-align margin-bottom-30">Add person to ID Check</h4>
+                <h3 class="margin-bottom-30">Add person to ID Check</h3>
 
                 <form name="formIdCheckPer" id="formIdCheckPer" action="" method="post">
-                    <div class="card-panel spaced">
-                        <div class="row">
-                            <p class="muted grey-text margin-left-10"><b>Complete Name <font color="#FF0000">*</font></b> (As it appears on Birth Certificate or UK Passport)</p>
-                            <div class="col s6">
-                                <input id="first_name" name="first_name" placeholder="Kevin" type="text" class="validate" value="">
-                            </div>
-                            <div class="col s6">
-                                <input id="last_name" name="last_name" placeholder="Smith" type="text" class="validate" value="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="muted grey-text margin-left-10"><b>Gender <font color="#FF0000">*</font></b></p>
-                            <div class="col s6 margin-bottom-30">
-                                <div class="switch">
-                                    <label>
-                                        Male
-                                        <input type="checkbox" name="gender" id="gender" value="M">
-                                        <span class="lever"></span>
-                                        Female
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="muted grey-text margin-left-10"><b>Date of Birth <font color="#FF0000">*</font></b></p>
-                            <div class="col s4 m2">
-                                <input id="dd" name="dd" placeholder="DD" type="text" maxlength="2" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')"  value="">
-                            </div>
-                            <div class="col s4 m2">
-                                <input id="mm" name="mm" placeholder="MM" type="text"  maxlength="2" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" value="">
-                            </div>
-                            <div class="col s4 m4">
-                                <input id="yy" name="yy" placeholder="YYYY" type="text"  maxlength="4" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" value="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="muted grey-text margin-left-10"><b>Premise<font color="#FF0000">*</font></b></p>
-                            <div class="col s12 m5">
-                                <input id="premise" name="premise" placeholder="Building or house name/no." type="text" value="">
-                            </div>
-                            <div class="col s12 m5">
-                                <input id="subpremise" name="subpremise" placeholder="Flat or unit no. [Optional]" type="text" value="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="muted grey-text margin-left-10"><b>Street address <font color="#FF0000">*</font></b></p>
-                            <div class="col s12 m6">
-                                <input id="address" name="address" placeholder="Baker Street" type="text" class="validate" value="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="muted grey-text margin-left-10"><b>Town</b></p>
-                            <div class="col s12 m6">
-                                <input id="town" name="town" type="text" placeholder="Manchester" class="validate" value="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="muted grey-text margin-left-10"><b>Postcode <font color="#FF0000">*</font></b></p>
-                            <div class="col s12 m6">
-                                <input id="postcode" name="postcode" placeholder="M11 1AX" type="text" class="validate" value="">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="muted grey-text margin-left-10"><b>Phone</b></p>
-                            <div class="col s12 m6">
-                                <input id="phone" name="phone" type="text" class="" value="">
-                            </div>
-                        </div>
-                        <div class="margin-top-25">
-                            <p>
-                                <input type="radio" name="radOwner" id="radOwner1" value="isOwner" checked="checked" />
-                                <label for="radOwner1">This person is owner of <b>7,  Dudley Walk </b>.</label>
-                            </p>
-                            <p>
-                                <input type="radio" name="radOwner" id="radOwner2" value="isNotOwner"  />
-                                <label for="radOwner2">This person is not the owner but has the permission from the owner(s) of <span class="strong">7,  Dudley Walk </span> to sell the property on their behalf.</label>
-                            </p>
-                        </div>
-                        <div class="margin-top-25">
-                            <p>
-                                <input type="checkbox" name="notEstateAgent" id="notEstateAgent" />
-                                <label for="notEstateAgent">I am not an estate agent nor am I related to or associate of an estate agent.  <font color="#FF0000">*</font></label>
-                            </p>
-                            <p>
-                                <input type="checkbox" name="chkUnderstand" id="chkUnderstand" />
-                                <label for="chkUnderstand">I understand that by submitting this ID check, all owners of <span class="strong">7,  Dudley Walk </span> have been added and all of the above information is correct. <font color="#FF0000">*</font></label>
-                            </p>
 
+                    <label>Complete Name <span class="red-text">*</span> <small>(As it appears on Birth Certificate or UK Passport)</small></label>
+                    <div class="row margin-bottom-0">
+                        <div class="col s6">
+                            <input id="first_name" name="first_name" placeholder="Kevin" type="text" class="validate" value="">
                         </div>
+                        <div class="col s6">
+                            <input id="last_name" name="last_name" placeholder="Smith" type="text" class="validate" value="">
+                        </div>
+                    </div>
+
+                    <label>Gender <span class="red-text">*</span></label>
+                    <div class="row margin-bottom-0">
+                        <div class="col s6 margin-bottom-30">
+                            <div class="switch">
+                                <label>
+                                    Male
+                                    <input type="checkbox" name="gender" id="gender" value="M">
+                                    <span class="lever"></span>
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <label>Date of Birth <span class="red-text">*</span></label>
+                    <div class="row margin-bottom-0">
+                        <div class="col s4 m2">
+                            <input id="dd" name="dd" placeholder="DD" type="text" maxlength="2" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')"  value="">
+                        </div>
+                        <div class="col s4 m2">
+                            <input id="mm" name="mm" placeholder="MM" type="text"  maxlength="2" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" value="">
+                        </div>
+                        <div class="col s4 m4">
+                            <input id="yy" name="yy" placeholder="YYYY" type="text"  maxlength="4" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" value="">
+                        </div>
+                    </div>
+
+                    <label>Premise<span class="red-text">*</span></label>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m6">
+                            <input id="premise" name="premise" placeholder="Building or house name/no." type="text" value="">
+                        </div>
+                        <div class="col s12 m6">
+                            <input id="subpremise" name="subpremise" placeholder="Flat or unit no. [Optional]" type="text" value="">
+                        </div>
+                    </div>
+
+                    <label>Street address <span class="red-text">*</span></label>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m6">
+                            <input id="address" name="address" placeholder="Baker Street" type="text" class="validate" value="">
+                        </div>
+                    </div>
+
+                    <label>Town</label>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m6">
+                            <input id="town" name="town" type="text" placeholder="Manchester" class="validate" value="">
+                        </div>
+                    </div>
+
+                    <label>Postcode <span class="red-text">*</span></label>
+                    <div class="row margin-bottom-0">
+
+                        <div class="col s12 m6">
+                            <input id="postcode" name="postcode" placeholder="M11 1AX" type="text" class="validate" value="">
+                        </div>
+                    </div>
+
+                    <label>Phone</label>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m6">
+                            <input id="phone" name="phone" type="text" class="" value="">
+                        </div>
+                    </div>
+
+                    <div class="margin-top-25">
+                        <p>
+                            <input type="radio" name="radOwner" id="radOwner1" value="isOwner" checked="checked" />
+                            <label for="radOwner1">This person is owner of <b>7,  Dudley Walk </b>.</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="radOwner" id="radOwner2" value="isNotOwner"  />
+                            <label for="radOwner2">This person is not the owner but has the permission from the owner(s) of <span class="strong">7,  Dudley Walk </span> to sell the property on their behalf.</label>
+                        </p>
+                    </div>
+
+                    <div class="margin-top-25">
+                        <p>
+                            <input type="checkbox" class="filled-in" name="notEstateAgent" id="notEstateAgent" />
+                            <label for="notEstateAgent">I am not an estate agent nor am I related to or associate of an estate agent.  <span class="red-text">*</span></label>
+                        </p>
+                        <p>
+                            <input type="checkbox" class="filled-in" name="chkUnderstand" id="chkUnderstand" />
+                            <label for="chkUnderstand">I understand that by submitting this ID check, all owners of <span class="strong">7,  Dudley Walk </span> have been added and all of the above information is correct. <span class="red-text">*</span></label>
+                        </p>
+
                     </div>
 
                     <input type="hidden" name="personId" value="0" />
