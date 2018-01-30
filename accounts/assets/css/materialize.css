@@ -7867,6 +7867,11 @@ input[type=range]:focus::-ms-fill-upper {
 /* ==========================================================================
    CUSTOM MATERIALIZE STYLES
    ========================================================================== */
+/* line 188, ../sass/components/date_picker/_default.scss */
+.picker__input.picker__input--active {
+  border-color: #b3e5fc;
+}
+
 /* line 192, ../sass/components/date_picker/_default.scss */
 .picker__frame {
   margin: 0 auto;
@@ -9505,6 +9510,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /* line 154, ../sass/lib/_zabuto-calendar.scss */
 .key-available {
   background: #fff785;
+}
+
+/* line 157, ../sass/lib/_zabuto-calendar.scss */
+.key-not-set {
+  background: #FFFFFF;
 }
 
 /* line 160, ../sass/lib/_zabuto-calendar.scss */
