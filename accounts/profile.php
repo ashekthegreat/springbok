@@ -71,7 +71,7 @@
                                 <input type="hidden" name="agencyId" value="1" />
 
                                 <div class="center-align margin-top-40">
-                                    <button type="submit" id="saveWebForm" name="saveWebForm" class="waves-effect waves-light btn sp-primary sp-secondary-text">Update Information</button>
+                                    <button type="submit" id="saveWebForm" name="saveWebForm" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Update Information</button>
                                 </div>
                             </form>
 
@@ -98,7 +98,7 @@
                                     </div>
                                 </div>
                                 <div class="center-align margin-top-40">
-                                    <button type="submit" name="savePassword" id="savePassword" class="waves-effect waves-light btn sp-primary sp-secondary-text">Update Password</button>
+                                    <button type="submit" name="savePassword" id="savePassword" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Update Password</button>
                                 </div>
 
                                 <input type="hidden" name="customerId" value="459" />

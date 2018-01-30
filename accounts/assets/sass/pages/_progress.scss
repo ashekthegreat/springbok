@@ -3,7 +3,7 @@
 .progress-step {
     padding: 10px 0;
     position: relative;
-    color: color('sp-secondary', 'lighten-3');
+    color: color('sp-secondary', 'base');
 
     &:first-child {
         .indicator-bar-top {
@@ -68,7 +68,7 @@
     }
 
     &.active {
-        color: color('sp-secondary', 'base');
+        color: color('sp-secondary', 'lighten-3');
 
         .indicator-bar-top, .indicator-bar-bottom, .indicator-text, .indicator-text:after {
             background: color('sp-primary', 'base');
@@ -77,6 +77,7 @@
             display: block;
         }
         &.last-active {
+            color: color('sp-secondary', 'base');
             .indicator-bar-bottom {
                 background: color('sp-secondary', 'lighten-3');
             }
@@ -86,9 +87,10 @@
     .collapsible-header {
         border-bottom: 0;
         padding: 0 0 0 2rem;
+        line-height: 1.5;
 
         h4 {
-            margin-bottom: 0;
+            margin-bottom: 8px;
         }
         i {
             line-height: inherit;
@@ -124,6 +126,12 @@
         }
         .step-item {
             margin-left: 0;
+        }
+        .collapsible-header {
+            padding: 0 0 0 1rem;
+        }
+        .collapsible-body {
+            padding: 0 1rem 1rem;
         }
     }
 }

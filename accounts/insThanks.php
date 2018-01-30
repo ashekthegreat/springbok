@@ -23,7 +23,7 @@
 
         <section class="sp-secondary-text section-ins-thanks">
             <div class="container narrow">
-                <div class="card-panel padding-40 center-align">
+                <div class="card-panel spaced center-align">
 
                     <i class="material-icons large">thumb_up</i>
                     <h3>Awesome, you're all signed up!</h3>
@@ -33,7 +33,7 @@
                         Feel free to complete them as and when you get the chance, but to keep in mind that it'll affect listings and sales timings.
                     </p>
                     <div class="center-align margin-top-40">
-                        <a href="javascript:;" class="waves-effect waves-light btn sp-primary sp-secondary-text">Continue</a>
+                        <a href="javascript:;" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Continue</a>
                     </div>
                 </div>
 

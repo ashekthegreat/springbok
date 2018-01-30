@@ -3,7 +3,7 @@
     min-height: 100px;
     max-height: 400px;
     overflow: auto;
-    background: color("sp-secondary", "lighten-5");
+    background: color("grey", "lighten-5");
 
     .chat-item{
       padding: 10px;
@@ -17,13 +17,13 @@
       }
 
       &.me{
-        background: color("light-blue", "lighten-4");
+        background: color("shades", "white");
         margin-left: 20%;
         border-radius: 30px 3px 3px 30px;
         padding-left: 20px;
       }
       &.you{
-        background: color("sp-primary", "lighten-4");
+        background: color("grey", "lighten-3");
         margin-right: 20%;
         border-radius: 3px 30px 30px 3px;
         padding-right: 20px;
@@ -36,7 +36,7 @@
     position: relative;
 
     .textarea-container{
-      margin-right: 101px;
+      margin-right: 61px;
 
       textarea{
         border: 0;
@@ -56,8 +56,20 @@
       top: 0;
       right: 0;
       bottom: 0;
-      width: 100px;
+      width: 60px;
       height: auto;
+      border-radius: 0;
+      padding: 0;
     }
+    @media #{$medium-and-up} {
+      .textarea-container{
+        margin-right: 101px;
+      }
+      .btn{
+        width: 100px;
+      }
+    }
+
   }
 }
+

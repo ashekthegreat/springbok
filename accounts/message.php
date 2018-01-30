@@ -26,7 +26,7 @@
 
                 <ul class="collapsible" data-collapsible="accordion">
                     <li>
-                        <div class="collapsible-header sp-secondary white-text active">7, Dudley Walk , TS10 2LN, Redcar</div>
+                        <div class="collapsible-header grey lighten-2 active">7, Dudley Walk , TS10 2LN, Redcar</div>
                         <div class="collapsible-body">
                             <div class="chat-items">
                                 <div class="chat-item z-depth-1 you">
@@ -49,7 +49,10 @@
                                 <div class="textarea-container">
                                     <textarea id="textarea1" rows="3" placeholder="Write here.."></textarea>
                                 </div>
-                                <button class="waves-effect waves-light btn sp-primary sp-secondary-text">Send</button>
+                                <button class="waves-effect waves-light btn sp-primary sp-secondary-text">
+                                    <span class="hide-on-small-and-down show-on-medium-and-up">Send</span>
+                                    <i class="material-icons hide-on-med-and-up show-on-small">send</i>
+                                </button>
                             </div>
                         </div>
                     </li>
@@ -57,7 +60,7 @@
 
                 <ul class="collapsible" data-collapsible="accordion">
                     <li>
-                        <div class="collapsible-header sp-secondary white-text">7, Dudley Walk , TS10 2LN, Redcar</div>
+                        <div class="collapsible-header grey lighten-2">7, Dudley Walk , TS10 2LN, Redcar</div>
                         <div class="collapsible-body">
                             <div class="chat-items">
                                 <div class="chat-item z-depth-1 you">
@@ -85,7 +88,10 @@
                                 <div class="textarea-container">
                                     <textarea id="textarea2" rows="3" placeholder="Write here.."></textarea>
                                 </div>
-                                <button class="waves-effect waves-light btn sp-primary sp-secondary-text">Send</button>
+                                <button class="waves-effect waves-light btn sp-primary sp-secondary-text">
+                                    <span class="hide-on-small-and-down show-on-medium-and-up">Send</span>
+                                    <i class="material-icons hide-on-med-and-up show-on-small">send</i>
+                                </button>
                             </div>
                         </div>
                     </li>

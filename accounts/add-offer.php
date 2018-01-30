@@ -32,7 +32,7 @@
                         </div>
 
                         <h5 class="margin-top-40">I am funding the purchase with:</h5>
-                        <div class="margin-left-30">
+                        <div class="">
                             <p>
                                 <input type="checkbox" class="filled-in" id="fund-sale" />
                                 <label for="fund-sale">The sale of my property</label>
@@ -88,7 +88,7 @@
                         </div>
 
                         <div class="center-align margin-bottom-25 margin-top-40">
-                            <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="submit">Make an Offer</button>
+                            <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="submit">Make an Offer</button>
                         </div>
                     </form>
                 </div>

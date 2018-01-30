@@ -37,7 +37,7 @@
                             <p>We specialise in selling homes fast for up to 100% market value. Actively marketing your home to property investors and cash-ready buyers, Springbok Properties will take away any burden ofyour move. We will complete every stage of your move efficiently on your behalf, from the valuation to the exchange of contracts.</p>
 
                             <div class="center-align margin-top-20">
-                                <a href="javascript:;" data-servopted="EPC" class="selectable waves-effect waves-light btn sp-primary sp-secondary-text">Include</a>
+                                <a href="javascript:;" data-servopted="EPC" class="selectable waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Include</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                             <p>Springbok Properties is the leading UK property company to help you sell your home fast. Through our proactive house sale approach, we have exchanged contracts on 1800 properties in under 10 days.</p>
 
                             <div class="center-align margin-top-20">
-                                <a href="javascript:;" data-servopted="SALEBOARD" class="selectable waves-effect waves-light btn sp-primary sp-secondary-text">Include</a>
+                                <a href="javascript:;" data-servopted="SALEBOARD" class="selectable waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Include</a>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                             <p>With a dedicated team of learned and experienced conveyancing solicitors, Springbok Properties can ensure that property transactions are completed seamlessly, helping homeowners sell their home fast, safe in the knowledge the transaction is legal in the eyes of the law.</p>
 
                             <div class="center-align margin-top-20">
-                                <a href="javascript:;" data-servopted="PANELSOLICITORS" class="selectable waves-effect waves-light btn sp-primary sp-secondary-text">Include</a>
+                                <a href="javascript:;" data-servopted="PANELSOLICITORS" class="selectable waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Include</a>
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                             <label for="accept">I accept the <a href="#" target="_blank">Terms & Conditions</a> for accounts</label>
                     </div>
                     <div class="center-align margin-top-30">
-                        <button type="submit" name="instruct" id="instruct" class="waves-effect waves-light btn sp-primary sp-secondary-text">Instruct</button>
+                        <button type="submit" name="instruct" id="instruct" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Instruct</button>
                     </div>
                 </form>
 

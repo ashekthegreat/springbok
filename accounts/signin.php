@@ -97,7 +97,7 @@
                                     </div>
                                 </div>
                                 <div class="center-align margin-top-40">
-                                    <button type="submit" name="signin" id="signin" class="waves-effect waves-light btn sp-primary sp-secondary-text">Sign In</button>
+                                    <button type="submit" name="signin" id="signin" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Sign In</button>
                                 </div>
 
                                 <div class="center-align margin-top-30">
@@ -123,7 +123,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="waves-effect waves-light btn sp-primary sp-secondary-text">Submit</button >
+                        <button type="submit" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Submit</button >
                     </div>
                 </form>
             </div>

@@ -27,7 +27,7 @@
                 <h3 class="center-align margin-bottom-30 margin-top-0">7, Dudley Walk , TS10 2LN</h3>
 
                 <div class="card card-board">
-                    <div class="card-content red lighten-4">
+                    <div class="card-content grey lighten-2">
                         <h5>
                             Michael Cairnes placed this offer on Friday, 19th Jan 2018, 11:57am
                             <span class="label red darken-3 white-text">Offer Rejected</span>
@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="card card-board">
-                    <div class="card-content green lighten-4">
+                    <div class="card-content grey lighten-2">
                         <h5>
                             Michael Cairnes placed this offer on Friday, 19th Jan 2018, 11:57am
                             <span class="label green darken-1 white-text">Offer Accepted</span>
@@ -92,6 +92,7 @@
                     <div class="card-content grey lighten-2">
                         <h5>
                             Michael Cairnes placed this offer on Friday, 19th Jan 2018, 11:57am
+                            <span class="label sp-primary sp-secondary-text">Under Consideration</span>
                         </h5>
                     </div>
                     <div class="card-content">

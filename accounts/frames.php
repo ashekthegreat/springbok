@@ -30,11 +30,12 @@
         }
         iframe{
             padding: 0;
-            width: 80vw;
+            /*width: 80vw;*/
+            width: 400px;
             height: 100vh;
             border: 0;
             vertical-align: top;
-            float: right;
+            float: left;
 
         }
         a{

@@ -133,7 +133,7 @@
                 </div>
 
                 <div class="center-align margin-bottom-25 margin-top-40">
-                    <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="submit">Continue</button>
+                    <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="submit">Continue</button>
                 </div>
             </div>
         </section>

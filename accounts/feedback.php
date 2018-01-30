@@ -24,10 +24,10 @@
         <section class="sp-secondary-text section-feedback">
             <div class="container narrow">
                 <h3 class="center-align margin-bottom-25">Viewing Feedback For 12, Furlong Avenue</h3>
-                <div class="card-panel padding-40">
+                <div class="card-panel spaced">
                     <form id="feedForm" action="" method="post" name="feedForm" class="WF_FEED">
                         <h5>How did the viewing go?</h5>
-                        <div class="margin-left-30">
+                        <div>
                             <p>
                                 <input name="how_did_the_viewing_go" type="radio" id="how_did_the_viewing_go1" value="Excellent / Very Interested">
                                 <label for="how_did_the_viewing_go1">Excellent: very interested</label>
@@ -58,7 +58,7 @@
 
 
                         <h5 class="margin-top-40">Would you like to make an offer?</h5>
-                        <div class="margin-left-30">
+                        <div>
                             <p>
                                 <input name="would_you_like_make_an_offer" type="radio" id="would_you_like_make_an_offer1" value="Yes, Offer Made">
                                 <label for="would_you_like_make_an_offer1">Yes, offer made</label>
@@ -91,7 +91,7 @@
                         <input type="hidden" name="agent_ref" id="agent_ref" value="274134">
 
                         <div class="center-align margin-bottom-25 margin-top-40">
-                            <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="submit">Send Feedback</button>
+                            <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="submit">Send Feedback</button>
                         </div>
                     </form>
                 </div>

@@ -4660,8 +4660,28 @@ small {
   border-radius: 2px;
   background-color: #fff;
 }
+/* line 11, ../sass/components/_cards.scss */
+.card-panel.spaced {
+  padding: 40px;
+}
 
-/* line 12, ../sass/components/_cards.scss */
+@media only screen and (max-width: 600px) {
+  /* line 17, ../sass/components/_cards.scss */
+  .card-panel.spaced {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 23, ../sass/components/_cards.scss */
+  .card-panel {
+    padding: 10px;
+  }
+  /* line 25, ../sass/components/_cards.scss */
+  .card-panel.spaced {
+    padding: 10px;
+  }
+}
+/* line 31, ../sass/components/_cards.scss */
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
@@ -4669,100 +4689,100 @@ small {
   transition: box-shadow .25s;
   border-radius: 2px;
 }
-/* line 21, ../sass/components/_cards.scss */
+/* line 40, ../sass/components/_cards.scss */
 .card .card-title {
   font-size: 24px;
   font-weight: 300;
 }
-/* line 24, ../sass/components/_cards.scss */
+/* line 43, ../sass/components/_cards.scss */
 .card .card-title.activator {
   cursor: pointer;
 }
-/* line 30, ../sass/components/_cards.scss */
+/* line 49, ../sass/components/_cards.scss */
 .card.small, .card.medium, .card.large {
   position: relative;
 }
-/* line 33, ../sass/components/_cards.scss */
+/* line 52, ../sass/components/_cards.scss */
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
   max-height: 60%;
   overflow: hidden;
 }
-/* line 37, ../sass/components/_cards.scss */
+/* line 56, ../sass/components/_cards.scss */
 .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
   max-height: 40%;
 }
-/* line 40, ../sass/components/_cards.scss */
+/* line 59, ../sass/components/_cards.scss */
 .card.small .card-content, .card.medium .card-content, .card.large .card-content {
   max-height: 100%;
   overflow: hidden;
 }
-/* line 44, ../sass/components/_cards.scss */
+/* line 63, ../sass/components/_cards.scss */
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
 }
-/* line 52, ../sass/components/_cards.scss */
+/* line 71, ../sass/components/_cards.scss */
 .card.small {
   height: 300px;
 }
-/* line 56, ../sass/components/_cards.scss */
+/* line 75, ../sass/components/_cards.scss */
 .card.medium {
   height: 400px;
 }
-/* line 60, ../sass/components/_cards.scss */
+/* line 79, ../sass/components/_cards.scss */
 .card.large {
   height: 500px;
 }
-/* line 65, ../sass/components/_cards.scss */
+/* line 84, ../sass/components/_cards.scss */
 .card.horizontal {
   display: flex;
 }
-/* line 67, ../sass/components/_cards.scss */
+/* line 86, ../sass/components/_cards.scss */
 .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
   height: 100%;
   max-height: none;
   overflow: visible;
 }
-/* line 72, ../sass/components/_cards.scss */
+/* line 91, ../sass/components/_cards.scss */
 .card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img {
   height: 100%;
 }
-/* line 80, ../sass/components/_cards.scss */
+/* line 99, ../sass/components/_cards.scss */
 .card.horizontal .card-image {
   max-width: 50%;
 }
-/* line 82, ../sass/components/_cards.scss */
+/* line 101, ../sass/components/_cards.scss */
 .card.horizontal .card-image img {
   max-width: 100%;
   width: auto;
 }
-/* line 88, ../sass/components/_cards.scss */
+/* line 107, ../sass/components/_cards.scss */
 .card.horizontal .card-stacked {
   display: flex;
   flex-direction: column;
   flex: 1;
   position: relative;
 }
-/* line 94, ../sass/components/_cards.scss */
+/* line 113, ../sass/components/_cards.scss */
 .card.horizontal .card-stacked .card-content {
   flex-grow: 1;
 }
-/* line 102, ../sass/components/_cards.scss */
+/* line 121, ../sass/components/_cards.scss */
 .card.sticky-action .card-action {
   z-index: 2;
 }
-/* line 106, ../sass/components/_cards.scss */
+/* line 125, ../sass/components/_cards.scss */
 .card.sticky-action .card-reveal {
   z-index: 1;
   padding-bottom: 64px;
 }
-/* line 115, ../sass/components/_cards.scss */
+/* line 134, ../sass/components/_cards.scss */
 .card .card-image {
   position: relative;
 }
-/* line 119, ../sass/components/_cards.scss */
+/* line 138, ../sass/components/_cards.scss */
 .card .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
@@ -4773,7 +4793,7 @@ small {
   bottom: 0;
   width: 100%;
 }
-/* line 130, ../sass/components/_cards.scss */
+/* line 149, ../sass/components/_cards.scss */
 .card .card-image .card-title {
   color: #fff;
   position: absolute;
@@ -4781,39 +4801,50 @@ small {
   left: 0;
   padding: 20px;
 }
-/* line 140, ../sass/components/_cards.scss */
+/* line 159, ../sass/components/_cards.scss */
 .card .card-content {
   padding: 20px;
   border-radius: 0 0 2px 2px;
 }
-/* line 144, ../sass/components/_cards.scss */
+/* line 163, ../sass/components/_cards.scss */
 .card .card-content p {
   margin: 0;
   color: inherit;
 }
-/* line 148, ../sass/components/_cards.scss */
+/* line 167, ../sass/components/_cards.scss */
 .card .card-content .card-title {
   line-height: 48px;
 }
-/* line 153, ../sass/components/_cards.scss */
+/* line 172, ../sass/components/_cards.scss */
 .card .card-action {
   position: relative;
   background-color: inherit;
   border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 20px;
+  padding: 10px 20px;
 }
-/* line 159, ../sass/components/_cards.scss */
+/* line 178, ../sass/components/_cards.scss */
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
   color: #ffab40;
   margin-right: 20px;
   transition: color .3s ease;
   text-transform: uppercase;
 }
-/* line 165, ../sass/components/_cards.scss */
+/* line 184, ../sass/components/_cards.scss */
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
   color: #ffd8a6;
 }
-/* line 169, ../sass/components/_cards.scss */
+@media only screen and (max-width: 600px) {
+  /* line 187, ../sass/components/_cards.scss */
+  .card .card-action .btn, .card .card-action .btn-large {
+    display: block;
+    width: 100%;
+  }
+  /* line 191, ../sass/components/_cards.scss */
+  .card .card-action .btn + .btn, .card .card-action .btn-large + .btn, .card .card-action .btn + .btn-large, .card .card-action .btn-large + .btn-large {
+    margin-top: 10px;
+  }
+}
+/* line 197, ../sass/components/_cards.scss */
 .card .card-reveal {
   padding: 20px;
   position: absolute;
@@ -4825,7 +4856,7 @@ small {
   z-index: 3;
   display: none;
 }
-/* line 180, ../sass/components/_cards.scss */
+/* line 208, ../sass/components/_cards.scss */
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block;
@@ -5002,6 +5033,12 @@ small {
   background: #fff;
 }
 
+@media only screen and (max-width: 600px) {
+  /* line 87, ../sass/components/_tabs.scss */
+  .tabs {
+    font-size: 12px;
+  }
+}
 /* line 2, ../sass/components/_buttons.scss */
 .btn, .btn-large,
 .btn-flat {
@@ -5211,14 +5248,25 @@ button.btn-floating {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  /* line 203, ../sass/components/_buttons.scss */
+  .btn-block-on-small {
+    display: block !important;
+    width: 100%;
+  }
+  /* line 207, ../sass/components/_buttons.scss */
+  .btn-block-on-small + .btn, .btn-block-on-small + .btn-large {
+    margin-top: 10px;
+  }
+}
 /* line 1, ../sass/components/_dropdown.scss */
 .dropdown-content {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 6px 10px 0 rgba(0, 0, 0, 0.12);
-  background-color: #6a676e;
+  background-color: #f0eff1;
   margin: 0;
   display: none;
   min-width: 100px;
-  max-height: 350px;
+  max-height: 180px;
   overflow-y: auto;
   opacity: 0;
   position: absolute;
@@ -5239,11 +5287,11 @@ button.btn-floating {
 }
 /* line 25, ../sass/components/_dropdown.scss */
 .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
-  background-color: #5c5860;
+  background-color: #cac8cc;
 }
 /* line 29, ../sass/components/_dropdown.scss */
 .dropdown-content li.active.selected {
-  background-color: #4f4c53;
+  background-color: #bdbbc0;
 }
 /* line 33, ../sass/components/_dropdown.scss */
 .dropdown-content li.divider {
@@ -5253,7 +5301,7 @@ button.btn-floating {
 /* line 38, ../sass/components/_dropdown.scss */
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 0.9rem;
-  color: #fff;
+  color: #6a676e;
   display: block;
   font-weight: 400;
   padding: 7px 16px;
@@ -6622,7 +6670,7 @@ select:disabled {
 
 /* line 102, ../sass/components/forms/_select.scss */
 .select-dropdown li.optgroup {
-  border-top: 1px solid #5c5860;
+  border-top: 1px solid #cac8cc;
 }
 /* line 105, ../sass/components/forms/_select.scss */
 .select-dropdown li.optgroup.selected > span {
@@ -6918,8 +6966,17 @@ input[type=range]:focus::-ms-fill-upper {
 .side-nav a.btn-floating:hover {
   background-color: #6a676e;
 }
+/* line 68, ../sass/components/_sideNav.scss */
+.side-nav a .material-icons {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  margin: 0 20px 0 0;
+  width: 24px;
+  color: rgba(0, 0, 0, 0.54);
+}
 
-/* line 72, ../sass/components/_sideNav.scss */
+/* line 81, ../sass/components/_sideNav.scss */
 .drag-target {
   height: 100%;
   width: 10px;
@@ -6928,47 +6985,47 @@ input[type=range]:focus::-ms-fill-upper {
   z-index: 998;
 }
 
-/* line 83, ../sass/components/_sideNav.scss */
+/* line 92, ../sass/components/_sideNav.scss */
 .side-nav.fixed a {
   display: block;
   padding: 0 30px;
   color: #444;
 }
 
-/* line 92, ../sass/components/_sideNav.scss */
+/* line 101, ../sass/components/_sideNav.scss */
 .side-nav.fixed {
   left: 0;
   transform: translateX(0);
   position: fixed;
 }
-/* line 98, ../sass/components/_sideNav.scss */
+/* line 107, ../sass/components/_sideNav.scss */
 .side-nav.fixed.right-aligned {
   right: 0;
   left: auto;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 106, ../sass/components/_sideNav.scss */
+  /* line 115, ../sass/components/_sideNav.scss */
   .side-nav.fixed {
     transform: translateX(-105%);
   }
-  /* line 109, ../sass/components/_sideNav.scss */
+  /* line 118, ../sass/components/_sideNav.scss */
   .side-nav.fixed.right-aligned {
     transform: translateX(105%);
   }
 }
-/* line 116, ../sass/components/_sideNav.scss */
+/* line 125, ../sass/components/_sideNav.scss */
 .side-nav .collapsible-body li.active,
 .side-nav.fixed .collapsible-body li.active {
   background-color: #ffef00;
 }
-/* line 119, ../sass/components/_sideNav.scss */
+/* line 128, ../sass/components/_sideNav.scss */
 .side-nav .collapsible-body li.active a,
 .side-nav.fixed .collapsible-body li.active a {
   color: #fff;
 }
 
-/* line 125, ../sass/components/_sideNav.scss */
+/* line 134, ../sass/components/_sideNav.scss */
 #sidenav-overlay {
   position: fixed;
   top: 0;
@@ -9921,7 +9978,7 @@ nav .nav-wrapper {
 .progress-step {
   padding: 10px 0;
   position: relative;
-  color: #adaab1;
+  color: #6a676e;
 }
 /* line 9, ../sass/pages/_progress.scss */
 .progress-step:first-child .indicator-bar-top {
@@ -9984,7 +10041,7 @@ nav .nav-wrapper {
 }
 /* line 70, ../sass/pages/_progress.scss */
 .progress-step.active {
-  color: #6a676e;
+  color: #adaab1;
 }
 /* line 73, ../sass/pages/_progress.scss */
 .progress-step.active .indicator-bar-top, .progress-step.active .indicator-bar-bottom, .progress-step.active .indicator-text, .progress-step.active .indicator-text:after {
@@ -9994,57 +10051,70 @@ nav .nav-wrapper {
 .progress-step.active .indicator-text:after {
   display: block;
 }
-/* line 80, ../sass/pages/_progress.scss */
+/* line 79, ../sass/pages/_progress.scss */
+.progress-step.active.last-active {
+  color: #6a676e;
+}
+/* line 81, ../sass/pages/_progress.scss */
 .progress-step.active.last-active .indicator-bar-bottom {
   background: #adaab1;
 }
-/* line 86, ../sass/pages/_progress.scss */
+/* line 87, ../sass/pages/_progress.scss */
 .progress-step .collapsible-header {
   border-bottom: 0;
   padding: 0 0 0 2rem;
+  line-height: 1.5;
 }
-/* line 90, ../sass/pages/_progress.scss */
+/* line 92, ../sass/pages/_progress.scss */
 .progress-step .collapsible-header h4 {
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
-/* line 93, ../sass/pages/_progress.scss */
+/* line 95, ../sass/pages/_progress.scss */
 .progress-step .collapsible-header i {
   line-height: inherit;
   font-size: inherit;
 }
-/* line 97, ../sass/pages/_progress.scss */
+/* line 99, ../sass/pages/_progress.scss */
 .progress-step .collapsible-header .arrow-down, .progress-step .collapsible-header .arrow-up {
   font-size: 24px;
 }
-/* line 100, ../sass/pages/_progress.scss */
+/* line 102, ../sass/pages/_progress.scss */
 .progress-step .collapsible-header .arrow-down {
   display: block;
 }
-/* line 103, ../sass/pages/_progress.scss */
+/* line 105, ../sass/pages/_progress.scss */
 .progress-step .collapsible-header .arrow-up {
   display: none;
 }
-/* line 107, ../sass/pages/_progress.scss */
+/* line 109, ../sass/pages/_progress.scss */
 .progress-step .collapsible-header.active .arrow-down {
   display: none;
 }
-/* line 110, ../sass/pages/_progress.scss */
+/* line 112, ../sass/pages/_progress.scss */
 .progress-step .collapsible-header.active .arrow-up {
   display: block;
 }
-/* line 115, ../sass/pages/_progress.scss */
+/* line 117, ../sass/pages/_progress.scss */
 .progress-step .collapsible-body {
   padding: 0 2rem 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 122, ../sass/pages/_progress.scss */
+  /* line 124, ../sass/pages/_progress.scss */
   .progress-step .step-indicator {
     display: none;
   }
-  /* line 125, ../sass/pages/_progress.scss */
+  /* line 127, ../sass/pages/_progress.scss */
   .progress-step .step-item {
     margin-left: 0;
+  }
+  /* line 130, ../sass/pages/_progress.scss */
+  .progress-step .collapsible-header {
+    padding: 0 0 0 1rem;
+  }
+  /* line 133, ../sass/pages/_progress.scss */
+  .progress-step .collapsible-body {
+    padding: 0 1rem 1rem;
   }
 }
 /* line 3, ../sass/pages/_book-viewing.scss */
@@ -10055,32 +10125,38 @@ nav .nav-wrapper {
 /* line 8, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date {
   text-align: center;
-  margin: 0.5%;
-  width: 19%;
   border: 1px solid #e0e0e0;
-  float: left;
   padding: 20px 2px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
-/* line 17, ../sass/pages/_book-viewing.scss */
+/* line 15, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date:hover {
   border: 1px solid #ffef00;
 }
-/* line 21, ../sass/pages/_book-viewing.scss */
+/* line 19, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date.selected {
   border: 1px solid #ffef00;
   background-color: #ffef00;
 }
-/* line 25, ../sass/pages/_book-viewing.scss */
+/* line 23, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date .week-day {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 13px;
 }
-/* line 30, ../sass/pages/_book-viewing.scss */
+/* line 28, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date .day {
   font-size: 32px;
   font-weight: 700;
+}
+@media only screen and (min-width: 601px) {
+  /* line 37, ../sass/pages/_book-viewing.scss */
+  .section-book-viewing .card-date {
+    float: left;
+    margin: 0.5%;
+    width: 19%;
+  }
 }
 
 /* line 2, ../sass/pages/_book-valuation.scss */
@@ -10162,7 +10238,7 @@ nav .nav-wrapper {
   min-height: 100px;
   max-height: 400px;
   overflow: auto;
-  background: #f0eff1;
+  background: #fafafa;
 }
 /* line 8, ../sass/pages/_message.scss */
 .section-message .chat-items .chat-item {
@@ -10178,14 +10254,14 @@ nav .nav-wrapper {
 }
 /* line 19, ../sass/pages/_message.scss */
 .section-message .chat-items .chat-item.me {
-  background: #b3e5fc;
+  background: #FFFFFF;
   margin-left: 20%;
   border-radius: 30px 3px 3px 30px;
   padding-left: 20px;
 }
 /* line 25, ../sass/pages/_message.scss */
 .section-message .chat-items .chat-item.you {
-  background: #fffbbd;
+  background: #eeeeee;
   margin-right: 20%;
   border-radius: 3px 30px 30px 3px;
   padding-right: 20px;
@@ -10197,7 +10273,7 @@ nav .nav-wrapper {
 }
 /* line 38, ../sass/pages/_message.scss */
 .section-message .chat-write .textarea-container {
-  margin-right: 101px;
+  margin-right: 61px;
 }
 /* line 41, ../sass/pages/_message.scss */
 .section-message .chat-write .textarea-container textarea {
@@ -10218,8 +10294,20 @@ nav .nav-wrapper {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 100px;
+  width: 60px;
   height: auto;
+  border-radius: 0;
+  padding: 0;
+}
+@media only screen and (min-width: 601px) {
+  /* line 65, ../sass/pages/_message.scss */
+  .section-message .chat-write .textarea-container {
+    margin-right: 101px;
+  }
+  /* line 68, ../sass/pages/_message.scss */
+  .section-message .chat-write .btn, .section-message .chat-write .btn-large {
+    width: 100px;
+  }
 }
 
 /*# sourceMappingURL=materialize.css.map */

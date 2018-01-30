@@ -93,6 +93,7 @@ $card-padding: 20px !default;
 $card-bg-color: #fff !default;
 $card-link-color: color("orange", "accent-2") !default;
 $card-link-color-light: lighten($card-link-color, 20%) !default;
+$card-action-padding: 10px 20px !default;
 
 
 /* 5. Collapsible
@@ -128,9 +129,9 @@ $timepicker-clock-plate-bg: #eee;
 /* 8. Dropdown
    ========================================================================== */
 
-$dropdown-bg-color: $secondary-color !default;
-$dropdown-hover-bg-color: color("sp-secondary", "darken-1") !default;
-$dropdown-color: #fff !default;
+$dropdown-bg-color: color("sp-secondary", "lighten-5") !default;
+$dropdown-hover-bg-color: color("sp-secondary", "lighten-4") !default;
+$dropdown-color: color("sp-secondary", "base") !default;
 $dropdown-item-height: 36px !default;
 
 

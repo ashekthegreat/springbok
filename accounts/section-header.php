@@ -19,14 +19,15 @@
         </div>-->
     </nav>
     <ul class="side-nav fixed sp-secondary lighten-5" id="main-sidenav">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="diary.php">Diary</a></li>
-        <li><a href="availability.php">Set Availability</a></li>
-        <li><a href="offers.php">Offers</a></li>
+        <li class="active"><a href="index.php"><i class="material-icons">home</i> Home</a></li>
+        <li><a href="diary.php"><i class="material-icons">account_balance_wallet</i> Diary</a></li>
+        <li><a href="book-viewings.php"><i class="material-icons">remove_red_eye</i> Viewings</a></li>
+        <li><a href="feedback.php"><i class="material-icons">feedback</i> Feedback</a></li>
+        <li><a href="offers.php"><i class="material-icons">local_offer</i> Offers</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="message.php">Messages</a></li>
-        <li><a href="profile.php">My Account</a></li>
-        <li><a href="signin.php">Logout</a></li>
+        <li><a href="message.php"><i class="material-icons">email</i> Messages</a></li>
+        <li><a href="profile.php"><i class="material-icons">account_circle</i> My Account</a></li>
+        <li><a href="signin.php"><i class="material-icons">exit_to_app</i> Logout</a></li>
         <li class="help-banner">
             <h5 class="help-header">Need Help?</h5>
             <p class="help-message">Speak to a member of our team</p>

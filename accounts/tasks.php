@@ -37,7 +37,7 @@
                         <p class="center-align margin-top-30">As a part of anti-money laundering checks, we're required to perform an identity check.</p>
 
                         <div class="center-align margin-top-40">
-                            <a href="#" type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text">Complete ID Check</a>
+                            <a href="#" type="button" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Complete ID Check</a>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                         </p>
 
                         <div class="center-align margin-top-40">
-                            <a href="#" type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text">Provide Property Facts</a>
+                            <a href="#" type="button" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Provide Property Facts</a>
                         </div>
                     </div>
                 </div>

@@ -25,7 +25,7 @@
             <div class="container narrow">
                 <h3 class="center-align margin-bottom-25">A few questions before be finalise viewing...</h3>
                 <form name="frmBuyerQual" id="frmBuyerQual" action="" method="post">
-                    <div class="card-panel padding-40">
+                    <div class="card-panel spaced">
                         <h5>Which best describes you?</h5>
                         <div class="row">
                             <div class="col s12 m6">
@@ -70,11 +70,11 @@
                         </div>
 
                         <div class="center-align margin-top-40">
-                            <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="button">Continue</button>
+                            <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="button">Continue</button>
                         </div>
                     </div>
 
-                    <div class="card-panel padding-40">
+                    <div class="card-panel spaced">
                         <h5>How are you funding this purchase?</h5>
                         <div class="row">
                             <div class="col s12 m6">
@@ -106,11 +106,11 @@
                         </div>
 
                         <div class="center-align margin-top-40">
-                            <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="button">Continue</button>
+                            <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="button">Continue</button>
                         </div>
                     </div>
 
-                    <div class="card-panel padding-40">
+                    <div class="card-panel spaced">
                         <h5>At what stage is the sale of your current property?</h5>
                         <div class="row">
                             <div class="col s12 m6">
@@ -136,11 +136,11 @@
                         </div>
 
                         <div class="center-align margin-top-40">
-                            <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="button">Continue</button>
+                            <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="button">Continue</button>
                         </div>
                     </div>
 
-                    <div class="card-panel padding-40">
+                    <div class="card-panel spaced">
                         <h5>What's the status of your mortgage?</h5>
                         <div class="row">
                             <div class="col s12 m6">
@@ -158,7 +158,7 @@
                         </div>
 
                         <div class="center-align margin-top-40">
-                            <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="button">Continue</button>
+                            <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="button">Continue</button>
                         </div>
                     </div>
 

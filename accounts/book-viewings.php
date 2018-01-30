@@ -137,7 +137,7 @@
                         <h4 class="center-align margin-top-40 margin-bottom-40">You've selected viewing on Sat, 20 Jan at 9:15</h4>
 
                         <div class="center-align margin-bottom-25">
-                            <button class="waves-effect waves-light btn sp-primary sp-secondary-text" type="submit">Confirm and Continue</button>
+                            <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="submit">Confirm and Continue</button>
                         </div>
                     </div>
 

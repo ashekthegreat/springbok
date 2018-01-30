@@ -182,7 +182,7 @@
                                 </div>
 
                                 <div class="center-align margin-top-40">
-                                    <button class="waves-effect waves-light btn sp-primary sp-secondary-text" data-customer="459">Create Availability</button>
+                                    <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" data-customer="459">Create Availability</button>
                                 </div>
 
                                 <input type="hidden" name="leads_id" value="110" />

@@ -64,6 +64,15 @@
     &.btn:hover,
     &.btn-large:hover { background-color: lighten($button-raised-background, 5%); }
     &.btn-floating:hover { background-color: $button-raised-background; }
+
+    .material-icons {
+      float: left;
+      height: 58px;
+      line-height: 58px;
+      margin: 0 20px 0 0;
+      width: 24px;
+      color: rgba(0, 0, 0, 0.54);
+    }
   }
 }
 

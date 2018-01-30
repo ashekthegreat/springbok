@@ -35,10 +35,10 @@
                             <li>
                                 <div class="collapsible-header clearfix">
                                     <h4>
-                                        <i class="material-icons right">check_circle</i>
-                                        Valuation
+                                        <i class="material-icons right green-text">check_circle</i>
+                                        <span class="hide-on-med-and-up">1. </span> Valuation
                                     </h4>
-                                    <div class="small">
+                                    <div class="small margin-bottom-15">
                                         <i class="material-icons arrow-down right">keyboard_arrow_down</i>
                                         <i class="material-icons arrow-up right">keyboard_arrow_up</i>
                                         Property valuation has been done.
@@ -58,10 +58,10 @@
                             <li>
                                 <div class="collapsible-header clearfix">
                                     <h4>
-                                        <i class="material-icons right">check_circle</i>
-                                        Instruct to sell
+                                        <i class="material-icons right green-text">check_circle</i>
+                                        <span class="hide-on-med-and-up">2. </span> Instruct to sell
                                     </h4>
-                                    <div class="small">
+                                    <div class="small margin-bottom-15">
                                         <i class="material-icons arrow-down right">keyboard_arrow_down</i>
                                         <i class="material-icons arrow-up right">keyboard_arrow_up</i>
                                         You've instructed us to market & sell your property.
@@ -81,10 +81,10 @@
                             <li>
                                 <div class="collapsible-header clearfix">
                                     <h4>
-                                        <i class="material-icons right">check_circle</i>
-                                        Getting to market
+                                        <i class="material-icons right green-text">check_circle</i>
+                                        <span class="hide-on-med-and-up">3. </span> Getting to market
                                     </h4>
-                                    <div class="small">
+                                    <div class="small margin-bottom-15">
                                         <i class="material-icons arrow-down right">keyboard_arrow_down</i>
                                         <i class="material-icons arrow-up right">keyboard_arrow_up</i>
                                         You're ID Check / Fact finding is verified & complete
@@ -92,9 +92,9 @@
                                 </div>
                                 <div class="collapsible-body">
                                     Your ID check & fact-finding has been done.
-                                    <p class="center-align">
-                                        <a class="waves-effect waves-light btn sp-primary sp-secondary-text" href="tasks.php">Completed Tasks</a>
-                                    </p>
+                                    <div class="center-align margin-top-25">
+                                        <a class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" href="tasks.php">Completed Tasks</a>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -109,10 +109,10 @@
                             <li>
                                 <div class="collapsible-header active clearfix">
                                     <h4>
-                                        <i class="material-icons right">check_circle</i>
-                                        On the market
+                                        <i class="material-icons right green-text">check_circle</i>
+                                        <span class="hide-on-med-and-up">4. </span> On the market
                                     </h4>
-                                    <div class="small">
+                                    <div class="small margin-bottom-15">
                                         <i class="material-icons arrow-down right">keyboard_arrow_down</i>
                                         <i class="material-icons arrow-up right">keyboard_arrow_up</i>
                                         Your property is on the market
@@ -134,8 +134,8 @@
                                     </div>
 
                                     <div class="margin-top-40">
-                                        <h5>Please manage your availability for viewings. Interested buyers can book viewings online.</h5>
-                                        <a class="waves-effect waves-light btn sp-primary sp-secondary-text" href="availability.php">Manage Availability</a>
+                                        <h5 class="margin-bottom-20">Please manage your availability for viewings. Interested buyers can book viewings online.</h5>
+                                        <a class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" href="availability.php">Manage Availability</a>
                                     </div>
                                 </div>
                             </li>
@@ -151,10 +151,10 @@
                             <li>
                                 <div class="collapsible-header clearfix">
                                     <h4>
-                                        <!--<i class="material-icons right">check_circle</i>-->
-                                        Under Offer
+                                        <!--<i class="material-icons right green-text">check_circle</i>-->
+                                        <span class="hide-on-med-and-up">5. </span> Under Offer
                                     </h4>
-                                    <div>You'll have updates here once you accept an offer.</div>
+                                    <div class="small margin-bottom-15">You'll have updates here once you accept an offer.</div>
                                 </div>
                             </li>
                         </ul>
@@ -169,10 +169,10 @@
                             <li>
                                 <div class="collapsible-header clearfix">
                                     <h4>
-                                        <!--<i class="material-icons right">check_circle</i>-->
-                                        Finalise the sale
+                                        <!--<i class="material-icons right green-text">check_circle</i>-->
+                                        <span class="hide-on-med-and-up">6. </span> Finalise the sale
                                     </h4>
-                                    <div>We'll post process & legalization actions till sale gets finalized</div>
+                                    <div class="small margin-bottom-15">We'll post process & legalization actions till sale gets finalized</div>
                                 </div>
                             </li>
                         </ul>

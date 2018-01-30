@@ -35,8 +35,8 @@
                         <p>Property Valuation for TS10 2LN, with our Regional Valuer David J Jordan</p>
                     </div>
                     <div class="card-action right-align">
-                        <a href="#" class="waves-effect waves-light btn sp-secondary white-text">Reschedule</a>
-                        <a href="#" class="waves-effect waves-light btn sp-secondary white-text">Cancel</a>
+                        <a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text">Reschedule</a>
+                        <a href="#" class="waves-effect waves-light btn sp-secondary lighten-5 sp-secondary-text">Cancel</a>
                     </div>
                 </div>
 
@@ -49,9 +49,9 @@
                         <p>Property Viewing with Michael Cairnes</p>
                     </div>
                     <div class="card-action right-align">
-                        <a href="#" class="waves-effect waves-light btn sp-secondary white-text">Suggest a New Time</a>
-                        <a href="#" class="waves-effect waves-light btn sp-secondary white-text">Reschedule</a>
-                        <a href="#" class="waves-effect waves-light btn sp-secondary white-text">Cancel</a>
+                        <a href="#" class="waves-effect waves-light btn sp-secondary lighten-2 white-text">Suggest a New Time</a>
+                        <a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text">Reschedule</a>
+                        <a href="#" class="waves-effect waves-light btn sp-secondary lighten-5 sp-secondary-text">Cancel</a>
                     </div>
                 </div>
 

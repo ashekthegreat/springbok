@@ -27,7 +27,7 @@
                 <h4 class="center-align margin-bottom-30">Add person to ID Check</h4>
 
                 <form name="formIdCheckPer" id="formIdCheckPer" action="" method="post">
-                    <div class="card-panel padding-40">
+                    <div class="card-panel spaced">
                         <div class="row">
                             <p class="muted grey-text margin-left-10"><b>Complete Name <font color="#FF0000">*</font></b> (As it appears on Birth Certificate or UK Passport)</p>
                             <div class="col s6">
@@ -52,46 +52,46 @@
                         </div>
                         <div class="row">
                             <p class="muted grey-text margin-left-10"><b>Date of Birth <font color="#FF0000">*</font></b></p>
-                            <div class="col s2">
+                            <div class="col s4 m2">
                                 <input id="dd" name="dd" placeholder="DD" type="text" maxlength="2" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')"  value="">
                             </div>
-                            <div class="col s2">
+                            <div class="col s4 m2">
                                 <input id="mm" name="mm" placeholder="MM" type="text"  maxlength="2" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" value="">
                             </div>
-                            <div class="col s4">
+                            <div class="col s4 m4">
                                 <input id="yy" name="yy" placeholder="YYYY" type="text"  maxlength="4" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" value="">
                             </div>
                         </div>
                         <div class="row">
                             <p class="muted grey-text margin-left-10"><b>Premise<font color="#FF0000">*</font></b></p>
-                            <div class="col s5">
+                            <div class="col s12 m5">
                                 <input id="premise" name="premise" placeholder="Building or house name/no." type="text" value="">
                             </div>
-                            <div class="col s5">
+                            <div class="col s12 m5">
                                 <input id="subpremise" name="subpremise" placeholder="Flat or unit no. [Optional]" type="text" value="">
                             </div>
                         </div>
                         <div class="row">
                             <p class="muted grey-text margin-left-10"><b>Street address <font color="#FF0000">*</font></b></p>
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <input id="address" name="address" placeholder="Baker Street" type="text" class="validate" value="">
                             </div>
                         </div>
                         <div class="row">
                             <p class="muted grey-text margin-left-10"><b>Town</b></p>
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <input id="town" name="town" type="text" placeholder="Manchester" class="validate" value="">
                             </div>
                         </div>
                         <div class="row">
                             <p class="muted grey-text margin-left-10"><b>Postcode <font color="#FF0000">*</font></b></p>
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <input id="postcode" name="postcode" placeholder="M11 1AX" type="text" class="validate" value="">
                             </div>
                         </div>
                         <div class="row">
                             <p class="muted grey-text margin-left-10"><b>Phone</b></p>
-                            <div class="col s6">
+                            <div class="col s12 m6">
                                 <input id="phone" name="phone" type="text" class="" value="">
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                     <input type="hidden" name="bookingId" value="0" />
 
                     <div class="center-align margin-top-40">
-                        <button type="submit" class="waves-effect waves-light btn sp-primary sp-secondary-text">Submit to ID Check</button>
+                        <button type="submit" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Submit to ID Check</button>
                     </div>
                 </form>
 

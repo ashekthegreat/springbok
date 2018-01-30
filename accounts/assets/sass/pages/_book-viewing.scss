@@ -7,12 +7,10 @@
 
   .card-date{
     text-align: center;
-    margin: 0.5%;
-    width: 19%;
     border: 1px solid color('grey', 'lighten-2');
-    float: left;
     padding: 20px 2px;
     cursor: pointer;
+    margin-bottom: 10px;
 
     &:hover{
       border: 1px solid color('sp-primary', 'base');
@@ -33,6 +31,13 @@
     }
     .slot{
 
+    }
+  }
+  @media #{$medium-and-up} {
+    .card-date{
+      float: left;
+      margin: 0.5%;
+      width: 19%;
     }
   }
 }

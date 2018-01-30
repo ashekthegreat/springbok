@@ -21,7 +21,7 @@
 
     <main>
 
-        <section class="sp-secondary-text section-ins-thanks">
+        <section class="sp-secondary-text section-thanks">
             <div class="container narrow">
 
                 <div class="card-panel profile-card">
@@ -39,11 +39,10 @@
                         <p class="muted small margin-top-40">Scheduled for:</p>
                         <h4>Wednesday, 01st Nov 2017, 10:05am</h4>
                     </div>
-                    <div class="card-action center-align">
-                        <a href="#!" class="muted canbook blue-text" data-lead="110" data-agency="1" data-booking="">Cancel</a>
-                        <a href="https://accounts.springbokproperties.co.uk/book-valuation.php?leads_id=110&agencyId=1&bookingId=&postcode=TS10 2LN" class="muted editbook blue-text" data-lead="110" data-agency="1" data-booking="" data-resch="true">Reschedule</a>
-                        <a href="https://accounts.springbokproperties.co.uk/contacts/qualification.php?leads_id=110&agencyId=1" target="_blank" class="muted editQual blue-text">Edit Info</a>
-                        <a href="https://accounts.springbokproperties.co.uk/contacts/progress.php?leads_id=110" class="blue-text">Manage My Sale</a>
+                    <div class="card-action center-align padding-10">
+                        <a href="#" class="waves-effect waves-light btn sp-secondary lighten-5 sp-secondary-text">Cancel</a>
+                        <a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text">Reschedule</a>
+                        <a href="#" class="waves-effect waves-light btn sp-secondary lighten-2 white-text">Edit Info</a>
                     </div>
                 </div>
 

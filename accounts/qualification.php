@@ -26,7 +26,7 @@
 
                 <h4 class="center-align margin-bottom-30">Last step...some property info to help value your property correctly.</h4>
                 <form id="qualForm" action="" method="post" name="qualForm" class="WF_QUAL">
-                    <div class="card-panel padding-40">
+                    <div class="card-panel spaced">
                         <h5>House Number</h5>
                         <input type="text" class="form-control" id="h_no" name="h_no" placeholder="" tab-index="1" value="">
 
@@ -40,11 +40,11 @@
                         <input type="text" id="town" name="town" placeholder="" value="">
 
                         <div class="center-align margin-top-40">
-                            <button type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text" id="qualification-step-1">Continue</button>
+                            <button type="button" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" id="qualification-step-1">Continue</button>
                         </div>
                     </div>
 
-                    <div class="card-panel padding-40 hide">
+                    <div class="card-panel spaced hide">
                         <div class="row">
                             <div class="col s4">
                                 <h5>Bed</h5>
@@ -127,12 +127,12 @@
                         </div>
 
                         <div class="center-align margin-top-40">
-                            <button type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text" id="qualification-step-2">Proceed (Almost Done)</button>
+                            <button type="button" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" id="qualification-step-2">Proceed (Almost Done)</button>
                         </div>
 
                     </div>
 
-                    <div class="card-panel padding-40 hide">
+                    <div class="card-panel spaced hide">
                         <h5>Est. value of the property </h5>
                         <input type="text" value="" id="estimated_value_of_the_property" placeholder="GBP" name="estimated_value_of_the_property">
 
@@ -146,7 +146,7 @@
                         <textarea class="materialize-textarea no-padding" id="comment" name="comment" rows="3"></textarea>
 
                         <div class="center-align margin-top-40">
-                            <button type="submit" class="waves-effect waves-light btn sp-primary sp-secondary-text" id="qualification-step-3">Continue</button>
+                            <button type="submit" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" id="qualification-step-3">Continue</button>
                         </div>
                     </div>
 

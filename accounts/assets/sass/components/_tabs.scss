@@ -83,3 +83,8 @@
     background: #fff;
   }
 }
+@media #{$small-and-down} {
+  .tabs{
+    font-size: 12px;
+  }
+}

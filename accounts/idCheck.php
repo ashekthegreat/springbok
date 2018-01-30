@@ -50,7 +50,7 @@
                     <input type="hidden" name="bookingId" value="0" />
 
                     <div class="center-align margin-top-40">
-                        <button type="submit" class="waves-effect waves-light btn sp-primary sp-secondary-text">Let's start the ID Check</button>
+                        <button type="submit" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Let's start the ID Check</button>
                     </div>
                 </form>
 

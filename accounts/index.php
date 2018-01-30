@@ -36,7 +36,7 @@
                         </div>
                         <div class="card-action">
                             <div class="row margin-bottom-0">
-                                <div class="col s12"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text" href="progress.php">Manage My Lists</a></div>
+                                <div class="col s12"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text" href="progress.php">Manage Property</a></div>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                         </div>
                         <div class="card-action">
                             <div class="row margin-bottom-0">
-                                <div class="col s12"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text" href="progress.php">Manage My Lists</a></div>
+                                <div class="col s12"><a class="waves-effect waves-light btn btn-block sp-primary sp-secondary-text" href="progress.php">Manage Property</a></div>
                             </div>
                         </div>
                     </div>
