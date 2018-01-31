@@ -155,7 +155,7 @@ form p:last-child {
     width: 18px;
     background-color: transparent;
     border: 2px solid $radio-empty-color;
-    top: 0px;
+    top: 2px;
     z-index: 0;
   }
 
@@ -165,11 +165,11 @@ form p:last-child {
       top: 0;
       left: 0;
       width: 8px;
-      height: 13px;
+      height: 14px;
       border-top: 2px solid transparent;
       border-left: 2px solid transparent;
-      border-right: 2px solid $input-background;
-      border-bottom: 2px solid $input-background;
+      border-right: 2px solid $secondary-color;
+      border-bottom: 2px solid $secondary-color;
       -webkit-transform: rotateZ(37deg);
       transform: rotateZ(37deg);
 
@@ -178,11 +178,11 @@ form p:last-child {
     }
 
     + label:after {
-      top: 0;
+      top: 2px;
       width: 18px;
       height: 18px;
       border: 2px solid $secondary-color;
-      background-color: $secondary-color;
+      background-color: $transparent-color;
       z-index: 0;
     }
   }

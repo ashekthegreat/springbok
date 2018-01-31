@@ -35,43 +35,43 @@
                             <form id="web_form2" action="" method="post" name="web_form2">
                                 <!--<p class="bg-danger text-center"></p>-->
                                 <div class="row margin-bottom-0">
-                                    <div class="input-field col s12 m3">
-                                        <input placeholder="Title" id="title" maxlength="10" name="title" value="" type="text" class="validate[required]">
+                                    <div class="col s12 m3">
                                         <label for="title">Title</label>
+                                        <input placeholder="Title" id="title" maxlength="10" name="title" value="" type="text" class="validate[required]">
                                     </div>
-                                    <div class="input-field col s12 m5">
-                                        <input placeholder="First Name" maxlength="10" id="firstname" name="firstname" type="text" class="validate[required]" value="Simone">
+                                    <div class="col s12 m5">
                                         <label for="last_name">First Name</label>
+                                        <input placeholder="First Name" maxlength="10" id="firstname" name="firstname" type="text" class="validate[required]" value="Simone">
                                     </div>
-                                    <div class="input-field col s12 m4">
-                                        <input placeholder="Last Name" maxlength="10" id="lastname" name="lastname" type="text" class="validate[required]" value="Arnison">
+                                    <div class="col s12 m4">
                                         <label for="last_name">Last Name</label>
+                                        <input placeholder="Last Name" maxlength="10" id="lastname" name="lastname" type="text" class="validate[required]" value="Arnison">
                                     </div>
                                 </div>
                                 <div class="row margin-bottom-0">
-                                    <div class="input-field col s12">
-                                        <input id="telephone" name="telephone" type="text" class="validate[optional,custom[phone]]" maxlength="20" value="07948350940">
+                                    <div class="col s12">
                                         <label for="telephone">Phone</label>
+                                        <input id="telephone" name="telephone" type="text" class="validate[optional,custom[phone]]" maxlength="20" value="07948350940">
                                     </div>
                                 </div>
                                 <div class="row margin-bottom-0">
-                                    <div class="input-field col s12">
-                                        <textarea id="address" name="address" class="materialize-textarea"></textarea>
+                                    <div class="col s12">
                                         <label for="textarea1">Address</label>
+                                        <textarea id="address" name="address" class=""></textarea>
                                     </div>
                                 </div>
                                 <div class="row margin-bottom-0">
-                                    <div class="input-field col s12">
-                                        <input id="postcode" name="postcode" type="text" maxlength="20" value="">
+                                    <div class="col s12">
                                         <label for="postcode">Postcode</label>
+                                        <input id="postcode" name="postcode" type="text" maxlength="20" value="">
                                     </div>
                                 </div>
                                 <input type="hidden" name="customerId" value="459" />
                                 <input type="hidden" name="email" value="simmelrod@icloud.com" />
                                 <input type="hidden" name="agencyId" value="1" />
 
-                                <div class="center-align margin-top-40">
-                                    <button type="submit" id="saveWebForm" name="saveWebForm" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Update Information</button>
+                                <div class="center-align margin-top-25">
+                                    <button type="submit" id="saveWebForm" name="saveWebForm" class="waves-effect waves-light btn btn-large btn-block-on-small sp-primary sp-secondary-text">Update Information</button>
                                 </div>
                             </form>
 
@@ -80,25 +80,25 @@
                             <form id="web_form" action="" method="post" name="web_form">
                                 <!--<p class="bg-danger text-center" ></p>-->
                                 <div class="row margin-bottom-0">
-                                    <div class="input-field col s12">
-                                        <input name="oldpassword" type="password" class="validate[required,minSize[6]] form-control" id="oldpassword" maxlength="50"  value="" />
+                                    <div class="col s12">
                                         <label for="password">Old Password</label>
+                                        <input name="oldpassword" type="password" class="validate[required,minSize[6]] form-control" id="oldpassword" maxlength="50"  value="" />
                                     </div>
                                 </div>
                                 <div class="row margin-bottom-0">
-                                    <div class="input-field col s12">
-                                        <input type="password" maxlength="20" id="password" class="form-control validate[required,minSize[6]]" name="password">
+                                    <div class="col s12">
                                         <label for="password">Password <span class="form-label-note">(at least 6 characters)</span></label>
+                                        <input type="password" maxlength="20" id="password" class="form-control validate[required,minSize[6]]" name="password">
                                     </div>
                                 </div>
                                 <div class="row margin-bottom-0">
-                                    <div class="input-field col s12">
-                                        <input type="password" maxlength="20" id="confpassword" class="form-control validate[required,equals[password]]" name="confpassword">
+                                    <div class="col s12">
                                         <label for="confpassword">Password Confirmation</label>
+                                        <input type="password" maxlength="20" id="confpassword" class="form-control validate[required,equals[password]]" name="confpassword">
                                     </div>
                                 </div>
-                                <div class="center-align margin-top-40">
-                                    <button type="submit" name="savePassword" id="savePassword" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Update Password</button>
+                                <div class="center-align margin-top-25">
+                                    <button type="submit" name="savePassword" id="savePassword" class="waves-effect waves-light btn btn-large btn-block-on-small sp-primary sp-secondary-text">Update Password</button>
                                 </div>
 
                                 <input type="hidden" name="customerId" value="459" />

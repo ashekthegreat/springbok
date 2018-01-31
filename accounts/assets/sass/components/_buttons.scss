@@ -57,7 +57,7 @@
   @extend .z-depth-1;
   transition: .2s ease-out;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 400;
 
   &:hover {
     background-color: $button-raised-background-hover;
@@ -210,3 +210,6 @@ button.btn-floating {
   }
 }
 
+.btn-narrow{
+  padding: 0 10px;
+}

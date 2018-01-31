@@ -142,9 +142,14 @@
                     <input type="hidden" name="customerId" value="459" />
                     <input type="hidden" name="bookingId" value="0" />
 
-                    <div class="center-align margin-top-40">
-                        <button type="submit" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Submit to ID Check</button>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m6">
+                            <div class="right-align margin-bottom-25 margin-top-25">
+                                <button type="submit" class="waves-effect waves-light btn btn-large btn-block-on-small sp-primary sp-secondary-text">Submit to ID Check</button>
+                            </div>
+                        </div>
                     </div>
+
                 </form>
 
             </div>

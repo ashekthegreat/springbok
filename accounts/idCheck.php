@@ -37,7 +37,7 @@
 
                     <div class="card-panel">
                         <p>
-                            <input type="checkbox" name="verifyTerms" id="verifyTerms" />
+                            <input type="checkbox" class="filled-in" name="verifyTerms" id="verifyTerms" />
                             <label for="verifyTerms">I understand that you will undertake a search with Experian for the purpose of verifying my identity and the identity of any other homeowners. To do so Experian may check the details I supply against any particulars on any database (public or otherwise) to which they have access. They may also use my details in the future to assist other companies for a verification purposes. A record of the search will be retained. </label>
                         </p>
                     </div>
@@ -50,7 +50,7 @@
                     <input type="hidden" name="bookingId" value="0" />
 
                     <div class="center-align margin-top-40">
-                        <button type="submit" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Let's start the ID Check</button>
+                        <button type="submit" class="waves-effect waves-light btn btn-large btn-block-on-small sp-primary sp-secondary-text">Let's start the ID Check</button>
                     </div>
                 </form>
 

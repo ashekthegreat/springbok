@@ -75,9 +75,10 @@
                                 <div class="slots">20 slots left</div>
                             </div>
                         </div>
-                        <div class="input-field col s12 margin-top-25">
-                            <h5 class="clearfix">Available Times</h5>
-                            <select>
+
+                        <div class="col s12 margin-top-25">
+                            <label>Available Times</label>
+                            <select class="browser-default old">
                                 <option value="1" selected>9:00 - 9:15</option>
                                 <option value="2">9:15 - 9:30</option>
                                 <option value="3">9:30 - 9:45</option>

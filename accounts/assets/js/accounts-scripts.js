@@ -149,11 +149,11 @@
             var $section = $(".section-qualification");
 
             $section.find("#qualification-step-1").click(function(){
-                $(this).closest(".card-panel").addClass("hide").next(".card-panel").removeClass("hide");
+                $(this).closest(".form-step").addClass("hide").next(".form-step").removeClass("hide");
                 return false;
             });
             $section.find("#qualification-step-2").click(function(){
-                $(this).closest(".card-panel").addClass("hide").next(".card-panel").removeClass("hide");
+                $(this).closest(".form-step").addClass("hide").next(".form-step").removeClass("hide");
                 return false;
             })
         }

@@ -79,26 +79,26 @@
                         <div class="row">
                             <div class="col s12 m6">
                                 <p>
-                                    <input type="checkbox" id="funding_purchase_sale" name="funding_purchase[]" value="Sale of my property" class="funding_purchase">
+                                    <input type="checkbox" id="funding_purchase_sale" name="funding_purchase[]" value="Sale of my property" class="filled-in funding_purchase">
                                     <label for="funding_purchase_sale">Sale of my property</label>
                                 </p>
                                 <p>
-                                    <input type="checkbox" id="funding_purchase_mortgage" name="funding_purchase[]" value="Mortgage" class="funding_purchase">
+                                    <input type="checkbox" id="funding_purchase_mortgage" name="funding_purchase[]" value="Mortgage" class="filled-in funding_purchase">
                                     <label for="funding_purchase_mortgage">Mortgage</label>
                                 </p>
                                 <p>
-                                    <input type="checkbox" id="funding_purchase_other" onclick="($(this).is(':checked')==true)?$('#txtOther').show():$('#txtOther').hide()" name="funding_purchase[]" value="Other" class="funding_purchase">
+                                    <input type="checkbox" id="funding_purchase_other" onclick="($(this).is(':checked')==true)?$('#txtOther').show():$('#txtOther').hide()" name="funding_purchase[]" value="Other" class="filled-in funding_purchase">
                                     <label for="funding_purchase_other">Other</label>
                                 </p>
 
                             </div>
                             <div class="col s12 m6">
                                 <p>
-                                    <input type="checkbox" id="funding_purchase_savings" name="funding_purchase[]" value="Savings / Cash" class="funding_purchase">
+                                    <input type="checkbox" id="funding_purchase_savings" name="funding_purchase[]" value="Savings / Cash" class="filled-in funding_purchase">
                                     <label for="funding_purchase_savings">Savings or cash</label>
                                 </p>
                                 <p>
-                                    <input type="checkbox" id="funding_purchase_dontknow" name="funding_purchase[]" value="I don't know yet" class="funding_purchase">
+                                    <input type="checkbox" id="funding_purchase_dontknow" name="funding_purchase[]" value="I don't know yet" class="filled-in funding_purchase">
                                     <label for="funding_purchase_dontknow">I don't know yet</label>
                                 </p>
 
