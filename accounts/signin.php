@@ -109,6 +109,21 @@
                     </div>
                 </div>
 
+                <div class="card-panel center-align biggest">
+                    Already registered to MySpringbok?<br>
+                    Click on <a href="#">Sign in</a> to access your account now
+                </div>
+
+                <div class="card-panel">
+                    <h4>Your Free MySpringbok Account Includes</h4>
+                    <ul>
+                        <li>&bull; Password (at least 6 characters)</li>
+                        <li>&bull; Manage your appointments</li>
+                        <li>&bull; Step by step guidance to speed up your sale process</li>
+                        <li>&bull; Dedicated staff suppoert from till completion</li>
+                    </ul>
+                </div>
+
             </div>
             <div id="forget_pass" class="modal">
                 <form id="forget_pass" action="" method="post" name="forget_pass">
