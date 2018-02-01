@@ -75,49 +75,49 @@
                     next: '<i class="material-icons">chevron_right</i>'
                 },
                 data: [{
-                    "date": "2018-01-20",
+                    "date": "2018-02-20",
                     "badge": false,
                     "title": "Example for 2018-01-20",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-available"
                 }, {
-                    "date": "2018-01-13",
+                    "date": "2018-02-13",
                     "badge": false,
                     "title": "Example for 2018-01-13",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-arranged"
                 }, {
-                    "date": "2018-01-17",
+                    "date": "2018-02-17",
                     "badge": false,
                     "title": "Example for 2018-01-17",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-available"
                 }, {
-                    "date": "2018-01-16",
+                    "date": "2018-02-16",
                     "badge": false,
                     "title": "Example for 2018-01-16",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-available"
                 }, {
-                    "date": "2018-01-31",
+                    "date": "2018-02-27",
                     "badge": false,
                     "title": "Example for 2018-01-31",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-appointment"
                 }, {
-                    "date": "2018-01-28",
+                    "date": "2018-02-28",
                     "badge": false,
                     "title": "Example for 2018-01-28",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-available"
                 }, {
-                    "date": "2018-01-02",
+                    "date": "2018-02-02",
                     "badge": false,
                     "title": "Example for 2018-01-02",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
