@@ -66,9 +66,33 @@
                 today: true,
                 weekstartson: 0,
                 action: function () {
-                    console.log($(this).data("date"));
-                    console.log($(this).data("hasEvent"));
-                    console.log($(this).data());
+                    var date = $(this).data("date");
+                    var $childDiv = $(this).find(".day");
+                    var $modal = $('#diary-modal')
+                    var message = "";
+                    if($childDiv.length){
+                        // update the header
+                        $modal.find("h4").empty().html(date);
+
+                        // hide all message blocks
+                        $modal.find(".message").hide();
+
+                        if($childDiv.hasClass("key-available")){
+                            // you are available
+                            $modal.find(".message-available").show();
+                        } else if($childDiv.hasClass("key-arranged")){
+                            // viewing arranged
+                            $modal.find(".message-arranged").show();
+                        } else if($childDiv.hasClass("key-appointment")){
+                            // appointment arranged
+                            $modal.find(".message-appointment").show();
+                        } else {
+                            // slot empty
+                            $modal.find(".message-no-set").show();
+                        }
+
+                        $('#diary-modal').openModal();
+                    }
                 },
                 nav_icon: {
                     prev: '<i class="material-icons">chevron_left</i>',

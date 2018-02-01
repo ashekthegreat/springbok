@@ -44,27 +44,35 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            padding: 5px 1vw 5px 1vw;
+            padding: 3px 1vw 3px 1vw;
         }
         .selected{
             background: #ffef00;
+        }
+        .links{
+            float: left;
+            height: 90vh;
+            width: 20vw;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            padding: 6vh 0 4vh;
         }
     </style>
 </head>
 <body>
     <iframe src="index.php"></iframe>
-    <br><br>
-    <a href="index.php" class="selected">index.php</a>
-    <?php
-    $dir    = __DIR__;
-    $files = scandir($dir);
-    foreach($files as $file){
-        if(strpos($file, ".php") !== false && $file !== "frames.php" && $file !== "section-footer.php" && $file !== "section-header.php" && $file !== "index.php"){
-            echo "<a href='" . $file ."'>" . $file . "</a>";
+    <div class="links">
+        <a href="index.php" class="selected">index.php</a>
+        <?php
+        $dir    = __DIR__;
+        $files = scandir($dir);
+        foreach($files as $file){
+            if(strpos($file, ".php") !== false && $file !== "frames.php" && $file !== "section-footer.php" && $file !== "section-header.php" && $file !== "index.php"){
+                echo "<a href='" . $file ."'>" . $file . "</a>";
+            }
         }
-    }
-
-    ?>
+        ?>
+    </div>
 </body>
 </html>
 <?php
