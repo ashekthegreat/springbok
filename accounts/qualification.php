@@ -196,7 +196,7 @@
                         <div class="row margin-bottom-0">
                             <div class="col s12 m7">
                                 <label>Comment</label>
-                                <textarea class="materialize-textarea no-padding" id="comment" name="comment" rows="3"></textarea>
+                                <textarea id="comment" name="comment" rows="3"></textarea>
                             </div>
                         </div>
 

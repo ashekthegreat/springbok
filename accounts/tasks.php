@@ -30,7 +30,7 @@
                     <div class="card-content grey lighten-2">
                         <h5>
                             <i class="material-icons vertical-middle">security</i>
-                            Verify Your Identity <span class="small red-text">(Action Required)</span>
+                            Verify Your Identity <span class="small green-text text-darken-2">(Completed)</span>
                         </h5>
                     </div>
                     <div class="card-content">

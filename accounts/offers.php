@@ -117,6 +117,10 @@
                             <div class="col s12 m9">MIP</div>
                         </div>
                     </div>
+                    <div class="card-action center-align padding-10">
+                        <a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text">Accept</a>
+                        <a href="#" class="waves-effect waves-light btn sp-secondary lighten-2 white-text">Reject</a>
+                    </div>
                 </div>
 
             </div>

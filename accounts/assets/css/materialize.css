@@ -10481,4 +10481,35 @@ nav .nav-wrapper {
   }
 }
 
+/* line 2, ../sass/pages/_restrictions.scss */
+.section-restrictions .extra-data {
+  display: none;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+/* line 9, ../sass/pages/_restrictions.scss */
+.section-restrictions [type="checkbox"]:checked + * + .extra-data {
+  display: block;
+}
+
+/* line 2, ../sass/pages/_performance.scss */
+.section-performance .video-container-wrapper {
+  max-width: 550px;
+  margin: 0 auto;
+}
+/* line 7, ../sass/pages/_performance.scss */
+.section-performance .performance-list .performance-list-item {
+  border-bottom: 1px solid #ddd;
+}
+/* line 10, ../sass/pages/_performance.scss */
+.section-performance .performance-list .performance-list-item .item-title {
+  float: left;
+  padding: 5px 0;
+}
+/* line 14, ../sass/pages/_performance.scss */
+.section-performance .performance-list .performance-list-item .item-value {
+  float: right;
+  padding: 5px 0;
+}
+
 /*# sourceMappingURL=materialize.css.map */

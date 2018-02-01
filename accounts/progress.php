@@ -44,7 +44,14 @@
                                         Property valuation has been done.
                                     </div>
                                 </div>
-                                <div class="collapsible-body">Abbi Richards has valued your property.</div>
+                                <div class="collapsible-body">
+                                    Abbi Richards has valued your property.
+                                    <div class="margin-top-15">
+                                        <a href="#" class="waves-effect waves-light btn sp-secondary lighten-2 white-text">Edit Info</a>
+                                        <a href="#" class="waves-effect waves-light btn sp-primary sp-secondary-text">Reschedule</a>
+                                        <a href="#" class="waves-effect waves-light btn sp-secondary lighten-5 sp-secondary-text">Cancel</a>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
