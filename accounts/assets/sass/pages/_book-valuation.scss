@@ -16,7 +16,7 @@
 }
 .section-book-valuation{
 
-  .calendar-table{
+  /*.calendar-table{
     overflow: auto;
     table{
       border: 1px solid #fff;
@@ -53,6 +53,86 @@
       }
       &.selected{
         background: color("sp-primary", "base");
+      }
+    }
+  }*/
+
+  .viewNext span, .viewPrev span{
+    line-height: 24px;
+    vertical-align: top;
+  }
+
+  .card-date{
+    text-align: center;
+    border: 1px solid color('grey', 'lighten-2');
+    padding: 20px 2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+
+    &:hover{
+      border: 1px solid color('sp-primary', 'base');
+    }
+
+    &.selected{
+      border: 1px solid color('sp-primary', 'base');
+      background-color: color('sp-primary', 'base');
+    }
+    .week-day{
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 13px;
+    }
+    .day{
+      font-size: 32px;
+      font-weight: 700;
+    }
+    .slot{
+
+    }
+  }
+  @media #{$medium-and-up} {
+    .card-date{
+      float: left;
+      margin: 0.5%;
+      width: 19%;
+    }
+  }
+
+  .time-slots{
+    /*border: 1px solid color('grey', 'lighten-2');
+    padding: 10px;*/
+    text-align: center;
+    margin-bottom: 30px;
+
+    .time-slot{
+      border: 1px solid color('grey', 'lighten-2');
+      padding: 7px 2px;
+      text-align: center;
+      background: #ddd;
+      color: color('sp-secondary', 'lighten-3');
+      cursor: not-allowed;
+      margin-bottom: 10px;
+      font-weight: 500;
+
+      &.free{
+        background: #fff;
+        cursor: pointer;
+        color: color('sp-secondary', 'base');
+
+        &:hover{
+          border: 1px solid color('sp-primary', 'base');
+        }
+      }
+      &.selected{
+        border: 1px solid color('sp-primary', 'base');
+        background-color: color('sp-primary', 'base');
+      }
+    }
+    @media #{$medium-and-up} {
+      .time-slot{
+        float: left;
+        margin: 0.5%;
+        width: 19%;
       }
     }
   }

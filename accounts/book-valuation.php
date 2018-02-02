@@ -20,7 +20,15 @@
     <?php include("section-header.php"); ?>
 
     <main>
-
+        <nav class="breadcrumb-container">
+            <div class="container narrow nav-wrapper">
+                <div class="col s12">
+                    <a href="javascript:;" class="breadcrumb">Home</a>
+                    <a href="javascript:;" class="breadcrumb">Property details</a>
+                    <a href="javascript:;" class="breadcrumb">Address Details</a>
+                </div>
+            </div>
+        </nav>
         <section class="sp-secondary-text section-book-valuation">
             <div class="container narrow">
                 <h3 class="center-align">Select Date &amp; Time To Book Your Valuation</h3>
@@ -32,108 +40,60 @@
                 </div>
 
                 <h5 class="center-align margin-top-40">When would you like me to visit your place? Please select a suitable date and time</h5>
-                <div class="calendar-table card-panel no-padding margin-top-30">
-                    <table class="">
-                        <thead>
-                            <tr>
-                                <th>&nbsp;</th>
-                                <th>9:00</th>
-                                <th>10:00</th>
-                                <th>11:00</th>
-                                <th>12:00</th>
-                                <th>13:00</th>
-                                <th>14:00</th>
-                                <th>15:00</th>
-                                <th>16:00</th>
-                                <th>17:00</th>
-                                <th>18:00</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>Mon, 22 Jan</th>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td class="disabled">Taken</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                            </tr>
-                            <tr>
-                                <th>Tue, 23 Jan</th>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td class="disabled">Taken</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td class="disabled">Taken</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                            </tr>
-                            <tr>
-                                <th>Wed, 24 Jan</th>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                            </tr>
-                            <tr>
-                                <th>Thu, 25 Jan</th>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td class="disabled">Taken</td>
-                                <td>Book</td>
-                            </tr>
-                            <tr>
-                                <th>Fri, 26 Jan</th>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                            </tr>
-                            <tr>
-                                <th>Sat, 27 Jan</th>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                                <td>Book</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
 
-                <div class="center-align margin-bottom-25 margin-top-40">
-                    <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="submit">Continue</button>
+                <div class="card-panel margin-top-30">
+                    <a href="javascript:;" class="viewNext right margin-left-40"><span class="hide-on-small-only">Next 5 Days</span> <i class="material-icons" style="">chevron_right</i></a>
+                    <a href="javascript:;" class="viewPrev right"><i class="material-icons" style="">chevron_left</i> <span class="hide-on-small-only">Prev 5 Days</span></a>
+                    <h5>Pick a Day</h5>
+                    <div class="date-boxes margin-top-10 clearfix">
+                        <div class="card-date">
+                            <div class="week-day">Today</div>
+                            <div class="day">22</div>
+                            <div class="slots">20 slots left</div>
+                        </div>
+                        <div class="card-date">
+                            <div class="week-day">Today</div>
+                            <div class="day">22</div>
+                            <div class="slots">20 slots left</div>
+                        </div>
+                        <div class="card-date">
+                            <div class="week-day">Today</div>
+                            <div class="day">22</div>
+                            <div class="slots">20 slots left</div>
+                        </div>
+                        <div class="card-date">
+                            <div class="week-day">Today</div>
+                            <div class="day">22</div>
+                            <div class="slots">20 slots left</div>
+                        </div>
+                        <div class="card-date">
+                            <div class="week-day">Today</div>
+                            <div class="day">22</div>
+                            <div class="slots">20 slots left</div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 margin-top-25">
+                        <label>Available Times</label>
+                        <div class="time-slots clearfix">
+                            <div class="time-slot">7:30</div>
+                            <div class="time-slot">9:00</div>
+                            <div class="time-slot">10:30</div>
+                            <div class="time-slot free">12:00</div>
+                            <div class="time-slot">13:30</div>
+                            <div class="time-slot free">15:00</div>
+                            <div class="time-slot free">16:30</div>
+                            <div class="time-slot free">18:00</div>
+                            <div class="time-slot free">19:30</div>
+                            <div class="time-slot free">21:00</div>
+                        </div>
+                    </div>
+
+                    <h4 class="center-align margin-top-40 margin-bottom-40">You've selected viewing on Sat, 20 Jan at 9:15</h4>
+
+                    <div class="center-align margin-bottom-25">
+                        <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="submit">Confirm and Continue</button>
+                    </div>
                 </div>
             </div>
         </section>

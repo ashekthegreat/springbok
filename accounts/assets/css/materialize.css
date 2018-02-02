@@ -2043,7 +2043,6 @@ video.responsive-video {
   line-height: 22px;
   float: left;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 /* line 274, ../sass/components/_global.scss */
 .breadcrumb-container .nav-wrapper, .breadcrumb-container .col {
@@ -9685,7 +9684,7 @@ body {
 }
 /* line 9, ../sass/_application.scss */
 main > section {
-  padding: 40px 0;
+  padding: 60px 0 40px 0;
 }
 
 /* line 13, ../sass/_application.scss */
@@ -9863,13 +9862,14 @@ nav .nav-wrapper {
 .account-popover {
   min-width: 420px;
   line-height: 1.5;
+  max-height: 300px;
 }
-/* line 5, ../sass/pages/_common.scss */
+/* line 6, ../sass/pages/_common.scss */
 .account-popover .btn, .account-popover .btn-large {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 10, ../sass/pages/_common.scss */
+/* line 11, ../sass/pages/_common.scss */
 .account-popover .profile-pic {
   float: left;
   width: 100px;
@@ -9877,12 +9877,12 @@ nav .nav-wrapper {
   border-radius: 50%;
   overflow: hidden;
 }
-/* line 17, ../sass/pages/_common.scss */
+/* line 18, ../sass/pages/_common.scss */
 .account-popover .profile-pic img {
   width: 100%;
   vertical-align: top;
 }
-/* line 21, ../sass/pages/_common.scss */
+/* line 22, ../sass/pages/_common.scss */
 .account-popover .profile-pic a {
   position: absolute;
   bottom: 0;
@@ -9896,21 +9896,21 @@ nav .nav-wrapper {
   text-align: center;
   font-weight: 400;
 }
-/* line 35, ../sass/pages/_common.scss */
+/* line 36, ../sass/pages/_common.scss */
 .account-popover .profile-info {
   float: right;
   width: 260px;
 }
-/* line 40, ../sass/pages/_common.scss */
+/* line 41, ../sass/pages/_common.scss */
 .account-popover .card-content {
   padding: 20px;
 }
-/* line 43, ../sass/pages/_common.scss */
+/* line 44, ../sass/pages/_common.scss */
 .account-popover .card-action {
   padding: 10px 20px;
 }
 
-/* line 48, ../sass/pages/_common.scss */
+/* line 49, ../sass/pages/_common.scss */
 .label {
   display: inline;
   padding: .2em .6em .2em;
@@ -9926,16 +9926,16 @@ nav .nav-wrapper {
   margin: 0 2px;
 }
 
-/* line 64, ../sass/pages/_common.scss */
+/* line 65, ../sass/pages/_common.scss */
 .card-board .card-content:first-child {
   padding: 10px 20px;
 }
-/* line 67, ../sass/pages/_common.scss */
+/* line 68, ../sass/pages/_common.scss */
 .card-board .label {
   padding: 0.4em .6em;
   font-size: 70%;
 }
-/* line 71, ../sass/pages/_common.scss */
+/* line 72, ../sass/pages/_common.scss */
 .card-board .row {
   margin-bottom: 10px;
 }
@@ -10327,50 +10327,130 @@ nav .nav-wrapper {
   font-size: 24px;
 }
 
-/* line 19, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table {
-  overflow: auto;
+/* line 17, ../sass/pages/_book-valuation.scss */
+.section-book-valuation {
+  /*.calendar-table{
+    overflow: auto;
+    table{
+      border: 1px solid #fff;
+      border-collapse: collapse;
+    }
+    td, th{
+      border-radius: 0;
+      border: 1px solid #fff;
+      padding: 10px 5px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    th{
+      background: color("sp-secondary", "base");
+      color: color("sp-secondary", "lighten-5");
+
+    }
+    td{
+      cursor: pointer;
+      background: color("sp-secondary", "lighten-5");
+
+      &:hover{
+        background: color("sp-primary", "base");
+      }
+
+      &.disabled{
+        cursor: default;
+        background: color("sp-secondary", "lighten-3");
+        color: color("sp-secondary", "lighten-4");
+
+        &:hover{
+          background: color("sp-secondary", "lighten-3");
+        }
+      }
+      &.selected{
+        background: color("sp-primary", "base");
+      }
+    }
+  }*/
 }
-/* line 21, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table table {
-  border: 1px solid #fff;
-  border-collapse: collapse;
+/* line 60, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .viewNext span, .section-book-valuation .viewPrev span {
+  line-height: 24px;
+  vertical-align: top;
 }
-/* line 25, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td, .section-book-valuation .calendar-table th {
-  border-radius: 0;
-  border: 1px solid #fff;
-  padding: 10px 5px;
+/* line 65, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date {
   text-align: center;
-  font-size: 0.9em;
-}
-/* line 32, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table th {
-  background: #6a676e;
-  color: #f0eff1;
-}
-/* line 37, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td {
+  border: 1px solid #e0e0e0;
+  padding: 20px 2px;
   cursor: pointer;
-  background: #f0eff1;
+  margin-bottom: 10px;
 }
-/* line 41, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td:hover {
-  background: #ffef00;
+/* line 72, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date:hover {
+  border: 1px solid #ffef00;
 }
-/* line 45, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td.disabled {
-  cursor: default;
-  background: #adaab1;
-  color: #cac8cc;
+/* line 76, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date.selected {
+  border: 1px solid #ffef00;
+  background-color: #ffef00;
 }
-/* line 50, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td.disabled:hover {
-  background: #adaab1;
+/* line 80, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date .week-day {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 13px;
 }
-/* line 54, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td.selected {
-  background: #ffef00;
+/* line 85, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date .day {
+  font-size: 32px;
+  font-weight: 700;
+}
+@media only screen and (min-width: 601px) {
+  /* line 94, ../sass/pages/_book-valuation.scss */
+  .section-book-valuation .card-date {
+    float: left;
+    margin: 0.5%;
+    width: 19%;
+  }
+}
+/* line 101, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots {
+  /*border: 1px solid color('grey', 'lighten-2');
+  padding: 10px;*/
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* line 107, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots .time-slot {
+  border: 1px solid #e0e0e0;
+  padding: 7px 2px;
+  text-align: center;
+  background: #ddd;
+  color: #adaab1;
+  cursor: not-allowed;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+/* line 117, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots .time-slot.free {
+  background: #fff;
+  cursor: pointer;
+  color: #6a676e;
+}
+/* line 122, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots .time-slot.free:hover {
+  border: 1px solid #ffef00;
+}
+/* line 126, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots .time-slot.selected {
+  border: 1px solid #ffef00;
+  background-color: #ffef00;
+}
+@media only screen and (min-width: 601px) {
+  /* line 132, ../sass/pages/_book-valuation.scss */
+  .section-book-valuation .time-slots .time-slot {
+    float: left;
+    margin: 0.5%;
+    width: 19%;
+  }
 }
 
 /* line 7, ../sass/pages/_diary.scss */
