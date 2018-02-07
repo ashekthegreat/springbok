@@ -198,3 +198,14 @@ button.btn-floating {
   display: block!important;
   width: 100%;
 }
+
+@media #{$small-and-down} {
+  .btn-block-on-small {
+    display: block!important;
+    width: 100%;
+
+    & + .btn{
+      margin-top: 10px;
+    }
+  }
+}

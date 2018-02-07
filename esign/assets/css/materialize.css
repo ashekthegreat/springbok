@@ -4647,6 +4647,17 @@ button.btn-floating {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  /* line 203, ../sass/components/_buttons.scss */
+  .btn-block-on-small {
+    display: block !important;
+    width: 100%;
+  }
+  /* line 207, ../sass/components/_buttons.scss */
+  .btn-block-on-small + .btn, .btn-block-on-small + .btn-large {
+    margin-top: 10px;
+  }
+}
 /*!
  * Waves v0.6.0
  * http://fian.my.id/Waves

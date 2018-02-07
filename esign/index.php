@@ -24,8 +24,8 @@
 
 <body>
     <header>
-        <div class="container padding-top-15 padding-bottom-20 sp-secondary-text">
-            <a href="index.php" class="brand-logo left"><img src="assets/images/logo.png" width="152" height="45"></a>
+        <div class="container padding-top-15 sp-secondary-text">
+            <a href="index.php" class="brand-logo"><img src="assets/images/logo.png" width="152" height="45"></a>
         </div>
     </header>
 
