@@ -20,7 +20,15 @@
     <?php include("section-header.php"); ?>
 
     <main>
-
+        <nav class="breadcrumb-container">
+            <div class="container narrow nav-wrapper">
+                <div class="col s12">
+                    <a href="javascript:;" class="breadcrumb">Home</a>
+                    <a href="javascript:;" class="breadcrumb">Property details</a>
+                    <a href="javascript:;" class="breadcrumb">Address Details</a>
+                </div>
+            </div>
+        </nav>
         <section class="sp-secondary-text section-availability">
             <div class="container narrow">
 
@@ -61,39 +69,39 @@
                                     <h6 class="margin-top-25">Select Day</h6>
                                     <div class="row">
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="m" class="wDays" value="m">
+                                            <input type="checkbox" name="days[]" id="m" class="filled-in wDays" value="m">
                                             <label for="m">Monday</label>
                                         </p>
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="t" class="wDays" value="t">
+                                            <input type="checkbox" name="days[]" id="t" class="filled-in wDays" value="t">
                                             <label for="t">Tuesday</label>
                                         </p>
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="w" class="wDays" value="w">
+                                            <input type="checkbox" name="days[]" id="w" class="filled-in wDays" value="w">
                                             <label for="w">Wednesday</label>
                                         </p>
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="th" class="wDays" value="th">
+                                            <input type="checkbox" name="days[]" id="th" class="filled-in wDays" value="th">
                                             <label for="th">Thursday</label>
                                         </p>
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="f" class="wDays" value="f">
+                                            <input type="checkbox" name="days[]" id="f" class="filled-in wDays" value="f">
                                             <label for="f">Friday</label>
                                         </p>
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="s" class="wDays" value="s">
+                                            <input type="checkbox" name="days[]" id="s" class="filled-in wDays" value="s">
                                             <label for="s">Saturday</label>
                                         </p>
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="su" class="wDays" value="su">
+                                            <input type="checkbox" name="days[]" id="su" class="filled-in wDays" value="su">
                                             <label for="su">Sunday</label>
                                         </p>
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="wknd" class="wDays" value="wknd">
+                                            <input type="checkbox" name="days[]" id="wknd" class="filled-in wDays" value="wknd">
                                             <label for="wknd">All Weekend</label>
                                         </p>
                                         <p class="col s6 m4">
-                                            <input type="checkbox" name="days[]" id="wkd" class="wDays" value="wkd">
+                                            <input type="checkbox" name="days[]" id="wkd" class="filled-in wDays" value="wkd">
                                             <label for="wkd">Every Weekday</label>
                                         </p>
                                     </div>
@@ -109,7 +117,7 @@
 
                                 <h5 class="margin-top-40">Select Time</h5>
                                 <div class=" margin-top-20">
-                                    <input type="checkbox" class="browser-default chkTimeAllDaye" checked="checked" name="timeAllDay" id="timeAllDay" value="900 - 1930">
+                                    <input type="checkbox" class="filled-in chkTimeAllDaye" checked="checked" name="timeAllDay" id="timeAllDay" value="900 - 1930">
                                     <label for="timeAllDay">Available all day (9:00 to 19:30)</label>
                                 </div>
                                 <div class="hide" id="divTimeSelection">
@@ -177,7 +185,7 @@
                                     <label class="control-label"><a href="javascript:;" id="clickerAddTime"><i class="material-icons" title="Add More Time Slots">add_circle</i></a> &nbsp;<i class="icon-time"></i></label>
                                 </div>
                                 <div id="divOpenDay" class="hide right-align">
-                                    <input type="checkbox" onChange="$('#divTimeSelection').toggle();" class="chkOpenDay" id="chkOpenDay" name="chkOpenDay" value="1">
+                                    <input type="checkbox" onChange="$('#divTimeSelection').toggle();" class="filled-in chkOpenDay" id="chkOpenDay" name="chkOpenDay" value="1">
                                     <label for="chkOpenDay">Make this an open day</label>
                                 </div>
 
@@ -191,7 +199,64 @@
                             </form>
                         </div>
                         <div id="viewAvail" role="tabpanel" class="tab-pane padding-40">
-                            <div id="listAvailability"></div>
+                            <div id="listAvailability">
+                                <h5 class="margin-bottom-20">Your Availability</h5>
+                                <table class="repeated-days margin-bottom-40">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="5" class="sp-secondary lighten-5">Repeated days</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="td-date">Monday, Tuesday, Wednesday, Thursday, Friday, Every Weekday</td>
+                                            <td class="td-time">09:00 &ndash; 19:30</td>
+                                            <td>From 18 Feb, 2018 to 24 Feb, 2018</td>
+                                            <td>NA</td>
+                                            <td class="td-action">
+                                                <button type="button" class="waves-effect waves-light btn btn-narrow btn-block sp-primary sp-secondary-text z-depth-0">X</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="one-off-days margin-bottom-40">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="3" class="sp-secondary lighten-5">One-off days</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="td-date">10 Feb, 2018</td>
+                                            <td>09:00 &ndash; 13:30</td>
+                                            <td class="td-action">
+                                                <button type="button" class="waves-effect waves-light btn btn-narrow btn-block sp-primary sp-secondary-text z-depth-0">X</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td-date">11 Feb, 2018</td>
+                                            <td>09:00 &ndash; 13:30</td>
+                                            <td class="td-action">
+                                                <button type="button" class="waves-effect waves-light btn btn-narrow btn-block sp-primary sp-secondary-text z-depth-0">X</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td-date">12 Feb, 2018</td>
+                                            <td>12:00 &ndash; 13:30</td>
+                                            <td class="td-action">
+                                                <button type="button" class="waves-effect waves-light btn btn-narrow btn-block sp-primary sp-secondary-text z-depth-0">X</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="td-date">13 Feb, 2018</td>
+                                            <td>11:00 &ndash; 13:30</td>
+                                            <td class="td-action">
+                                                <button type="button" class="waves-effect waves-light btn btn-narrow btn-block sp-primary sp-secondary-text z-depth-0">X</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>

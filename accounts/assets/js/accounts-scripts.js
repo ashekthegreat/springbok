@@ -38,11 +38,37 @@
         if($(".section-book-valuation").length){
             var $section = $(".section-book-valuation");
 
-            $section.on("click", ".calendar-table td", function () {
-                if(!$(this).hasClass("disabled")){
-                    $(this).toggleClass("selected");
+            var $dateBoxes = $section.find(".date-boxes");
+            var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+            // populate date blocks
+            function populateDateBlocks(firstDate) {
+                var today = new Date();
+                $dateBoxes.empty();
+                var weekDay, day, slots;
+                for(var i=0; i<5; i++){
+                    if(today.getDate() == firstDate.getDate() && today.getMonth() == firstDate.getMonth() && today.getYear() == firstDate.getYear()){
+                        weekDay = "Today";
+                    } else{
+                        weekDay = weekDays[firstDate.getDay()];
+                    }
+                    $dateBoxes.append('<div class="card-date"><div class="week-day">'+ weekDay +'</div><div class="day">' + firstDate.getDate() + '</div><div class="slots">20 slots left</div></div>');
+
+                    firstDate.setDate(firstDate.getDate() + 1)
                 }
-            })
+            }
+            $section.data("firstDate", new Date());
+            populateDateBlocks($section.data("firstDate"));
+            $section.on("click", ".card-date", function(){
+                $section.find(".card-date").removeClass("selected");
+                $(this).addClass("selected");
+                $section.find(".time-slot").removeClass("selected");
+            });
+
+            // action time slot
+            $section.on("click", ".time-slot", function(){
+                $(this).toggleClass("selected");
+            });
         }
     });
 
@@ -66,58 +92,82 @@
                 today: true,
                 weekstartson: 0,
                 action: function () {
-                    console.log($(this).data("date"));
-                    console.log($(this).data("hasEvent"));
-                    console.log($(this).data());
+                    var date = $(this).data("date");
+                    var $childDiv = $(this).find(".day");
+                    var $modal = $('#diary-modal')
+                    var message = "";
+                    if($childDiv.length){
+                        // update the header
+                        $modal.find("h4").empty().html(date);
+
+                        // hide all message blocks
+                        $modal.find(".message").hide();
+
+                        if($childDiv.hasClass("key-available")){
+                            // you are available
+                            $modal.find(".message-available").show();
+                        } else if($childDiv.hasClass("key-arranged")){
+                            // viewing arranged
+                            $modal.find(".message-arranged").show();
+                        } else if($childDiv.hasClass("key-appointment")){
+                            // appointment arranged
+                            $modal.find(".message-appointment").show();
+                        } else {
+                            // slot empty
+                            $modal.find(".message-no-set").show();
+                        }
+
+                        $('#diary-modal').openModal();
+                    }
                 },
                 nav_icon: {
                     prev: '<i class="material-icons">chevron_left</i>',
                     next: '<i class="material-icons">chevron_right</i>'
                 },
                 data: [{
-                    "date": "2018-01-20",
+                    "date": "2018-02-20",
                     "badge": false,
                     "title": "Example for 2018-01-20",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-available"
                 }, {
-                    "date": "2018-01-13",
+                    "date": "2018-02-13",
                     "badge": false,
                     "title": "Example for 2018-01-13",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-arranged"
                 }, {
-                    "date": "2018-01-17",
+                    "date": "2018-02-17",
                     "badge": false,
                     "title": "Example for 2018-01-17",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-available"
                 }, {
-                    "date": "2018-01-16",
+                    "date": "2018-02-16",
                     "badge": false,
                     "title": "Example for 2018-01-16",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-available"
                 }, {
-                    "date": "2018-01-31",
+                    "date": "2018-02-27",
                     "badge": false,
                     "title": "Example for 2018-01-31",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-appointment"
                 }, {
-                    "date": "2018-01-28",
+                    "date": "2018-02-28",
                     "badge": false,
                     "title": "Example for 2018-01-28",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
                     "footer": "Extra information",
                     "classname": "key-available"
                 }, {
-                    "date": "2018-01-02",
+                    "date": "2018-02-02",
                     "badge": false,
                     "title": "Example for 2018-01-02",
                     "body": "<p class=\"lead\">Information for this date<\/p><p>You can add <strong>html<\/strong> in this block<\/p>",
@@ -149,13 +199,26 @@
             var $section = $(".section-qualification");
 
             $section.find("#qualification-step-1").click(function(){
-                $(this).closest(".card-panel").addClass("hide").next(".card-panel").removeClass("hide");
+                $(this).closest(".form-step").addClass("hide").next(".form-step").removeClass("hide");
                 return false;
             });
             $section.find("#qualification-step-2").click(function(){
-                $(this).closest(".card-panel").addClass("hide").next(".card-panel").removeClass("hide");
+                $(this).closest(".form-step").addClass("hide").next(".form-step").removeClass("hide");
                 return false;
             })
+        }
+    });
+
+    $(function(){
+        if($(".section-view-thanks").length){
+            var $section = $(".section-view-thanks");
+
+            var h = $section.find(".form-step-content:first").height();
+            $section.find(".form-step-content").css("min-height", h + "px");
+            $section.find("#thanks-step-1, #thanks-step-2, #thanks-step-3").click(function(){
+                $(this).closest(".form-step").addClass("hide").next(".form-step").removeClass("hide");
+                return false;
+            });
         }
     });
 

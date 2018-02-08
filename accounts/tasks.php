@@ -20,7 +20,15 @@
     <?php include("section-header.php"); ?>
 
     <main>
-
+        <nav class="breadcrumb-container">
+            <div class="container narrow nav-wrapper">
+                <div class="col s12">
+                    <a href="javascript:;" class="breadcrumb">Home</a>
+                    <a href="javascript:;" class="breadcrumb">Property details</a>
+                    <a href="javascript:;" class="breadcrumb">Address Details</a>
+                </div>
+            </div>
+        </nav>
         <section class="sp-secondary-text section-tasks">
             <div class="container narrow">
                 <h3 class="center-align margin-top-0">Few tasks before we get your property to the market</h3>
@@ -30,7 +38,7 @@
                     <div class="card-content grey lighten-2">
                         <h5>
                             <i class="material-icons vertical-middle">security</i>
-                            Verify Your Identity <span class="small red-text">(Action Required)</span>
+                            Verify Your Identity <span class="small green-text text-darken-2">(Completed)</span>
                         </h5>
                     </div>
                     <div class="card-content">

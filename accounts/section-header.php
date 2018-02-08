@@ -25,7 +25,7 @@
         <li><a href="feedback.php"><i class="material-icons">feedback</i> Feedback</a></li>
         <li><a href="offers.php"><i class="material-icons">local_offer</i> Offers</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="message.php"><i class="material-icons">email</i> Messages</a></li>
+        <li><a href="message.php"><i class="material-icons">email</i> Messages <span class="label green darken-1 white-text">1</span></a></li>
         <li><a href="profile.php"><i class="material-icons">account_circle</i> My Account</a></li>
         <li><a href="signin.php"><i class="material-icons">exit_to_app</i> Logout</a></li>
         <li class="help-banner">

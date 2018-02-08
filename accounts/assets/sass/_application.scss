@@ -3,11 +3,11 @@ body{
 }
 @media #{$large-and-up} {
     main, footer{
-        padding-left: 260px;
+        padding-left: 280px;
     }
 }
 main > section {
-    padding: 40px 0;
+    padding: 60px 0 40px 0;
 }
 
 h1, h2 {
@@ -110,6 +110,7 @@ a[href^=tel] {
         }
     }
 }*/
+
 .menu-button {
     font-size: 18px;
     font-weight: 700;

@@ -1,0 +1,47 @@
+.section-availability{
+  table{
+    border-bottom: 1px solid #ddd;
+
+    thead {
+      border-bottom: 0;
+    }
+    td{
+      padding: 5px 10px;
+      font-size: 13px;
+    }
+    th{
+      padding: 10px;
+    }
+    .td-action{
+      width: 50px;
+    }
+    .td-date{
+      width: 35%;
+    }
+    .td-time{
+      width: 110px;
+    }
+  }
+
+
+  @media #{$small-and-down} {
+    .repeated-days{
+      border: 1px solid #eee;
+
+      tbody{
+        tr{
+          padding: 10px;
+
+
+          td, .td-action{
+            display: block;
+            width: 95%;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+
+  }
+}
+

@@ -1,7 +1,7 @@
 <footer class="page-footer sp-secondary-text">
 
     <div class="footer-copyright">
-        <div class="container sp-secondary-text text-lighten-2">
+        <div class="container narrow sp-secondary-text text-lighten-2">
             <div class="center-align">
                 <strong>&copy; 2015 Springbok Properties</strong>
             </div>

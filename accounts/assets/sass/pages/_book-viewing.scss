@@ -1,5 +1,14 @@
 .section-book-viewing{
 
+  .card-option{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .special-header{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
   .viewNext span, .viewPrev span{
     line-height: 24px;
     vertical-align: top;
@@ -38,6 +47,14 @@
       float: left;
       margin: 0.5%;
       width: 19%;
+    }
+  }
+  @media #{$small-and-down} {
+    .card-option{
+      h5{
+        margin-bottom: 15px;
+        text-align: center;
+      }
     }
   }
 }

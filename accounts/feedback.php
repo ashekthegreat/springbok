@@ -31,11 +31,11 @@
         </nav>
         <section class="sp-secondary-text section-feedback">
             <div class="container narrow">
-                <h3 class="center-align margin-bottom-25">Viewing Feedback For 12, Furlong Avenue</h3>
-                <div class="card-panel spaced">
-                    <form id="feedForm" action="" method="post" name="feedForm" class="WF_FEED">
-                        <h5>How did the viewing go?</h5>
-                        <div>
+                <h3 class="margin-bottom-25">Viewing Feedback For 12, Furlong Avenue</h3>
+                <form id="feedForm" action="" method="post" name="feedForm" class="WF_FEED">
+                    <div class="row margin-bottom-15">
+                        <div class="col s12 m7">
+                            <label>How did the viewing go?</label>
                             <p>
                                 <input name="how_did_the_viewing_go" type="radio" id="how_did_the_viewing_go1" value="Excellent / Very Interested">
                                 <label for="how_did_the_viewing_go1">Excellent: very interested</label>
@@ -53,20 +53,34 @@
                                 <label for="how_did_the_viewing_go4">Not sure</label>
                             </p>
                         </div>
+                    </div>
 
-                        <h5 class="margin-top-40">What did you think of the property?</h5>
-                        <textarea class="materialize-textarea no-padding" id="what_do_you_think_of_property" name="what_do_you_think_of_property"></textarea>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m7">
+                            <label>What did you think of the property?</label>
+                            <textarea class="" id="what_do_you_think_of_property" name="what_do_you_think_of_property"></textarea>
+                        </div>
+                    </div>
 
-                        <h5 class="margin-top-40">What aspects did you like?</h5>
-                        <textarea class="materialize-textarea no-padding" id="what_aspects_did_you_like" name="what_aspects_did_you_like"></textarea>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m7">
+                            <label>What aspects did you like?</label>
+                            <textarea class="" id="what_aspects_did_you_like" name="what_aspects_did_you_like"></textarea>
+                        </div>
+                    </div>
 
 
-                        <h5 class="margin-top-40">What value would you put on the property?</h5>
-                        <input type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" id="what_value_would_you_put_on_the_property" name="what_value_would_you_put_on_the_property">
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m7">
+                            <label>What value would you put on the property?</label>
+                            <input type="text" onkeyup="if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,'')" id="what_value_would_you_put_on_the_property" name="what_value_would_you_put_on_the_property">
+                        </div>
+                    </div>
 
 
-                        <h5 class="margin-top-40">Would you like to make an offer?</h5>
-                        <div>
+                    <div class="row margin-bottom-15">
+                        <div class="col s12 m7">
+                            <label>Would you like to make an offer?</label>
                             <p>
                                 <input name="would_you_like_make_an_offer" type="radio" id="would_you_like_make_an_offer1" value="Yes, Offer Made">
                                 <label for="would_you_like_make_an_offer1">Yes, offer made</label>
@@ -88,22 +102,30 @@
                                 <label for="would_you_like_make_an_offer5">Not interested in making an offer</label>
                             </p>
                         </div>
+                    </div>
 
-                        <h5 class="margin-top-40">Additional notes</h5>
-                        <textarea class="materialize-textarea no-padding" id="feedback" name="feedback"></textarea>
-
-
-                        <input type="hidden" name="leads_id" id="leads_id" value="100">
-                        <input type="hidden" name="agencyId" id="agencyId" value="1">
-                        <input type="hidden" name="bookingId" id="bookingId" value="415">
-                        <input type="hidden" name="agent_ref" id="agent_ref" value="274134">
-
-                        <div class="center-align margin-bottom-25 margin-top-40">
-                            <button class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text" type="submit">Send Feedback</button>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m7">
+                            <label>Additional notes</label>
+                            <textarea class="" id="feedback" name="feedback"></textarea>
                         </div>
-                    </form>
-                </div>
+                    </div>
 
+
+                    <input type="hidden" name="leads_id" id="leads_id" value="100">
+                    <input type="hidden" name="agencyId" id="agencyId" value="1">
+                    <input type="hidden" name="bookingId" id="bookingId" value="415">
+                    <input type="hidden" name="agent_ref" id="agent_ref" value="274134">
+
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m7">
+                            <div class="right-align margin-bottom-25 margin-top-25">
+                                <button class="waves-effect waves-light btn btn-large btn-block-on-small sp-primary sp-secondary-text" type="submit">Send Feedback</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
 
             </div>
         </section>

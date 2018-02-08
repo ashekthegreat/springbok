@@ -20,7 +20,15 @@
     <?php include("section-header.php"); ?>
 
     <main>
-
+        <nav class="breadcrumb-container">
+            <div class="container narrow nav-wrapper">
+                <div class="col s12">
+                    <a href="javascript:;" class="breadcrumb">Home</a>
+                    <a href="javascript:;" class="breadcrumb">Property details</a>
+                    <a href="javascript:;" class="breadcrumb">Address Details</a>
+                </div>
+            </div>
+        </nav>
         <section class="sp-secondary-text">
             <div class="container narrow">
                 <h4 class="center-align margin-bottom-40">5, Ridgeway Lane, BS14 9PP, Whitchurch</h4>
@@ -44,7 +52,14 @@
                                         Property valuation has been done.
                                     </div>
                                 </div>
-                                <div class="collapsible-body">Abbi Richards has valued your property.</div>
+                                <div class="collapsible-body">
+                                    Abbi Richards has valued your property.
+                                    <div class="margin-top-15">
+                                        <a href="#" class="waves-effect waves-light btn btn-block-on-small sp-secondary lighten-2 white-text">Edit Info</a>
+                                        <a href="#" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Reschedule</a>
+                                        <a href="#" class="waves-effect waves-light btn btn-block-on-small sp-secondary lighten-5 sp-secondary-text">Cancel</a>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>

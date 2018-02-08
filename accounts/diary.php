@@ -20,10 +20,18 @@
     <?php include("section-header.php"); ?>
 
     <main>
-
+        <nav class="breadcrumb-container">
+            <div class="container narrow nav-wrapper">
+                <div class="col s12">
+                    <a href="javascript:;" class="breadcrumb">Home</a>
+                    <a href="javascript:;" class="breadcrumb">Property details</a>
+                    <a href="javascript:;" class="breadcrumb">Address Details</a>
+                </div>
+            </div>
+        </nav>
         <section class="sp-secondary-text section-diary">
             <div class="container narrow">
-                <h4 class="center-align margin-bottom-30">Your Appointments</h4>
+                <h3 class="center-align margin-bottom-30">Your Appointments</h3>
 
                 <div class="card white sp-secondary-text">
                     <div class="card-content">
@@ -69,7 +77,7 @@
                     <div class="key">
                         <div class="key-legend key-not-set"></div>
                         <div class="key-description">
-                            <p class="tiny"><b>No set availibility for viewings </b><br>You have not specified your availability. We will provisionally book viewings for you to confirm.</p>
+                            <p class="tiny"><b>No set availability for viewings </b><br>You have not specified your availability. We will provisionally book viewings for you to confirm.</p>
                         </div>
                     </div>
                     <div class="key">
@@ -90,6 +98,21 @@
         </section>
 
     </main>
+    <!-- Modal Structure -->
+    <div id="diary-modal" class="modal">
+        <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p class="message message-available">You are available for viewings. We will automatically book viewings for you.</p>
+            <p class="message message-arranged">You have viewing appointments. Please check your availability</p>
+            <p class="message message-appointment">You have other appointments, such as valuations. Please check your availability.</p>
+            <p class="message message-no-set">You have not specified your availability. We will provisionally book viewings for you to confirm.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="javascript:;" class="modal-action modal-close waves-effect waves-light btn btn-block-on-small sp-secondary lighten-5 sp-secondary-text margin-left-5">Close</a>
+            <a href="availability.php" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text margin-left-5">Reschedule</a>
+            <a href="availability.php" class="waves-effect waves-light btn btn-block-on-small sp-secondary lighten-2 white-text margin-left-5">Suggest a New Time</a>
+        </div>
+    </div>
 
     <?php include("section-footer.php"); ?>
 </body>

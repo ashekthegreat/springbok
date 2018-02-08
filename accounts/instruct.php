@@ -20,7 +20,15 @@
     <?php include("section-header.php"); ?>
 
     <main>
-
+        <nav class="breadcrumb-container">
+            <div class="container narrow nav-wrapper">
+                <div class="col s12">
+                    <a href="javascript:;" class="breadcrumb">Home</a>
+                    <a href="javascript:;" class="breadcrumb">Property details</a>
+                    <a href="javascript:;" class="breadcrumb">Address Details</a>
+                </div>
+            </div>
+        </nav>
         <section class="sp-secondary-text section-instruct">
             <div class="container narrow">
                 <h3 class="center-align margin-bottom-30">Choose Services</h3>
@@ -78,8 +86,8 @@
                     <input type="hidden" name="bookingId" value="" id="bookingId">
                     <input type="hidden" name="optedServsBox" value="" id="optedServsBox">
                     <div class="center-align margin-top-40">
-                            <input type="checkbox" name="accept" id="accept" value="acceptTerms">
-                            <label for="accept">I accept the <a href="#" target="_blank">Terms & Conditions</a> for accounts</label>
+                        <input type="checkbox" class="filled-in" name="accept" id="accept" value="acceptTerms">
+                        <label for="accept">I accept the <a href="#" target="_blank">Terms & Conditions</a> for accounts</label>
                     </div>
                     <div class="center-align margin-top-30">
                         <button type="submit" name="instruct" id="instruct" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Instruct</button>

@@ -1,0 +1,20 @@
+.section-performance{
+  .video-container-wrapper{
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .performance-list{
+    .performance-list-item{
+      border-bottom: 1px solid #ddd;
+
+      .item-title{
+        float: left;
+        padding: 5px 0;
+      }
+      .item-value{
+        float: right;
+        padding: 5px 0;
+      }
+    }
+  }
+}

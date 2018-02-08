@@ -1,0 +1,82 @@
+main{
+    padding-bottom: 40px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    margin-bottom: 15px;
+
+    .input-group-addon {
+        padding: 0 12px 0 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1;
+        color: #555;
+        width: 1%;
+        vertical-align: middle;
+        display: table-cell;
+        white-space: nowrap;
+    }
+    input {
+        position: relative;
+        z-index: 2;
+        float: left;
+        width: 100%;
+        display: table-cell;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        margin: 0;
+        box-sizing: border-box;
+        height: 36px;
+        background: color("sp-primary", "lighten-5");
+    }
+}
+@media #{$small-and-down} {
+    .input-group{
+        display: block;
+        .input-group-addon {
+            display: block;
+            width: auto;
+            white-space: normal;
+        }
+        input {
+            display: block;
+            margin-bottom: 15px;
+            float: none;
+        }
+    }
+}
+
+.signature-container{
+    box-shadow: 0 0 18px rgba(0,0,0,.1) inset;
+    border: 1px solid #d5d5d5;
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+
+    input{
+        margin: 0;
+    }
+
+    /*.signature-canvas-wrapper{
+        position: relative;
+
+        .base-line{
+            position: absolute;
+            bottom: 30px;
+            right: 10px;
+            left: 10px;
+            background: color("sp-secondary", "lighten-5");
+            height: 2px;
+            z-index: 1;
+        }
+    }*/
+
+    #signature-canvas{
+        border: 1px solid #ccc;
+        font-family: 'Gochi Hand', cursive;
+        background: #ffffe9;
+    }
+}
+

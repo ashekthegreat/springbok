@@ -1,0 +1,13 @@
+.section-restrictions{
+  .extra-data{
+    display: none;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  [type="checkbox"]:checked{
+
+    & + * + .extra-data{
+      display: block;
+    }
+  }
+}

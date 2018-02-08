@@ -2043,7 +2043,6 @@ video.responsive-video {
   line-height: 22px;
   float: left;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 /* line 274, ../sass/components/_global.scss */
 .breadcrumb-container .nav-wrapper, .breadcrumb-container .col {
@@ -3277,761 +3276,771 @@ input[type=range] + .thumb {
 .container.narrow {
   max-width: 800px;
 }
+@media only screen and (min-width: 993px) {
+  /* line 1, ../sass/components/_grid.scss */
+  .container {
+    margin: 0 auto 0 0;
+  }
+}
+/* line 15, ../sass/components/_grid.scss */
+.container .center {
+  margin: 0 auto !important;
+}
 
 @media only screen and (min-width: 601px) {
-  /* line 14, ../sass/components/_grid.scss */
+  /* line 20, ../sass/components/_grid.scss */
   .container {
     /*width: 85%;*/
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 19, ../sass/components/_grid.scss */
+  /* line 25, ../sass/components/_grid.scss */
   .container {
     /*width: 70%;*/
   }
 }
-/* line 23, ../sass/components/_grid.scss */
+/* line 29, ../sass/components/_grid.scss */
 .container .row {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
 }
 
-/* line 28, ../sass/components/_grid.scss */
+/* line 34, ../sass/components/_grid.scss */
 .section {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 32, ../sass/components/_grid.scss */
+/* line 38, ../sass/components/_grid.scss */
 .section.no-pad {
   padding: 0;
 }
-/* line 35, ../sass/components/_grid.scss */
+/* line 41, ../sass/components/_grid.scss */
 .section.no-pad-bot {
   padding-bottom: 0;
 }
-/* line 38, ../sass/components/_grid.scss */
+/* line 44, ../sass/components/_grid.scss */
 .section.no-pad-top {
   padding-top: 0;
 }
 
-/* line 44, ../sass/components/_grid.scss */
+/* line 50, ../sass/components/_grid.scss */
 .row {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
 }
-/* line 50, ../sass/components/_grid.scss */
+/* line 56, ../sass/components/_grid.scss */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 56, ../sass/components/_grid.scss */
+/* line 62, ../sass/components/_grid.scss */
 .row .col {
   float: left;
   box-sizing: border-box;
   padding: 0 0.75rem;
 }
-/* line 61, ../sass/components/_grid.scss */
+/* line 67, ../sass/components/_grid.scss */
 .row .col[class*="push-"], .row .col[class*="pull-"] {
   position: relative;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s1 {
   width: 8.33333%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s2 {
   width: 16.66667%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s3 {
   width: 25%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s4 {
   width: 33.33333%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s5 {
   width: 41.66667%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s6 {
   width: 50%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s7 {
   width: 58.33333%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s8 {
   width: 66.66667%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s9 {
   width: 75%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s10 {
   width: 83.33333%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s11 {
   width: 91.66667%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 69, ../sass/components/_grid.scss */
+/* line 75, ../sass/components/_grid.scss */
 .row .col.s12 {
   width: 100%;
   margin-left: auto;
   left: auto;
   right: auto;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s1 {
   margin-left: 8.33333%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s1 {
   right: 8.33333%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s1 {
   left: 8.33333%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s2 {
   margin-left: 16.66667%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s2 {
   right: 16.66667%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s2 {
   left: 16.66667%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s3 {
   margin-left: 25%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s3 {
   right: 25%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s3 {
   left: 25%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s4 {
   margin-left: 33.33333%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s4 {
   right: 33.33333%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s4 {
   left: 33.33333%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s5 {
   margin-left: 41.66667%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s5 {
   right: 41.66667%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s5 {
   left: 41.66667%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s6 {
   margin-left: 50%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s6 {
   right: 50%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s6 {
   left: 50%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s7 {
   margin-left: 58.33333%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s7 {
   right: 58.33333%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s7 {
   left: 58.33333%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s8 {
   margin-left: 66.66667%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s8 {
   right: 66.66667%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s8 {
   left: 66.66667%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s9 {
   margin-left: 75%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s9 {
   right: 75%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s9 {
   left: 75%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s10 {
   margin-left: 83.33333%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s10 {
   right: 83.33333%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s10 {
   left: 83.33333%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s11 {
   margin-left: 91.66667%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s11 {
   right: 91.66667%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s11 {
   left: 91.66667%;
 }
-/* line 81, ../sass/components/_grid.scss */
+/* line 87, ../sass/components/_grid.scss */
 .row .col.offset-s12 {
   margin-left: 100%;
 }
-/* line 84, ../sass/components/_grid.scss */
+/* line 90, ../sass/components/_grid.scss */
 .row .col.pull-s12 {
   right: 100%;
 }
-/* line 87, ../sass/components/_grid.scss */
+/* line 93, ../sass/components/_grid.scss */
 .row .col.push-s12 {
   left: 100%;
 }
 @media only screen and (min-width: 601px) {
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m1 {
     width: 8.33333%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m2 {
     width: 16.66667%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m3 {
     width: 25%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m4 {
     width: 33.33333%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m5 {
     width: 41.66667%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m6 {
     width: 50%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m7 {
     width: 58.33333%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m8 {
     width: 66.66667%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m9 {
     width: 75%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m10 {
     width: 83.33333%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m11 {
     width: 91.66667%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 98, ../sass/components/_grid.scss */
+  /* line 104, ../sass/components/_grid.scss */
   .row .col.m12 {
     width: 100%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m1 {
     margin-left: 8.33333%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m1 {
     right: 8.33333%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m1 {
     left: 8.33333%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m2 {
     margin-left: 16.66667%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m2 {
     right: 16.66667%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m2 {
     left: 16.66667%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m3 {
     margin-left: 25%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m3 {
     right: 25%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m3 {
     left: 25%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m4 {
     margin-left: 33.33333%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m4 {
     right: 33.33333%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m4 {
     left: 33.33333%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m5 {
     margin-left: 41.66667%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m5 {
     right: 41.66667%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m5 {
     left: 41.66667%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m6 {
     margin-left: 50%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m6 {
     right: 50%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m6 {
     left: 50%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m7 {
     margin-left: 58.33333%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m7 {
     right: 58.33333%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m7 {
     left: 58.33333%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m8 {
     margin-left: 66.66667%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m8 {
     right: 66.66667%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m8 {
     left: 66.66667%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m9 {
     margin-left: 75%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m9 {
     right: 75%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m9 {
     left: 75%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m10 {
     margin-left: 83.33333%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m10 {
     right: 83.33333%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m10 {
     left: 83.33333%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m11 {
     margin-left: 91.66667%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m11 {
     right: 91.66667%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m11 {
     left: 91.66667%;
   }
-  /* line 110, ../sass/components/_grid.scss */
+  /* line 116, ../sass/components/_grid.scss */
   .row .col.offset-m12 {
     margin-left: 100%;
   }
-  /* line 113, ../sass/components/_grid.scss */
+  /* line 119, ../sass/components/_grid.scss */
   .row .col.pull-m12 {
     right: 100%;
   }
-  /* line 116, ../sass/components/_grid.scss */
+  /* line 122, ../sass/components/_grid.scss */
   .row .col.push-m12 {
     left: 100%;
   }
 }
 @media only screen and (min-width: 993px) {
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l1 {
     width: 8.33333%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l2 {
     width: 16.66667%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l3 {
     width: 25%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l4 {
     width: 33.33333%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l5 {
     width: 41.66667%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l6 {
     width: 50%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l7 {
     width: 58.33333%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l8 {
     width: 66.66667%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l9 {
     width: 75%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l10 {
     width: 83.33333%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l11 {
     width: 91.66667%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 128, ../sass/components/_grid.scss */
+  /* line 134, ../sass/components/_grid.scss */
   .row .col.l12 {
     width: 100%;
     margin-left: auto;
     left: auto;
     right: auto;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l1 {
     margin-left: 8.33333%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l1 {
     right: 8.33333%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l1 {
     left: 8.33333%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l2 {
     margin-left: 16.66667%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l2 {
     right: 16.66667%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l2 {
     left: 16.66667%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l3 {
     margin-left: 25%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l3 {
     right: 25%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l3 {
     left: 25%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l4 {
     margin-left: 33.33333%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l4 {
     right: 33.33333%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l4 {
     left: 33.33333%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l5 {
     margin-left: 41.66667%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l5 {
     right: 41.66667%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l5 {
     left: 41.66667%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l6 {
     margin-left: 50%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l6 {
     right: 50%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l6 {
     left: 50%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l7 {
     margin-left: 58.33333%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l7 {
     right: 58.33333%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l7 {
     left: 58.33333%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l8 {
     margin-left: 66.66667%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l8 {
     right: 66.66667%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l8 {
     left: 66.66667%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l9 {
     margin-left: 75%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l9 {
     right: 75%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l9 {
     left: 75%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l10 {
     margin-left: 83.33333%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l10 {
     right: 83.33333%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l10 {
     left: 83.33333%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l11 {
     margin-left: 91.66667%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l11 {
     right: 91.66667%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l11 {
     left: 91.66667%;
   }
-  /* line 140, ../sass/components/_grid.scss */
+  /* line 146, ../sass/components/_grid.scss */
   .row .col.offset-l12 {
     margin-left: 100%;
   }
-  /* line 143, ../sass/components/_grid.scss */
+  /* line 149, ../sass/components/_grid.scss */
   .row .col.pull-l12 {
     right: 100%;
   }
-  /* line 146, ../sass/components/_grid.scss */
+  /* line 152, ../sass/components/_grid.scss */
   .row .col.push-l12 {
     left: 100%;
   }
 }
 
-/* line 155, ../sass/components/_grid.scss */
+/* line 161, ../sass/components/_grid.scss */
 .flexbox {
   display: block;
 }
 
 @media only screen and (min-width: 601px) {
-  /* line 163, ../sass/components/_grid.scss */
+  /* line 169, ../sass/components/_grid.scss */
   .flexbox {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -4040,7 +4049,7 @@ input[type=range] + .thumb {
     margin-left: -0.75rem;
     margin-right: -0.75rem;
   }
-  /* line 171, ../sass/components/_grid.scss */
+  /* line 177, ../sass/components/_grid.scss */
   .flexbox .col {
     flex: 1;
     align-items: center;
@@ -4308,7 +4317,7 @@ html {
 
 /* line 25, ../sass/components/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 900;
+  font-weight: 300;
   line-height: 1.1;
 }
 
@@ -5124,7 +5133,7 @@ small {
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 400;
 }
 /* line 62, ../sass/components/_buttons.scss */
 .btn:hover, .btn-large:hover {
@@ -5273,6 +5282,11 @@ button.btn-floating {
     margin-top: 10px;
   }
 }
+/* line 213, ../sass/components/_buttons.scss */
+.btn-narrow {
+  padding: 0 10px;
+}
+
 /* line 1, ../sass/components/_dropdown.scss */
 .dropdown-content {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 6px 10px 0 rgba(0, 0, 0, 0.12);
@@ -5708,7 +5722,14 @@ button:focus {
 /* line 11, ../sass/components/forms/_forms.scss */
 label {
   font-size: 0.8rem;
-  color: #9e9e9e;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  margin: 0;
+  padding: .25em 0;
+  display: block;
 }
 
 /* Text Inputs + Textarea
@@ -5716,24 +5737,24 @@ label {
 /* Style Placeholders */
 /* line 6, ../sass/components/forms/_input-fields.scss */
 ::-webkit-input-placeholder {
-  color: #d1d1d1;
+  color: rgba(128, 128, 128, 0.87);
 }
 
 /* line 10, ../sass/components/forms/_input-fields.scss */
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #d1d1d1;
+  color: rgba(128, 128, 128, 0.87);
 }
 
 /* line 14, ../sass/components/forms/_input-fields.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #d1d1d1;
+  color: rgba(128, 128, 128, 0.87);
 }
 
 /* line 18, ../sass/components/forms/_input-fields.scss */
 :-ms-input-placeholder {
-  color: #d1d1d1;
+  color: rgba(128, 128, 128, 0.87);
 }
 
 /* Text inputs */
@@ -5750,22 +5771,45 @@ input[type=datetime-local],
 input[type=tel],
 input[type=number],
 input[type=search],
-textarea.materialize-textarea {
+textarea.materialize-textarea,
+select.old {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #9e9e9e;
-  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.22);
   outline: none;
-  height: 3rem;
+  height: 64px;
   width: 100%;
-  font-size: 1rem;
+  font-size: 16px;
   margin: 0 0 15px 0;
-  padding: 0;
+  padding: 0 20px;
   box-shadow: none;
-  box-sizing: content-box;
+  box-sizing: border-box;
   transition: all 0.3s;
+  font-weight: 400;
+  border-radius: 3px;
+  /*max-width: 450px;*/
+  color: rgba(0, 0, 0, 0.87);
 }
-/* line 54, ../sass/components/forms/_input-fields.scss */
+@media only screen and (max-width: 600px) {
+  /* line 24, ../sass/components/forms/_input-fields.scss */
+  input:not([type]),
+  input[type=text],
+  input[type=password],
+  input[type=email],
+  input[type=url],
+  input[type=time],
+  input[type=date],
+  input[type=datetime],
+  input[type=datetime-local],
+  input[type=tel],
+  input[type=number],
+  input[type=search],
+  textarea.materialize-textarea,
+  select.old {
+    padding: 0 10px;
+  }
+}
+/* line 62, ../sass/components/forms/_input-fields.scss */
 input:not([type]):disabled, input:not([type])[readonly="readonly"],
 input[type=text]:disabled,
 input[type=text][readonly="readonly"],
@@ -5790,11 +5834,13 @@ input[type=number][readonly="readonly"],
 input[type=search]:disabled,
 input[type=search][readonly="readonly"],
 textarea.materialize-textarea:disabled,
-textarea.materialize-textarea[readonly="readonly"] {
+textarea.materialize-textarea[readonly="readonly"],
+select.old:disabled,
+select.old[readonly="readonly"] {
   color: rgba(0, 0, 0, 0.26);
-  border-bottom: 1px dotted rgba(0, 0, 0, 0.26);
+  /*border-bottom: $input-disabled-border;*/
 }
-/* line 61, ../sass/components/forms/_input-fields.scss */
+/* line 69, ../sass/components/forms/_input-fields.scss */
 input:not([type]):disabled + label, input:not([type])[readonly="readonly"] + label,
 input[type=text]:disabled + label,
 input[type=text][readonly="readonly"] + label,
@@ -5819,10 +5865,12 @@ input[type=number][readonly="readonly"] + label,
 input[type=search]:disabled + label,
 input[type=search][readonly="readonly"] + label,
 textarea.materialize-textarea:disabled + label,
-textarea.materialize-textarea[readonly="readonly"] + label {
+textarea.materialize-textarea[readonly="readonly"] + label,
+select.old:disabled + label,
+select.old[readonly="readonly"] + label {
   color: rgba(0, 0, 0, 0.26);
 }
-/* line 67, ../sass/components/forms/_input-fields.scss */
+/* line 75, ../sass/components/forms/_input-fields.scss */
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
 input[type=password]:focus:not([readonly]),
@@ -5835,11 +5883,12 @@ input[type=datetime-local]:focus:not([readonly]),
 input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
-textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #6a676e;
-  box-shadow: 0 1px 0 0 #6a676e;
+textarea.materialize-textarea:focus:not([readonly]),
+select.old:focus:not([readonly]) {
+  /*border-bottom: 1px solid $input-focus-color;
+  box-shadow: 0 1px 0 0 $input-focus-color;*/
 }
-/* line 73, ../sass/components/forms/_input-fields.scss */
+/* line 81, ../sass/components/forms/_input-fields.scss */
 input:not([type]):focus:not([readonly]) + label,
 input[type=text]:focus:not([readonly]) + label,
 input[type=password]:focus:not([readonly]) + label,
@@ -5852,10 +5901,11 @@ input[type=datetime-local]:focus:not([readonly]) + label,
 input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
-textarea.materialize-textarea:focus:not([readonly]) + label {
+textarea.materialize-textarea:focus:not([readonly]) + label,
+select.old:focus:not([readonly]) + label {
   color: #6a676e;
 }
-/* line 78, ../sass/components/forms/_input-fields.scss */
+/* line 86, ../sass/components/forms/_input-fields.scss */
 input:not([type]).valid, input:not([type]):focus.valid,
 input[type=text].valid,
 input[type=text]:focus.valid,
@@ -5880,11 +5930,13 @@ input[type=number]:focus.valid,
 input[type=search].valid,
 input[type=search]:focus.valid,
 textarea.materialize-textarea.valid,
-textarea.materialize-textarea:focus.valid {
-  border-bottom: 1px solid #4CAF50;
-  box-shadow: 0 1px 0 0 #4CAF50;
+textarea.materialize-textarea:focus.valid,
+select.old.valid,
+select.old:focus.valid {
+  /*border-bottom: 1px solid $input-success-color;
+  box-shadow: 0 1px 0 0 $input-success-color;*/
 }
-/* line 85, ../sass/components/forms/_input-fields.scss */
+/* line 93, ../sass/components/forms/_input-fields.scss */
 input:not([type]).valid + label:after, input:not([type]):focus.valid + label:after,
 input[type=text].valid + label:after,
 input[type=text]:focus.valid + label:after,
@@ -5909,12 +5961,14 @@ input[type=number]:focus.valid + label:after,
 input[type=search].valid + label:after,
 input[type=search]:focus.valid + label:after,
 textarea.materialize-textarea.valid + label:after,
-textarea.materialize-textarea:focus.valid + label:after {
+textarea.materialize-textarea:focus.valid + label:after,
+select.old.valid + label:after,
+select.old:focus.valid + label:after {
   content: attr(data-success);
   color: #4CAF50;
   opacity: 1;
 }
-/* line 93, ../sass/components/forms/_input-fields.scss */
+/* line 101, ../sass/components/forms/_input-fields.scss */
 input:not([type]).invalid, input:not([type]):focus.invalid,
 input[type=text].invalid,
 input[type=text]:focus.invalid,
@@ -5939,11 +5993,13 @@ input[type=number]:focus.invalid,
 input[type=search].invalid,
 input[type=search]:focus.invalid,
 textarea.materialize-textarea.invalid,
-textarea.materialize-textarea:focus.invalid {
-  border-bottom: 1px solid #F44336;
-  box-shadow: 0 1px 0 0 #F44336;
+textarea.materialize-textarea:focus.invalid,
+select.old.invalid,
+select.old:focus.invalid {
+  /*border-bottom: $input-invalid-border;
+  box-shadow: 0 1px 0 0 $input-error-color;*/
 }
-/* line 100, ../sass/components/forms/_input-fields.scss */
+/* line 108, ../sass/components/forms/_input-fields.scss */
 input:not([type]).invalid + label:after, input:not([type]):focus.invalid + label:after,
 input[type=text].invalid + label:after,
 input[type=text]:focus.invalid + label:after,
@@ -5968,12 +6024,14 @@ input[type=number]:focus.invalid + label:after,
 input[type=search].invalid + label:after,
 input[type=search]:focus.invalid + label:after,
 textarea.materialize-textarea.invalid + label:after,
-textarea.materialize-textarea:focus.invalid + label:after {
+textarea.materialize-textarea:focus.invalid + label:after,
+select.old.invalid + label:after,
+select.old:focus.invalid + label:after {
   content: attr(data-error);
   color: #F44336;
   opacity: 1;
 }
-/* line 108, ../sass/components/forms/_input-fields.scss */
+/* line 116, ../sass/components/forms/_input-fields.scss */
 input:not([type]).validate + label,
 input[type=text].validate + label,
 input[type=password].validate + label,
@@ -5986,11 +6044,12 @@ input[type=datetime-local].validate + label,
 input[type=tel].validate + label,
 input[type=number].validate + label,
 input[type=search].validate + label,
-textarea.materialize-textarea.validate + label {
+textarea.materialize-textarea.validate + label,
+select.old.validate + label {
   width: 100%;
   pointer-events: none;
 }
-/* line 114, ../sass/components/forms/_input-fields.scss */
+/* line 122, ../sass/components/forms/_input-fields.scss */
 input:not([type]) + label:after,
 input[type=text] + label:after,
 input[type=password] + label:after,
@@ -6003,7 +6062,8 @@ input[type=datetime-local] + label:after,
 input[type=tel] + label:after,
 input[type=number] + label:after,
 input[type=search] + label:after,
-textarea.materialize-textarea + label:after {
+textarea.materialize-textarea + label:after,
+select.old + label:after {
   display: block;
   content: "";
   position: absolute;
@@ -6012,14 +6072,14 @@ textarea.materialize-textarea + label:after {
   transition: .2s opacity ease-out, .2s color ease-out;
 }
 
-/* line 125, ../sass/components/forms/_input-fields.scss */
+/* line 133, ../sass/components/forms/_input-fields.scss */
 .input-field {
   position: relative;
   margin-top: 1rem;
 }
-/* line 129, ../sass/components/forms/_input-fields.scss */
+/* line 137, ../sass/components/forms/_input-fields.scss */
 .input-field label {
-  color: #9e9e9e;
+  color: #bdbdbd;
   position: absolute;
   top: 0.8rem;
   left: 0.75rem;
@@ -6027,46 +6087,46 @@ textarea.materialize-textarea + label:after {
   cursor: text;
   transition: .2s ease-out;
 }
-/* line 139, ../sass/components/forms/_input-fields.scss */
+/* line 147, ../sass/components/forms/_input-fields.scss */
 .input-field label.active {
   font-size: 0.8rem;
   transform: translateY(-140%);
 }
-/* line 145, ../sass/components/forms/_input-fields.scss */
+/* line 153, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix {
   position: absolute;
-  width: 3rem;
+  width: 64px;
   font-size: 2rem;
   transition: color .2s;
 }
-/* line 151, ../sass/components/forms/_input-fields.scss */
+/* line 159, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix.active {
   color: #6a676e;
 }
-/* line 154, ../sass/components/forms/_input-fields.scss */
+/* line 162, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix ~ input,
 .input-field .prefix ~ textarea {
   margin-left: 3rem;
   width: 92%;
   width: calc(100% - 3rem);
 }
-/* line 161, ../sass/components/forms/_input-fields.scss */
+/* line 169, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix ~ textarea {
   padding-top: .8rem;
 }
-/* line 162, ../sass/components/forms/_input-fields.scss */
+/* line 170, ../sass/components/forms/_input-fields.scss */
 .input-field .prefix ~ label {
   margin-left: 3rem;
 }
 @media only screen and (max-width: 992px) {
-  /* line 165, ../sass/components/forms/_input-fields.scss */
+  /* line 173, ../sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ input {
     width: 86%;
     width: calc(100% - 3rem);
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 172, ../sass/components/forms/_input-fields.scss */
+  /* line 180, ../sass/components/forms/_input-fields.scss */
   .input-field .prefix ~ input {
     width: 80%;
     width: calc(100% - 3rem);
@@ -6074,29 +6134,29 @@ textarea.materialize-textarea + label:after {
 }
 
 /* Search Field */
-/* line 182, ../sass/components/forms/_input-fields.scss */
+/* line 190, ../sass/components/forms/_input-fields.scss */
 .input-field input[type=search] {
   display: block;
   line-height: inherit;
   padding-left: 4rem;
   width: calc(100% - 4rem);
 }
-/* line 188, ../sass/components/forms/_input-fields.scss */
+/* line 196, ../sass/components/forms/_input-fields.scss */
 .input-field input[type=search]:focus {
   background-color: #fff;
   border: 0;
   box-shadow: none;
   color: #444;
 }
-/* line 194, ../sass/components/forms/_input-fields.scss */
+/* line 202, ../sass/components/forms/_input-fields.scss */
 .input-field input[type=search]:focus + label i, .input-field input[type=search]:focus ~ .mdi-navigation-close, .input-field input[type=search]:focus ~ .material-icons {
   color: #444;
 }
-/* line 201, ../sass/components/forms/_input-fields.scss */
+/* line 209, ../sass/components/forms/_input-fields.scss */
 .input-field input[type=search] + label {
   left: 1rem;
 }
-/* line 205, ../sass/components/forms/_input-fields.scss */
+/* line 213, ../sass/components/forms/_input-fields.scss */
 .input-field input[type=search] ~ .mdi-navigation-close, .input-field input[type=search] ~ .material-icons {
   position: absolute;
   top: 0;
@@ -6108,23 +6168,36 @@ textarea.materialize-textarea + label:after {
 }
 
 /* Textarea */
-/* line 221, ../sass/components/forms/_input-fields.scss */
+/* line 229, ../sass/components/forms/_input-fields.scss */
 textarea {
   width: 100%;
-  height: 3rem;
+  height: 128px;
   background-color: transparent;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  outline: none;
+  font-size: 16px;
+  margin: 0 0 15px 0;
+  padding: 0 20px;
+  box-shadow: none;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  font-weight: 400;
+  border-radius: 3px;
+  /*max-width: 450px;*/
+  color: rgba(0, 0, 0, 0.87);
 }
-/* line 226, ../sass/components/forms/_input-fields.scss */
+/* line 248, ../sass/components/forms/_input-fields.scss */
 textarea.materialize-textarea {
   overflow-y: hidden;
   /* prevents scroll bar flash */
   padding: 1.6rem 0;
   /* prevents text jump on Enter keypress */
   resize: none;
-  min-height: 3rem;
+  min-height: 64px;
 }
 
-/* line 235, ../sass/components/forms/_input-fields.scss */
+/* line 257, ../sass/components/forms/_input-fields.scss */
 .hiddendiv {
   display: none;
   white-space: pre-wrap;
@@ -6133,6 +6206,22 @@ textarea.materialize-textarea {
   /* future version of deprecated 'word-wrap' */
   padding-top: 1.2rem;
   /* prevents text jump on Enter keypress */
+}
+
+/* line 265, ../sass/components/forms/_input-fields.scss */
+.prefix {
+  position: absolute;
+  padding: 20px 10px 20px 10px;
+  height: 64px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.1;
+  width: 40px;
+  text-align: right;
+}
+/* line 275, ../sass/components/forms/_input-fields.scss */
+.prefix + input {
+  padding-left: 40px;
 }
 
 /* Radio Buttons
@@ -6150,6 +6239,8 @@ textarea.materialize-textarea {
 [type="radio"]:checked + label {
   position: relative;
   padding-left: 35px;
+  padding-top: 0;
+  padding-bottom: 0;
   cursor: pointer;
   display: inline-block;
   height: 25px;
@@ -6161,22 +6252,22 @@ textarea.materialize-textarea {
   user-select: none;
 }
 
-/* line 27, ../sass/components/forms/_radio-buttons.scss */
+/* line 29, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"] + label:before,
 [type="radio"] + label:after {
   content: '';
   position: absolute;
   left: 0;
   top: 0;
-  margin: 4px;
-  width: 16px;
-  height: 16px;
+  margin: 4px 0;
+  width: 18px;
+  height: 18px;
   z-index: 0;
   transition: .28s ease;
 }
 
 /* Unchecked styles */
-/* line 41, ../sass/components/forms/_radio-buttons.scss */
+/* line 43, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:not(:checked) + label:before,
 [type="radio"]:not(:checked) + label:after,
 [type="radio"]:checked + label:before,
@@ -6186,86 +6277,86 @@ textarea.materialize-textarea {
   border-radius: 50%;
 }
 
-/* line 50, ../sass/components/forms/_radio-buttons.scss */
+/* line 52, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:not(:checked) + label:before,
 [type="radio"]:not(:checked) + label:after {
   border: 2px solid #5a5a5a;
 }
 
-/* line 55, ../sass/components/forms/_radio-buttons.scss */
+/* line 57, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:not(:checked) + label:after {
   z-index: -1;
   transform: scale(0);
 }
 
 /* Checked styles */
-/* line 61, ../sass/components/forms/_radio-buttons.scss */
+/* line 63, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:checked + label:before {
   border: 2px solid transparent;
 }
 
-/* line 65, ../sass/components/forms/_radio-buttons.scss */
+/* line 67, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:before,
 [type="radio"].with-gap:checked + label:after {
   border: 2px solid #6a676e;
 }
 
-/* line 71, ../sass/components/forms/_radio-buttons.scss */
+/* line 73, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:checked + label:after,
 [type="radio"].with-gap:checked + label:after {
   background-color: #6a676e;
   z-index: 0;
 }
 
-/* line 77, ../sass/components/forms/_radio-buttons.scss */
+/* line 79, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:checked + label:after {
   transform: scale(1.02);
 }
 
 /* Radio With gap */
-/* line 82, ../sass/components/forms/_radio-buttons.scss */
+/* line 84, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"].with-gap:checked + label:after {
   transform: scale(0.5);
 }
 
 /* Focused styles */
-/* line 87, ../sass/components/forms/_radio-buttons.scss */
+/* line 89, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"].tabbed:focus + label:before {
   box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Disabled Radio With gap */
-/* line 92, ../sass/components/forms/_radio-buttons.scss */
+/* line 94, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"].with-gap:disabled:checked + label:before {
   border: 2px solid rgba(0, 0, 0, 0.26);
 }
 
-/* line 96, ../sass/components/forms/_radio-buttons.scss */
+/* line 98, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"].with-gap:disabled:checked + label:after {
   border: none;
   background-color: rgba(0, 0, 0, 0.26);
 }
 
 /* Disabled style */
-/* line 102, ../sass/components/forms/_radio-buttons.scss */
+/* line 104, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:disabled:not(:checked) + label:before,
 [type="radio"]:disabled:checked + label:before {
   background-color: transparent;
   border-color: rgba(0, 0, 0, 0.26);
 }
 
-/* line 108, ../sass/components/forms/_radio-buttons.scss */
+/* line 110, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:disabled + label {
   color: rgba(0, 0, 0, 0.26);
 }
 
-/* line 112, ../sass/components/forms/_radio-buttons.scss */
+/* line 114, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:disabled:not(:checked) + label:before {
   border-color: rgba(0, 0, 0, 0.26);
 }
 
-/* line 116, ../sass/components/forms/_radio-buttons.scss */
+/* line 118, ../sass/components/forms/_radio-buttons.scss */
 [type="radio"]:disabled:checked + label:after {
   background-color: rgba(0, 0, 0, 0.26);
   border-color: #BDBDBD;
@@ -6302,6 +6393,8 @@ form p:last-child {
 [type="checkbox"] + label {
   position: relative;
   padding-left: 35px;
+  padding-top: 0;
+  padding-bottom: 0;
   cursor: pointer;
   display: inline-block;
   height: 25px;
@@ -6316,7 +6409,7 @@ form p:last-child {
   -ms-user-select: none;
   /* IE10+ */
 }
-/* line 41, ../sass/components/forms/_checkboxes.scss */
+/* line 43, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"] + label:before, [type="checkbox"]:not(.filled-in) + label:after {
   content: '';
   position: absolute;
@@ -6330,17 +6423,17 @@ form p:last-child {
   margin-top: 2px;
   transition: .2s;
 }
-/* line 56, ../sass/components/forms/_checkboxes.scss */
+/* line 58, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"]:not(.filled-in) + label:after {
   border: 0;
   transform: scale(0);
 }
-/* line 61, ../sass/components/forms/_checkboxes.scss */
+/* line 63, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"]:not(:checked):disabled + label:before {
   border: none;
   background-color: rgba(0, 0, 0, 0.26);
 }
-/* line 67, ../sass/components/forms/_checkboxes.scss */
+/* line 69, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].tabbed:focus + label:after {
   transform: scale(1);
   border: 0;
@@ -6349,7 +6442,7 @@ form p:last-child {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 77, ../sass/components/forms/_checkboxes.scss */
+/* line 79, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"]:checked + label:before {
   top: -4px;
   left: -5px;
@@ -6363,14 +6456,14 @@ form p:last-child {
   backface-visibility: hidden;
   transform-origin: 100% 100%;
 }
-/* line 91, ../sass/components/forms/_checkboxes.scss */
+/* line 93, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"]:checked:disabled + label:before {
   border-right: 2px solid rgba(0, 0, 0, 0.26);
   border-bottom: 2px solid rgba(0, 0, 0, 0.26);
 }
 
 /* Indeterminate checkbox */
-/* line 99, ../sass/components/forms/_checkboxes.scss */
+/* line 101, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"]:indeterminate + label:before {
   top: -11px;
   left: -12px;
@@ -6384,17 +6477,17 @@ form p:last-child {
   backface-visibility: hidden;
   transform-origin: 100% 100%;
 }
-/* line 114, ../sass/components/forms/_checkboxes.scss */
+/* line 116, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"]:indeterminate:disabled + label:before {
   border-right: 2px solid rgba(0, 0, 0, 0.26);
   background-color: transparent;
 }
 
-/* line 123, ../sass/components/forms/_checkboxes.scss */
+/* line 125, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in + label:after {
   border-radius: 2px;
 }
-/* line 127, ../sass/components/forms/_checkboxes.scss */
+/* line 129, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in + label:before,
 [type="checkbox"].filled-in + label:after {
   content: '';
@@ -6404,7 +6497,7 @@ form p:last-child {
   transition: border .25s, background-color .25s, width .20s .1s, height .20s .1s, top .20s .1s, left .20s .1s;
   z-index: 1;
 }
-/* line 138, ../sass/components/forms/_checkboxes.scss */
+/* line 140, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:not(:checked) + label:before {
   width: 0;
   height: 0;
@@ -6416,66 +6509,66 @@ form p:last-child {
   -webkit-transform-origin: 20% 40%;
   transform-origin: 100% 100%;
 }
-/* line 151, ../sass/components/forms/_checkboxes.scss */
+/* line 153, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:not(:checked) + label:after {
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
   background-color: transparent;
   border: 2px solid #5a5a5a;
-  top: 0px;
+  top: 2px;
   z-index: 0;
 }
-/* line 162, ../sass/components/forms/_checkboxes.scss */
+/* line 164, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:checked + label:before {
   top: 0;
-  left: 1px;
+  left: 0;
   width: 8px;
-  height: 13px;
+  height: 14px;
   border-top: 2px solid transparent;
   border-left: 2px solid transparent;
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-right: 2px solid #6a676e;
+  border-bottom: 2px solid #6a676e;
   -webkit-transform: rotateZ(37deg);
   transform: rotateZ(37deg);
   -webkit-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
-/* line 178, ../sass/components/forms/_checkboxes.scss */
+/* line 180, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:checked + label:after {
-  top: 0;
-  width: 20px;
-  height: 20px;
+  top: 2px;
+  width: 18px;
+  height: 18px;
   border: 2px solid #6a676e;
-  background-color: #6a676e;
+  background-color: transparent;
   z-index: 0;
 }
-/* line 189, ../sass/components/forms/_checkboxes.scss */
+/* line 191, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in.tabbed:focus + label:after {
   border-radius: 2px;
   border-color: #5a5a5a;
   background-color: rgba(0, 0, 0, 0.1);
 }
-/* line 195, ../sass/components/forms/_checkboxes.scss */
+/* line 197, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in.tabbed:checked:focus + label:after {
   border-radius: 2px;
   background-color: #6a676e;
   border-color: #6a676e;
 }
-/* line 202, ../sass/components/forms/_checkboxes.scss */
+/* line 204, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:disabled:not(:checked) + label:before {
   background-color: transparent;
   border: 2px solid transparent;
 }
-/* line 207, ../sass/components/forms/_checkboxes.scss */
+/* line 209, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:disabled:not(:checked) + label:after {
   border-color: transparent;
   background-color: #BDBDBD;
 }
-/* line 212, ../sass/components/forms/_checkboxes.scss */
+/* line 214, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:disabled:checked + label:before {
   background-color: transparent;
 }
-/* line 216, ../sass/components/forms/_checkboxes.scss */
+/* line 218, ../sass/components/forms/_checkboxes.scss */
 [type="checkbox"].filled-in:disabled:checked + label:after {
   background-color: #BDBDBD;
   border-color: #BDBDBD;
@@ -6577,42 +6670,59 @@ select.browser-default {
   display: block;
 }
 
-/* line 7, ../sass/components/forms/_select.scss */
+/* line 8, ../sass/components/forms/_select.scss */
+select.old {
+  display: block;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  border-radius: 3px;
+  width: 100%;
+  height: 60px;
+  background-image: url(../images/arrow_drop_down_black_24px.svg);
+  background-position: right 20px center;
+  background-repeat: no-repeat;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* line 24, ../sass/components/forms/_select.scss */
 select {
   background-color: rgba(255, 255, 255, 0.9);
   width: 100%;
   padding: 5px;
   border: 1px solid #f2f2f2;
   border-radius: 2px;
-  height: 3rem;
+  height: 64px;
 }
 
-/* line 16, ../sass/components/forms/_select.scss */
+/* line 33, ../sass/components/forms/_select.scss */
 .select-label {
   position: absolute;
 }
 
-/* line 20, ../sass/components/forms/_select.scss */
+/* line 37, ../sass/components/forms/_select.scss */
 .select-wrapper {
   position: relative;
 }
-/* line 23, ../sass/components/forms/_select.scss */
+/* line 40, ../sass/components/forms/_select.scss */
 .select-wrapper input.select-dropdown {
   position: relative;
   cursor: pointer;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid #9e9e9e;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.22);
   outline: none;
-  height: 3rem;
-  line-height: 3rem;
+  height: 64px;
+  line-height: 64px;
   width: 100%;
-  font-size: 1rem;
+  font-size: 16px;
   margin: 0 0 15px 0;
   padding: 0;
   display: block;
 }
-/* line 39, ../sass/components/forms/_select.scss */
+/* line 56, ../sass/components/forms/_select.scss */
 .select-wrapper span.caret {
   color: initial;
   position: absolute;
@@ -6620,23 +6730,23 @@ select {
   top: 16px;
   font-size: 10px;
 }
-/* line 45, ../sass/components/forms/_select.scss */
+/* line 62, ../sass/components/forms/_select.scss */
 .select-wrapper span.caret.disabled {
   color: rgba(0, 0, 0, 0.26);
 }
-/* line 50, ../sass/components/forms/_select.scss */
+/* line 67, ../sass/components/forms/_select.scss */
 .select-wrapper + label {
   position: absolute;
   top: -14px;
   font-size: 0.8rem;
 }
 
-/* line 58, ../sass/components/forms/_select.scss */
+/* line 75, ../sass/components/forms/_select.scss */
 select:disabled {
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 62, ../sass/components/forms/_select.scss */
+/* line 79, ../sass/components/forms/_select.scss */
 .select-wrapper input.select-dropdown:disabled {
   color: rgba(0, 0, 0, 0.3);
   cursor: default;
@@ -6649,12 +6759,12 @@ select:disabled {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-/* line 71, ../sass/components/forms/_select.scss */
+/* line 88, ../sass/components/forms/_select.scss */
 .select-wrapper i {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 75, ../sass/components/forms/_select.scss */
+/* line 92, ../sass/components/forms/_select.scss */
 .select-dropdown li.disabled,
 .select-dropdown li.disabled > span,
 .select-dropdown li.optgroup {
@@ -6662,19 +6772,19 @@ select:disabled {
   background-color: transparent;
 }
 
-/* line 83, ../sass/components/forms/_select.scss */
+/* line 100, ../sass/components/forms/_select.scss */
 .prefix ~ .select-wrapper {
   margin-left: 3rem;
   width: 92%;
   width: calc(100% - 3rem);
 }
 
-/* line 89, ../sass/components/forms/_select.scss */
+/* line 106, ../sass/components/forms/_select.scss */
 .prefix ~ label {
   margin-left: 3rem;
 }
 
-/* line 93, ../sass/components/forms/_select.scss */
+/* line 110, ../sass/components/forms/_select.scss */
 .select-dropdown li img {
   height: 26px;
   width: 26px;
@@ -6682,19 +6792,19 @@ select:disabled {
   float: right;
 }
 
-/* line 102, ../sass/components/forms/_select.scss */
+/* line 119, ../sass/components/forms/_select.scss */
 .select-dropdown li.optgroup {
   border-top: 1px solid #cac8cc;
 }
-/* line 105, ../sass/components/forms/_select.scss */
+/* line 122, ../sass/components/forms/_select.scss */
 .select-dropdown li.optgroup.selected > span {
   color: rgba(0, 0, 0, 0.7);
 }
-/* line 109, ../sass/components/forms/_select.scss */
+/* line 126, ../sass/components/forms/_select.scss */
 .select-dropdown li.optgroup > span {
   color: rgba(0, 0, 0, 0.4);
 }
-/* line 113, ../sass/components/forms/_select.scss */
+/* line 130, ../sass/components/forms/_select.scss */
 .select-dropdown li.optgroup ~ li.optgroup-option {
   padding-left: 1rem;
 }
@@ -6717,8 +6827,8 @@ select:disabled {
 /* line 14, ../sass/components/forms/_file-input.scss */
 .file-field .btn, .file-field .btn-large {
   float: left;
-  height: 3rem;
-  line-height: 3rem;
+  height: 64px;
+  line-height: 64px;
 }
 /* line 20, ../sass/components/forms/_file-input.scss */
 .file-field span {
@@ -6948,7 +7058,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 /* line 42, ../sass/components/_sideNav.scss */
 .side-nav a {
-  color: #444;
+  color: #6a676e;
   display: block;
   font-size: 1rem;
   height: 58px;
@@ -7003,7 +7113,7 @@ input[type=range]:focus::-ms-fill-upper {
 .side-nav.fixed a {
   display: block;
   padding: 0 30px;
-  color: #444;
+  color: #6a676e;
 }
 
 /* line 101, ../sass/components/_sideNav.scss */
@@ -9569,12 +9679,12 @@ body {
 @media only screen and (min-width: 993px) {
   /* line 5, ../sass/_application.scss */
   main, footer {
-    padding-left: 260px;
+    padding-left: 280px;
   }
 }
 /* line 9, ../sass/_application.scss */
 main > section {
-  padding: 40px 0;
+  padding: 60px 0 40px 0;
 }
 
 /* line 13, ../sass/_application.scss */
@@ -9679,47 +9789,47 @@ nav .nav-wrapper {
         }
     }
 }*/
-/* line 113, ../sass/_application.scss */
+/* line 114, ../sass/_application.scss */
 .menu-button {
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 118, ../sass/_application.scss */
+/* line 119, ../sass/_application.scss */
 .nav-wrapper .call-button {
   padding-left: 20px;
   padding-right: 20px;
   margin-right: 10px;
 }
-/* line 122, ../sass/_application.scss */
+/* line 123, ../sass/_application.scss */
 .nav-wrapper .call-button b {
   vertical-align: middle;
 }
 
-/* line 127, ../sass/_application.scss */
+/* line 128, ../sass/_application.scss */
 .helpline-label {
   line-height: 40px;
   padding-top: 24px;
 }
 
-/* line 132, ../sass/_application.scss */
+/* line 133, ../sass/_application.scss */
 .footer-links {
   /*background: url("../images/footer-bg.png") center bottom repeat-x transparent;*/
   padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 138, ../sass/_application.scss */
+  /* line 139, ../sass/_application.scss */
   .page-footer {
     text-align: center;
   }
 
-  /* line 141, ../sass/_application.scss */
+  /* line 142, ../sass/_application.scss */
   .tab-pane.padding-40 {
     padding: 0 !important;
   }
 }
-/* line 146, ../sass/_application.scss */
+/* line 147, ../sass/_application.scss */
 .help-banner {
   position: absolute;
   bottom: 0;
@@ -9731,19 +9841,19 @@ nav .nav-wrapper {
   line-height: 1.2;
   display: none;
 }
-/* line 157, ../sass/_application.scss */
+/* line 158, ../sass/_application.scss */
 .help-banner .help-header, .help-banner .help-message, .help-banner .help-phone-number {
   margin: 0;
   padding: 0;
   line-height: 1.4;
 }
-/* line 162, ../sass/_application.scss */
+/* line 163, ../sass/_application.scss */
 .help-banner .help-phone-number {
   font-size: 20px;
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 167, ../sass/_application.scss */
+  /* line 168, ../sass/_application.scss */
   .help-banner {
     display: block;
   }
@@ -9752,13 +9862,14 @@ nav .nav-wrapper {
 .account-popover {
   min-width: 420px;
   line-height: 1.5;
+  max-height: 300px;
 }
-/* line 5, ../sass/pages/_common.scss */
+/* line 6, ../sass/pages/_common.scss */
 .account-popover .btn, .account-popover .btn-large {
   padding-left: 20px;
   padding-right: 20px;
 }
-/* line 10, ../sass/pages/_common.scss */
+/* line 11, ../sass/pages/_common.scss */
 .account-popover .profile-pic {
   float: left;
   width: 100px;
@@ -9766,12 +9877,12 @@ nav .nav-wrapper {
   border-radius: 50%;
   overflow: hidden;
 }
-/* line 17, ../sass/pages/_common.scss */
+/* line 18, ../sass/pages/_common.scss */
 .account-popover .profile-pic img {
   width: 100%;
   vertical-align: top;
 }
-/* line 21, ../sass/pages/_common.scss */
+/* line 22, ../sass/pages/_common.scss */
 .account-popover .profile-pic a {
   position: absolute;
   bottom: 0;
@@ -9785,21 +9896,21 @@ nav .nav-wrapper {
   text-align: center;
   font-weight: 400;
 }
-/* line 35, ../sass/pages/_common.scss */
+/* line 36, ../sass/pages/_common.scss */
 .account-popover .profile-info {
   float: right;
   width: 260px;
 }
-/* line 40, ../sass/pages/_common.scss */
+/* line 41, ../sass/pages/_common.scss */
 .account-popover .card-content {
   padding: 20px;
 }
-/* line 43, ../sass/pages/_common.scss */
+/* line 44, ../sass/pages/_common.scss */
 .account-popover .card-action {
   padding: 10px 20px;
 }
 
-/* line 48, ../sass/pages/_common.scss */
+/* line 49, ../sass/pages/_common.scss */
 .label {
   display: inline;
   padding: .2em .6em .2em;
@@ -9815,16 +9926,16 @@ nav .nav-wrapper {
   margin: 0 2px;
 }
 
-/* line 64, ../sass/pages/_common.scss */
+/* line 65, ../sass/pages/_common.scss */
 .card-board .card-content:first-child {
   padding: 10px 20px;
 }
-/* line 67, ../sass/pages/_common.scss */
+/* line 68, ../sass/pages/_common.scss */
 .card-board .label {
   padding: 0.4em .6em;
   font-size: 70%;
 }
-/* line 71, ../sass/pages/_common.scss */
+/* line 72, ../sass/pages/_common.scss */
 .card-board .row {
   margin-bottom: 10px;
 }
@@ -10142,11 +10253,22 @@ nav .nav-wrapper {
   }
 }
 /* line 3, ../sass/pages/_book-viewing.scss */
+.section-book-viewing .card-option {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 7, ../sass/pages/_book-viewing.scss */
+.section-book-viewing .special-header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+/* line 12, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .viewNext span, .section-book-viewing .viewPrev span {
   line-height: 24px;
   vertical-align: top;
 }
-/* line 8, ../sass/pages/_book-viewing.scss */
+/* line 17, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date {
   text-align: center;
   border: 1px solid #e0e0e0;
@@ -10154,32 +10276,39 @@ nav .nav-wrapper {
   cursor: pointer;
   margin-bottom: 10px;
 }
-/* line 15, ../sass/pages/_book-viewing.scss */
+/* line 24, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date:hover {
   border: 1px solid #ffef00;
 }
-/* line 19, ../sass/pages/_book-viewing.scss */
+/* line 28, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date.selected {
   border: 1px solid #ffef00;
   background-color: #ffef00;
 }
-/* line 23, ../sass/pages/_book-viewing.scss */
+/* line 32, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date .week-day {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 13px;
 }
-/* line 28, ../sass/pages/_book-viewing.scss */
+/* line 37, ../sass/pages/_book-viewing.scss */
 .section-book-viewing .card-date .day {
   font-size: 32px;
   font-weight: 700;
 }
 @media only screen and (min-width: 601px) {
-  /* line 37, ../sass/pages/_book-viewing.scss */
+  /* line 46, ../sass/pages/_book-viewing.scss */
   .section-book-viewing .card-date {
     float: left;
     margin: 0.5%;
     width: 19%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 54, ../sass/pages/_book-viewing.scss */
+  .section-book-viewing .card-option h5 {
+    margin-bottom: 15px;
+    text-align: center;
   }
 }
 
@@ -10198,50 +10327,130 @@ nav .nav-wrapper {
   font-size: 24px;
 }
 
-/* line 19, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table {
-  overflow: auto;
+/* line 17, ../sass/pages/_book-valuation.scss */
+.section-book-valuation {
+  /*.calendar-table{
+    overflow: auto;
+    table{
+      border: 1px solid #fff;
+      border-collapse: collapse;
+    }
+    td, th{
+      border-radius: 0;
+      border: 1px solid #fff;
+      padding: 10px 5px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+    th{
+      background: color("sp-secondary", "base");
+      color: color("sp-secondary", "lighten-5");
+
+    }
+    td{
+      cursor: pointer;
+      background: color("sp-secondary", "lighten-5");
+
+      &:hover{
+        background: color("sp-primary", "base");
+      }
+
+      &.disabled{
+        cursor: default;
+        background: color("sp-secondary", "lighten-3");
+        color: color("sp-secondary", "lighten-4");
+
+        &:hover{
+          background: color("sp-secondary", "lighten-3");
+        }
+      }
+      &.selected{
+        background: color("sp-primary", "base");
+      }
+    }
+  }*/
 }
-/* line 21, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table table {
-  border: 1px solid #fff;
-  border-collapse: collapse;
+/* line 60, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .viewNext span, .section-book-valuation .viewPrev span {
+  line-height: 24px;
+  vertical-align: top;
 }
-/* line 25, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td, .section-book-valuation .calendar-table th {
-  border-radius: 0;
-  border: 1px solid #fff;
-  padding: 10px 5px;
+/* line 65, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date {
   text-align: center;
-  font-size: 0.9em;
-}
-/* line 32, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table th {
-  background: #6a676e;
-  color: #f0eff1;
-}
-/* line 37, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td {
+  border: 1px solid #e0e0e0;
+  padding: 20px 2px;
   cursor: pointer;
-  background: #f0eff1;
+  margin-bottom: 10px;
 }
-/* line 41, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td:hover {
-  background: #ffef00;
+/* line 72, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date:hover {
+  border: 1px solid #ffef00;
 }
-/* line 45, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td.disabled {
-  cursor: default;
-  background: #adaab1;
-  color: #cac8cc;
+/* line 76, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date.selected {
+  border: 1px solid #ffef00;
+  background-color: #ffef00;
 }
-/* line 50, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td.disabled:hover {
-  background: #adaab1;
+/* line 80, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date .week-day {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 13px;
 }
-/* line 54, ../sass/pages/_book-valuation.scss */
-.section-book-valuation .calendar-table td.selected {
-  background: #ffef00;
+/* line 85, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .card-date .day {
+  font-size: 32px;
+  font-weight: 700;
+}
+@media only screen and (min-width: 601px) {
+  /* line 94, ../sass/pages/_book-valuation.scss */
+  .section-book-valuation .card-date {
+    float: left;
+    margin: 0.5%;
+    width: 19%;
+  }
+}
+/* line 101, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots {
+  /*border: 1px solid color('grey', 'lighten-2');
+  padding: 10px;*/
+  text-align: center;
+  margin-bottom: 30px;
+}
+/* line 107, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots .time-slot {
+  border: 1px solid #e0e0e0;
+  padding: 7px 2px;
+  text-align: center;
+  background: #ddd;
+  color: #adaab1;
+  cursor: not-allowed;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+/* line 117, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots .time-slot.free {
+  background: #fff;
+  cursor: pointer;
+  color: #6a676e;
+}
+/* line 122, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots .time-slot.free:hover {
+  border: 1px solid #ffef00;
+}
+/* line 126, ../sass/pages/_book-valuation.scss */
+.section-book-valuation .time-slots .time-slot.selected {
+  border: 1px solid #ffef00;
+  background-color: #ffef00;
+}
+@media only screen and (min-width: 601px) {
+  /* line 132, ../sass/pages/_book-valuation.scss */
+  .section-book-valuation .time-slots .time-slot {
+    float: left;
+    margin: 0.5%;
+    width: 19%;
+  }
 }
 
 /* line 7, ../sass/pages/_diary.scss */
@@ -10332,6 +10541,83 @@ nav .nav-wrapper {
   .section-message .chat-write .btn, .section-message .chat-write .btn-large {
     width: 100px;
   }
+}
+
+/* line 2, ../sass/pages/_availability.scss */
+.section-availability table {
+  border-bottom: 1px solid #ddd;
+}
+/* line 5, ../sass/pages/_availability.scss */
+.section-availability table thead {
+  border-bottom: 0;
+}
+/* line 8, ../sass/pages/_availability.scss */
+.section-availability table td {
+  padding: 5px 10px;
+  font-size: 13px;
+}
+/* line 12, ../sass/pages/_availability.scss */
+.section-availability table th {
+  padding: 10px;
+}
+/* line 15, ../sass/pages/_availability.scss */
+.section-availability table .td-action {
+  width: 50px;
+}
+/* line 18, ../sass/pages/_availability.scss */
+.section-availability table .td-date {
+  width: 35%;
+}
+/* line 21, ../sass/pages/_availability.scss */
+.section-availability table .td-time {
+  width: 110px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 28, ../sass/pages/_availability.scss */
+  .section-availability .repeated-days {
+    border: 1px solid #eee;
+  }
+  /* line 32, ../sass/pages/_availability.scss */
+  .section-availability .repeated-days tbody tr {
+    padding: 10px;
+  }
+  /* line 36, ../sass/pages/_availability.scss */
+  .section-availability .repeated-days tbody tr td, .section-availability .repeated-days tbody tr .td-action {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+/* line 2, ../sass/pages/_restrictions.scss */
+.section-restrictions .extra-data {
+  display: none;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+/* line 9, ../sass/pages/_restrictions.scss */
+.section-restrictions [type="checkbox"]:checked + * + .extra-data {
+  display: block;
+}
+
+/* line 2, ../sass/pages/_performance.scss */
+.section-performance .video-container-wrapper {
+  max-width: 550px;
+  margin: 0 auto;
+}
+/* line 7, ../sass/pages/_performance.scss */
+.section-performance .performance-list .performance-list-item {
+  border-bottom: 1px solid #ddd;
+}
+/* line 10, ../sass/pages/_performance.scss */
+.section-performance .performance-list .performance-list-item .item-title {
+  float: left;
+  padding: 5px 0;
+}
+/* line 14, ../sass/pages/_performance.scss */
+.section-performance .performance-list .performance-list-item .item-value {
+  float: right;
+  padding: 5px 0;
 }
 
 /*# sourceMappingURL=materialize.css.map */
