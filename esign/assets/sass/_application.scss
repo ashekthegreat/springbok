@@ -51,24 +51,32 @@ main{
 .signature-container{
     box-shadow: 0 0 18px rgba(0,0,0,.1) inset;
     border: 1px solid #d5d5d5;
-    max-width: 800px;
+    max-width: 400px;
     padding: 20px;
     margin: 0 auto;
 
-    #signature-area{
+    input{
+        margin: 0;
+    }
+
+    /*.signature-canvas-wrapper{
         position: relative;
 
-        #clear-canvas{
+        .base-line{
             position: absolute;
-            top: 0;
-            right: 0;
-            background: color("sp-primary", "base");
-            border: 1px solid #ccc;
-            width: 24px;
-            height: 24px;
-            text-align: center;
-            line-height: 24px;
-            color: color("sp-secondary", "base");
+            bottom: 30px;
+            right: 10px;
+            left: 10px;
+            background: color("sp-secondary", "lighten-5");
+            height: 2px;
+            z-index: 1;
         }
+    }*/
+
+    #signature-canvas{
+        border: 1px solid #ccc;
+        font-family: 'Gochi Hand', cursive;
+        background: #ffffe9;
     }
 }
+

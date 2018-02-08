@@ -7,9 +7,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <title>Springbok Properties - Get Up To 100% Value For Your House Quickly</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
-
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
 
@@ -18,6 +15,9 @@
 
     <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.signature.min.js"></script>
 
     <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
@@ -99,20 +99,20 @@
                     </div>
 
                     <div class="signature-container margin-top-25">
-                        <div class="margin-bottom-10">
-                            <div>Enter your name</div>
-                            <div><input id="name" name="name" type="text" class="" value=""></div>
-                        </div>
-                        <div class="margin-bottom-20 small">
-                            <div>Email: my.email@gmail.com</div>
-                        </div>
-                        <div class="margin-bottom-10">
-                            <div>Review your signature</div>
-                            <div class="signature-canvas-wrapper">
-                                <canvas id="signature-canvas" width="356" height="100">
-                                    Your browser does not support signature preview.
-                                </canvas>
+                        <div class="row margin-bottom-15">
+                            <div class="col s12 m3">Seller Signature</div>
+                            <div class="col s12 m9">
+                                <div id="signature-area">
+                                    <div id="signature-canvas"></div>
+                                    <div id="clear-canvas">X</div>
+                                </div>
                                 <textarea name="signature" id="signature" class="hide"></textarea>
+                            </div>
+                        </div>
+                        <div class="row margin-bottom-15">
+                            <div class="col s12 m3">Name</div>
+                            <div class="col s12 m9">
+                                <input id="name" name="name" type="text" class="" value="">
                             </div>
                         </div>
                         <div class="right-align">
