@@ -25,6 +25,6 @@
 <script type="text/javascript" src="assets/js/jquery.typeahead.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.history.js"></script>
 <script type="text/javascript" src="assets/js/zabuto_calendar.min.js"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+
 <script type="text/javascript" src="assets/js/accounts-scripts.js"></script>
 <script type="text/javascript" src="assets/js/availability.js"></script>
