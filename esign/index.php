@@ -18,6 +18,9 @@
 
     <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.signature.min.js"></script>
 
     <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
@@ -109,13 +112,14 @@
                         <div class="margin-bottom-10">
                             <div>Review your signature</div>
                             <div class="signature-canvas-wrapper">
-                                <canvas id="signature-canvas" width="356" height="100">
+                                <!--<canvas id="signature-canvas" width="356" height="100">
                                     Your browser does not support signature preview.
-                                </canvas>
+                                </canvas>-->
                                 <textarea name="signature" id="signature" class="hide"></textarea>
                             </div>
                         </div>
                         <div class="right-align">
+                            <button id="myBtn" type="button">Open Modal</button>
                             <button type="submit" name="btn-sign" id="btn-sign" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Click Here To Sign</button>
                         </div>
                     </div>
@@ -140,5 +144,31 @@
             </div>
         </div>
     </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="tab-container signature-create-container">
+                <ul class="tabs">
+                    <li class="tab-link current" data-tab="tab-1">Type</li>
+                    <li class="tab-link" data-tab="tab-2">Draw</li>
+                    <li class="tab-link" data-tab="tab-3">Upload</li>
+                </ul>
+
+                <div id="tab-1" class="tab-content current">
+                    <input type="text" class="signature-write" maxlength="50"/>
+                </div>
+                <div id="tab-2" class="tab-content">
+                    <div id="signature-area">
+                        <div id="signature-canvas"></div>
+                        <div id="clear-canvas">X</div>
+                    </div>
+                </div>
+                <div id="tab-3" class="tab-content">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
