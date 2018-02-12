@@ -24,6 +24,7 @@
                 }
             }
             $txt.css("font-size", fontSize + "px");
+            $div.remove();
 
         }
         $(".signature-write").keyup(function () {
@@ -32,7 +33,7 @@
         });
 
         $(window).resize(function () {
-            draw();
+            resizeText();
         });
 
 
@@ -141,6 +142,23 @@
         // When the user clicks on <span> (x), close the modal
         modal.find(".close").click(function () {
             modal.hide();
+        });
+        modal.find(".modal-dismiss").click(function () {
+            modal.hide();
+        });
+
+        modal.find(".modal-done").click(function () {
+            var tabId = $(this).closest(".tab-content").attr("id");
+            if(tabId=="tab-1"){
+                // produce signature from the input
+
+            } else if(tabId=="tab-2"){
+
+            } else if(tabId=="tab-3"){
+
+            }
+            modal.hide();
+
         });
 
         // When the user clicks anywhere outside of the modal, close it

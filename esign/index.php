@@ -146,7 +146,7 @@
     </footer>
 
     <div id="myModal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content container padding-0">
             <span class="close">&times;</span>
             <div class="tab-container signature-create-container">
                 <ul class="tabs">
@@ -157,11 +157,27 @@
 
                 <div id="tab-1" class="tab-content current">
                     <input type="text" class="signature-write" maxlength="50"/>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m5 padding-top-10"></div>
+                        <div class="col s12 m7 padding-top-10 right-align">
+                            <button type="button" class="waves-effect waves-light btn btn-flat sp-secondary-text modal-dismiss">Cancel</button>
+                            <button type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text modal-done">Done</button>
+                        </div>
+                    </div>
                 </div>
                 <div id="tab-2" class="tab-content">
                     <div id="signature-area">
                         <div id="signature-canvas"></div>
-                        <div id="clear-canvas">X</div>
+                        <div id="clear-canvas">Clear</div>
+                    </div>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m5 padding-top-10">
+                            <input type="text" class="signature-name" placeholder="Name"/>
+                        </div>
+                        <div class="col s12 m7 padding-top-10 right-align">
+                            <button type="button" class="waves-effect waves-light btn btn-flat sp-secondary-text modal-dismiss">Cancel</button>
+                            <button type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text modal-done">Done</button>
+                        </div>
                     </div>
                 </div>
                 <div id="tab-3" class="tab-content">

@@ -20,7 +20,7 @@ main{
     }
     input {
         position: relative;
-        z-index: 2;
+        /*z-index: 2;*/
         float: left;
         width: 100%;
         display: table-cell;
@@ -95,12 +95,11 @@ main{
 
     /* Modal Content/Box */
     .modal-content {
-        background-color: #fefefe;
-        margin: 5% auto; /* 15% from the top and centered */
+        background-color: #ededed;
+        margin: 2% auto;
         max-width: 600px;
-        padding: 20px;
         border: 1px solid #888;
-        width: 80%; /* Could be more or less, depending on screen size */
+        width: 95%;
         position: relative;
     }
 
@@ -115,7 +114,7 @@ main{
         right: 0;
         text-align: center;
         width: 32px;
-        line-height: 32px;
+        line-height: 42px;
         display: inline-block;
     }
 
@@ -143,7 +142,7 @@ main{
             cursor: pointer;
 
             &.current{
-                background: #ededed;
+                background: #fff;
                 color: #222;
             }
         }
@@ -152,7 +151,7 @@ main{
 
     .tab-content{
         display: none;
-        background: #ededed;
+        background: #fff;
         padding: 15px;
 
         &.current{

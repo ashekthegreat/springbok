@@ -1,6 +1,6 @@
 /* Styles for signature plugin v1.2.0. */
 .kbw-signature {
-  display: inline-block;
+  display: block;
   border: 1px solid #ccc;
   -ms-touch-action: none;
 
@@ -19,5 +19,21 @@
     background: #ffffe9;
     text-align: center;
     font-size: 60px;
+    margin: 0;
+  }
+
+  #signature-area{
+    position: relative;
+
+    #clear-canvas{
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+  }
+  .signature-name{
+    margin: 0;
   }
 }

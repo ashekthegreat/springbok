@@ -180,6 +180,16 @@ button.btn-floating {
     color: $button-flat-disabled-color;
     cursor: default;
   }
+  &:hover {
+    background-color: transparent;
+    box-shadow: none;
+    text-decoration: none;
+  }
+  &:focus {
+    background-color: transparent;
+    box-shadow: none;
+    text-decoration: none;
+  }
 }
 
 // Large button

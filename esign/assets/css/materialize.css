@@ -4630,30 +4630,42 @@ button.btn-floating {
   color: #b3b3b3;
   cursor: default;
 }
+/* line 183, ../sass/components/_buttons.scss */
+.btn-flat:hover {
+  background-color: transparent;
+  box-shadow: none;
+  text-decoration: none;
+}
+/* line 188, ../sass/components/_buttons.scss */
+.btn-flat:focus {
+  background-color: transparent;
+  box-shadow: none;
+  text-decoration: none;
+}
 
-/* line 186, ../sass/components/_buttons.scss */
+/* line 196, ../sass/components/_buttons.scss */
 .btn-large {
   height: 54px;
   line-height: 54px;
 }
-/* line 191, ../sass/components/_buttons.scss */
+/* line 201, ../sass/components/_buttons.scss */
 .btn-large i {
   font-size: 1.6rem;
 }
 
-/* line 197, ../sass/components/_buttons.scss */
+/* line 207, ../sass/components/_buttons.scss */
 .btn-block {
   display: block !important;
   width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 203, ../sass/components/_buttons.scss */
+  /* line 213, ../sass/components/_buttons.scss */
   .btn-block-on-small {
     display: block !important;
     width: 100%;
   }
-  /* line 207, ../sass/components/_buttons.scss */
+  /* line 217, ../sass/components/_buttons.scss */
   .btn-block-on-small + .btn, .btn-block-on-small + .btn-large {
     margin-top: 10px;
   }
@@ -6047,7 +6059,7 @@ input[type=range]:focus::-ms-fill-upper {
 /* Styles for signature plugin v1.2.0. */
 /* line 2, ../sass/lib/_signature.scss */
 .kbw-signature {
-  display: inline-block;
+  display: block;
   border: 1px solid #ccc;
   -ms-touch-action: none;
   width: 100%;
@@ -6066,6 +6078,23 @@ input[type=range]:focus::-ms-fill-upper {
   background: #ffffe9;
   text-align: center;
   font-size: 60px;
+  margin: 0;
+}
+/* line 25, ../sass/lib/_signature.scss */
+.signature-create-container #signature-area {
+  position: relative;
+}
+/* line 28, ../sass/lib/_signature.scss */
+.signature-create-container #signature-area #clear-canvas {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+/* line 36, ../sass/lib/_signature.scss */
+.signature-create-container .signature-name {
+  margin: 0;
 }
 
 /* line 1, ../sass/_application.scss */
@@ -6095,7 +6124,7 @@ main {
 /* line 21, ../sass/_application.scss */
 .input-group input {
   position: relative;
-  z-index: 2;
+  /*z-index: 2;*/
   float: left;
   width: 100%;
   display: table-cell;
@@ -6183,17 +6212,14 @@ main {
 }
 /* line 97, ../sass/_application.scss */
 .modal .modal-content {
-  background-color: #fefefe;
-  margin: 5% auto;
-  /* 15% from the top and centered */
+  background-color: #ededed;
+  margin: 2% auto;
   max-width: 600px;
-  padding: 20px;
   border: 1px solid #888;
-  width: 80%;
-  /* Could be more or less, depending on screen size */
+  width: 95%;
   position: relative;
 }
-/* line 108, ../sass/_application.scss */
+/* line 107, ../sass/_application.scss */
 .modal .close {
   color: #aaa;
   float: right;
@@ -6204,10 +6230,10 @@ main {
   right: 0;
   text-align: center;
   width: 32px;
-  line-height: 32px;
+  line-height: 42px;
   display: inline-block;
 }
-/* line 122, ../sass/_application.scss */
+/* line 121, ../sass/_application.scss */
 .modal .close:hover,
 .modal .close:focus {
   color: black;
@@ -6215,14 +6241,14 @@ main {
   cursor: pointer;
 }
 
-/* line 132, ../sass/_application.scss */
+/* line 131, ../sass/_application.scss */
 .tab-container .tabs {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-/* line 138, ../sass/_application.scss */
+/* line 137, ../sass/_application.scss */
 .tab-container .tabs .tab-link {
   background: none;
   color: #222;
@@ -6230,18 +6256,18 @@ main {
   padding: 10px 15px;
   cursor: pointer;
 }
-/* line 145, ../sass/_application.scss */
+/* line 144, ../sass/_application.scss */
 .tab-container .tabs .tab-link.current {
-  background: #ededed;
+  background: #fff;
   color: #222;
 }
-/* line 153, ../sass/_application.scss */
+/* line 152, ../sass/_application.scss */
 .tab-container .tab-content {
   display: none;
-  background: #ededed;
+  background: #fff;
   padding: 15px;
 }
-/* line 158, ../sass/_application.scss */
+/* line 157, ../sass/_application.scss */
 .tab-container .tab-content.current {
   display: inherit;
 }
