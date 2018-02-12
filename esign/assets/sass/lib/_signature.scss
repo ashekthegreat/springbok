@@ -36,4 +36,56 @@
   .signature-name{
     margin: 0;
   }
+
+  /* Upload */
+  #upload-area{
+    height: 120px;
+    background: #ffffe9;
+    border: 1px solid #ccc;
+    position: relative;
+
+    .upload-btn-wrapper {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      height: 120px;
+    }
+
+    .command {
+      border: 0;
+      color: color("sp-secondary", "base");
+      background-color: transparent;
+      padding: 0;
+      font-size: 20px;
+      line-height: 1;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+    }
+
+    .upload-btn-wrapper input[type=file] {
+      font-size: 120px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+    #clear-upload-canvas{
+      display: none;
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+    #upload-canvas{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
 }

@@ -181,7 +181,23 @@
                     </div>
                 </div>
                 <div id="tab-3" class="tab-content">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    <div id="upload-area">
+                        <canvas id="upload-canvas" width="356" height="120"></canvas>
+                        <div class="upload-btn-wrapper">
+                            <div class="command">Select file</div>
+                            <input type="file" id="signature-file" />
+                        </div>
+                        <div id="clear-upload-canvas">Clear</div>
+                    </div>
+                    <div class="row margin-bottom-0">
+                        <div class="col s12 m5 padding-top-10">
+                            <input type="text" class="signature-name" placeholder="Name"/>
+                        </div>
+                        <div class="col s12 m7 padding-top-10 right-align">
+                            <button type="button" class="waves-effect waves-light btn btn-flat sp-secondary-text modal-dismiss">Cancel</button>
+                            <button type="button" class="waves-effect waves-light btn sp-primary sp-secondary-text modal-done">Done</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
