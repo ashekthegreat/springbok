@@ -1,11 +1,16 @@
 /* Styles for signature plugin v1.2.0. */
 .kbw-signature {
   display: block;
-  border: 1px solid #ccc;
+
   -ms-touch-action: none;
 
   width: 100%;
   height: 120px;
+  overflow: hidden;
+
+  canvas{
+    border: 1px solid #ccc;
+  }
 }
 
 .kbw-signature-disabled {
@@ -39,31 +44,21 @@
 
   /* Upload */
   #upload-area{
-    height: 120px;
     background: #ffffe9;
     border: 1px solid #ccc;
-    position: relative;
+    overflow: hidden;
 
     .upload-btn-wrapper {
-      position: relative;
       overflow: hidden;
-      display: block;
-      height: 120px;
+      cursor: pointer;
     }
 
     .command {
-      border: 0;
-      color: color("sp-secondary", "base");
-      background-color: transparent;
-      padding: 0;
-      font-size: 20px;
-      line-height: 1;
-      text-align: center;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      cursor: pointer;
+      z-index: 0;
     }
 
     .upload-btn-wrapper input[type=file] {
@@ -87,5 +82,59 @@
       top: 0;
       left: 0;
     }
+  }
+
+
+}
+.signature-container {
+  #edit-signature{
+    display: none;
+  }
+  #clear-signature{
+    display: none;
+    margin-right: 10px;
+  }
+  #signature{
+    margin: 0;
+    display: none;
+  }
+  #signature-preview{
+    font-family: 'Gochi Hand', cursive;
+    background: #ffffe9;
+    border: 1px solid #ccc;
+  }
+  .parent {
+
+
+    #signature-preview {
+
+    }
+    .create-command {
+      border: 0;
+      color: color("sp-secondary", "base");
+      background-color: transparent;
+      padding: 0;
+      font-size: 16px;
+      line-height: 1;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+      white-space: nowrap;
+    }
+  }
+}
+.parent{
+  height: 0;
+  padding-bottom: 30%; /* 360:108 */
+  position: relative;
+
+  .child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
   }
 }

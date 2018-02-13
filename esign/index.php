@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css?v=1"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -22,7 +22,7 @@
     <script type="text/javascript" src="assets/js/jquery.ui.touch-punch.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.signature.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/script.js?v=1"></script>
 </head>
 
 <body>
@@ -103,23 +103,24 @@
 
                     <div class="signature-container margin-top-25">
                         <div class="margin-bottom-10">
-                            <div>Enter your name</div>
-                            <div><input id="name" name="name" type="text" class="" value=""></div>
+                            <div>
+                                <a href="javascript:;" id="edit-signature" class="right">Edit</a>
+                                <a href="javascript:;" id="clear-signature" class="right">Clear</a>
+                                Signature
+                            </div>
+                            <div class="parent">
+                                <canvas id="signature-preview" class="child" width="360" height="108">
+                                    Your browser does not support signature preview.
+                                </canvas>
+                                <div class="create-command">Click to Create</div>
+                            </div>
+                            <textarea name="signature" id="signature"></textarea>
                         </div>
                         <div class="margin-bottom-20 small">
                             <div>Email: my.email@gmail.com</div>
                         </div>
-                        <div class="margin-bottom-10">
-                            <div>Review your signature</div>
-                            <div class="signature-canvas-wrapper">
-                                <!--<canvas id="signature-canvas" width="356" height="100">
-                                    Your browser does not support signature preview.
-                                </canvas>-->
-                                <textarea name="signature" id="signature" class="hide"></textarea>
-                            </div>
-                        </div>
                         <div class="right-align">
-                            <button id="myBtn" type="button">Open Modal</button>
+                            <!--<button id="myBtn" type="button">Open Modal</button>-->
                             <button type="submit" name="btn-sign" id="btn-sign" class="waves-effect waves-light btn btn-block-on-small sp-primary sp-secondary-text">Click Here To Sign</button>
                         </div>
                     </div>
@@ -155,8 +156,9 @@
                     <li class="tab-link" data-tab="tab-3">Upload</li>
                 </ul>
 
+                <!-- Tab 1 -->
                 <div id="tab-1" class="tab-content current">
-                    <input type="text" class="signature-write" maxlength="50"/>
+                    <input type="text" class="signature-write" maxlength="50" placeholder="Your name" value="William Degall"/>
                     <div class="row margin-bottom-0">
                         <div class="col s12 m5 padding-top-10"></div>
                         <div class="col s12 m7 padding-top-10 right-align">
@@ -165,6 +167,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Tab 2 -->
                 <div id="tab-2" class="tab-content">
                     <div id="signature-area">
                         <div id="signature-canvas"></div>
@@ -172,7 +176,7 @@
                     </div>
                     <div class="row margin-bottom-0">
                         <div class="col s12 m5 padding-top-10">
-                            <input type="text" class="signature-name" placeholder="Name"/>
+                            <input type="text" class="signature-name" placeholder="Name" value="William Degall"/>
                         </div>
                         <div class="col s12 m7 padding-top-10 right-align">
                             <button type="button" class="waves-effect waves-light btn btn-flat sp-secondary-text modal-dismiss">Cancel</button>
@@ -180,18 +184,20 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Tab 3 -->
                 <div id="tab-3" class="tab-content">
-                    <div id="upload-area">
-                        <canvas id="upload-canvas" width="356" height="120"></canvas>
-                        <div class="upload-btn-wrapper">
-                            <div class="command">Select file</div>
+                    <div id="upload-area" class="parent">
+                        <canvas id="upload-canvas" class="child" width="566" height="118"></canvas>
+                        <div class="upload-btn-wrapper child">
+                            <button class="command waves-effect waves-light btn sp-primary sp-secondary-text">Select file</button>
                             <input type="file" id="signature-file" />
                         </div>
                         <div id="clear-upload-canvas">Clear</div>
                     </div>
                     <div class="row margin-bottom-0">
                         <div class="col s12 m5 padding-top-10">
-                            <input type="text" class="signature-name" placeholder="Name"/>
+                            <input type="text" class="signature-name" placeholder="Name" value="William Degall"/>
                         </div>
                         <div class="col s12 m7 padding-top-10 right-align">
                             <button type="button" class="waves-effect waves-light btn btn-flat sp-secondary-text modal-dismiss">Cancel</button>
