@@ -16,7 +16,8 @@
         // Get the button that opens the modal
         var btn = $(".create-command");
 
-        function resizeText(){
+        function resizeText() {
+            $txt.height(($txt.width() * 0.25) + 2);
             var $div = $("<div/>").appendTo($("body"));
             $div.css({
                 "font-size": $txt.css("font-size"),
@@ -41,29 +42,30 @@
 
         }
 
-        function resizeDrawCanvas(){
+        function resizeDrawCanvas() {
             var data = $signatureElement.signature('toJSON');
             var isEmpty = $signatureElement.signature('isEmpty');
 
             $signatureElement.signature('destroy');
+            $signatureElement.height($signatureElement.width() * 0.25);
             $signatureElement.signature(signatureOptions);
-            if(!isEmpty){
+            if (!isEmpty) {
                 $signatureElement.signature('draw', data);
             }
         }
 
-        function resizeUploadCanvas(){
+        function resizeUploadCanvas() {
             return;
             //$("#upload-canvas")
             var canvas = document.getElementById("upload-canvas");
             var ctx = canvas.getContext("2d");
 
             var img = new Image;
-            img.onload = function(){
+            img.onload = function () {
                 canvas.width = canvas.width;
                 $(canvas).attr("width", $(canvas).parent().width());
                 canvas.width = canvas.width;
-                ctx.drawImage(img,0,0);
+                ctx.drawImage(img, 0, 0);
             };
             img.src = canvas.toDataURL();
         }
@@ -75,26 +77,26 @@
         // initiate upload canvas
         var canvas = document.getElementById('upload-canvas');
         var ctx = canvas.getContext('2d');
-        $('#signature-file').change(function(e){
-            if(!e.target.files.length){
+        $('#signature-file').change(function (e) {
+            if (!e.target.files.length) {
                 return;
             }
 
             var reader = new FileReader();
-            reader.onload = function(event){
+            reader.onload = function (event) {
                 var img = new Image();
-                img.onload = function(){
+                img.onload = function () {
                     canvas.width = canvas.width;
 
                     var imageRatio = img.height / img.width;
                     var targetRatio = 1;
-                    if(imageRatio>0.3){
+                    if (imageRatio > 0.25) {
                         // image is taller. fix height
                         targetRatio = canvas.height / img.height;
-                        ctx.drawImage(img, canvas.width / 2 - img.width * targetRatio / 2, 0, img.width*targetRatio, img.height*targetRatio);
-                    } else{
+                        ctx.drawImage(img, canvas.width / 2 - img.width * targetRatio / 2, 0, img.width * targetRatio, img.height * targetRatio);
+                    } else {
                         targetRatio = canvas.width / img.width;
-                        ctx.drawImage(img, 0, (canvas.height - img.height * targetRatio) / 2, img.width*targetRatio, img.height*targetRatio);
+                        ctx.drawImage(img, 0, (canvas.height - img.height * targetRatio) / 2, img.width * targetRatio, img.height * targetRatio);
                     }
                     //var ratio = canvas.width / img.width;
                     //ctx.drawImage(img,0,0, 360, img.height * ratio);
@@ -112,31 +114,31 @@
         // initiate signature canvas
         $signatureElement.signature(signatureOptions);
 
-        $("#clear-canvas").click(function(){
+        $("#clear-canvas").click(function () {
             $signatureElement.signature('clear');
             $("#signature").val("");
         });
 
         $(window).resize(function () {
-            if(activeTabId == "tab-1"){
+            if (activeTabId == "tab-1") {
                 resizeText();
-            } else if(activeTabId == "tab-2"){
+            } else if (activeTabId == "tab-2") {
                 resizeDrawCanvas();
-            } else if(activeTabId == "tab-3"){
+            } else if (activeTabId == "tab-3") {
                 resizeUploadCanvas();
             }
         });
 
-        function tabSwitched(tabId){
+        function tabSwitched(tabId) {
             activeTabId = tabId;
 
-            if(tabId == "tab-1"){
+            if (tabId == "tab-1") {
                 resizeText();
                 $txt.focus();
                 $txt[0].setSelectionRange($txt.val().length, $txt.val().length);
-            } else if(tabId == "tab-2"){
+            } else if (tabId == "tab-2") {
                 resizeDrawCanvas();
-            } else if(tabId == "tab-3"){
+            } else if (tabId == "tab-3") {
                 resizeUploadCanvas();
             }
         }
@@ -162,8 +164,6 @@
             $("#clear-upload-canvas").hide();
             $(".upload-btn-wrapper").show();
         });
-
-
 
 
         // When the user clicks on the button, open the modal
@@ -195,12 +195,12 @@
 
         modal.find(".modal-done").click(function () {
             var tabId = $(this).closest(".tab-content").attr("id");
-            if(tabId=="tab-1"){
+            if (tabId == "tab-1") {
                 // produce signature from the input
                 createPreviewFromInput();
-            } else if(tabId=="tab-2"){
+            } else if (tabId == "tab-2") {
                 createPreviewFromDraw($signatureElement.signature('toDataURL'), $(this).closest(".tab-content").find(".signature-name").val());
-            } else if(tabId=="tab-3"){
+            } else if (tabId == "tab-3") {
                 createPreviewFromDraw($("#upload-canvas").get(0).toDataURL(), $(this).closest(".tab-content").find(".signature-name").val());
             }
 
@@ -218,31 +218,33 @@
             }
         };
 
-        function getDate(){
+        function getDate() {
             var today = new Date();
             var dd = today.getDate();
-            var mm = today.getMonth()+1; //January is 0!
+            var mm = today.getMonth() + 1; //January is 0!
 
             var yyyy = today.getFullYear();
-            if(dd<10){
-                dd='0'+dd;
+            if (dd < 10) {
+                dd = '0' + dd;
             }
-            if(mm<10){
-                mm='0'+mm;
+            if (mm < 10) {
+                mm = '0' + mm;
             }
-            return dd+'/'+mm+'/'+yyyy;
+            return dd + '/' + mm + '/' + yyyy;
         }
+
         function createPreviewFromInput() {
             var canvas = document.getElementById("signature-preview");
             var ctx = canvas.getContext("2d");
             var txt = $(".signature-write").val();
+            var lineY = 110;
 
             canvas.width = canvas.width;
 
             // draw the base line
             ctx.strokeStyle = "#ddd";
-            ctx.moveTo(10, 80);
-            ctx.lineTo(canvas.width - 10, 80);
+            ctx.moveTo(10, lineY);
+            ctx.lineTo(canvas.width - 10, lineY);
             ctx.stroke();
 
             if (txt) {
@@ -255,15 +257,15 @@
                     }
                 }
                 var startX = (canvas.width - ctx.measureText(txt).width) / 2;
-                var startY = 85;
+                var startY = lineY - 5;
                 ctx.textBaseline = "bottom";
                 ctx.fillText(txt, startX, startY);
 
                 ctx.font = "14px sans-serif";
                 ctx.textBaseline = "bottom";
-                ctx.fillText(txt, 10, 100);
+                ctx.fillText(txt, 10, lineY + 20);
                 var date = getDate();
-                ctx.fillText(date, (canvas.width - ctx.measureText(date).width - 10), 100);
+                ctx.fillText(date, (canvas.width - ctx.measureText(date).width - 10), lineY + 20);
                 // extract image
                 $("#signature").val(canvas.toDataURL());
             }
@@ -272,29 +274,30 @@
         function createPreviewFromDraw(data, name) {
             var canvas = document.getElementById("signature-preview");
             var ctx = canvas.getContext("2d");
+            var lineY = 110;
 
             canvas.width = canvas.width;
             var img = new Image;
-            img.onload = function(){
+            img.onload = function () {
                 console.log(img.width);
                 // draw the base line
                 ctx.strokeStyle = "#ddd";
-                ctx.moveTo(10, 80);
-                ctx.lineTo(canvas.width - 10, 80);
+                ctx.moveTo(10, lineY);
+                ctx.lineTo(canvas.width - 10, lineY);
                 ctx.stroke();
 
                 // draw image
-                var ratio = canvas.width / img.width;
-                img.width = 360;
-                ctx.drawImage(img,0,0, 360, img.height * ratio);
+                var ratio = (canvas.width - 30) / img.width;
+                img.width = 460;
+                ctx.drawImage(img, 0, 0, 450, img.height * ratio);
 
                 // write name and date
                 ctx.textBaseline = "bottom";
                 ctx.font = "14px sans-serif";
                 ctx.textBaseline = "bottom";
-                ctx.fillText(name, 10, 100);
+                ctx.fillText(name, 10, lineY + 20);
                 var date = getDate();
-                ctx.fillText(date, (canvas.width - ctx.measureText(date).width - 10), 100);
+                ctx.fillText(date, (canvas.width - ctx.measureText(date).width - 10), lineY + 20);
                 // extract image
                 $("#signature").val(canvas.toDataURL());
             };

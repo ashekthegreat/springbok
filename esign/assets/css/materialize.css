@@ -6056,43 +6056,57 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 /* own */
+/* line 1, ../sass/lib/_signature.scss */
+canvas {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
 /* Styles for signature plugin v1.2.0. */
-/* line 2, ../sass/lib/_signature.scss */
+/* line 13, ../sass/lib/_signature.scss */
 .kbw-signature {
   display: block;
   -ms-touch-action: none;
   width: 100%;
-  height: 120px;
+  height: 115px;
   overflow: hidden;
-}
-/* line 11, ../sass/lib/_signature.scss */
-.kbw-signature canvas {
   border: 1px solid #ccc;
 }
+/* line 23, ../sass/lib/_signature.scss */
+.kbw-signature canvas {
+  /*box-shadow: 0 0 0 1px #ccc inset;*/
+  border: 0;
+}
 
-/* line 16, ../sass/lib/_signature.scss */
+/* line 29, ../sass/lib/_signature.scss */
 .kbw-signature-disabled {
   opacity: 0.35;
 }
 
-/* line 20, ../sass/lib/_signature.scss */
+/* line 33, ../sass/lib/_signature.scss */
 .signature-create-container {
   /* Upload */
 }
-/* line 21, ../sass/lib/_signature.scss */
+/* line 34, ../sass/lib/_signature.scss */
 .signature-create-container .signature-write {
-  height: 120px;
+  height: 115px;
   font-family: 'Gochi Hand', cursive;
   background: #ffffe9;
   text-align: center;
   font-size: 60px;
   margin: 0;
+  border-radius: 0;
 }
-/* line 30, ../sass/lib/_signature.scss */
+/* line 44, ../sass/lib/_signature.scss */
 .signature-create-container #signature-area {
   position: relative;
 }
-/* line 33, ../sass/lib/_signature.scss */
+/* line 47, ../sass/lib/_signature.scss */
 .signature-create-container #signature-area #clear-canvas {
   position: absolute;
   right: 10px;
@@ -6100,22 +6114,21 @@ input[type=range]:focus::-ms-fill-upper {
   font-size: 12px;
   cursor: pointer;
 }
-/* line 41, ../sass/lib/_signature.scss */
+/* line 55, ../sass/lib/_signature.scss */
 .signature-create-container .signature-name {
   margin: 0;
 }
-/* line 46, ../sass/lib/_signature.scss */
+/* line 60, ../sass/lib/_signature.scss */
 .signature-create-container #upload-area {
   background: #ffffe9;
-  border: 1px solid #ccc;
   overflow: hidden;
 }
-/* line 51, ../sass/lib/_signature.scss */
+/* line 65, ../sass/lib/_signature.scss */
 .signature-create-container #upload-area .upload-btn-wrapper {
   overflow: hidden;
   cursor: pointer;
 }
-/* line 56, ../sass/lib/_signature.scss */
+/* line 70, ../sass/lib/_signature.scss */
 .signature-create-container #upload-area .command {
   position: absolute;
   top: 50%;
@@ -6123,7 +6136,7 @@ input[type=range]:focus::-ms-fill-upper {
   transform: translate(-50%, -50%);
   z-index: 0;
 }
-/* line 64, ../sass/lib/_signature.scss */
+/* line 78, ../sass/lib/_signature.scss */
 .signature-create-container #upload-area .upload-btn-wrapper input[type=file] {
   font-size: 120px;
   position: absolute;
@@ -6132,7 +6145,7 @@ input[type=range]:focus::-ms-fill-upper {
   opacity: 0;
   cursor: pointer;
 }
-/* line 72, ../sass/lib/_signature.scss */
+/* line 86, ../sass/lib/_signature.scss */
 .signature-create-container #upload-area #clear-upload-canvas {
   display: none;
   position: absolute;
@@ -6141,34 +6154,50 @@ input[type=range]:focus::-ms-fill-upper {
   font-size: 12px;
   cursor: pointer;
 }
-/* line 80, ../sass/lib/_signature.scss */
+/* line 94, ../sass/lib/_signature.scss */
 .signature-create-container #upload-area #upload-canvas {
   position: absolute;
   top: 0;
   left: 0;
+  /*box-shadow: 0 0 0 1px #ccc inset;*/
+}
+/* line 102, ../sass/lib/_signature.scss */
+.signature-create-container .parent {
+  height: 0;
+  padding-bottom: 25%;
+  /* 460:115 */
+  position: relative;
+}
+/* line 107, ../sass/lib/_signature.scss */
+.signature-create-container .parent .child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-/* line 90, ../sass/lib/_signature.scss */
+/* line 118, ../sass/lib/_signature.scss */
 .signature-container #edit-signature {
   display: none;
 }
-/* line 93, ../sass/lib/_signature.scss */
+/* line 121, ../sass/lib/_signature.scss */
 .signature-container #clear-signature {
   display: none;
   margin-right: 10px;
 }
-/* line 97, ../sass/lib/_signature.scss */
+/* line 125, ../sass/lib/_signature.scss */
 .signature-container #signature {
   margin: 0;
   display: none;
 }
-/* line 101, ../sass/lib/_signature.scss */
+/* line 129, ../sass/lib/_signature.scss */
 .signature-container #signature-preview {
   font-family: 'Gochi Hand', cursive;
   background: #ffffe9;
-  border: 1px solid #ccc;
+  /*box-shadow: 0 0 0 1px #ccc inset;*/
 }
-/* line 112, ../sass/lib/_signature.scss */
+/* line 139, ../sass/lib/_signature.scss */
 .signature-container .parent .create-command {
   border: 0;
   color: #6b6770;
@@ -6184,16 +6213,15 @@ input[type=range]:focus::-ms-fill-upper {
   cursor: pointer;
   white-space: nowrap;
 }
-
-/* line 129, ../sass/lib/_signature.scss */
-.parent {
+/* line 156, ../sass/lib/_signature.scss */
+.signature-container .parent {
   height: 0;
   padding-bottom: 30%;
-  /* 360:108 */
+  /* 460:138 */
   position: relative;
 }
-/* line 134, ../sass/lib/_signature.scss */
-.parent .child {
+/* line 161, ../sass/lib/_signature.scss */
+.signature-container .parent .child {
   position: absolute;
   top: 0;
   left: 0;
@@ -6369,7 +6397,7 @@ main {
 .tab-container .tab-content {
   display: none;
   background: #fff;
-  padding: 15px;
+  padding: 15px 20px;
 }
 /* line 157, ../sass/_application.scss */
 .tab-container .tab-content.current {

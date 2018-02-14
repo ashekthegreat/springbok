@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
 
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css?v=1"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css?v=2"  media="screen,projection"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -22,7 +22,7 @@
     <script type="text/javascript" src="assets/js/jquery.ui.touch-punch.min.js"></script>
     <script type="text/javascript" src="assets/js/jquery.signature.min.js"></script>
 
-    <script type="text/javascript" src="assets/js/script.js?v=1"></script>
+    <script type="text/javascript" src="assets/js/script.js?v=2"></script>
 </head>
 
 <body>
@@ -109,7 +109,7 @@
                                 Signature
                             </div>
                             <div class="parent">
-                                <canvas id="signature-preview" class="child" width="360" height="108">
+                                <canvas id="signature-preview" class="child" width="460" height="138">
                                     Your browser does not support signature preview.
                                 </canvas>
                                 <div class="create-command">Click to Create</div>
@@ -188,7 +188,7 @@
                 <!-- Tab 3 -->
                 <div id="tab-3" class="tab-content">
                     <div id="upload-area" class="parent">
-                        <canvas id="upload-canvas" class="child" width="566" height="118"></canvas>
+                        <canvas id="upload-canvas" class="child" width="460" height="115"></canvas>
                         <div class="upload-btn-wrapper child">
                             <button class="command waves-effect waves-light btn sp-primary sp-secondary-text">Select file</button>
                             <input type="file" id="signature-file" />
