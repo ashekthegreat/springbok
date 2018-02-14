@@ -19,7 +19,7 @@
 <body>
     <?php include("section-header.php"); ?>
 
-    <main>
+    <main class="centered">
 
         <section class="sp-secondary-text section-signin">
             <div class="container narrow">
