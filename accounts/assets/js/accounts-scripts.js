@@ -2,6 +2,18 @@
  * Created by ashek.elahi on 1/22/2018.
  */
 (function () {
+    $(function () {
+        $(".menu-button").sideNav({
+            menuWidth: 260,
+            edge: 'left',
+            closeOnClick: false
+        });
+        $(".dropdown-main-nav").dropdown({
+            hover: true,
+            constrain_width: false,
+            belowOrigin: true
+        });
+    });
 
     $(function(){
         if($(".properties-list").length){
