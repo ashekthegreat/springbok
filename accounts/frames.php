@@ -31,6 +31,7 @@
         iframe{
             padding: 0;
             width: 80vw;
+            width: calc(100vw - 200px);
             /*width: 400px;*/
             height: 100vh;
             border: 0;
@@ -53,7 +54,8 @@
             float: left;
             height: 90vh;
             width: 20vw;
-            overflow-y: scroll;
+            width: calc(200px);
+            overflow-y: auto;
             overflow-x: hidden;
             padding: 6vh 0 4vh;
         }

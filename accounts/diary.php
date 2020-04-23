@@ -30,7 +30,7 @@
             </div>
         </nav>
         <section class="sp-secondary-text section-diary">
-            <div class="container narrow">
+            <div class="container">
                 <h3 class="center-align margin-bottom-30">Your Appointments</h3>
 
                 <div class="card white sp-secondary-text">
