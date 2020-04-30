@@ -32,13 +32,27 @@
             left: -50px;
             top: 3px;
         }
+
+        .dot {
+            display: inline-block;
+            border: 2px solid #6a676e;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            background: transparent;
+            margin: 3px;
+        }
+        .dot.selected {
+            background: #6a676e;
+            cursor: default;
+        }
     </style>
 </head>
 
 <body>
 <?php include("section-header.php"); ?>
 
-<main>
+<main class="padding-0">
     <section class="sp-secondary-text section-profile-update">
         <div class="container">
 
@@ -137,9 +151,13 @@
                 </div>
             </div>
             <div class="center-align margin-top-25">
-                <button type="button" class="waves-effect waves-light btn btn-large btn-block-on-small sp-primary sp-secondary-text">Continue to Buy It Now</button>
+                <a href="solicitor.php" class="dot"></a>
+                <a href="javascript:" class="dot selected"></a>
             </div>
 
+            <div class="center-align margin-top-25">
+                <button type="button" class="waves-effect waves-light btn btn-large btn-block-on-small sp-primary sp-secondary-text">Continue to Buy It Now</button>
+            </div>
         </div>
     </section>
 </main>
