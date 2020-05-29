@@ -1,0 +1,617 @@
+/* services-container */
+.services-container {
+  max-width: 960px;
+
+  .big {
+    padding: 0;
+  }
+
+  h4 {
+    font-weight: bold;
+  }
+
+  .heading-points {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .services-container {
+    .col {
+      padding: 0 25px;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+
+/*
+  section-services-steps
+*/
+.section-services-steps {
+  .buy-steps {
+    position: relative;
+
+    .buy-step {
+      .line {
+        display: none;
+      }
+    }
+
+    .step-number {
+      font-size: 120px;
+      font-weight: bold;
+      line-height: 120px;
+    }
+
+    .line {
+      width: 1px;
+      height: 1px;
+      background-color: #494949;
+      position: absolute;
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-services-steps {
+    .buy-steps {
+      .buy-step {
+        padding: 10px 20px;
+        margin: 0 0 5px;
+        border-left: 8px solid #494949;
+        background-color: #f0eff1;
+        text-align: left;
+        position: relative;
+        min-height: 120px;
+
+        .step-number {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 90px;
+          text-align: center;
+          transform: translateY(-50%);
+        }
+
+        .step-title, .step-details {
+          margin-left: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .section-services-steps {
+    .buy-steps {
+
+      .buy-step {
+        max-width: 175px;
+        margin: 0 auto;
+
+        .step-title {
+          display: inline-block;
+        }
+      }
+
+      .line {
+        display: block;
+      }
+
+      .buy-step-1 {
+        padding-top: 120px;
+      }
+
+      .buy-step-2 {
+        padding-top: 60px;
+      }
+
+      .buy-step-3 {
+
+      }
+    }
+  }
+}
+
+
+/*
+  section-services-steps-auction
+*/
+.section-services-steps-auction {
+  .buy-steps {
+    position: relative;
+
+    .buy-step {
+      .line {
+        display: none;
+      }
+    }
+
+    .step-number {
+      position: relative;
+
+      img {
+        vertical-align: top;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .step-details {
+      font-size: 1.2rem;
+    }
+
+    .line {
+      width: 10px;
+      height: 1px;
+      background-color: #2b2b2b;
+      position: absolute;
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section-services-steps-auction {
+    .buy-steps {
+      .buy-step {
+        padding: 10px 20px;
+        margin: 0 0 5px;
+        border-left: 8px solid #494949;
+        background-color: #f0eff1;
+        text-align: left;
+        position: relative;
+        min-height: 110px;
+
+        .step-number {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          width: 90px;
+          text-align: center;
+        }
+
+        .step-title, .step-details {
+          margin-left: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .section-services-steps-auction {
+    .buy-steps {
+
+      .buy-step {
+        max-width: 175px;
+        margin: 0 auto;
+
+        .step-title {
+          display: inline-block;
+        }
+      }
+
+      .line {
+        display: block;
+      }
+
+      .buy-step-1 {
+        padding-top: 120px;
+      }
+
+      .buy-step-2 {
+        padding-top: 0;
+      }
+
+      .buy-step-3 {
+        padding-top: 120px;
+      }
+    }
+  }
+}
+
+/*
+  section-services-offer
+ */
+.section-services-offer {
+
+  .form-title {
+    padding: 25px 15px;
+    line-height: 1.2;
+    font-size: 26px;
+  }
+
+  .classic-form {
+    padding: 20px 10% 35px;
+
+    input {
+      margin-bottom: 12px;
+    }
+
+    .material-icons {
+      font-size: inherit;
+      vertical-align: middle;
+    }
+  }
+
+  .offer-button {
+    background: #3d8081;
+    font-size: 34px;
+    text-transform: none;
+    padding: 0 10px;
+  }
+
+
+}
+
+@media only screen and (min-width: 601px) {
+  .section-services-offer {
+    .shape-message {
+      margin-top: 200px;
+    }
+
+    .shape-message-investment {
+      margin-top: 70px;
+    }
+
+    .form-title {
+      font-size: 22px;
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .section-services-offer {
+    .form-title {
+      font-size: 30px;
+    }
+  }
+}
+
+
+/*
+section-services-key-benefits
+ */
+
+@media only screen and (max-width: 600px) {
+  .section-services-key-benefits {
+    .key-benefits {
+      margin-top: 20px;
+
+      .key-benefit {
+        padding: 10px 20px;
+        margin: 0 0 5px;
+        border-left: 8px solid #494949;
+        background-color: rgba(255, 255, 255, .8);
+        font-size: 1.2rem;
+        font-weight: bold;
+
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .section-services-key-benefits {
+    .key-benefits {
+      margin-top: 30px;
+      position: relative;
+      height: 400px;
+      text-align: center;
+
+      .key-benefit {
+        position: absolute;
+        border-radius: 50%;
+        font-weight: bold;
+        line-height: 1.1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        &.key-benefit-1 {
+          width: 180px;
+          height: 180px;
+          background: rgba(0, 0, 0, .1);
+          top: 0;
+          left: 50%;
+          font-size: 38px;
+          transform: translate(-138%, 0);
+        }
+
+        &.key-benefit-2 {
+          width: 150px;
+          height: 150px;
+          background: #fff;
+          top: 40px;
+          left: 50%;
+          font-size: 34px;
+          transform: translate(-50%, 0);
+        }
+
+        &.key-benefit-3 {
+          width: 210px;
+          height: 210px;
+          background: rgba(255, 255, 255, 0.7);
+          top: 0;
+          left: 50%;
+          font-size: 30px;
+          transform: translate(30%, 0);
+        }
+
+        &.key-benefit-4 {
+          width: 250px;
+          height: 250px;
+          background: rgba(255, 255, 255, 0.4);
+          top: 0;
+          left: 50%;
+          font-size: 28px;
+          transform: translate(-90%, 56%);
+        }
+
+        &.key-benefit-5 {
+          width: 200px;
+          height: 200px;
+          background: rgba(0, 0, 0, 0.15);
+          top: 0;
+          left: 50%;
+          font-size: 42px;
+          transform: translate(11%, 83%);
+          color: #222;
+        }
+
+      }
+    }
+  }
+}
+
+/*
+section-services-key-benefits-auction
+ */
+@media only screen and (min-width: 601px) {
+  .section-services-key-benefits-auction {
+    .key-benefits {
+      margin-top: 30px;
+      position: relative;
+      height: 400px;
+      text-align: center;
+
+      .key-benefit {
+        position: absolute;
+        border-radius: 50%;
+        font-weight: bold;
+        line-height: 1.1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        &.key-benefit-1 {
+          width: 180px;
+          height: 180px;
+          background: rgba(0, 0, 0, .1);
+          top: 0;
+          left: 50%;
+          font-size: 30px;
+          transform: translate(-138%, 0);
+        }
+
+        &.key-benefit-2 {
+          width: 150px;
+          height: 150px;
+          background: #fff;
+          top: 40px;
+          left: 50%;
+          font-size: 36px;
+          transform: translate(-50%, 0);
+        }
+
+        &.key-benefit-3 {
+          width: 210px;
+          height: 210px;
+          background: rgba(255, 255, 255, 0.7);
+          top: 0;
+          left: 50%;
+          font-size: 30px;
+          transform: translate(30%, 0);
+        }
+
+        &.key-benefit-4 {
+          width: 250px;
+          height: 250px;
+          background: rgba(255, 255, 255, 0.4);
+          top: 0;
+          left: 50%;
+          font-size: 30px;
+          transform: translate(-90%, 68%);
+          padding: 30px;
+        }
+
+        &.key-benefit-5 {
+          width: 180px;
+          height: 180px;
+          background: rgba(0, 0, 0, 0.15);
+          top: 0;
+          left: 50%;
+          font-size: 24px;
+          transform: translate(-4%, 85%);
+          color: #222;
+          padding: 10px;
+          z-index: 1;
+        }
+
+        &.key-benefit-6 {
+          width: 200px;
+          height: 200px;
+          background: #fff;
+          top: 0;
+          left: 50%;
+          font-size: 24px;
+          transform: translate(70%, 104%);
+          color: #222;
+          padding: 10px;
+        }
+
+      }
+    }
+  }
+}
+
+.services-regulator {
+  padding: 30px 0;
+
+  .regulated-label {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+
+  .logos {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-items: center;
+
+    img {
+      width: 16%;
+      padding: 0 2%;
+    }
+
+    .logo-1 {
+      width: 25%;
+    }
+
+    .logo-2 {
+      width: 23%;
+    }
+
+    .logo-3 {
+      width: 20%;
+    }
+
+    .logo-4 {
+      width: 18%;
+    }
+
+    .logo-5 {
+      width: 14%;
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .services-regulator {
+    .logos {
+      img {
+        padding: 0 3%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .services-regulator {
+    .regulated-label {
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    .logos {
+      img {
+        padding: 0 4%;
+      }
+    }
+  }
+}
+
+.services-rating {
+  .logo.first {
+    padding-left: 0;
+  }
+}
+
+.services-jumbo {
+  .breadcrumb-custom {
+
+  }
+
+  .main-speech-bg {
+    width: 100vw;
+    height: 0;
+    position: absolute;
+    left: -100vw;
+  }
+
+  .main-speech {
+    position: relative;
+    padding: 40px 0;
+    margin-bottom: 30px;
+
+    .bullet-point {
+      margin-bottom: 5px;
+    }
+  }
+
+  .page-title {
+    font-size: 32px;
+  }
+
+  .page-sub-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  form {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .services-jumbo {
+    .main-speech {
+      .bullet-point {
+        margin-bottom: 10px;
+      }
+
+      .bullet, .sep {
+        display: none;
+      }
+
+      .explanation {
+        display: block;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .services-jumbo {
+    .breadcrumb-custom {
+      margin-top: 40px;
+    }
+
+    .page-title {
+      font-size: 42px;
+    }
+  }
+
+}
+
+@media only screen and (min-width: 993px) {
+  .services-jumbo {
+    .page-title {
+      font-size: 52px;
+    }
+  }
+}
+

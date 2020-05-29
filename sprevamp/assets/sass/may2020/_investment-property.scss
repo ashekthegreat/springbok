@@ -1,0 +1,53 @@
+.section-investment-reviews {
+  .card {
+    cursor: pointer;
+
+    .card-image {
+      position: relative;
+
+    }
+
+    .card-content {
+      display: none;
+    }
+
+    .play-button {
+      background: rgba(0, 0, 0, 0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: all .3s;
+
+      i {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+    }
+
+    &:hover {
+      .play-button {
+        background: rgba(0, 0, 0, .25);
+      }
+    }
+  }
+
+  .small-videos {
+    text-align: center;
+    height: 135px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    .card {
+      display: inline-block;
+      margin: 0 5px 25px;
+      width: 100px;
+      vertical-align: top;
+      opacity: 0;
+
+
+    }
+  }
+}

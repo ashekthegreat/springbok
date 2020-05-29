@@ -1,0 +1,54 @@
+/*
+hero form used in every pages
+ */
+.section-hero-form {
+  form {
+    border-radius: 15px;
+  }
+
+  .form-title {
+    padding: 30px 15px 5px 15px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .classic-form {
+    padding: 20px 10% 35px;
+    border-radius: 0 0 15px 15px;
+
+    input {
+      margin-bottom: 12px;
+    }
+
+    .material-icons {
+      font-size: inherit;
+      vertical-align: middle;
+    }
+  }
+
+  .offer-button {
+    text-transform: none;
+    font-size: 34px;
+    background-color: #408080;
+    padding: 0 10px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .section-hero-form {
+    .offer-form {
+      .form-title {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .section-hero-form {
+    .offer-form {
+      .form-title {
+        font-size: 30px;
+      }
+    }
+  }
+}
