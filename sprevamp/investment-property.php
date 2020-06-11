@@ -51,10 +51,10 @@
                             <input placeholder="Phone" id="phone" name="phone" type="text" class="z-depth-1">
                             <input placeholder="Email" id="email" type="email" class="z-depth-1">
 
-                            <div class="center-align margin-top-15">
+                            <div class="center-align margin-top-10">
                                 <button type="submit" class="waves-effect waves-light btn-large btn-block white-text offer-button animated fadeInUpShort delay-250">Get an Offer</button>
                             </div>
-                            <div class="center-align smallest margin-top-10">
+                            <div class="center-align smallest margin-top-15">
                                 <i class="material-icons">lock</i>
                                 100% secure & confidential. Data protection registration number ZA065473
                             </div>
@@ -149,189 +149,194 @@
     <section class="section-investment-reviews white sp-secondary-text">
         <div class="container animatedParent">
             <h3 class="text-bold center-align margin-bottom-30">Why Hundreds of Customers Choose Springbok</h3>
-            <div class="row margin-bottom-0 animated fadeIn">
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="BYKz90GY5EM">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/BYKz90GY5EM/mqdefault.jpg"
-                                 width="320" height="180">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+            <div class="investment-videos" data-id="9mzmXW5t4ao">
+                <div class="row margin-bottom-0 animated fadeIn">
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="BYKz90GY5EM">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/BYKz90GY5EM/mqdefault.jpg"
+                                     width="320" height="180">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Marion Williams</div>
                         </div>
-                        <div class="card-content center-align">Marion Williams</div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="AL18YfGfBQ8">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/AL18YfGfBQ8/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Julian Roberts</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="ZTh3cXTzo8M">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/ZTh3cXTzo8M/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Diane Limer</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="mxbvoMspw0k">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/mxbvoMspw0k/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Ian Wynn</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="P8TOSyLkWlo">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/P8TOSyLkWlo/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Julie Price</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="EfgAXRE6Ybk">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/EfgAXRE6Ybk/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Mohammed Ashraf</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="AL18YfGfBQ8">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/AL18YfGfBQ8/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                <div class="row margin-bottom-0 animated fadeIn delay-250">
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="mvsbbI3tXA4">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/mvsbbI3tXA4/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Dianne Sass</div>
                         </div>
-                        <div class="card-content center-align">Julian Roberts</div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="iY38J2sNq-U">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/iY38J2sNq-U/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Mike Gaughan</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="B8iI-PnmrPU">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/B8iI-PnmrPU/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">David Gardner</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="Ag5sJFE6vQM">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/Ag5sJFE6vQM/mqdefault.jpg" width="320" height="180">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Denise Broomhall</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="dqY8H0b7YKs">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/dqY8H0b7YKs/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Megan Woods</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="5ed3wfFdkKw">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/5ed3wfFdkKw/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Nicola Ward</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="ZTh3cXTzo8M">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/ZTh3cXTzo8M/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                <div class="row margin-bottom-0 animated fadeIn delay-500">
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="-Tv9Izvris0">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/-Tv9Izvris0/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Samantha Lad</div>
                         </div>
-                        <div class="card-content center-align">Diane Limer</div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="Xx2S0rLeBqk">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/Xx2S0rLeBqk/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">David Johnson</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="PPJv9AY77KU">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/PPJv9AY77KU/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Warren Terry</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="F0WdUkXvBiQ">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/F0WdUkXvBiQ/mqdefault.jpg"
+                                     width="320" height="180">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Jon Desmond</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="0PK0_RMxgLs">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/0PK0_RMxgLs/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Keighley Richardson</div>
+                        </div>
+                    </div>
+                    <div class="col s4 m2 l2">
+                        <div class="card" data-id="0Irq3ggPT4Y">
+                            <div class="card-image">
+                                <img class="responsive-img" src="http://img.youtube.com/vi/0Irq3ggPT4Y/mqdefault.jpg"
+                                     width="120" height="90">
+                                <div class="play-button"><i class="social social-youtube-play-small"></i></div>
+                            </div>
+                            <div class="card-content center-align">Gary Morrish</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="mxbvoMspw0k">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/mxbvoMspw0k/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Ian Wynn</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="P8TOSyLkWlo">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/P8TOSyLkWlo/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Julie Price</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="EfgAXRE6Ybk">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/EfgAXRE6Ybk/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Mohammed Ashraf</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row margin-bottom-0 animated fadeIn delay-250">
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="mvsbbI3tXA4">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/mvsbbI3tXA4/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Dianne Sass</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="iY38J2sNq-U">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/iY38J2sNq-U/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Mike Gaughan</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="B8iI-PnmrPU">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/B8iI-PnmrPU/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">David Gardner</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="Ag5sJFE6vQM">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/Ag5sJFE6vQM/mqdefault.jpg" width="320" height="180">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Denise Broomhall</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="dqY8H0b7YKs">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/dqY8H0b7YKs/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Megan Woods</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="5ed3wfFdkKw">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/5ed3wfFdkKw/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Nicola Ward</div>
-                    </div>
-                </div>
-            </div>
-            <div class="row margin-bottom-0 animated fadeIn delay-500">
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="-Tv9Izvris0">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/-Tv9Izvris0/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Samantha Lad</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="Xx2S0rLeBqk">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/Xx2S0rLeBqk/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">David Johnson</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="PPJv9AY77KU">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/PPJv9AY77KU/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Warren Terry</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="F0WdUkXvBiQ">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/F0WdUkXvBiQ/mqdefault.jpg"
-                                 width="320" height="180">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Jon Desmond</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="0PK0_RMxgLs">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/0PK0_RMxgLs/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Keighley Richardson</div>
-                    </div>
-                </div>
-                <div class="col s12 m4 l2">
-                    <div class="card hoverable" data-id="0Irq3ggPT4Y">
-                        <div class="card-image">
-                            <img class="responsive-img" src="http://img.youtube.com/vi/0Irq3ggPT4Y/mqdefault.jpg"
-                                 width="120" height="90">
-                            <div class="play-button"><i class="social social-youtube-play-small"></i></div>
-                        </div>
-                        <div class="card-content center-align">Gary Morrish</div>
-                    </div>
+                <div class="play-button">
+                    <img src="images/services/youtube.png" width="512" height="384" class="youtube-play">
                 </div>
             </div>
         </div>
@@ -348,7 +353,7 @@
                             or a little bit of both.
                         </p>
                         <p class="big animated fadeInLeftShort delay-250">
-                            If you won an investment property and you're looking to sell, get in touch with us
+                            If you own an investment property and you're looking to sell, get in touch with us
                             now and we'd be happy to help you sell.
                         </p>
                     </div>
@@ -369,7 +374,7 @@
                             <div class="center-align margin-top-10">
                                 <button type="submit" class="waves-effect waves-light btn-large btn-block white-text offer-button animated fadeInUpShort delay-250">Get an Offer</button>
                             </div>
-                            <div class="center-align smallest margin-top-10">
+                            <div class="center-align smallest margin-top-15">
                                 <i class="material-icons">lock</i>
                                 100% secure & confidential. Data protection registration number ZA065473
                             </div>

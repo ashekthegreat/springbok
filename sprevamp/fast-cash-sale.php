@@ -49,10 +49,10 @@
                             <input placeholder="Phone" id="phone" name="phone" type="text" class="z-depth-1">
                             <input placeholder="Email" id="email" type="email" class="z-depth-1">
 
-                            <div class="center-align margin-top-15">
+                            <div class="center-align margin-top-10">
                                 <button type="submit" class="waves-effect waves-light btn-large btn-block white-text offer-button animated fadeInUpShort delay-250">Get an Offer</button>
                             </div>
-                            <div class="center-align smallest margin-top-10">
+                            <div class="center-align smallest margin-top-15">
                                 <i class="material-icons">lock</i>
                                 100% secure & confidential. Data protection registration number ZA065473
                             </div>
@@ -173,7 +173,7 @@
                             <div class="center-align margin-top-10">
                                 <button type="submit" class="waves-effect waves-light btn-large btn-block white-text offer-button animated fadeInUpShort delay-250">Get an Offer</button>
                             </div>
-                            <div class="center-align smallest margin-top-10">
+                            <div class="center-align smallest margin-top-15">
                                 <i class="material-icons">lock</i>
                                 100% secure & confidential. Data protection registration number ZA065473
                             </div>

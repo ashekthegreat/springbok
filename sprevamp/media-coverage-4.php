@@ -167,6 +167,49 @@
             </div>
         </div>
     </section>
+    <section class="section-services-offer sp-secondary lighten-5 sp-secondary-text">
+        <div class="container services-container">
+            <div class="row margin-bottom-0">
+                <div class="col s12 m5 l6">
+                    <div class="shape-message-investment animatedParent">
+                        <h3 class="animated fadeInDownShort">Next Steps</h3>
+                        <p class="big animated fadeInLeftShort">
+                            We are constantly innovating and finding new ways to give you real, practical options when
+                            you're looking to sell, whether your want speed, more cash for your property,
+                            or a little bit of both.
+                        </p>
+                        <p class="big animated fadeInLeftShort delay-250">
+                            Get in touch with us
+                            now and we'd be happy to help you sell.
+                        </p>
+                    </div>
+                </div>
+                <div class="col s12 m7 l6 animatedParent">
+                    <form class="white z-depth-2 animated fadeIn delay-250">
+                        <div class="form-title sp-primary sp-secondary-text center-align">
+                            <div class="nowrap">Get A Free</div>
+                            <div class="nowrap">No-Obligation Offer</div>
+                        </div>
+
+                        <div class="classic-form medium white">
+                            <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
+                            <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
+                            <input placeholder="Phone" id="phone" name="phone" type="text" class="z-depth-1">
+                            <input placeholder="Email" id="email" type="email" class="z-depth-1">
+
+                            <div class="center-align margin-top-10">
+                                <button type="submit" class="waves-effect waves-light btn-large btn-block white-text offer-button animated fadeInUpShort delay-250">Get an Offer</button>
+                            </div>
+                            <div class="center-align smallest margin-top-15">
+                                <i class="material-icons">lock</i>
+                                100% secure & confidential. Data protection registration number ZA065473
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 </main>

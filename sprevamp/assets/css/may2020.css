@@ -47,7 +47,13 @@ hero form used in every pages
   text-transform: none;
   font-size: 34px;
   background-color: #408080;
-  padding: 0 10px; }
+  padding: 0 10px;
+  height: 70px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.3), 0 15px 20px 0 rgba(0, 0, 0, 0.25); }
+  .section-hero-form .offer-button:hover {
+    background: #275757;
+    box-shadow: 0 16px 22px 0 rgba(0, 0, 0, 0.35), 0 22px 28px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); }
 
 @media only screen and (min-width: 601px) {
   .section-hero-form .offer-form .form-title {
@@ -119,8 +125,13 @@ hero form used in every pages
       text-transform: none;
       background: #408080;
       line-height: 1.2;
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding: 0 4vw;
+      border-radius: 10px;
+      box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.34); }
+      .home-banner-1 .modal-like .offer-button:hover {
+        background: #275757;
+        box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.45), 0 25px 55px 0 rgba(0, 0, 0, 0.38);
+        transform: translateY(-2px); }
       .home-banner-1 .modal-like .offer-button .offer-button-sub {
         display: block;
         color: #ffef00;
@@ -153,7 +164,11 @@ hero form used in every pages
       top: -12px;
       border-radius: 50%;
       border: 0;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); }
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      transition: all 0.3s linear; }
+      .home-banner-1 .month-range .noUi-handle:hover {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); }
       .home-banner-1 .month-range .noUi-handle:focus {
         outline: none; }
       .home-banner-1 .month-range .noUi-handle:before, .home-banner-1 .month-range .noUi-handle:after {
@@ -282,6 +297,17 @@ home-banner-features
   .home-banner-home-banner-features .features .value-box {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc; } }
+.help-text {
+  display: none; }
+
+.input-error h5 {
+  color: red; }
+.input-error input {
+  border-color: red; }
+.input-error .help-text {
+  display: block;
+  color: red; }
+
 .home-banner-2 .banner-text-content .banner-h {
   font-weight: bold;
   font-size: 2rem;
@@ -339,7 +365,7 @@ home-banner-features
   .section-services-steps .buy-steps .line {
     width: 1px;
     height: 1px;
-    background-color: #494949;
+    background-color: #909090;
     position: absolute;
     display: none; }
 
@@ -444,7 +470,16 @@ home-banner-features
   background: #3d8081;
   font-size: 34px;
   text-transform: none;
-  padding: 0 10px; }
+  padding: 0 10px;
+  height: 70px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.3), 0 15px 20px 0 rgba(0, 0, 0, 0.25); }
+  .section-services-offer .offer-button:hover {
+    background: #275757;
+    box-shadow: 0 16px 22px 0 rgba(0, 0, 0, 0.35), 0 22px 28px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); }
+.section-services-offer .smallest {
+  margin-left: -20px;
+  margin-right: -20px; }
 
 @media only screen and (min-width: 601px) {
   .section-services-offer .shape-message {
@@ -826,37 +861,58 @@ media-pagination
   min-width: 370px;
   font-size: 20px; }
 
-.section-investment-reviews .card {
-  cursor: pointer; }
-  .section-investment-reviews .card .card-image {
-    position: relative; }
-  .section-investment-reviews .card .card-content {
-    display: none; }
-  .section-investment-reviews .card .play-button {
-    background: transparent;
+.section-investment-reviews .investment-videos {
+  cursor: pointer;
+  padding: 0 .75rem;
+  position: relative; }
+  .section-investment-reviews .investment-videos .play-button {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    transition: all .3s; }
-    .section-investment-reviews .card .play-button i {
+    background: rgba(0, 0, 0, 0.4); }
+    .section-investment-reviews .investment-videos .play-button:hover {
+      background: rgba(0, 0, 0, 0.6); }
+      .section-investment-reviews .investment-videos .play-button:hover .youtube-play {
+        opacity: 1;
+        width: 120px; }
+    .section-investment-reviews .investment-videos .play-button .youtube-play {
       position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100px;
+      height: auto;
+      transform: translate(-50%, -50%);
+      opacity: .9;
+      transition: all .2s ease-in; }
+  .section-investment-reviews .investment-videos .col {
+    padding: 1px; }
+  .section-investment-reviews .investment-videos .card {
+    /*cursor: pointer;*/
+    margin: 0;
+    /*&:hover {
+      .play-button {
+        background: rgba(0, 0, 0, .25);
+      }
+    }*/ }
+    .section-investment-reviews .investment-videos .card .card-image {
+      position: relative; }
+    .section-investment-reviews .investment-videos .card .card-content {
+      display: none; }
+    .section-investment-reviews .investment-videos .card .play-button {
+      background: transparent;
+      position: absolute;
+      top: 0;
       left: 0;
-      bottom: 0; }
-  .section-investment-reviews .card:hover .play-button {
-    background: rgba(0, 0, 0, 0.25); }
-.section-investment-reviews .small-videos {
-  text-align: center;
-  height: 135px;
-  overflow: hidden;
-  margin-bottom: 20px; }
-  .section-investment-reviews .small-videos .card {
-    display: inline-block;
-    margin: 0 5px 25px;
-    width: 100px;
-    vertical-align: top;
-    opacity: 0; }
+      right: 0;
+      bottom: 0;
+      transition: all .3s; }
+      .section-investment-reviews .investment-videos .card .play-button i {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: none; }
 
 .lean-overlay {
   opacity: 0.8 !important; }

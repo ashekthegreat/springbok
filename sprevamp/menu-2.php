@@ -22,6 +22,54 @@
     <main>
 
 
+        <style type="text/css" rel="stylesheet">
+            #main-nav > li{
+                transition: none;
+            }
+            #main-nav > li:hover > a{
+                background: #408080;
+                color: #fff;
+                /*background: #fff;
+                box-shadow: 2px 0 0 0 #408080 inset, 0 2px 0 0 #408080 inset, -2px 0 0 0 #40807F inset;
+                z-index: 1000;
+                position: relative;
+                color: #494949;
+                transition: none;*/
+            }
+            #main-nav .dropdown-content{
+                background: #408080;
+                /*background: rgba(64,128,128,.95);*/
+                min-width: 200px;
+                border-radius: 0 0 8px 8px;
+            }
+            #main-nav .dropdown-content li{
+                transition: none;
+                position: relative;
+            }
+            #main-nav .dropdown-content a{
+                color: #fff;
+                padding: 10px 30px;
+                transition: none;
+            }
+            #main-nav .dropdown-content a:before{
+                content: "";
+                position: absolute;
+                left: 16px;
+                top: 16px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 0 5px 5px;
+                border-color: transparent transparent transparent #fff;
+            }
+            #main-nav .dropdown-content a:hover {
+                background: #fff;
+                color: #408080;
+            }
+            #main-nav .dropdown-content a:hover:before {
+                border-color: transparent transparent transparent #408080;
+            }
+        </style>
         <section class="home-banner-2 section-hero-form padding-top-30 padding-bottom-30">
             <div class="container">
                 <div class="row margin-bottom-0">

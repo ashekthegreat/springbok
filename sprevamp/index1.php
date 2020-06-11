@@ -94,6 +94,15 @@
                                         </div>
                                     </li>
                                     <li id="hero-slider-5">
+                                        <div class="center-align small margin-bottom-20">&nbsp;</div>
+                                        <div class="margin-bottom-15 input-error">
+                                            <h5 class="title">Your Phone Number</h5>
+                                            <input placeholder="e.g. 07123456789" id="phone" name="phone" type="text" class="" tabindex="-1"/>
+                                            <div class="help-text smaller">Please provide a valid UK telephone number</div>
+                                        </div>
+                                    </li>
+                                    <li id="hero-slider-6">
+                                        <div class="center-align small margin-bottom-20">&nbsp;</div>
                                         <div class="margin-bottom-15">
                                             <h5 class="title">Your Full Name</h5>
                                             <input placeholder="" id="name" name="name" type="text" class="" tabindex="-1"/>
@@ -104,7 +113,7 @@
 
                             <div class="padding-top-20 hero-bottom">
                                 <div class="center-align">
-                                    <button type="button" class="waves-effect waves-light btn-large btn-block white-text offer-button animated fadeIn" tabindex="-1">
+                                    <button type="button" class="waves-effect waves-light btn-large white-text offer-button animated fadeIn" tabindex="-1">
                                         <span class="first-step">
                                             Get an Offer
                                             <span class="offer-button-sub">Complete our short form - it only takes a minute</span>

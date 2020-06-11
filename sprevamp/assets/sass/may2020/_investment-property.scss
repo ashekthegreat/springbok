@@ -1,53 +1,77 @@
 .section-investment-reviews {
-  .card {
+  .investment-videos {
     cursor: pointer;
-
-    .card-image {
-      position: relative;
-
-    }
-
-    .card-content {
-      display: none;
-    }
+    padding: 0 .75rem;
+    position: relative;
 
     .play-button {
-      background: rgba(0, 0, 0, 0);
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      transition: all .3s;
+      background: rgba(0, 0, 0, .4);
 
-      i {
+      &:hover {
+        background: rgba(0, 0, 0, .6);
+
+        .youtube-play {
+          opacity: 1;
+          width: 120px;
+        }
+      }
+
+      .youtube-play {
         position: absolute;
-        left: 0;
-        bottom: 0;
+        top: 50%;
+        left: 50%;
+        width: 100px;
+        height: auto;
+        transform: translate(-50%, -50%);
+        opacity: .9;
+        transition: all .2s ease-in;
       }
     }
 
-    &:hover {
-      .play-button {
-        background: rgba(0, 0, 0, .25);
-      }
+    .col {
+      padding: 1px;
     }
-  }
-
-  .small-videos {
-    text-align: center;
-    height: 135px;
-    overflow: hidden;
-    margin-bottom: 20px;
 
     .card {
-      display: inline-block;
-      margin: 0 5px 25px;
-      width: 100px;
-      vertical-align: top;
-      opacity: 0;
+      /*cursor: pointer;*/
+      margin: 0;
 
+      .card-image {
+        position: relative;
 
+      }
+
+      .card-content {
+        display: none;
+      }
+
+      .play-button {
+        background: rgba(0, 0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: all .3s;
+
+        i {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          display: none;
+        }
+      }
+
+      /*&:hover {
+        .play-button {
+          background: rgba(0, 0, 0, .25);
+        }
+      }*/
     }
   }
 }

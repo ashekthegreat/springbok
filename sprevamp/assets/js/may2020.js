@@ -154,7 +154,7 @@ hero-1 slider
         }
 
         $banner.find('.progress .progress-bar').css('width', (current - 1) * 100 / total + '%');
-        $banner.find('.progress .progress-text').text('Progress ' + (current - 1) * 100 / total + '%');
+        $banner.find('.progress .progress-text').text('Progress ' + Math.round((current - 1) * 100 / total) + '%');
 
         if (current === total) {
             setTimeout(function () {
@@ -325,7 +325,7 @@ investment video reviews
 (function () {
     $(function () {
         var $modal = $("#modal-video");
-        $(".section-investment-reviews .card").click(function () {
+        $(".section-investment-reviews .investment-videos").click(function () {
             var id = $(this).data("id");
 
             $modal.find(".modal-content").empty().append('<div class="video-container"><iframe class="responsive-img" width="560" height="315" src="https://www.youtube.com/embed/' + id + '?showinfo=0&rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>');
@@ -342,9 +342,10 @@ investment video reviews
 exit intent
  */
 (function () {
-    $(function(){
+    $(function () {
         var $modal = $("#modal-exit");
-        function prepareSlider(){
+
+        function prepareSlider() {
             var $exitSlider = $modal.find('.exit-slider');
             var $button = $modal.find('.footer-button');
             $exitSlider.unslider({
@@ -363,6 +364,7 @@ exit intent
                 }
             });
         }
+
         function afterSlide(current, total) {
             if (current === 1) {
                 // first slide
@@ -382,7 +384,7 @@ exit intent
             }
 
             $modal.find('.progress .progress-bar').css('width', (current - 1) * 100 / total + '%');
-            $modal.find('.progress .progress-text').text('Progress ' + (current - 1) * 100 / total + '%');
+            $modal.find('.progress .progress-text').text('Progress ' + Math.round((current - 1) * 100 / total) + '%');
 
             if (current === total) {
                 setTimeout(function () {
@@ -392,13 +394,14 @@ exit intent
                 $modal.find('.footer-button-yes .footer-button').attr('type', 'button');
             }
         }
+
         function showExitPopup() {
             $modal.openModal({
                 starting_top: '4%',
                 ending_top: '4%',
                 dismissible: false,
                 in_duration: 200,
-                ready: function(){
+                ready: function () {
                     $modal.find('.chat-phone-yes').fadeIn({easing: 'swing'});
                     $('#exit-modal-close').show();
                 },
@@ -408,14 +411,15 @@ exit intent
                 }
             });
         }
+
         prepareSlider();
 
-        $modal.find('.footer-button-no').click(function(){
+        $modal.find('.footer-button-no').click(function () {
             $modal.closeModal();
             $('#exit-modal-close').hide();
         });
 
-        $('#exit-modal-close').click(function(){
+        $('#exit-modal-close').click(function () {
             $modal.closeModal();
             $('#exit-modal-close').hide();
         })
