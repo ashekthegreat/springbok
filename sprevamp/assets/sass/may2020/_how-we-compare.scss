@@ -1,0 +1,50 @@
+#compare_springbook {
+  .tabs {
+    margin-bottom: 0;
+
+    .tab a{
+      padding: 0 10px;
+    }
+    .active {
+      background: #ffef00;
+      font-weight: 500;
+    }
+
+    .indicator {
+      display: none;
+    }
+  }
+
+  .tab-compare-content {
+    padding: 30px 8%;
+    border: 4px solid #ffef00;
+    background: #f9f9f9;
+
+    .card {
+      border: none;
+    }
+
+    .tag {
+      top: auto;
+      bottom: 0;
+      padding: 0;
+      left: 50%;
+      margin-left: -85px;
+
+      @media only screen and (max-width: 768px){
+        left: 0;
+        margin-left: 0;
+      }
+
+      b {
+        width: 155px;
+      }
+    }
+
+    .compare-heading .card {
+      background: transparent;
+    }
+  }
+}
+
+

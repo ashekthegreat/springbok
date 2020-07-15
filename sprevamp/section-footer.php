@@ -306,6 +306,81 @@
 </div>
 <div id="exit-modal-close"><span class="material-icons">clear</span></div>
 
+
+<div id="modal-free-offer" class="modal">
+    <div class="modal-content">
+        <form class="" action="all-services.php">
+            <div class="classic-form">
+                <div class="free-offer-progress">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%;"></div>
+                        <div class="progress-text">Progress 25%</div>
+                    </div>
+                </div>
+
+                <div class="free-offer-slider">
+                    <ul>
+                        <li id="free-offer-slider-1">
+                            <div class="sub-heading">
+                                It may take upto 15 minutes for your download link to arrive in your inbox. In the mean time, why not
+                            </div>
+                            <h3 class="center-align margin-bottom-40">Get an instant download link by text</h3>
+                            <div class="form-item">
+                                <h5 class="title">Your Phone Number</h5>
+                                <input placeholder="e.g. 07911 123456" id="phone" name="phone" type="text" class="" tabindex="-1" required/>
+                            </div>
+                            <div class="small center-align">So we can text you the guide download link instantly</div>
+                        </li>
+                        <li id="free-offer-slider-2">
+                            <div class="sub-heading">
+                                You're just one step away from getting your
+                            </div>
+                            <h3 class="center-align margin-bottom-40">Free, no-obligation consultation</h3>
+                            <div class="margin-bottom-15 form-item">
+                                <h5 class="title">First line of address</h5>
+                                <input placeholder="" id="address" name="address" type="text" class="" tabindex="-1"/>
+                            </div>
+                            <div class="margin-bottom-15 form-item">
+                                <h5 class="title">Postcode</h5>
+                                <input placeholder="e.g. BB1 8HG" id="postcode" name="postcode" type="text" class="" tabindex="-1"/>
+                            </div>
+                        </li>
+                        <li id="free-offer-slider-3">
+                            <div class="sub-heading">
+                                Enter your details here for a
+                            </div>
+                            <h3 class="center-align margin-bottom-40">Free, no-obligation consultation</h3>
+                            <div class="margin-bottom-15 form-item">
+                                <h5 class="title">Your Full Name</h5>
+                                <input placeholder="" id="name" name="name" type="text" class="" tabindex="-1"/>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="modal-free-offer-footer sp-secondary lighten-5">
+                    <div class="free-offer-footer-buttons">
+                        <div class="free-offer-footer-section footer-button-yes">
+                            <button type="button" class="waves-effect waves-light btn-large btn-block green white-text footer-button" tabindex="-1">
+                                <span class="first-step">Yes, <span class="button-sub">text me my guide download link</span></span>
+                                <span class="other-steps">Continue, <span class="button-sub">to receive your free consultation</span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="center-align smaller margin-top-10 lock-message">
+                        <i class="material-icons" style="font-size: inherit;">lock</i>
+                        100% secure & confidential. Data protection registration number ZA065473
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="free-offer-modal-close"><span class="material-icons">clear</span></div>
+
+
+
+
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery-migrate-1.4.1.min.js"></script>

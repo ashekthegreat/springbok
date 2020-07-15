@@ -1,4 +1,6 @@
+@import "may2020/menu";
 @import "may2020/navbar-fix";
+@import "may2020/generic-fixes";
 @import "may2020/progress";
 @import "may2020/hero-form";
 @import "may2020/hero-frame-1";
@@ -8,3 +10,16 @@
 @import "may2020/commercial";
 @import "may2020/investment-property";
 @import "may2020/exit-popup";
+@import "may2020/free-offer-popup";
+@import "may2020/free-guide";
+@import "may2020/survey";
+@import "may2020/how-we-compare";
+
+
+#houseworth .zindex {
+  z-index: 10 !important;
+}
+
+.no-border {
+  border: 0 !important;
+}

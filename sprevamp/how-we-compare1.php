@@ -38,7 +38,7 @@
                             <div class="col s12 m12 l6 pr-0">
                                 <div class="card animatedParent">
                                     <div class="card-content right-align left"> <img src="images/Sprinbok_Properties.png" alt=""> </div>
-                                    <div class="comparevs animated fadeInUpShort">Vs</div>
+                                    <div class="comparevs animated fadeInUpShort go">Vs</div>
                                 </div>
                             </div>
                             <div class="col s12 m12 l6 pl-0">
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div class="row margin-bottom-40 relative animatedParent">
-                            <div class="col"> <span class="tag animated fadeInUpShort"><b>Speed</b></span> </div>
+                            <div class="col"> <span class="tag animated fadeInUpShort go"><b>Speed</b></span> </div>
                             <div class="col s12 m12 l6 pr-0">
                                 <div class="card grey darken-3">
                                     <div class="card-content right-align center-align left sp-primary-text">
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                         <div class="row margin-bottom-40 relative animatedParent">
-                            <div class="col"> <span class="tag animated fadeInUpShort"><b>Fees</b></span> </div>
+                            <div class="col"> <span class="tag animated fadeInUpShort go"><b>Fees</b></span> </div>
                             <div class="col s12 m12 l6 pr-0">
                                 <div class="card grey darken-3">
                                     <div class="card-content right-align left sp-primary-text">
@@ -84,7 +84,7 @@
                             </div>
                         </div>
                         <div class="row margin-bottom-40 relative animatedParent">
-                            <div class="col"> <span class="tag animated fadeInUpShort"><b>Selling Price</b></span> </div>
+                            <div class="col"> <span class="tag animated fadeInUpShort go"><b>Selling Price</b></span> </div>
                             <div class="col s12 m12 l6 pr-0">
                                 <div class="card grey darken-3">
                                     <div class="card-content right-align left sp-primary-text">
@@ -186,7 +186,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="swipe-cbc" class="carousel-item" href="#two!">
+                    <div id="swipe-cbc" class="carousel-item" href="#two!" style="display: none;">
                         <div class="row margin-top-10 margin-bottom-40 hide-on-med-and-down compare-heading">
                             <div class="col s12 m12 l6 pr-0">
                                 <div class="card animatedParent">
@@ -289,7 +289,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="swipe-oea" class="carousel-item" href="#three!">
+                    <div id="swipe-oea" class="carousel-item" href="#three!" style="display: none;">
                         <div class="row margin-top-10 margin-bottom-40 hide-on-med-and-down compare-heading">
                             <div class="col s12 m12 l6 pr-0">
                                 <div class="card animatedParent">
@@ -407,28 +407,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="reviews-chat no-padding sp-secondary lighten-5 sp-secondary-text">
-            <div class="container">
-                <div class="row">
-                    <div class="col s12 m8 offset-m4 l8 offset-l4">
-                        <h2 class="center-align">Thinking of selling?</h2>
-                        <form class="wf_3" action="//simbacloud.co.uk/Users/forms/processFormValid.php" method="post">
-                            <div class="classic-form no-padding no-border">
-                                <div class="row margin-bottom-0">
-                                    <div class="col s6"><input placeholder="Your Name" id="name" name="name" type="text" /></div>
-                                    <div class="col s6"><input placeholder="Your Number" id="phone" name="phone" type="text" /></div>
-                                </div>
-                                <div class="row margin-bottom-0">
-                                    <div class="col s6"><input placeholder="Your Email" id="email" name="email" type="text" /></div>
-                                    <input type="hidden" name="postcode" value="M12 6JH" />                                     <input type="hidden" name="address" value="Declined" />                                     <input type="hidden" name="_wf_salt" value="2640cd3529b02a68b483c68a5a24c507" />                                     <input type="hidden" name="_redirection" value="" />                                     <input type="hidden" name="_wf_name" value="Springbok Properties - Short" />                                     <input type="hidden" name="_wf_len" value="5" />                                     <input type="hidden" value="SP.co.uk - Want To Chat" name="_source" />                                     <input type="hidden" value="https://springbokproperties.co.uk/how-we-compare" name="_page_url" /><input type="hidden" value="" name="notext">                                     <input type="hidden" value="WEB" name="_srcChannel" />
-                                    <div class="col s6 right-align"><button type="submit" class="waves-effect waves-light btn-large sp-secondary sp-primary-text">Call Me Back</button></div>
-                                </div>
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>

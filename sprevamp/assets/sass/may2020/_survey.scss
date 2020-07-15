@@ -1,0 +1,45 @@
+/* survey-new.php */
+.survey-banner {
+  background: url("../images/survey/bg.jpg") no-repeat top center transparent;
+  background-size: cover;
+
+  .container {
+    overflow: hidden;
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .shaded-form {
+    box-shadow: -50px 0 125px 87px #fff;
+  }
+
+  .classic-form {
+    padding: 0 0 20px 0;
+  }
+
+  h3{
+    color: #333;
+    font-size: 36px;
+    margin-top: 30px;
+    font-weight: 900;
+  }
+
+}
+
+.equal-height-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col {
+    box-shadow: 0 0 0 5px #fff inset;
+    margin-bottom: 15px;
+
+    h4 {
+      padding: 20px;
+      background: #d5d5d5;
+      margin: 0;
+    }
+  }
+}

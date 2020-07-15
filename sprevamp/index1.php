@@ -95,7 +95,7 @@
                                     </li>
                                     <li id="hero-slider-5">
                                         <div class="center-align small margin-bottom-20">&nbsp;</div>
-                                        <div class="margin-bottom-15 input-error">
+                                        <div class="margin-bottom-15">  <!-- TODO: Add input-error as class to show invalid-->
                                             <h5 class="title">Your Phone Number</h5>
                                             <input placeholder="e.g. 07123456789" id="phone" name="phone" type="text" class="" tabindex="-1"/>
                                             <div class="help-text smaller">Please provide a valid UK telephone number</div>
