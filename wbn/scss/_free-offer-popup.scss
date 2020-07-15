@@ -1,0 +1,135 @@
+.lean-overlay {
+  opacity: 0.8 !important;
+}
+
+#modal-free-offer {
+  line-height: 1.5;
+
+  .modal-dialog{
+    padding: 0;
+    max-height: 92%;
+    max-width: 100%;
+    width: 660px;
+  }
+  .modal-body{
+    padding: 0;
+  }
+
+  .modal-content {
+    height: calc(100% - 145px);
+  }
+
+  .modal-footer {
+    padding: 0;
+    height: 146px;
+    border: 0;
+  }
+
+  .modal-exit-header {
+    font-size: 29px;
+    font-weight: bold;
+    padding: 10px 0;
+    line-height: 1.2;
+  }
+
+  .free-offer-slider {
+    margin: 0;
+  }
+  h3 {
+    font-size: 2.1rem;
+    line-height: 110%;
+    margin: 0 0 0.876rem 0;
+  }
+  #free-offer-slider-1, #free-offer-slider-2, #free-offer-slider-3 {
+    padding: 30px 40px;
+  }
+
+  .classic-form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+
+  .free-offer-progress {
+    padding: 30px 40px 0;
+    display: none;
+  }
+
+  .modal-free-offer-footer {
+    padding: 20px 40px;
+  }
+
+  .modal-free-offer-footer {
+
+    .footer-button {
+      font-size: 44px;
+      height: 95px;
+      line-height: 1.2;
+      text-transform: none;
+      margin: 0;
+      font-weight: 700;
+
+      .button-sub {
+        font-size: 18px;
+        display: block;
+        color: rgba(255, 255, 255, .8);
+        font-weight: 400;
+        line-height: 1.1;
+      }
+    }
+
+    .footer-button-yes {
+      .other-steps {
+        display: none;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #modal-free-offer {
+    .modal-free-offer-footer {
+
+      .footer-button {
+        font-size: 34px;
+        height: 105px;
+        padding: 0 10px;
+
+        .button-sub {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .sub-heading {
+      padding: 0;
+      font-size: 14px;
+    }
+  }
+}
+
+#free-offer-modal-close {
+  display: none;
+  position: fixed;
+  top: 4px;
+  right: 8px;
+  z-index: 1051;
+  cursor: pointer;
+  color: #fff;
+  padding: 2px 5px;
+
+  .fa {
+    font-size: 40px;
+    color: #ddd;
+    vertical-align: top;
+  }
+}

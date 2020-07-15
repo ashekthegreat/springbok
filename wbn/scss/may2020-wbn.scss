@@ -1,0 +1,32 @@
+@import "global";
+@import "unslider";
+@import "progress";
+@import "exit-popup";
+@import "free-offer-popup";
+@import "free-guide";
+
+
+.modal-backdrop.show {
+  opacity: .8;
+}
+
+.sp-secondary.lighten-5 {
+  background-color: #f0eff1 !important;
+}
+.sp-secondary {
+  background-color: #494949 !important;
+}
+
+// font-awesome
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-lock:before {
+  content: "\f023";
+}
+.fa-remove:before, .fa-close:before, .fa-times:before {
+  content: "\f00d";
+}
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
