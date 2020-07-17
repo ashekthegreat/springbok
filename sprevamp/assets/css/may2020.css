@@ -64,6 +64,19 @@
 #home-success-numbers .custom-height-3 {
   height: 205px; }
 
+/* Property list
+ */
+.properties-list .search-criteria {
+  margin: 0;
+  padding: 0; }
+
+.properties-list .search-criteria + p {
+  height: auto;
+  min-height: auto; }
+
+.property-card b, .property-card strong {
+  font-weight: 500 !important; }
+
 .progress {
   display: -ms-flexbox;
   display: flex;
