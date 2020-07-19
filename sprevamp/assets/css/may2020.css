@@ -1313,6 +1313,79 @@ h4.override {
   #compare_springbook .tab-compare-content .compare-heading .card {
     background: transparent; }
 
+.section-sell-land-offers .sell-offer-items {
+  overflow: visible; }
+  .section-sell-land-offers .sell-offer-items .banner-image {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .section-sell-land-offers .sell-offer-items .sell-offer-head {
+    background: #ffef00;
+    margin-top: -19px;
+    position: relative;
+    padding: 5px 15px;
+    border-radius: 0 0 16px 16px;
+    width: 95%;
+    min-height: 115px; }
+    .section-sell-land-offers .sell-offer-items .sell-offer-head:before, .section-sell-land-offers .sell-offer-items .sell-offer-head:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-style: solid; }
+    .section-sell-land-offers .sell-offer-items .sell-offer-head:before {
+      left: -12px;
+      border-width: 0 0 19px 12px;
+      border-color: transparent transparent #bbbbbb transparent; }
+    .section-sell-land-offers .sell-offer-items .sell-offer-head:after {
+      right: -12px;
+      border-width: 19px 0 0 12px;
+      border-color: transparent transparent transparent #bbbbbb; }
+  .section-sell-land-offers .sell-offer-items .sell-offer-details {
+    margin-top: 20px; }
+
+@media only screen and (max-width: 600px) {
+  .section-sell-land-offers .sell-offer-items .col {
+    margin-bottom: 50px;
+    background: #f7f7f7; }
+  .section-sell-land-offers .sell-offer-items .col:last-child {
+    margin-bottom: 0; } }
+@media only screen and (min-width: 601px) {
+  .section-sell-land-offers .sell-offer-items .col {
+    margin-bottom: 50px;
+    background: #f7f7f7; }
+  .section-sell-land-offers .sell-offer-items .col:nth-child(n+3) {
+    margin-bottom: 0; }
+  .section-sell-land-offers .sell-offer-items .col:nth-child(even) {
+    position: relative; }
+    .section-sell-land-offers .sell-offer-items .col:nth-child(even):before {
+      content: "";
+      position: absolute;
+      top: 160px;
+      left: 0;
+      bottom: 20px;
+      width: 2px;
+      background: #e2d97a; } }
+@media only screen and (min-width: 993px) {
+  .section-sell-land-offers .sell-offer-items {
+    background: #f7f7f7; }
+    .section-sell-land-offers .sell-offer-items .col {
+      margin-bottom: 0;
+      background: #f7f7f7; }
+    .section-sell-land-offers .sell-offer-items .col:nth-child(n+2) {
+      position: relative; }
+      .section-sell-land-offers .sell-offer-items .col:nth-child(n+2):before {
+        content: "";
+        position: absolute;
+        top: 160px;
+        left: 0;
+        bottom: 20px;
+        width: 2px;
+        background: #e2d97a; }
+    .section-sell-land-offers .sell-offer-items .sell-offer-head {
+      min-height: 160px; } }
 #houseworth .zindex {
   z-index: 10 !important; }
 

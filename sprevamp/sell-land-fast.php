@@ -26,8 +26,8 @@
         <div class="container">
             <div class="row">
                 <div class="col s12 m7 l6 animatedParent">
-                    <p class="smaller breadcrumb-custom">Services --> Modern Auctions</p>
-                    <h3 class="page-title margin-bottom-20 animated fadeInDownShort">Modern Auctions</h3>
+                    <p class="smaller breadcrumb-custom"></p>
+                    <h3 class="page-title margin-bottom-20 animated fadeInDownShort">We Can Buy Your Land Fast</h3>
                     <div class="main-speech-bg sp-secondary lighten-5"></div>
                     <div class="big main-speech animated fadeInRightShort">
                         <div>&bullet; Do you have land to sell?</div>
@@ -103,94 +103,102 @@
         </div>
     </section>
 
-    <section class="section-sell-offers white sp-secondary-text">
+    <section class="section-sell-land-offers white sp-secondary-text">
         <div class="container services-container center-align animatedParent">
             <h3 class="text-bold">Sell Your Land Fast</h3>
-            <p>
+            <p class="big">
                 Springbok Properties offers a specialist land buying &amp; land selling services
                 across the UK. We work with a broad range of individual land owners,
                 landlords and investors who are interested in selling small or large
                 plots with or without planning permission.
             </p>
-            <div class="row sell-offer-items sp-secondary lighten-5 margin-top-30 flexbox">
+            <div class="row sell-offer-items margin-top-50 margin-bottom-0">
                 <div class="col s12 m6 l3">
-                    <div class="sell-offer-item">
+                    <div class="sell-offer-item animatedParent">
                         <div class="sell-offer-head center-align">
-                            <img src="images/estate.png">
-                            <strong>Land with Development Potential</strong>
+                            <div class="banner-image animated fadeInUpShort"><img src="images/sell-land-fast/1.png" width="80" height="58" alt=""/></div>
+                            <h5>Land with Development Potential</h5>
                         </div>
-                        <div class="sell-offer-details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa facere id praesentium ut.</p>
+                        <div class="sell-offer-details left-align">
+                            <p>If your land is 20+ acres and on the edge of town, we can help you sell it fast.</p>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio
-                                et nulla porro, quaerat quasi ratione rem sapiente! Atque consequuntur
-                                hic magni maiores minus nemo quas quia temporibus ut voluptatem.
+                                If it's in a place for potential with town expansion or in a
+                                sustainable location with good links, then we can help you maximise it's value.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col s12 m6 l3">
-                    <div class="sell-offer-item">
+                    <div class="sell-offer-item animatedParent">
                         <div class="sell-offer-head center-align">
-                            <img src="images/estate.png">
-                            <strong>Land with Development Potential</strong>
+                            <div class="banner-image animated fadeInUpShort"><img src="images/sell-land-fast/2.png" width="68" height="68" alt=""/></div>
+                            <h5>Large Garden Or Property With Land</h5>
                         </div>
-                        <div class="sell-offer-details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa facere id praesentium ut.</p>
+                        <div class="sell-offer-details left-align">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio
-                                et nulla porro, quaerat quasi ratione rem sapiente! Atque consequuntur
-                                hic magni maiores minus nemo quas quia temporibus ut voluptatem.
+                                Large gardens may have development potential for further residential plots.
+                                It may even have buildings suitable for conversion or replacement.
+                            </p>
+                            <p>
+                                We can buy your land hassle-free. Or help you sell it for the best possible price.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col s12 m6 l3">
-                    <div class="sell-offer-item">
+                    <div class="sell-offer-item animatedParent">
                         <div class="sell-offer-head center-align">
-                            <img src="images/estate.png">
-                            <strong>Land with Development Potential</strong>
+                            <div class="banner-image animated fadeInUpShort"><img src="images/sell-land-fast/3.png" width="75" height="60" alt=""/></div>
+                            <h5>Land with Planning Permission</h5>
                         </div>
-                        <div class="sell-offer-details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa facere id praesentium ut.</p>
+                        <div class="sell-offer-details left-align">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio
-                                et nulla porro, quaerat quasi ratione rem sapiente! Atque consequuntur
-                                hic magni maiores minus nemo quas quia temporibus ut voluptatem.
+                                Do you own a land with planning permission that you would like
+                                to sell and are unsure of how to progress?
+                            </p>
+                            <p>
+                                Get in touch with us and we can buy your land hassle-free or
+                                help you sell it for the best possible price.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col s12 m6 l3">
-                    <div class="sell-offer-item">
+                    <div class="sell-offer-item animatedParent">
                         <div class="sell-offer-head center-align">
-                            <img src="images/estate.png">
-                            <strong>Land with Development Potential</strong>
+                            <div class="banner-image animated fadeInUpShort"><img class="d" src="images/sell-land-fast/4.png" width="63" height="63" alt=""/></div>
+                            <h5>Land on Commercial &amp; Industrial sites</h5>
                         </div>
-                        <div class="sell-offer-details">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa facere id praesentium ut.</p>
+                        <div class="sell-offer-details left-align">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio
-                                et nulla porro, quaerat quasi ratione rem sapiente! Atque consequuntur
-                                hic magni maiores minus nemo quas quia temporibus ut voluptatem.
+                                Do you own commercial land or industrial sites that you would
+                                like to sell and are unsure of how to progress?
+                            </p>
+                            <p>
+                                Get in touch with us and we can buy your land hassle-free or
+                                help you sell it for the best possible price.
                             </p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
     <section class="white sp-secondary-text">
         <div class="container services-container animatedParent center-align">
             <h3 class="text-bold">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id iusto nulla
-                numquam totam? Ab distinctio?
+                We Sell All Types of Land Brownfield, Greenfield,
+                Commercial And Land With or Without Planning
             </h3>
             <div class="land-types margin-top-20">
                 <div class="sp-primary lighten-4 big padding-10">Land near residential areas</div>
-                <div class="sp-secondary lighten-5 big padding-10">Land near residential areas</div>
-                <div class="sp-primary lighten-4 big padding-10">Land near residential areas</div>
-                <div class="sp-secondary lighten-5 big padding-10">Land near residential areas</div>
+                <div class="sp-secondary lighten-5 big padding-10">Commercial Land</div>
+                <div class="sp-primary lighten-4 big padding-10">Sustainable locations on the edge of thriving towns and villages</div>
+                <div class="sp-secondary lighten-5 big padding-10">Town centre sites for Sheltered Accommodation</div>
+                <div class="sp-primary lighten-4 big padding-10">Greenfield sites with or without permission</div>
+                <div class="sp-secondary lighten-5 big padding-10">Care Home Development sites</div>
+                <div class="sp-primary lighten-4 big padding-10">Farms on edge of towns</div>
             </div>
         </div>
     </section>
@@ -201,13 +209,14 @@
                     <div class="shape-message-investment animatedParent">
                         <h3 class="animated fadeInDownShort">Next Steps</h3>
                         <p class="big animated fadeInLeftShort">
-                            We are constantly innovating and finding new ways to give you real, practical options when
-                            you're looking to sell, whether your want speed, more cash for your property,
-                            or a little bit of both.
+                            We are constantly innovating and finding new ways to give you real,
+                            practical options when you're looking to sell, whether your want
+                            speed, more cash for your land, or a little bit of both.
                         </p>
                         <p class="big animated fadeInLeftShort delay-250">
-                            If you own an investment property and you're looking to sell, get in touch with us
-                            now and we'd be happy to help you sell.
+                            If you own a property with land and you're
+                            looking to sell, get in touch with us now and
+                            we'd be happy to help you sell.
                         </p>
                     </div>
                 </div>
@@ -219,10 +228,10 @@
                         </div>
 
                         <div class="classic-form medium white">
-                            <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1">
-                            <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1">
-                            <input placeholder="Phone" id="phone" name="phone" type="text" class="z-depth-1">
-                            <input placeholder="Email" id="email" type="email" class="z-depth-1">
+                            <input placeholder="Postcode" id="postcode" name="postcode" type="text" class="z-depth-1"/>
+                            <input placeholder="Name" id="name" name="name" type="text" class="z-depth-1"/>
+                            <input placeholder="Phone" id="phone" name="phone" type="text" class="z-depth-1"/>
+                            <input placeholder="Email" id="email" type="email" class="z-depth-1"/>
 
                             <div class="center-align margin-top-10">
                                 <button type="submit" class="waves-effect waves-light btn-large btn-block white-text offer-button animated fadeInUpShort delay-250">Get an Offer</button>
