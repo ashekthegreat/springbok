@@ -30,11 +30,11 @@
                     <h3 class="page-title margin-bottom-20 animated fadeInDownShort">Modern Auctions</h3>
                     <div class="main-speech-bg sp-secondary lighten-5"></div>
                     <div class="big main-speech animated fadeInRightShort">
-                        <div>&bullet; Buy to let property</div>
-                        <div>&bullet; HMO</div>
-                        <div>&bullet; HMO Portfolio</div>
-                        <div>&bullet; Property Portfolio</div>
-                        <div>&bullet; Property with Problem Tenants</div>
+                        <div>&bullet; Do you have land to sell?</div>
+                        <div>&bullet; Does your home have a large garden?</div>
+                        <div>&bullet; Have you received interest from developers?</div>
+                        <div>&bullet; Does your land have detailed or outline planning permission?</div>
+                        <div>&bullet; Do you own commercial premises in a residential area?</div>
                     </div>
 
                 </div>
@@ -103,57 +103,112 @@
         </div>
     </section>
 
-    <section class="section-services-steps-auction white sp-secondary-text">
+    <section class="section-sell-offers white sp-secondary-text">
         <div class="container services-container center-align animatedParent">
-            <h3 class="text-bold">How Our Auction Process Works</h3>
-            <div class="row buy-steps margin-top-30 animated fadeInUpShort">
-                <div class="line" id="line1"></div>
-                <div class="line" id="line2"></div>
-                <div class="col s12 m4 buy-step-1">
-                    <div class="buy-step">
-                        <div class="step-number"><img src="images/services/auction-1.png" width="158" height="158"></div>
-                        <p class="step-details">We agreed your target reserve price</p>
+            <h3 class="text-bold">Sell Your Land Fast</h3>
+            <p>
+                Springbok Properties offers a specialist land buying &amp; land selling services
+                across the UK. We work with a broad range of individual land owners,
+                landlords and investors who are interested in selling small or large
+                plots with or without planning permission.
+            </p>
+            <div class="row sell-offer-items sp-secondary lighten-5 margin-top-30 flexbox">
+                <div class="col s12 m6 l3">
+                    <div class="sell-offer-item">
+                        <div class="sell-offer-head center-align">
+                            <img src="images/estate.png">
+                            <strong>Land with Development Potential</strong>
+                        </div>
+                        <div class="sell-offer-details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa facere id praesentium ut.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio
+                                et nulla porro, quaerat quasi ratione rem sapiente! Atque consequuntur
+                                hic magni maiores minus nemo quas quia temporibus ut voluptatem.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col s12 m4 buy-step-2">
-                    <div class="buy-step">
-                        <div class="step-number"><img src="images/services/auction-2.png" width="158" height="158"></div>
-                        <p class="step-details">Sale agreed within 3 to 28 days &amp; reservation deposit paid</p>
+                <div class="col s12 m6 l3">
+                    <div class="sell-offer-item">
+                        <div class="sell-offer-head center-align">
+                            <img src="images/estate.png">
+                            <strong>Land with Development Potential</strong>
+                        </div>
+                        <div class="sell-offer-details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa facere id praesentium ut.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio
+                                et nulla porro, quaerat quasi ratione rem sapiente! Atque consequuntur
+                                hic magni maiores minus nemo quas quia temporibus ut voluptatem.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col s12 m4 buy-step-3">
-                    <div class="buy-step">
-                        <div class="step-number"><img src="images/services/auction-3.png" width="158" height="158"></div>
-                        <p class="step-details green-text">56 days to complete move from date of sale</p>
+                <div class="col s12 m6 l3">
+                    <div class="sell-offer-item">
+                        <div class="sell-offer-head center-align">
+                            <img src="images/estate.png">
+                            <strong>Land with Development Potential</strong>
+                        </div>
+                        <div class="sell-offer-details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa facere id praesentium ut.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio
+                                et nulla porro, quaerat quasi ratione rem sapiente! Atque consequuntur
+                                hic magni maiores minus nemo quas quia temporibus ut voluptatem.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="sell-offer-item">
+                        <div class="sell-offer-head center-align">
+                            <img src="images/estate.png">
+                            <strong>Land with Development Potential</strong>
+                        </div>
+                        <div class="sell-offer-details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci culpa facere id praesentium ut.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta distinctio
+                                et nulla porro, quaerat quasi ratione rem sapiente! Atque consequuntur
+                                hic magni maiores minus nemo quas quia temporibus ut voluptatem.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section-services-key-benefits section-services-key-benefits-auction sp-primary sp-secondary-text">
-        <div class="container services-container animatedParent">
-            <h3 class="text-bold center-align">Fast Sale - Key Benefits</h3>
-            <div class="key-benefits animated fadeInDownShort delay-250">
-                <div class="key-benefit key-benefit-1">Effective pricing policy</div>
-                <div class="key-benefit key-benefit-2">Sale in weeks</div>
-                <div class="key-benefit key-benefit-3">Quick legals for faster exchange</div>
-                <div class="key-benefit key-benefit-4">Secure sale with Buyer Reservation Deposit</div>
-                <div class="key-benefit key-benefit-5">No <br>time-wasters</div>
-                <div class="key-benefit key-benefit-6">More buyers, more competition</div>
+    <section class="white sp-secondary-text">
+        <div class="container services-container animatedParent center-align">
+            <h3 class="text-bold">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id iusto nulla
+                numquam totam? Ab distinctio?
+            </h3>
+            <div class="land-types margin-top-20">
+                <div class="sp-primary lighten-4 big padding-10">Land near residential areas</div>
+                <div class="sp-secondary lighten-5 big padding-10">Land near residential areas</div>
+                <div class="sp-primary lighten-4 big padding-10">Land near residential areas</div>
+                <div class="sp-secondary lighten-5 big padding-10">Land near residential areas</div>
             </div>
         </div>
     </section>
     <section class="section-services-offer sp-secondary lighten-5 sp-secondary-text">
         <div class="container services-container">
             <div class="row margin-bottom-0">
-                <div class="col s12 m5 l6 padding-0">
-                    <div class="shape-message animatedParent">
-                        <div class="padding-15 sp-secondary white-text center-align margin-bottom-10 animated fadeInLeftShort">
-                            Plus 7 other key benefits of our Modern Auctions >>
-                        </div>
-                        <div class="text-bold bigger center-align margin-bottom-20">
-                            To find out more, enquire now
-                        </div>
+                <div class="col s12 m5 l6">
+                    <div class="shape-message-investment animatedParent">
+                        <h3 class="animated fadeInDownShort">Next Steps</h3>
+                        <p class="big animated fadeInLeftShort">
+                            We are constantly innovating and finding new ways to give you real, practical options when
+                            you're looking to sell, whether your want speed, more cash for your property,
+                            or a little bit of both.
+                        </p>
+                        <p class="big animated fadeInLeftShort delay-250">
+                            If you own an investment property and you're looking to sell, get in touch with us
+                            now and we'd be happy to help you sell.
+                        </p>
                     </div>
                 </div>
                 <div class="col s12 m7 l6 animatedParent">
