@@ -28,3 +28,16 @@
 .property-card b, .property-card strong {
   font-weight: 500 !important;
 }
+
+/* Optimization fixes */
+section.call_section {
+  background-image: url(../images/yellow_section.jpg);
+
+  &:after{
+    display: none;
+  }
+}
+
+section.publications {
+  background-image: url(../images/plublication_bg.jpg);
+}
