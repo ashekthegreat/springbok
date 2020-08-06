@@ -95,11 +95,11 @@
                                     <div class="text-center small margin-bottom-20">Your address allows us to provide accurate offers for your property</div>
                                     <div class="margin-bottom-15">
                                         <h5 class="title">First line of address</h5>
-                                        <input placeholder="" id="address" name="address" type="text" class="" tabindex="-1"/>
+                                        <input placeholder="" id="address" name="address" type="text" class=""/>
                                     </div>
                                     <div class="margin-bottom-15 prop-postcode">
                                         <h5 class="title">Postcode</h5>
-                                        <input placeholder="e.g. BB1 8HG" id="postcode" name="postcode" type="text" class="" tabindex="-1"/>
+                                        <input placeholder="e.g. BB1 8HG" id="postcode" name="postcode" type="text" class=""/>
                                         <div class="help-text smaller" id="field-slide-2">Postcode is required</div>
                                     </div>
                                 </li>
@@ -154,7 +154,7 @@
                                 </button>
                             </div>
                             <div class="hero-slider-prev padding-top-10 padding-right-15 smaller">
-                                <a href="javascript:" class="prev"><i class="fas fa-chevron-left"></i> Previous</a>
+                                <a href="javascript:" class="prev" tabindex="-1"><i class="fas fa-chevron-left"></i> Previous</a>
                             </div>
                             <div class="text-center smaller margin-top-10">
                                 <i class="fa fa-lock" style="font-size: inherit;"></i>
