@@ -837,7 +837,7 @@ h4.override {
       text-align: left;
       font-weight: 400; }
     .home-banner-1 .modal-like .classic-form {
-      padding: 30px 0;
+      padding: 20px 0;
       margin: 0 auto;
       border: 0; }
       .home-banner-1 .modal-like .classic-form [type="radio"]:not(:checked), .home-banner-1 .modal-like .classic-form [type="radio"]:checked {
@@ -851,9 +851,13 @@ h4.override {
         padding-left: 1.5%;
         padding-right: 1.5%;
         list-style: none; }
-    .home-banner-1 .modal-like .hero-slider {
-      margin-top: 20px;
-      min-height: 260px; }
+        .home-banner-1 .modal-like .classic-form li + li {
+          height: 1px;
+          overflow: hidden; }
+        .home-banner-1 .modal-like .classic-form li.unslider-active {
+          height: auto; }
+    .home-banner-1 .modal-like .hero-progress {
+      margin-bottom: 20px; }
     .home-banner-1 .modal-like .hero-bottom {
       padding-left: 7.5%;
       padding-right: 7.5%; }
@@ -895,7 +899,7 @@ h4.override {
     padding-right: 7.5%; }
   .home-banner-1 .month-range {
     width: 88%;
-    margin: 90px auto 90px; }
+    margin: 70px auto; }
     .home-banner-1 .month-range .noUi-target {
       height: 11px;
       background: #c9eded;
@@ -937,13 +941,16 @@ h4.override {
     .home-banner-1 .month-range .noUi-value {
       top: 5px;
       font-size: .7rem; }
+    .home-banner-1 .month-range .noUi-pips-horizontal {
+      height: 55px; }
     .home-banner-1 .month-range .noUi-tooltip {
       background: #313131;
       color: #fff;
       border-radius: 8px;
       border: none;
       padding: 5px 12px;
-      bottom: 150%; }
+      bottom: 150%;
+      font-size: .8rem; }
       .home-banner-1 .month-range .noUi-tooltip:after {
         top: 100%;
         left: 50%;
@@ -1001,12 +1008,18 @@ h4.override {
         display: inline-block; }
 
 @media only screen and (max-width: 600px) {
+  .home-banner-1 .modal-like .classic-form {
+    padding-top: 15px; }
+    .home-banner-1 .modal-like .classic-form input {
+      height: 2.5rem;
+      font-size: 1rem; }
   .home-banner-1 .modal-like .modal-like-header {
     font-size: 24px; }
   .home-banner-1 .modal-like .modal-like-sub-header {
-    font-size: 22px; }
+    font-size: 22px;
+    padding-top: 10px; }
   .home-banner-1 .modal-like .title {
-    font-size: 20px; }
+    font-size: 18px; }
   .home-banner-1 .modal-like .offer-button {
     font-size: 32px;
     height: 80px; }
@@ -1014,13 +1027,19 @@ h4.override {
       font-size: 12px; }
   .home-banner-1 .modal-like .custom-radio {
     font-size: 20px; }
-  .home-banner-1 .modal-like .hero-slider {
-    margin-top: 10px; } }
+  .home-banner-1 .modal-like .hero-progress {
+    margin-bottom: 10px; }
+  .home-banner-1 .modal-like .hero-bottom {
+    padding-top: 10px !important; }
+  .home-banner-1 .modal-like .month-range {
+    margin-bottom: 50px; } }
 @media only screen and (min-width: 601px) {
   .home-banner-1 .banner-h1 {
     font-size: 1.8rem; }
   .home-banner-1 .sub-h1 {
     font-size: 1.5rem; }
+  .home-banner-1 .month-range .noUi-tooltip {
+    font-size: 1rem; }
   .home-banner-1 .month-range .noUi-value {
     top: 20px;
     font-size: 1rem;

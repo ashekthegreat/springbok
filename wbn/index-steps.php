@@ -74,7 +74,7 @@
                                     <input type="hidden" id="what_sort_of_time_frames_are_you_looking_to_work_towards" name="what_sort_of_time_frames_are_you_looking_to_work_towards"/>
                                 </li>
                                 <li id="hero-slider-2">
-                                    <div class="text-center small margin-bottom-20">&nbsp;</div>
+                                    <div class="text-center small margin-bottom-20"></div>
                                     <h5 class="title">Do you currently live in the property?</h5>
                                     <label class="custom-radio">
                                         <input name="living" type="radio" value="Yes" tabindex="-1" />
@@ -120,7 +120,7 @@
                                     </div>
                                 </li>
                                 <li id="hero-slider-6">
-                                    <div class="text-center small margin-bottom-20">&nbsp;</div>
+                                    <div class="text-center small margin-bottom-20"></div>
                                     <div class="margin-bottom-15">
                                         <h5 class="title">Your Full Name</h5>
                                         <input placeholder="" id="name" name="name" type="text" class="" tabindex="-1"/>

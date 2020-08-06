@@ -49,7 +49,7 @@
     }
 
     .classic-form {
-      padding: 30px 0;
+      padding: 20px 0;
       margin: 0 auto;
       border: 0;
 
@@ -68,12 +68,24 @@
         padding-left: 1.5%;
         padding-right: 1.5%;
         list-style: none;
+
+        & + li {
+          height: 1px;
+          overflow: hidden;
+        }
+
+        &.unslider-active {
+          height: auto;
+        }
       }
     }
 
     .hero-slider {
-      margin-top: 20px;
-      min-height: 260px;
+
+    }
+
+    .hero-progress {
+      margin-bottom: 20px;
     }
 
     .hero-bottom {
@@ -140,7 +152,7 @@
 
   .month-range {
     width: 88%;
-    margin: 90px auto 90px;
+    margin: 70px auto;
 
     .noUi-target {
       height: 11px;
@@ -205,6 +217,10 @@
       font-size: .7rem;
     }
 
+    .noUi-pips-horizontal {
+      height: 55px;
+    }
+
     .noUi-tooltip {
       background: #313131;
       color: #fff;
@@ -212,6 +228,7 @@
       border: none;
       padding: 5px 12px;
       bottom: 150%;
+      font-size: .8rem;
 
       &:after {
         top: 100%;
@@ -293,16 +310,26 @@
   .home-banner-1 {
     .modal-like {
 
+      .classic-form {
+        padding-top: 15px;
+
+        input {
+          height: 2.5rem;
+          font-size: 1rem;
+        }
+      }
+
       .modal-like-header {
         font-size: 24px;
       }
 
       .modal-like-sub-header {
         font-size: 22px;
+        padding-top: 10px;
       }
 
       .title {
-        font-size: 20px;
+        font-size: 18px;
       }
 
       .offer-button {
@@ -319,7 +346,19 @@
       }
 
       .hero-slider {
-        margin-top: 10px;
+
+      }
+
+      .hero-progress {
+        margin-bottom: 10px;
+      }
+
+      .hero-bottom {
+        padding-top: 10px !important;
+      }
+
+      .month-range {
+        margin-bottom: 50px;
       }
     }
   }
@@ -336,6 +375,10 @@
     }
 
     .month-range {
+      .noUi-tooltip {
+        font-size: 1rem;
+      }
+
       .noUi-value {
         top: 20px;
         font-size: 1rem;
