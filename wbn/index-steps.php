@@ -19,7 +19,7 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 d-flex flex-wrap justify-content-md-between align-items-center">
+                <div class="col-lg-12 d-flex flex-wrap justify-content-md-between justify-content-center align-items-center">
                     <div class="logo">
                         <a href="#">
                             <img src="images/logo.png" alt="we Buy Now">
