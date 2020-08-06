@@ -23,6 +23,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m12 l8 margin-bottom-40">
+                        <div class="card-panel margin-top-0 sp-secondary lighten-5 property-back-too-list hide-on-large-only">
+                            <a href="property-list.php" onclick="history.back()">&Lt; Back to property listings</a>
+                        </div>
                         <div class="z-depth-1 sp-secondary lighten-5 margin-bottom-30">
                             <div class="property-head sp-secondary lighten-5 clearfix">
                                 <div class="property-head-right">
@@ -107,7 +110,7 @@
                             <div class="tab-content margin-top-0 card-panel z-depth-0">
                                 <div role="tabpanel" class="tab-pane active" id="property-tab-description">
                                     <div class="row">
-                                        <div class="col s8">
+                                        <div class="col s12 m8">
                                             <div class="property-key-features">
                                                 <h3>Key features</h3>
                                                 <ul class="list-two-col list-style-square clearfix">
@@ -133,7 +136,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="col s4">
+                                        <div class="col s12 m4 hide-on-small-and-down">
                                             <a id="mapid" href="#property-tab-map"><img class="responsive-img" src="assets/images/staticmap.png"></a>
                                         </div>
                                     </div>
@@ -157,7 +160,7 @@
                     <div class="col s12 m12 l4">
                         <aside class="main-sidebar hidden-print">
 
-                            <div class="card-panel margin-top-0 sp-secondary lighten-5 property-back-too-list">
+                            <div class="card-panel margin-top-0 sp-secondary lighten-5 property-back-too-list hide-on-med-and-down">
                                 <a href="property-list.php" onclick="history.back()">&Lt; Back to property listings</a>
                             </div>
 

@@ -35,8 +35,16 @@ $measurements: 0, 5, 10, 15, 20, 25, 30, 40, 50, 80, 100;
 }
 
 // size
+.small {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
 .smaller {
   font-size: 0.8rem;
+  font-weight: 400;
+}
+.smallest {
+  font-size: 0.65rem;
   font-weight: 400;
 }
 

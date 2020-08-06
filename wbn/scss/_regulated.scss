@@ -1,0 +1,66 @@
+.services-regulator {
+  padding: 30px 0;
+
+  .regulated-label {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+
+  .logos {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-items: center;
+
+    img {
+      width: 16%;
+      padding: 0 2%;
+    }
+
+    .logo-1 {
+      width: 25%;
+    }
+
+    .logo-2 {
+      width: 23%;
+    }
+
+    .logo-3 {
+      width: 20%;
+    }
+
+    .logo-4 {
+      width: 18%;
+    }
+
+    .logo-5 {
+      width: 14%;
+    }
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .services-regulator {
+    .logos {
+      img {
+        padding: 0 3%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .services-regulator {
+    .regulated-label {
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    .logos {
+      img {
+        padding: 0 4%;
+      }
+    }
+  }
+}

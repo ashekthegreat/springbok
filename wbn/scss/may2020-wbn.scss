@@ -4,6 +4,12 @@
 @import "exit-popup";
 @import "free-offer-popup";
 @import "free-guide";
+/*
+@import "regulated";
+@import "banner-features";
+@import "ratings";
+*/
+@import "hero-steps";
 
 
 .modal-backdrop.show {
@@ -14,7 +20,8 @@
   background-color: #f0eff1 !important;
 }
 .sp-secondary {
-  background-color: #494949 !important;
+  /*background-color: #494949 !important;*/
+  background-color: #54595f !important;
 }
 
 // font-awesome
@@ -29,4 +36,18 @@
 }
 .fa-check-circle-o:before {
   content: "\f05d";
+}
+/*
+.fa-star:before {
+  content: "\f005";
+}
+.fa-star-half-alt:before {
+  content: "\f5c0";
+}
+*/
+.fa-circle:before {
+  content: "\f111";
+}
+.fa-dot-circle:before {
+  content: "\f192";
 }

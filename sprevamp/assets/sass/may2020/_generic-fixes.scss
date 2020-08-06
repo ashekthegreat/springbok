@@ -33,11 +33,53 @@
 section.call_section {
   background-image: url(../images/yellow_section.jpg);
 
-  &:after{
+  &:after {
     display: none;
   }
 }
 
 section.publications {
   background-image: url(../images/plublication_bg.jpg);
+}
+
+/* tabs */
+.tabs.old .indicator {
+  display: none;
+}
+
+.tabs.old .tab a.active {
+  border-bottom: 3px solid #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  ul.tabs {
+    display: flex;
+  }
+  .tabs .tab {
+    width: auto;
+    display: block;
+    float: left;
+    height: 48px;
+    min-width: 40px;
+  }
+  .tabs .tab a {
+    line-height: 48px;
+    text-align: center;
+    width: auto;
+    min-width: auto;
+    padding: 0 5px;
+  }
+  .tabs .tab a.active {
+    text-align: center;
+  }
+}
+
+
+/* MANISH CSS*/
+h1.part-exchange-text {
+  color: black !important;
+}
+
+h2.part-exchange-text {
+  color: black !important;
 }

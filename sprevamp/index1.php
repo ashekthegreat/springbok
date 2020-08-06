@@ -38,7 +38,7 @@
         </section>
 
         <section id="hero-banner-1" class="home-banner-1 padding-0">
-            <img src="images/hero-frames/hero-bg.jpg" width="1877" height="780" class="hero-1-bg">
+            <img src="images/hero-frames/hero-bg.jpg" width="2000" height="600" class="hero-1-bg">
             <div class="container">
                 <div class="modal-like z-depth-2 animatedParent">
                     <form class="">

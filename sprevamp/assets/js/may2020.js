@@ -2,24 +2,32 @@
 navbar-fix
  */
 (function () {
-    $(function () {
-        var $navbar = $('.navbar-fixed');
-        if ($navbar.length) {
-            $(window).on('resize', function () {
-                $navbar.height($navbar.find('> nav').outerHeight())
-            });
+    // subNav fix on scroll
+    var $subNav = $('.navbar-fixed .sub-nav');
+
+    function toggleSubNav() {
+        var currentScrollPos = window.pageYOffset;
+
+        // 20 is an arbitrary number here
+        if (currentScrollPos > 20) {
+            $subNav.slideUp('fast');
+        } else {
+            $subNav.slideDown('fast');
         }
-        $navbar.height($navbar.find('> nav').outerHeight())
-        setTimeout(function () {
-            $navbar.height($navbar.find('> nav').outerHeight())
-        }, 100);
-        setTimeout(function () {
-            $navbar.height($navbar.find('> nav').outerHeight())
-        }, 300);
-        setTimeout(function () {
-            $navbar.height($navbar.find('> nav').outerHeight())
-        }, 500);
-    })
+    }
+
+    window.onscroll = function () {
+        if (window.innerWidth <= 600) {
+            toggleSubNav();
+        }
+    }
+    $(window).on('resize', function () {
+        if (window.innerWidth <= 600) {
+            toggleSubNav();
+        } else{
+            $subNav.show();
+        }
+    });
 }());
 
 /*
@@ -434,7 +442,7 @@ exit intent
         })
 
         setTimeout(() => {
-            if (!window.sessionStorage.getItem('isIntentPopUpShown')) {
+            /*if (!window.sessionStorage.getItem('isIntentPopUpShown')) {
                 $(document).on("mouseout", evt => {
                     if ((evt.toElement === null || evt.toElement === undefined) && evt.relatedTarget === null && evt.offsetY <= 0) {
                         window.sessionStorage.setItem('isIntentPopUpShown', 'true');
@@ -443,7 +451,32 @@ exit intent
                         showExitPopup();
                     }
                 });
+            }*/
+            if (!window.sessionStorage.getItem('isIntentPopUpShown')) {
+                $(document).on("mouseout", function (e) {
+                    // If this is an autocomplete element.
+                    if (e.target.tagName.toLowerCase() === "input") {
+                        return;
+                    }
+
+                    // If the current mouse Y position is not within 50px of the top
+                    // edge of the viewport, return.
+                    if (e.clientY > 5) {
+                        return;
+                    }
+
+                    // Reliable, works on mouse exiting window and
+                    // user switching active program
+                    var from = e.relatedTarget || e.toElement;
+                    if (!from) {
+                        window.sessionStorage.setItem('isIntentPopUpShown', 'true');
+                        $(e.currentTarget).off("mouseout");
+                        // An intent to exit has happened
+                        showExitPopup();
+                    }
+                });
             }
+
         }, 0);
     });
 }());
@@ -479,11 +512,11 @@ Free guide modal
                 var formData = $form.serializeArray();
                 var current = $freeGuideSlider.data('unslider').current;
                 console.log(formData);
-                if( current === 0){ // phone number
-                    if(!formData[current].value){
+                if (current === 0) { // phone number
+                    if (!formData[current].value) {
                         $form.find('#phone').closest('.form-item').addClass('input-error');
                         return false;
-                    } else{
+                    } else {
                         $form.find('#phone').closest('.form-item').removeClass('input-error');
                     }
                 }
