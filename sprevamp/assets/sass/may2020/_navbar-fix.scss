@@ -15,8 +15,57 @@ main {
     padding-top: 162px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   main {
     padding-top: 169px;
+  }
+}
+
+/* sectioned nav */
+.sectioned-nav {
+  width: 600px;
+  padding: 20px 10px;
+
+  .sectioned-nav-block {
+    & + .sectioned-nav-block {
+      margin-top: 30px;
+    }
+  }
+
+  .sectioned-nav-header {
+    color: #ffef00;
+    text-decoration: underline;
+  }
+
+  .sectioned-nav-list {
+    li {
+      float: none;
+      min-height: 30px !important;
+
+      &:hover {
+        background: transparent !important;
+      }
+    }
+
+    a {
+      text-transform: uppercase;
+      font-size: .8rem;
+      padding: 5px 30px !important;
+
+      &:before {
+        top: 11px !important;
+      }
+
+      &:hover {
+        background: transparent !important;
+        color: #fff !important;
+        text-decoration: underline;
+
+        &:before {
+          border-color: transparent transparent transparent #fff !important;
+        }
+      }
+    }
   }
 }

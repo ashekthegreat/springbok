@@ -71,7 +71,38 @@
         </div>
     </nav>
 
-    <ul id="dropdown-sell" class="dropdown-content">
+    <div id="dropdown-sell" class="dropdown-content sectioned-nav">
+        <div class="container">
+            <div class="row margin-bottom-0">
+                <div class="col s5">
+                    <div class="sectioned-nav-block">
+                        <h6 class="sectioned-nav-header">Fast Sale Department</h6>
+                        <ul class="sectioned-nav-list">
+                            <li><a href="#home-success">Success Stories</a></li>
+                            <li><a href="#home-how-it-works">How It Works</a></li>
+                        </ul>
+                    </div>
+                    <div class="sectioned-nav-block">
+                        <h6 class="sectioned-nav-header">Other Services</h6>
+                        <ul class="sectioned-nav-list">
+                            <li><a href="#home-success">Success Stories</a></li>
+                            <li><a href="#home-how-it-works">How It Works</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col s7">
+                    <div class="sectioned-nav-block">
+                        <h6 class="sectioned-nav-header">Cash Buying Department</h6>
+                        <ul class="sectioned-nav-list">
+                            <li><a href="#home-success">Residential properties (fast cash sale)</a></li>
+                            <li><a href="#home-how-it-works">Cash for buy to let</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<ul id="dropdown-sell" class="dropdown-content">
         <li><a href="#home-success">Success Stories</a></li>
         <li><a href="#home-how-it-works">How It Works</a></li>
         <li><a href="#home-estimator">Free Offer Estimator</a></li>
@@ -79,7 +110,7 @@
         <li><a href="#home-recent-sale">Our Recent Sales</a></li>
         <li><a href="#home-customer-service">Customer Service</a></li>
         <li><a href="#home-success-numbers">Success In Numbers</a></li>
-    </ul>
+    </ul>-->
     <ul id="dropdown-advice" class="dropdown-content">
         <li><a href="why-use-springbok-buy.php">Why Buy With Springbok</a></li>
         <li><a href="buyers-guide.php">Buyers Guide</a></li>
