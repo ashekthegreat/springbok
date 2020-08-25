@@ -17,16 +17,29 @@
                     <ul class="collapsible collapsible-accordion">
                         <li>
                             <a class="collapsible-header">Sell</a>
-                            <div class="collapsible-body">
-                                <ul>
-                                    <li><a href="#home-success">Success Stories</a></li>
-                                    <li><a href="#home-how-it-works">How It Works</a></li>
-                                    <li><a href="#home-estimator">Free Offer Estimator</a></li>
-                                    <li><a href="#home-video">Video Reviews</a></li>
-                                    <li><a href="#home-recent-sale">Our Recent Sales</a></li>
-                                    <li><a href="#home-customer-service">Customer Service</a></li>
-                                    <li><a href="#home-success-numbers">Success In Numbers</a></li>
-                                </ul>
+                            <div class="collapsible-body sectioned-nav-block-mobile">
+                                <div class="sectioned-nav-block">
+                                    <h6 class="sectioned-nav-header">Fast Sale Department</h6>
+                                    <ul>
+                                        <li><a href="#home-success">Success Stories</a></li>
+                                        <li><a href="#home-how-it-works">How It Works</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sectioned-nav-block">
+                                    <h6 class="sectioned-nav-header">Fast Sale Department</h6>
+                                    <ul>
+                                        <li><a href="#home-estimator">Free Offer Estimator</a></li>
+                                        <li><a href="#home-video">Video Reviews</a></li>
+                                        <li><a href="#home-recent-sale">Our Recent Sales</a></li>
+                                    </ul>
+                                </div>
+                                <div class="sectioned-nav-block">
+                                    <h6 class="sectioned-nav-header">Fast Sale Department</h6>
+                                    <ul>
+                                        <li><a href="#home-customer-service">Customer Service</a></li>
+                                        <li><a href="#home-success-numbers">Success In Numbers</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -85,8 +98,8 @@
                     <div class="sectioned-nav-block">
                         <h6 class="sectioned-nav-header">Other Services</h6>
                         <ul class="sectioned-nav-list">
-                            <li><a href="#home-success">Success Stories</a></li>
-                            <li><a href="#home-how-it-works">How It Works</a></li>
+                            <li><a href="#home-customer-service">Customer Service</a></li>
+                            <li><a href="#home-success-numbers">Success In Numbers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -94,8 +107,9 @@
                     <div class="sectioned-nav-block">
                         <h6 class="sectioned-nav-header">Cash Buying Department</h6>
                         <ul class="sectioned-nav-list">
-                            <li><a href="#home-success">Residential properties (fast cash sale)</a></li>
-                            <li><a href="#home-how-it-works">Cash for buy to let</a></li>
+                            <li><a href="#home-estimator">Free Offer Estimator</a></li>
+                            <li><a href="#home-video">Video Reviews</a></li>
+                            <li><a href="#home-recent-sale">Our Recent Sales</a></li>
                         </ul>
                     </div>
                 </div>
