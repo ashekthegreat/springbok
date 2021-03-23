@@ -1,0 +1,297 @@
+.section-step-property {
+  .message {
+    font-size: 18px;
+    position: relative;
+
+    .input-field {
+      display: inline-block;
+      max-width: 400px;
+      width: 100%;
+      position: relative;
+
+      input {
+        text-align: center;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .form-field {
+    margin-top: 35px;
+    margin-left: -6%;
+    margin-right: -6%;
+    @media screen and (max-width: 991px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .form-field-label {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 6px;
+
+      .small {
+
+      }
+    }
+
+    &.room-count {
+      .form-field-label {
+        display: inline-block;
+
+        &.alone {
+          @media screen and (max-width: 900px) {
+            display: block;
+          }
+        }
+      }
+
+      input {
+        display: inline-block;
+        height: 38px;
+        width: 60px;
+        text-align: center;
+      }
+
+      .input-block {
+        white-space: nowrap;
+        display: inline-block;
+        @media screen and (max-width: 600px) {
+          display: block;
+        }
+
+        .form-field-label {
+          @media screen and (max-width: 600px) {
+            width: 150px;
+          }
+        }
+
+        & + .input-block {
+          margin-left: 30px;
+          @media screen and (max-width: 600px) {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+
+  .property-type {
+    .property-radio-container {
+      border: 1px solid $sp-teal;
+      color: $sp-teal;
+      height: 82px;
+      display: block;
+      position: relative;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        padding-top: 10px;
+        overflow: hidden;
+
+        .image {
+          background-image: url(../images/dec2020/property-icons-sprite.png);
+          background-repeat: no-repeat;
+          display: inline-block;
+        }
+
+        .text {
+          display: block;
+          white-space: nowrap;
+          font-size: 11px;
+          text-align: center;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+      }
+
+      input:checked ~ .checkmark {
+        background-color: $sp-teal;
+        color: #fff;
+      }
+
+      .terraced ~ .checkmark > .image {
+        width: 81px;
+        height: 38px;
+        background-position: -20px -840px;
+      }
+
+      .terraced:checked ~ .checkmark > .image {
+        width: 81px;
+        height: 38px;
+        background-position: -20px -918px;
+      }
+
+      .semi-detached ~ .checkmark > .image {
+        width: 41px;
+        height: 38px;
+        background-position: -20px -684px;
+      }
+
+      .semi-detached:checked ~ .checkmark > .image {
+        width: 41px;
+        height: 38px;
+        background-position: -20px -762px;
+      }
+
+      .detached ~ .checkmark > .image {
+        width: 21px;
+        height: 38px;
+        background-position: -20px -364px;
+      }
+
+      .detached:checked ~ .checkmark > .image {
+        width: 21px;
+        height: 38px;
+        background-position: -20px -442px;
+      }
+
+      .bungalow ~ .checkmark > .image {
+        width: 61px;
+        height: 42px;
+        background-position: -20px -200px;
+      }
+
+      .bungalow:checked ~ .checkmark > .image {
+        width: 61px;
+        height: 42px;
+        background-position: -20px -282px;
+      }
+
+      .apartment ~ .checkmark > .image {
+        width: 49px;
+        height: 50px;
+        background-position: -20px -20px;
+      }
+
+      .apartment:checked ~ .checkmark > .image {
+        width: 49px;
+        height: 50px;
+        background-position: -20px -110px;
+      }
+
+      .others ~ .checkmark > .image {
+        width: 61px;
+        height: 42px;
+        background-position: -20px -520px;
+      }
+
+      .others:checked ~ .checkmark > .image {
+        width: 61px;
+        height: 42px;
+        background-position: -20px -602px;
+      }
+    }
+  }
+
+  .property-condition {
+    .form-field-label {
+      display: inline-block;
+    }
+
+    .input-block {
+      background: $sp-teal;
+      border-radius: 5px;
+      display: inline-block;
+      padding: 4px;
+      vertical-align: middle;
+      @media screen and (max-width: 600px) {
+        display: block;
+      }
+    }
+
+    .property-radio-container {
+      color: #fff;
+      display: inline-block;
+      position: relative;
+      margin: 0;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      @media screen and (max-width: 600px) {
+        display: block;
+      }
+
+      input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+
+      .checkmark {
+        padding: 7px 15px;
+        font-size: 15px;
+        vertical-align: top;
+        display: inline-block;
+        text-align: center;
+        min-width: 125px;
+
+        @media screen and (max-width: 600px) {
+          display: block;
+        }
+      }
+
+      input:checked ~ .checkmark {
+        background-color: #ffed35;
+        color: #333;
+        font-weight: bold;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .range-slider-boundaries {
+    color: $sp-teal;
+    font-weight: bold;
+  }
+
+  .btn-continue {
+    font-size: 50px;
+    height: 74px;
+    text-transform: none;
+    background: #408080;
+    line-height: 74px;
+    padding: 0 4vw;
+    border-radius: 5px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.4), 0 17px 50px 0 rgba(0, 0, 0, 0.34);
+    font-weight: 700;
+    margin-top: 20px;
+
+    &:hover {
+      background: #275757;
+      box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.45), 0 25px 55px 0 rgba(0, 0, 0, 0.38);
+      transform: translateY(-2px);
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.step-progress {
+  position: relative;
+  height: 150px;
+  margin-bottom: 30px;
+  @media screen and (max-width: 600px) {
+    height: 135px;
+  }
+
+  .step-connector {
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 149px;
+    right: 149px;
+    transform: translateY(-50%);
+    background: #909090;
+    @media screen and (max-width: 600px) {
+      left: 134px;
+      right: 134px;
+    }
+
+    &:after {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      background: $sp-teal;
+      content: "";
+    }
+
+    &.step-2:after {
+      width: 25%;
+    }
+
+    &.step-3:after {
+      width: 50%;
+    }
+
+    &.step-4:after {
+      width: 75%;
+    }
+  }
+
+  .step-status {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    @media screen and (max-width: 600px) {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+
+  .step {
+    border: 6px solid #909090;
+    border-radius: 15px;
+    color: #909090;
+    position: absolute;
+    top: 0;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    background: #fff;
+    @media screen and (max-width: 600px) {
+      width: 135px;
+    }
+
+    .step-number {
+      text-align: center;
+      font-weight: 900;
+      font-size: 46px;
+      margin-top: 15px;
+      @media screen and (max-width: 600px) {
+        margin-top: 0;
+      }
+    }
+
+    .step-text {
+      position: relative;
+      padding-left: 42px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      display: inline-block;
+      text-align: left;
+
+      i {
+        font-size: 44px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &.start {
+      left: 0;
+      color: $sp-teal;
+      border-color: $sp-teal;
+    }
+
+    &.end {
+      right: 0;
+
+      .step-text {
+        padding-left: 54px;
+
+        i {
+          font-size: 54px;
+          margin-top: -5px;
+        }
+      }
+    }
+  }
+}

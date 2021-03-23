@@ -1,0 +1,74 @@
+.section-step-otp {
+  .important {
+    font-size: 26px;
+    font-weight: 500;
+    @media screen and (max-width: 600px) {
+      font-size: 20px;
+    }
+
+    .red-text {
+      @media screen and (max-width: 600px) {
+        display: block;
+      }
+    }
+  }
+
+  .message {
+    font-size: 18px;
+    position: relative;
+
+    .input-field {
+      display: inline-block;
+      max-width: 400px;
+      width: 100%;
+      position: relative;
+
+      input {
+        text-align: center;
+        font-size: 24px;
+      }
+    }
+  }
+
+  .arrow-message-otp {
+    position: absolute;
+    top: 15px;
+    left: -160px;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+    .arrow {
+      text-align: right;
+    }
+  }
+
+  .button-message {
+    position: relative;
+    display: inline-block;
+
+    .btn {
+      font-size: 28px;
+      font-weight: bold;
+      padding-left: 40px;
+      padding-right: 40px;
+      height: 62px;
+      line-height: 62px;
+    }
+  }
+
+  .otp-arrow-icon {
+    position: absolute;
+    top: -10px;
+    right: -150px;
+  }
+
+  .otp-collector{
+    display: none;
+    margin-top: 150px;
+    @media screen and (max-width: 600px) {
+      margin-top: 50px;
+    }
+  }
+}

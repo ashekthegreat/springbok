@@ -1,14 +1,17 @@
-<footer class="page-footer sp-secondary-text">
-
+<footer class="page-footer sp-secondary-text hide">
     <div class="footer-copyright">
         <div class="container narrow sp-secondary-text text-lighten-2">
             <div class="center-align">
-                <strong>&copy; 2015 Springbok Properties</strong>
+                <strong>&copy; <?php echo date('Y')?> Springbok Properties</strong>
             </div>
         </div>
-
     </div>
 </footer>
+
+
+<div id="modal-video" class="modal">
+    <div class="modal-content padding-0"></div>
+</div>
 
 <!--Import jQuery before materialize.js-->
 <script>var HTTP_PATH = 'https://accounts.springbokproperties.co.uk';</script>
@@ -28,3 +31,6 @@
 
 <script type="text/javascript" src="assets/js/accounts-scripts.js"></script>
 <script type="text/javascript" src="assets/js/availability.js"></script>
+
+<script type="text/javascript" src="assets/js/nouislider.min.js"></script>
+<script type="text/javascript" src="assets/js/dec2020.js"></script>

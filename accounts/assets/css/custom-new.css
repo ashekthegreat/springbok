@@ -1,0 +1,1320 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+.availability_div {
+    width: 100%;
+    float: left;
+}
+.availability_box {
+    width: 100%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    margin: 0% 0.5%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    /*position: relative;
+    top: 0;*/
+}
+.fully_booked {
+    /*left:0;*/
+}
+.recommended {
+    /*left: 0px;*/
+}
+.date_box {
+    width: 170px;
+    float: left;
+    margin: 0px 7px;
+}
+.section-book-valuation .card-date, .section-book-valuation .card-time {
+    width: 100%;
+}
+.margin-left-0 {
+    margin-left: 0px;
+}
+
+
+@media only screen and (max-width: 359px) {
+    .section-book-valuation .date_box {
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .section-book-valuation .date_box {
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .section-book-valuation .date_box {
+        float: left;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .date-boxes.modified .date_box {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .section-book-valuation .date_box {
+        float: left;
+        width: 48%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .section-book-valuation .date_box {
+        float: left;
+        width: 170px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .springbok_team .content p {
+        padding: 0 170px 0 120px;
+    }
+    .section-book-valuation .date_box {
+        width: 170px;
+        float: left;
+        margin: 0px 7px;
+    }
+}
+
+
+/* Css added on sep11/2019 for new booking pages */
+.sibling-logo{margin-top: 14px;}
+.middle-part{
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 18px;
+    margin-right: 18px;
+    position: relative;
+    top: -15px;
+}
+.text-green{color: #117c11 !important;font-size: 26px;font-weight: 400;text-align: center;}
+.gray-txt{line-height: 30px;font-size: 22px;font-weight: 400;color: #6a676e;}
+.new-card-design{position: relative;padding: 12px 20px;}
+.new-card-design .profile-pic{
+    width: 160px;
+    height: 160px;
+    background: transparent;
+    overflow: hidden;
+}
+.d-flex{display: flex;flex-wrap: wrap;}
+.d-flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.new-card-design h6{
+    font-size: 25px;
+    color: #484848;
+    font-weight: 400;
+}
+.new-card-design .sub-head{
+    font-size: 18px;
+    color: #6a676e;
+    margin-bottom: 18px;
+}
+.mr-1{margin-right: 1rem;}
+.m-0{margin: 0!important;}
+.p-0{padding: 0!important;}
+.talk-bubble-new
+{
+    width: 195px;
+    background: #ffef00;
+    padding: 0 20px;
+    border-radius:15px;
+    color: #000;
+    position: absolute;
+    top: -105px;
+    left: -85px;
+    height: auto;
+    -webkit-clip-path: polygon(95% 13%, 97% 84%, 0 100%, 0 0%);
+    clip-path: polygon(95% 13%, 97% 84%, 0 100%, 0 0%);
+}
+.perspective-new:after
+{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 34px;
+    bottom: 0;
+    border: 12px solid;
+    border-color: #ffef00 #ffef00 transparent transparent;
+}
+.small-title{
+    color: #21aba7;
+    font-size: 14px;
+    max-width: 455px;
+    margin: auto;
+}
+.section-book-valuation .card-date.selected, .section-book-valuation .card-time.selected {
+    border: 1px solid #ffef00;
+    background-color: #ffef00;
+}
+.section-book-valuation .card-date, .section-book-valuation .card-time {
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    padding: 20px 2px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.date-boxes.modified .card-date, .date-boxes.modified .card-time{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+}
+.section-book-valuation .card-date:hover, .date-boxes.modified .card-time:hover {
+    border: 1px solid #ffef00;
+}
+.date-boxes.modified .red
+{
+    background: #a50013!important;
+    margin-left: 0;
+    padding: 4px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.date-boxes.modified .green
+{
+    background: #007e15!important;
+    margin-left: 0;
+    padding: 4px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.date-boxes.modified .week-day
+{
+    font-size: 20px;
+    color: #484848;
+}
+.date-boxes.modified .day
+{
+    font-size: 47px;
+    color: #484848;
+}
+.date-boxes.modified .slots
+{
+    font-size: 16px;
+}
+.date-boxes.modified  .availability_box {
+
+    margin-bottom: 15px;
+    min-height: 32px;
+}
+.time-slots.modified .time-slot {
+    background: #ddd;
+    color: #484848;
+    font-size: 20px;
+    font-weight: 400;
+}
+.time-slots.modified .time-slot.active {
+    background: #fff;
+    border: 1px solid #ddd;
+    cursor: default;
+}
+.confirm-btn{
+    height: auto;
+    line-height: 1.5;
+    padding: 8px;
+    color: #000!important;
+    font-size: 22px;
+    width: 100%;
+    margin-top: 5%;
+    max-width: 450px;
+    margin-bottom: 4%;
+}
+.confirm-btn span{
+    display: block;
+    font-size: 10px;
+    color: #6e6e6e;
+}
+.cal-label{
+    font-size: 23px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+.btn-tip .talk-bubble{
+    position: absolute;
+    left: -183px;
+    transform: rotateY(-275deg);
+}
+.btn-tip .tri-right.btm-left:after{
+    left: 103px;
+    border-color: #ffef00 #ffef00 transparent transparent;
+}
+.btn-tip .tri-right.btm-left:before {
+    content: "";
+    background-image: url(../images/confirm-arrow.png);
+    width: 554px;
+    left: 116px;
+    height: 251px;
+    top: 154px;
+    transform: rotate(14deg);
+}
+.steps-progress-section{
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+.steps-progress-section .custom-stepper li{
+    width: 50%;
+    position: relative;
+}
+.steps-progress-section ul.custom-stepper .step:not(:last-of-type):after,.steps-progress-section ul.custom-stepper>.step.active:not(:last-of-type):after
+{
+    height: 28px;
+    top: -78px;
+    left: 0;
+    display: block!important;
+}
+.text-right{text-align: right;}
+.steps-progress-section ul.custom-stepper .step:last-child:after
+{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 28px;
+    top: 48px;
+    right: 0;
+    z-index: -1;
+    background: #5d5d5d;
+}
+.steps-progress-section ul.custom-stepper .step.active:before{
+    background-color: #23b14d;
+}
+.steps-progress-section .mobile-verify{
+    color: #000;
+    font-size: 23px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    max-width: 600px;
+    align-items: center;
+    z-index: 9;
+    font-weight: 500;
+}
+.steps-progress-section .mobile-verify img{
+    width: 41px;
+    margin-right: 10px;
+}
+
+main.centered .container h4.blacktext, main.centered .container h4.greentext{
+    font-size: 2.2rem;
+}
+
+.steps-progress-section .status{
+    color: #000;
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    max-width: 600px;
+    align-items: center;
+    bottom: 22px;
+    z-index: 9;
+}
+#popup-module .custom-stepper{
+    max-width: 595px;
+    margin: auto;
+}
+.popup-container-outer{
+    width: 100%;
+    position: relative;
+    left: 0;
+    background-position: 0;
+    background-size: contain;
+    max-width: 100%;
+    margin: auto;
+}
+.popup-container-outer img.hut{
+    width: 264px;
+    height: auto;
+    position: absolute;
+    left: -15px;
+    top: 15px;
+}
+.popup-container-outer .inner-section{
+    background: #18334e;
+    color: #fff;
+    padding: 5px 25px 25px 175px;
+}
+.popup-container-outer .inner-section p:first-child{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+.popup-container-outer .text-inner-box h4{font-weight: 400;position: relative;    width: auto;
+    display: inline-block;}
+.popup-container-outer .text-inner-box h4 span{position: relative;z-index: 1;font-size: 35px;font-weight: 600;line-height: 40px;}
+.popup-container-outer .text-inner-box h4:before{
+    content: '';
+    position: absolute;
+    width: calc(100% - 26%);
+    height: 52px;
+    background: #008082;
+    z-index: 1;
+    right: -10px;
+    top: -7px;
+}
+.whte-border-btn{
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 30px 55px;
+    line-height: 0;
+    font-size: 25px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 6px;
+    margin-top: 2%;
+}
+.whte-border-btn:hover{
+    background: #fff;
+    border: 2px solid #fff;
+    color: #18334e;
+}
+.font-xs{font-size: 10px;}
+.form-container .input-view{position: relative;max-width: 320px;margin: auto;}
+.form-container .input-view input{
+    text-align: center;
+    margin: auto;
+    min-height: 60px!important;
+}
+.form-container .input-view.bottom-section > input{
+    font-size: 52px;
+}
+.form-container .input-view label{
+    position: absolute;
+    left: -205px;
+    max-width: 175px;
+    top: 50px;
+    font-weight: 400!important;
+}
+.input-view:before {
+    content: '';
+    background: url(/images/green-arrow.png) no-repeat;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: -115px;
+    background-size: 86px;
+    top: 7px;
+}
+.button-view:before {
+    content: '';
+    background: url(/images/green-arrow.png) no-repeat;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    left: -115px;
+    background-size: 86px;
+    top: 17px;
+}
+.button-view:after {
+    content: '';
+    background: url(/images/dashed-arrow.png) no-repeat;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    right: auto;
+    background-size: 81px;
+    top: -28px;
+}
+.button-view, .button-view1{
+    position: relative;
+    min-height: 120px;
+    max-width: 320px;
+    margin: auto;
+}
+.form-container .button-view label{
+    position: absolute;
+    left: -205px;
+    max-width: 153px;
+    top: 65px;
+    font-weight: 400!important;
+}
+.form-container .button-view button, .form-container button{
+    background: #ffef00;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+    box-shadow: 0 0 4px 0px #e5e5e5;
+    font-weight: 500;
+}
+.form-container .button-view img
+{
+    position: absolute;
+    top: -35px;
+    right: -170px;
+    width: 80px;
+}
+.form-container .otp-head{
+    max-width: 568px;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.form-container .button-view.bottom-section:after,.form-container .button-view.bottom-section:before{
+    display: none;
+}
+.form-container .button-view a{
+    display: block;
+    font-size: 12px;
+    margin-top: 7px;
+    text-decoration: underline;
+}
+/* step three css 12.9.2019 */
+.inner-panel .form-container{
+    max-width: 590px;
+    margin: auto;
+}
+.float-right{float: right;}
+.address-box{position: relative;}
+.bubble-box{
+    position: absolute;
+    right: -155px;
+    top: 0;
+    z-index: 0;
+    color: #000;
+}
+.bubble-box:before {
+    content: '';
+    position: absolute;
+    background: url(/images/bubble.png) no-repeat;
+    width: 135px;
+    height: 128px;
+    background-size: 100%;
+    z-index: -3;
+    left: -37px;
+    top: -13px;
+}
+.bubble-box:after {
+    content: '';
+    position: absolute;
+    background: url(/images/step_arrow_1.png) no-repeat;
+    width: 100%;
+    height: 100px;
+    background-size: 65%;
+    left: -72px;
+    top: 50px;
+    transform: rotate(32deg);
+}
+.text-danger{color: #a61700;}
+.mr-2{margin-right: 2rem;}
+.form-submit-btn{
+    font-size: 18px;
+    padding: 15px;
+    max-width: 325px;
+    font-weight: 500;
+}
+.thanks-content .title h4{
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+}
+.thanks-content .title h6{
+    color: #6a676e;
+    padding: 0 20%;
+    line-height: 1.4;
+    font-size: 20px!important;
+    font-weight: 400;
+}
+.home-center img{width: 120px;
+    margin-top: 28px;}
+
+.home-center h3{
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0 12%;
+    line-height: 1.3;
+}
+.card-panel.thanks{
+    max-width: 650px;
+    margin: auto;
+}
+.green-border-box{
+    border: 6px solid #22b14c;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    max-width: 650px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.green-border-box img{
+    width: 90px;
+}
+.green-border-box p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 23px;
+    margin: 0;
+    text-align: center;
+    line-height: 1.3;
+}
+.green-border-box p>span{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 8px;
+}
+.video-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%!important;
+    justify-content: center;
+}
+.video-section .field-row{
+    max-width: 33%;
+    margin-right: 3px;
+    margin-top: 60px;
+    padding: 3px;
+}
+.video-section .field-row object{width: 100%;}
+.video-section .field-row img{
+    width: 100%;
+}
+.video-section .field-row  p{
+    margin: 5px 0;
+    font-size: 15px;
+    color: #838383;
+    font-weight: 500;
+    text-align: center;
+}
+.detail{font-size: 18px;padding: 0 10%;}
+.services-provide{
+    text-align: center;
+}
+.justify-content{justify-content: center;}
+.services-provide h4, .video-section h4,  .springbook_problems h4{
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    position: relative;
+}
+.services-provide h4:after, .video-section h4:after, .springbook_problems h4:after  {
+    content: '';
+    position: absolute;
+    background: url(/images/fade-border.png) no-repeat;
+    width: 100%;
+    height: 28px;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-position: top;
+    background-size: 49% 170%;
+}
+.service-card{
+    flex: 0 0 35%;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.35);
+    margin-top: 2.5rem;
+    padding: 20px;
+}
+.mr-3{margin-right: 3rem;}
+.service-card img{width: 100px;}
+.service-card p{
+    font-size: 14px;
+    text-align: left;
+}
+.win-title{
+    margin-top: 4%;
+    text-align: left;
+    font-size: 16px;
+}
+.step-bubble.tri-right.btm-left:before{display: none;}
+.talk-bubble.step-bubble
+{
+    height: 58px;
+    right: -153px;
+    top: -103px;
+}
+.position-relative{position: relative;}
+.bubble-box.left-side{
+    left: -133px;
+    right: auto;
+}
+.bubble-box.left-side:before {
+    background: url(/images/bubble-left.png) no-repeat;
+    background-size: 100%;
+    left: -29px;
+}
+.bubble-box.left-side:after {
+    background: url(/images/confirm-arrow.png) no-repeat;
+    width: 537px;
+    height: 100px;
+    background-size: 58%;
+    left: 65px;
+    top: 88px;
+    transform: rotate(6deg);
+}
+.bubble-box.appointment-message{
+    left: -30px;
+    line-height: 1.1;
+    top: -40px;
+}
+.bubble-box.appointment-message:before{
+    left: -29px;
+    top: -14px;
+    width: 153px;
+}
+.bubble-box.appointment-message:after{display: none;}
+.bubble-box.date-bub{
+    right: -127px;
+}
+.bubble-box.date-bub:after
+{
+    left: -55px;
+    top: 58px;
+    transform: rotate(5deg);
+}
+.bubble-box.almost-bub
+{
+    right: -103px;
+    top: -63px;
+}
+.bubble-box.almost-bub:before{
+    left: -23px;
+}
+.bubble-box.almost-bub:after{display: none;}
+.shift-mob{
+    left: auto!important;
+    transform: none!important;
+    top: -4px;
+}
+.border-select-dropdown .select-wrapper input.select-dropdown{
+    border: 1px solid #333;
+    padding: 12px;
+    height: 60px;
+    color: #6e6e6e;
+    font-weight: 500;
+}
+.border-select-dropdown .select-wrapper span.caret {
+    right: 15px;
+    top: 20px;
+    font-size: 13px;
+}
+#form-module label{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+#form-module input[type="text"],#form-module input[type="number"]{
+    height: 52px;
+    border-color: #333;
+    color: #6e6e6e;
+    font-weight: 400;
+
+}
+.form-container h4{
+    font-weight: 400;
+    font-size: 24px;
+}
+ul.custom-stepper .step:not(:last-of-type):after, ul.custom-stepper>.step.active:not(:last-of-type):after{top: -78px;}
+/* Counter section css */
+.springbook_priceresult_new {
+    z-index: -2;
+    position: relative;
+    margin-top: 5%;
+}
+.springbook_priceresult_new .card {
+    min-height: 194px;
+    padding: 20px 12px;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    box-shadow: none;
+    background-color: #fff;
+}
+.springbook_priceresult_new .row .col.m4{
+    padding: 25px;
+}
+.springbook_priceresult_new .card .card-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+.springbook_priceresult_new .card .card-content {
+    padding: 0 5px;
+}
+.springbook_priceresult_new .card .card-content p {
+    font-size: 15px;
+    color: #000;
+}
+.springbook_priceresult_new .card .card-content p>span {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #000;
+    display: block;
+}
+.springbook_priceresult_new .card:after {
+    content: '';
+    position: absolute;
+    background: #686868;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: -15px;
+    -ms-transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    z-index: -1;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+/*2 dec */
+.springbook_problems .icon, .springbook_problems .icontop {
+    background: #fff200;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.springbook_problems .icon .bg, .springbook_problems .icontop .bg {
+    background: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.springbook_problems .icon::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 55px;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-top: 17px solid #fff200;
+}
+.springbook_problems .icontop::after {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 55px;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 17px solid #fff200;
+}
+.springbook_problems p {
+    min-height: 130px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.sprite_icons {
+    background-image: url(../images/icons_sprite.png);
+    background-repeat: no-repeat;
+    width: 85px;
+    height: 110px;
+    display: inline-block;
+}
+
+.problemicon_1 {
+    background-position: -40px -44px;
+}
+.problemicon_3 {
+    background-position: -330px -41px;
+}
+
+.problemicon_4 {
+    background-position: -465px -41px;
+}
+.problemicon_6 {
+    background-position: -782px -41px;
+}
+.problemicon_2 {
+    background-position: -185px -41px;
+}
+.problemicon_5 {
+    background-position: -628px -41px;
+}
+.problemicon_7 {
+    background-position: -51px -212px;
+}
+.problemicon_10 {
+    background-position: -465px -212px;
+}
+.problemicon_8 {
+    background-position: -186px -212px;
+}
+.problemicon_11 {
+    background-position: -618px -212px;
+}
+.problemicon_9 {
+    background-position: -330px -212px;
+}
+.problemicon_12 {
+    background-position: -783px -212px;
+}
+.handwriting {
+    font-family: 'Indie Flower',cursive;
+}
+.handwriting, section.ratings {
+    background: #fff200;
+}
+.card.handwriting .card-content {
+    font-size: 42px;
+    text-align: center;
+}
+
+.springbook_problems h4 + div{
+    margin-top: 80px !important;
+    margin-bottom: 0;
+}
+
+.springbook_problems {
+    margin-top: 80px;
+}
+.greentext{
+    color: #22b14c;
+    font-weight: 500;
+}
+ul.custom-stepper .step-title{
+    padding: 11px;
+}
+.position_logo{
+    position: absolute;
+    left: 70px;
+}
+.position_logo img{
+    width: 222px;
+}
+.dflex{
+    display: flex;
+
+}
+
+.align-items{align-items: center;}
+
+ul.custom-stepper .step-title h5{
+    font-size: 14px;
+    text-align: left;
+    padding-left: 5px;
+    margin: 0;
+}
+.nav-wrapper h5{
+    font-weight: bold;
+    color: #000000;
+    padding-top: 15px;
+}
+.redtext{ color: red;}
+.ml-auto{
+    margin-left: auto;
+}
+
+.container h4.center.gray-txt{
+    position: absolute;
+    right: -30px;
+    top: -40px;
+    font-size: 30px;
+}
+.top50{
+    top: 37%;
+}
+.blacktext{
+    color: #000;
+}
+
+.date_box.timeadd{
+    width: 170px;
+    float: left;
+    margin: 0px 7px;
+    position: relative;
+    min-height: 160px;
+}
+
+.date_box.timeadd:hover {
+    /* border: 1px solid #ffef00;*/
+}
+.date_box.timeadd .card-date, .date_box.timeadd .card-time{
+    /*height: 80px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0;*/
+    padding-top: 37px;
+}
+
+.springbok_team h2 {
+    font-size: 30px;
+    background: #fff;
+    font-weight: 400;
+    color: #000;
+    text-transform: none;
+}
+
+.teambottom_block {
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+.springbok_team .content {
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100%;
+    padding: 20px 0;
+    margin: 0 0 0;
+    z-index: 99;
+    position: relative;
+    bottom: -225px;
+    padding-bottom: 62px;
+}
+.springbok_team .content h5{
+    font-weight: 600;
+    font-size: 23px;
+}
+.springbok_team .teambottom_block button a {
+    color: #fff;
+    text-decoration: none;
+}
+.springbok_team small a {
+    color: #000;
+}
+.springbok_team {
+    position: relative;
+    background-image: url(../images/team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 540px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.springbok_team .container{
+    max-width: 1280px;
+}
+.springbok_team {
+    color: #000;
+    padding-top: 50px;
+}
+
+@media (max-width: 1100px){
+    .talk-bubble-new,.perspective-new{display: none;}
+}
+@media (max-width: 992px){
+
+    .position_logo {
+        position: relative;
+    }
+    .video-section .field-row {
+        max-width: 100%;
+        text-align: center;
+        overflow: hidden;
+        margin-right: 0;
+        margin-bottom: 5%;
+    }
+    .video-section .field-row:last-child {
+        margin-bottom: 0!important;
+    }
+}
+@media (max-width: 576px){
+
+    main.centered .container h4.blacktext + h4.gray-txt {
+        font-size: 17px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+    .d-flex-row{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .date-boxes.modified .date_box {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .springbok_team {
+        margin-bottom: 0px;
+    }
+    .container h4.center.gray-txt {
+        /* position: relative;*/
+        right: 20px;
+        top: -80px;
+    }
+    .popup-container-outer .text-inner-box h4:before{
+        display: none
+    }
+    .new-card-design .profile-pic{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    ul.custom-stepper {
+        margin-top: 35px !important;
+    }
+    .steps-progress-section ul.custom-stepper .step:not(:last-of-type):after,.steps-progress-section ul.custom-stepper>.step.active:not(:last-of-type):after{
+        top: 33%;
+    }
+    ul.custom-stepper .step-title {
+        max-width: 110px;
+        min-width: 120px;
+    }
+    ul.custom-stepper .step.active .step-title, ul.custom-stepper .step.done .step-title {
+        display: inline-block !important;
+        color: #23b14d;
+        border: 3px solid #23b14d;
+        position: absolute;
+    }
+    .steps-progress-section .mobile-verify img {
+        width: 22px;
+        margin-right: 10px;
+    }
+    .steps-progress-section ul.custom-stepper .step:last-child:after{top: 33%;}
+    .steps-progress-section .mobile-verify{/*top: -30px;*/}
+    .steps-progress-section .status{bottom:-15px;}
+}
+@media (max-width:420px){
+    .steps-progress-section .mobile-verify{/*display: none;*/}
+    .steps-progress-section .status{/*display: none;*/}
+    .steps-progress-section .custom-stepper li{/*width: 140px;*/}
+    /*.middle-part, .sibling-logo{display: none;}*/
+    .whte-border-btn{font-size: 20px;}
+    .middle-part {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:768px){
+    .bubble-box{display: none;}
+
+
+
+}
+@media (max-width: 767px){
+
+
+    .video-section .field-row {
+        margin-top: 0px;
+    }
+    .greentext {
+        margin-top: 30px;
+        /*padding-bottom: 0px !important;*/
+    }
+    .springbook_problems p {
+        min-height: 80px;
+    }
+    .navbar-fixed.headingadd nav {
+        height: 102px;
+    }
+
+    .navbar-fixed.headingadd {
+        height: 112px;
+    }
+    .nav-wrapper h5{
+        position: absolute;
+        top: 55px;
+        left: 0px;
+        width: 100%;
+        right: 0;
+        text-align: center;
+    }
+    .steps-progress-section{
+        padding-top: 30px !important;
+    }
+    .position_logo {
+        position: relative;
+        left: auto;
+        text-align: center;
+        top: 0px;
+    }
+
+    .p-sm-0{
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+
+    .popup-container-outer .inner-section{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        padding-top: 290px;
+    }
+
+    .popup-container-outer img.hut{
+        left: 0;
+        top: 30px;
+        right: 0;
+        margin: auto;
+    }
+
+    .service-card{flex: 0 0 100%;}
+    .mr-3 {margin-right: 0;}
+    .win-title { margin-top: 11%;}
+
+    .green-border-box{flex-wrap: wrap;}
+    .input-view:before, .button-view:before{
+        left: -64px;
+        background-size: 50px;
+        top: 22px;
+    }
+    .input-view label, .button-view label{
+        left: -85px!important;
+        max-width: 85px!important;
+        top: 54px!important;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .form-container .button-view img {
+        top: -6px;
+        right: -54px;
+        width: 36px;
+    }
+    .button-view:after {
+        width: 66px;
+        height: 22%;
+        right: -50px;
+        background-size: 36px;
+        top: -17px;
+    }
+    .form-container .input-view, .form-container .button-view, .form-container .button-view1{
+        max-width: 155px!important;
+    }
+    h6{
+        /* line-height: 20px;
+         font-size: 14px!important;
+         text-align: center;*/
+    }
+    main > section {
+        padding: 20px 0 40px 0;
+    }
+    .sub-head{
+        text-align: center;
+    }
+    .profile-card .profile-pic{
+        margin-right: 0;
+    }
+    .prtnrs .d-flex{
+        justify-content: center;
+    }
+    .prtnrs .d-flex > img{
+        margin-right: 0;
+    }
+    .text-green{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .gray-txt {
+        font-size: 17px;
+        text-align: left;
+    }
+    .thanks-content .title h6 {
+        font-size: 18px!important;
+        text-align: left;
+    }
+    .home-center h3 {font-size: 23px;text-align: left;}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px){
+    .springbok_team .content {
+        background-size: 100%;
+
+    }
+    .teambottom_block {
+        padding: 0 130px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+
+    .springbok_team .content {
+        background: rgba(255,239,0,.9);
+        padding: 20px 20px;
+        padding-bottom: 12px;
+        margin: 0 0 0;
+        z-index: 99;
+        position: relative;
+        bottom: 0px;
+    }
+    .springbok_team h2 {
+        font-size: 19px;
+        background: rgba(256,256,256,.5);
+        font-weight: 400;
+        color: #000;
+        margin: 0;
+    }
+
+    .btn-large.grey {
+        font-size: 18px;
+        padding: 0;
+        font-weight: 400;
+        text-transform: capitalize;
+        width: 100%;
+    }
+
+    .springbok_team {
+        background-size: contain;
+        margin-bottom: 0px;
+    }
+    .teambottom_block {
+        padding: 0;
+    }
+
+    .bubble-box{display: none;}
+    .container h4.center.gray-txt {
+        position: absolute;
+        left: 0;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .springbok_team .content p {
+        line-height: 1.3;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 601px){
+    .springbok_team .content {
+        bottom: -120px;
+    }
+    .springbok_team{
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,43 @@
+.month-range {
+  margin: 0 auto 90px;
+
+  .noUi-target {
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: none;
+  }
+
+  .noUi-marker {
+    /* display: none; */
+    height: 10px;
+    top: 2px;
+    background: rgba(0, 0, 0, 0.22);
+  }
+
+  .noUi-marker-sub {
+    height: 5px;
+    top: 2px;
+    background: rgba(0, 0, 0, 0.22);
+  }
+
+  .noUi-value-sub {
+    display: none;
+  }
+
+  .noUi-value {
+    top: 5px;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 601px) {
+  .month-range {
+    .noUi-value {
+      top: 20px;
+      font-size: 14px;
+      transform: translate(-50%, 0);
+    }
+  }
+}

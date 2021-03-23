@@ -1,0 +1,35 @@
+.section-step-header {
+  position: relative;
+  padding: 8px 0;
+
+  .napb-logos {
+    height: 42px;
+    width: auto;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    vertical-align: top;
+
+    @media screen and (max-width: 992px) {
+      position: static;
+      display: inline-block;
+    }
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    line-height: 42px;
+
+    @media screen and (max-width: 992px) {
+      margin-top: 5px;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
+}

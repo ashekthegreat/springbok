@@ -1,0 +1,53 @@
+$sp-teal: #408080;
+$sp-green: #00940e;
+
+@import "dec2020/ratings";
+@import "dec2020/step-header";
+@import "dec2020/step-progress";
+@import "dec2020/step-range-slider";
+@import "dec2020/step-month-slider";
+@import "dec2020/step-otp";
+@import "dec2020/step-property";
+@import "dec2020/step-thank";
+
+
+.sp-teal {
+  background: $sp-teal;
+}
+
+.sp-teal-text {
+  color: $sp-teal;
+}
+
+.section-step {
+  position: relative;
+  overflow: hidden;
+  background: #746a0d url(../images/dec2020/estate-bg.jpg) no-repeat top;
+  background-size: cover;
+  padding: 0;
+
+  .container {
+    border-top: 7px solid $sp-teal;
+    background: #fff;
+    min-height: 100vh;
+    min-height: calc(100vh - 122px);
+    max-width: 870px;
+    padding: 35px 90px;
+    @media screen and (max-width: 991px) {
+      padding: 35px 30px;
+    }
+    @media screen and (max-width: 600px) {
+      padding: 35px 15px;
+    }
+  }
+}
+
+.btn.big-primary {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 70px;
+  line-height: 70px;
+  min-width: 330px;
+}

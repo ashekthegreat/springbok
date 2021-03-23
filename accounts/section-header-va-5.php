@@ -3,11 +3,21 @@
         <div class="nav-wrapper container full-width">
             <a href="index.php" class="brand-logo"><img src="assets/images/logo.png" width="152" height="45"></a>
             <a href="#" data-activates="main-sidenav" class="button-collapse menu-button"><i class="material-icons">menu</i></a>
-            <ul id="main-nav" class="right hide-on-med-and-down">
-                <li><a href="message.php"><i class="material-icons left">mail</i>Messages</a></li>
-                <li><a href="#" class="dropdown-button" data-beloworigin="true" data-alignment="right" data-constrain-width="false" data-activates="dropdown-account"><span class="profile-icon">V</span></a></li>
-            </ul>
 
+            <div class="ml-auto right-align va-ratings">
+                <div class="logo first">
+                    <div class="left"> <img src="images/logo_trust.png" alt=""> <span class="stars"><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star_half</i></span> </div>
+                    <div class="right animatedParent"> <span class="rating-text animated bounceIn go">8/10</span> 1,324+ <span class="hide-on-med-and-down">reviews</span></div>
+                </div>
+                <div class="logo">
+                    <div class="left"> <img src="images/logo_allagen.png" alt=""> <span class="stars"><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star_half</i> </span> </div>
+                    <div class="right animatedParent"> <span class="rating-text animated bounceIn go">4.6/5</span>2,357+ <span class="hide-on-med-and-down">reviews</span></div>
+                </div>
+                <div class="logo">
+                    <div class="left"> <img src="images/logo_google.png" alt=""> <span class="stars"><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star</i><i class="material-icons tiny">star_half</i> </span> </div>
+                    <div class="right animatedParent"> <span class="rating-text animated bounceIn go">4.1/5</span>702+ <span class="hide-on-med-and-down">reviews</span></div>
+                </div>
+            </div>
         </div>
 <!--        <div class="sub-nav">
             <div class="container center-align">

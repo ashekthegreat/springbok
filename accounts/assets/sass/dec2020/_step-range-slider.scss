@@ -1,0 +1,39 @@
+.range-slider {
+  padding: 0 40px;
+  background-color: #ffed35;
+  border-color: #ffed35;
+  border-radius: 10px;
+
+  .noUi-handle {
+    width: 80px;
+    height: 40px;
+    right: -40px;
+    top: -10px;
+    background: #408080;
+    box-shadow: none;
+    border: 0;
+    border-radius: 20px;
+
+    &:before, &:after {
+      height: 20px;
+      left: 37px;
+      top: 10px;
+      width: 2px;
+    }
+
+    &:after {
+      left: 43px;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .noUi-tooltip {
+    padding: 0;
+    border: 0;
+    font-size: 13px;
+    bottom: 110%;
+  }
+}
