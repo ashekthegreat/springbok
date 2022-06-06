@@ -1,0 +1,163 @@
+
+.main-nav {
+
+  .nav-wrapper{
+    height: 90px;
+  }
+
+  nav {
+    box-shadow: none;
+    height: auto;
+    background: none;
+
+    .brand-logo {
+      padding: 4px 0 0;
+    }
+  }
+
+  #main-nav {
+    .sign-in {
+      position: relative;
+      margin-right: 20px;
+
+      &:before {
+        background: #ffef00;
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 3px;
+        height: 30px;
+        border-radius: 20px;
+        z-index: -1;
+      }
+
+      a {
+        font-weight: normal;
+        font-size: 15px;
+      }
+    }
+
+    & > li > a {
+      text-transform: none;
+      font-weight: 500;
+      color: #3c3c3c;
+    }
+
+    & > li:hover > a {
+      background: none;
+      color: #000;
+      text-decoration: underline;
+
+      &.dropdown-main-nav {
+        z-index: 1000;
+        position: relative;
+        background: #fff;
+
+        &:before {
+          border: 1px solid #ccc;
+          border-bottom: 0;
+          border-radius: 5px 5px 0 0;
+          position: absolute;
+          top: 41px;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          content: "";
+        }
+
+        & + ul {
+          box-shadow: none;
+          margin-top: -1px;
+        }
+      }
+    }
+
+    & .dropdown-content {
+      background: #fff;
+      border: 1px solid #ccc;
+      box-shadow: none;
+
+      a {
+        color: #3c3c3c;
+        text-transform: none;
+        padding-left: 15px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    & .dropdown-content a:before {
+      display: none;
+    }
+
+    & .dropdown-content a:hover:before {
+      display: none;
+    }
+  }
+
+
+  .menu-offer-section {
+    padding-top: 15px;
+
+    &.mobile-only{
+      background: #f1f1f1;
+      margin: 0;
+      padding: 15px;
+    }
+
+    .menu-offer-label {
+      padding: 0 0 10px 0;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .btn {
+      font-size: 12px;
+    }
+
+    .btn.sp-green:hover {
+      background: #275757;
+    }
+
+    .btn.sp-dark:hover {
+      background: #000000;
+    }
+  }
+}
+
+
+
+.side-nav.right-aligned{
+  background: #fff!important;
+
+  li{
+    a{
+      color: #3c3c3c;
+    }
+    .collapsible-header:before {
+      border-color: transparent transparent transparent #3c3c3c;
+    }
+    .collapsible ul {
+      background: #ffffff;
+    }
+  }
+}
+
+.fixed-free-val{
+  z-index: 2;
+}
+
+.go-to-top{
+  display: none;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: fixed;
+  bottom: 10%;
+  right: 0;
+  -webkit-transform-origin: top right;
+  transform-origin: top right;
+  z-index: 2;
+}

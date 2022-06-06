@@ -1,0 +1,36 @@
+@import "feb2022/overrides";
+@import "feb2022/menu";
+@import "feb2022/footer";
+@import "feb2022/hero-frame-1";
+@import "feb2022/about-us";
+@import "feb2022/cash-offer";
+@import "feb2022/contact-page";
+@import "feb2022/review";
+@import "feb2022/scam";
+@import "feb2022/exit-popup";
+@import "feb2022/blog";
+
+
+.sp-green {
+  background: #408080;
+}
+
+.sp-dark {
+  background: #303133;
+}
+
+main {
+  padding-top: 0;
+}
+
+.part_exchange .card-content p {
+  height: auto;
+}
+
+section h2 {
+  text-transform: none;
+}
+
+.sell_offer_area .field-holder:before {
+  z-index: 3;
+}

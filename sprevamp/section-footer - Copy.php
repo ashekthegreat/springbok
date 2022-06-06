@@ -343,85 +343,36 @@
 
 <div id="modal-exit-1-feb2022" class="modal">
     <div class="modal-content">
-        <form class="classic-form" action="//simbacloud.co.uk/Users/forms/processFormValid.php" method="post">
-            <div class="exit-progress">
-                <h3 class="margin-top-0 margin-bottom-30">
-                    Enter your details here for a free, no-obligation consultation
-                </h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;"></div>
-                    <div class="progress-text">Progress 25%</div>
+        <form class="classic-form">
+            <h3 class="center-align sp-primary padding-top-20 padding-bottom-20">Wait! Don't leave empty-handed</h3>
+            <div class="guides">
+                <div class="strong margin-bottom-20 center-align">
+                    <span class="material-icons red-text">download</span>
+                    Download two free guides loaded with insider information about how cash buyers work
+                </div>
+                <div class="center-align">
+                    <img src="images/exit-intent/free-guide-1.png" width="275" height="320" alt="8 question you must ask any cash buying company before you sign up" loading="lazy">
+                    <img src="images/exit-intent/free-guide-2.png" width="275" height="320" alt="5 sneaky thing to look out for when dealing with cash buying companies" loading="lazy">
                 </div>
             </div>
-            <div class="exit-slider">
-                <ul>
-                    <li id="exit-slider-1">
-                        <h3 class="center-align sp-primary padding-top-20 padding-bottom-20">Wait! Don't leave empty-handed</h3>
-                        <div class="guides">
-                            <div class="strong margin-bottom-20 center-align">
-                                <span class="material-icons red-text">download</span>
-                                Download two free guides loaded with insider information about how cash buyers work
-                            </div>
-                            <div class="center-align">
-                                <img src="images/exit-intent/free-guide-1.png" width="275" height="320" alt="8 question you must ask any cash buying company before you sign up" loading="lazy">
-                                <img src="images/exit-intent/free-guide-2.png" width="275" height="320" alt="5 sneaky thing to look out for when dealing with cash buying companies" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="exit-footer">
-                            <div class="input-container">
-                                <div class="input-box">
-                                    <input type="text" id="email" name="email" placeholder="Enter your email address">
-                                    <div class="help-text smaller">Please enter your valid email address</div>
-                                    <div class="squiggly-right">
-                                        <div class="arrow"><img src="images/exit-intent/squiggly-arrow.png" width="97" height="65" alt=""></div>
-                                        <div class="text">We'll email you the two guides straight away</div>
-                                    </div>
-                                </div>
-                                <div class="input-box margin-bottom-0">
-                                    <input type="text" id="phone" name="phone" placeholder="Enter your mobile number">
-                                    <div class="help-text smaller">Please provide a valid UK telephone number</div>
-                                    <div class="squiggly-left">
-                                        <div class="text">We'll send you a mobile-friendly version of the guides</div>
-                                        <div class="arrow"><img src="images/exit-intent/squiggly-arrow.png" width="97" height="65" alt=""></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li id="exit-slider-2">
-                        <div class="center-align small margin-bottom-20">Your address allows us to provide accurate offers for your property</div>
-                        <div class="margin-bottom-15">
-                            <h5 class="title">First line of address</h5>
-                            <input placeholder="" id="address" name="address" type="text" class="" tabindex="-1"/>
-                        </div>
-                        <div class="margin-bottom-15 prop-postcode">
-                            <h5 class="title">Postcode</h5>
-                            <input placeholder="e.g. BB1 8HG" id="postcode" name="postcode" type="text" class="" tabindex="-1"/>
-                            <div class="help-text smaller">Postcode is required</div>
-                        </div>
-                    </li>
-                    <li id="exit-slider-3">
-                        <div class="margin-bottom-15">
-                            <h5 class="title">Your Full Name</h5>
-                            <input placeholder="" id="name" name="name" type="text" class="" tabindex="-1"/>
-                            <div class="help-text smaller">Please enter your full name</div>
-                        </div>
-                    </li>
-                    <input type="hidden" name="_wf_salt" value="068afc1f994a9e31165c519d4b406d38">
-                    <input type="hidden" name="_redirection" value="https://springbokproperties.co.uk/thanks">
-                    <input type="hidden" name="_wf_name" value="SP HOME PAGE - Offer Estimator">
-                    <input type="hidden" name="_wf_len" value="5">
-                    <input type="hidden" name="_source" value="SP.co.uk - Exit PopUp">
-                    <input type="hidden" name="_page_url" value="springbokproperties.co.uk/exit-popup">
-                    <input type="hidden" name="_srcChannel" value="WEB">
-                    <input type="hidden" value="" name="notext">
-                </ul>
-            </div>
-            <div class="modal-exit-footer exit-footer">
+            <div class="exit-footer">
                 <div class="input-container">
-                    <button type="button" class="waves-effect waves-light btn-large btn-block offer-button footer-button" tabindex="-1">
-                        <span class="first-step">Send me my free guides</span>
-                        <span class="other-steps">Continue</span>
+                    <div class="input-box">
+                        <input type="text" id="email" name="email" placeholder="Enter your email address">
+                        <div class="squiggly-right">
+                            <div class="arrow"><img src="images/exit-intent/squiggly-arrow.png" width="97" height="65" alt=""></div>
+                            <div class="text">We'll email you the two guides straight away</div>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="phone" name="phone" placeholder="Enter your mobile number">
+                        <div class="squiggly-left">
+                            <div class="text">We'll send you a mobile-friendly version of the guides</div>
+                            <div class="arrow"><img src="images/exit-intent/squiggly-arrow.png" width="97" height="65" alt=""></div>
+                        </div>
+                    </div>
+                    <button type="button" class="waves-effect waves-light btn-large btn-block offer-button" tabindex="-1">
+                        Send me my free guides
                     </button>
                 </div>
             </div>
@@ -433,71 +384,23 @@
 
 <div id="modal-exit-2-feb2022" class="modal">
     <div class="modal-content">
-        <form class="classic-form" action="//simbacloud.co.uk/Users/forms/processFormValid.php" method="post">
-            <div class="exit-progress">
-                <h3 class="margin-top-0 margin-bottom-30">
-                    Enter your details here for a free, no-obligation consultation
-                </h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;"></div>
-                    <div class="progress-text">Progress 25%</div>
-                </div>
-            </div>
-            <div class="exit-slider">
-                <ul>
-                    <li id="exit-slider-1">
-                        <h3 class="center-align sp-primary padding-top-30 padding-bottom-30 exit-header">Hey wait! Before you go...</h3>
-                        <div class="exit-footer">
-                            <div class="input-container center-align">
-                                <h4>Want a free, no-obligation cash offer for your house in less than 24 hours?</h4>
-                                <div class="input-box">
-                                    <input type="text" id="email" name="email" placeholder="Enter your email address (so we can email you the details)">
-                                    <div class="help-text smaller left-align">Please enter your valid email address</div>
-                                </div>
-                                <div class="input-box">
-                                    <input type="text" id="phone" name="phone" placeholder="Enter your mobile number (so we can text you the offer)">
-                                    <div class="help-text smaller left-align">Please provide a valid UK telephone number</div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li id="exit-slider-2">
-                        <div class="center-align small margin-bottom-20">Your address allows us to provide accurate offers for your property</div>
-                        <div class="margin-bottom-15">
-                            <h5 class="title">First line of address</h5>
-                            <input placeholder="" id="address" name="address" type="text" class="" tabindex="-1"/>
-                        </div>
-                        <div class="margin-bottom-15 prop-postcode">
-                            <h5 class="title">Postcode</h5>
-                            <input placeholder="e.g. BB1 8HG" id="postcode" name="postcode" type="text" class="" tabindex="-1"/>
-                            <div class="help-text smaller left-align">Postcode is required</div>
-                        </div>
-                    </li>
-                    <li id="exit-slider-3">
-                        <div class="margin-bottom-15">
-                            <h5 class="title">Your Full Name</h5>
-                            <input placeholder="" id="name" name="name" type="text" class="" tabindex="-1"/>
-                            <div class="help-text smaller left-align">Please enter your full name</div>
-                        </div>
-                    </li>
-                    <input type="hidden" name="_wf_salt" value="068afc1f994a9e31165c519d4b406d38">
-                    <input type="hidden" name="_redirection" value="https://springbokproperties.co.uk/thanks">
-                    <input type="hidden" name="_wf_name" value="SP HOME PAGE - Offer Estimator">
-                    <input type="hidden" name="_wf_len" value="5">
-                    <input type="hidden" name="_source" value="SP.co.uk - Exit PopUp">
-                    <input type="hidden" name="_page_url" value="springbokproperties.co.uk/exit-popup">
-                    <input type="hidden" name="_srcChannel" value="WEB">
-                    <input type="hidden" value="" name="notext">
-                </ul>
-            </div>
-            <div class="modal-exit-footer exit-footer">
-                <div class="input-container">
-                    <button type="button" class="waves-effect waves-light btn-large btn-block offer-button footer-button" tabindex="-1">
-                        <span class="first-step">Get a free cash offer</span>
-                        <span class="other-steps">Continue</span>
+        <form class="classic-form">
+            <h3 class="center-align sp-primary padding-top-30 padding-bottom-30">Hey wait! Before you go...</h3>
+            <div class="exit-footer">
+                <div class="input-container center-align">
+                    <h4>Want a free, no-obligation cash offer for your house in less than 24 hours?</h4>
+                    <div class="input-box">
+                        <input type="text" id="email" name="email" placeholder="Enter your email address (so we can email you the details)">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" id="phone" name="phone" placeholder="Enter your mobile number (so we can text you the offer)">
+                    </div>
+                    <button type="button" class="waves-effect waves-light btn-large btn-block offer-button" tabindex="-1">
+                        Get a free cash offer
                     </button>
                     <div class="center-align smallest margin-top-20">
-                        <i class="material-icons">lock</i> 100% secure & confidential. Data protection registration number ZA065473
+                        <i class="material-icons">lock</i>
+                        100% secure & confidential. Data protection registration number ZA065473
                     </div>
                 </div>
             </div>

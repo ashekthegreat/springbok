@@ -1,100 +1,65 @@
-<!-- footer-->
-<footer id="footer" class="scrollspy">
-    <div class="container footer-section-links">
-        <div class="footer-section-link-block">
-            <h6>About us</h6>
-            <ul>
-                <li><a href="<?php echo SITE_PATH?>about-us" target="_blank">About Springbok</a></li>
-                <li><a href="<?php echo SITE_PATH?>springbok-team" target="_blank">Team Springbok</a></li>
-                <li><a href="<?php echo SITE_PATH?>reviews" target="_blank">Customer Review</a></li>
-                <li><a href="<?php echo SITE_PATH?>springbok-mission" target="_blank">Springbok Mission, Value & Culture</a></li>
-                <!--<li><a href="<?php echo SITE_PATH?>springbok-story" target="_blank">The Springbok Story</a></li>-->
-                <li><a href="<?php echo SITE_PATH?>springbok-charities" target="_blank">Our Selected Charities</a></li>
-                <li><a href="<?php echo SITE_PATH?>refer-springbok-properties" target="_blank">Refer A Friend</a></li>
-                <li><a href="<?php echo SITE_PATH?>how-we-compare">How We Compare</a></li>
-                <li><a href="<?php echo SITE_PATH?>where-we-advertise" target="_blank">Where We Advertise</a></li>
-            </ul>
-        </div>
-        <div class="footer-section-link-block">
-            <h6>Useful links</h6>
-            <ul>
-                <li><a href="<?php echo SITE_PATH?>free-valuation" target="_blank">Get a Free Valuation</a></li>
-                <li><a href="<?php echo SITE_PATH?>property-list" target="_blank">Search Properties</a></li>
-                <li><a href="<?php echo SITE_PATH?>contact-us" target="_blank">Contact Us</a></li>
-                <li><a href="<?php echo SITE_PATH?>careers/index.html" target="_blank">Careers</a></li>
-                <li><a href="<?php echo SITE_PATH?>register.php#signin" target="_blank">Buyer Sign in/Register</a></li>
-            </ul>
-        </div>
-        <div class="footer-section-link-block">
-            <h6>Company Details</h6>
-            <ul>
-                <li><a href="<?php echo SITE_PATH?>blog">Springbok Properties Official Blog</a></li>
-                <li><a href="https://www.yell.com/biz/springbok-properties-manchester-7857382/" target="_blank">Springbok Properties Yell</a></li>
-                <li><a href="<?php echo SITE_PATH?>privacy-policy" target="_blank">Privacy Policy</a></li>
-                <li><a href="<?php echo SITE_PATH?>terms-and-conditions">Terms & Conditions</a></li>
-                <li><a href="<?php echo SITE_PATH?>complaints-procedure">Complaints Procedure</a></li>
-                <li><a href="<?php echo SITE_PATH?>sitemap.php">Sitemap</a></li>
-                <li><a href="<?php echo SITE_PATH?>sitemap.xml">XML Sitemap</a></li>
-            </ul>
-        </div>
-        <div class="footer-section-link-block">
-            <h6>Properties For Sale</h6>
-            <ul>
-                <li><a href="<?php echo SITE_PATH?>property-list" target="_blank">Springbok Properties For Sale</a></li>
-                <li><a target="_blank" href="https://www.rightmove.co.uk/property-for-sale/find/Springbok-Properties/Nationwide.html/svr/3116;jsessionid=E0CD356EA55308D6B88A9C3793357D34?locationIdentifier=BRANCH%5E53811&includeSSTC=true&_includeSSTC=on">Springbok Properties Rightmove</a></li>
-                <li><a target="_blank" href="https://nethouseprices.com/agent-properties/hf22874/sale">Springbok Properties Nethouseprices</a></li>
-                <li><a href="//www.home.co.uk/search/agents/search.htm?agent=715925" target="_blank">Springbok Properties Home.co.uk</a></li>
-            </ul>
-        </div>
-        <div class="footer-section-link-block">
-            <h6>Our Reviews</h6>
-            <ul>
-                <!--<li><a href="<?php echo SITE_PATH?>reviews" target="_blank">Springbok Properties Reviews</a></li>-->
-                <li><a href="https://springbokpropertiesreviews.co.uk" target="_blank">Springbok Properties Reviews</a></li>
-                <li><a href="https://www.allagents.co.uk/springbok-properties/" target="_blank">Springbok Properties Reviews Allagents</a></li>
-                <li><a href="https://www.referenceline.com/estate_agents-in-manchester-springbokpropertiessales-40748" target="_blank">Springbok Properties Reviews Referenceline</a></li>
-                <li><a href="https://www.youtube.com/watch?v=BYKz90GY5EM" target="_blank">Springbok Properties Video Reviews</a></li>
-                <li><a href="//myopenreviews.co.uk/" target="_blank">Springbok Properties Myopenreviews</a></li>
-            </ul>
-        </div>
-        <div class="footer-section-link-block">
-            <h6>Social Media</h6>
-            <ul>
-                <li><a href="https://www.facebook.com/SpringbokProperties/" target="_blank">Springbok Properties Facebook</a></li>
-                <li><a href="https://twitter.com/springbokprop" target="_blank">Springbok Properties Twitter</a></li>
-                <li><a href="https://www.linkedin.com/company-beta/5073370/" target="_blank">Springbok Properties Linkedin </a></li>
-                <li><a href="https://www.youtube.com/channel/UCoX4BOtThDYw0p1MEd_y4Nw" target="_blank">Springbok Properties Youtube</a></li>
-                <li><a href="https://springbokproperties.blogspot.com" target="_blank">Springbok Properties Blogspot</a></li>
-                <li><a href="https://springbokproperties.wordpress.com/" target="_blank">Springbok Properties Wordpress</a></li>
-            </ul>
+<footer class="page-footer white sp-secondary-text">
+    <div class="footer-links">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 push-m4">
+                    <h5>Connect with us</h5>
+                    <p>
+                        <a href="https://www.facebook.com/SpringbokProperties"><i class="social social-fb-32"></i></a> &nbsp;
+                        <a href="https://twitter.com/springbokprop"><i class="social social-twitter-32"></i></a> &nbsp;
+                        <a href="https://uk.pinterest.com/springbokproper/pins/"><i class="social social-pinterest-32"></i></a> &nbsp;
+                        <a href="https://www.youtube.com/channel/UCoX4BOtThDYw0p1MEd_y4Nw"><i class="social social-youtube-32"></i></a>
+                    </p>
+                    <p>
+                        <img src="assets/images/award-icons.png" width="273" height="71" class="responsive-img">
+                    </p>
+                    <p>
+                        <i class="sprite sprite-as-seen-on-tv"></i>
+                    </p>
+                </div>
+                <div class="col s12 m4 pull-m4">
+                    <h5>Useful links</h5>
+                    <ul>
+                        <li><a href="free-valuation.php">Get Free Valuation</a></li>
+                        <li><a href="property-list.php">Search Properties</a></li>
+                        <li><a href="contact-us.php">Contact Us</a></li>
+                        <li><a href="http://springbokproperties.co.uk/careers/index.html">Careers</a></li>
+                        <li><a href="register.php#signin">Buyer Sign-in / Register</a></li>
+                    </ul>
+                </div>
+                <div class="col s12 m4">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="about-us.php">About Springbok</a></li>
+                        <li><a href="springbok-team.php">Team Springbok</a></li>
+                        <li><a href="reviews.php">Customer Reviews</a></li>
+                        <li><a href="mission-vision.php">Springbok Mission, Values & Culture</a></li>
+                        <li><a href="springbok-story.php">The Springbok Story</a></li>
+                        <li><a href="springbok-charities.php">Our Selected Charities</a></li>
+                        <li><a href="refer-a-friend.php">Refer A Friend</a></li>
+                        <li><a href="how-we-compare.php">How We Compare</a></li>
+                        <li><a href="advertise.php">Where We Advertise</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container footer-section-copyright">
-        <div class="row margin-bottom-0">
-            <div class="col s12 m6">
-                <br>&copy; Springbok Properties. All right reserved.<br><br>
-            </div>
-            <div class="col s12 m6 right-align">
-                <img src="images/footer-logos.png" width="225" height="79" alt="" loading="lazy"/>
-            </div>
+    
+    <div class="footer-copyright">
+        <div class="container center-align sp-secondary-text lighten-3">
+            <strong>&copy; 2015 Springbok Properties</strong> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms & Conditions</a> |
+            <a href="reviews.php">Springbok Properties Reviews</a> |
+            <a href="#">Complaints Procedure</a> |
+            <a href="#">Sitemap</a>
+            <br><br><br>
         </div>
+
     </div>
 </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <a href="free-valuation.php" class="waves-effect waves-light btn sp-primary sp-secondary-text fixed-free-val">FREE Valuation</a>
-<a href="javascript:" class="waves-effect waves-light btn sp-primary sp-secondary-text go-to-top">&lt;</a>
 
 <div id="modal-video" class="modal">
     <div class="modal-content"></div>
@@ -259,7 +224,7 @@
                             <div class="modal-exit-header sp-primary sp-secondary-text text-darken-4 center-align">Wait! Don't leave before you get your free, no-obligation consultation</div>
                             <div class="modal-exit-content">
                                 <div class="body-left">
-                                    <img src="images/chatsection_people.png" alt="" class="chat-bg" loading="lazy">
+                                    <img src="images/chatsection_people.png" alt="" class="chat-bg">
                                 </div>
                                 <div class="body-right">
                                     <h3 class="margin-bottom-20">You get all of this for free!</h3>
@@ -285,7 +250,7 @@
                                     <div class="padding-0 center-align">
                                         <input placeholder="Type your phone number here" id="phone" name="phone" type="text" class="margin-0 center-align" />
                                     </div>
-                                    <img src="images/exit-intent/phone-yes.png" width="194" height="152" alt="" class="chat-phone-yes" loading="lazy">
+                                    <img src="images/exit-intent/phone-yes.png" width="194" height="152" alt="" class="chat-phone-yes">
                                 </div>
                             </div>
                         </li>
@@ -340,171 +305,6 @@
     </div>
 </div>
 <div id="exit-modal-close"><span class="material-icons">clear</span></div>
-
-<div id="modal-exit-1-feb2022" class="modal">
-    <div class="modal-content">
-        <form class="classic-form" action="//simbacloud.co.uk/Users/forms/processFormValid.php" method="post">
-            <div class="exit-progress">
-                <h3 class="margin-top-0 margin-bottom-30">
-                    Enter your details here for a free, no-obligation consultation
-                </h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;"></div>
-                    <div class="progress-text">Progress 25%</div>
-                </div>
-            </div>
-            <div class="exit-slider">
-                <ul>
-                    <li id="exit-slider-1">
-                        <h3 class="center-align sp-primary padding-top-20 padding-bottom-20">Wait! Don't leave empty-handed</h3>
-                        <div class="guides">
-                            <div class="strong margin-bottom-20 center-align">
-                                <span class="material-icons red-text">download</span>
-                                Download two free guides loaded with insider information about how cash buyers work
-                            </div>
-                            <div class="center-align">
-                                <img src="images/exit-intent/free-guide-1.png" width="275" height="320" alt="8 question you must ask any cash buying company before you sign up" loading="lazy">
-                                <img src="images/exit-intent/free-guide-2.png" width="275" height="320" alt="5 sneaky thing to look out for when dealing with cash buying companies" loading="lazy">
-                            </div>
-                        </div>
-                        <div class="exit-footer">
-                            <div class="input-container">
-                                <div class="input-box">
-                                    <input type="text" id="email" name="email" placeholder="Enter your email address">
-                                    <div class="help-text smaller">Please enter your valid email address</div>
-                                    <div class="squiggly-right">
-                                        <div class="arrow"><img src="images/exit-intent/squiggly-arrow.png" width="97" height="65" alt=""></div>
-                                        <div class="text">We'll email you the two guides straight away</div>
-                                    </div>
-                                </div>
-                                <div class="input-box margin-bottom-0">
-                                    <input type="text" id="phone" name="phone" placeholder="Enter your mobile number">
-                                    <div class="help-text smaller">Please provide a valid UK telephone number</div>
-                                    <div class="squiggly-left">
-                                        <div class="text">We'll send you a mobile-friendly version of the guides</div>
-                                        <div class="arrow"><img src="images/exit-intent/squiggly-arrow.png" width="97" height="65" alt=""></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li id="exit-slider-2">
-                        <div class="center-align small margin-bottom-20">Your address allows us to provide accurate offers for your property</div>
-                        <div class="margin-bottom-15">
-                            <h5 class="title">First line of address</h5>
-                            <input placeholder="" id="address" name="address" type="text" class="" tabindex="-1"/>
-                        </div>
-                        <div class="margin-bottom-15 prop-postcode">
-                            <h5 class="title">Postcode</h5>
-                            <input placeholder="e.g. BB1 8HG" id="postcode" name="postcode" type="text" class="" tabindex="-1"/>
-                            <div class="help-text smaller">Postcode is required</div>
-                        </div>
-                    </li>
-                    <li id="exit-slider-3">
-                        <div class="margin-bottom-15">
-                            <h5 class="title">Your Full Name</h5>
-                            <input placeholder="" id="name" name="name" type="text" class="" tabindex="-1"/>
-                            <div class="help-text smaller">Please enter your full name</div>
-                        </div>
-                    </li>
-                    <input type="hidden" name="_wf_salt" value="068afc1f994a9e31165c519d4b406d38">
-                    <input type="hidden" name="_redirection" value="https://springbokproperties.co.uk/thanks">
-                    <input type="hidden" name="_wf_name" value="SP HOME PAGE - Offer Estimator">
-                    <input type="hidden" name="_wf_len" value="5">
-                    <input type="hidden" name="_source" value="SP.co.uk - Exit PopUp">
-                    <input type="hidden" name="_page_url" value="springbokproperties.co.uk/exit-popup">
-                    <input type="hidden" name="_srcChannel" value="WEB">
-                    <input type="hidden" value="" name="notext">
-                </ul>
-            </div>
-            <div class="modal-exit-footer exit-footer">
-                <div class="input-container">
-                    <button type="button" class="waves-effect waves-light btn-large btn-block offer-button footer-button" tabindex="-1">
-                        <span class="first-step">Send me my free guides</span>
-                        <span class="other-steps">Continue</span>
-                    </button>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
-<div id="modal-exit-1-feb2022-close"><span class="material-icons">clear</span></div>
-
-
-<div id="modal-exit-2-feb2022" class="modal">
-    <div class="modal-content">
-        <form class="classic-form" action="//simbacloud.co.uk/Users/forms/processFormValid.php" method="post">
-            <div class="exit-progress">
-                <h3 class="margin-top-0 margin-bottom-30">
-                    Enter your details here for a free, no-obligation consultation
-                </h3>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 25%;"></div>
-                    <div class="progress-text">Progress 25%</div>
-                </div>
-            </div>
-            <div class="exit-slider">
-                <ul>
-                    <li id="exit-slider-1">
-                        <h3 class="center-align sp-primary padding-top-30 padding-bottom-30 exit-header">Hey wait! Before you go...</h3>
-                        <div class="exit-footer">
-                            <div class="input-container center-align">
-                                <h4>Want a free, no-obligation cash offer for your house in less than 24 hours?</h4>
-                                <div class="input-box">
-                                    <input type="text" id="email" name="email" placeholder="Enter your email address (so we can email you the details)">
-                                    <div class="help-text smaller left-align">Please enter your valid email address</div>
-                                </div>
-                                <div class="input-box">
-                                    <input type="text" id="phone" name="phone" placeholder="Enter your mobile number (so we can text you the offer)">
-                                    <div class="help-text smaller left-align">Please provide a valid UK telephone number</div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li id="exit-slider-2">
-                        <div class="center-align small margin-bottom-20">Your address allows us to provide accurate offers for your property</div>
-                        <div class="margin-bottom-15">
-                            <h5 class="title">First line of address</h5>
-                            <input placeholder="" id="address" name="address" type="text" class="" tabindex="-1"/>
-                        </div>
-                        <div class="margin-bottom-15 prop-postcode">
-                            <h5 class="title">Postcode</h5>
-                            <input placeholder="e.g. BB1 8HG" id="postcode" name="postcode" type="text" class="" tabindex="-1"/>
-                            <div class="help-text smaller left-align">Postcode is required</div>
-                        </div>
-                    </li>
-                    <li id="exit-slider-3">
-                        <div class="margin-bottom-15">
-                            <h5 class="title">Your Full Name</h5>
-                            <input placeholder="" id="name" name="name" type="text" class="" tabindex="-1"/>
-                            <div class="help-text smaller left-align">Please enter your full name</div>
-                        </div>
-                    </li>
-                    <input type="hidden" name="_wf_salt" value="068afc1f994a9e31165c519d4b406d38">
-                    <input type="hidden" name="_redirection" value="https://springbokproperties.co.uk/thanks">
-                    <input type="hidden" name="_wf_name" value="SP HOME PAGE - Offer Estimator">
-                    <input type="hidden" name="_wf_len" value="5">
-                    <input type="hidden" name="_source" value="SP.co.uk - Exit PopUp">
-                    <input type="hidden" name="_page_url" value="springbokproperties.co.uk/exit-popup">
-                    <input type="hidden" name="_srcChannel" value="WEB">
-                    <input type="hidden" value="" name="notext">
-                </ul>
-            </div>
-            <div class="modal-exit-footer exit-footer">
-                <div class="input-container">
-                    <button type="button" class="waves-effect waves-light btn-large btn-block offer-button footer-button" tabindex="-1">
-                        <span class="first-step">Get a free cash offer</span>
-                        <span class="other-steps">Continue</span>
-                    </button>
-                    <div class="center-align smallest margin-top-20">
-                        <i class="material-icons">lock</i> 100% secure & confidential. Data protection registration number ZA065473
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
-<div id="modal-exit-2-feb2022-close"><span class="material-icons">clear</span></div>
 
 
 <div id="modal-free-offer" class="modal">
@@ -593,4 +393,3 @@
 <script type="text/javascript" src="assets/js/script<?php echo in_array( $_SERVER['REMOTE_ADDR'], array( '127.0.0.1', '::1', 'miniman.us' ))?'':'.min' ?>.js"></script>
 <script type="text/javascript" src="assets/js/nouislider.min.js"></script>
 <script type="text/javascript" src="assets/js/may2020.js"></script>
-<script type="text/javascript" src="assets/js/feb2022.js"></script>

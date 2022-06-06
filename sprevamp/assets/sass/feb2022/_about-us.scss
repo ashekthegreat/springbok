@@ -1,0 +1,65 @@
+$grey: #eeeeee;
+$teal: #43807f;
+
+.about-us-page {
+  /*padding: 50px 0 40px 0;*/
+
+  .responsive-h1 {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .simple-steps {
+    display: flex;
+    flex-direction: column;
+
+    .step {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 15px;
+
+      .label {
+        display: flex;
+        text-align: center;
+        background: $teal;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 28px;
+        flex: 0 0 80px;
+        font-weight: 500;
+        padding: 9px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px 0 0 8px;
+        @media only screen and (min-width: 601px) {
+          font-size: 32px;
+          flex: 0 0 120px;
+        }
+        @media only screen and (min-width: 993px) {
+          font-size: 36px;
+          flex: 0 0 130px;
+        }
+      }
+
+      .text {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+        padding: 10px 20px;
+        align-items: center;
+        background: $grey;
+        border-radius: 0 8px 8px 0;
+        width: 100%;
+        font-weight: 400;
+
+        @media only screen and (min-width: 601px) {
+          font-size: 18px;
+        }
+        @media only screen and (min-width: 993px) {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

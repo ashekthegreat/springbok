@@ -23,7 +23,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col s12 m7 l7">
-                        <img src="assets/images/db.png" width="558" height="302" class="responsive-img margin-bottom-40"/>
+                        <img src="assets/images/db.png" width="558" height="302" class="responsive-img margin-bottom-40" alt=""/>
                         <h3 class="margin-bottom-30">Advertising on Major Property Portals</h3>
                         <div class="adv-logos margin-bottom-40">
                             <div class="card-panel"><i class="adv-logo adv-logo-p8"></i></div>

@@ -1,0 +1,319 @@
+$teal: #43807f;
+$primary: #ffef00;
+
+.lean-overlay {
+  opacity: 0.8 !important;
+}
+
+#modal-exit-1-feb2022 {
+  padding: 0;
+  max-height: 92%;
+  width: 960px;
+  max-width: 90%;
+
+  @media only screen and (max-width: 600px) {
+    .unslider > div {
+      height: auto;
+    }
+  }
+
+  .exit-progress{
+    padding: 30px 30px 0;
+  }
+
+  .exit-slider{
+    margin: 0;
+    .exit-footer{
+      padding-bottom: 1px;
+    }
+
+    #exit-slider-2, #exit-slider-3{
+      padding: 30px;
+      @media only screen and (max-width: 600px) {
+        padding: 20px;
+      }
+    }
+  }
+  .modal-content {
+    padding: 0;
+  }
+
+  .classic-form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .guides {
+    .strong {
+      font-size: 18px;
+
+      .material-icons{
+        vertical-align: middle;
+      }
+    }
+    img{
+      vertical-align: top;
+      max-width: 30%;
+    }
+  }
+  .exit-footer{
+    background: $teal;
+    padding: 30px;
+
+    @media only screen and (max-width: 600px) {
+      padding: 20px;
+    }
+
+    .input-container{
+      max-width: 475px;
+      margin: 0 auto;
+      position: relative;
+
+      .input-box{
+        margin-bottom: 20px;
+      }
+
+      .squiggly-right{
+        position: absolute;
+        top: 17px;
+        right: -200px;
+        width: 190px;
+        display: flex;
+        flex-direction: row;
+        color: $primary;
+
+        .arrow{
+          flex: 0 0 40%;
+        }
+        .text{
+          text-align: center;
+        }
+      }
+
+      .squiggly-left{
+        position: absolute;
+        top: 50px;
+        left: -200px;
+        width: 190px;
+        display: flex;
+        flex-direction: row;
+        color: $primary;
+
+        .arrow{
+          flex: 0 0 40%;
+          padding-top: 20px;
+        }
+        .text{
+          text-align: center;
+          @media only screen and (max-width: 600px) {
+            font-size: 12px;
+          }
+        }
+      }
+      @media only screen and (max-width: 992px) {
+        .squiggly-left, .squiggly-right{
+          position: static;
+          display: block;
+          text-align: center;
+          width: auto;
+          .arrow{
+            display: none;
+          }
+        }
+      }
+
+      input{
+        height: 4rem !important;
+        margin-bottom: 0 !important;
+        border-radius: 4px !important;
+        font-size: 28px!important;
+
+        @media only screen and (max-width: 600px) {
+          font-size: 24px!important;
+        }
+      }
+      button{
+        height: 75px;
+        background: $primary;
+        border-radius: 60px;
+        text-transform: none;
+        font-size: 32px;
+        font-weight: 500;
+        color: #2b2b2b;
+        box-shadow: none;
+        padding: 0 15px;
+
+        @media only screen and (max-width: 992px) {
+          font-size: 28px;
+          height: 60px;
+        }
+        @media only screen and (max-width: 600px) {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+#modal-exit-2-feb2022 {
+  padding: 0;
+  max-height: 92%;
+  width: 960px;
+  max-width: 90%;
+
+  @media only screen and (max-width: 600px) {
+    .unslider > div {
+      height: auto;
+    }
+  }
+
+  .exit-progress{
+    padding: 30px 30px 0;
+  }
+
+  .exit-slider{
+    margin: 0;
+    .exit-footer{
+      padding-bottom: 1px;
+    }
+
+    #exit-slider-2, #exit-slider-3{
+      padding: 30px;
+      @media only screen and (max-width: 600px) {
+        padding: 20px;
+      }
+    }
+  }
+
+  .modal-content {
+    padding: 0;
+    background: #fff;
+
+    .exit-header{
+      font-size: 48px;
+      color: #000;
+      margin: 0;
+      @media only screen and (max-width: 600px) {
+        font-size: 26px!important;
+      }
+    }
+  }
+
+  .classic-form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .exit-footer{
+    background: #fff;
+    padding: 30px;
+
+    &.modal-exit-footer{
+      padding-top: 0;
+    }
+    @media only screen and (max-width: 600px) {
+      padding: 20px;
+    }
+
+    h4{
+      font-size: 34px;
+      margin-bottom: 20px;
+      line-height: 1.35;
+      @media only screen and (max-width: 600px) {
+        font-size: 22px
+      }
+    }
+
+    .input-container{
+      max-width: 650px;
+      margin: 0 auto;
+
+      .input-box{
+        margin-bottom: 10px;
+      }
+
+      input{
+        height: 6rem !important;
+        margin-bottom: 10px !important;
+        border-radius: 6px !important;
+        font-size: 28px!important;
+        border: 2.5px solid $teal!important;
+
+        &::-webkit-input-placeholder {
+          font-size: 20px;
+        }
+
+        &:-moz-placeholder { /* Firefox 18- */
+          font-size: 20px;
+        }
+
+        &::-moz-placeholder {  /* Firefox 19+ */
+          font-size: 20px;
+        }
+
+        &:-ms-input-placeholder {
+          font-size: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+          height: 5rem !important;
+          font-size: 24px!important;
+
+          &::-webkit-input-placeholder {
+            font-size: 16px;
+          }
+
+          &:-moz-placeholder { /* Firefox 18- */
+            font-size: 16px;
+          }
+
+          &::-moz-placeholder {  /* Firefox 19+ */
+            font-size: 16px;
+          }
+
+          &:-ms-input-placeholder {
+            font-size: 16px;
+          }
+        }
+      }
+      button{
+        height: 95px;
+        background: #22b14c;
+        border-radius: 60px;
+        text-transform: none;
+        font-size: 32px;
+        font-weight: 500;
+        color: #fff;
+        box-shadow: none;
+
+        @media only screen and (max-width: 992px) {
+          font-size: 28px;
+          height: 60px;
+        }
+        @media only screen and (max-width: 600px) {
+          font-size: 26px;
+        }
+      }
+      .smallest .material-icons{
+        font-size: 14px;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+#modal-exit-1-feb2022-close, #modal-exit-2-feb2022-close {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1010;
+  cursor: pointer;
+
+  .material-icons {
+    font-weight: bold;
+    font-size: 40px;
+    color: #fefefe;
+    vertical-align: top;
+  }
+}

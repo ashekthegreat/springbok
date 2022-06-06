@@ -1,0 +1,196 @@
+$teal: #43807f;
+$primary: #ffef00;
+
+ol.teal-numbered {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
+
+  > li {
+    margin: 0 0 1rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+  }
+
+  > li::before {
+    content: counter(my-awesome-counter);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    background: $teal;
+    border-radius: 50%;
+    text-align: center;
+  }
+}
+
+ul.teal-bullet {
+  li {
+    padding-left: 50px;
+    position: relative;
+    margin: 0 0 1rem 0;
+
+    &:before {
+      content: "";
+      width: 11px;
+      height: 11px;
+      background: $teal;
+      position: absolute;
+      top: 11px;
+      left: 28px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.big-text {
+  font-size: 22px;
+  font-weight: 400;
+
+  .container {
+    max-width: 1050px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    font-size: 20px;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  h5 {
+    font-size: 22px;
+    @media only screen and (max-width: 600px) {
+      font-size: 20px;
+    }
+  }
+
+  img.right {
+    margin: 10px 0 20px 20px;
+  }
+}
+
+.combined{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  .combined-left{
+    flex: 0 0 55.5%;
+    img{
+      vertical-align: top;
+    }
+  }
+  .combined-right{
+    flex: 0 0 44%;
+
+    .form-title{
+      padding: 20px 10px 0 10px;
+      font-size: 24px;
+      @media only screen and (max-width: 992px) {
+        font-size: 20px;
+      }
+    }
+    .classic-form{
+      padding: 15px 40px 20px;
+
+      input{
+        height: 3rem!important;
+        margin-bottom: 8px!important;
+        border-radius: 6px!important;
+      }
+
+      button{
+        height: 70px;
+        background: $teal;
+        border-radius: 15px;
+        text-transform: none;
+        font-size: 36px;
+        font-weight: 500;
+
+        @media only screen and (max-width: 992px) {
+          font-size: 28px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}
+.scam-offer-section {
+  background: #757575;
+  color: #fff;
+  text-align: center;
+
+  &.teal {
+    background: $teal;
+  }
+
+  h3 {
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    @media only screen and (max-width: 600px) {
+      font-size: 14px;
+    }
+  }
+
+  .typeahead__container{
+    max-width: 400px;
+    margin: 0 auto 20px;
+
+    .typeahead__cancel-button{
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  input {
+    text-align: center;
+    background: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    height: 60px;
+    font-size: 28px;
+    border-radius: 6px;
+    color: #000;
+  }
+
+  .btn-free-offer {
+    background: $primary;
+    font-size: 26px;
+    height: 35px;
+    border-radius: 15px;
+    color: #333;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .section-footer {
+    background: $teal;
+    font-size: 22px;
+    padding: 0;
+    @media only screen and (max-width: 600px) {
+      font-size: 18px;
+    }
+  }
+}
+

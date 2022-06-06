@@ -1,135 +1,114 @@
-<div class="navbar-fixed">
+<?php const SITE_PATH = "http://localhost/springbok/sprevamp/"; ?>
+
+<div class="main-nav">
     <nav>
         <div class="nav-wrapper container">
-            <a href="index.php" class="brand-logo left"><img src="assets/images/logo.png" width="152" height="45"></a>
-            <a href="#" data-activates="main-sidenav" class="button-collapse menu-button right"><strong>MENU</strong></a>
-            <a href="tel:03332007322" class="button-collapse call-button right"><b class="sprite sprite-call"></b></a>
+            <a href="<?php echo SITE_PATH?>" class="brand-logo left">
+                <img src="<?php echo SITE_PATH?>images/logo-new.jpg" alt="" width="165" height="78">
+            </a>
+            <a href="#" data-activates="main-sidenav" class="button-collapse menu-button right">
+                <i class="material-icons">menu</i>
+            </a>
+            <!--a href="tel:03332007322" class="button-collapse call-button right">
+                <b class="sprite sprite-call"></b>
+            </a-->
+            <div class="right hide-on-med-and-down menu-offer-section">
+                <div class="menu-offer-label">Freephone 24/7 Call: <strong>0800 068 4015</strong></div>
+                <div>
+                    <a href="<?php echo SITE_PATH?>free-valuation" target="_blank" class="waves-effect waves-light btn sp-dark white-text">Get free valuation</a>
+                    <a href="<?php echo SITE_PATH?>get-cash-offer" target="_blank" class="waves-effect waves-light btn sp-green">Get a cash offer</a>
+                </div>
+            </div>
             <ul id="main-nav" class="right hide-on-med-and-down">
-                <li><a href="javascript:;" class="dropdown-main-nav" data-activates="dropdown-sell">Sell</a></li>
-                <li><a href="free-valuation.php">Free Valuation</a></li>
-                <li><a href="property-list.php">Search Properties</a></li>
-                <li><a href="investments.php">Investments</a></li>
-                <li><a href="reviews.php">Reviews</a></li>
-                <li><a href="#" class="dropdown-main-nav" data-activates="dropdown-advice">Property Advice</a></li>
+                <!--<li><a href="javascript:" class="dropdown-main-nav" data-activates="dropdown-sell">Sellers</a></li>-->
+                <li><a href="<?php echo SITE_PATH?>">Home</a></li>
+                <li><a href="<?php echo SITE_PATH?>fast-sale-services" class="dropdown-main-nav" data-activates="dropdown-freevaluation">Services</a></li>
+                <li><a href="<?php echo SITE_PATH?>property-list">Search Properties</a></li>
+                <!--<li><a href="javascript:" class="dropdown-main-nav" data-activates="dropdown-buyers">Buyers</a></li>-->
+                <li><a href="javascript:" class="dropdown-main-nav" data-activates="dropdown-about">About</a></li>
+                <li><a href="<?php echo SITE_PATH ?>blog">Guides</a></li>
+                <li><a href="<?php echo SITE_PATH?>contact-us">Contact</a></li>
+                <li class="sign-in"><a href="<?php echo SITE_PATH.'login.php'?>">Sign In</a></li>
             </ul>
+
             <ul class="side-nav sp-secondary lighten-5" id="main-sidenav">
                 <li class="no-padding">
                     <ul class="collapsible collapsible-accordion">
                         <li>
-                            <a class="collapsible-header">Sell</a>
-                            <div class="collapsible-body sectioned-nav-block-mobile">
-                                <div class="sectioned-nav-block">
-                                    <h6 class="sectioned-nav-header">Fast Sale Department</h6>
-                                    <ul>
-                                        <li><a href="#home-success">Success Stories</a></li>
-                                        <li><a href="#home-how-it-works">How It Works</a></li>
-                                    </ul>
-                                </div>
-                                <div class="sectioned-nav-block">
-                                    <h6 class="sectioned-nav-header">Fast Sale Department</h6>
-                                    <ul>
-                                        <li><a href="#home-estimator">Free Offer Estimator</a></li>
-                                        <li><a href="#home-video">Video Reviews</a></li>
-                                        <li><a href="#home-recent-sale">Our Recent Sales</a></li>
-                                    </ul>
-                                </div>
-                                <div class="sectioned-nav-block">
-                                    <h6 class="sectioned-nav-header">Fast Sale Department</h6>
-                                    <ul>
-                                        <li><a href="#home-customer-service">Customer Service</a></li>
-                                        <li><a href="#home-success-numbers">Success In Numbers</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <a href="<?php echo SITE_PATH?>">Home</a>
                         </li>
                     </ul>
                 </li>
-                <li><a href="free-valuation.php">Free Valuation</a></li>
-                <li><a href="property-list.php">Search Properties</a></li>
-                <li><a href="investments.php">Investments</a></li>
-                <li><a href="reviews.php">Reviews</a></li>
-                <li class="no-padding">
+                <li>
                     <ul class="collapsible collapsible-accordion">
                         <li>
-                            <a class="collapsible-header">Property Advice</a>
+                            <a class="collapsible-header">Services</a>
                             <div class="collapsible-body">
                                 <ul>
-                                    <li><a href="why-use-springbok-buy.php">Why Buy With Springbok</a></li>
-                                    <li><a href="buyers-guide.php">Buyers Guide</a></li>
-                                    <li><a href="#">Latest News & Updates</a></li>
-                                    <li><a href="mortgage.php">Mortgages</a></li>
-                                    <li><a href="conveyance.php">Conveyance</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>sell-house-fast">Sell Your House Fast</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>sell-house-fast">We Buy Any House</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>sell-land-fast">Sell Your Land Fast</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>sell-a-commercial-property">Sell Commercial Property Fast</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>part-exchange">Part exchange</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>conveyance">Conveyancing</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>sold-house-prices">Sold House Price Tool</a></li>
                                 </ul>
                             </div>
                         </li>
                     </ul>
                 </li>
+                <li><a href="<?php echo SITE_PATH?>property-list">Search Properties</a></li>
+                <li>
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">About</a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="<?php echo SITE_PATH?>reviews">Reviews</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>about-us">About Springbok</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>springbok-team">Team Springbok</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>springbok-mission">Mission Values & Culture</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>refer-springbok-properties">Refer a Friend</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>index.php#compare_springbook">How We Compare</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>where-we-advertise">Where We Advertise</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>springbok-charities">Our Selected Charities</a></li>
+                                    <li><a href="<?php echo SITE_PATH?>blog">Media Coverage</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="<?php echo SITE_PATH ?>blog">Guides</a></li>
+                <li><a href="<?php echo SITE_PATH?>contact-us">Contact</a></li>
+                <li><a href="<?php echo SITE_PATH?>login.php">Sign In</a></li>
             </ul>
         </div>
-        <div class="sub-nav">
-            <div class="container right-align">
-                <span class="call-button sp-secondary-text">
-                    <span>24/7</span>
-                    <i class="sprite sprite-call-247 margin-right-10"></i>
-                    <span class="click-to-call">0800 068 4015</span>
-                    <span class="nowrap">
-                        <small class="margin-right-5 margin-left-5">or</small>
-                        <span class="click-to-call">0333 200 7322</span>
-                    </span>
-                </span>
-                <a href="free-valuation.php" target="_blank" class="waves-effect waves-light btn sp-primary sp-secondary-text margin-left-15">Get Free Valuation</a>
-                <a href="how-much-is-my-house-worth.php" target="_blank" class="waves-effect waves-light btn white sp-secondary-text">What's My Home Worth</a>
-                <a href="contact-us.php" class="waves-effect waves-light btn sp-secondary white-text">Contact Us</a>
+        <div class="center hide-on-large-only menu-offer-section mobile-only">
+            <div class="menu-offer-label">Freephone 24/7 Call: <strong>0800 068 4015</strong></div>
+            <div>
+                <a href="<?php echo SITE_PATH?>free-valuation" target="_blank" class="waves-effect waves-light btn sp-dark white-text">Get free valuation</a>
+                <a href="<?php echo SITE_PATH?>get-cash-offer" target="_blank" class="waves-effect waves-light btn sp-green">Get a cash offer</a>
             </div>
         </div>
     </nav>
-
-    <div id="dropdown-sell" class="dropdown-content sectioned-nav">
-        <div class="container">
-            <div class="row margin-bottom-0">
-                <div class="col s5">
-                    <div class="sectioned-nav-block">
-                        <h6 class="sectioned-nav-header">Fast Sale Department</h6>
-                        <ul class="sectioned-nav-list">
-                            <li><a href="#home-success">Success Stories</a></li>
-                            <li><a href="#home-how-it-works">How It Works</a></li>
-                        </ul>
-                    </div>
-                    <div class="sectioned-nav-block">
-                        <h6 class="sectioned-nav-header">Other Services</h6>
-                        <ul class="sectioned-nav-list">
-                            <li><a href="#home-customer-service">Customer Service</a></li>
-                            <li><a href="#home-success-numbers">Success In Numbers</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col s7">
-                    <div class="sectioned-nav-block">
-                        <h6 class="sectioned-nav-header">Cash Buying Department</h6>
-                        <ul class="sectioned-nav-list">
-                            <li><a href="#home-estimator">Free Offer Estimator</a></li>
-                            <li><a href="#home-video">Video Reviews</a></li>
-                            <li><a href="#home-recent-sale">Our Recent Sales</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--<ul id="dropdown-sell" class="dropdown-content">
-        <li><a href="#home-success">Success Stories</a></li>
-        <li><a href="#home-how-it-works">How It Works</a></li>
-        <li><a href="#home-estimator">Free Offer Estimator</a></li>
-        <li><a href="#home-video">Video Reviews</a></li>
-        <li><a href="#home-recent-sale">Our Recent Sales</a></li>
-        <li><a href="#home-customer-service">Customer Service</a></li>
-        <li><a href="#home-success-numbers">Success In Numbers</a></li>
-    </ul>-->
-    <ul id="dropdown-advice" class="dropdown-content">
-        <li><a href="why-use-springbok-buy.php">Why Buy With Springbok</a></li>
-        <li><a href="buyers-guide.php">Buyers Guide</a></li>
-        <li><a href="#">Latest News & Updates</a></li>
-        <li><a href="mortgage.php">Mortgages</a></li>
-        <li><a href="conveyance.php">Conveyance</a></li>
+    <ul id="dropdown-about" class="dropdown-content">
+        <li><a href="<?php echo SITE_PATH?>reviews">Reviews</a></li>
+        <li><a href="<?php echo SITE_PATH?>about-us">About Springbok</a></li>
+        <li><a href="<?php echo SITE_PATH?>springbok-team">Team Springbok</a></li>
+        <li><a href="<?php echo SITE_PATH?>springbok-mission">Mission Values & Culture</a></li>
+        <li><a href="<?php echo SITE_PATH?>refer-springbok-properties">Refer a Friend</a></li>
+        <li><a href="<?php echo SITE_PATH?>how-we-compare">How We Compare</a></li>
+        <li><a href="<?php echo SITE_PATH?>where-we-advertise">Where We Advertise</a></li>
+        <li><a href="<?php echo SITE_PATH?>springbok-charities">Our Selected Charities</a></li>
+        <li><a href="<?php echo SITE_PATH?>media-coverage">Media Coverage</a></li>
+    </ul>
+    <ul id="dropdown-freevaluation" class="dropdown-content">
+        <li><a href="<?php echo SITE_PATH?>sell-house-fast">Sell Your House Fast</a></li>
+        <li><a href="<?php echo SITE_PATH?>sell-house-fast">We Buy Any House</a></li>
+        <li><a href="<?php echo SITE_PATH?>sell-land-fast">Sell Your Land Fast</a></li>
+        <li><a href="<?php echo SITE_PATH?>sell-a-commercial-property">Sell Commercial Property Fast</a></li>
+        <li><a href="<?php echo SITE_PATH?>part-exchange">Part exchange</a></li>
+        <li><a href="<?php echo SITE_PATH?>conveyance">Conveyancing</a></li>
+        <li><a href="<?php echo SITE_PATH?>sold-house-prices">Sold House Price Tool</a></li>
     </ul>
 </div>

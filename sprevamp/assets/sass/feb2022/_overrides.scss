@@ -1,0 +1,21 @@
+.classic-form input {
+  border-color: #999!important;
+}
+
+input{
+  &::-webkit-input-placeholder {
+    color: #999999;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+    color: #999999;
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+    color: #999999;
+  }
+
+  &:-ms-input-placeholder {
+    color: #999999;
+  }
+}

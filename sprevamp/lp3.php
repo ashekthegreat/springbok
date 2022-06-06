@@ -185,7 +185,7 @@
         <section id="home-estimator" class="home-estimator sp-secondary lighten-5 sp-secondary-text scrollspy">
             <div class="container">
                 <h2 class="center-align big">TRY OUR FREE OFFER ESTIMATOR</h2>
-                <p class="center-align big">See what is possible with yor property in 2 minutes online</p>
+                <p class="center-align big">See what is possible with your property in 2 minutes online</p>
                 <div class="row">
                     <form class="sp-primary sp-secondary-text col s12 m8 offset-m2 l6 offset-l3">
                         <div class="classic-form">

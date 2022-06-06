@@ -1,0 +1,32 @@
+$grey: #eeeeee;
+.cash-offer-explained {
+  .seller-compare {
+    img{
+      vertical-align: top;
+    }
+    .label{
+      background-color: $grey;
+      font-size: 33px;
+      text-align: center;
+      padding: 15px;
+      font-weight: bold;
+    }
+  }
+  .green-bullets{
+    li{
+      padding-left: 60px;
+      position: relative;
+
+      &:before{
+        content: "";
+        width: 6px;
+        height: 6px;
+        background: #5db73b;
+        position: absolute;
+        top: 15px;
+        left: 40px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
